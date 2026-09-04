@@ -1,0 +1,13 @@
+{
+  "version": "v1-2026-09-03",
+  "description": "핵심 동사 (콘텐츠 대기). persons = [ich, du, er/sie/es, wir, ihr, sie/Sie]",
+  "persons": [
+    "ich",
+    "du",
+    "er/sie/es",
+    "wir",
+    "ihr",
+    "sie/Sie"
+  ],
+  "verbs": []
+}
