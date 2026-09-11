@@ -1,18 +1,510 @@
 {
-  "level": "L1",
-  "variety": "de_DE",
-  "version": "v1-2026-09-03",
-  "schema": "v1-L1-5ep40turn",
-  "title": "L1 — 매칭 narrative (콘텐츠 대기)",
-  "description": "독일어 L1 대화 — 콘텐츠 대기.",
-  "kpi": {
-    "episodes_target": 5,
-    "turns_per_episode": 40,
-    "turns_total_target": 200,
-    "turns_total_current": 0,
-    "progress_pct": 0.0
+ "level": "L1",
+ "variety": "de_DE",
+ "version": "v2-2026-09-11",
+ "schema": "v2-L1-8turn",
+ "title": "L1 — 독일어 첫 만남 (초안)",
+ "description": "독일어 회화 초안 — 5편 × 8턴. 한글 독음 포함.",
+ "kpi": {
+  "episodes_target": 5,
+  "turns_per_episode": 8,
+  "turns_total_target": 40,
+  "turns_total_current": 40,
+  "progress_pct": 100.0
+ },
+ "characters": {
+  "A": {
+   "name": "Minjun",
+   "role": "",
+   "gender": "male"
   },
-  "characters": {},
-  "function_words": [],
-  "episodes": []
+  "B": {
+   "name": "Lena",
+   "role": "",
+   "gender": "female"
+  }
+ },
+ "function_words": [],
+ "episodes": [
+  {
+   "id": "ep1",
+   "title": "첫 인사",
+   "emoji": "💕",
+   "scenario": "언어교환 앱에서 처음 말을 건다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "A",
+     "es": "Hallo! Ich bin Minjun. Und du?",
+     "rd": "할로! 이히 빈 민준. 운트 두?",
+     "ko": "안녕! 나는 민준이야. 너는?",
+     "note": "du = 너(반말)",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "es": "Hi, ich heiße Lena. Woher kommst du?",
+     "rd": "하이, 이히 하이세 레나. 보헤어 콤스트 두?",
+     "ko": "안녕, 나는 레나야. 어디에서 왔어?",
+     "note": "woher = 어디에서",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "es": "Ich komme aus Korea. Ich lerne Deutsch.",
+     "rd": "이히 코메 아우스 코레아. 이히 레르네 도이치.",
+     "ko": "한국에서 왔어. 독일어를 배우고 있어.",
+     "note": "aus + 나라",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "es": "Cool! Dein Deutsch ist schon gut.",
+     "rd": "쿨! 다인 도이치 이스트 숀 구트.",
+     "ko": "멋지다! 네 독일어 벌써 좋은데.",
+     "note": "schon = 벌써",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "es": "Danke! Ich übe jeden Tag.",
+     "rd": "당케! 이히 위베 예덴 탁.",
+     "ko": "고마워! 매일 연습해.",
+     "note": "jeden Tag = 매일",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "es": "Wohnst du in Berlin?",
+     "rd": "본스트 두 인 베를린?",
+     "ko": "베를린에 살아?",
+     "note": "wohnen = 살다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "A",
+     "es": "Ja, seit zwei Monaten.",
+     "rd": "야, 자이트 츠바이 모나텐.",
+     "ko": "응, 두 달 전부터.",
+     "note": "seit = ~이래로",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "B",
+     "es": "Dann zeige ich dir die Stadt!",
+     "rd": "단 차이게 이히 디어 디 슈타트!",
+     "ko": "그럼 내가 도시를 보여 줄게!",
+     "note": "dir = 너에게",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep2",
+   "title": "카페에서",
+   "emoji": "☕",
+   "scenario": "처음 만나 카페에서 주문한다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "B",
+     "es": "Was möchtest du trinken?",
+     "rd": "바스 뫼히테스트 두 트링켄?",
+     "ko": "뭐 마실래?",
+     "note": "möchten = ~하고 싶다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "A",
+     "es": "Einen Kaffee, bitte. Und du?",
+     "rd": "아이넨 카페, 비테. 운트 두?",
+     "ko": "커피 하나, 부탁해. 너는?",
+     "note": "einen = 하나(남성 4격)",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "B",
+     "es": "Ich nehme einen Tee mit Milch.",
+     "rd": "이히 네메 아이넨 테 미트 밀히.",
+     "ko": "나는 우유 넣은 차로 할게.",
+     "note": "nehmen = 고르다·먹다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "A",
+     "es": "Ist der Kuchen hier gut?",
+     "rd": "이스트 데어 쿠헨 히어 구트?",
+     "ko": "여기 케이크 맛있어?",
+     "note": "der Kuchen(남성)",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "B",
+     "es": "Sehr gut! Der Apfelkuchen ist mein Favorit.",
+     "rd": "제어 구트! 데어 아펠쿠헨 이스트 마인 파보리트.",
+     "ko": "엄청! 애플 케이크가 내 최애야.",
+     "note": "mein = 나의",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "A",
+     "es": "Dann nehmen wir zwei Stück.",
+     "rd": "단 네멘 비어 츠바이 슈튁.",
+     "ko": "그럼 두 조각 시키자.",
+     "note": "wir = 우리",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "B",
+     "es": "Perfekt. Ich lade dich ein.",
+     "rd": "페어펙트. 이히 라데 디히 아인.",
+     "ko": "완벽해. 내가 살게.",
+     "note": "einladen = 초대하다·사다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "A",
+     "es": "Nein, nein, heute zahle ich!",
+     "rd": "나인, 나인, 호이테 찰레 이히!",
+     "ko": "아니 아니, 오늘은 내가 낼게!",
+     "note": "zahlen = 지불하다",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep3",
+   "title": "길 묻기",
+   "emoji": "🗺️",
+   "scenario": "박물관 가는 길을 묻는다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "A",
+     "es": "Entschuldigung, wo ist das Museum?",
+     "rd": "엔트슐디궁, 보 이스트 다스 무제움?",
+     "ko": "실례합니다, 박물관이 어디예요?",
+     "note": "wo = 어디",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "es": "Geh geradeaus und dann links.",
+     "rd": "게 게라데아우스 운트 단 링크스.",
+     "ko": "직진하다가 왼쪽으로 가.",
+     "note": "geradeaus = 직진",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "es": "Ist es weit?",
+     "rd": "이스트 에스 바이트?",
+     "ko": "멀어?",
+     "note": "weit = 먼",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "es": "Nein, nur fünf Minuten zu Fuß.",
+     "rd": "나인, 누어 퓐프 미누텐 추 푸스.",
+     "ko": "아니, 걸어서 5분이야.",
+     "note": "zu Fuß = 걸어서",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "es": "Super. Hat es heute geöffnet?",
+     "rd": "주퍼. 하트 에스 호이테 게외프네트?",
+     "ko": "좋다. 오늘 열었어?",
+     "note": "geöffnet = 열린",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "es": "Ja, bis 18 Uhr.",
+     "rd": "야, 비스 아흐첸 우어.",
+     "ko": "응, 18시까지.",
+     "note": "bis = ~까지",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "A",
+     "es": "Kommst du mit?",
+     "rd": "콤스트 두 미트?",
+     "ko": "같이 갈래?",
+     "note": "mitkommen = 같이 가다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "B",
+     "es": "Gerne! Ich liebe Kunst.",
+     "rd": "게르네! 이히 리베 쿤스트.",
+     "ko": "좋아! 나 예술 좋아해.",
+     "note": "gerne = 기꺼이",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep4",
+   "title": "약속 잡기",
+   "emoji": "📅",
+   "scenario": "주말에 만날 약속을 잡는다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "B",
+     "es": "Hast du am Samstag Zeit?",
+     "rd": "하스트 두 암 잠스탁 차이트?",
+     "ko": "토요일에 시간 있어?",
+     "note": "am + 요일",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "A",
+     "es": "Ja, ich habe frei. Was machen wir?",
+     "rd": "야, 이히 하베 프라이. 바스 마헨 비어?",
+     "ko": "응, 쉬어. 뭐 할까?",
+     "note": "frei haben = 쉬다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "B",
+     "es": "Wir könnten ins Kino gehen.",
+     "rd": "비어 쾬텐 인스 키노 게엔.",
+     "ko": "영화관에 갈 수도 있지.",
+     "note": "könnten = ~할 수 있을 텐데",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "A",
+     "es": "Gute Idee! Um wie viel Uhr?",
+     "rd": "구테 이데! 움 비 필 우어?",
+     "ko": "좋은 생각! 몇 시에?",
+     "note": "um wie viel Uhr = 몇 시에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "B",
+     "es": "Um sieben? Danach essen wir etwas.",
+     "rd": "움 지벤? 다나흐 에센 비어 에트바스.",
+     "ko": "7시? 그 다음에 뭐 좀 먹자.",
+     "note": "danach = 그 후에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "A",
+     "es": "Klingt gut. Wo treffen wir uns?",
+     "rd": "클링트 구트. 보 트레펜 비어 운스?",
+     "ko": "좋아. 어디서 만나?",
+     "note": "sich treffen = 만나다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "B",
+     "es": "Am Alexanderplatz, vor dem Bahnhof.",
+     "rd": "암 알렉산더플라츠, 포어 뎀 반호프.",
+     "ko": "알렉산더 광장, 역 앞에서.",
+     "note": "vor + 3격 = ~앞에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "A",
+     "es": "Okay, bis Samstag!",
+     "rd": "오케이, 비스 잠스탁!",
+     "ko": "알았어, 토요일에 봐!",
+     "note": "bis + 시간 = ~에 보자",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep5",
+   "title": "감정 말하기",
+   "emoji": "💬",
+   "scenario": "영화를 보고 나서 마음을 전한다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "A",
+     "es": "Der Film war wirklich schön.",
+     "rd": "데어 필름 바르 비어클리히 쇤.",
+     "ko": "영화 정말 좋았어.",
+     "note": "war = ~였다(과거)",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "es": "Ja, aber das Ende war traurig.",
+     "rd": "야, 아버 다스 엔데 바르 트라우리히.",
+     "ko": "응, 근데 결말이 슬펐어.",
+     "note": "aber = 하지만",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "es": "Ich mag Filme mit dir.",
+     "rd": "이히 막 필메 미트 디어.",
+     "ko": "너랑 보는 영화가 좋아.",
+     "note": "mit dir = 너와",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "es": "Ich auch. Du bist sehr nett.",
+     "rd": "이히 아우흐. 두 비스트 제어 네트.",
+     "ko": "나도. 너 참 다정해.",
+     "note": "auch = ~도",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "es": "Sehen wir uns nächste Woche wieder?",
+     "rd": "제엔 비어 운스 넥스테 보헤 비더?",
+     "ko": "다음 주에 또 볼까?",
+     "note": "wieder = 다시",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "es": "Natürlich. Schreib mir!",
+     "rd": "나튀어리히. 슈라입 미어!",
+     "ko": "당연하지. 문자해!",
+     "note": "schreib = 써(명령)",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "A",
+     "es": "Mache ich. Gute Nacht, Lena.",
+     "rd": "마헤 이히. 구테 나흐트, 레나.",
+     "ko": "그럴게. 잘 자, 레나.",
+     "note": "Gute Nacht = 잘 자",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "B",
+     "es": "Gute Nacht, Minjun. Bis bald!",
+     "rd": "구테 나흐트, 민준. 비스 발트!",
+     "ko": "잘 자, 민준. 곧 봐!",
+     "note": "bis bald = 곧 보자",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  }
+ ]
 }
