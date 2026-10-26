@@ -27,8 +27,8 @@ class TileBadge extends StatelessWidget {
       height: size,
       decoration: BoxDecoration(
         color: c,
-        borderRadius: BorderRadius.circular(size * 0.18),
-        border: Border.all(color: AppColors.gualda, width: 1.5),
+        borderRadius: BorderRadius.circular(size * 0.24),
+        border: Border.all(color: Colors.white.withValues(alpha: 0.35), width: 1),
         boxShadow: [
           BoxShadow(
             color: c.withValues(alpha: 0.3),
@@ -85,20 +85,19 @@ class BandPanel extends StatelessWidget {
   }
 }
 
-/// 국기 삼색 띠 구분선 (rojo·gualda·rojo).
+/// 강조선 구분선 — 사이트의 하늘색→인디고 그라데이션.
 class BandDivider extends StatelessWidget {
   final double height;
   const BandDivider({super.key, this.height = 6});
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        Container(height: height / 4, color: AppColors.rojo),
-        Container(height: height / 2, color: AppColors.gualda),
-        Container(height: height / 4, color: AppColors.rojo),
-      ],
+    return Container(
+      height: height / 2,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(height),
+        gradient: const LinearGradient(colors: [Color(0xFF00B3FF), AppColors.rojo]),
+      ),
     );
   }
 }
@@ -164,7 +163,6 @@ class StreakChip extends StatelessWidget {
       decoration: BoxDecoration(
         color: AppColors.rojo,
         borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: AppColors.gualda, width: 1.2),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
@@ -195,7 +193,7 @@ class SolMark extends StatelessWidget {
   Widget build(BuildContext context) {
     return CustomPaint(
       size: Size.square(size),
-      painter: _SolPainter(color ?? AppColors.gualda),
+      painter: _SolPainter(color ?? AppColors.rojo),
     );
   }
 }
@@ -226,4 +224,49 @@ class _SolPainter extends CustomPainter {
 
   @override
   bool shouldRepaint(covariant _SolPainter old) => old.color != color;
+}
+
+/// 파스텔 메시 그라데이션 — talkverse.uk 히어로 배경을 옮긴 것. 홈 상단에만 쓴다.
+class MeshBackdrop extends StatelessWidget {
+  const MeshBackdrop({super.key});
+
+  static const _blobs = <(Alignment, Color)>[
+    (Alignment(-0.8, -0.3), Color(0xFFFFD39B)),
+    (Alignment(-0.2, -0.9), Color(0xFFF5B8E6)),
+    (Alignment(0.45, -0.5), Color(0xFFA9A4FF)),
+    (Alignment(0.95, 0.2), Color(0xFF8FE3FF)),
+  ];
+
+  @override
+  Widget build(BuildContext context) {
+    return IgnorePointer(
+      child: Stack(
+        fit: StackFit.expand,
+        children: [
+          const ColoredBox(color: Color(0xFFECEAFF)),
+          for (final (align, color) in _blobs)
+            DecoratedBox(
+              decoration: BoxDecoration(
+                gradient: RadialGradient(
+                  center: align,
+                  radius: 0.9,
+                  colors: [color.withValues(alpha: 0.85), color.withValues(alpha: 0)],
+                ),
+              ),
+            ),
+          // 아래로 갈수록 흰 바탕에 녹아들게
+          const DecoratedBox(
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                colors: [Color(0x26FFFFFF), Color(0x8CFFFFFF), Colors.white],
+                stops: [0, 0.6, 1],
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
 }

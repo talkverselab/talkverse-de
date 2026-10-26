@@ -62,6 +62,15 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
 - `**.md`만 고친 푸시는 빌드하지 않는다(`paths-ignore`). 헛된 업데이트 알림 방지.
 - **폰 업데이트**: 앱 → 설정(프로필) 화면 → **「앱 업데이트」** → 내려받아 설치. 케이블·adb 불필요.
   첫 설치 때 「출처를 알 수 없는 앱 설치」 허용이 한 번 필요하다(안드로이드 강제).
+- **Zealot(무선 설치, https://apps.talkverse.uk)** — Zealot 앱이름: 독일어유니버스 (고정. 2026-10-11 정함 — 그전에 올린 적 없음, 앱 표시 이름과 같음)
+  맥미니에서 `flutter build apk --release --build-number=<N>` → `tools/zealot_push.sh ["변경 한 줄"]`(없으면 최근 커밋 제목).
+  스크립트는 빌드하지 않고, 서명 SHA-1 이 §1 의 키와 다르면 올리지 않는다.
+- **덮어 설치 조건 상태(2026-10-11 확인)**: 서명 = `android/key.properties` + `android/app/signing-key.jks` 가 있고 SHA-1 이 §1 의 `9C:C4:…:47:6B` 와 일치(정상).
+  버전 코드 = `pubspec.yaml` 이 `0.1.0+1` 그대로이고 CI 최신 빌드는 5 → 로컬 빌드는 **`--build-number` 를 꼭 줘야 한다**
+  (`latest.json` 의 `build` 와 직전 Zealot 빌드보다 큰 수. 안 주면 버전 코드 1 이라 설치 거부).
+  ⚠ **맥미니(M4·M6)의 `~/.android/debug.keystore` 는 다른 키다**(M4 `BE:B3:…`, M6 `72:08:…`) — §1 의 `cp ~/.android/debug.keystore …` 를 맥에서 하면 서명이 바뀐다.
+  `signing-key.jks` 를 지우거나 덮어쓰지 말 것. 없어지면 Doppler `keys/prd` 의 `SIGNKEY_*`(어느 이름인지는 `SIGNKEY_INDEX`)나
+  PC `D:\keys\talkverse-de\` 백업(2026-10-26)에서 복원한다.
 
 관련 파일: `lib/services/update_service.dart`, `lib/screens/update_screen.dart`,
 `android/app/src/main/kotlin/**/MainActivity.kt`(설치 메서드 채널),
