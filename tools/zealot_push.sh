@@ -16,7 +16,7 @@ if [ -z "$APK" ]; then
 fi
 
 # 서명이 바뀐 APK 는 폰에서 덮어 설치가 안 된다(CLAUDE.md §1) — 올리기 전에 막는다.
-SDK="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-/opt/homebrew/share/android-commandlinetools}}"
+SDK="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-$HOME/Library/Android/sdk}}"
 APKSIGNER=$(ls "$SDK"/build-tools/*/apksigner 2>/dev/null | tail -1 || true)
 if [ -n "$APKSIGNER" ]; then
   SHA1=$("$APKSIGNER" verify --print-certs "$APK" | grep 'SHA-1' | head -1 | awk '{print $NF}')
