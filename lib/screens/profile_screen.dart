@@ -10,6 +10,7 @@ import '../core/platform.dart';
 import '../data/account.dart';
 import '../data/entitlement.dart';
 import '../data/purchase.dart';
+import '../services/learner_prefs.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -66,6 +67,11 @@ class ProfileScreen extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 18),
+          // 학습자 프로필(일본어앱 learner_prefs) — 이름 → 회화의 {name} 자리, 성별 → 학습자 목소리·장면 그림(새 회화 구조부터)
+          _SectionTitle(tr('학습자 프로필')),
+          const SizedBox(height: 8),
+          const _LearnerSection(),
+          const SizedBox(height: 16),
           _SectionTitle(tr('계정')),
           const SizedBox(height: 8),
           const _AccountSection(),
@@ -132,6 +138,47 @@ class _SectionTitle extends StatelessWidget {
         letterSpacing: 2,
       ),
     );
+  }
+}
+
+/// 학습자 이름·성별 — 회화의 「나」(A)와 목소리.
+class _LearnerSection extends StatelessWidget {
+  const _LearnerSection();
+
+  @override
+  Widget build(BuildContext context) => ValueListenableBuilder<String>(
+        valueListenable: LearnerPrefs.name,
+        builder: (context, name, _) => ValueListenableBuilder<String>(
+          valueListenable: LearnerPrefs.gender,
+          builder: (context, gender, _) => _SettingsGroup(items: [
+            _SettingItem(
+                icon: Icons.badge_outlined,
+                title: tr('이름'),
+                subtitle: name.isNotEmpty ? trf('{0} — 회화 속 「나」로 나와요', [name]) : tr('없음 — 회화에서 「○○」로 보여요'),
+                onTap: () => _editName(context)),
+            _SettingItem(
+                icon: gender == 'female' ? Icons.face_3 : Icons.face,
+                title: tr('성별'),
+                subtitle: gender == 'female' ? tr('여성 — 탭하면 남성') : tr('남성 — 탭하면 여성'),
+                onTap: () => LearnerPrefs.setGender(gender == 'female' ? 'male' : 'female')),
+          ]),
+        ),
+      );
+
+  Future<void> _editName(BuildContext context) async {
+    final c = TextEditingController(text: LearnerPrefs.name.value);
+    final v = await showDialog<String>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: Text(tr('이름')),
+        content: TextField(controller: c, autofocus: true, decoration: InputDecoration(hintText: tr('회화에서 불릴 이름'))),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(ctx), child: Text(tr('취소'))),
+          TextButton(onPressed: () => Navigator.pop(ctx, c.text), child: Text(tr('저장'))),
+        ],
+      ),
+    );
+    if (v != null) await LearnerPrefs.setName(v);
   }
 }
 
