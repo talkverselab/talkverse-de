@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
 
+import 'login_screen.dart';
 import 'update_screen.dart';
 
 import '../core/theme.dart';
 import '../widgets/spanish_decor.dart';
 import '../core/l10n.dart';
 import '../core/platform.dart';
+import '../data/account.dart';
+import '../data/entitlement.dart';
+import '../data/purchase.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -62,6 +66,10 @@ class ProfileScreen extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 18),
+          _SectionTitle(tr('계정')),
+          const SizedBox(height: 8),
+          const _AccountSection(),
+          const SizedBox(height: 16),
           _SectionTitle(tr('설정')),
           const SizedBox(height: 8),
           _SettingsGroup(items: [
@@ -77,7 +85,7 @@ class ProfileScreen extends StatelessWidget {
                   subtitle: tr('아이폰은 TestFlight 앱에서 새 빌드를 받습니다')),
             _SettingItem(icon: Icons.volume_up, title: tr('TTS 음성'), subtitle: tr('de-DE (시스템 보이스)')),
             _SettingItem(icon: Icons.public, title: tr('변종'), subtitle: tr('표준 독일어 (Deutschland) · Hochdeutsch')),
-            _SettingItem(icon: Icons.palette, title: tr('테마'), subtitle: tr('낮 · Schwarz-Rot-Gold #DD0000')),
+            _SettingItem(icon: Icons.palette, title: tr('테마'), subtitle: tr('낮 · talkverse.uk 톤')),
           ]),
           const SizedBox(height: 16),
           _SectionTitle(tr('정보')),
@@ -124,6 +132,90 @@ class _SectionTitle extends StatelessWidget {
         letterSpacing: 2,
       ),
     );
+  }
+}
+
+/// Talkverse 계정·평생 이용권(2026-11-02, 한자 앱 me_screen 계정 칸을 옮김) — 로그인은 선택.
+/// 로그인 전: 로그인 타일 / 로그인 후: 이름·이메일, 로그아웃, 계정 삭제(스토어 심사 요구). 아래에 이용권·구매 복원.
+class _AccountSection extends StatelessWidget {
+  const _AccountSection();
+
+  @override
+  Widget build(BuildContext context) {
+    return ValueListenableBuilder<Map<String, dynamic>?>(
+      valueListenable: Account.user,
+      builder: (context, u, _) => ValueListenableBuilder<Set<String>>(
+        valueListenable: Purchase.owned,
+        builder: (context, _, _) => _SettingsGroup(items: [
+          if (u == null)
+            _SettingItem(
+                icon: Icons.account_circle_outlined,
+                title: tr('로그인'),
+                subtitle: tr('Talkverse 계정 하나로 모든 앱에서'),
+                onTap: () => LoginScreen.open(context))
+          else ...[
+            _SettingItem(
+                icon: Icons.account_circle,
+                title: (u['display_name'] as String?) ?? tr('이름 없음'),
+                subtitle: (u['email'] as String?) ?? ''),
+            _SettingItem(icon: Icons.logout, title: tr('로그아웃'), subtitle: '', onTap: Account.signOut),
+            _SettingItem(
+                icon: Icons.person_remove_outlined,
+                title: tr('계정 삭제'),
+                subtitle: tr('계정과 로그인 정보를 지웁니다'),
+                onTap: () => _confirmDelete(context)),
+          ],
+          _SettingItem(
+              icon: Icons.workspace_premium_outlined,
+              title: tr('평생 이용권'),
+              subtitle: Entitlement.premium ? tr('이용 중') : tr('한 번 결제 · 구독 아님'),
+              onTap: Entitlement.premium ? null : () => Entitlement.showPaywall(context)),
+          _SettingItem(icon: Icons.restore, title: tr('구매 복원'), subtitle: tr('이전에 산 이용권을 다시 엽니다'), onTap: () => _restore(context)),
+        ]),
+      ),
+    );
+  }
+
+  /// 구매 복원 — 결과(복원됨/없음/오류)를 아래 알림으로.
+  void _restore(BuildContext context) {
+    final messenger = ScaffoldMessenger.of(context);
+    void onStatus() {
+      final st = Purchase.status.value;
+      if (st == null || st == 'pending') return;
+      Purchase.status.removeListener(onStatus);
+      messenger.showSnackBar(SnackBar(
+          content: Text(switch (st) {
+        'restored' || 'done' => tr('이용권을 복원했습니다.'),
+        'nothing' => tr('복원할 구매가 없습니다.'),
+        _ => tr('복원하지 못했습니다. 잠시 후 다시 시도해 주세요.'),
+      })));
+    }
+
+    Purchase.status.value = null;
+    Purchase.status.addListener(onStatus);
+    Purchase.restore();
+  }
+
+  Future<void> _confirmDelete(BuildContext context) async {
+    final ok = await showDialog<bool>(
+      context: context,
+      builder: (c) => AlertDialog(
+        title: Text(tr('계정을 삭제할까요?')),
+        content: Text(tr('Talkverse 계정과 이름·이메일·로그인 정보가 지워지고 모든 기기에서 로그아웃됩니다. 이 기기의 학습 기록은 그대로 남습니다. 되돌릴 수 없습니다.')),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(c, false), child: Text(tr('취소'))),
+          TextButton(onPressed: () => Navigator.pop(c, true), child: Text(tr('삭제'), style: const TextStyle(color: Colors.redAccent))),
+        ],
+      ),
+    );
+    if (ok != true) return;
+    try {
+      await Account.deleteAccount();
+    } catch (_) {
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(tr('삭제하지 못했습니다. 네트워크를 확인하고 다시 시도해 주세요.'))));
+      }
+    }
   }
 }
 
