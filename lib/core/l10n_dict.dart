@@ -204,6 +204,15 @@ const Map<String, String> kDictEn = {
   '중급': 'Intermediate',
   '고급': 'Advanced',
   '최상급': 'Expert',
+  // UX 시안 01 — 성 점·단어 시트·du/Sie 배지 (2026-11-03)
+  '메모': 'Notes',
+  '독음': 'Korean reading',
+  '성 점': 'Gender dots',
+  'du · 친구 사이': 'du · friends',
+  'Sie · 처음 보는 사람': 'Sie · strangers',
+  '복수': 'Plural',
+  '분해': 'Parts',
+  '마지막 낱말이 성을 정해요': 'The last word decides the gender',
 };
 
 const Map<String, String> kDictJa = {
@@ -396,6 +405,15 @@ const Map<String, String> kDictJa = {
   '중급': '中級',
   '고급': '上級',
   '최상급': '最上級',
+  // UX 시안 01 — 성 점·단어 시트·du/Sie 배지 (2026-11-03)
+  '메모': 'メモ',
+  '독음': 'ハングル読み',
+  '성 점': '性の点',
+  'du · 친구 사이': 'du · 友だち同士',
+  'Sie · 처음 보는 사람': 'Sie · 初対面',
+  '복수': '複数',
+  '분해': '分解',
+  '마지막 낱말이 성을 정해요': '最後の語が性を決めます',
 };
 
 const Map<String, String> kDictZh = {
@@ -588,4 +606,13 @@ const Map<String, String> kDictZh = {
   '중급': '中级',
   '고급': '高级',
   '최상급': '顶级',
+  // UX 시안 01 — 성 점·단어 시트·du/Sie 배지 (2026-11-03)
+  '메모': '笔记',
+  '독음': '韩文注音',
+  '성 점': '词性点',
+  'du · 친구 사이': 'du · 朋友之间',
+  'Sie · 처음 보는 사람': 'Sie · 初次见面',
+  '복수': '复数',
+  '분해': '拆分',
+  '마지막 낱말이 성을 정해요': '最后一个词决定词性',
 };

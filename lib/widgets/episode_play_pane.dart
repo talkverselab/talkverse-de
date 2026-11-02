@@ -37,6 +37,7 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
   bool _showGloss = false;
   bool _showRd = true;
   bool _showKo = true;
+  bool _showGender = true; // 명사 성 점(UX 시안 01 칸 1) — 명사 데이터가 있는 편에서만 칩이 보인다
   int _session = 0; // 재생 루프 세대(중단 판별)
   bool _done = false; // 완주 연출 표시
   bool _firstDone = false;
@@ -109,7 +110,7 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
     return t.tl.replaceAll(RegExp(r'\([^)]*\)'), '').replaceAll(RegExp(r'\{[a-z_]+\}'), '').trim();
   }
 
-  String _gender(String sp) => d.voiceGender(sp); // 지금 회화는 화자 성별이 데이터에 정해져 있다(A Mark 남 · B Sari 여)
+  String _gender(String sp) => d.voiceGender(sp); // 지금 회화는 화자 성별이 데이터에 정해져 있다(A 민준 남 · B 레나 여)
 
   @override
   Widget build(BuildContext context) {
@@ -121,10 +122,11 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
       showGloss: _showGloss,
       showRd: _showRd,
       showKo: _showKo,
+      showGender: _showGender,
       onTap: (i) => _goto(i, play: true),
       onSpeak: _speakOne,
     );
-    final cut = _CutPanel(d: d, turn: turn, showGloss: _showGloss, showRd: _showRd, showKo: _showKo, onSpeak: () => _speakOne(turn));
+    final cut = _CutPanel(d: d, turn: turn, register: d.registerAt(_i), showGloss: _showGloss, showRd: _showRd, showKo: _showKo, onSpeak: () => _speakOne(turn));
     final controls = _ControlBar(
       playing: _playing,
       index: _i,
@@ -134,6 +136,9 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
       showRd: _showRd,
       showKo: _showKo,
       hasRd: d.turns.any((t) => t.rd.isNotEmpty),
+      hasNouns: d.turns.any((t) => t.nouns.isNotEmpty),
+      showGender: _showGender,
+      onGender: () => setState(() => _showGender = !_showGender),
       onPlay: _playing ? _pause : _play,
       onSeek: (v) => _goto(v),
       onRate: () => setState(() => _rate = _rate >= 1.25 ? 0.75 : (_rate + 0.25)),
@@ -182,10 +187,10 @@ class _Script extends StatelessWidget {
   final Dialogue d;
   final int current;
   final List<GlobalKey> keys;
-  final bool showGloss, showRd, showKo;
+  final bool showGloss, showRd, showKo, showGender;
   final void Function(int) onTap;
   final void Function(DialogueTurn) onSpeak;
-  const _Script({required this.d, required this.current, required this.keys, required this.showGloss, required this.showRd, required this.showKo, required this.onTap, required this.onSpeak});
+  const _Script({required this.d, required this.current, required this.keys, required this.showGloss, required this.showRd, required this.showKo, required this.showGender, required this.onTap, required this.onSpeak});
 
   @override
   Widget build(BuildContext context) {
@@ -235,7 +240,8 @@ class _Script extends StatelessWidget {
                     const SizedBox(width: 8),
                     Expanded(
                       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                        Text(LearnerPrefs.fill(t.tl), style: TextStyle(fontSize: on ? 16.5 : 15, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
+                        GenderText(LearnerPrefs.fill(t.tl), nouns: showGender ? t.nouns : const [], style: TextStyle(fontSize: on ? 16.5 : 15, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
+                        if (t.register != null && i > 0) Text('↔ ${t.register}', style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w800, color: AppColors.beniDeep)),
                         if (showGloss && t.gloss.isNotEmpty && t.gloss != t.tl) Text(t.gloss, style: const TextStyle(fontSize: 11, color: AppColors.ai, fontWeight: FontWeight.w600)),
                         if (showRd && t.rd.isNotEmpty) Text(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 11.5, color: AppColors.muted)),
                         if (showKo) Text(LearnerPrefs.fill(t.ko, ko: true), style: const TextStyle(fontSize: 12.5, color: AppColors.sumiLight, height: 1.35)),
@@ -278,7 +284,8 @@ class _CutPanel extends StatelessWidget {
   final DialogueTurn turn;
   final bool showGloss, showRd, showKo;
   final VoidCallback onSpeak;
-  const _CutPanel({required this.d, required this.turn, required this.showGloss, required this.showRd, required this.showKo, required this.onSpeak});
+  final String? register;
+  const _CutPanel({required this.d, required this.turn, this.register, required this.showGloss, required this.showRd, required this.showKo, required this.onSpeak});
 
   @override
   Widget build(BuildContext context) {
@@ -297,7 +304,7 @@ class _CutPanel extends StatelessWidget {
               Text(d.speakerName(turn.speaker), style: const TextStyle(fontSize: 11, color: AppColors.muted, fontWeight: FontWeight.w700)),
             ]),
           ),
-        Expanded(child: SceneCut(dialogue: d, turn: turn, bubble: true)),
+        Expanded(child: SceneCut(dialogue: d, turn: turn, bubble: true, register: register)),
         const SizedBox(height: 10),
         _Caption(d: d, turn: turn, showGloss: showGloss, showRd: showRd, showKo: showKo, onSpeak: onSpeak),
       ]),
@@ -341,10 +348,10 @@ class _Caption extends StatelessWidget {
 
 /// 하단 고정 컨트롤: ▶ 재생 · 진행 슬라이더 · 속도 · 자막 단계.
 class _ControlBar extends StatelessWidget {
-  final bool playing, showGloss, showRd, showKo, hasRd;
+  final bool playing, showGloss, showRd, showKo, hasRd, hasNouns, showGender;
   final int index, total;
   final double rate;
-  final VoidCallback onPlay, onRate, onGloss, onRd, onKo;
+  final VoidCallback onPlay, onRate, onGloss, onRd, onKo, onGender;
   final ValueChanged<int> onSeek;
   const _ControlBar({
     required this.playing,
@@ -355,6 +362,9 @@ class _ControlBar extends StatelessWidget {
     required this.showRd,
     required this.showKo,
     required this.hasRd,
+    required this.hasNouns,
+    required this.showGender,
+    required this.onGender,
     required this.onPlay,
     required this.onSeek,
     required this.onRate,
@@ -406,9 +416,10 @@ class _ControlBar extends StatelessWidget {
       Text(tr('자막'), style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: AppColors.sumi)),
       const SizedBox(width: 4),
       chip('Deutsch', true, null, fixed: true),
-      chip('단어 뜻', showGloss, onGloss),
-      if (hasRd) chip('독음', showRd, onRd),
-      chip('한국어', showKo, onKo),
+      chip(tr('메모'), showGloss, onGloss),
+      if (hasRd) chip(tr('독음'), showRd, onRd),
+      chip(tr('한국어'), showKo, onKo),
+      if (hasNouns) chip(tr('성 점'), showGender, onGender),
     ]);
     final speed = Row(mainAxisSize: MainAxisSize.min, children: [
       Text(tr('속도'), style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: AppColors.sumi)),
@@ -441,7 +452,8 @@ class SceneCut extends StatelessWidget {
   final Dialogue dialogue;
   final DialogueTurn turn;
   final bool bubble;
-  const SceneCut({super.key, required this.dialogue, required this.turn, this.bubble = false});
+  final String? register; // du | Sie 배지(UX 시안 01 칸 2)
+  const SceneCut({super.key, required this.dialogue, required this.turn, this.bubble = false, this.register});
 
   Future<_ArtPick?> _pick() async {
     // 1) 장면 컷(uk /art/de/scene, A·B 한 쌍당 1장) → 2) 턴 art → 3) 단어 그림 → 4) 장면 카드
@@ -487,9 +499,11 @@ class SceneCut extends StatelessWidget {
                     child: Text(p!.word!, style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w800, color: AppColors.sumi)),
                   ),
                 ),
+              if (register != null)
+                Positioned(top: 12, left: 12, child: RegisterBadge(register: register!)),
               if (bubble)
                 Positioned(
-                  top: 12,
+                  top: register != null && !me ? 46 : 12,
                   left: me ? null : 12,
                   right: me ? 12 : null,
                   child: _SpeechBubble(text: LearnerPrefs.fill(turn.tl), tail: me ? _Tail.right : _Tail.left, maxWidth: c.maxWidth * 0.72, small: c.maxHeight < 220),
@@ -561,5 +575,112 @@ class _SceneCard extends StatelessWidget {
         ]),
       );
     });
+  }
+}
+
+/// du / Sie 배지 — 장면의 말투(UX 시안 01 칸 2). du = 인디고, Sie = 슬레이트 블루.
+class RegisterBadge extends StatelessWidget {
+  final String register;
+  const RegisterBadge({super.key, required this.register});
+
+  @override
+  Widget build(BuildContext context) {
+    final du = register.toLowerCase() == 'du';
+    final c = du ? AppColors.ai : AppColors.beni;
+    return Container(
+      height: 24,
+      padding: const EdgeInsets.symmetric(horizontal: 10),
+      alignment: Alignment.center,
+      decoration: BoxDecoration(color: Color.alphaBlend(c.withValues(alpha: 0.10), AppColors.washi), borderRadius: BorderRadius.circular(12), border: Border.all(color: c.withValues(alpha: 0.35))),
+      child: Text(du ? tr('du · 친구 사이') : tr('Sie · 처음 보는 사람'), style: TextStyle(fontSize: 12, fontWeight: FontWeight.w700, color: du ? AppColors.rojoDeep : AppColors.beniDeep)),
+    );
+  }
+}
+
+/// 명사 성 색 — der 파랑 · die 빨강 · das 초록(앱의 성 색과 같음).
+Color articleColor(String article) => switch (article) {
+      'der' => AppColors.masc,
+      'die' => AppColors.fem,
+      'das' => const Color(0xFF43A047),
+      _ => AppColors.muted,
+    };
+
+/// 독일어 문장 — 명사 앞에 성 점, 누르면 단어 시트(UX 시안 01 칸 1). 명사 데이터가 없으면 그냥 글자.
+class GenderText extends StatelessWidget {
+  final String text;
+  final List<NounInfo> nouns;
+  final TextStyle style;
+  const GenderText(this.text, {super.key, required this.nouns, required this.style});
+
+  @override
+  Widget build(BuildContext context) {
+    if (nouns.isEmpty) return Text(text, style: style);
+    final byWord = {for (final n in nouns) n.word: n};
+    final re = RegExp(byWord.keys.map(RegExp.escape).map((w) => '(?<![\\p{L}])$w(?![\\p{L}])').join('|'), unicode: true);
+    final spans = <InlineSpan>[];
+    var at = 0;
+    for (final m in re.allMatches(text)) {
+      if (m.start > at) spans.add(TextSpan(text: text.substring(at, m.start)));
+      final n = byWord[m.group(0)]!;
+      spans.add(WidgetSpan(
+        alignment: PlaceholderAlignment.baseline,
+        baseline: TextBaseline.alphabetic,
+        child: GestureDetector(
+          onTap: () => NounSheet.show(context, n),
+          child: Text.rich(TextSpan(children: [
+            WidgetSpan(alignment: PlaceholderAlignment.middle, child: Padding(padding: const EdgeInsets.only(right: 3), child: Container(width: 6, height: 6, decoration: BoxDecoration(color: articleColor(n.article), shape: BoxShape.circle)))),
+            TextSpan(text: m.group(0), style: style.copyWith(decoration: TextDecoration.underline, decorationColor: articleColor(n.article).withValues(alpha: 0.5))),
+          ])),
+        ),
+      ));
+      at = m.end;
+    }
+    if (at < text.length) spans.add(TextSpan(text: text.substring(at)));
+    return Text.rich(TextSpan(style: style, children: spans));
+  }
+}
+
+/// 단어 시트 — 관사+명사 · 뜻 · 복수 · 복합명사 분해.
+class NounSheet extends StatelessWidget {
+  final NounInfo n;
+  const NounSheet({super.key, required this.n});
+
+  static Future<void> show(BuildContext context, NounInfo n) => showModalBottomSheet(
+        context: context,
+        showDragHandle: true,
+        backgroundColor: AppColors.washi,
+        builder: (_) => NounSheet(n: n),
+      );
+
+  @override
+  Widget build(BuildContext context) {
+    Widget row(String label, String v) => Padding(
+          padding: const EdgeInsets.only(top: 8),
+          child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            SizedBox(width: 56, child: Text(label, style: const TextStyle(fontSize: 13, color: AppColors.muted, fontWeight: FontWeight.w700))),
+            Expanded(child: Text(v, style: const TextStyle(fontSize: 15, color: AppColors.sumi, fontWeight: FontWeight.w600))),
+          ]),
+        );
+    return SafeArea(
+      top: false,
+      child: Padding(
+        padding: EdgeInsets.fromLTRB(24, 0, 24, 20 + bottomInset(context)),
+        child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
+          Row(children: [
+            Container(width: 10, height: 10, decoration: BoxDecoration(color: articleColor(n.article), shape: BoxShape.circle)),
+            const SizedBox(width: 8),
+            Text('${n.article} ${n.word}', style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w800, color: AppColors.sumi)),
+            const SizedBox(width: 10),
+            if (n.ko.isNotEmpty) Expanded(child: Text(n.ko, style: const TextStyle(fontSize: 15, color: AppColors.sumiLight))),
+            IconButton(onPressed: () => TtsService.instance.speak('${n.article} ${n.word}'), icon: const Icon(Icons.volume_up, color: AppColors.beni)),
+          ]),
+          if (n.plural.isNotEmpty) row(tr('복수'), n.plural),
+          if (n.parts.isNotEmpty) ...[
+            row(tr('분해'), n.parts.join(' + ')),
+            Padding(padding: const EdgeInsets.only(top: 8), child: Text(tr('마지막 낱말이 성을 정해요'), style: const TextStyle(fontSize: 12.5, color: AppColors.beniDeep, fontWeight: FontWeight.w700))),
+          ],
+        ]),
+      ),
+    );
   }
 }

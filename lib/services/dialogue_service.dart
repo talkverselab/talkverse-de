@@ -20,6 +20,8 @@ class DialogueTurn {
   final String note;
   final List<String> tags;
   final String? art; // 장면 그림 URL(나중에 채움)
+  final List<NounInfo> nouns; // 성 점·단어 시트(UX 시안 01 칸 1) — 데이터가 생기면 켜진다
+  final String? register; // 이 턴부터 바뀌는 말투 du | Sie(UX 시안 01 칸 2)
   const DialogueTurn({
     required this.num,
     required this.speaker,
@@ -30,6 +32,8 @@ class DialogueTurn {
     required this.note,
     required this.tags,
     this.art,
+    this.nouns = const [],
+    this.register,
   });
 
   factory DialogueTurn.fromL1(Map<String, dynamic> j) => DialogueTurn(
@@ -42,6 +46,8 @@ class DialogueTurn {
         note: j['note'] as String? ?? '',
         tags: (j['tags'] as List?)?.cast<String>() ?? const [],
         art: j['art'] as String?,
+        nouns: [for (final n in (j['nouns'] as List? ?? const [])) NounInfo.fromJson(n as Map<String, dynamic>)],
+        register: j['register'] as String?,
       );
 
   /// 그림 조회용 핵심 단어 후보: 문법 메모의 표제어(`Wort = 뜻` 의 왼쪽 낱말들).
@@ -50,6 +56,24 @@ class DialogueTurn {
     if (!note.contains('=')) return const [];
     return [for (final m in RegExp(r"[\p{L}]{2,}", unicode: true).allMatches(head)) m.group(0)!];
   }
+}
+
+/// 명사 한 개 — 성(der/die/das)·복수·복합어 분해·뜻. 턴의 `nouns: [{w, art, pl, parts, ko}]`.
+class NounInfo {
+  final String word; // 문장에 나온 꼴(Kaffee)
+  final String article; // der | die | das
+  final String plural; // die Kaffees (없으면 빈 값)
+  final List<String> parts; // 복합명사 분해: ['der Apfel', 'der Kuchen']
+  final String ko;
+  const NounInfo({required this.word, required this.article, this.plural = '', this.parts = const [], this.ko = ''});
+
+  factory NounInfo.fromJson(Map<String, dynamic> j) => NounInfo(
+        word: j['w'] as String? ?? '',
+        article: j['art'] as String? ?? '',
+        plural: j['pl'] as String? ?? '',
+        parts: (j['parts'] as List?)?.cast<String>() ?? const [],
+        ko: j['ko'] as String? ?? '',
+      );
 }
 
 class Dialogue {
@@ -64,6 +88,7 @@ class Dialogue {
   final List<String> expressions;
   final List<DialogueTurn> turns;
   final String? art;
+  final String? register; // 편 처음 말투 du | Sie — 없으면 배지 없음
   const Dialogue({
     required this.id,
     required this.region,
@@ -76,7 +101,17 @@ class Dialogue {
     required this.expressions,
     required this.turns,
     this.art,
+    this.register,
   });
+
+  /// i 번째 턴(0부터)에서의 말투 — 편 처음 값에서 시작해 턴의 register 가 바꾼다.
+  String? registerAt(int i) {
+    var r = register;
+    for (var k = 0; k <= i && k < turns.length; k++) {
+      r = turns[k].register ?? r;
+    }
+    return r;
+  }
 
   /// 화자 표시 이름. `{name}` 자리는 학습자 이름(없으면 「나」).
   String speakerName(String sp) {
@@ -152,6 +187,7 @@ class DialogueService {
           genders: genders,
           expressions: const [],
           turns: turns,
+          register: m['register'] as String?,
         ));
       }
     } catch (_) {}
