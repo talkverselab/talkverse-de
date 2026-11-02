@@ -52,7 +52,7 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       SizedBox(height: 4),
                       Text(
-                        tr('Día 1 · 입문 (A1)'),
+                        tr('Tag 1 · 입문 (A1)'),
                         style: TextStyle(
                           color: AppColors.gualdaBright,
                           fontSize: 13,
@@ -278,7 +278,10 @@ class _SettingsGroup extends StatelessWidget {
         borderRadius: BorderRadius.circular(8),
         border: Border.all(color: AppColors.gualda.withValues(alpha: 0.5)),
       ),
-      child: Column(
+      // ListTile 은 가장 가까운 Material 에 물결을 그린다 — 색 있는 상자 안에 투명 Material 을 둔다
+      child: Material(
+        type: MaterialType.transparency,
+        child: Column(
         children: [
           for (var i = 0; i < items.length; i++) ...[
             ListTile(
@@ -303,6 +306,7 @@ class _SettingsGroup extends StatelessWidget {
               Container(height: 0.5, color: AppColors.gualda.withValues(alpha: 0.3)),
           ],
         ],
+      ),
       ),
     );
   }

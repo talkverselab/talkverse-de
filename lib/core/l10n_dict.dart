@@ -213,6 +213,13 @@ const Map<String, String> kDictEn = {
   '복수': 'Plural',
   '분해': 'Parts',
   '마지막 낱말이 성을 정해요': 'The last word decides the gender',
+  // 스페인어 템플릿 흔적 → 독일어 (2026-11-03)
+  'Tag 1 · 입문 (A1)': 'Day 1 · Beginner (A1)',
+  '진행 · Fortschritt': 'Progress',
+  '회화 · Gespräch': 'Conversation',
+  'Minjun & Lena 스토리 {0}': 'Minjun & Lena story {0}',
+  '발음 (ch · ü · 강세)': 'Pronunciation (ch · ü · stress)',
+  'Bald · 준비 중': 'Bald · coming soon',
 };
 
 const Map<String, String> kDictJa = {
@@ -414,6 +421,13 @@ const Map<String, String> kDictJa = {
   '복수': '複数',
   '분해': '分解',
   '마지막 낱말이 성을 정해요': '最後の語が性を決めます',
+  // 스페인어 템플릿 흔적 → 독일어 (2026-11-03)
+  'Tag 1 · 입문 (A1)': '1日目 · 入門 (A1)',
+  '진행 · Fortschritt': '進捗',
+  '회화 · Gespräch': '会話',
+  'Minjun & Lena 스토리 {0}': 'Minjun & Lena ストーリー {0}',
+  '발음 (ch · ü · 강세)': '発音 (ch · ü · アクセント)',
+  'Bald · 준비 중': 'Bald · 準備中',
 };
 
 const Map<String, String> kDictZh = {
@@ -615,4 +629,11 @@ const Map<String, String> kDictZh = {
   '복수': '复数',
   '분해': '拆分',
   '마지막 낱말이 성을 정해요': '最后一个词决定词性',
+  // 스페인어 템플릿 흔적 → 독일어 (2026-11-03)
+  'Tag 1 · 입문 (A1)': '第1天 · 入门 (A1)',
+  '진행 · Fortschritt': '进度',
+  '회화 · Gespräch': '对话',
+  'Minjun & Lena 스토리 {0}': 'Minjun & Lena 故事 {0}',
+  '발음 (ch · ü · 강세)': '发音 (ch · ü · 重音)',
+  'Bald · 준비 중': 'Bald · 即将推出',
 };

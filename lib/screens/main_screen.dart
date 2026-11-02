@@ -155,7 +155,7 @@ class HomeScreen extends StatelessWidget {
                           Row(
                             children: const [
                               Text(
-                                '¡Hola!',
+                                'Hallo!',
                                 style: TextStyle(
                                   fontSize: 26,
                                   fontWeight: FontWeight.w700,
@@ -317,7 +317,7 @@ class _TodayMissionState extends State<_TodayMission> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              meta.level == 'L1' ? 'PRINCIPIANTE 1' : meta.level,
+              meta.level == 'L1' ? 'ANFÄNGER 1' : meta.level,
               style: const TextStyle(
                 color: AppColors.gualdaBright,
                 fontSize: 11,
@@ -336,7 +336,7 @@ class _TodayMissionState extends State<_TodayMission> {
             ),
             const SizedBox(height: 2),
             Text(
-              trf('Minjun & Lucía 스토리 {0}', [meta.emoji]),
+              trf('Minjun & Lena 스토리 {0}', [meta.emoji]),
               style: TextStyle(color: AppColors.cal.withValues(alpha: 0.85), fontSize: 12),
             ),
             const SizedBox(height: 12),
@@ -385,10 +385,10 @@ class _MenuGrid extends StatelessWidget {
             asset: 'assets/data/vocab/travel_expressions.json')),
       _MenuItem(label: tr('빈도 단어'), sub: 'Frequenz', badge: 'F', color: AppColors.mar,
         builder: (_) => const WordFreqScreen()),
-      _MenuItem(label: tr('성·수'), sub: 'Genus', badge: 'el/la', color: AppColors.mar,
+      _MenuItem(label: tr('성·수'), sub: 'Genus', badge: 'der', color: AppColors.mar,
         builder: (_) => _ComingSoon(title: tr('성·수 일치'))),
-      _MenuItem(label: tr('발음'), sub: 'Aussprache', badge: 'rr', color: AppColors.er,
-        builder: (_) => _ComingSoon(title: tr('발음 (rr · ñ · 강세)'))),
+      _MenuItem(label: tr('발음'), sub: 'Aussprache', badge: 'ü', color: AppColors.er,
+        builder: (_) => _ComingSoon(title: tr('발음 (ch · ü · 강세)'))),
       _MenuItem(label: tr('단어 카드'), sub: 'Karten', badge: 'R', color: AppColors.gualdaDeep,
         builder: (_) => const WordFlashcardScreen()),
     ];
@@ -482,7 +482,7 @@ class _ComingSoon extends StatelessWidget {
       appBar: AppBar(title: Text(title)),
       body: Center(
         child: Text(
-          tr('Próximamente · 준비 중'),
+          tr('Bald · 준비 중'),
           style: TextStyle(color: AppColors.tintaLight, letterSpacing: 2),
         ),
       ),
