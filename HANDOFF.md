@@ -23,15 +23,21 @@ _2026-11-03 새로 씀. 앞 판(2026-10-11 메모·Zealot 확인 필요)은 이 
 | 태그 | `pre-grok-uxui` = UX 시안 적용 전(`75cc18b`) |
 
 ## 다음 할 일 (순서대로)
-1. **단어 그림 리스트**(talkverse.uk 세션 요청, 미완): `talkverselab/talkversehanja` 에 `talkverse_art/words/de.csv`(rank,word,reading,ko,en,pos,level,picturable — 절벽 R1~R4 단어 전체) + `de_food.csv`(독일 대표 음식 50, rank,word,reading,ko,en,desc), 커밋 「words/de: 단어·음식 리스트」, 푸시 뒤 uk 세션에 한 줄(+ 캐릭터 시트 경로 `data/review/art/chars_de_v1.jpg`).
-   - /cliff/ 수치(R1 153·R2 224·R3 525·R4 1,514, 2,500단어)를 낸 원본 `lang_de_top2500.csv` 는 분석 스크립트(`~/talkverse/ja/data/scripts/all17_cliff_analysis.py`)에 적힌 PC 경로 `D:\OneDrive\BOOKS\_assets\data\` 에 없다 — PC D: 전체 검색은 중간에 멈춤. 못 찾으면 지침 §10 대로 오픈소스 빈도 라이브러리(스크래치 venv)로 뽑는다(순위가 /cliff/ 와 조금 다를 수 있음 — uk 세션에 알릴 것). **파일·커밋에 라이브러리·말뭉치 이름 금지.**
-   - 이건 단어 "그림 목록"이라 콘텐츠 금지와 별개로 사용자 지시가 있었다(2026-11-03).
+1. ~~단어 그림 리스트~~ — **완료 2026-11-03**: `talkverselab/talkversehanja` `talkverse_art/words/de.csv`(1,500단어)·`de_food.csv`(음식 50), 커밋 `0e4b533`. 아래 「절벽 구간」 참고.
 2. 사용자 결정 대기:
    - 평생 이용권이 무엇을 여는지(없으면 App Store 심사 3.1.1 거절 위험). 정해지면 `Entitlement.premium` 으로 잠그고 `docs/store/review_notes.md` 의 구매 위치 문구 수정.
    - 과거 커밋 이력 정리(filter-repo + 강제 push) 여부.
    - 스토어 인앱 상품 등록(사용자) — 등록 전엔 결제 시트가 「스토어에 연결하는 중…」.
 3. 회화 작업이 풀리면: 새 구조(R0~R4·주제별 편 JSON) + 턴 `nouns`·편 `register` 칸을 채우면 UX 칸 1·2 가 켜진다(`lib/services/dialogue_service.dart` NounInfo·registerAt). du/Sie 규칙·독음 표기표는 CLAUDE.md.
 4. 장면 컷: 회화 편이 생기면 편당 4컷(§10) — `CHARACTERS.md` 첨부. 앱은 `/art/de/scene/manifest` 를 자동으로 읽는다.
+
+## 절벽 구간 (2026-11-03, 사용자 지시 — Opus 기준, 독일 자국 드라마·영화 입말)
+- 원본 빈도표(`lang_de_top2500.csv`, 외국 영화 자막 기준)를 못 찾아 **새로 만듦**. 독일에서 만든 드라마·영화(번역 더빙·외국 작품 제외) 대사의 입말 빈도를 Opus 가 레마(기본형) 단위로 **추정**한 값 — 코퍼스 실측이 아니다.
+- 방법: 후보 레마 1,693개 → 단어마다 「백만 단어당 빈도(fpm)」 추정 + 독음·뜻·영어·품사(명사는 성)·그림 가능 → 축약형·격변화형·중복·지명 정리(1,631개) → fpm 순 정렬 → 상위 1,500.
+- 덮는 비율 = 누적 fpm ÷ 1,000,000(추정): **R1 1~103위(55%) · R2 104~159위(60%) · R3 160~512위(70%) · R4 513~1,500위(1,500위까지 72.6%)**. 80% 는 1,500단어 안에서 닿지 않음(추정 꼬리가 낮게 잡힌 탓일 수 있음).
+- 참고: 옛 /cliff/ 값(표면형·외국 영화 자막) 55% 153 · 60% 224 · 70% 525 · 80% 1,514 — 레마로 세면 앞쪽이 줄어드는 것이 정상. 사이트 값을 이 값으로 바꿀지는 talkverse.uk 세션·사용자 결정.
+- 그림 가능 Y 744 / N 756. 독음은 CLAUDE.md 표기표 기준(단, 모음 뒤 r 은 '아'로 줄여 쓴 것이 섞임 — warten 바텐).
+- 자국 작품 대사 코퍼스가 생기면 실측으로 다시 낸다.
 
 ## 배포 절차 요약
 - Android: master 푸시 → CI(빌드 번호 = 실행 번호) → `tools/zealot_push.sh --ci "변경 한 줄"` → PC 백업. `**.md`·`tools/**`·`ios/**` 만 바뀐 푸시는 빌드 안 함.
