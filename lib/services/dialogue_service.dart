@@ -10,6 +10,12 @@ import 'learner_prefs.dart';
 /// 지금 데이터는 옛 `assets/data/dialogues/L1.json`(5편 × 8턴, 공용 키트 초안) 하나뿐이라 그것을 그대로 읽어 이 모양으로 바꾼다.
 /// 회화 콘텐츠는 바꾸지 않는다(사용자 지시 2026-11-02 "회화는 아직 하지마") — 새 구조(R0~R4·주제별 편 파일)는 회화 작성이 풀리면.
 /// 칸: tl = 독일어(옛 칸 이름 `es`), gloss = 문법 메모의 표제어 쪽(`du = 너(반말)` → `du`), rd = 한글 독음, ko = 한국어.
+/// 문장 내용어 한 개: 표면형(문장 속 꼴)·기본형(사전형)·한글 독음.
+class Lemma {
+  final String surface, base, reading;
+  const Lemma(this.surface, this.base, this.reading);
+}
+
 class DialogueTurn {
   final int num;
   final String speaker; // A·B
@@ -22,6 +28,7 @@ class DialogueTurn {
   final String? art; // 장면 그림 URL(나중에 채움)
   final List<NounInfo> nouns; // 성 점·단어 시트(UX 시안 01 칸 1) — 데이터가 생기면 켜진다
   final String? register; // 이 턴부터 바뀌는 말투 du | Sie(UX 시안 01 칸 2)
+  final List<Lemma> lemmas; // 문장 내용어(표면형·기본형·독음) — 단어장 연결(2026-11-04, tools/add_lemmas.py)
   const DialogueTurn({
     required this.num,
     required this.speaker,
@@ -34,6 +41,7 @@ class DialogueTurn {
     this.art,
     this.nouns = const [],
     this.register,
+    this.lemmas = const [],
   });
 
   factory DialogueTurn.fromL1(Map<String, dynamic> j) => DialogueTurn(
@@ -48,6 +56,7 @@ class DialogueTurn {
         art: j['art'] as String?,
         nouns: [for (final n in (j['nouns'] as List? ?? const [])) NounInfo.fromJson(n as Map<String, dynamic>)],
         register: j['register'] as String?,
+        lemmas: [for (final l in (j['lemmas'] as List? ?? const [])) if (l is List && l.length >= 2) Lemma('${l[0]}', '${l[1]}', l.length > 2 ? '${l[2]}' : '')],
       );
 
   /// 그림 조회용 핵심 단어 후보: 문법 메모의 표제어(`Wort = 뜻` 의 왼쪽 낱말들).

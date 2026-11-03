@@ -5,6 +5,8 @@ import 'core/theme.dart';
 import 'data/db/app_database.dart';
 import 'data/db/seed_loader.dart';
 import 'screens/main_screen.dart';
+import 'screens/sync_screen.dart';
+import 'services/content_sync.dart';
 import 'services/ko_reading.dart';
 import 'core/l10n.dart';
 import 'data/account.dart';
@@ -28,7 +30,9 @@ void main() async {
   await Entitlement.load();
   Purchase.configure({Entitlement.lang: ('com.talkverse.germanUniverse.lifetime', 'lang_de')});
   await _setOrientations(); // 폰은 세로 고정, 태블릿·폴드 펼침(짧은 변 600 이상)은 회전 허용
-  runApp(const GermanUniverseApp());
+  // 그림(장면 컷·단어 그림) 기기 내려받기: 버전이 다르면 로딩 화면에서 받고 시작(사용자 지시 2026-11-04)
+  final needSync = await ContentSync.instance.init(large: _wide ?? false);
+  runApp(GermanUniverseApp(syncFirst: needSync));
 }
 
 bool? _wide;
@@ -47,7 +51,8 @@ Future<void> _setOrientations([double? shortest]) async {
 }
 
 class GermanUniverseApp extends StatelessWidget {
-  const GermanUniverseApp({super.key});
+  final bool syncFirst;
+  const GermanUniverseApp({super.key, this.syncFirst = false});
 
   @override
   Widget build(BuildContext context) {
@@ -72,7 +77,7 @@ class GermanUniverseApp extends StatelessWidget {
             child: child ?? const SizedBox.shrink(),
           );
         },
-        home: const MainScreen(),
+        home: syncFirst ? const SyncScreen(next: MainScreen()) : const MainScreen(),
       ),
     );
   }

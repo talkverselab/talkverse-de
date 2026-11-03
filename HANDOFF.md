@@ -11,6 +11,19 @@ _2026-11-03 새로 씀. 앞 판(2026-10-11 메모·Zealot 확인 필요)은 이 
   - Grok 회화 재작성·장면 컷 요청문 작성법: `/Users/talkverse/talkverse/GROK_PROMPT_GUIDE.md`(중국어앱이 돌려 통과한 방식 — 전문가 모델, 편마다 새 방, 답은 30초 뒤 다시 받기, 「판정 말고 재작성·모든 줄 새로」, 받은 재작성·컷은 그대로 쓰지 말고 리뷰, 컷은 한 요청에 1장). 틀 파일 `~/talkverse/zh/tools/`(prompts/rewrite_grok.md·rewrite_request.py·scene_prompts.py·grok_*.py)를 복사해 언어 코드만 바꾼다.
 - **회화를 쓰게 되면(반전 비율, 원칙 §9)**: 카오스 30% 이상, 연애·플러팅 편마다 심쿵 한 줄(여성 주도 편 더 많이), 편마다 `twist_type`(chaos·slip·reveal·emotion·ignore), 새 편은 왕초보·초급 위주, 그림 = A·B 쌍 1컷(말풍선·글자 없음, `CHARACTERS.md` 첨부).
 
+## 2026-11-04 추가 변경(일본어앱 8가지, 공통 프롬프터 §5-1) — 적용 상태
+| # | 변경 | 이 앱 |
+|---|---|---|
+| ① | 말풍선 → 그림 아래 띠 | `SceneCut` `bubble` = `_LineStrip`(화자 이름표 + 한 줄), 재생 화면 컷엔 띠 없음(아래 캡션). du/Sie 배지는 작은 표식으로 그림 왼쪽 위에 남김 |
+| ② | 그림 카드 앞면 한국어 | `dialogue_card_screen.dart` `_CardText` — 한국어 뜻 크게 + 「이 말을 독일어로 해 보세요」 |
+| ③ | 문장 레마 ↔ 단어장 | `tools/add_lemmas.py`(spaCy 독일어 소형 모델, venv `~/.venvs/de`) → `L1.json` 턴 `lemmas`. 단어장 = `WordService`(번들 `assets/data/freq/lang_de_top.csv` 1,500 + `travel_words.json`), 칩 `lib/widgets/lemma_chips.dart` → `word_sheet.dart`. 내용어 94개 중 94% 단어장에 있음, 없는 5개 `data/review/write/missing_lemmas.csv`(Samstag·Apfelkuchen·Favorit·Museum·Okay → uk 세션) |
+| ④ | 시작 때 그림 기기 내려받기 | `lib/services/content_sync.dart`(art/de), `lib/screens/sync_screen.dart`, `main.dart` `syncFirst`, 모든 그림 `artProvider()`. 장면 컷 조회는 `ContentSync.sceneIndex` 먼저 |
+| ⑤ | DB 업데이트 번호 | `assets/data/version.json` `db: 3`(옛 `db_seeded_v2` 폐지). 번호가 다르면 단어·동사·회화 전부 다시 채움(`SeedLoader`). **데이터를 바꾸면 이 번호만 올린다** |
+| ⑥ | 이름 없으면 묻기 | `lib/widgets/learner_setup_dialog.dart` `ensureLearnerName` — `{name}` 있는 편을 열 때. 지금 회화 5편은 이름이 고정(Minjun)이라 아직 안 뜸 |
+| ⑦ | 여자 학습자 컷 | `ArtService.sceneCut` — 성별 여자면 `<편id>_f` 먼저. 컷은 아직 없음 |
+| ⑧ | 조연 캐릭터 시트 | **미완** — 회화·반복 조연이 아직 없고 Grok 작업은 사용자 지시 전 대기. 회화가 생기면 Grok(한자 세션 경유)으로 2장 |
+- 빈도 단어 화면: 그동안 비어 있던 `lang_es_top.csv` 를 지우고 절벽 1,500단어(`lang_de_top.csv`)를 `words` 표에 채움(region = R1~R5).
+
 ## 현재 상태 (2026-11-03 00:50)
 | 항목 | 상태 |
 |---|---|

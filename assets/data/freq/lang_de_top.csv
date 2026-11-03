@@ -1,0 +1,1501 @@
+rank,word,reading,ko,en,pos,level,picturable
+1,der,데어,그(관사),the,art,R1,N
+2,ich,이히,나,I,pron,R1,N
+3,sein,자인,~이다,be,verb,R1,N
+4,sie,지,그녀/그들,she,pron,R1,N
+5,du,두,너,you,pron,R1,N
+6,haben,하벤,가지다,have,verb,R1,N
+7,ein,아인,하나의,a,art,R1,N
+8,nicht,니히트,아니다,not,part,R1,N
+9,und,운트,그리고,and,conj,R1,N
+10,wir,비어,우리,we,pron,R1,N
+11,in,인,~안에,in,prep,R1,N
+12,er,에어,그,he,pron,R1,N
+13,was,바스,무엇,what,pron,R1,N
+14,es,에스,그것,it,pron,R1,N
+15,ja,야,네,yes,part,R1,N
+16,zu,추,~로,to,prep,R1,N
+17,ihr,이어,너희,you all,pron,R1,N
+18,mit,미트,~와 함께,with,prep,R1,N
+19,werden,베어덴,되다,become,verb,R1,N
+20,so,조,그렇게,so,adv,R1,N
+21,mein,마인,나의,my,pron,R1,N
+22,aber,아버,그러나,but,conj,R1,N
+23,können,쾨넨,할 수 있다,can,verb,R1,N
+24,auf,아우프,~위에,on,prep,R1,N
+25,gut,구트,좋은,good,adj,R1,N
+26,wollen,볼렌,원하다,want,verb,R1,N
+27,da,다,거기,there,adv,R1,N
+28,von,폰,~부터,from,prep,R1,N
+29,wie,비,어떻게,how,adv,R1,N
+30,dass,다스,~라는 것,that,conj,R1,N
+31,an,안,~에,at,prep,R1,N
+32,noch,노흐,아직,still,adv,R1,N
+33,kommen,코멘,오다,come,verb,R1,N
+34,hier,히어,여기,here,adv,R1,N
+35,all,알,모든,all,pron,R1,N
+36,auch,아우흐,~도,also,adv,R1,N
+37,für,퓌어,~를 위해,for,prep,R1,N
+38,machen,마헨,하다/만들다,make,verb,R1,N
+39,kein,카인,~없는,no,art,R1,N
+40,mal,말,한번,once,part,R1,N
+41,sagen,자겐,말하다,say,verb,R1,N
+42,jetzt,예츠트,지금,now,adv,R1,N
+43,sich,지히,자신,oneself,pron,R1,N
+44,gehen,게엔,가다,go,verb,R1,Y
+45,dann,단,그 다음,then,adv,R1,N
+46,wenn,벤,만약,if,conj,R1,N
+47,doch,도흐,그래도,yet,part,R1,N
+48,wissen,비센,알다,know,verb,R1,N
+49,schon,숀,이미,already,adv,R1,N
+50,nur,누어,단지,only,adv,R1,N
+51,nein,나인,아니요,no,part,R1,N
+52,Musik,무지크,음악,music,noun-f,R1,Y
+53,bei,바이,~옆에,at,prep,R1,N
+54,aus,아우스,~에서,out of,prep,R1,N
+55,Frau,프라우,여자,woman,noun-f,R1,Y
+56,sehen,제엔,보다,see,verb,R1,Y
+57,dein,다인,너의,your,pron,R1,N
+58,geben,게벤,주다,give,verb,R1,Y
+59,sollen,졸렌,~해야 한다,should,verb,R1,N
+60,dieser,디저,이,this,pron,R1,N
+61,man,만,사람들,one,pron,R1,N
+62,nichts,니히츠,아무것도,nothing,pron,R1,N
+63,denn,덴,왜냐하면,because,conj,R1,N
+64,als,알스,~로서,as,conj,R1,N
+65,oder,오더,또는,or,conj,R1,N
+66,um,움,~주위에,around,prep,R1,N
+67,Herr,헤어,신사/~씨,gentleman,noun-m,R1,Y
+68,bitte,비테,제발,please,part,R1,N
+69,ganz,간츠,완전히,whole,adj,R1,N
+70,nach,나흐,~후에,after,prep,R1,N
+71,tun,툰,하다,do,verb,R1,N
+72,müssen,뮈센,~해야 한다,must,verb,R1,N
+73,mehr,메어,더,more,adv,R1,N
+74,wieder,비더,다시,again,adv,R1,N
+75,wo,보,어디,where,adv,R1,N
+76,viel,필,많은,much,adj,R1,N
+77,danke,당케,고마워,thanks,interj,R1,N
+78,immer,이머,항상,always,adv,R1,N
+79,lassen,라센,~하게 하다,let,verb,R1,N
+80,Mann,만,남자,man,noun-m,R1,Y
+81,vor,포어,~앞에,before,prep,R1,N
+82,also,알조,그러니까,so,adv,R2,N
+83,warum,바룸,왜,why,adv,R2,N
+84,wer,베어,누구,who,pron,R2,N
+85,schön,쇤,아름다운,beautiful,adj,R2,N
+86,sehr,제어,매우,very,adv,R2,N
+87,unser,운저,우리의,our,pron,R2,N
+88,denken,뎅켄,생각하다,think,verb,R2,N
+89,glauben,글라우벤,믿다,believe,verb,R2,N
+90,vielleicht,필라이히트,아마,maybe,adv,R2,N
+91,los,로스,자!/떨어져,off,adv,R2,N
+92,finden,핀덴,찾다,find,verb,R2,N
+93,brauchen,브라우헨,필요하다,need,verb,R2,N
+94,Tag,탁,날,day,noun-m,R2,N
+95,heute,호이테,오늘,today,adv,R2,N
+96,erst,에어스트,먼저/겨우,first,adv,R2,N
+97,ander,안더,다른,other,adj,R2,N
+98,morgen,모어겐,내일,tomorrow,adv,R2,N
+99,leben,레벤,살다,live,verb,R2,N
+100,weil,바일,~때문에,because,conj,R2,N
+101,über,위버,~위에,over,prep,R2,N
+102,weg,베크,떠나서,away,adv,R2,N
+103,etwas,에트바스,무언가,something,pron,R2,N
+104,bis,비스,~까지,until,prep,R2,N
+105,stehen,슈테엔,서다,stand,verb,R2,Y
+106,Jahr,야어,해/년,year,noun-n,R2,N
+107,kennen,케넨,알다,know,verb,R2,N
+108,nie,니,결코,never,adv,R2,N
+109,Kind,킨트,아이,child,noun-n,R2,Y
+110,Zeit,차이트,시간,time,noun-f,R2,N
+111,einfach,아인파흐,그냥/쉬운,simple,adj,R2,N
+112,Haus,하우스,집,house,noun-n,R3,Y
+113,dürfen,뒤어펜,~해도 된다,may,verb,R3,N
+114,gleich,글라이히,곧/같은,soon,adv,R3,N
+115,Vater,파터,아버지,father,noun-m,R3,Y
+116,jeder,예더,각각의,every,pron,R3,N
+117,hören,회렌,듣다,hear,verb,R3,Y
+118,nehmen,네멘,잡다/가지다,take,verb,R3,N
+119,gar,가어,전혀,at all,adv,R3,N
+120,damit,다미트,그것으로,with it,adv,R3,N
+121,klar,클라어,분명한,clear,adj,R3,N
+122,warten,바어텐,기다리다,wait,verb,R3,Y
+123,verstehen,페어슈테엔,이해하다,understand,verb,R3,N
+124,wirklich,비어클리히,정말,really,adv,R3,N
+125,reden,레덴,이야기하다,talk,verb,R3,Y
+126,genau,게나우,정확히,exactly,adv,R3,N
+127,bleiben,블라이벤,머무르다,stay,verb,R3,N
+128,alt,알트,늙은/오래된,old,adj,R3,Y
+129,sprechen,슈프레헨,말하다,speak,verb,R3,Y
+130,klein,클라인,작은,small,adj,R3,Y
+131,gern,게언,기꺼이,gladly,adv,R3,N
+132,richtig,리히티히,옳은,right,adj,R3,N
+133,neu,노이,새로운,new,adj,R3,N
+134,ab,압,~부터,from,prep,R3,N
+135,fragen,프라겐,묻다,ask,verb,R3,N
+136,groß,그로스,큰,big,adj,R3,Y
+137,sicher,지허,확실한,sure,adj,R3,N
+138,Mutter,무터,어머니,mother,noun-f,R3,Y
+139,fahren,파렌,(차를) 타다,drive,verb,R3,Y
+140,helfen,헬펜,돕다,help,verb,R3,Y
+141,bringen,브링엔,가져오다,bring,verb,R3,N
+142,jemand,예만트,누군가,someone,pron,R3,N
+143,Geld,겔트,돈,money,noun-n,R3,Y
+144,passieren,파시렌,일어나다,happen,verb,R3,N
+145,gerade,게라데,지금 막,just,adv,R3,N
+146,beide,바이데,둘 다,both,pron,R3,N
+147,Gott,고트,신,god,noun-m,R3,N
+148,wieso,비조,왜,why,adv,R3,N
+149,ob,옵,~인지,whether,conj,R3,N
+150,weiter,바이터,계속,further,adv,R3,N
+151,selbst,젤프스트,스스로,self,adv,R3,N
+152,heißen,하이센,~라고 불리다,be called,verb,R3,N
+153,allein,알라인,혼자,alone,adv,R3,Y
+154,natürlich,나튀얼리히,물론,of course,adv,R3,N
+155,lachen,라헨,웃다,laugh,verb,R3,Y
+156,durch,두어히,~을 통해,through,prep,R3,N
+157,wegen,베겐,~때문에,because of,prep,R3,N
+158,ohne,오네,~없이,without,prep,R3,N
+159,schnell,슈넬,빠른,fast,adj,R3,N
+160,Leid,라이트,유감/고통,sorry,noun-n,R3,N
+161,möchten,뫼히텐,~하고 싶다,would like,verb,R3,N
+162,schauen,샤우엔,보다,look,verb,R3,Y
+163,letzt,레츠트,마지막의,last,adj,R3,N
+164,Mensch,멘슈,사람,human,noun-m,R3,Y
+165,gehören,게회렌,~의 것이다,belong,verb,R3,N
+166,Freund,프로인트,친구,friend,noun-m,R3,Y
+167,Scheiße,샤이세,젠장,shit,noun-f,R3,N
+168,raus,라우스,밖으로,out,adv,R3,N
+169,sonst,존스트,그렇지 않으면,otherwise,adv,R3,N
+170,her,헤어,이쪽으로,here,adv,R3,N
+171,lange,랑에,오래,long,adv,R3,N
+172,wohl,볼,아마,probably,adv,R3,N
+173,erzählen,에어첼렌,이야기하다,tell,verb,R3,N
+174,seit,자이트,~이래로,since,prep,R3,N
+175,zurück,추뤽,뒤로,back,adv,R3,N
+176,eigentlich,아이겐틀리히,사실은,actually,adv,R3,N
+177,laufen,라우펜,달리다/걷다,run,verb,R3,Y
+178,spät,슈페트,늦은,late,adj,R3,N
+179,Mama,마마,엄마,mom,noun-f,R3,Y
+180,arbeiten,아어바이텐,일하다,work,verb,R3,Y
+181,Abend,아벤트,저녁,evening,noun-m,R3,Y
+182,liegen,리겐,누워 있다,lie,verb,R3,Y
+183,Liebe,리베,사랑,love,noun-f,R3,N
+184,halten,할텐,잡다/멈추다,hold,verb,R3,Y
+185,Leute,로이테,사람들,people,noun-pl,R3,Y
+186,Fall,팔,경우/사건,case,noun-m,R3,N
+187,rufen,루펜,부르다,call,verb,R3,N
+188,nee,네,아니,nope,part,R3,N
+189,dafür,다퓌어,그것을 위해,for it,adv,R3,N
+190,Nacht,나흐트,밤,night,noun-f,R3,Y
+191,tot,토트,죽은,dead,adj,R3,N
+192,recht,레히트,옳은,right,adj,R3,N
+193,hin,힌,저쪽으로,there,adv,R3,N
+194,bekommen,베코멘,받다,get,verb,R3,N
+195,paar,파어,몇몇,a few,pron,R3,N
+196,kriegen,크리겐,얻다,get,verb,R3,N
+197,stimmen,슈티멘,맞다,be right,verb,R3,N
+198,zusammen,추자멘,함께,together,adv,R3,N
+199,fallen,팔렌,떨어지다,fall,verb,R3,Y
+200,Problem,프로블렘,문제,problem,noun-n,R3,N
+201,essen,에센,먹다,eat,verb,R3,Y
+202,kurz,쿠어츠,짧은,short,adj,R3,N
+203,einmal,아인말,한 번,once,adv,R3,N
+204,Sache,자헤,일/물건,thing,noun-f,R3,N
+205,holen,홀렌,가져오다,fetch,verb,R3,N
+206,wann,반,언제,when,adv,R3,N
+207,bisschen,비스헨,조금,a bit,pron,R3,N
+208,suchen,주헨,찾다,search,verb,R3,Y
+209,unter,운터,~아래에,under,prep,R3,N
+210,darauf,다라우프,그 위에,on it,adv,R3,N
+211,Papa,파파,아빠,dad,noun-m,R3,Y
+212,ruhig,루이히,조용한,calm,adj,R3,N
+213,dabei,다바이,그때/곁에,with it,adv,R3,N
+214,lang,랑,긴,long,adj,R3,N
+215,jung,융,젊은,young,adj,R3,Y
+216,gegen,게겐,~에 맞서,against,prep,R3,N
+217,spielen,슈필렌,놀다,play,verb,R3,Y
+218,davon,다폰,그것에 대해,of it,adv,R3,N
+219,halt,할트,그냥,just,part,R3,N
+220,Moment,모멘트,순간,moment,noun-m,R3,N
+221,früh,프뤼,이른,early,adj,R3,N
+222,gestern,게스턴,어제,yesterday,adv,R3,N
+223,rein,라인,안으로,in,adv,R3,N
+224,Angst,앙스트,두려움,fear,noun-f,R3,N
+225,Name,나메,이름,name,noun-m,R3,N
+226,zeigen,차이겐,보여주다,show,verb,R3,Y
+227,Tür,튀어,문,door,noun-f,R3,Y
+228,niemand,니만트,아무도,nobody,pron,R3,N
+229,Woche,보헤,주,week,noun-f,R3,N
+230,setzen,제첸,앉히다/놓다,sit down,verb,R3,Y
+231,lieb,립,사랑스러운,dear,adj,R3,N
+232,echt,에히트,진짜,really,adj,R3,N
+233,Sohn,존,아들,son,noun-m,R3,Y
+234,vergessen,페어게센,잊다,forget,verb,R3,N
+235,Polizei,폴리차이,경찰,police,noun-f,R3,Y
+236,Uhr,우어,시계/시,clock,noun-f,R3,Y
+237,Familie,파밀리에,가족,family,noun-f,R3,Y
+238,laut,라우트,시끄러운,loud,adj,R3,N
+239,sofort,조포어트,즉시,immediately,adv,R3,N
+240,schlafen,슐라펜,자다,sleep,verb,R3,Y
+241,wichtig,비히티히,중요한,important,adj,R3,N
+242,Hand,한트,손,hand,noun-f,R3,Y
+243,Handy,헨디,휴대폰,cell phone,noun-n,R3,Y
+244,freuen,프로이엔,기뻐하다,be glad,verb,R3,N
+245,welcher,벨허,어느,which,pron,R3,N
+246,schlecht,슐레히트,나쁜,bad,adj,R3,N
+247,Tochter,토흐터,딸,daughter,noun-f,R3,Y
+248,dort,도어트,저기,there,adv,R3,N
+249,stellen,슈텔렌,세우다/놓다,put,verb,R3,N
+250,weit,바이트,먼,far,adj,R3,N
+251,treffen,트레펜,만나다,meet,verb,R3,Y
+252,sterben,슈테어벤,죽다,die,verb,R3,N
+253,nun,눈,이제,now,adv,R3,N
+254,nächst,네히스트,다음의,next,adj,R3,N
+255,Kollege,콜레게,동료,colleague,noun-m,R3,Y
+256,ziehen,치엔,당기다,pull,verb,R3,Y
+257,Auto,아우토,자동차,car,noun-n,R3,Y
+258,Arbeit,아어바이트,일,work,noun-f,R3,N
+259,hoch,호흐,높은,high,adj,R3,N
+260,versuchen,페어주헨,시도하다,try,verb,R3,N
+261,leise,라이제,조용한,quiet,adj,R3,N
+262,schaffen,샤펜,해내다,manage,verb,R3,N
+263,toll,톨,멋진,great,adj,R3,N
+264,Entschuldigung,엔트슐디궁,실례합니다,sorry,noun-f,R3,N
+265,Stunde,슈툰데,시간,hour,noun-f,R3,N
+266,bestimmt,베슈팀트,분명히,certainly,adv,R3,N
+267,Dank,당크,감사,thanks,noun-m,R3,N
+268,dazu,다추,거기에,to it,adv,R3,N
+269,verlieren,페어리렌,잃다,lose,verb,R3,N
+270,lieben,리벤,사랑하다,love,verb,R3,N
+271,schreiben,슈라이벤,쓰다,write,verb,R3,Y
+272,schwer,슈베어,무거운/어려운,heavy,adj,R3,N
+273,fertig,페어티히,끝난/준비된,ready,adj,R3,N
+274,entschuldigen,엔트슐디겐,사과하다,apologize,verb,R3,N
+275,leider,라이더,유감스럽게도,unfortunately,adv,R3,N
+276,Idee,이데,생각,idea,noun-f,R3,N
+277,Ahnung,아눙,짐작,clue,noun-f,R3,N
+278,trinken,트링켄,마시다,drink,verb,R3,Y
+279,endlich,엔틀리히,마침내,finally,adv,R3,N
+280,wenig,베니히,적은,little,adj,R3,N
+281,eben,에벤,방금,just,adv,R4,N
+282,Bruder,브루더,형제,brother,noun-m,R4,Y
+283,Frage,프라게,질문,question,noun-f,R4,N
+284,bald,발트,곧,soon,adv,R4,N
+285,überhaupt,위버하우프트,도대체,at all,adv,R4,N
+286,Mädchen,메트헨,소녀,girl,noun-n,R4,Y
+287,sitzen,지첸,앉아 있다,sit,verb,R4,Y
+288,Ordnung,오어트눙,질서,order,noun-f,R4,N
+289,Schwester,슈베스터,자매/누나,sister,noun-f,R4,Y
+290,euer,오이어,너희의,your,pron,R4,N
+291,Ruhe,루에,조용함,quiet,noun-f,R4,N
+292,Glück,글뤽,행운,luck,noun-n,R4,N
+293,egal,에갈,상관없는,whatever,adj,R4,N
+294,genug,게누크,충분한,enough,adv,R4,N
+295,anders,안더스,다르게,differently,adv,R4,N
+296,oft,오프트,자주,often,adv,R4,N
+297,fast,파스트,거의,almost,adv,R4,N
+298,mögen,뫼겐,좋아하다,like,verb,R4,N
+299,Hilfe,힐페,도움,help,noun-f,R4,N
+300,sorgen,조어겐,걱정하다,worry,verb,R4,N
+301,Auge,아우게,눈,eye,noun-n,R4,Y
+302,falsch,팔슈,틀린,wrong,adj,R4,N
+303,Junge,융에,소년,boy,noun-m,R4,Y
+304,Wasser,바서,물,water,noun-n,R4,Y
+305,seufzen,조이프첸,한숨 쉬다,sigh,verb,R4,Y
+306,voll,폴,가득 찬,full,adj,R4,Y
+307,damals,다말스,그때,back then,adv,R4,N
+308,Ende,엔데,끝,end,noun-n,R4,N
+309,Kopf,코프,머리,head,noun-m,R4,Y
+310,sogar,조가어,심지어,even,adv,R4,N
+311,spannend,슈파넨트,흥미진진한,exciting,adj,R4,N
+312,Ding,딩,물건,thing,noun-n,R4,N
+313,zwischen,츠비셴,~사이에,between,prep,R4,N
+314,gucken,구켄,보다,look,verb,R4,Y
+315,kümmern,큄먼,돌보다,take care,verb,R4,N
+316,meinen,마이넨,생각하다/뜻하다,mean,verb,R4,N
+317,stöhnen,슈퇴넨,신음하다,groan,verb,R4,N
+318,frei,프라이,자유로운,free,adj,R4,N
+319,deshalb,데스할프,그래서,therefore,adv,R4,N
+320,Tod,토트,죽음,death,noun-m,R4,N
+321,woher,보헤어,어디서,where from,adv,R4,N
+322,ernst,에언스트,진지한,serious,adj,R4,N
+323,klingeln,클링엘른,(벨이) 울리다,ring,verb,R4,Y
+324,anrufen,안루펜,전화하다,phone,verb,R4,Y
+325,hoffen,호펜,바라다,hope,verb,R4,N
+326,oben,오벤,위에,up,adv,R4,N
+327,schreien,슈라이엔,소리치다,scream,verb,R4,Y
+328,manchmal,만히말,가끔,sometimes,adv,R4,N
+329,Minute,미누테,분,minute,noun-f,R4,N
+330,dran,드란,차례인/거기에,on it,adv,R4,N
+331,wohnen,보넨,살다,live,verb,R4,N
+332,fühlen,퓔렌,느끼다,feel,verb,R4,N
+333,Eltern,엘턴,부모,parents,noun-pl,R4,Y
+334,deutsch,도이치,독일의,German,adj,R4,N
+335,Monat,모나트,달,month,noun-m,R4,N
+336,schicken,쉬켄,보내다,send,verb,R4,Y
+337,Wohnung,보눙,아파트,apartment,noun-f,R4,Y
+338,vorbei,포어바이,지나간,over,adv,R4,N
+339,Wagen,바겐,차,car,noun-m,R4,Y
+340,schlagen,슐라겐,때리다,hit,verb,R4,Y
+341,erinnern,에어이넌,기억하다,remember,verb,R4,N
+342,Telefon,텔레폰,전화,telephone,noun-n,R4,Y
+343,trotzdem,트로츠뎀,그래도,nevertheless,adv,R4,N
+344,eigen,아이겐,자신의,own,adj,R4,N
+345,Doktor,독토어,의사/박사,doctor,noun-m,R4,Y
+346,drin,드린,안에,inside,adv,R4,N
+347,reichen,라이헨,충분하다,suffice,verb,R4,N
+348,irgendwas,이어겐트바스,뭔가,something,pron,R4,N
+349,Zimmer,치머,방,room,noun-n,R4,Y
+350,verlassen,페어라센,떠나다,leave,verb,R4,N
+351,kaufen,카우펜,사다,buy,verb,R4,Y
+352,Hund,훈트,개,dog,noun-m,R4,Y
+353,einzig,아인치히,유일한,only,adj,R4,N
+354,grüßen,그뤼센,인사하다,greet,verb,R4,Y
+355,versprechen,페어슈프레헨,약속하다,promise,verb,R4,N
+356,Wort,보어트,단어,word,noun-n,R4,N
+357,klopfen,클로펜,두드리다,knock,verb,R4,Y
+358,wahr,바어,사실인,true,adj,R4,N
+359,sondern,존던,오히려,but rather,conj,R4,N
+360,Herz,헤어츠,심장,heart,noun-n,R4,Y
+361,Freundin,프로인딘,여자친구,girlfriend,noun-f,R4,Y
+362,Schule,슐레,학교,school,noun-f,R4,Y
+363,schlimm,슐림,나쁜,bad,adj,R4,N
+364,Typ,튑,녀석,guy,noun-m,R4,Y
+365,Kaffee,카페,커피,coffee,noun-m,R4,Y
+366,Arm,아엄,팔,arm,noun-m,R4,Y
+367,daran,다란,그것에,on it,adv,R4,N
+368,Wiedersehen,비더제엔,다시 만남,goodbye,noun-n,R4,N
+369,Arzt,아어츠트,의사,doctor,noun-m,R4,Y
+370,deswegen,데스베겐,그래서,that's why,adv,R4,N
+371,verschwinden,페어슈빈덴,사라지다,disappear,verb,R4,N
+372,Euro,오이로,유로,euro,noun-m,R4,Y
+373,darüber,다뤼버,그것에 대해,about it,adv,R4,N
+374,bevor,베포어,~전에,before,conj,R4,N
+375,singen,징엔,노래하다,sing,verb,R4,Y
+376,runter,룬터,아래로,down,adv,R4,N
+377,Foto,포토,사진,photo,noun-n,R4,Y
+378,lernen,레어넨,배우다,learn,verb,R4,Y
+379,hinter,힌터,뒤에,behind,prep,R4,Y
+380,lesen,레젠,읽다,read,verb,R4,Y
+381,langsam,랑잠,천천히,slowly,adj,R4,N
+382,vorstellen,포어슈텔렌,소개하다/상상하다,introduce,verb,R4,N
+383,klingen,클링엔,~처럼 들리다,sound,verb,R4,N
+384,Chef,셰프,상사,boss,noun-m,R4,Y
+385,Bett,베트,침대,bed,noun-n,R4,Y
+386,halb,할프,절반의,half,adj,R4,Y
+387,heiraten,하이라텐,결혼하다,marry,verb,R4,Y
+388,Grund,그룬트,이유,reason,noun-m,R4,N
+389,irgendwie,이어겐트비,어떻게든,somehow,adv,R4,N
+390,Land,란트,나라,country,noun-n,R4,N
+391,verdammt,페어담트,빌어먹을,damn,adj,R4,N
+392,atmen,아트멘,숨 쉬다,breathe,verb,R4,Y
+393,Schuld,슐트,잘못,fault,noun-f,R4,N
+394,führen,퓌렌,이끌다,lead,verb,R4,N
+395,total,토탈,완전히,totally,adv,R4,N
+396,verkaufen,페어카우펜,팔다,sell,verb,R4,Y
+397,draußen,드라우센,밖에,outside,adv,R4,N
+398,wünschen,뷘셴,바라다,wish,verb,R4,N
+399,Platz,플라츠,자리/광장,place,noun-m,R4,N
+400,umbringen,움브링엔,죽이다,kill,verb,R4,N
+401,Chance,샹세,기회,chance,noun-f,R4,N
+402,Krieg,크릭,전쟁,war,noun-m,R4,Y
+403,Geschichte,게시히테,이야기,story,noun-f,R4,N
+404,Stadt,슈타트,도시,city,noun-f,R4,Y
+405,fehlen,페엘렌,부족하다,miss,verb,R4,N
+406,nennen,넨넨,부르다,call,verb,R4,N
+407,darum,다룸,그래서,therefore,adv,R4,N
+408,wahrscheinlich,바샤인리히,아마,probably,adv,R4,N
+409,Spaß,슈파스,재미,fun,noun-m,R4,N
+410,hauen,하우엔,때리다,hit,verb,R4,Y
+411,Seite,자이테,쪽,side,noun-f,R4,N
+412,nett,네트,친절한,nice,adj,R4,N
+413,töten,퇴텐,죽이다,kill,verb,R4,N
+414,Klang,클랑,소리,sound,noun-m,R4,N
+415,Waffe,바페,무기,weapon,noun-f,R4,Y
+416,tragen,트라겐,나르다,carry,verb,R4,Y
+417,glücklich,글뤽리히,행복한,happy,adj,R4,Y
+418,zahlen,찰렌,지불하다,pay,verb,R4,Y
+419,dauern,다우언,걸리다,last,verb,R4,N
+420,solch,졸히,그런,such,pron,R4,N
+421,traurig,트라우리히,슬픈,sad,adj,R4,Y
+422,zwar,츠바,사실은,indeed,adv,R4,N
+423,Dame,다메,숙녀,lady,noun-f,R4,Y
+424,ziemlich,침리히,꽤,quite,adv,R4,N
+425,melden,멜덴,알리다,report,verb,R4,N
+426,froh,프로,기쁜,glad,adj,R4,Y
+427,fest,페스트,단단한,firm,adj,R4,N
+428,Gefühl,게퓔,느낌,feeling,noun-n,R4,N
+429,stark,슈타어크,강한,strong,adj,R4,Y
+430,bezahlen,베찰렌,지불하다,pay,verb,R4,Y
+431,erklären,에어클레렌,설명하다,explain,verb,R4,N
+432,herum,헤룸,주위에,around,adv,R4,N
+433,Bild,빌트,그림,picture,noun-n,R4,Y
+434,bitten,비텐,부탁하다,ask,verb,R4,N
+435,möglich,뫼클리히,가능한,possible,adj,R4,N
+436,entscheiden,엔트샤이덴,결정하다,decide,verb,R4,N
+437,Schatz,샤츠,자기(애칭),darling,noun-m,R4,N
+438,Wahrheit,바하이트,진실,truth,noun-f,R4,N
+439,Firma,피어마,회사,company,noun-f,R4,Y
+440,einige,아이니게,몇몇,some,pron,R4,N
+441,kaum,카움,거의 ~않다,hardly,adv,R4,N
+442,gewinnen,게빈넨,이기다,win,verb,R4,Y
+443,stecken,슈테켄,꽂다,stick,verb,R4,N
+444,retten,레텐,구하다,rescue,verb,R4,Y
+445,ehrlich,에얼리히,정직한,honest,adj,R4,N
+446,legen,레겐,놓다,lay,verb,R4,Y
+447,anfangen,안팡엔,시작하다,begin,verb,R4,N
+448,blöd,블뢰트,멍청한,stupid,adj,R4,N
+449,danach,다나흐,그 후에,afterwards,adv,R4,N
+450,unten,운텐,아래에,below,adv,R4,N
+451,eher,에어,오히려,rather,adv,R4,N
+452,erwarten,에어바어텐,기대하다,expect,verb,R4,N
+453,leicht,라이히트,쉬운,easy,adj,R4,N
+454,Hotel,호텔,호텔,hotel,noun-n,R4,Y
+455,düster,뒤스터,어두운,gloomy,adj,R4,N
+456,spannungsvoll,슈파눙스폴,긴장감 있는,tense,adj,R4,N
+457,erfahren,에어파렌,알게 되다,learn,verb,R4,N
+458,bauen,바우엔,짓다,build,verb,R4,Y
+459,zweite,츠바이테,두 번째,second,num,R4,N
+460,krank,크랑크,아픈,sick,adj,R4,Y
+461,bedeuten,베도이텐,의미하다,mean,verb,R4,N
+462,Luft,루프트,공기,air,noun-f,R4,N
+463,scheinen,샤이넨,~처럼 보이다,seem,verb,R4,N
+464,außerdem,아우서뎀,게다가,besides,adv,R4,N
+465,fliegen,플리겐,날다,fly,verb,R4,Y
+466,vertrauen,페어트라우엔,믿다,trust,verb,R4,N
+467,etwa,에트바,약,about,adv,R4,N
+468,völlig,푈리히,완전히,completely,adv,R4,N
+469,ändern,엔던,바꾸다,change,verb,R4,N
+470,vorher,포어헤어,미리,before,adv,R4,N
+471,tief,티프,깊은,deep,adj,R4,N
+472,bloß,블로스,단지,just,adv,R4,N
+473,Nummer,눔머,번호,number,noun-f,R4,Y
+474,merken,메어켄,알아차리다,notice,verb,R4,N
+475,Mord,모어트,살인,murder,noun-m,R4,N
+476,Unfall,운팔,사고,accident,noun-m,R4,Y
+477,übernehmen,위버네멘,넘겨받다,take over,verb,R4,N
+478,Büro,뷔로,사무실,office,noun-n,R4,Y
+479,Bescheid,베샤이트,알림,notice,noun-m,R4,N
+480,Blut,블루트,피,blood,noun-n,R4,Y
+481,wohin,보힌,어디로,where to,adv,R4,N
+482,irgendwann,이어겐트반,언젠가,someday,adv,R4,N
+483,Art,아어트,종류,kind,noun-f,R4,N
+484,plötzlich,플뢰츨리히,갑자기,suddenly,adv,R4,N
+485,komisch,코미슈,이상한,strange,adj,R4,N
+486,verrückt,페어뤼크트,미친,crazy,adj,R4,N
+487,laden,라덴,싣다,load,verb,R4,Y
+488,Spiel,슈필,게임,game,noun-n,R4,Y
+489,Meister,마이스터,장인,master,noun-m,R4,Y
+490,kosten,코스텐,비용이 들다,cost,verb,R4,N
+491,interessiert,인테레시어트,관심 있는,interested,adj,R4,N
+492,Auftrag,아우프트락,임무,assignment,noun-m,R4,N
+493,sanft,잔프트,부드러운,gentle,adj,R4,N
+494,wenigstens,베니히스텐스,적어도,at least,adv,R4,N
+495,direkt,디렉트,직접,directly,adv,R4,N
+496,Gast,가스트,손님,guest,noun-m,R4,Y
+497,normal,노어말,보통의,normal,adj,R4,N
+498,Stelle,슈텔레,자리,place,noun-f,R4,N
+499,weinen,바이넨,울다,cry,verb,R4,Y
+500,öffnen,외프넨,열다,open,verb,R4,Y
+501,Spur,슈푸어,흔적,trace,noun-f,R4,N
+502,schließen,슐리센,닫다,close,verb,R4,Y
+503,Schritt,슈리트,걸음,step,noun-m,R4,N
+504,Nachricht,나흐리히트,메시지,message,noun-f,R4,N
+505,verdienen,페어디넨,벌다,earn,verb,R4,N
+506,Täter,테터,범인,culprit,noun-m,R4,N
+507,unterwegs,운터벡스,가는 중,on the way,adv,R4,N
+508,Schlüssel,슐뤼셀,열쇠,key,noun-m,R4,Y
+509,Teil,타일,부분,part,noun-m,R4,N
+510,Plan,플란,계획,plan,noun-m,R4,N
+511,Untertitel,운터티텔,자막,subtitle,noun-m,R4,N
+512,hängen,헹엔,걸다,hang,verb,R4,Y
+513,stören,슈퇴렌,방해하다,disturb,verb,R4,N
+514,Opfer,오퍼,희생자,victim,noun-n,R4,N
+515,genauso,게나우조,똑같이,just as,adv,R4,N
+516,nah,나,가까운,near,adj,R4,N
+517,Fehler,페얼러,실수,mistake,noun-m,R4,N
+518,Buch,부흐,책,book,noun-n,R4,Y
+519,wert,베어트,가치 있는,worth,adj,R4,N
+520,beginnen,베긴넨,시작하다,begin,verb,R4,N
+521,überall,위버알,어디나,everywhere,adv,R4,N
+522,je,예,언젠가,ever,adv,R4,N
+523,Stück,슈튁,조각,piece,noun-n,R4,Y
+524,steigen,슈타이겐,오르다,climb,verb,R4,Y
+525,zuerst,추에어스트,먼저,first,adv,R4,N
+526,Krankenhaus,크랑켄하우스,병원,hospital,noun-n,R4,Y
+527,schwarz,슈바어츠,검은,black,adj,R4,Y
+528,erreichen,에어라이헨,도달하다,reach,verb,R4,N
+529,dramatisch,드라마티슈,극적인,dramatic,adj,R4,N
+530,Termin,테어민,약속,appointment,noun-m,R4,N
+531,Quatsch,크바치,헛소리,nonsense,noun-m,R4,N
+532,wunderbar,분더바어,멋진,wonderful,adj,R4,N
+533,schade,샤데,유감인,pity,adj,R4,N
+534,Pferd,프페어트,말,horse,noun-n,R4,Y
+535,lügen,뤼겐,거짓말하다,lie,verb,R4,N
+536,König,쾨니히,왕,king,noun-m,R4,Y
+537,Sorge,조어게,걱정,worry,noun-f,R4,N
+538,gemeinsam,게마인잠,함께,together,adv,R4,N
+539,Leiche,라이헤,시체,corpse,noun-f,R4,Y
+540,irgendwo,이어겐트보,어딘가,somewhere,adv,R4,N
+541,niemals,니말스,결코,never,adv,R4,N
+542,süß,쥐스,달콤한,sweet,adj,R4,Y
+543,Straße,슈트라세,거리,street,noun-f,R4,Y
+544,derselbe,데어젤베,같은 것,same,pron,R4,N
+545,funktionieren,풍치오니렌,작동하다,work,verb,R4,N
+546,sowieso,조비조,어차피,anyway,adv,R4,N
+547,Brief,브리프,편지,letter,noun-m,R4,Y
+548,verstecken,페어슈테켄,숨기다,hide,verb,R4,Y
+549,Tier,티어,동물,animal,noun-n,R4,Y
+550,erkennen,에어켄넨,알아보다,recognize,verb,R4,N
+551,überlegen,위버레겐,숙고하다,consider,verb,R4,N
+552,hinten,힌텐,뒤에,behind,adv,R4,N
+553,falls,팔스,만약,if,conj,R4,N
+554,bereit,베라이트,준비된,ready,adj,R4,N
+555,Gesicht,게지히트,얼굴,face,noun-n,R4,Y
+556,nämlich,넴리히,즉,namely,adv,R4,N
+557,Person,페어존,사람,person,noun-f,R4,Y
+558,tanzen,탄첸,춤추다,dance,verb,R4,Y
+559,schießen,쉬센,쏘다,shoot,verb,R4,Y
+560,feiern,파이언,축하하다,celebrate,verb,R4,Y
+561,fangen,팡엔,잡다,catch,verb,R4,Y
+562,offen,오펜,열린,open,adj,R4,Y
+563,heiß,하이스,뜨거운,hot,adj,R4,Y
+564,melancholisch,멜랑콜리슈,우울한,melancholic,adj,R4,N
+565,willkommen,빌코멘,환영,welcome,interj,R4,N
+566,Ort,오어트,장소,place,noun-m,R4,N
+567,rot,로트,빨간,red,adj,R4,Y
+568,frisch,프리슈,신선한,fresh,adj,R4,N
+569,vermissen,페어미센,그리워하다,miss,verb,R4,N
+570,Zukunft,추쿤프트,미래,future,noun-f,R4,N
+571,verletzen,페어레첸,다치게 하다,hurt,verb,R4,Y
+572,mitnehmen,미트네멘,가져가다,take along,verb,R4,N
+573,übrigens,위브리겐스,그런데,by the way,adv,R4,N
+574,verlieben,페어리벤,사랑에 빠지다,fall in love,verb,R4,Y
+575,hoffentlich,호펜틀리히,바라건대,hopefully,adv,R4,N
+576,Schiff,쉬프,배,ship,noun-n,R4,Y
+577,besonders,베존더스,특히,especially,adv,R4,N
+578,Professor,프로페소어,교수,professor,noun-m,R4,Y
+579,Anfang,안팡,시작,beginning,noun-m,R4,N
+580,Million,밀리온,백만,million,noun-f,R4,N
+581,Arsch,아어슈,엉덩이,butt,noun-m,R4,Y
+582,Bein,바인,다리,leg,noun-n,R4,Y
+583,persönlich,페어죈리히,개인적으로,personally,adv,R4,N
+584,Patient,파치엔트,환자,patient,noun-m,R4,Y
+585,Traum,트라움,꿈,dream,noun-m,R4,N
+586,hart,하어트,단단한,hard,adj,R4,N
+587,außer,아우서,~외에,except,prep,R4,N
+588,Film,필름,영화,movie,noun-m,R4,Y
+589,Mörder,뫼어더,살인자,murderer,noun-m,R4,N
+590,drehen,드레엔,돌리다,turn,verb,R4,Y
+591,folgen,폴겐,따라가다,follow,verb,R4,Y
+592,Geschäft,게셰프트,가게,shop,noun-n,R4,Y
+593,Sinn,진,의미,sense,noun-m,R4,N
+594,lustig,루스티히,웃긴,funny,adj,R4,Y
+595,während,베렌트,~동안,while,conj,R4,N
+596,brechen,브레헨,부수다,break,verb,R4,Y
+597,aussehen,아우스제엔,~처럼 보이다,look,verb,R4,N
+598,aufhören,아우프회렌,그만두다,stop,verb,R4,N
+599,besuchen,베주헨,방문하다,visit,verb,R4,Y
+600,Streit,슈트라이트,다툼,quarrel,noun-m,R4,Y
+601,Zug,축,기차,train,noun-m,R4,Y
+602,servus,제어부스,안녕,hi,interj,R4,N
+603,Bank,방크,은행,bank,noun-f,R4,Y
+604,hierher,히어헤어,이쪽으로,here,adv,R4,N
+605,Besuch,베주흐,방문,visit,noun-m,R4,N
+606,Suche,주헤,찾기,search,noun-f,R4,N
+607,spinnen,슈피넨,정신 나가다,be crazy,verb,R4,N
+608,Kontakt,콘탁트,연락,contact,noun-m,R4,N
+609,Urlaub,우얼라우프,휴가,vacation,noun-m,R4,Y
+610,angespannt,안게슈판트,긴장된,tense,adj,R4,N
+611,Reise,라이제,여행,trip,noun-f,R4,Y
+612,jedenfalls,예덴팔스,어쨌든,anyway,adv,R4,N
+613,Onkel,옹켈,삼촌,uncle,noun-m,R4,Y
+614,telefonieren,텔레포니렌,통화하다,phone,verb,R4,Y
+615,Wald,발트,숲,forest,noun-m,R4,Y
+616,Schmerz,슈메어츠,고통,pain,noun-m,R4,N
+617,interessant,인테레산트,흥미로운,interesting,adj,R4,N
+618,vorne,포어네,앞에,in front,adv,R4,N
+619,Beispiel,바이슈필,예,example,noun-n,R4,N
+620,Tisch,티슈,탁자,table,noun-m,R4,Y
+621,böse,뵈제,나쁜,evil,adj,R4,N
+622,Anwalt,안발트,변호사,lawyer,noun-m,R4,Y
+623,obwohl,옵볼,비록,although,conj,R4,N
+624,Stein,슈타인,돌,stone,noun-m,R4,Y
+625,unbedingt,운베딩트,꼭,absolutely,adv,R4,N
+626,werfen,베어펜,던지다,throw,verb,R4,Y
+627,Entscheidung,엔트샤이둥,결정,decision,noun-f,R4,N
+628,schenken,솅켄,선물하다,give,verb,R4,Y
+629,Licht,리히트,빛,light,noun-n,R4,Y
+630,Antwort,안트보어트,대답,answer,noun-f,R4,N
+631,dagegen,다게겐,반대로,against it,adv,R4,N
+632,bewegen,베베겐,움직이다,move,verb,R4,Y
+633,Lied,리트,노래,song,noun-n,R4,Y
+634,besonder,베존더,특별한,special,adj,R4,N
+635,Geburtstag,게부어츠탁,생일,birthday,noun-m,R4,Y
+636,Gespräch,게슈프레히,대화,conversation,noun-n,R4,Y
+637,kaputt,카푸트,고장난,broken,adj,R4,Y
+638,Fuß,푸스,발,foot,noun-m,R4,Y
+639,Küche,퀴헤,부엌,kitchen,noun-f,R4,Y
+640,dumm,둠,멍청한,stupid,adj,R4,N
+641,Zeuge,초이게,증인,witness,noun-m,R4,Y
+642,behalten,베할텐,간직하다,keep,verb,R4,N
+643,weh,베,아픈,sore,adj,R4,N
+644,Lust,루스트,의욕,desire,noun-f,R4,N
+645,bellen,벨렌,짖다,bark,verb,R4,Y
+646,gewiss,게비스,확실한,certain,adj,R4,N
+647,miteinander,미트아이난더,서로,together,adv,R4,N
+648,Gedanke,게당케,생각,thought,noun-m,R4,N
+649,verheiratet,페어하이라테트,기혼의,married,adj,R4,Y
+650,Haar,하어,머리카락,hair,noun-n,R4,Y
+651,Beziehung,베치웅,관계,relationship,noun-f,R4,N
+652,Hunger,훙어,배고픔,hunger,noun-m,R4,Y
+653,beweisen,베바이젠,증명하다,prove,verb,R4,N
+654,kennenlernen,케넨레어넨,알게 되다,get to know,verb,R4,N
+655,geschehen,게셰엔,일어나다,happen,verb,R4,N
+656,kochen,코헨,요리하다,cook,verb,R4,Y
+657,Stimme,슈팀메,목소리,voice,noun-f,R4,N
+658,erschießen,에어쉬센,쏘아 죽이다,shoot dead,verb,R4,N
+659,Beweis,베바이스,증거,proof,noun-m,R4,N
+660,Fräulein,프로일라인,아가씨,miss,noun-n,R4,Y
+661,Polizist,폴리치스트,경찰관,police officer,noun-m,R4,Y
+662,links,링크스,왼쪽에,left,adv,R4,Y
+663,streiten,슈트라이텐,다투다,argue,verb,R4,Y
+664,Hochzeit,호흐차이트,결혼식,wedding,noun-f,R4,Y
+665,stolz,슈톨츠,자랑스러운,proud,adj,R4,Y
+666,schmecken,슈메켄,맛이 나다,taste,verb,R4,Y
+667,ständig,슈텐디히,늘,constantly,adv,R4,N
+668,erledigen,에어레디겐,처리하다,handle,verb,R4,N
+669,lauten,라우텐,~라고 되어 있다,read,verb,R4,N
+670,Klinik,클리닉,병원,clinic,noun-f,R4,Y
+671,ewig,에비히,영원한,eternal,adj,R4,N
+672,Menge,멩에,양,amount,noun-f,R4,N
+673,Boden,보덴,바닥,floor,noun-m,R4,Y
+674,Mark,마어크,마르크,mark,noun-f,R4,N
+675,Rest,레스트,나머지,rest,noun-m,R4,N
+676,passen,파센,맞다,fit,verb,R4,N
+677,handeln,한델른,행동하다,act,verb,R4,N
+678,dringend,드링엔트,긴급한,urgent,adj,R4,N
+679,greifen,그라이펜,잡다,grab,verb,R4,Y
+680,bekannt,베칸트,유명한,known,adj,R4,N
+681,stopp,슈토프,멈춰,stop,interj,R4,Y
+682,Vorsicht,포어지히트,조심,caution,noun-f,R4,N
+683,trennen,트렌넨,헤어지다,separate,verb,R4,N
+684,vermutlich,페어무틀리히,아마,presumably,adv,R4,N
+685,nötig,뇌티히,필요한,necessary,adj,R4,N
+686,erleben,에어레벤,경험하다,experience,verb,R4,N
+687,herzlich,헤어츨리히,진심으로,warm,adj,R4,N
+688,englisch,엥리슈,영어의,English,adj,R4,N
+689,Wein,바인,와인,wine,noun-m,R4,Y
+690,gesund,게준트,건강한,healthy,adj,R4,Y
+691,vorhin,포어힌,아까,earlier,adv,R4,N
+692,klappen,클라펜,잘 되다,work out,verb,R4,N
+693,Bord,보어트,선상,board,noun-m,R4,N
+694,bereits,베라이츠,이미,already,adv,R4,N
+695,allerdings,알러딩스,하지만,however,adv,R4,N
+696,einladen,아인라덴,초대하다,invite,verb,R4,N
+697,husten,후스텐,기침하다,cough,verb,R4,Y
+698,benutzen,베누첸,사용하다,use,verb,R4,N
+699,nachdenken,나흐뎅켄,곰곰이 생각하다,think about,verb,R4,N
+700,Feuer,포이어,불,fire,noun-n,R4,Y
+701,Zeug,초이크,물건,stuff,noun-n,R4,N
+702,Ehre,에레,명예,honor,noun-f,R4,N
+703,kämpfen,켐펜,싸우다,fight,verb,R4,Y
+704,neben,네벤,옆에,next to,prep,R4,Y
+705,kalt,칼트,추운,cold,adj,R4,Y
+706,manch,만히,몇몇,some,pron,R4,N
+707,pfeifen,프파이펜,휘파람 불다,whistle,verb,R4,Y
+708,treten,트레텐,차다,kick,verb,R4,Y
+709,Nähe,네에,근처,vicinity,noun-f,R4,N
+710,solange,졸랑에,~하는 한,as long as,conj,R4,N
+711,bestehen,베슈테엔,존재하다,exist,verb,R4,N
+712,drüben,드뤼벤,저쪽에,over there,adv,R4,N
+713,längst,렝스트,오래전에,long ago,adv,R4,N
+714,beeilen,베아일렌,서두르다,hurry,verb,R4,N
+715,rechts,레히츠,오른쪽에,right,adv,R4,Y
+716,Finger,핑어,손가락,finger,noun-m,R4,Y
+717,schwierig,슈비리히,어려운,difficult,adj,R4,N
+718,abholen,압홀렌,데리러 가다,pick up,verb,R4,Y
+719,Fenster,펜스터,창문,window,noun-n,R4,Y
+720,Überraschung,위버라슝,놀람,surprise,noun-f,R4,Y
+721,tatsächlich,타트제힐리히,실제로,actually,adv,R4,N
+722,Wind,빈트,바람,wind,noun-m,R4,Y
+723,erwischen,에어비셴,붙잡다,catch,verb,R4,Y
+724,Arschloch,아어슐로흐,개자식,asshole,noun-n,R4,N
+725,mitbringen,미트브링엔,가져오다,bring,verb,R4,Y
+726,Situation,지투아치온,상황,situation,noun-f,R4,N
+727,besprechen,베슈프레헨,의논하다,discuss,verb,R4,N
+728,Tante,탄테,이모,aunt,noun-f,R4,Y
+729,klären,클레렌,해결하다,clarify,verb,R4,N
+730,dahin,다힌,그곳으로,there,adv,R4,N
+731,Motor,모토어,엔진,engine,noun-m,R4,Y
+732,Ärger,에어거,골칫거리,trouble,noun-m,R4,N
+733,privat,프리바트,개인적인,private,adj,R4,N
+734,brennen,브레넨,타다,burn,verb,R4,Y
+735,Geschenk,게셴크,선물,gift,noun-n,R4,Y
+736,nachher,나흐헤어,나중에,later,adv,R4,N
+737,wozu,보추,왜,what for,adv,R4,N
+738,Teufel,토이펠,악마,devil,noun-m,R4,Y
+739,hübsch,휩슈,예쁜,pretty,adj,R4,N
+740,gefährlich,게페얼리히,위험한,dangerous,adj,R4,N
+741,Gefängnis,게펭니스,감옥,prison,noun-n,R4,Y
+742,Blume,블루메,꽃,flower,noun-f,R4,Y
+743,schwanger,슈방어,임신한,pregnant,adj,R4,Y
+744,Kraft,크라프트,힘,strength,noun-f,R4,N
+745,quietschen,크비첸,삐걱거리다,squeak,verb,R4,N
+746,wirken,비어켄,효과가 있다,seem,verb,R4,N
+747,regeln,레겔른,정리하다,settle,verb,R4,N
+748,Wunder,분더,기적,miracle,noun-n,R4,N
+749,Mund,문트,입,mouth,noun-m,R4,Y
+750,perfekt,페어펙트,완벽한,perfect,adj,R4,N
+751,Himmel,힘멜,하늘,sky,noun-m,R4,Y
+752,aufpassen,아우프파센,조심하다,watch out,verb,R4,N
+753,ansehen,안제엔,바라보다,look at,verb,R4,Y
+754,lösen,뢰젠,풀다,solve,verb,R4,N
+755,stehlen,슈텔렌,훔치다,steal,verb,R4,Y
+756,verändern,페어엔던,바꾸다,change,verb,R4,N
+757,Heim,하임,집,home,noun-n,R4,Y
+758,bedrohlich,베드롤리히,위협적인,threatening,adj,R4,N
+759,Keller,켈러,지하실,basement,noun-m,R4,Y
+760,bestellen,베슈텔렌,주문하다,order,verb,R4,Y
+761,Meinung,마이눙,의견,opinion,noun-f,R4,N
+762,Punkt,풍크트,점,point,noun-m,R4,N
+763,Farbe,파어베,색,color,noun-f,R4,Y
+764,abhauen,압하우엔,도망치다,run away,verb,R4,Y
+765,Sekunde,제쿤데,초,second,noun-f,R4,N
+766,Kunde,쿤데,고객,customer,noun-m,R4,Y
+767,wahnsinnig,반진니히,미친 듯이,crazy,adj,R4,N
+768,Fisch,피슈,생선,fish,noun-m,R4,Y
+769,Prost,프로스트,건배,cheers,interj,R4,Y
+770,Sonne,조네,해,sun,noun-f,R4,Y
+771,Boot,보트,보트,boat,noun-n,R4,Y
+772,Klaviermusik,클라비어무지크,피아노 음악,piano music,noun-f,R4,Y
+773,Kollegin,콜레긴,여자 동료,colleague,noun-f,R4,Y
+774,still,슈틸,조용한,quiet,adj,R4,N
+775,Ohr,오어,귀,ear,noun-n,R4,Y
+776,verbieten,페어비텐,금지하다,forbid,verb,R4,N
+777,gelten,겔텐,유효하다,apply,verb,R4,N
+778,leisten,라이스텐,해내다,achieve,verb,R4,N
+779,Tee,테,차,tea,noun-m,R4,Y
+780,Meter,메터,미터,meter,noun-m,R4,N
+781,Anruf,안루프,전화,phone call,noun-m,R4,Y
+782,Klasse,클라세,반,class,noun-f,R4,Y
+783,operieren,오페리렌,수술하다,operate,verb,R4,Y
+784,offenbar,오펜바어,분명히,apparently,adv,R4,N
+785,ermorden,에어모어덴,살해하다,murder,verb,R4,N
+786,Angebot,안게보트,제안,offer,noun-n,R4,N
+787,Tasche,타셰,가방,bag,noun-f,R4,Y
+788,Richtung,리히퉁,방향,direction,noun-f,R4,N
+789,überprüfen,위버프뤼펜,확인하다,check,verb,R4,N
+790,Sicherheit,지허하이트,안전,safety,noun-f,R4,N
+791,spüren,슈퓌렌,느끼다,feel,verb,R4,N
+792,bieten,비텐,제공하다,offer,verb,R4,N
+793,erlauben,에얼라우벤,허락하다,allow,verb,R4,N
+794,flüstern,플뤼스턴,속삭이다,whisper,verb,R4,Y
+795,Soldat,졸다트,군인,soldier,noun-m,R4,Y
+796,bisher,비스헤어,지금까지,so far,adv,R4,N
+797,planen,플라넨,계획하다,plan,verb,R4,N
+798,fröhlich,프뢸리히,즐거운,cheerful,adj,R4,Y
+799,reich,라이히,부유한,rich,adj,R4,Y
+800,unverständlich,운페어슈텐틀리히,알아들을 수 없는,unintelligible,adj,R4,N
+801,vorsichtig,포어지히티히,조심스러운,careful,adj,R4,N
+802,Dienst,딘스트,근무,duty,noun-m,R4,N
+803,Blick,블리크,시선,look,noun-m,R4,N
+804,diesmal,디스말,이번에,this time,adv,R4,N
+805,Thema,테마,주제,topic,noun-n,R4,N
+806,verzeihen,페어차이엔,용서하다,forgive,verb,R4,N
+807,behaupten,베하웁텐,주장하다,claim,verb,R4,N
+808,Druck,드루크,압력,pressure,noun-m,R4,N
+809,Rücken,뤼켄,등,back,noun-m,R4,Y
+810,Berg,베어크,산,mountain,noun-m,R4,Y
+811,Wahnsinn,반진,미친 짓,madness,noun-m,R4,N
+812,Zeitung,차이퉁,신문,newspaper,noun-f,R4,Y
+813,rüber,뤼버,건너로,over,adv,R4,N
+814,Team,팀,팀,team,noun-n,R4,Y
+815,behandeln,베한델른,다루다,treat,verb,R4,N
+816,Weihnachten,바이나흐텐,크리스마스,Christmas,noun-n,R4,Y
+817,Flasche,플라셰,병,bottle,noun-f,R4,Y
+818,Nachbar,나흐바어,이웃,neighbor,noun-m,R4,Y
+819,nachdem,나흐뎀,~한 후에,after,conj,R4,N
+820,klauen,클라우엔,훔치다,steal,verb,R4,Y
+821,probieren,프로비렌,시도하다,try,verb,R4,N
+822,Richter,리히터,판사,judge,noun-m,R4,Y
+823,beruhigen,베루이겐,진정시키다,calm down,verb,R5,N
+824,drüber,드뤼버,그 위에,over it,adv,R5,N
+825,vorbereiten,포어베라이텐,준비하다,prepare,verb,R5,N
+826,Wahl,발,선택,choice,noun-f,R5,N
+827,schützen,쉬첸,보호하다,protect,verb,R5,N
+828,Glas,글라스,유리잔,glass,noun-n,R5,Y
+829,informieren,인포어미렌,알리다,inform,verb,R5,N
+830,wovon,보폰,무엇에 대해,about what,adv,R5,N
+831,Erfolg,에어폴크,성공,success,noun-m,R5,N
+832,enden,엔덴,끝나다,end,verb,R5,N
+833,verlangen,페어랑엔,요구하다,demand,verb,R5,N
+834,Preis,프라이스,가격,price,noun-m,R5,Y
+835,Gericht,게리히트,법원,court,noun-n,R5,Y
+836,Nase,나제,코,nose,noun-f,R5,Y
+837,Aufgabe,아우프가베,과제,task,noun-f,R5,N
+838,Unsinn,운진,헛소리,nonsense,noun-m,R5,N
+839,leiden,라이덴,고통받다,suffer,verb,R5,N
+840,sauer,자우어,화난,angry,adj,R5,Y
+841,zumindest,추민데스트,적어도,at least,adv,R5,N
+842,statt,슈타트,~대신,instead of,prep,R5,N
+843,annehmen,안네멘,받아들이다,accept,verb,R5,N
+844,Achtung,아흐퉁,주의,attention,noun-f,R5,N
+845,ankommen,안코멘,도착하다,arrive,verb,R5,Y
+846,jawohl,야볼,네 알겠습니다,yes sir,interj,R5,N
+847,absolut,압졸루트,절대적으로,absolutely,adv,R5,N
+848,zufällig,추펠리히,우연히,by chance,adv,R5,N
+849,Motiv,모티프,동기,motive,noun-n,R5,N
+850,schrecklich,슈레클리히,끔찍한,terrible,adj,R5,N
+851,geil,가일,끝내주는,awesome,adj,R5,N
+852,entdecken,엔트데켄,발견하다,discover,verb,R5,N
+853,müde,뮈데,피곤한,tired,adj,R5,Y
+854,wach,바흐,깨어 있는,awake,adj,R5,Y
+855,worum,보룸,무엇에 관해,about what,adv,R5,N
+856,unglaublich,운글라우플리히,믿을 수 없는,unbelievable,adj,R5,N
+857,packen,파켄,짐을 싸다,pack,verb,R5,Y
+858,unterschreiben,운터슈라이벤,서명하다,sign,verb,R5,Y
+859,überraschen,위버라셴,놀라게 하다,surprise,verb,R5,N
+860,aufgeben,아우프게벤,포기하다,give up,verb,R5,N
+861,wachsen,박센,자라다,grow,verb,R5,Y
+862,Majestät,마예스테트,폐하,majesty,noun-f,R5,N
+863,Papier,파피어,종이,paper,noun-n,R5,Y
+864,blau,블라우,파란,blue,adj,R5,Y
+865,mitkommen,미트코멘,같이 가다,come along,verb,R5,N
+866,Handyklingeln,헨디클링엘른,휴대폰 벨소리,phone ringing,noun-n,R5,Y
+867,nachts,나흐츠,밤에,at night,adv,R5,N
+868,Adresse,아드레세,주소,address,noun-f,R5,N
+869,zerstören,체어슈퇴렌,파괴하다,destroy,verb,R5,Y
+870,Witz,비츠,농담,joke,noun-m,R5,N
+871,Kirche,키어헤,교회,church,noun-f,R5,Y
+872,wunderschön,분더쇤,아주 아름다운,beautiful,adj,R5,N
+873,Verzeihung,페어차이웅,실례합니다,pardon,noun-f,R5,N
+874,schaden,샤덴,해치다,harm,verb,R5,N
+875,Gefahr,게파어,위험,danger,noun-f,R5,N
+876,wofür,보퓌어,무엇을 위해,what for,adv,R5,N
+877,nutzen,누첸,이용하다,use,verb,R5,N
+878,weiß,바이스,하얀,white,adj,R5,Y
+879,rennen,레넨,달리다,run,verb,R5,Y
+880,Freude,프로이데,기쁨,joy,noun-f,R5,N
+881,romantisch,로만티슈,낭만적인,romantic,adj,R5,N
+882,Ton,톤,소리,sound,noun-m,R5,N
+883,treiben,트라이벤,몰다,drive,verb,R5,N
+884,schulden,슐덴,빚지다,owe,verb,R5,N
+885,Tatort,타트오어트,범행 현장,crime scene,noun-m,R5,Y
+886,verhaften,페어하프텐,체포하다,arrest,verb,R5,Y
+887,überleben,위버레벤,살아남다,survive,verb,R5,N
+888,Winter,빈터,겨울,winter,noun-m,R5,Y
+889,Garten,가어텐,정원,garden,noun-m,R5,Y
+890,stammen,슈타멘,유래하다,come from,verb,R5,N
+891,untersuchen,운터주헨,조사하다,examine,verb,R5,N
+892,selbstverständlich,젤프스트페어슈텐틀리히,당연히,of course,adv,R5,N
+893,Körper,쾨어퍼,몸,body,noun-m,R5,Y
+894,Radio,라디오,라디오,radio,noun-n,R5,Y
+895,Meer,메어,바다,sea,noun-n,R5,Y
+896,unheilvoll,운하일폴,불길한,ominous,adj,R5,N
+897,fassen,파센,잡다,grasp,verb,R5,N
+898,studieren,슈투디렌,대학 공부하다,study,verb,R5,Y
+899,riechen,리헨,냄새 맡다,smell,verb,R5,Y
+900,trauen,트라우엔,믿다,trust,verb,R5,N
+901,Rolle,롤레,역할,role,noun-f,R5,N
+902,teilen,타일렌,나누다,share,verb,R5,N
+903,Messer,메서,칼,knife,noun-n,R5,Y
+904,Video,비데오,비디오,video,noun-n,R5,Y
+905,französisch,프란최지슈,프랑스의,French,adj,R5,N
+906,sobald,조발트,~하자마자,as soon as,conj,R5,N
+907,Wille,빌레,의지,will,noun-m,R5,N
+908,Liste,리스테,목록,list,noun-f,R5,Y
+909,Lösung,뢰중,해결책,solution,noun-f,R5,N
+910,Zufall,추팔,우연,coincidence,noun-m,R5,N
+911,Maschine,마시네,기계,machine,noun-f,R5,Y
+912,Vertrag,페어트라크,계약,contract,noun-m,R5,Y
+913,Ziel,칠,목표,goal,noun-n,R5,N
+914,Aussage,아우스자게,진술,statement,noun-f,R5,N
+915,Hintergrund,힌터그룬트,배경,background,noun-m,R5,N
+916,Taxi,탁시,택시,taxi,noun-n,R5,Y
+917,aufnehmen,아우프네멘,녹음하다,record,verb,R5,N
+918,Applaus,아플라우스,박수,applause,noun-m,R5,Y
+919,Droge,드로게,마약,drug,noun-f,R5,Y
+920,Schuh,슈,신발,shoe,noun-m,R5,Y
+921,Verdacht,페어다흐트,의심,suspicion,noun-m,R5,N
+922,Verhältnis,페어헬트니스,관계,relationship,noun-n,R5,N
+923,Versuch,페어주흐,시도,attempt,noun-m,R5,N
+924,bestätigen,베슈테티겐,확인하다,confirm,verb,R5,N
+925,überzeugen,위버초이겐,설득하다,convince,verb,R5,N
+926,Lage,라게,상황,situation,noun-f,R5,N
+927,decken,데켄,덮다,cover,verb,R5,N
+928,leer,레어,빈,empty,adj,R5,Y
+929,wiehern,비언,히힝 울다,neigh,verb,R5,Y
+930,mitten,미텐,한가운데,in the middle,adv,R5,N
+931,rauchen,라우헨,담배 피우다,smoke,verb,R5,Y
+932,Augenblick,아우겐블리크,순간,moment,noun-m,R5,N
+933,anbieten,안비텐,제공하다,offer,verb,R5,N
+934,anschauen,안샤우엔,보다,look at,verb,R5,Y
+935,Information,인포어마치온,정보,information,noun-f,R5,N
+936,verhindern,페어힌던,막다,prevent,verb,R5,N
+937,Koffer,코퍼,여행 가방,suitcase,noun-m,R5,Y
+938,summen,주멘,흥얼거리다,hum,verb,R5,N
+939,antun,안툰,해를 끼치다,do to,verb,R5,N
+940,gell,겔,그렇지?,right,part,R5,N
+941,schätzen,셰첸,추정하다,estimate,verb,R5,N
+942,beobachten,베오바흐텐,관찰하다,observe,verb,R5,Y
+943,Verantwortung,페어안트보어퉁,책임,responsibility,noun-f,R5,N
+944,wütend,뷔텐트,화난,angry,adj,R5,Y
+945,sauber,자우버,깨끗한,clean,adj,R5,Y
+946,herein,헤라인,안으로,in,adv,R5,N
+947,Prinzessin,프린체신,공주,princess,noun-f,R5,Y
+948,teuer,토이어,비싼,expensive,adj,R5,N
+949,Frühstück,프뤼슈튀크,아침 식사,breakfast,noun-n,R5,Y
+950,Daten,다텐,데이터,data,noun-pl,R5,N
+951,verbringen,페어브링엔,보내다,spend,verb,R5,N
+952,Pause,파우제,휴식,break,noun-f,R5,N
+953,Hals,할스,목,neck,noun-m,R5,Y
+954,immerhin,이머힌,그래도,after all,adv,R5,N
+955,landen,란덴,착륙하다,land,verb,R5,Y
+956,zufrieden,추프리덴,만족한,satisfied,adj,R5,N
+957,auffallen,아우프팔렌,눈에 띄다,stand out,verb,R5,N
+958,drücken,드뤼켄,누르다,press,verb,R5,Y
+959,Feierabend,파이어아벤트,퇴근,end of work,noun-m,R5,N
+960,gebären,게베렌,낳다,give birth,verb,R5,N
+961,Kamera,카메라,카메라,camera,noun-f,R5,Y
+962,keuchen,코이헨,헐떡이다,pant,verb,R5,N
+963,entspannen,엔트슈파넨,긴장을 풀다,relax,verb,R5,Y
+964,weder,베더,~도 아니다,neither,conj,R5,N
+965,zählen,첼렌,세다,count,verb,R5,N
+966,Nachmittag,나흐미타크,오후,afternoon,noun-m,R5,N
+967,aufmachen,아우프마헨,열다,open,verb,R5,Y
+968,Feind,파인트,적,enemy,noun-m,R5,N
+969,heilig,하일리히,신성한,holy,adj,R5,N
+970,Beruf,베루프,직업,job,noun-m,R5,N
+971,Bar,바어,술집,bar,noun-f,R5,Y
+972,Jude,유데,유대인,Jew,noun-m,R5,N
+973,starten,슈타어텐,시작하다,start,verb,R5,N
+974,Bürgermeister,뷔어거마이스터,시장,mayor,noun-m,R5,Y
+975,Wochenende,보헨엔데,주말,weekend,noun-n,R5,N
+976,Sommer,조머,여름,summer,noun-m,R5,Y
+977,dritte,드리테,세 번째,third,num,R5,N
+978,strecken,슈트레켄,뻗다,stretch,verb,R5,Y
+979,Erfahrung,에어파룽,경험,experience,noun-f,R5,N
+980,besorgen,베조어겐,구해 오다,get,verb,R5,N
+981,erhalten,에어할텐,받다,receive,verb,R5,N
+982,durcheinander,두어히아이난더,뒤죽박죽,mixed up,adv,R5,N
+983,läuten,로이텐,울리다,ring,verb,R5,Y
+984,Blödsinn,블뢰트진,헛소리,nonsense,noun-m,R5,N
+985,ausgerechnet,아우스게레히네트,하필이면,of all things,adv,R5,N
+986,Schwein,슈바인,돼지,pig,noun-n,R5,Y
+987,springen,슈프링엔,뛰다,jump,verb,R5,Y
+988,auftauchen,아우프타우헨,나타나다,appear,verb,R5,N
+989,rechnen,레히넨,계산하다,calculate,verb,R5,N
+990,Baum,바움,나무,tree,noun-m,R5,Y
+991,Jubel,유벨,환호,cheering,noun-m,R5,Y
+992,Befehl,베펠,명령,order,noun-m,R5,N
+993,reagieren,레아기렌,반응하다,react,verb,R5,N
+994,Anzeige,안차이게,신고,report,noun-f,R5,N
+995,irgendwelch,이어겐트벨히,어떤,any,pron,R5,N
+996,Lehrer,레러,선생님,teacher,noun-m,R5,Y
+997,kichern,키헌,킥킥거리다,giggle,verb,R5,Y
+998,Gold,골트,금,gold,noun-n,R5,Y
+999,unmöglich,운뫼클리히,불가능한,impossible,adj,R5,N
+1000,großartig,그로스아어티히,훌륭한,great,adj,R5,N
+1001,Kaiser,카이저,황제,emperor,noun-m,R5,Y
+1002,Hinweis,힌바이스,단서,hint,noun-m,R5,N
+1003,Zuhause,추하우제,집,home,noun-n,R5,Y
+1004,grün,그륀,초록의,green,adj,R5,Y
+1005,hupen,후펜,경적을 울리다,honk,verb,R5,Y
+1006,wild,빌트,야생의,wild,adj,R5,N
+1007,beenden,베엔덴,끝내다,finish,verb,R5,N
+1008,Einsatz,아인자츠,출동,deployment,noun-m,R5,N
+1009,bravo,브라보,브라보,bravo,interj,R5,N
+1010,räuspern,로이스펀,헛기침하다,clear throat,verb,R5,N
+1011,nervös,네어뵈스,긴장한,nervous,adj,R5,Y
+1012,Klappe,클라페,입(속어),flap,noun-f,R5,N
+1013,ähnlich,엔리히,비슷한,similar,adj,R5,N
+1014,Ergebnis,에어게프니스,결과,result,noun-n,R5,N
+1015,witzig,비치히,웃기는,funny,adj,R5,N
+1016,Gegend,게겐트,지역,area,noun-f,R5,N
+1017,geraten,게라텐,빠지다,get into,verb,R5,N
+1018,Volk,폴크,민족,people,noun-n,R5,N
+1019,Bus,부스,버스,bus,noun-m,R5,Y
+1020,Koch,코흐,요리사,cook,noun-m,R5,Y
+1021,komplett,콤플레트,완전히,completely,adv,R5,N
+1022,reisen,라이젠,여행하다,travel,verb,R5,Y
+1023,Mitarbeiter,미트아어바이터,직원,employee,noun-m,R5,Y
+1024,Glückwunsch,글뤼크분슈,축하,congratulations,noun-m,R5,N
+1025,zwingen,츠빙엔,강요하다,force,verb,R5,N
+1026,ungefähr,운게페어,대략,about,adv,R5,N
+1027,Seele,젤레,영혼,soul,noun-f,R5,N
+1028,furchtbar,푸어히트바어,끔찍한,terrible,adj,R5,N
+1029,angeblich,안게플리히,소위,supposedly,adv,R5,N
+1030,heraus,헤라우스,밖으로,out,adv,R5,N
+1031,unterhalten,운터할텐,대화하다,talk,verb,R5,Y
+1032,Kleid,클라이트,원피스,dress,noun-n,R5,Y
+1033,Fingerabdruck,핑어압드루크,지문,fingerprint,noun-m,R5,Y
+1034,russisch,루시슈,러시아의,Russian,adj,R5,N
+1035,Frieden,프리덴,평화,peace,noun-m,R5,N
+1036,unheimlich,운하임리히,으스스한,creepy,adj,R5,N
+1037,Türklingel,튀어클링엘,초인종,doorbell,noun-f,R5,Y
+1038,Bauer,바우어,농부,farmer,noun-m,R5,Y
+1039,Pfarrer,프파러,목사,pastor,noun-m,R5,Y
+1040,ausgehen,아우스게엔,외출하다,go out,verb,R5,N
+1041,Interesse,인테레세,관심,interest,noun-n,R5,N
+1042,worauf,보라우프,무엇에,on what,adv,R5,N
+1043,seitdem,자이트뎀,그 이후로,since then,adv,R5,N
+1044,Raum,라움,방,room,noun-m,R5,Y
+1045,selten,젤텐,드물게,rarely,adv,R5,N
+1046,verbinden,페어빈덴,연결하다,connect,verb,R5,N
+1047,mindestens,민데스텐스,최소한,at least,adv,R5,N
+1048,gegenüber,게겐위버,맞은편에,opposite,prep,R5,N
+1049,Verbindung,페어빈둥,연결,connection,noun-f,R5,N
+1050,entweder,엔트베더,둘 중 하나,either,conj,R5,N
+1051,Bericht,베리히트,보고서,report,noun-m,R5,N
+1052,verklingen,페어클링엔,잦아들다,fade away,verb,R5,N
+1053,Nerv,네어프,신경,nerve,noun-m,R5,N
+1054,Labor,라보어,실험실,lab,noun-n,R5,Y
+1055,Hoffnung,호프눙,희망,hope,noun-f,R5,N
+1056,herausfinden,헤라우스핀덴,알아내다,find out,verb,R5,N
+1057,wundern,분던,놀라다,wonder,verb,R5,N
+1058,davor,다포어,그 앞에,before,adv,R5,N
+1059,Kohle,콜레,돈(속어),money,noun-f,R5,Y
+1060,knapp,크나프,빠듯한,tight,adj,R5,N
+1061,Eis,아이스,아이스크림,ice cream,noun-n,R5,Y
+1062,begleiten,베글라이텐,동행하다,accompany,verb,R5,N
+1063,verhalten,페어할텐,행동하다,behave,verb,R5,N
+1064,anziehen,안치엔,옷을 입다,put on,verb,R5,Y
+1065,Kilometer,킬로메터,킬로미터,kilometer,noun-m,R5,N
+1066,ergeben,에어게벤,결과로 나오다,result,verb,R5,N
+1067,Zeichen,차이헨,신호,sign,noun-n,R5,N
+1068,Prozent,프로첸트,퍼센트,percent,noun-n,R5,N
+1069,betreiben,베트라이벤,운영하다,run,verb,R5,N
+1070,einverstanden,아인페어슈탄덴,동의하는,agreed,adj,R5,N
+1071,fort,포어트,떠나서,away,adv,R5,N
+1072,Gegenteil,게겐타일,반대,opposite,noun-n,R5,N
+1073,Computer,콤퓨터,컴퓨터,computer,noun-m,R5,Y
+1074,extra,엑스트라,일부러,extra,adv,R5,N
+1075,entlassen,엔틀라센,해고하다,dismiss,verb,R5,N
+1076,beschäftigen,베셰프티겐,바쁘게 하다,occupy,verb,R5,N
+1077,Freiheit,프라이하이트,자유,freedom,noun-f,R5,N
+1078,rauskommen,라우스코멘,나오다,come out,verb,R5,N
+1079,Natur,나투어,자연,nature,noun-f,R5,Y
+1080,hopp,홉,어서,hop,interj,R5,N
+1081,lecker,레커,맛있는,tasty,adj,R5,Y
+1082,gespannt,게슈판트,기대되는,curious,adj,R5,N
+1083,aufstehen,아우프슈테엔,일어나다,get up,verb,R5,Y
+1084,unterstützen,운터슈튀첸,지원하다,support,verb,R5,N
+1085,Kampf,캄프,싸움,fight,noun-m,R5,Y
+1086,enttäuschen,엔트토이셴,실망시키다,disappoint,verb,R5,N
+1087,entfernt,엔트페언트,떨어진,distant,adj,R5,N
+1088,schwimmen,슈비멘,수영하다,swim,verb,R5,Y
+1089,hassen,하센,미워하다,hate,verb,R5,N
+1090,Sitz,지츠,좌석,seat,noun-m,R5,Y
+1091,Mädel,메델,아가씨,girl,noun-n,R5,Y
+1092,fein,파인,좋은,fine,adj,R5,N
+1093,Knast,크나스트,감옥,jail,noun-m,R5,Y
+1094,Bewegung,베베궁,움직임,movement,noun-f,R5,N
+1095,Wand,반트,벽,wall,noun-f,R5,Y
+1096,Theater,테아터,극장,theater,noun-n,R5,Y
+1097,prima,프리마,아주 좋은,great,adj,R5,N
+1098,Bahnhof,반호프,기차역,train station,noun-m,R5,Y
+1099,Schrei,슈라이,비명,scream,noun-m,R5,Y
+1100,zuletzt,출레츠트,마지막으로,last,adv,R5,N
+1101,abends,아벤츠,저녁에,in the evening,adv,R5,N
+1102,drohen,드로엔,위협하다,threaten,verb,R5,N
+1103,Geist,가이스트,유령,ghost,noun-m,R5,Y
+1104,leiten,라이텐,이끌다,lead,verb,R5,N
+1105,locker,로커,느긋한,relaxed,adj,R5,N
+1106,aufhalten,아우프할텐,막다,stop,verb,R5,N
+1107,Tor,토어,문,gate,noun-n,R5,Y
+1108,Brücke,브뤼케,다리,bridge,noun-f,R5,Y
+1109,inzwischen,인츠비셴,그 사이에,meanwhile,adv,R5,N
+1110,liefern,리펀,배달하다,deliver,verb,R5,Y
+1111,Bahn,반,기차,train,noun-f,R5,Y
+1112,erpressen,에어프레센,협박하다,blackmail,verb,R5,N
+1113,Stern,슈테언,별,star,noun-m,R5,Y
+1114,Kuchen,쿠헨,케이크,cake,noun-m,R5,Y
+1115,mehrere,메레레,여러,several,pron,R5,N
+1116,Gruppe,그루페,그룹,group,noun-f,R5,Y
+1117,Kontrolle,콘트롤레,통제,control,noun-f,R5,N
+1118,Praxis,프락시스,진료소,practice,noun-f,R5,N
+1119,richten,리히텐,향하게 하다,direct,verb,R5,N
+1120,Respekt,레스펙트,존중,respect,noun-m,R5,N
+1121,auftreten,아우프트레텐,등장하다,appear,verb,R5,N
+1122,Wunsch,분슈,소원,wish,noun-m,R5,N
+1123,Insel,인젤,섬,island,noun-f,R5,Y
+1124,schließlich,슐리슬리히,결국,finally,adv,R5,N
+1125,Möglichkeit,뫼클리히카이트,가능성,possibility,noun-f,R5,N
+1126,Hauptsache,하우프트자헤,중요한 것,main thing,noun-f,R5,N
+1127,Wetter,베터,날씨,weather,noun-n,R5,Y
+1128,Gelächter,겔레히터,웃음소리,laughter,noun-n,R5,Y
+1129,Engel,엥엘,천사,angel,noun-m,R5,Y
+1130,Weile,바일레,잠시,while,noun-f,R5,N
+1131,daher,다헤어,그래서,therefore,adv,R5,N
+1132,weitergehen,바이터게엔,계속 가다,go on,verb,R5,N
+1133,raten,라텐,추측하다,guess,verb,R5,N
+1134,aufwachen,아우프바헨,깨어나다,wake up,verb,R5,Y
+1135,Post,포스트,우편,mail,noun-f,R5,Y
+1136,Kunst,쿤스트,예술,art,noun-f,R5,Y
+1137,wechseln,벡셀른,바꾸다,change,verb,R5,N
+1138,verfolgen,페어폴겐,뒤쫓다,chase,verb,R5,Y
+1139,ermitteln,에어미텔른,수사하다,investigate,verb,R5,N
+1140,Hafen,하펜,항구,harbor,noun-m,R5,Y
+1141,Zustand,추슈탄트,상태,condition,noun-m,R5,N
+1142,Fernsehen,페언제엔,텔레비전,television,noun-n,R5,Y
+1143,rausfinden,라우스핀덴,알아내다,find out,verb,R5,N
+1144,dynamisch,뒤나미슈,역동적인,dynamic,adj,R5,N
+1145,pro,프로,~당,per,prep,R5,N
+1146,Milch,밀히,우유,milk,noun-f,R5,Y
+1147,Unterlagen,운터라겐,서류,documents,noun-pl,R5,Y
+1148,Geheimnis,게하임니스,비밀,secret,noun-n,R5,N
+1149,befinden,베핀덴,있다,be located,verb,R5,N
+1150,Runde,룬데,한 바퀴,round,noun-f,R5,N
+1151,interessieren,인테레시렌,관심을 끌다,interest,verb,R5,N
+1152,Partner,파트너,파트너,partner,noun-m,R5,Y
+1153,irgendetwas,이어겐트에트바스,뭔가,something,pron,R5,N
+1154,seltsam,젤트잠,이상한,strange,adj,R5,N
+1155,Direktor,디렉토어,책임자,director,noun-m,R5,Y
+1156,Schüler,쉴러,학생,student,noun-m,R5,Y
+1157,zweimal,츠바이말,두 번,twice,adv,R5,N
+1158,Gesetz,게제츠,법,law,noun-n,R5,N
+1159,Gesang,게장,노래,singing,noun-m,R5,Y
+1160,hinterher,힌터헤어,나중에,afterwards,adv,R5,N
+1161,Medikament,메디카멘트,약,medicine,noun-n,R5,Y
+1162,reinkommen,라인코멘,들어오다,come in,verb,R5,Y
+1163,krass,크라스,대박인,crazy,adj,R5,N
+1164,Alkohol,알코홀,술,alcohol,noun-m,R5,Y
+1165,Projekt,프로이엑트,프로젝트,project,noun-n,R5,N
+1166,stürzen,슈튀어첸,넘어지다,fall,verb,R5,Y
+1167,schwören,슈뵈렌,맹세하다,swear,verb,R5,N
+1168,Hölle,횔레,지옥,hell,noun-f,R5,N
+1169,verantwortlich,페어안트보어틀리히,책임 있는,responsible,adj,R5,N
+1170,Führer,퓌러,지도자,leader,noun-m,R5,N
+1171,dunkel,둥켈,어두운,dark,adj,R5,Y
+1172,klirren,클리렌,쨍그랑거리다,clink,verb,R5,N
+1173,Prinz,프린츠,왕자,prince,noun-m,R5,Y
+1174,malen,말렌,그리다,paint,verb,R5,Y
+1175,Szene,스체네,장면,scene,noun-f,R5,N
+1176,nochmal,노흐말,한 번 더,again,adv,R5,N
+1177,drinnen,드리넨,안에,inside,adv,R5,N
+1178,warm,바엄,따뜻한,warm,adj,R5,N
+1179,Affäre,아페레,불륜,affair,noun-f,R5,N
+1180,sparen,슈파렌,저축하다,save,verb,R5,Y
+1181,womit,보밋,무엇으로,with what,adv,R5,N
+1182,Restaurant,레스토랑,식당,restaurant,noun-n,R5,Y
+1183,bemerken,베메어켄,알아차리다,notice,verb,R5,N
+1184,üben,위벤,연습하다,practice,verb,R5,Y
+1185,entführen,엔트퓌렌,납치하다,kidnap,verb,R5,Y
+1186,Vergangenheit,페어간엔하이트,과거,past,noun-f,R5,N
+1187,Dach,다흐,지붕,roof,noun-n,R5,Y
+1188,woanders,보안더스,다른 곳에,elsewhere,adv,R5,N
+1189,morgens,모어겐스,아침에,in the morning,adv,R5,N
+1190,schuldig,슐디히,죄 있는,guilty,adj,R5,N
+1191,Unternehmen,운터네멘,회사,company,noun-n,R5,N
+1192,übrig,위브리히,남은,left over,adj,R5,N
+1193,Karriere,카리에레,경력,career,noun-f,R5,N
+1194,waschen,바셴,씻다,wash,verb,R5,Y
+1195,Gelegenheit,겔레겐하이트,기회,opportunity,noun-f,R5,N
+1196,Ermittlung,에어미틀룽,수사,investigation,noun-f,R5,N
+1197,darin,다린,그 안에,in it,adv,R5,N
+1198,Appetit,아페티트,식욕,appetite,noun-m,R5,N
+1199,rauf,라우프,위로,up,adv,R5,N
+1200,Band,반트,밴드,band,noun-f,R5,Y
+1201,eifersüchtig,아이퍼쥐히티히,질투하는,jealous,adj,R5,N
+1202,Gesellschaft,게젤샤프트,사회,society,noun-f,R5,N
+1203,Vergnügen,페어그뉘겐,즐거움,pleasure,noun-n,R5,N
+1204,offiziell,오피치엘,공식적인,official,adj,R5,N
+1205,hinaus,히나우스,밖으로,out,adv,R5,N
+1206,abgeben,압게벤,내주다,hand in,verb,R5,N
+1207,Wiederhören,비더회렌,안녕히(전화),goodbye,noun-n,R5,N
+1208,Stich,슈티히,찌름,sting,noun-m,R5,N
+1209,erfüllen,에어퓔렌,이루다,fulfill,verb,R5,N
+1210,Sonntag,존탁,일요일,Sunday,noun-m,R5,N
+1211,Vorschlag,포어슐락,제안,suggestion,noun-m,R5,N
+1212,heulen,호일렌,울부짖다,howl,verb,R5,Y
+1213,Jacke,야케,재킷,jacket,noun-f,R5,Y
+1214,Schicksal,식잘,운명,fate,noun-n,R5,N
+1215,besorgt,베조어크트,걱정하는,worried,adj,R5,Y
+1216,entfernen,엔트페어넨,제거하다,remove,verb,R5,N
+1217,peinlich,파인리히,창피한,embarrassing,adj,R5,N
+1218,eindeutig,아인도이티히,분명한,clear,adj,R5,N
+1219,tauchen,타우헨,잠수하다,dive,verb,R5,Y
+1220,Ritter,리터,기사,knight,noun-m,R5,Y
+1221,stoßen,슈토센,밀치다,push,verb,R5,Y
+1222,Fleisch,플라이슈,고기,meat,noun-n,R5,Y
+1223,putzen,푸첸,청소하다,clean,verb,R5,Y
+1224,Bulle,불레,짭새(경찰),cop,noun-m,R5,Y
+1225,Reifen,라이펜,타이어,tire,noun-m,R5,Y
+1226,Bauch,바우흐,배,belly,noun-m,R5,Y
+1227,schneiden,슈나이덴,자르다,cut,verb,R5,Y
+1228,Fahrer,파러,운전사,driver,noun-m,R5,Y
+1229,Eindruck,아인드루크,인상,impression,noun-m,R5,N
+1230,Kino,키노,영화관,cinema,noun-n,R5,Y
+1231,fürchten,퓌어히텐,두려워하다,fear,verb,R5,N
+1232,Ring,링,반지,ring,noun-m,R5,Y
+1233,Untersuchung,운터주훙,조사,examination,noun-f,R5,N
+1234,kündigen,퀸디겐,그만두다,quit,verb,R5,N
+1235,Test,테스트,시험,test,noun-m,R5,N
+1236,beschützen,베쉬첸,보호하다,protect,verb,R5,N
+1237,heiter,하이터,명랑한,cheerful,adj,R5,N
+1238,aufgeregt,아우프게레크트,흥분한,excited,adj,R5,Y
+1239,wählen,벨렌,고르다,choose,verb,R5,N
+1240,verabreden,페어압레덴,약속하다,arrange to meet,verb,R5,N
+1241,Chefin,셰핀,여자 상사,boss,noun-f,R5,Y
+1242,gelingen,겔링엔,성공하다,succeed,verb,R5,N
+1243,abschließen,압슐리센,잠그다,lock,verb,R5,Y
+1244,Presse,프레세,언론,press,noun-f,R5,N
+1245,soweit,조바이트,~하는 한,as far as,adv,R5,N
+1246,gewöhnen,게뵈넨,익숙해지다,get used to,verb,R5,N
+1247,stoppen,슈토펜,멈추다,stop,verb,R5,N
+1248,einfallen,아인팔렌,생각나다,occur to,verb,R5,N
+1249,organisieren,오어가니지렌,준비하다,organize,verb,R5,N
+1250,Mut,무트,용기,courage,noun-m,R5,N
+1251,Sprache,슈프라헤,언어,language,noun-f,R5,N
+1252,gründen,그륀덴,설립하다,found,verb,R5,N
+1253,weitermachen,바이터마헨,계속하다,continue,verb,R5,N
+1254,begegnen,베게그넨,마주치다,meet,verb,R5,N
+1255,aufbauen,아우프바우엔,세우다,build,verb,R5,Y
+1256,besser,베서,더 나은,better,adj,R5,N
+1257,umsonst,움존스트,공짜로,free,adv,R5,N
+1258,heftig,헤프티히,격렬한,violent,adj,R5,N
+1259,Krankheit,크랑크하이트,병,illness,noun-f,R5,N
+1260,wiederholen,비더홀렌,반복하다,repeat,verb,R5,N
+1261,Ecke,에케,모퉁이,corner,noun-f,R5,Y
+1262,Dollar,돌라어,달러,dollar,noun-m,R5,Y
+1263,Königin,쾨니긴,여왕,queen,noun-f,R5,Y
+1264,genießen,게니센,즐기다,enjoy,verb,R5,N
+1265,Hälfte,헬프테,절반,half,noun-f,R5,Y
+1266,anzeigen,안차이겐,신고하다,report,verb,R5,N
+1267,schweigen,슈바이겐,침묵하다,be silent,verb,R5,N
+1268,entstehen,엔트슈테엔,생기다,arise,verb,R5,N
+1269,Katze,카체,고양이,cat,noun-f,R5,Y
+1270,Weise,바이제,방식,way,noun-f,R5,N
+1271,Funk,풍크,무전,radio,noun-m,R5,Y
+1272,unschuldig,운슐디히,무죄인,innocent,adj,R5,N
+1273,langweilig,랑바일리히,지루한,boring,adj,R5,N
+1274,ahnen,아넨,예감하다,suspect,verb,R5,N
+1275,reparieren,레파리렌,수리하다,repair,verb,R5,Y
+1276,freundlich,프로인틀리히,친절한,friendly,adj,R5,N
+1277,verloben,페어로벤,약혼하다,get engaged,verb,R5,N
+1278,Verletzung,페어레충,부상,injury,noun-f,R5,Y
+1279,fremd,프렘트,낯선,strange,adj,R5,N
+1280,eng,엥,좁은,tight,adj,R5,N
+1281,Mittel,미텔,수단,means,noun-n,R5,N
+1282,freiwillig,프라이빌리히,자발적인,voluntary,adj,R5,N
+1283,erscheinen,에어샤이넨,나타나다,appear,verb,R5,N
+1284,Gewalt,게발트,폭력,violence,noun-f,R5,N
+1285,Ei,아이,달걀,egg,noun-n,R5,Y
+1286,ausschließen,아우스슐리센,배제하다,exclude,verb,R5,N
+1287,Text,텍스트,글,text,noun-m,R5,N
+1288,sammeln,자멜른,모으다,collect,verb,R5,N
+1289,verabschieden,페어압시덴,작별하다,say goodbye,verb,R5,Y
+1290,einstellen,아인슈텔렌,고용하다,hire,verb,R5,N
+1291,jagen,야겐,사냥하다,hunt,verb,R5,Y
+1292,prüfen,프뤼펜,검사하다,check,verb,R5,N
+1293,Knie,크니,무릎,knee,noun-n,R5,Y
+1294,kompliziert,콤플리치어트,복잡한,complicated,adj,R5,N
+1295,geheimnisvoll,게하임니스폴,신비로운,mysterious,adj,R5,N
+1296,vorgestern,포어게스턴,그저께,day before yesterday,adv,R5,N
+1297,trotz,트로츠,~에도 불구하고,despite,prep,R5,N
+1298,aussagen,아우스자겐,증언하다,testify,verb,R5,N
+1299,per,페어,~로,by,prep,R5,N
+1300,nimmer,니머,다시는 안,never,adv,R5,N
+1301,daraus,다라우스,그것에서,from it,adv,R5,N
+1302,beschwingt,베슈빙트,경쾌한,lively,adj,R5,N
+1303,Kloster,클로스터,수도원,monastery,noun-n,R5,Y
+1304,Holz,홀츠,목재,wood,noun-n,R5,Y
+1305,abnehmen,압네멘,살 빼다,lose weight,verb,R5,N
+1306,normalerweise,노어말러바이제,보통,normally,adv,R5,N
+1307,Tatwaffe,타트바페,범행 도구,murder weapon,noun-f,R5,Y
+1308,offensichtlich,오펜지히틀리히,분명히,obviously,adv,R5,N
+1309,verpassen,페어파센,놓치다,miss,verb,R5,N
+1310,gefühlvoll,게퓔폴,감성적인,emotional,adj,R5,N
+1311,kapieren,카피렌,이해하다,get it,verb,R5,N
+1312,bereiten,베라이텐,준비하다,prepare,verb,R5,N
+1313,einkaufen,아인카우펜,장보다,shop,verb,R5,Y
+1314,entwickeln,엔트비켈른,개발하다,develop,verb,R5,N
+1315,Operation,오퍼라치온,수술,surgery,noun-f,R5,Y
+1316,Wiederschauen,비더샤우엔,안녕히 가세요,goodbye,noun-n,R5,N
+1317,Schuss,슈스,총성,shot,noun-m,R5,Y
+1318,brav,브라프,착한,good,adj,R5,N
+1319,einigen,아이니겐,합의하다,agree,verb,R5,N
+1320,lächeln,레헬른,미소 짓다,smile,verb,R5,Y
+1321,Zeitpunkt,차이트풍크트,시점,point in time,noun-m,R5,N
+1322,Roman,로만,소설,novel,noun-m,R5,Y
+1323,warnen,바어넨,경고하다,warn,verb,R5,N
+1324,jemals,예말스,언젠가,ever,adv,R5,N
+1325,anstellen,안슈텔렌,저지르다,get up to,verb,R5,N
+1326,piepen,피펜,삐 소리 나다,beep,verb,R5,N
+1327,Ball,발,공,ball,noun-m,R5,Y
+1328,gratulieren,그라툴리렌,축하하다,congratulate,verb,R5,Y
+1329,Flucht,플루흐트,도주,escape,noun-f,R5,N
+1330,festhalten,페스트할텐,붙잡다,hold on,verb,R5,Y
+1331,dankbar,당크바어,감사하는,grateful,adj,R5,N
+1332,irren,이렌,착각하다,be wrong,verb,R5,N
+1333,woran,보란,무엇에,on what,adv,R5,N
+1334,erwähnen,에어베넨,언급하다,mention,verb,R5,N
+1335,Mitte,미테,가운데,middle,noun-f,R5,N
+1336,bescheuert,베쇼이어트,미친,crazy,adj,R5,N
+1337,pünktlich,퓡크틀리히,정각에,punctual,adj,R5,N
+1338,jederzeit,예더차이트,언제든지,anytime,adv,R5,N
+1339,Gang,강,복도,hallway,noun-m,R5,Y
+1340,Rechnung,레히눙,계산서,bill,noun-f,R5,Y
+1341,betrügen,베트뤼겐,속이다,cheat,verb,R5,N
+1342,vollkommen,폴코멘,완전히,completely,adv,R5,N
+1343,Grenze,그렌체,국경,border,noun-f,R5,Y
+1344,Mühe,뮈에,수고,effort,noun-f,R5,N
+1345,reiten,라이텐,말 타다,ride,verb,R5,Y
+1346,Bühne,뷔네,무대,stage,noun-f,R5,Y
+1347,träumen,트로이멘,꿈꾸다,dream,verb,R5,N
+1348,streichen,슈트라이헨,칠하다,paint,verb,R5,N
+1349,verdächtigen,페어데히티겐,의심하다,suspect,verb,R5,N
+1350,meistens,마이스텐스,대개,mostly,adv,R5,N
+1351,einsetzen,아인제첸,투입하다,use,verb,R5,N
+1352,deutlich,도이틀리히,분명한,clear,adj,R5,N
+1353,vorn,포언,앞에,in front,adv,R5,N
+1354,Kumpel,쿰펠,친구,buddy,noun-m,R5,Y
+1355,knurren,크누렌,으르렁거리다,growl,verb,R5,Y
+1356,begreifen,베그라이펜,이해하다,grasp,verb,R5,N
+1357,worüber,보뤼버,무엇에 대해,about what,adv,R5,N
+1358,Sport,슈포어트,운동,sport,noun-m,R5,Y
+1359,Risiko,리지코,위험,risk,noun-n,R5,N
+1360,befragen,베프라겐,심문하다,question,verb,R5,N
+1361,Strand,슈트란트,해변,beach,noun-m,R5,Y
+1362,rund,룬트,둥근,round,adj,R5,Y
+1363,fliehen,플리엔,도망치다,flee,verb,R5,Y
+1364,Pack,팍,패거리,rabble,noun-n,R5,N
+1365,Stock,슈톡,막대기,stick,noun-m,R5,Y
+1366,quasi,크바지,사실상,virtually,adv,R5,N
+1367,spazieren,슈파치렌,산책하다,stroll,verb,R5,Y
+1368,Mittag,미탁,정오,noon,noun-m,R5,N
+1369,lächerlich,레헐리히,우스꽝스러운,ridiculous,adj,R5,N
+1370,angehen,안게엔,관계되다,concern,verb,R5,N
+1371,schieben,쉬벤,밀다,push,verb,R5,Y
+1372,übel,위벨,메스꺼운,sick,adj,R5,N
+1373,Heimat,하이마트,고향,homeland,noun-f,R5,N
+1374,verzichten,페어치히텐,포기하다,do without,verb,R5,N
+1375,Prozess,프로체스,재판,trial,noun-m,R5,N
+1376,loswerden,로스베어덴,없애다,get rid of,verb,R5,N
+1377,Geburt,게부어트,출생,birth,noun-f,R5,Y
+1378,Brot,브로트,빵,bread,noun-n,R5,Y
+1379,Telefonklingeln,텔레폰클링엘른,전화벨,phone ringing,noun-n,R5,Y
+1380,General,게네랄,장군,general,noun-m,R5,Y
+1381,regen,레겐,움직이다,stir,verb,R5,N
+1382,kontrollieren,콘트롤리렌,확인하다,check,verb,R5,N
+1383,betrunken,베트룽켄,술 취한,drunk,adj,R5,Y
+1384,schwach,슈바흐,약한,weak,adj,R5,N
+1385,Großvater,그로스파터,할아버지,grandfather,noun-m,R5,Y
+1386,Knall,크날,쾅 소리,bang,noun-m,R5,N
+1387,Kuh,쿠,소,cow,noun-f,R5,Y
+1388,aussuchen,아우스주헨,고르다,pick,verb,R5,N
+1389,Scherz,셰어츠,농담,joke,noun-m,R5,N
+1390,umgehen,움게엔,다루다,deal with,verb,R5,N
+1391,absagen,압자겐,취소하다,cancel,verb,R5,N
+1392,Panik,파닉,공황,panic,noun-f,R5,N
+1393,Form,포엄,형태,shape,noun-f,R5,N
+1394,Werkstatt,베어크슈타트,정비소,workshop,noun-f,R5,Y
+1395,Karte,카어테,카드,card,noun-f,R5,Y
+1396,Gemeinde,게마인데,공동체,community,noun-f,R5,N
+1397,daheim,다하임,집에,at home,adv,R5,N
+1398,danken,당켄,감사하다,thank,verb,R5,N
+1399,Loch,로흐,구멍,hole,noun-n,R5,Y
+1400,Hütte,휘테,오두막,hut,noun-f,R5,Y
+1401,Vorwurf,포어부어프,비난,reproach,noun-m,R5,N
+1402,Scheidung,샤이둥,이혼,divorce,noun-f,R5,N
+1403,Unterschied,운터쉬트,차이,difference,noun-m,R5,N
+1404,schnarchen,슈나어헨,코 골다,snore,verb,R5,Y
+1405,lohnen,로넨,가치가 있다,be worth,verb,R5,N
+1406,schluchzen,슐루흐첸,흐느끼다,sob,verb,R5,Y
+1407,dienen,디넨,섬기다,serve,verb,R5,N
+1408,hinein,히나인,안으로,into,adv,R5,N
+1409,Gift,기프트,독,poison,noun-n,R5,Y
+1410,mitbekommen,밋베코멘,알아채다,notice,verb,R5,N
+1411,Schwierigkeit,슈비리히카이트,어려움,difficulty,noun-f,R5,N
+1412,brauen,브라우엔,양조하다,brew,verb,R5,Y
+1413,rattern,라턴,덜컹거리다,rattle,verb,R5,N
+1414,Steuer,슈토이어,세금,tax,noun-f,R5,N
+1415,Notfall,노트팔,비상사태,emergency,noun-m,R5,N
+1416,Grab,그라프,무덤,grave,noun-n,R5,Y
+1417,Vogelzwitschern,포겔츠비천,새소리,birdsong,noun-n,R5,Y
+1418,scharf,샤어프,매운,spicy,adj,R5,Y
+1419,hinterlassen,힌터라센,남기다,leave behind,verb,R5,N
+1420,beklemmend,베클레멘트,답답한,oppressive,adj,R5,N
+1421,begeistert,베가이스터트,신난,enthusiastic,adj,R5,Y
+1422,Position,포지치온,위치,position,noun-f,R5,N
+1423,angreifen,안그라이펜,공격하다,attack,verb,R5,Y
+1424,Therapie,테라피,치료,therapy,noun-f,R5,N
+1425,irgendjemand,이어겐트예만트,누군가,somebody,pron,R5,N
+1426,praktisch,프락티슈,실용적인,practical,adj,R5,N
+1427,akzeptieren,악쳅티렌,받아들이다,accept,verb,R5,N
+1428,wehren,베렌,저항하다,defend oneself,verb,R5,N
+1429,beschreiben,베슈라이벤,묘사하다,describe,verb,R5,N
+1430,Einbruch,아인브루흐,침입,burglary,noun-m,R5,Y
+1431,neulich,노일리히,최근에,recently,adv,R5,N
+1432,Gitarrenmusik,기타렌무지크,기타 음악,guitar music,noun-f,R5,Y
+1433,Stille,슈틸레,고요,silence,noun-f,R5,N
+1434,empfehlen,엠펠렌,추천하다,recommend,verb,R5,N
+1435,Park,파어크,공원,park,noun-m,R5,Y
+1436,Hoheit,호하이트,전하,highness,noun-f,R5,N
+1437,Ehemann,에에만,남편,husband,noun-m,R5,Y
+1438,Vogelgezwitscher,포겔게츠비처,새소리,birdsong,noun-n,R5,Y
+1439,Selbstmord,젤프스트모어트,자살,suicide,noun-m,R5,N
+1440,beten,베텐,기도하다,pray,verb,R5,Y
+1441,Staat,슈타트,국가,state,noun-m,R5,N
+1442,täglich,테클리히,매일,daily,adv,R5,N
+1443,feststellen,페스트슈텔렌,확인하다,determine,verb,R5,N
+1444,Freundschaft,프로인트샤프트,우정,friendship,noun-f,R5,N
+1445,Geduld,게둘트,인내,patience,noun-f,R5,N
+1446,bedrohen,베드로엔,위협하다,threaten,verb,R5,N
+1447,wetten,베텐,내기하다,bet,verb,R5,N
+1448,Antrag,안트락,신청,proposal,noun-m,R5,N
+1449,befreien,베프라이엔,풀어주다,free,verb,R5,N
+1450,Vorstellung,포어슈텔룽,공연,performance,noun-f,R5,N
+1451,Flug,플룩,비행,flight,noun-m,R5,Y
+1452,achtzig,아흐치히,여든,eighty,num,R5,N
+1453,vergehen,페어게엔,지나가다,pass,verb,R5,N
+1454,Artikel,아어티켈,기사,article,noun-m,R5,N
+1455,verlaufen,페어라우펜,길을 잃다,get lost,verb,R5,N
+1456,streng,슈트렝,엄격한,strict,adj,R5,N
+1457,einsperren,아인슈페렌,가두다,lock up,verb,R5,Y
+1458,spannungsgeladen,슈판눙스겔라덴,긴장감 넘치는,tense,adj,R5,N
+1459,begehen,베게엔,저지르다,commit,verb,R5,N
+1460,ausziehen,아우스치엔,벗다,take off,verb,R5,Y
+1461,heimlich,하임리히,몰래,secret,adv,R5,N
+1462,Erinnerung,에어인네룽,기억,memory,noun-f,R5,N
+1463,Programm,프로그람,프로그램,program,noun-n,R5,N
+1464,krachen,크라헨,쾅 소리나다,crash,verb,R5,N
+1465,Titelmusik,티텔무지크,주제 음악,theme music,noun-f,R5,N
+1466,Erklärung,에어클레룽,설명,explanation,noun-f,R5,N
+1467,Akte,아크테,서류,file,noun-f,R5,Y
+1468,folgend,폴겐트,다음의,following,adj,R5,N
+1469,brüllen,브륄렌,고함치다,roar,verb,R5,Y
+1470,Staatsanwalt,슈타츠안발트,검사,prosecutor,noun-m,R5,Y
+1471,ausmachen,아우스마헨,끄다,turn off,verb,R5,Y
+1472,nachdenklich,나흐뎅클리히,생각에 잠긴,thoughtful,adj,R5,Y
+1473,Station,슈타치온,역,station,noun-f,R5,Y
+1474,Ausflug,아우스플루크,소풍,trip,noun-m,R5,Y
+1475,herkommen,헤어코멘,이리 오다,come here,verb,R5,N
+1476,Freitag,프라이탁,금요일,Friday,noun-m,R5,N
+1477,erfolgreich,에어폴크라이히,성공한,successful,adj,R5,N
+1478,Vogel,포겔,새,bird,noun-m,R5,Y
+1479,Künstler,퀸스틀러,예술가,artist,noun-m,R5,Y
+1480,verschieben,페어시벤,미루다,postpone,verb,R5,N
+1481,ficken,피켄,성교하다(속어),fuck,verb,R5,N
+1482,eilig,아일리히,급한,hurried,adj,R5,N
+1483,Passagier,파사지어,승객,passenger,noun-m,R5,Y
+1484,typisch,튀피슈,전형적인,typical,adj,R5,N
+1485,hierbleiben,히어블라이벤,여기 머물다,stay here,verb,R5,N
+1486,Neuigkeit,노이이히카이트,소식,news,noun-f,R5,N
+1487,System,쥐스템,시스템,system,noun-n,R5,N
+1488,Detail,데타이,세부,detail,noun-n,R5,N
+1489,irgendein,이르겐트아인,어떤,any,pron,R5,N
+1490,abwarten,아프바르텐,기다려 보다,wait,verb,R5,N
+1491,Schock,쇼크,충격,shock,noun-m,R5,N
+1492,Armee,아르메,군대,army,noun-f,R5,Y
+1493,Gewehr,게베어,총,rifle,noun-n,R5,Y
+1494,vernünftig,페어뉜프티히,합리적인,sensible,adj,R5,N
+1495,zulassen,추라센,허락하다,allow,verb,R5,N
+1496,gebrauchen,게브라우헨,사용하다,use,verb,R5,N
+1497,zack,착,휙,quick,interj,R5,N
+1498,Klo,클로,화장실,toilet,noun-n,R5,Y
+1499,vergiften,페어기프텐,독살하다,poison,verb,R5,N
+1500,Montag,몬탁,월요일,Monday,noun-m,R5,N

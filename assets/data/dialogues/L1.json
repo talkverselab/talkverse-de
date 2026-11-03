@@ -41,7 +41,8 @@
      "note": "du = 너(반말)",
      "tags": [
       "draft"
-     ]
+     ],
+     "lemmas": []
     },
     {
      "num": 2,
@@ -52,6 +53,23 @@
      "note": "woher = 어디에서",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "heiße",
+       "heißen",
+       "하이센"
+      ],
+      [
+       "Woher",
+       "woher",
+       "보헤어"
+      ],
+      [
+       "kommst",
+       "kommen",
+       "코멘"
+      ]
      ]
     },
     {
@@ -63,6 +81,23 @@
      "note": "aus + 나라",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "komme",
+       "kommen",
+       "코멘"
+      ],
+      [
+       "lerne",
+       "lernen",
+       "레어넨"
+      ],
+      [
+       "Deutsch",
+       "deutsch",
+       "도이치"
+      ]
      ]
     },
     {
@@ -74,6 +109,23 @@
      "note": "schon = 벌써",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Deutsch",
+       "deutsch",
+       "도이치"
+      ],
+      [
+       "schon",
+       "schon",
+       "숀"
+      ],
+      [
+       "gut",
+       "gut",
+       "구트"
+      ]
      ]
     },
     {
@@ -85,6 +137,23 @@
      "note": "jeden Tag = 매일",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Danke",
+       "Dank",
+       "당크"
+      ],
+      [
+       "übe",
+       "üben",
+       "위벤"
+      ],
+      [
+       "Tag",
+       "Tag",
+       "탁"
+      ]
      ]
     },
     {
@@ -96,7 +165,8 @@
      "note": "wohnen = 살다",
      "tags": [
       "draft"
-     ]
+     ],
+     "lemmas": []
     },
     {
      "num": 7,
@@ -107,6 +177,13 @@
      "note": "seit = ~이래로",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Monaten",
+       "Monat",
+       "모나트"
+      ]
      ]
     },
     {
@@ -118,6 +195,23 @@
      "note": "dir = 너에게",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Dann",
+       "dann",
+       "단"
+      ],
+      [
+       "zeige",
+       "zeigen",
+       "차이겐"
+      ],
+      [
+       "Stadt",
+       "Stadt",
+       "슈타트"
+      ]
      ]
     }
    ]
@@ -137,6 +231,18 @@
      "note": "möchten = ~하고 싶다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "möchtest",
+       "möchten",
+       "뫼히텐"
+      ],
+      [
+       "trinken",
+       "trinken",
+       "트링켄"
+      ]
      ]
     },
     {
@@ -148,6 +254,18 @@
      "note": "einen = 하나(남성 4격)",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Kaffee",
+       "Kaffee",
+       "카페"
+      ],
+      [
+       "bitte",
+       "bitte",
+       "비테"
+      ]
      ]
     },
     {
@@ -159,6 +277,23 @@
      "note": "nehmen = 고르다·먹다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "nehme",
+       "nehmen",
+       "네멘"
+      ],
+      [
+       "Tee",
+       "Tee",
+       "테"
+      ],
+      [
+       "Milch",
+       "Milch",
+       "밀히"
+      ]
      ]
     },
     {
@@ -170,6 +305,23 @@
      "note": "der Kuchen(남성)",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Kuchen",
+       "Kuchen",
+       "쿠헨"
+      ],
+      [
+       "hier",
+       "hier",
+       "히어"
+      ],
+      [
+       "gut",
+       "gut",
+       "구트"
+      ]
      ]
     },
     {
@@ -181,6 +333,28 @@
      "note": "mein = 나의",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Sehr",
+       "sehr",
+       "제어"
+      ],
+      [
+       "gut",
+       "gut",
+       "구트"
+      ],
+      [
+       "Apfelkuchen",
+       "Apfelkuchen",
+       ""
+      ],
+      [
+       "Favorit",
+       "Favorit",
+       ""
+      ]
      ]
     },
     {
@@ -192,6 +366,23 @@
      "note": "wir = 우리",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Dann",
+       "dann",
+       "단"
+      ],
+      [
+       "nehmen",
+       "nehmen",
+       "네멘"
+      ],
+      [
+       "Stück",
+       "Stück",
+       "슈튁"
+      ]
      ]
     },
     {
@@ -203,6 +394,23 @@
      "note": "einladen = 초대하다·사다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Perfekt",
+       "perfekt",
+       "페어펙트"
+      ],
+      [
+       "lade",
+       "laden",
+       "라덴"
+      ],
+      [
+       "ein",
+       "ein",
+       "아인"
+      ]
      ]
     },
     {
@@ -214,6 +422,18 @@
      "note": "zahlen = 지불하다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "heute",
+       "heute",
+       "호이테"
+      ],
+      [
+       "zahle",
+       "zahlen",
+       "찰렌"
+      ]
      ]
     }
    ]
@@ -233,6 +453,18 @@
      "note": "wo = 어디",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Entschuldigung",
+       "Entschuldigung",
+       "엔트슐디궁"
+      ],
+      [
+       "Museum",
+       "Museum",
+       ""
+      ]
      ]
     },
     {
@@ -244,6 +476,23 @@
      "note": "geradeaus = 직진",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "geradeaus",
+       "geradeaus",
+       "게라데아우스"
+      ],
+      [
+       "dann",
+       "dann",
+       "단"
+      ],
+      [
+       "links",
+       "links",
+       "링크스"
+      ]
      ]
     },
     {
@@ -255,6 +504,13 @@
      "note": "weit = 먼",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "weit",
+       "weit",
+       "바이트"
+      ]
      ]
     },
     {
@@ -266,6 +522,23 @@
      "note": "zu Fuß = 걸어서",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "nur",
+       "nur",
+       "누어"
+      ],
+      [
+       "Minuten",
+       "Minute",
+       "미누테"
+      ],
+      [
+       "Fuß",
+       "Fuß",
+       "푸스"
+      ]
      ]
     },
     {
@@ -277,6 +550,18 @@
      "note": "geöffnet = 열린",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "heute",
+       "heute",
+       "호이테"
+      ],
+      [
+       "geöffnet",
+       "öffnen",
+       "외프넨"
+      ]
      ]
     },
     {
@@ -288,6 +573,13 @@
      "note": "bis = ~까지",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Uhr",
+       "Uhr",
+       "우어"
+      ]
      ]
     },
     {
@@ -299,6 +591,13 @@
      "note": "mitkommen = 같이 가다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Kommst",
+       "kommen",
+       "코멘"
+      ]
      ]
     },
     {
@@ -310,6 +609,23 @@
      "note": "gerne = 기꺼이",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Gerne",
+       "gern",
+       "게언"
+      ],
+      [
+       "liebe",
+       "lieben",
+       "리벤"
+      ],
+      [
+       "Kunst",
+       "Kunst",
+       "쿤스트"
+      ]
      ]
     }
    ]
@@ -329,6 +645,18 @@
      "note": "am + 요일",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Samstag",
+       "Samstag",
+       ""
+      ],
+      [
+       "Zeit",
+       "Zeit",
+       "차이트"
+      ]
      ]
     },
     {
@@ -340,6 +668,23 @@
      "note": "frei haben = 쉬다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "habe",
+       "haben",
+       "하벤"
+      ],
+      [
+       "frei",
+       "frei",
+       "프라이"
+      ],
+      [
+       "machen",
+       "machen",
+       "마헨"
+      ]
      ]
     },
     {
@@ -351,6 +696,18 @@
      "note": "könnten = ~할 수 있을 텐데",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Kino",
+       "Kino",
+       "키노"
+      ],
+      [
+       "gehen",
+       "gehen",
+       "게엔"
+      ]
      ]
     },
     {
@@ -362,6 +719,23 @@
      "note": "um wie viel Uhr = 몇 시에",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Gute",
+       "gut",
+       "구트"
+      ],
+      [
+       "Idee",
+       "Idee",
+       "이데"
+      ],
+      [
+       "Uhr",
+       "Uhr",
+       "우어"
+      ]
      ]
     },
     {
@@ -373,6 +747,18 @@
      "note": "danach = 그 후에",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Danach",
+       "danach",
+       "다나흐"
+      ],
+      [
+       "essen",
+       "essen",
+       "에센"
+      ]
      ]
     },
     {
@@ -384,6 +770,28 @@
      "note": "sich treffen = 만나다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Klingt",
+       "klingen",
+       "클링엔"
+      ],
+      [
+       "gut",
+       "gut",
+       "구트"
+      ],
+      [
+       "Wo",
+       "wo",
+       "보"
+      ],
+      [
+       "treffen",
+       "treffen",
+       "트레펜"
+      ]
      ]
     },
     {
@@ -395,6 +803,13 @@
      "note": "vor + 3격 = ~앞에",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Bahnhof",
+       "Bahnhof",
+       "반호프"
+      ]
      ]
     },
     {
@@ -406,6 +821,18 @@
      "note": "bis + 시간 = ~에 보자",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Okay",
+       "Okay",
+       ""
+      ],
+      [
+       "Samstag",
+       "Samstag",
+       ""
+      ]
      ]
     }
    ]
@@ -425,6 +852,23 @@
      "note": "war = ~였다(과거)",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Film",
+       "Film",
+       "필름"
+      ],
+      [
+       "wirklich",
+       "wirklich",
+       "비어클리히"
+      ],
+      [
+       "schön",
+       "schön",
+       "쇤"
+      ]
      ]
     },
     {
@@ -436,6 +880,18 @@
      "note": "aber = 하지만",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Ende",
+       "Ende",
+       "엔데"
+      ],
+      [
+       "traurig",
+       "traurig",
+       "트라우리히"
+      ]
      ]
     },
     {
@@ -447,6 +903,13 @@
      "note": "mit dir = 너와",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Filme",
+       "Film",
+       "필름"
+      ]
      ]
     },
     {
@@ -458,6 +921,23 @@
      "note": "auch = ~도",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "auch",
+       "auch",
+       "아우흐"
+      ],
+      [
+       "sehr",
+       "sehr",
+       "제어"
+      ],
+      [
+       "nett",
+       "nett",
+       "네트"
+      ]
      ]
     },
     {
@@ -469,6 +949,28 @@
      "note": "wieder = 다시",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Sehen",
+       "sehen",
+       "제엔"
+      ],
+      [
+       "nächste",
+       "nächst",
+       "네히스트"
+      ],
+      [
+       "Woche",
+       "Woche",
+       "보헤"
+      ],
+      [
+       "wieder",
+       "wieder",
+       "비더"
+      ]
      ]
     },
     {
@@ -480,6 +982,18 @@
      "note": "schreib = 써(명령)",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Natürlich",
+       "natürlich",
+       "나튀얼리히"
+      ],
+      [
+       "Schreib",
+       "schreiben",
+       "슈라이벤"
+      ]
      ]
     },
     {
@@ -491,6 +1005,23 @@
      "note": "Gute Nacht = 잘 자",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Mache",
+       "machen",
+       "마헨"
+      ],
+      [
+       "Gute",
+       "gut",
+       "구트"
+      ],
+      [
+       "Nacht",
+       "Nacht",
+       "나흐트"
+      ]
      ]
     },
     {
@@ -502,6 +1033,23 @@
      "note": "bis bald = 곧 보자",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "Gute",
+       "gut",
+       "구트"
+      ],
+      [
+       "Nacht",
+       "Nacht",
+       "나흐트"
+      ],
+      [
+       "bald",
+       "bald",
+       "발트"
+      ]
      ]
     }
    ]
