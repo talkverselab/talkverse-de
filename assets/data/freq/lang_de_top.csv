@@ -1499,3 +1499,8 @@ rank,word,reading,ko,en,pos,level,picturable
 1498,Klo,클로,화장실,toilet,noun-n,R5,Y
 1499,vergiften,페어기프텐,독살하다,poison,verb,R5,N
 1500,Montag,몬탁,월요일,Monday,noun-m,R5,N
+3001,Samstag,잠스탁,토요일,Saturday,noun-m,R5,N
+3002,Apfelkuchen,아펠쿠헨,사과 케이크,apple cake,noun-m,R5,Y
+3003,Favorit,파보리트,가장 좋아하는 것,favorite,noun-m,R5,N
+3004,Museum,무제움,박물관,museum,noun-n,R5,Y
+3005,Okay,오케이,오케이 · 알았어,okay,int,R5,N
