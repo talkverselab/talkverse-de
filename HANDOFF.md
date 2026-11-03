@@ -6,6 +6,8 @@ _2026-11-03 새로 씀. 앞 판(2026-10-11 메모·Zealot 확인 필요)은 이 
 - **회화·단어·예문·문법 설명 등 새 학습 콘텐츠 작성 금지**(2026-11-02 사용자 지시, 해제는 사용자 지시로). 회화 공통 원칙 링크·독일어 특이점은 CLAUDE.md 「화면 구성」.
 - 아이콘은 talkverse.uk 세션 담당(`~/talkverse/branding/TONE.md`) — 아이콘 파일 직접 수정 금지.
 - Grok 그림 요청은 한자 세션 경유(그림만, 글 시안은 이 세션이 직접). `~/talkverse/LANG_APP_REPLICATE_PROMPT.md` §9.
+- **Grok·Gemini 를 직접 쓸 때(2026-11-03 사용자 지시)**: 사용자 지시가 있을 때만 켠다(M4 에 미리 켜 두지 않음). 쿠키 복사는 M4 안에서만(`~/chrome-grok` → `~/chrome-grok-de/Default/`), M4 에서 자기 포트(`GROK_CHROME_PORTS.md`)로 띄우고 M6 에서 `ssh -fN -L <로컬>:127.0.0.1:<포트> macmini4` 터널. 첨부는 M4 `/tmp/grok_att/de/`. 한 번에 한 작업, 연 탭은 끝나면 닫고 Chrome 도 끈다. 상세 `~/talkverse/GROK_M4_LOGIN.md`, 예 `~/talkverse/ko/tools/grok_base.py`.
+- **회화를 쓰게 되면(반전 비율, 원칙 §9)**: 카오스 30% 이상, 연애·플러팅 편마다 심쿵 한 줄(여성 주도 편 더 많이), 편마다 `twist_type`(chaos·slip·reveal·emotion·ignore), 새 편은 왕초보·초급 위주, 그림 = A·B 쌍 1컷(말풍선·글자 없음, `CHARACTERS.md` 첨부).
 
 ## 현재 상태 (2026-11-03 00:50)
 | 항목 | 상태 |
