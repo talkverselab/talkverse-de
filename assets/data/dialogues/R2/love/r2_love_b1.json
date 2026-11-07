@@ -72,7 +72,8 @@
      "da",
      "다"
     ]
-   ]
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 2,
@@ -115,7 +116,8 @@
      "hier",
      "히어"
     ]
-   ]
+   ],
+   "emotion": "flustered"
   },
   {
    "num": 3,
@@ -148,7 +150,8 @@
      "leer",
      "레어"
     ]
-   ]
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 4,
@@ -175,6 +178,16 @@
      "langsam",
      "langsam",
      "랑잠"
+    ]
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Echt?"
+    ],
+    [
+     "flustered",
+     "… Na ja, ich trinke langsam."
     ]
    ]
   },
@@ -224,7 +237,8 @@
      "Seite",
      "자이테"
     ]
-   ]
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 6,
@@ -267,7 +281,8 @@
      "lernen",
      "레어넨"
     ]
-   ]
+   ],
+   "emotion": "flustered"
   },
   {
    "num": 7,
@@ -295,7 +310,8 @@
      "laut",
      "라우트"
     ]
-   ]
+   ],
+   "emotion": "gentle"
   },
   {
    "num": 8,
@@ -318,7 +334,8 @@
      "nur",
      "누어"
     ]
-   ]
+   ],
+   "emotion": "shy"
   },
   {
    "num": 9,
@@ -336,7 +353,8 @@
      "nur",
      "누어"
     ]
-   ]
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 10,
@@ -364,7 +382,8 @@
      "mia",
      ""
     ]
-   ]
+   ],
+   "emotion": "flustered"
   },
   {
    "num": 11,
@@ -417,6 +436,16 @@
      "langsam",
      "랑잠"
     ]
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Warte mal."
+    ],
+    [
+     "shy",
+     "Warum, glaubst du, mache ich jeden Abend so langsam zu?"
+    ]
    ]
   },
   {
@@ -450,7 +479,8 @@
      "bitte",
      "비테"
     ]
-   ]
+   ],
+   "emotion": "shy"
   }
  ]
 }

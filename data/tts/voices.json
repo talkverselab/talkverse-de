@@ -133,5 +133,13 @@
    "rd": "엥글리슈",
    "ko": "영어"
   }
+ },
+ "cast": {
+  "Lena": "lena",
+  "Mia": "mia",
+  "Jonas": "jonas",
+  "Felix": "felix",
+  "Verkäuferin": "woman_m",
+  "Frau Becker": "woman_o"
  }
 }

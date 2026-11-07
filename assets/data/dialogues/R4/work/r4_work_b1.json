@@ -69,7 +69,8 @@
      "passen",
      "파센"
     ]
-   ]
+   ],
+   "emotion": "stiff"
   },
   {
    "num": 2,
@@ -107,7 +108,8 @@
      "morgen",
      "모어겐"
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 3,
@@ -160,7 +162,8 @@
      "Gefühl",
      "게퓔"
     ]
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 4,
@@ -198,7 +201,8 @@
      "sagen",
      "자겐"
     ]
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 5,
@@ -226,7 +230,8 @@
      "entschuldigen",
      "엔트슐디겐"
     ]
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 6,
@@ -254,7 +259,8 @@
      "denn",
      "덴"
     ]
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 7,
@@ -292,7 +298,8 @@
      "sagen",
      "자겐"
     ]
-   ]
+   ],
+   "emotion": "sad"
   },
   {
    "num": 8,
@@ -330,7 +337,8 @@
      "vorkommen",
      ""
     ]
-   ]
+   ],
+   "emotion": "amused"
   },
   {
    "num": 9,
@@ -353,7 +361,8 @@
      "meinen",
      "마이넨"
     ]
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 10,
@@ -401,7 +410,8 @@
      "sagen",
      "자겐"
     ]
-   ]
+   ],
+   "emotion": "amused"
   },
   {
    "num": 11,
@@ -424,7 +434,8 @@
      "ernsthaft",
      ""
     ]
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 12,
@@ -467,7 +478,8 @@
      "befördern",
      ""
     ]
-   ]
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 13,
@@ -490,7 +502,8 @@
      "gut",
      "구트"
     ]
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 14,
@@ -533,7 +546,8 @@
      "kündigen",
      "퀸디겐"
     ]
-   ]
+   ],
+   "emotion": "amused"
   }
  ]
 }

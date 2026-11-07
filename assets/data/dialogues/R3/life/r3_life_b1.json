@@ -63,7 +63,8 @@
      "heute",
      "호이테"
     ]
-   ]
+   ],
+   "emotion": "annoyed"
   },
   {
    "num": 2,
@@ -86,7 +87,8 @@
      "Problem",
      "프로블렘"
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 3,
@@ -134,7 +136,8 @@
      "Haus",
      "하우스"
     ]
-   ]
+   ],
+   "emotion": "annoyed"
   },
   {
    "num": 4,
@@ -182,6 +185,16 @@
      "hier",
      "히어"
     ]
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Oh, das wusste ich nicht."
+    ],
+    [
+     "stiff",
+     "Tut mir leid, ich wohne erst seit einer Woche hier."
+    ]
    ]
   },
   {
@@ -205,7 +218,8 @@
      "einziehen",
      ""
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 6,
@@ -243,7 +257,8 @@
      "wegbringen",
      ""
     ]
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 7,
@@ -276,7 +291,8 @@
      "schreiben",
      "슈라이벤"
     ]
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 8,
@@ -308,6 +324,16 @@
      "Regeln",
      "regeln",
      "레겔른"
+    ]
+   ],
+   "segs": [
+    [
+     "neutral",
+     "Ja, genau der."
+    ],
+    [
+     "worried",
+     "Er hat mir eine Liste gegeben. Mit zwölf Regeln."
     ]
    ]
   },
@@ -352,7 +378,8 @@
      "weiß",
      "바이스"
     ]
-   ]
+   ],
+   "emotion": "shout"
   },
   {
    "num": 10,
@@ -385,7 +412,8 @@
      "Haus",
      "하우스"
     ]
-   ]
+   ],
+   "emotion": "shout"
   },
   {
    "num": 11,
@@ -413,7 +441,8 @@
      "regeln",
      "레겔른"
     ]
-   ]
+   ],
+   "emotion": "stiff"
   },
   {
    "num": 12,
@@ -456,7 +485,8 @@
      "Ruhe",
      "루에"
     ]
-   ]
+   ],
+   "emotion": "tsukkomi"
   },
   {
    "num": 13,
@@ -494,7 +524,8 @@
      "Liste",
      "리스테"
     ]
-   ]
+   ],
+   "emotion": "amused"
   },
   {
    "num": 14,
@@ -522,7 +553,8 @@
      "rein",
      "라인"
     ]
-   ]
+   ],
+   "emotion": "flustered"
   },
   {
    "num": 15,
@@ -549,6 +581,16 @@
      "duzen",
      "du",
      "두"
+    ]
+   ],
+   "segs": [
+    [
+     "amused",
+     "Sie gefallen mir."
+    ],
+    [
+     "cheerful",
+     "Ich bin Renate. Wollen wir uns duzen?"
     ]
    ]
   },
@@ -587,6 +629,16 @@
      "Flaschen",
      "Flasche",
      "플라셰"
+    ]
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Gerne, Renate."
+    ],
+    [
+     "worried",
+     "Aber sag mal, was mache ich jetzt mit den Flaschen?"
     ]
    ]
   }

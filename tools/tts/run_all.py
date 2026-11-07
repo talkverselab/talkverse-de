@@ -50,8 +50,10 @@ def refs():
     log('참고 음성 끝')
 
 
+sh(sys.executable, f'{HERE}/make_plan.py')   # 회화 파일의 emotion·segs → 감정 계획
 refs()
 done = set(open(f'{work}/done.txt').read().split()) if os.path.exists(f'{work}/done.txt') else set()
+import importlib; importlib.reload(L)
 ids = [e for e in L.planned() if e not in done]
 log('남은 편', len(ids))
 for i in range(0, len(ids), N):

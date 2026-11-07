@@ -23,6 +23,7 @@ CHAT_WORDS = 8
 TWISTS = {'chaos', 'slip', 'reveal', 'emotion', 'ignore'}
 REQ = ('id', 'region', 'island', 'kind', 'title', 'emoji', 'scene', 'speakers', 'register', 'twist', 'twist_type', 'expressions', 'turns')
 W = r"[A-Za-zÄÖÜäöüß]+"
+EMOTIONS = set(json.load(open(os.path.join(ROOT, 'data/tts/voices.json'), encoding='utf-8'))['emotions'])
 RANK = {}
 with open(os.path.join(ROOT, 'assets/data/freq/lang_de_top.csv'), encoding='utf-8') as f:
     for r in csv.DictReader(f):
@@ -80,11 +81,18 @@ def main():
             msg.append(f'표현 풀 {hits}개(최소 2)')
         wmax = CHAT_WORDS if ep['kind'] == 'chat' and lv in ('R0', 'R1') else WORDS.get(lv, 99)
         changed = False
+        all_emo = set()
         for t in turns:
             es = t.get('es', '')
             n = nwords(es)
             if n > wmax:
                 msg.append(f'{t["num"]}번 {n}단어(최대 {wmax})')
+            if re.search(W, es) and not (t.get('emotion') or t.get('segs')):
+                msg.append(f'{t["num"]}번 emotion·segs 없음')
+            emos = [x[0] for x in t.get('segs') or []] + ([t['emotion']] if t.get('emotion') else [])
+            if any(x not in EMOTIONS for x in emos):
+                msg.append(f'{t["num"]}번 감정 {emos}')
+            all_emo.update(emos)
             if not t.get('ko'):
                 msg.append(f'{t["num"]}번 ko 없음')
             if t.get('speaker') not in ep['speakers']:
@@ -104,6 +112,8 @@ def main():
                 msg.append(f'{t["num"]}번 polite 편에 du')
             if ep['register'] in ('casual', 'chat') and 'Sie' in re.findall(W, es)[1:] and not ep.get('duzen'):
                 msg.append(f'{t["num"]}번 casual 편에 Sie?')
+        if all_emo == {'neutral'}:
+            msg.append('감정이 neutral 뿐')
         if '{name}' not in json.dumps(ep['speakers'], ensure_ascii=False):
             msg.append('A 가 {name} 아님')
         if changed:

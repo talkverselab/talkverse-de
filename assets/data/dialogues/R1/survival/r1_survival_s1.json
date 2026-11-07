@@ -36,7 +36,8 @@
    "tags": [
     "draft"
    ],
-   "lemmas": []
+   "lemmas": [],
+   "emotion": "polite"
   },
   {
    "num": 2,
@@ -59,7 +60,8 @@
      "bitte",
      "비테"
     ]
-   ]
+   ],
+   "emotion": "stiff"
   },
   {
    "num": 3,
@@ -82,7 +84,8 @@
      "Butter",
      ""
     ]
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 4,
@@ -94,7 +97,8 @@
    "tags": [
     "draft"
    ],
-   "lemmas": []
+   "lemmas": [],
+   "emotion": "stiff"
   },
   {
    "num": 5,
@@ -117,7 +121,8 @@
      "Kaffee",
      "카페"
     ]
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 6,
@@ -135,7 +140,8 @@
      "bitte",
      "비테"
     ]
-   ]
+   ],
+   "emotion": "flustered"
   },
   {
    "num": 7,
@@ -173,7 +179,8 @@
      "Euro",
      "오이로"
     ]
-   ]
+   ],
+   "emotion": "polite"
   },
   {
    "num": 8,
@@ -200,6 +207,16 @@
      "Euro",
      "Euro",
      "오이로"
+    ]
+   ],
+   "segs": [
+    [
+     "shout",
+     "Wie bitte? Vierzehn Euro?"
+    ],
+    [
+     "flustered",
+     "… Ja, bitte."
     ]
    ]
   }
