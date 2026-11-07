@@ -41,6 +41,7 @@ _2026-11-03 새로 씀. 앞 판(2026-10-11 메모·Zealot 확인 필요)은 이 
 - 앞으로 쓰는 회화는 턴마다 `emotion`(`~/talkverse/ja/data/tts/PLAN_GUIDE.md` 의 16개), 감정이 바뀌는 턴은 `segs` 를 함께 쓴다(사용자 지시, uk 전달). 초안 4편은 `data/tts/plan/` 에 감정 계획이 있다.
 - 감정 계획은 손으로 쓰지 않는다: 회화 파일의 `emotion`·`segs` → `tools/tts/make_plan.py` → `data/tts/plan/`(run_all 이 시작할 때 부름). 고정 인물·조연의 목소리는 `data/tts/voices.json` 의 `cast`. 검사기가 감정 없는 턴을 오류로 잡는다.
 - 음성: 4편 86조각 생성 끝(100줄, 약 347초), R2 에만 올렸고 D1 `audio_lines` 에는 넣지 않았다(`NO_DB=1`, 초안이라서). 넣으려면 `tools/tts/pack.py <wav폴더> <편id>... --upload`. 작업 폴더 `~/tts_work/de`.
+- 사용자 청취 "독일어 품질 안좋아" → 점검 결과·개선안 `docs/AUDIO_QA_DE.md`. 전편·재생성 순서는 uk 가 잡는다. 11번 재생성 "지금 시작" 도 이 개선안 결정 뒤로 본다.
 - 다시 만들 조각: `r2_love_b1` 11번 「Warte mal.」이 받아쓰기로 「Fatima!」(짧은 조각 불안정) — 턴 11 을 한 조각(`emotion: shy`)으로 합쳐 재생성한다. PC 차례를 uk 에 받은 뒤. R1 8번 두 조각은 숫자가 14 로 받아써진 것뿐이라 정상.
 - 레마는 `tools/add_lemmas.py` 그대로(사용자 지시로 고치지 않음). 소형 모델 오류(Taß·Hättest·Gute)가 남아 있다.
 

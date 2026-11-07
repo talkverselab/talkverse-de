@@ -437,16 +437,7 @@
      "랑잠"
     ]
    ],
-   "segs": [
-    [
-     "cheerful",
-     "Warte mal."
-    ],
-    [
-     "shy",
-     "Warum, glaubst du, mache ich jeden Abend so langsam zu?"
-    ]
-   ]
+   "emotion": "shy"
   },
   {
    "num": 12,
