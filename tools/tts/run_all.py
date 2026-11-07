@@ -85,7 +85,7 @@ for i in range(0, len(ids), N):
         for ep in eps:
             fetch(f'retake/{ep}')
     for ep in eps:
-        r = sh(sys.executable, f'{HERE}/pack.py', f'{work}/wav', ep, '--upload', check=False)
+        r = sh(sys.executable, f'{HERE}/pack.py', f'{work}/wav', ep, '--upload', *(['--no-db'] if os.environ.get('NO_DB') else []), check=False)
         if r.returncode:
             log('실패', ep, (r.stderr or r.stdout)[-300:]); continue
         log(r.stdout.strip()); open(f'{work}/done.txt', 'a').write(ep + '\n')
