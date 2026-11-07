@@ -1,0 +1,207 @@
+{
+ "id": "r1_survival_s1",
+ "region": "R1",
+ "island": "survival",
+ "kind": "survival",
+ "title": "네, 네, 네",
+ "emoji": "🥨",
+ "scene": "베를린 빵집. 브레첼 하나만 사러 왔는데 「Ja, bitte」밖에 말을 못 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Verkäuferin"
+ },
+ "register": "polite",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "ordering"
+ ],
+ "domain": [
+  "survival"
+ ],
+ "expressions": [
+  "Gerne",
+  "Wie bitte?"
+ ],
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Hallo! Was möchten Sie?",
+   "rd": "할로! 바스 뫼히텐 지?",
+   "ko": "안녕하세요! 뭐 드릴까요?",
+   "note": "möchten = ~하고 싶다(정중)",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Eine Brezel, bitte.",
+   "rd": "아이네 브레첼, 비테.",
+   "ko": "브레첼 하나 주세요.",
+   "note": "bitte = 주문 끝에 붙이는 말",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": [
+    [
+     "Brezel",
+     "Brezel",
+     ""
+    ],
+    [
+     "bitte",
+     "bitte",
+     "비테"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Gerne. Mit Butter?",
+   "rd": "게르네. 미트 부터?",
+   "ko": "네. 버터 넣어 드릴까요?",
+   "note": "mit = ~와 함께",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": [
+    [
+     "Gerne",
+     "gern",
+     "게언"
+    ],
+    [
+     "Butter",
+     "Butter",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Ja, bitte.",
+   "rd": "야, 비테.",
+   "ko": "네, 주세요.",
+   "note": "Ja, bitte = 네, 주세요",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Und noch einen Kaffee?",
+   "rd": "운트 노흐 아이넨 카페?",
+   "ko": "커피도 한 잔 드릴까요?",
+   "note": "noch = 더, 추가로",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": [
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "Kaffee",
+     "Kaffee",
+     "카페"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Ja … ja, bitte.",
+   "rd": "야 … 야, 비테.",
+   "ko": "네… 네, 주세요.",
+   "note": "거절할 말이 안 떠오른다",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": [
+    [
+     "bitte",
+     "bitte",
+     "비테"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "es": "Und ein Stück Kuchen? Das macht dann vierzehn Euro.",
+   "rd": "운트 아인 슈튁 쿠헨? 다스 마흐트 단 피어첸 오이로.",
+   "ko": "케이크도 한 조각요? 그럼 14유로입니다.",
+   "note": "Das macht … = 합계 …입니다",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": [
+    [
+     "Stück",
+     "Stück",
+     "슈튁"
+    ],
+    [
+     "Kuchen",
+     "Kuchen",
+     "쿠헨"
+    ],
+    [
+     "macht",
+     "machen",
+     "마헨"
+    ],
+    [
+     "dann",
+     "dann",
+     "단"
+    ],
+    [
+     "Euro",
+     "Euro",
+     "오이로"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "es": "Wie bitte? Vierzehn Euro? … Ja, bitte.",
+   "rd": "비 비테? 피어첸 오이로? … 야, 비테.",
+   "ko": "네? 14유로요? …네, 주세요.",
+   "note": "Wie bitte? = 네? 뭐라고요?",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": [
+    [
+     "Wie",
+     "wie",
+     "비"
+    ],
+    [
+     "bitte",
+     "bitte",
+     "비테"
+    ],
+    [
+     "Euro",
+     "Euro",
+     "오이로"
+    ]
+   ]
+  }
+ ]
+}

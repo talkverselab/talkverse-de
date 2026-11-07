@@ -1,0 +1,456 @@
+{
+ "id": "r2_love_b1",
+ "region": "R2",
+ "island": "love",
+ "kind": "long",
+ "title": "마지막 손님",
+ "emoji": "☕",
+ "scene": "문 닫기 직전의 카페. 매일 끝까지 남는 학습자에게 Mia 가 먼저 말을 건다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "casual",
+ "twist": 11,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Echt?",
+  "Na ja",
+  "Sag mal",
+  "Warte mal",
+  "Bis morgen"
+ ],
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Wir machen gleich zu. Du bist ja immer noch da.",
+   "rd": "비어 마헨 글라이히 추. 두 비스트 야 이머 노흐 다.",
+   "ko": "우리 곧 문 닫아. 너 아직도 있네.",
+   "note": "zumachen = 닫다(분리동사)",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": [
+    [
+     "machen",
+     "machen",
+     "마헨"
+    ],
+    [
+     "gleich",
+     "gleich",
+     "글라이히"
+    ],
+    [
+     "ja",
+     "ja",
+     "야"
+    ],
+    [
+     "immer",
+     "immer",
+     "이머"
+    ],
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Ich lerne noch ein bisschen Deutsch. Der Kaffee ist gut hier.",
+   "rd": "이히 레르네 노흐 아인 비스헨 도이치. 데어 카페 이스트 구트 히어.",
+   "ko": "독일어 조금만 더 하고. 여기 커피 맛있어서.",
+   "note": "ein bisschen = 조금",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": [
+    [
+     "lerne",
+     "lernen",
+     "레어넨"
+    ],
+    [
+     "bisschen",
+     "bisschen",
+     "비스헨"
+    ],
+    [
+     "Deutsch",
+     "deutsch",
+     "도이치"
+    ],
+    [
+     "Kaffee",
+     "Kaffee",
+     "카페"
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
+    ],
+    [
+     "hier",
+     "hier",
+     "히어"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Der Kaffee? Die Tasse ist seit zwei Stunden leer.",
+   "rd": "데어 카페? 디 타세 이스트 자이트 츠바이 슈툰덴 레어.",
+   "ko": "커피? 그 잔 두 시간 전부터 비어 있는데.",
+   "note": "seit = ~ 전부터",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": [
+    [
+     "Kaffee",
+     "Kaffee",
+     "카페"
+    ],
+    [
+     "Tasse",
+     "Taß",
+     ""
+    ],
+    [
+     "Stunden",
+     "Stunde",
+     "슈툰데"
+    ],
+    [
+     "leer",
+     "leer",
+     "레어"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Echt? … Na ja, ich trinke langsam.",
+   "rd": "에히트? … 나 야, 이히 트링케 랑잠.",
+   "ko": "진짜? …뭐, 내가 천천히 마시거든.",
+   "note": "Na ja = 글쎄, 뭐",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": [
+    [
+     "Echt",
+     "echt",
+     "에히트"
+    ],
+    [
+     "trinke",
+     "trinken",
+     "트링켄"
+    ],
+    [
+     "langsam",
+     "langsam",
+     "랑잠"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Sag mal, lernst du wirklich? Dein Buch ist immer noch auf Seite zwölf.",
+   "rd": "자크 말, 레른스트 두 비어클리히? 다인 부흐 이스트 이머 노흐 아우프 자이테 츠뵐프.",
+   "ko": "있잖아, 진짜 공부하는 거 맞아? 네 책 아직도 12쪽이야.",
+   "note": "Sag mal = 있잖아",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": [
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "lernst",
+     "lernen",
+     "레어넨"
+    ],
+    [
+     "wirklich",
+     "wirklich",
+     "비어클리히"
+    ],
+    [
+     "Buch",
+     "Buch",
+     "부흐"
+    ],
+    [
+     "immer",
+     "immer",
+     "이머"
+    ],
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "Seite",
+     "Seite",
+     "자이테"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Okay, stimmt. Ich kann hier nicht so gut lernen.",
+   "rd": "오케이, 슈팀트. 이히 칸 히어 니히트 조 구트 레어넨.",
+   "ko": "그래, 맞아. 여기선 공부가 잘 안 돼.",
+   "note": "stimmt = 맞아",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": [
+    [
+     "Okay",
+     "Okay",
+     "오케이"
+    ],
+    [
+     "stimmt",
+     "stimmen",
+     "슈티멘"
+    ],
+    [
+     "hier",
+     "hier",
+     "히어"
+    ],
+    [
+     "so",
+     "so",
+     "조"
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
+    ],
+    [
+     "lernen",
+     "lernen",
+     "레어넨"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "es": "Warum nicht? Ist die Musik zu laut?",
+   "rd": "바룸 니히트? 이스트 디 무지크 추 라우트?",
+   "ko": "왜? 음악이 너무 시끄러워?",
+   "note": "zu = 너무",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": [
+    [
+     "Warum",
+     "warum",
+     "바룸"
+    ],
+    [
+     "Musik",
+     "Musik",
+     "무지크"
+    ],
+    [
+     "laut",
+     "laut",
+     "라우트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "es": "Nein, gar nicht. Es ist nur …",
+   "rd": "나인, 가어 니히트. 에스 이스트 누어 …",
+   "ko": "아니, 전혀. 그냥…",
+   "note": "말끝을 흐린다",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": [
+    [
+     "gar",
+     "gar",
+     "가어"
+    ],
+    [
+     "nur",
+     "nur",
+     "누어"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "es": "Nur was?",
+   "rd": "누어 바스?",
+   "ko": "그냥 뭐?",
+   "note": "짧게 되묻기",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": [
+    [
+     "Nur",
+     "nur",
+     "누어"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "es": "Ach, egal. Bis morgen, Mia.",
+   "rd": "아흐, 에갈. 비스 모어겐, 미아.",
+   "ko": "아, 아니야. 내일 봐, 미아.",
+   "note": "egal = 상관없어",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": [
+    [
+     "egal",
+     "egal",
+     "에갈"
+    ],
+    [
+     "morgen",
+     "morgen",
+     "모어겐"
+    ],
+    [
+     "Mia",
+     "mia",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "es": "Warte mal. Warum, glaubst du, mache ich jeden Abend so langsam zu?",
+   "rd": "바르테 말. 바룸, 글라웁스트 두, 마헤 이히 예덴 아벤트 조 랑잠 추?",
+   "ko": "잠깐만. 내가 왜 매일 저녁 이렇게 천천히 닫는 것 같아?",
+   "note": "warum, glaubst du = 왜 그런 것 같아",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": [
+    [
+     "Warte",
+     "warten",
+     "바어텐"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "Warum",
+     "warum",
+     "바룸"
+    ],
+    [
+     "glaubst",
+     "glauben",
+     "글라우벤"
+    ],
+    [
+     "mache",
+     "machen",
+     "마헨"
+    ],
+    [
+     "Abend",
+     "Abend",
+     "아벤트"
+    ],
+    [
+     "so",
+     "so",
+     "조"
+    ],
+    [
+     "langsam",
+     "langsam",
+     "랑잠"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "es": "Dann … noch einen Kaffee, bitte.",
+   "rd": "단 … 노흐 아이넨 카페, 비테.",
+   "ko": "그럼… 커피 한 잔 더 줘.",
+   "note": "dann = 그럼",
+   "tags": [
+    "draft"
+   ],
+   "lemmas": [
+    [
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "Kaffee",
+     "Kaffee",
+     "카페"
+    ],
+    [
+     "bitte",
+     "bitte",
+     "비테"
+    ]
+   ]
+  }
+ ]
+}

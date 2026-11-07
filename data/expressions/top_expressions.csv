@@ -1,0 +1,78 @@
+expr,rd,ko,register,scene,note
+Genau,게나우,맞아,both,리액션,가장 흔한 맞장구
+Stimmt,슈팀트,그러네,both,리액션,상대 말 인정
+Echt?,에히트,진짜?,casual,리액션,놀람
+Krass,크라스,대박,casual,리액션,놀람·감탄
+Ach so,아흐 조,아 그렇구나,both,리액션,이해했을 때
+Na ja,나 야,글쎄 뭐,both,리액션,미지근한 대답
+Na und?,나 운트,그래서 뭐?,casual,리액션,되받기
+Alles klar,알레스 클라어,알겠어,both,확인,가장 흔한 확인
+Passt,파스트,좋아·됐어,casual,확인,괜찮다는 짧은 말
+Geht klar,게트 클라어,오케이,casual,확인,승낙
+Kein Problem,카인 프로블렘,문제없어,both,확인,
+Keine Ahnung,카이네 아눙,몰라,casual,리액션,전혀 모를 때
+Keine Sorge,카이네 조르게,걱정 마,both,위로,
+Macht nichts,마흐트 니히츠,괜찮아,both,위로,사과에 대한 대답
+Schon gut,숀 구트,됐어 괜찮아,both,위로,
+Schade,샤데,아쉽다,both,리액션,
+Mist,미스트,망했다,casual,리액션,가벼운 욕
+Oh Mann,오 만,아 이런,casual,리액션,한탄
+Quatsch,크바치,말도 안 돼,casual,리액션,부정
+Sag mal,자크 말,있잖아,casual,말 걸기,말 꺼낼 때
+Warte mal,바르테 말,잠깐만,casual,말 걸기,
+Moment mal,모멘트 말,잠깐만요,both,말 걸기,
+Mal sehen,말 제엔,두고 보자,both,미룸,
+Na klar,나 클라어,당연하지,both,승낙,
+Klar,클라어,당연하지,both,승낙,
+Gerne,게르네,기꺼이,both,승낙,
+Auf keinen Fall,아우프 카이넨 팔,절대 안 돼,both,거절,
+Lieber nicht,리버 니히트,안 하는 게 낫겠어,both,거절,
+Ich auch,이히 아우흐,나도,both,리액션,
+Ich auch nicht,이히 아우흐 니히트,나도 아니야,both,리액션,
+Doch,도흐,아니 맞거든,both,반박,부정 질문을 뒤집을 때
+Oder?,오더,그렇지?,both,말끝,
+Ne?,네,그치?,casual,말끝,
+Wie bitte?,비 비테,네? 뭐라고요?,polite,되묻기,
+"Noch einmal, bitte",노흐 아인말 비테,한 번 더요,polite,되묻기,
+"Langsamer, bitte",랑자머 비테,더 천천히요,polite,되묻기,
+Entschuldigung,엔트슐디궁,실례합니다,polite,말 걸기,
+Tut mir leid,투트 미어 라이트,미안해,both,사과,
+Das war's,다스 바르스,그게 다예요,polite,가게,주문 끝낼 때
+Zusammen oder getrennt?,추자멘 오더 게트렌트,같이요 따로요?,polite,가게,계산할 때 듣는 말
+Stimmt so,슈팀트 조,잔돈은 됐어요,polite,가게,팁
+Bar oder mit Karte?,바 오더 미트 카르테,현금요 카드요?,polite,가게,
+Schönen Tag noch,쇠넨 타크 노흐,좋은 하루 되세요,polite,헤어짐,
+Mach's gut,마흐스 구트,잘 지내,casual,헤어짐,
+Bis dann,비스 단,그때 봐,casual,헤어짐,
+Bis später,비스 슈페터,이따 봐,casual,헤어짐,
+Tschüss,취스,안녕,both,헤어짐,
+Wie geht's?,비 게츠,잘 지내?,casual,인사,
+Was geht?,바스 게트,뭐해·요즘 어때?,casual,인사,
+Na?,나,어때?,casual,인사,짧은 인사
+Lecker,레커,맛있다,both,식사,
+Mega,메가,완전,casual,강조,
+Voll,폴,완전,casual,강조,
+Eigentlich,아이겐틀리히,사실은,both,말머리,
+Irgendwie,이르겐트비,왠지,both,말머리,
+Ehrlich?,에어리히,솔직히?,casual,리액션,
+Ernsthaft?,에른스트하프트,진심이야?,casual,리액션,
+Wirklich?,비어클리히,정말?,both,리액션,
+Zum Glück,춤 글뤼크,다행히,both,리액션,
+Leider,라이더,유감스럽게도,both,말머리,
+Ist mir egal,이스트 미어 에갈,난 상관없어,casual,리액션,
+Egal,에갈,상관없어,casual,리액션,
+Gute Idee,구테 이데,좋은 생각이야,both,승낙,
+Komm schon,콤 숀,에이 왜 그래,casual,설득,
+Ach komm,아흐 콤,아이 참,casual,설득,
+Hör auf,회어 아우프,그만해,casual,놀림,
+Das gibt's doch nicht,다스 깁츠 도흐 니히트,말도 안 돼,both,리액션,
+Das ist mir peinlich,다스 이스트 미어 파인리히,창피해,both,감정,
+Ich hab's vergessen,이히 합스 페어게센,깜빡했어,casual,실수,
+Ich bin gleich da,이히 빈 글라이히 다,금방 도착해,casual,약속,
+Pünktlich,퓡크틀리히,정시에,both,약속,독일 농담의 단골
+Feierabend,파이어아벤트,퇴근,both,생활,
+Bis morgen,비스 모어겐,내일 봐,both,헤어짐,
+Schlaf gut,슐라프 구트,잘 자,casual,헤어짐,
+Süß,쥐스,귀엽다,casual,연애,
+Du spinnst,두 슈핀스트,너 미쳤어,casual,놀림,
+Wollen wir uns duzen?,볼렌 비어 운스 두첸,말 놓을까요?,polite,관계,du 전환
