@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """독일어 음성 개선 시험(2026-11-07, docs/AUDIO_QA_DE.md ②③⑤): r1_survival_s1 을 MOSS 개선판·VoxCPM2 판으로 만들고 r2_love_b1 11번을 다시 만든다. D1 은 건드리지 않는다.
   TTS_OUT=de_v2 <venv>/bin/python tools/tts/trial.py <작업폴더>      venv = mlx-whisper 가 있는 파이썬. PC 는 한 번에 한 세션 — uk 의 "지금 시작" 뒤에 돌린다.
-순서: 참고 음성(잡음 바닥 -60dB 넘으면 내려받아 잡음을 줄여 되돌림) → 문장 → 받아쓰기 검사·재생성 → 묶어서 R2 → 리뷰 페이지."""
+순서: 참고 음성(잡음 -60dB·음색 상관 0.90 미달은 seed 를 바꿔 세 번까지) → 문장 → 받아쓰기 검사·재생성 → 묶어서 R2 → 리뷰 페이지."""
 import glob, json, os, shutil, subprocess, sys, time
+import numpy as np
 import ttslib as L
 import qa
 PC = 'Administrator@100.127.143.37'; HERE = os.path.dirname(os.path.abspath(__file__))
@@ -28,7 +29,7 @@ def pc_run():
         if os.path.exists(f'{job}/{n}'):
             sh('scp', '-q', f'{job}/{n}', f'{PC}:D:/tts_test/job/')
         else:
-            sh('ssh', PC, f'Remove-Item D:\\tts_test\\job\\{n} -ErrorAction SilentlyContinue')
+            sh('ssh', PC, f'Remove-Item D:\\tts_test\\job\\{n} -ErrorAction SilentlyContinue', check=False)
     sh('ssh', PC, "Start-ScheduledTask -TaskName 'TTS job 2060'")
     time.sleep(20)
     while 'Ready' not in state():
@@ -52,15 +53,53 @@ sh(sys.executable, f'{HERE}/make_plan.py', EP)
 log(sh(sys.executable, f'{HERE}/make_jobs.py', job, '--refs', EP, FIX).stdout.strip())
 pc_run()
 sh('scp', '-q', f'{PC}:D:/tts_test/job/out/{L.REF}/*.wav', refd + '/', check=False)
-for f in sorted(glob.glob(f'{refd}/*.wav')):
+
+
+def timbre(f):
+    o = subprocess.run(['ffmpeg', '-v', 'error', '-i', f, '-ac', '1', '-ar', '16000', '-f', 'f32le', '-'], capture_output=True).stdout
+    x = np.frombuffer(o, np.float32); n = 512
+    fr = np.lib.stride_tricks.sliding_window_view(x, n)[::160] * np.hanning(n)
+    e = np.sqrt((fr ** 2).mean(1)); fr = fr[e > e.max() * .1]
+    S = np.abs(np.fft.rfft(fr, axis=1)) ** 2
+    B = np.log(np.stack([S[:, b].mean(1) for b in np.array_split(np.arange(S.shape[1]), 24)], 1) + 1e-9)
+    return B.mean(0) - B.mean()
+
+
+def ref_bad(f):
+    """참고 음성 기준(§5): 무음 구간 잡음 ≤ -60dB, 같은 목소리 기본 음성과 음색 상관 ≥ 0.90."""
+    why = []
     n = qa.floor(f)
-    if n > -60:
-        o = f + '.dn.wav'
-        sh('ffmpeg', '-y', '-v', 'error', '-i', f, '-af', 'afftdn=nf=-40,highpass=f=60', o)
-        os.replace(o, f)
-        sh('scp', '-q', f, f'{PC}:D:/tts_test/job/out/{L.REF}/')
-        log('잡음 줄임', os.path.basename(f), round(n, 1), '→', round(qa.floor(f), 1))
-log('참고 음성 끝')
+    if n is not None and n > -60:
+        why.append(f'잡음 {n:.1f}')
+    name = os.path.basename(f)[:-4].split('.')[0]; base = f"{refd}/{name.rsplit('_', 1)[0]}_base.wav"
+    if not name.endswith('_base'):
+        c = float(np.corrcoef(timbre(f), timbre(base))[0, 1])
+        if c < .90:
+            why.append(f'음색 {c:.2f}')
+    return why
+
+
+vox = {os.path.basename(j['out']): j for j in json.load(open(f'{job}/vox_jobs.json', encoding='utf-8'))}
+for rnd in range(1, 4):
+    bad = {os.path.basename(f): ref_bad(f) for f in sorted(glob.glob(f'{refd}/*.wav'))}
+    bad = {k: v for k, v in bad.items() if v}
+    log('참고 음성 미달', rnd, bad)
+    if not bad:
+        break
+    clear()
+    json.dump([{**vox[k], 'out': f"{vox[k]['out'][:-4]}.t{rnd}.wav", 'seed': 42 + 97 * rnd} for k in bad], open(f'{job}/vox_jobs.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
+    pc_run()
+    for k in bad:
+        c = f'{refd}/{k[:-4]}.t{rnd}.wav'
+        sh('scp', '-q', f"{PC}:D:/tts_test/job/out/{L.REF}/{k[:-4]}.t{rnd}.wav", c, check=False)
+        if os.path.exists(c):
+            if len(ref_bad(c)) < len(bad[k]) or not ref_bad(c):
+                os.replace(c, f'{refd}/{k}')
+                sh('scp', '-q', f'{refd}/{k}', f'{PC}:D:/tts_test/job/out/{L.REF}/{k}')
+            elif os.path.exists(c):
+                os.remove(c)
+left = {os.path.basename(f): ref_bad(f) for f in sorted(glob.glob(f'{refd}/*.wav')) if ref_bad(f)}
+log('참고 음성 끝, 남은 미달', left)
 
 # 2. 문장 — MOSS 개선판 + VoxCPM2 판 + 11번
 clear()

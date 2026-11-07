@@ -6,8 +6,8 @@
 "speaker": "woman_m",
 "emotion": "polite",
 "key": "audio/de/r1_survival_s1/01_m.mp4",
-"sha1": "fa9ae7ef7d417464cb8280c179871dce9d2ff1fe",
-"ms": 1616
+"sha1": "55e42e5a06029a825fd1ecda36800c8f46542135",
+"ms": 1637
 },
 {
 "turn": 1,
@@ -15,8 +15,8 @@
 "speaker": "woman_m",
 "emotion": "polite",
 "key": "audio/de/r1_survival_s1/01_f.mp4",
-"sha1": "fa9ae7ef7d417464cb8280c179871dce9d2ff1fe",
-"ms": 1616
+"sha1": "55e42e5a06029a825fd1ecda36800c8f46542135",
+"ms": 1637
 },
 {
 "turn": 2,
@@ -24,8 +24,8 @@
 "speaker": "am",
 "emotion": "stiff",
 "key": "audio/de/r1_survival_s1/02_m.mp4",
-"sha1": "c1efef9c0ad640005997857a3c191bbc31b62bcf",
-"ms": 1209
+"sha1": "b1d16886240a5b2f78d8b5469946fdac1c290a7b",
+"ms": 1216
 },
 {
 "turn": 2,
@@ -33,8 +33,8 @@
 "speaker": "af",
 "emotion": "stiff",
 "key": "audio/de/r1_survival_s1/02_f.mp4",
-"sha1": "0267ca8c7ad00ca4e46ecf1ba7cb9d6800f7fd7e",
-"ms": 1376
+"sha1": "77a717f42d19fde891504afeed2a6a9ed4d4bf7a",
+"ms": 1374
 },
 {
 "turn": 3,
@@ -42,8 +42,8 @@
 "speaker": "woman_m",
 "emotion": "polite",
 "key": "audio/de/r1_survival_s1/03_m.mp4",
-"sha1": "c73c53fb111f2c072958ea7f04e2bc66aabdbbfe",
-"ms": 1352
+"sha1": "f14826c5c47d8353bcd2b2870deb20631e129bf4",
+"ms": 1431
 },
 {
 "turn": 3,
@@ -51,8 +51,8 @@
 "speaker": "woman_m",
 "emotion": "polite",
 "key": "audio/de/r1_survival_s1/03_f.mp4",
-"sha1": "c73c53fb111f2c072958ea7f04e2bc66aabdbbfe",
-"ms": 1352
+"sha1": "f14826c5c47d8353bcd2b2870deb20631e129bf4",
+"ms": 1431
 },
 {
 "turn": 4,
@@ -60,8 +60,8 @@
 "speaker": "am",
 "emotion": "stiff",
 "key": "audio/de/r1_survival_s1/04_m.mp4",
-"sha1": "8cf6099de63271ca226be4ec8027d3a875fb6407",
-"ms": 927
+"sha1": "cf37b645b9b66a17564130a61c95d7d1b0fce91e",
+"ms": 666
 },
 {
 "turn": 4,
@@ -69,8 +69,8 @@
 "speaker": "af",
 "emotion": "stiff",
 "key": "audio/de/r1_survival_s1/04_f.mp4",
-"sha1": "95bfd02ace245f2a88228b2af96db41487e51707",
-"ms": 1143
+"sha1": "3a40424dfd552db5c0ffb91fe2bb42b8afe1ee80",
+"ms": 1993
 },
 {
 "turn": 5,
@@ -78,8 +78,8 @@
 "speaker": "woman_m",
 "emotion": "polite",
 "key": "audio/de/r1_survival_s1/05_m.mp4",
-"sha1": "cae1fbd5a135f11b5c6263cebfcbecd854bf4055",
-"ms": 1862
+"sha1": "14c74bd7d5c1f14c2ab93e3f820a9c9a74eb4220",
+"ms": 1953
 },
 {
 "turn": 5,
@@ -87,8 +87,8 @@
 "speaker": "woman_m",
 "emotion": "polite",
 "key": "audio/de/r1_survival_s1/05_f.mp4",
-"sha1": "cae1fbd5a135f11b5c6263cebfcbecd854bf4055",
-"ms": 1862
+"sha1": "14c74bd7d5c1f14c2ab93e3f820a9c9a74eb4220",
+"ms": 1953
 },
 {
 "turn": 6,
@@ -96,8 +96,8 @@
 "speaker": "am",
 "emotion": "flustered",
 "key": "audio/de/r1_survival_s1/06_m.mp4",
-"sha1": "a5c8ac88e8ba05356942b5567628566be9a274ec",
-"ms": 1290
+"sha1": "a91a93db403b9c18b5de06a22e4287bbfd61e8c9",
+"ms": 1337
 },
 {
 "turn": 6,
@@ -105,8 +105,8 @@
 "speaker": "af",
 "emotion": "flustered",
 "key": "audio/de/r1_survival_s1/06_f.mp4",
-"sha1": "66c5c3b11d6be223e42cc5a369be0b15f17e6708",
-"ms": 1547
+"sha1": "7803cf0e5ec393c521682a436dc99405935d5d59",
+"ms": 1052
 },
 {
 "turn": 7,
@@ -114,8 +114,8 @@
 "speaker": "woman_m",
 "emotion": "polite",
 "key": "audio/de/r1_survival_s1/07_m.mp4",
-"sha1": "67ee2e81b43489c6cff0ef62ee1889fd1c1f72b0",
-"ms": 3500
+"sha1": "88dc98efdd00fff0218170d31df4691adceb9cd6",
+"ms": 3200
 },
 {
 "turn": 7,
@@ -123,8 +123,8 @@
 "speaker": "woman_m",
 "emotion": "polite",
 "key": "audio/de/r1_survival_s1/07_f.mp4",
-"sha1": "67ee2e81b43489c6cff0ef62ee1889fd1c1f72b0",
-"ms": 3500
+"sha1": "88dc98efdd00fff0218170d31df4691adceb9cd6",
+"ms": 3200
 },
 {
 "turn": 8,
@@ -132,8 +132,8 @@
 "speaker": "am",
 "emotion": "shout+flustered",
 "key": "audio/de/r1_survival_s1/08_m.mp4",
-"sha1": "93d011909e7bb258859b35d0a0e42dce0368b5cd",
-"ms": 3100
+"sha1": "fcd95a3b17c4fb806835d49d3faed92f119991cf",
+"ms": 2300
 },
 {
 "turn": 8,
@@ -141,8 +141,8 @@
 "speaker": "af",
 "emotion": "shout+flustered",
 "key": "audio/de/r1_survival_s1/08_f.mp4",
-"sha1": "f1020ef20539ac0bd44f97d1f69b2b43db361d24",
-"ms": 3400
+"sha1": "d41848fefef4c301b8c820f9a4acaf977c953831",
+"ms": 2370
 }
 ],
 "r2_love_b1": [
@@ -206,7 +206,7 @@
 "speaker": "am",
 "emotion": "surprised+flustered",
 "key": "audio/de/r2_love_b1/04_m.mp4",
-"sha1": "d7c4d9cd2d962189784abaee1a265e439599f1b8",
+"sha1": "04da532bafc2ada28599a870e9f3eaabb49329ff",
 "ms": 3200
 },
 {
@@ -215,8 +215,8 @@
 "speaker": "af",
 "emotion": "surprised+flustered",
 "key": "audio/de/r2_love_b1/04_f.mp4",
-"sha1": "cdd7efa2f622923008b4dfe117589f35d26251fd",
-"ms": 2897
+"sha1": "2d1ad35aff17ca96164acd06454a620b488971a4",
+"ms": 2857
 },
 {
 "turn": 5,
@@ -330,19 +330,19 @@
 "turn": 11,
 "voice": "m",
 "speaker": "mia",
-"emotion": "cheerful+shy",
+"emotion": "shy",
 "key": "audio/de/r2_love_b1/11_m.mp4",
-"sha1": "a7d909fddb44e35ac0395bca737bc85933ff8a83",
-"ms": 4700
+"sha1": "e7ab24c66184678ab69d20e5027cf50dc847aa55",
+"ms": 4400
 },
 {
 "turn": 11,
 "voice": "f",
 "speaker": "mia",
-"emotion": "cheerful+shy",
+"emotion": "shy",
 "key": "audio/de/r2_love_b1/11_f.mp4",
-"sha1": "a7d909fddb44e35ac0395bca737bc85933ff8a83",
-"ms": 4700
+"sha1": "e7ab24c66184678ab69d20e5027cf50dc847aa55",
+"ms": 4400
 },
 {
 "turn": 12,
@@ -905,6 +905,152 @@
 "key": "audio/de/r4_work_b1/14_f.mp4",
 "sha1": "c3745728bf5a96e488687b6c14762b7b1647f891",
 "ms": 3400
+}
+],
+"r1_survival_s1_vox": [
+{
+"turn": 1,
+"voice": "m",
+"speaker": "woman_m",
+"emotion": "polite",
+"key": "audio/de/r1_survival_s1_vox/01_m.mp4",
+"sha1": "3b85a3167039df26d0e304f645c1283adf2d606a",
+"ms": 1337
+},
+{
+"turn": 1,
+"voice": "f",
+"speaker": "woman_m",
+"emotion": "polite",
+"key": "audio/de/r1_survival_s1_vox/01_f.mp4",
+"sha1": "3b85a3167039df26d0e304f645c1283adf2d606a",
+"ms": 1337
+},
+{
+"turn": 2,
+"voice": "m",
+"speaker": "am",
+"emotion": "stiff",
+"key": "audio/de/r1_survival_s1_vox/02_m.mp4",
+"sha1": "04a0d8bb7f6d154b3b29c72a64a0ec235cf5a8b4",
+"ms": 1138
+},
+{
+"turn": 2,
+"voice": "f",
+"speaker": "af",
+"emotion": "stiff",
+"key": "audio/de/r1_survival_s1_vox/02_f.mp4",
+"sha1": "aebcb8a0f78e8c01a273f463290ebc2ff2e0a3d6",
+"ms": 1157
+},
+{
+"turn": 3,
+"voice": "m",
+"speaker": "woman_m",
+"emotion": "polite",
+"key": "audio/de/r1_survival_s1_vox/03_m.mp4",
+"sha1": "fb587be7108c072681c19d4cb69f1cfd10cf600b",
+"ms": 1406
+},
+{
+"turn": 3,
+"voice": "f",
+"speaker": "woman_m",
+"emotion": "polite",
+"key": "audio/de/r1_survival_s1_vox/03_f.mp4",
+"sha1": "fb587be7108c072681c19d4cb69f1cfd10cf600b",
+"ms": 1406
+},
+{
+"turn": 4,
+"voice": "m",
+"speaker": "am",
+"emotion": "stiff",
+"key": "audio/de/r1_survival_s1_vox/04_m.mp4",
+"sha1": "e47c6eb28b551b60ac1121d725acda8faf4460ba",
+"ms": 1017
+},
+{
+"turn": 4,
+"voice": "f",
+"speaker": "af",
+"emotion": "stiff",
+"key": "audio/de/r1_survival_s1_vox/04_f.mp4",
+"sha1": "298397a1e90e82bed0f260adbf5b0074b53af037",
+"ms": 1080
+},
+{
+"turn": 5,
+"voice": "m",
+"speaker": "woman_m",
+"emotion": "polite",
+"key": "audio/de/r1_survival_s1_vox/05_m.mp4",
+"sha1": "ff6c983e6600672d122aaf43d5bef2b7fff8d950",
+"ms": 1216
+},
+{
+"turn": 5,
+"voice": "f",
+"speaker": "woman_m",
+"emotion": "polite",
+"key": "audio/de/r1_survival_s1_vox/05_f.mp4",
+"sha1": "ff6c983e6600672d122aaf43d5bef2b7fff8d950",
+"ms": 1216
+},
+{
+"turn": 6,
+"voice": "m",
+"speaker": "am",
+"emotion": "flustered",
+"key": "audio/de/r1_survival_s1_vox/06_m.mp4",
+"sha1": "fade08aa338c3a8bf2a9c5ad4e410ea8f8cc8a5e",
+"ms": 992
+},
+{
+"turn": 6,
+"voice": "f",
+"speaker": "af",
+"emotion": "flustered",
+"key": "audio/de/r1_survival_s1_vox/06_f.mp4",
+"sha1": "32c23205c719aad3c2f908e6591ddd32c9e8080d",
+"ms": 1064
+},
+{
+"turn": 7,
+"voice": "m",
+"speaker": "woman_m",
+"emotion": "polite",
+"key": "audio/de/r1_survival_s1_vox/07_m.mp4",
+"sha1": "0b6c6b4f53b16c65b706b2aed7d11dccdc5e0597",
+"ms": 2863
+},
+{
+"turn": 7,
+"voice": "f",
+"speaker": "woman_m",
+"emotion": "polite",
+"key": "audio/de/r1_survival_s1_vox/07_f.mp4",
+"sha1": "0b6c6b4f53b16c65b706b2aed7d11dccdc5e0597",
+"ms": 2863
+},
+{
+"turn": 8,
+"voice": "m",
+"speaker": "am",
+"emotion": "shout+flustered",
+"key": "audio/de/r1_survival_s1_vox/08_m.mp4",
+"sha1": "e3f59666410d4b185e414f1cf9b2a87dadaaf221",
+"ms": 2642
+},
+{
+"turn": 8,
+"voice": "f",
+"speaker": "af",
+"emotion": "shout+flustered",
+"key": "audio/de/r1_survival_s1_vox/08_f.mp4",
+"sha1": "6894bbc2b20ce22d7cacb54a393edbdcb902be4e",
+"ms": 2434
 }
 ]
 }

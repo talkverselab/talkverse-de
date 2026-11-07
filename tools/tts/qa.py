@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """생성된 문장 조각을 받아쓰기로 검사하고, 나쁜 조각의 재생성 작업을 만든다(mlx-whisper 필요).
   python qa.py <wav폴더> <편id>... [--jobs <moss_jobs.json>]   결과는 <wav폴더>/qa.json 에 쌓인다(조각 → sim·dur·tries·ok)
-소문자로 바꿔 글자·숫자만 남겨 견준다(띄어쓰기·문장부호 무시). 나쁨 = 비슷함 0.90 미만·앞뒤 낱말 누락·잡음 바닥 초과 또는 길이가 글자 수에 견줘 지나치게 길거나 짧음.
+소문자로 바꿔 글자·숫자만 남겨 견준다(띄어쓰기·문장부호 무시). 나쁨 = 비슷함 0.90 미만·앞뒤 낱말 누락 또는 길이가 글자 수에 견줘 지나치게 길거나 짧음.
 재생성본은 PC 의 out/de/retake/<편>/<조각>.t<N>.wav — 받아 온 뒤 다시 돌리면 가장 잘 나온 판을 본 파일로 고른다. 세 번 해도 나쁘면 가장 나은 판을 쓰고 qa.json 에 ok=false 로 남긴다."""
 import array, difflib, glob, json, math, os, re, shutil, subprocess, sys
 import mlx_whisper
@@ -9,7 +9,6 @@ import ttslib as L
 M = 'mlx-community/whisper-large-v3-turbo'
 NUM = {'14': 'vierzehn', '12': 'zwölf', '4': 'vier', '3': 'drei', '2': 'zwei', '1': 'eins'}
 PASS = 0.90     # 2026-11-07 품질 점검: 0.72 는 앞말 누락이 통과했다
-FLOOR = -50.0   # 잡음 바닥(dB) — 이보다 크면 다시 만든다
 
 
 def norm(s):
@@ -22,11 +21,22 @@ def words(s):
 
 
 def floor(f):
+    """무음 구간만 재는 잡음 바닥(dB) — -40dB 아래 프레임이 0.3초 이상 이어진 곳의 RMS. 그런 구간이 없으면 None(검사 건너뜀). 공통 기준 §5."""
     o = subprocess.run(['ffmpeg', '-v', 'error', '-i', f, '-ac', '1', '-ar', '16000', '-f', 's16le', '-'], capture_output=True).stdout
     x = array.array('h', o[:len(o) // 2 * 2])
-    fr = [math.sqrt(sum(v * v for v in x[i:i + 320]) / 320) for i in range(0, len(x) - 320, 320)]
-    fr = sorted(20 * math.log10(max(v, 1) / 32768) for v in fr)
-    return fr[len(fr) // 10] if fr else -99.0
+    fr = [math.sqrt(sum(v * v for v in x[i:i + 160]) / 160) / 32768 for i in range(0, len(x) - 160, 160)]   # 10ms
+    quiet = []; run_ = []
+    for v in fr + [1.0]:
+        if v > 0 and 20 * math.log10(v) < -40 or v == 0:
+            run_.append(v)
+        else:
+            if len(run_) >= 30:
+                quiet += run_[5:-5]        # 말소리 가장자리는 뺀다
+            run_ = []
+    if not quiet:
+        return None
+    r = math.sqrt(sum(v * v for v in quiet) / len(quiet))
+    return 20 * math.log10(max(r, 1e-6))
 
 
 def dur(f):
@@ -47,8 +57,6 @@ def score(f, text):
         return 0.0, d
     if len(w) <= 4:                       # 아주 짧은 말은 받아쓰기를 믿을 수 없다 — 길이만 본다
         return (1.0 if d <= 2.0 else 0.0), d
-    if floor(f) > FLOOR:
-        return 0.0, d
     raw = mlx_whisper.transcribe(f, path_or_hf_repo=M, language='de', condition_on_previous_text=False)['text']
     a, b = words(text), words(raw)
     if not b or a[0] != b[0] or a[-1] != b[-1]:   # 앞뒤 낱말이 빠지면 유사도가 높아도 불합격
