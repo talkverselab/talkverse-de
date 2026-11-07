@@ -1,0 +1,153 @@
+{
+ "ep": "r3_life_b1",
+ "cast": {
+  "B": "woman_o",
+  "C": "felix"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "annoyed",
+     "Entschuldigung! Wissen Sie, welcher Tag heute ist?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Sonntag, oder? Ist das ein Problem?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "Sie werfen am Sonntag Flaschen in den Glascontainer. Das hört das ganze Haus."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Oh, das wusste ich nicht."
+    ],
+    [
+     "stiff",
+     "Tut mir leid, ich wohne erst seit einer Woche hier."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Ach so. Sie sind bei Felix eingezogen?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "polite",
+     "Genau. Felix hat gesagt, ich soll die Flaschen heute wegbringen."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Felix? Der Felix, der uns jeden Monat Zettel zur Mülltrennung schreibt?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "neutral",
+     "Ja, genau der."
+    ],
+    [
+     "worried",
+     "Er hat mir eine Liste gegeben. Mit zwölf Regeln."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shout",
+     "{name}, stopp! Grün kommt in den grünen Container, nicht in den weißen!"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "shout",
+     "Felix! Es ist Sonntag! Sie schreien durchs ganze Haus!"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "stiff",
+     "Frau Becker, Regeln sind Regeln."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Genau! Und Regel Nummer eins lautet: Sonntag ist Ruhetag!"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "amused",
+     "Moment mal, Felix. Das steht gar nicht auf meiner Liste."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "flustered",
+     "… Ich gehe wieder rein."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "amused",
+     "Sie gefallen mir."
+    ],
+    [
+     "cheerful",
+     "Ich bin Renate. Wollen wir uns duzen?"
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "cheerful",
+     "Gerne, Renate."
+    ],
+    [
+     "worried",
+     "Aber sag mal, was mache ich jetzt mit den Flaschen?"
+    ]
+   ]
+  }
+ }
+}

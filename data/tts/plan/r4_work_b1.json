@@ -1,0 +1,120 @@
+{
+ "ep": "r4_work_b1",
+ "cast": {
+  "B": "jonas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "stiff",
+     "Hättest du kurz Zeit? Ich wollte dich etwas fragen, wenn es dir gerade passt."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Klar. Geht es um die Präsentation von heute Morgen?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Ja. Frau Weber hat danach nur gesagt: „Das war nicht schlecht.“ Seitdem habe ich ein ungutes Gefühl."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Moment mal. Hat sie wirklich „nicht schlecht“ gesagt?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "Genau das. Wäre es besser, wenn ich mich bei ihr entschuldigen würde?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Entschuldigen? Wofür denn?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "sad",
+     "Ich dachte, sie wäre enttäuscht. Bei uns hätte man wenigstens etwas Nettes gesagt."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Du hast offenbar keine Ahnung, wie selten das vorkommt."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "worried",
+     "Wie meinst du das?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Ich arbeite seit vier Jahren hier. Das Beste, was ich von ihr gehört habe, war: „Da kann man nichts sagen.“"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "Das soll ein Lob sein? Ernsthaft?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "teasing",
+     "Das höchste. „Nicht schlecht“ heißt bei ihr ungefähr, dass du bald befördert wirst."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "worried",
+     "Und wenn sie gesagt hätte, es sei gut gewesen?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "Das hat sie noch nie gesagt. Ich würde mir Sorgen machen, dass sie kündigt."
+    ]
+   ]
+  }
+ }
+}

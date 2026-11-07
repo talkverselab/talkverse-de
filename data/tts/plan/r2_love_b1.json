@@ -1,0 +1,112 @@
+{
+ "ep": "r2_love_b1",
+ "cast": {
+  "B": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "Wir machen gleich zu. Du bist ja immer noch da."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Ich lerne noch ein bisschen Deutsch. Der Kaffee ist gut hier."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Der Kaffee? Die Tasse ist seit zwei Stunden leer."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Echt?"
+    ],
+    [
+     "flustered",
+     "… Na ja, ich trinke langsam."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Sag mal, lernst du wirklich? Dein Buch ist immer noch auf Seite zwölf."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Okay, stimmt. Ich kann hier nicht so gut lernen."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Warum nicht? Ist die Musik zu laut?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "Nein, gar nicht. Es ist nur …"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "teasing",
+     "Nur was?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "flustered",
+     "Ach, egal. Bis morgen, Mia."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "cheerful",
+     "Warte mal."
+    ],
+    [
+     "shy",
+     "Warum, glaubst du, mache ich jeden Abend so langsam zu?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "shy",
+     "Dann … noch einen Kaffee, bitte."
+    ]
+   ]
+  }
+ }
+}

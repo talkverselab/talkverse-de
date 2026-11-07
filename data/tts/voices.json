@@ -1,0 +1,137 @@
+{
+ "_meta": "독일어 회화 음성 — 목소리·감정·자리 채움. 일본어앱 data/tts/voices.json 과 같은 짜임. 참고 음성은 VoxCPM2(설명 instruct 는 영어).",
+ "base_text": "Heute Abend habe ich eine Besprechung, deshalb habe ich alles schon heute Morgen vorbereitet. Wenn wir fertig sind, können wir ja zusammen essen gehen.",
+ "voices": {
+  "am": {
+   "desc": "A young German man in his twenties, clear and gentle voice, standard German"
+  },
+  "af": {
+   "desc": "A young German woman in her twenties, clear and soft voice, standard German"
+  },
+  "lena": {
+   "desc": "A German woman in her early twenties, direct, brisk and clear voice"
+  },
+  "mia": {
+   "desc": "A German woman in her early twenties, bright, playful and chatty voice"
+  },
+  "jonas": {
+   "desc": "A German man in his mid twenties, calm, low and slightly gruff voice"
+  },
+  "felix": {
+   "desc": "A German man in his mid twenties, precise, light and earnest voice"
+  },
+  "man_y": {
+   "desc": "A German man around twenty, natural and clear voice"
+  },
+  "man_m": {
+   "desc": "A German man in his forties, steady and calm voice"
+  },
+  "man_o": {
+   "desc": "A German man in his seventies, aged and gentle voice"
+  },
+  "woman_y": {
+   "desc": "A German woman around twenty, natural and clear voice"
+  },
+  "woman_m": {
+   "desc": "A German woman in her forties, friendly and steady voice"
+  },
+  "woman_o": {
+   "desc": "A German woman in her sixties, firm, clear and slightly stern voice"
+  }
+ },
+ "emotions": {
+  "neutral": {
+   "instruct": "calm and natural, everyday tone",
+   "ref": "Heute Nachmittag habe ich eine Besprechung, deshalb bereite ich die Unterlagen schon vor."
+  },
+  "polite": {
+   "instruct": "polite and professional, like a clerk or station staff",
+   "ref": "Guten Tag. Ihre Bestellung ist fertig. Darf ich Ihnen sonst noch etwas bringen?"
+  },
+  "stiff": {
+   "instruct": "very nervous and stiff, formal and overly polite",
+   "ref": "Vielen Dank für Ihre Zeit. Ich werde mir große Mühe geben. Das verspreche ich Ihnen."
+  },
+  "cheerful": {
+   "instruct": "cheerful, bright and friendly",
+   "ref": "Hey, du bist schon da! Das Wetter ist so schön, heute wird bestimmt ein guter Tag."
+  },
+  "amused": {
+   "instruct": "amused, laughing warmly, relaxed",
+   "ref": "Haha, das ist wirklich lustig! Mach einfach genau so weiter."
+  },
+  "teasing": {
+   "instruct": "teasing, playful and mischievous",
+   "ref": "Was machst du denn für ein Gesicht? Na komm, sag schon. Ich erzähle es niemandem."
+  },
+  "excited": {
+   "instruct": "excited, bursting with energy, bright and loud",
+   "ref": "Ich hab es geschafft, wirklich geschafft! Das glaube ich selbst noch nicht. Danke!"
+  },
+  "surprised": {
+   "instruct": "surprised, caught off guard, voice jumps",
+   "ref": "Was? Ernsthaft? Moment mal, wie meinst du das?"
+  },
+  "shout": {
+   "instruct": "surprised and loud, an exaggerated comic retort",
+   "ref": "Wie bitte? Jetzt sofort? So plötzlich, was soll ich denn da machen!"
+  },
+  "tsukkomi": {
+   "instruct": "a quick sharp comic retort, exasperated but fond",
+   "ref": "Nein, doch nicht so! Warum machst du das denn da? Ach, du bist wirklich unmöglich."
+  },
+  "annoyed": {
+   "instruct": "annoyed, irritated, sighing",
+   "ref": "Ach, schon wieder das? Jetzt reicht es aber, hör bitte damit auf."
+  },
+  "sad": {
+   "instruct": "sad, quiet, voice slightly trembling",
+   "ref": "Ich bin nur ein bisschen müde. Schon gut. Mach dir keine Gedanken."
+  },
+  "worried": {
+   "instruct": "worried and anxious, hesitant",
+   "ref": "Geht es dir gut? Hast du Schmerzen? Sollen wir nicht lieber zum Arzt gehen?"
+  },
+  "flustered": {
+   "instruct": "flustered and embarrassed, stammering, unsure",
+   "ref": "Äh, also, das, Moment … ich weiß gar nicht, was ich sagen soll …"
+  },
+  "shy": {
+   "instruct": "shy, soft, slightly trailing off",
+   "ref": "Ach … also … ich mag das auch. Dann … gehen wir vielleicht zusammen hin."
+  },
+  "gentle": {
+   "instruct": "gentle, warm and tender, quiet",
+   "ref": "Alles gut. Ganz in Ruhe. Ich bin ja hier."
+  }
+ },
+ "fill": {
+  "{name}": {
+   "m": {
+    "text": "Alex",
+    "rd": "알렉스",
+    "ko": "알렉스"
+   },
+   "f": {
+    "text": "Emma",
+    "rd": "에마",
+    "ko": "에마"
+   }
+  },
+  "{country}": {
+   "text": "Kanada",
+   "rd": "카나다",
+   "ko": "캐나다"
+  },
+  "{city}": {
+   "text": "Toronto",
+   "rd": "토론토",
+   "ko": "토론토"
+  },
+  "{lang}": {
+   "text": "Englisch",
+   "rd": "엥글리슈",
+   "ko": "영어"
+  }
+ }
+}

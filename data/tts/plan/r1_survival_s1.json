@@ -1,0 +1,76 @@
+{
+ "ep": "r1_survival_s1",
+ "cast": {
+  "B": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Hallo! Was möchten Sie?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "stiff",
+     "Eine Brezel, bitte."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Gerne. Mit Butter?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "stiff",
+     "Ja, bitte."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Und noch einen Kaffee?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Ja … ja, bitte."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "polite",
+     "Und ein Stück Kuchen? Das macht dann vierzehn Euro."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shout",
+     "Wie bitte? Vierzehn Euro?"
+    ],
+    [
+     "flustered",
+     "… Ja, bitte."
+    ]
+   ]
+  }
+ }
+}
