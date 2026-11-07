@@ -40,8 +40,8 @@ _2026-11-03 새로 씀. 앞 판(2026-10-11 메모·Zealot 확인 필요)은 이 
 | UX/UI 시안 ② | **통과** 2026-11-03 — 글 `data/review/uxui/sian_de_01.md`(직접 작성), 그림 `sian_de_01.jpg`. 일본어앱 시안 02 + 독일어 칸 2개(명사 성 점·단어 시트 / du·Sie 배지) |
 | 아이패드 빌드 ③ | **완료** — 두 화면(레일·왼쪽 칸·오른쪽 칸), 만화책 읽기형 회화 리더, 그림 카드, 진행 탭 성과 데스크, 프로필 학습자 이름·성별. iPad Air 13 스크린샷 9장 넘침 0·예외 0(`integration_test/dialogue_pane_test.dart`, `tools/pane_shots.py`) |
 | Talkverse ID 로그인·평생 이용권 | 코드 들어감(`lib/data/account.dart`·`purchase.dart`·`entitlement.dart`, 로그인·잠금 시트, 프로필 계정 칸). client_id `de`, 딥링크 `talkverse.de://auth`, 상품 iOS `com.talkverse.germanUniverse.lifetime` / Android `lang_de`. **잠긴 콘텐츠 없음** |
-| Android | CI 빌드 11(`2a5c9d5`, 11-04 변경 7가지 + 단어 1,505) → Zealot 「독일어유니버스」 https://apps.talkverse.uk/8itFp/255 , PC `D:\OneDrive\app project\talkverse-de\` 백업. 그 전 빌드 10 https://apps.talkverse.uk/8itFp/251 , 9 /8itFp/203 |
-| iOS | TestFlight **2611040312**(`eb0904f`, 11-04 변경 7가지, 단어 5개 추가 전). 그 전 2611030045(Apple 로그인 entitlement 확인됨), 2611030035·2611030040 은 Apple 로그인 빠짐. ipa 백업 PC `D:\OneDrive\app project\german_universe\ios\` |
+| Android | CI 빌드 12(`0abc7c5`, 11-07 단어·메뉴 개편) → Zealot 「독일어유니버스」 https://apps.talkverse.uk/8itFp/310 . 그 전 빌드 11(`2a5c9d5`) https://apps.talkverse.uk/8itFp/255 , PC `D:\OneDrive\app project\talkverse-de\` 백업. 그 전 빌드 10 https://apps.talkverse.uk/8itFp/251 , 9 /8itFp/203 |
+| iOS | **11-07 개편 미업로드** — Xcode 27.2 와 CoreSimulator 1174.9.2 불일치로 M6 iOS 빌드 정지(허브 처리 중, `~/logs/rc/RELAY_xcode_20261107.md`). 1174.21 이상이면 `tools/ios_release.sh` 실행. 현재 TestFlight **2611040312**(`eb0904f`, 11-04 변경 7가지, 단어 5개 추가 전). 그 전 2611030045(Apple 로그인 entitlement 확인됨), 2611030035·2611030040 은 Apple 로그인 빠짐. ipa 백업 PC `D:\OneDrive\app project\german_universe\ios\` |
 | 서명 키 | 원래 키 그대로(SHA-1 `9C:C4:…`), PC `D:\keys\talkverse-de\` 백업, Doppler `SIGNKEY_*` |
 | 저작권 | 출처 이름 든 파서·주석 삭제(`2db89c2`). 과거 이력 9커밋에 이름이 남아 있음 — 정리 안 함 |
 | 태그 | `pre-grok-uxui` = UX 시안 적용 전(`75cc18b`) |
