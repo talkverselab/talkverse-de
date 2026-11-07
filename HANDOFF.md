@@ -38,6 +38,8 @@ _2026-11-03 새로 씀. 앞 판(2026-10-11 메모·Zealot 확인 필요)은 이 
 - 처음 지시는 전체 초안이었으나 **굴절어는 레벨별 1편만**으로 줄었다. 쓴 것 4편(`draft: true`): `r1_survival_s1`·`r2_love_b1`·`r3_life_b1`(du 전환 장면)·`r4_work_b1`. 더 쓰지 말고 uk 지시를 기다린다.
 - 앱은 아직 `L1.json` 만 읽고 `R*/` 는 번들에 없어서 앱에 안 나온다. Grok 재작성은 주간 한도로 11-10 까지 막힘 — 사용자 지시 뒤 재작성.
 - 새 도구: `tools/check_dialogues.py`, `tools/rd_de.py`(단어장 독음 우선, 규칙은 단어장과 74% 일치 — 독음은 손으로 쓰고 대조용으로 쓴다), 표현 풀 `data/expressions/top_expressions.csv`.
+- 앞으로 쓰는 회화는 턴마다 `emotion`(`~/talkverse/ja/data/tts/PLAN_GUIDE.md` 의 16개), 감정이 바뀌는 턴은 `segs` 를 함께 쓴다(사용자 지시, uk 전달). 초안 4편은 `data/tts/plan/` 에 감정 계획이 있다.
+- 음성: 도구·계획 준비 끝(86조각). 독일어는 영어 다음 순서 — uk 의 "지금 시작" 뒤 `~/.venvs/tts_zh/bin/python tools/tts/run_all.py ~/tts_work/de 4`, 끝나면 "GPU 끝", 리뷰 페이지를 다시 만들어 "REVIEW_de 갱신".
 - 레마는 `tools/add_lemmas.py` 그대로(사용자 지시로 고치지 않음). 소형 모델 오류(Taß·Hättest·Gute)가 남아 있다.
 
 ## 현재 상태 (2026-11-03 00:50)
