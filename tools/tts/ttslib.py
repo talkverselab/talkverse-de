@@ -10,6 +10,8 @@ EP = {os.path.basename(p)[:-5]: p for p in glob.glob(f'{R}/assets/data/dialogues
 SIL = re.compile(r'[\s…。、！？!?.,~♪]|\([^)]*\)')
 LANG = 'German'
 VOX = '_vox'
+OUT = os.environ.get('TTS_OUT', 'de')   # PC 출력 폴더. 시험판은 de_v2 처럼 나눠 앞선 결과를 건너뛰지 않게 한다
+REF = f'ref_{OUT}'
 
 
 def base(ep):
@@ -90,7 +92,7 @@ def seg_files(ep):
 
 def job(ep, name, voice, emo, text, out=None):
     """조각 하나의 PC 작업. `_vox` 편은 VoxCPM2(언어 칸 없음, 참고 음성 복제), 그 밖은 MOSS."""
-    j = {'out': out or f'de/{ep}/{name}', 'text': text, 'reference': f'out/ref_de/{voice}_{emo}.wav'}
+    j = {'out': out or f'{OUT}/{ep}/{name}', 'text': text, 'reference': f'out/{REF}/{voice}_{emo}.wav'}
     if not ep.endswith(VOX):
         j['language'] = LANG
     return j

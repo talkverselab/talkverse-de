@@ -14,10 +14,10 @@ def main():
     if eps and eps[0] == '--refs':
         ids = [L.base(e) for e in eps[1:]] or L.planned()
         need = sorted({(v, e) for ep in ids for _, v, e, _ in L.seg_files(ep)})
-        vox = [{'out': f'ref_de/{v}_base.wav', 'text': L.V['base_text'], 'instruct': L.V['voices'][v]['desc']} for v in sorted({v for v, _ in need})]
+        vox = [{'out': f'{L.REF}/{v}_base.wav', 'text': L.V['base_text'], 'instruct': L.V['voices'][v]['desc']} for v in sorted({v for v, _ in need})]
         for v, e in need:
             x, E = L.V['voices'][v], L.V['emotions'][e]
-            vox.append({'out': f'ref_de/{v}_{e}.wav', 'text': E['ref'], 'instruct': f"{x['desc']}, {E['instruct']}", 'reference': f'out/ref_de/{v}_base.wav'})
+            vox.append({'out': f'{L.REF}/{v}_{e}.wav', 'text': E['ref'], 'instruct': f"{x['desc']}, {E['instruct']}", 'reference': f'out/{L.REF}/{v}_base.wav'})
         json.dump(vox, open(vf, 'w', encoding='utf-8'), ensure_ascii=False, indent=0); print(len(vox), 'vox 참고 음성'); return
     moss = [L.job(ep, f, v, e, text) for ep in eps if not ep.endswith(L.VOX) for f, v, e, text in L.seg_files(ep)]
     vox = [L.job(ep, f, v, e, text) for ep in eps if ep.endswith(L.VOX) for f, v, e, text in L.seg_files(ep)]

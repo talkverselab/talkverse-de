@@ -30,3 +30,5 @@ GPU 필요:
 ## 적용 결과
 
 ① 다시 묶기(2026-11-07): 쉼 0.5초 초과 44개 → 0개, 최대 0.91초 → 0.40초, 최종 mp4 말 속도 중앙 12.8 글자/초, 전체 347초 → 304초. 사람 청취 확인은 아직 없다.
+
+②③④⑤ 시험 준비(2026-11-07): `tools/tts/trial.py`. PC 출력 `out/de_v2`·`out/ref_de_v2` 로 나눴다. 참고 음성 18개(af 재작성, 감정 설명 약화, 잡음 바닥 -60dB 초과는 잡음 제거), r1 15조각씩 MOSS·VoxCPM2 두 판, r2 11번 재생성. 실행: `TTS_OUT=de_v2 ~/.venvs/tts_zh/bin/python tools/tts/trial.py ~/tts_work/de`, uk 의 "지금 시작" 뒤에만.

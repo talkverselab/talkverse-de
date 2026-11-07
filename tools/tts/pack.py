@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """문장 조각 wav → 턴별 mp4(AAC) → R2 `audio/de/<편>/<턴>_<m|f>.mp4` + D1 `audio_lines`(그 편의 줄을 지우고 다시 넣는다).
 모든 턴에 남성판·여성판 두 파일·두 줄(본문 text(독일어)·reading(빈 값)·rd(한글 독음)·ko(한국어 뜻) 포함). 두 판의 소리가 같아도 따로 올린다 — 구조를 단순하게.
-조각마다 앞뒤 무음을 자르고 0.45초 넘는 쉼을 줄인 뒤 0.22초 간격으로 잇고 소리 크기를 맞춘다(-18 LUFS).
+조각마다 앞뒤 무음을 자르고 0.45초 넘는 쉼을 줄인 뒤 0.18초 간격으로 잇고 소리 크기를 맞춘다(-18 LUFS).
   python3 tools/tts/pack.py <wav폴더> <편id>... [--upload] [--no-db]   --no-db = R2 에만 올린다(시험 비교판은 사용자가 고른 판만 D1 에 넣는다)
 목록 = data/tts/audio_de.json(리뷰 페이지용). 주소에는 ?v=<sha1 앞 8자리>(서버 캐시가 1년)."""
 import datetime, hashlib, json, os, subprocess, sys, tempfile
@@ -48,7 +48,7 @@ def build(wav, ep, num, tag, segs, out, tmp):
         parts.append(o)
     gap = f'{tmp}/gap.wav'
     if not os.path.exists(gap):
-        run('ffmpeg', '-y', '-f', 'lavfi', '-i', 'anullsrc=r=24000:cl=mono', '-t', '0.22', gap)
+        run('ffmpeg', '-y', '-f', 'lavfi', '-i', 'anullsrc=r=24000:cl=mono', '-t', '0.18', gap)
     lst = f'{tmp}/{ep}_{num}_{tag}.txt'; open(lst, 'w').write(''.join(f"file '{x}'\n" for p in parts for x in (p, gap))[:-len(f"file '{gap}'\n")])
     j = f'{tmp}/{ep}_{num}_{tag}_j.wav'; run('ffmpeg', '-y', '-f', 'concat', '-safe', '0', '-i', lst, '-c', 'copy', j)
     run('ffmpeg', '-y', '-i', j, '-af', 'apad=pad_dur=0.12,loudnorm=I=-18:TP=-1.5:LRA=11,aresample=44100', '-ac', '1',
@@ -74,7 +74,7 @@ def main():
             for g in 'mf':
                 x = t[g]; tag = 'c' if t['same'] else g; f = f"{tmp}/{ep}_{t['num']:02d}_{g}.mp4"
                 d = build(wav, ep, t['num'], tag, x['segs'], f, tmp)
-                rows.append(dict(turn=t['num'], voice=g, speaker=x['voice'], emotion='+'.join(s[0] for s in x['segs']), key=f"audio/de/{ep}/{t['num']:02d}_{g}.mp4",
+                rows.append(dict(turn=t['num'], voice=g, speaker=x['voice'], emotion='+'.join(dict.fromkeys(s[0] for s in x['segs'])), key=f"audio/de/{ep}/{t['num']:02d}_{g}.mp4",
                                  sha1=hashlib.sha1(open(f, 'rb').read()).hexdigest(), ms=int(d * 1000), text=x['text'], reading=x['reading'], rd=x['rd'], ko=x['ko'], f=f))
         if UP:
             with ThreadPoolExecutor(8) as ex:

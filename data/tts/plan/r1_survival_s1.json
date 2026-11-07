@@ -48,7 +48,8 @@
    "segs": [
     [
      "flustered",
-     "Ja … ja, bitte."
+     "Ja … ja, bitte.",
+     "Ja, ja, bitte."
     ]
    ]
   },
@@ -56,7 +57,11 @@
    "segs": [
     [
      "polite",
-     "Und ein Stück Kuchen? Das macht dann vierzehn Euro."
+     "Und ein Stück Kuchen?"
+    ],
+    [
+     "polite",
+     "Das macht dann vierzehn Euro."
     ]
    ]
   },
@@ -68,7 +73,8 @@
     ],
     [
      "flustered",
-     "… Ja, bitte."
+     "… Ja, bitte.",
+     "Ja, bitte."
     ]
    ]
   }

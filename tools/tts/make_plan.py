@@ -4,8 +4,41 @@
 턴: "emotion": "gentle" 하나, 또는 감정이 바뀌면 "segs": [[감정, 본문], [감정, 본문, 읽기]]. 성별판은 턴의 "m"·"f"(text·rd·ko·segs).
 목소리: 편의 "cast" 가 먼저, 없으면 voices.json 의 cast(인물 이름 → 목소리). 자리 채움은 편의 "fill".
 감정이 없는 턴이 있거나 인물의 목소리를 모르면 그 편의 계획은 쓰지 않고 오류를 알린다. 소리 낼 글이 없는 턴은 감정이 없어도 된다."""
-import glob, json, os, sys
+import glob, json, os, re, sys
 import ttslib as L
+
+MIN = 10   # 이보다 글자가 적은 문장은 다음 문장과 한 조각으로(짧은 조각은 불안정: Klar. 누락, Warte mal. 오독)
+
+
+def letters(s):
+    return len(re.sub(r'[^A-Za-zÄÖÜäöüß]', '', s))
+
+
+def read(s):
+    """모델이 읽을 글 — 「…」을 빼서 늘어지지 않게 한다(쉼은 pack 이 넣는다)."""
+    s = re.sub(r'^\s*…\s*', '', s)
+    s = re.sub(r'\s*…\s*$', '.', s)
+    return re.sub(r'\s*…\s*', ', ', s).strip()
+
+
+def split(seg):
+    """[감정, 본문(, 읽기)] → 문장마다 한 조각. MOSS 가 문장 부호에서 길게 쉬는 것을 막는다."""
+    emo, text = seg[0], seg[1]
+    if len(seg) > 2:
+        return [seg]
+    parts = re.findall(r'.+?(?:[.?!]+[“"]?(?=\s|$)|$)\s*', text)
+    out = []
+    buf = ''
+    for p in parts:
+        buf += p
+        if letters(buf) >= MIN:
+            out.append(buf); buf = ''
+    if buf:
+        if out:
+            out[-1] += buf
+        else:
+            out.append(buf)
+    return [[emo, x.strip(), read(x)] if read(x) != x.strip() else [emo, x.strip()] for x in out if x.strip()]
 
 
 def build(ep):
@@ -27,7 +60,7 @@ def build(ep):
             if sound:
                 errs.append(f"턴 {t['num']} 감정 없음")
             segs = [['neutral', t.get('es', '')]]
-        T = {'segs': segs}
+        T = {'segs': [y for x in segs for y in split(x)]}
         for g in 'mf':
             if t.get(g):
                 T[g] = t[g]
