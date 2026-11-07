@@ -11,11 +11,14 @@ import '../services/achievement_service.dart';
 import '../services/content_sync.dart';
 import '../services/art_service.dart';
 import '../services/dialogue_service.dart';
+import '../services/ko_reading.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
+import '../services/word_service.dart';
 import 'achievement_desk.dart';
 import 'learner_setup_dialog.dart';
 import 'lemma_chips.dart';
+import 'word_sheet.dart';
 
 /// 「모든 문장 듣기」 재생 패널 — 일본어앱 Grok UXUI 시안 02 「만화책 읽기형」을 옮김(2026-11-02, 일본어앱 `data/review/uxui/sian_02.md`).
 ///
@@ -38,7 +41,7 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
   bool _playing = false;
   double _rate = 1.0; // 0.75 / 1.0 / 1.25
   bool _showGloss = false;
-  bool _showRd = true;
+  bool get _showRd => KoReadingPrefs.show.value; // 앱 전체 독음 토글(기본 미표시)
   bool _showKo = true;
   bool _showGender = true; // 명사 성 점(UX 시안 01 칸 1) — 명사 데이터가 있는 편에서만 칩이 보인다
   int _session = 0; // 재생 루프 세대(중단 판별)
@@ -52,6 +55,7 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
   @override
   void initState() {
     super.initState();
+    KoReadingPrefs.show.addListener(_onRd);
     WidgetsBinding.instance.addPostFrameCallback((_) async {
       if (!mounted) return;
       // 대사에 {name} 자리가 있는데 이름이 없으면 먼저 묻는다(앱 켠 뒤 한 번, 2026-11-04)
@@ -63,9 +67,14 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
 
   @override
   void dispose() {
+    KoReadingPrefs.show.removeListener(_onRd);
     _session++;
     TtsService.instance.stop();
     super.dispose();
+  }
+
+  void _onRd() {
+    if (mounted) setState(() {});
   }
 
   Future<void> _play() async {
@@ -152,7 +161,7 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
       onSeek: (v) => _goto(v),
       onRate: () => setState(() => _rate = _rate >= 1.25 ? 0.75 : (_rate + 0.25)),
       onGloss: () => setState(() => _showGloss = !_showGloss),
-      onRd: () => setState(() => _showRd = !_showRd),
+      onRd: () => KoReadingPrefs.toggleWithHint(context),
       onKo: () => setState(() => _showKo = !_showKo),
     );
     return LayoutBuilder(builder: (context, c) {
@@ -249,7 +258,7 @@ class _Script extends StatelessWidget {
                     const SizedBox(width: 8),
                     Expanded(
                       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                        GenderText(LearnerPrefs.fill(t.tl), nouns: showGender ? t.nouns : const [], style: TextStyle(fontSize: on ? 16.5 : 15, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
+                        GenderText(LearnerPrefs.fill(t.tl), nouns: showGender ? t.nouns : const [], lemmas: t.lemmas, style: TextStyle(fontSize: on ? 16.5 : 15, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
                         if (t.register != null && i > 0) Text('↔ ${t.register}', style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w800, color: AppColors.beniDeep)),
                         if (showGloss && t.gloss.isNotEmpty && t.gloss != t.tl) Text(t.gloss, style: const TextStyle(fontSize: 11, color: AppColors.ai, fontWeight: FontWeight.w600)),
                         if (showRd && t.rd.isNotEmpty) Text(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 11.5, color: AppColors.muted)),
@@ -342,7 +351,7 @@ class _Caption extends StatelessWidget {
         child: Row(crossAxisAlignment: CrossAxisAlignment.center, children: [
           Expanded(
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Text(LearnerPrefs.fill(turn.tl), style: TextStyle(fontSize: wide ? 20 : 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
+              GenderText(LearnerPrefs.fill(turn.tl), nouns: const [], lemmas: turn.lemmas, style: TextStyle(fontSize: wide ? 20 : 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
               if (showGloss && turn.gloss.isNotEmpty && turn.gloss != turn.tl) Text(turn.gloss, style: const TextStyle(fontSize: 12, color: AppColors.ai, fontWeight: FontWeight.w600)),
               if (showRd && turn.rd.isNotEmpty) Text(LearnerPrefs.fill(turn.rd, ko: true), style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
               if (showKo) Padding(padding: const EdgeInsets.only(top: 2), child: Text(LearnerPrefs.fill(turn.ko, ko: true), style: const TextStyle(fontSize: 13.5, color: AppColors.sumiLight, height: 1.35))),
@@ -609,33 +618,51 @@ Color articleColor(String article) => switch (article) {
       _ => AppColors.muted,
     };
 
-/// 독일어 문장 — 명사 앞에 성 점, 누르면 단어 시트(UX 시안 01 칸 1). 명사 데이터가 없으면 그냥 글자.
+/// 독일어 문장 — 명사 앞에 성 점(누르면 명사 시트, UX 시안 01 칸 1), 내용어(레마)는 누르면 단어창(일본어앱 2026-11-07).
+/// 단어장에 있는 레마만 밑줄을 긋고 눌린다. 데이터가 없으면 그냥 글자.
 class GenderText extends StatelessWidget {
   final String text;
   final List<NounInfo> nouns;
+  final List<Lemma> lemmas;
   final TextStyle style;
-  const GenderText(this.text, {super.key, required this.nouns, required this.style});
+  const GenderText(this.text, {super.key, required this.nouns, this.lemmas = const [], required this.style});
 
   @override
   Widget build(BuildContext context) {
-    if (nouns.isEmpty) return Text(text, style: style);
-    final byWord = {for (final n in nouns) n.word: n};
-    final re = RegExp(byWord.keys.map(RegExp.escape).map((w) => '(?<![\\p{L}])$w(?![\\p{L}])').join('|'), unicode: true);
+    if (lemmas.isEmpty) return _rich(context);
+    return FutureBuilder<void>(future: WordService.instance.ensureLoaded(), builder: (context, _) => _rich(context));
+  }
+
+  Widget _rich(BuildContext context) {
+    final byNoun = {for (final n in nouns) n.word: n};
+    final byLemma = <String, WordEntry>{};
+    for (final l in lemmas) {
+      final e = WordService.instance.lookup(l.base);
+      if (e != null && !byNoun.containsKey(l.surface)) byLemma[l.surface] = e;
+    }
+    final keys = [...byNoun.keys, ...byLemma.keys]..sort((a, b) => b.length.compareTo(a.length));
+    if (keys.isEmpty) return Text(text, style: style);
+    final re = RegExp(keys.map(RegExp.escape).map((w) => '(?<![\\p{L}])$w(?![\\p{L}])').join('|'), unicode: true);
     final spans = <InlineSpan>[];
     var at = 0;
     for (final m in re.allMatches(text)) {
       if (m.start > at) spans.add(TextSpan(text: text.substring(at, m.start)));
-      final n = byWord[m.group(0)]!;
+      final n = byNoun[m.group(0)];
       spans.add(WidgetSpan(
         alignment: PlaceholderAlignment.baseline,
         baseline: TextBaseline.alphabetic,
-        child: GestureDetector(
-          onTap: () => NounSheet.show(context, n),
-          child: Text.rich(TextSpan(children: [
-            WidgetSpan(alignment: PlaceholderAlignment.middle, child: Padding(padding: const EdgeInsets.only(right: 3), child: Container(width: 6, height: 6, decoration: BoxDecoration(color: articleColor(n.article), shape: BoxShape.circle)))),
-            TextSpan(text: m.group(0), style: style.copyWith(decoration: TextDecoration.underline, decorationColor: articleColor(n.article).withValues(alpha: 0.5))),
-          ])),
-        ),
+        child: n != null
+            ? GestureDetector(
+                onTap: () => NounSheet.show(context, n),
+                child: Text.rich(TextSpan(children: [
+                  WidgetSpan(alignment: PlaceholderAlignment.middle, child: Padding(padding: const EdgeInsets.only(right: 3), child: Container(width: 6, height: 6, decoration: BoxDecoration(color: articleColor(n.article), shape: BoxShape.circle)))),
+                  TextSpan(text: m.group(0), style: style.copyWith(decoration: TextDecoration.underline, decorationColor: articleColor(n.article).withValues(alpha: 0.5))),
+                ])),
+              )
+            : GestureDetector(
+                onTap: () => showWordSheet(context, byLemma[m.group(0)]!),
+                child: Text(m.group(0)!, style: style.copyWith(decoration: TextDecoration.underline, decorationColor: AppColors.ai.withValues(alpha: 0.35))),
+              ),
       ));
       at = m.end;
     }

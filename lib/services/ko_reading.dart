@@ -8,17 +8,27 @@ class KoReadingPrefs {
   KoReadingPrefs._();
 
   static const _key = 'show_ko_reading';
-  static final ValueNotifier<bool> show = ValueNotifier<bool>(true);
+  static final ValueNotifier<bool> show = ValueNotifier<bool>(false); // 기본 미표시(2026-11-07, 일본어앱 후리가나와 같음)
 
   static Future<void> load() async {
     final p = await SharedPreferences.getInstance();
-    show.value = p.getBool(_key) ?? true;
+    show.value = p.getBool(_key) ?? false;
   }
 
   static Future<void> toggle() async {
     show.value = !show.value;
     final p = await SharedPreferences.getInstance();
     await p.setBool(_key, show.value);
+  }
+
+  /// 토글 — 표시로 켤 때 한 번 알린다(일본어앱 「힘들어도 후리가나를 보지 않고 익혀보세요」 의 독음판).
+  static Future<void> toggleWithHint(BuildContext context) async {
+    await toggle();
+    if (show.value && context.mounted) {
+      ScaffoldMessenger.of(context)
+        ..hideCurrentSnackBar()
+        ..showSnackBar(SnackBar(content: Text(tr('힘들어도 한글 독음을 보지 않고 익혀보세요')), duration: const Duration(seconds: 3)));
+    }
   }
 }
 
@@ -36,7 +46,7 @@ class KoReadingToggleAction extends StatelessWidget {
         final color = on ? base : base.withValues(alpha: 0.35);
         return IconButton(
           tooltip: on ? tr('한글독음 숨기기') : tr('한글독음 표시'),
-          onPressed: KoReadingPrefs.toggle,
+          onPressed: () => KoReadingPrefs.toggleWithHint(context),
           icon: Container(
             padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
             decoration: BoxDecoration(

@@ -1,0 +1,47 @@
+{
+"_meta": "회화 레마 중 절벽 단어표(2,000위) 밖이면서 단어장에 있는 것 · tools/conv_words.py",
+"words": [
+{
+"word": "Samstag",
+"rd": "잠스탁",
+"ko": "토요일",
+"pos": "noun-m",
+"n": 2
+},
+{
+"word": "Apfelkuchen",
+"rd": "아펠쿠헨",
+"ko": "사과 케이크",
+"pos": "noun-m",
+"n": 1
+},
+{
+"word": "Favorit",
+"rd": "파보리트",
+"ko": "가장 좋아하는 것",
+"pos": "noun-m",
+"n": 1
+},
+{
+"word": "Museum",
+"rd": "무제움",
+"ko": "박물관",
+"pos": "noun-n",
+"n": 1
+},
+{
+"word": "geradeaus",
+"rd": "게라데아우스",
+"ko": "직진",
+"pos": "",
+"n": 1
+},
+{
+"word": "Okay",
+"rd": "오케이",
+"ko": "오케이 · 알았어",
+"pos": "int",
+"n": 1
+}
+]
+}

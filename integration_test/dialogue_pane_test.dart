@@ -6,6 +6,7 @@ import 'package:german_universe/core/l10n.dart';
 import 'package:german_universe/data/db/app_database.dart';
 import 'package:german_universe/data/db/seed_loader.dart';
 import 'package:german_universe/main.dart';
+import 'package:german_universe/screens/main_screen.dart';
 import 'package:german_universe/services/achievement_service.dart';
 import 'package:german_universe/services/ko_reading.dart';
 import 'package:german_universe/services/learner_prefs.dart';
@@ -76,5 +77,28 @@ void main() {
     await t.tap(rail('프로필'));
     await wait(t, 1500);
     await shot(t, '09_profile');
+
+    // 2026-11-07 개편 — 앱 소개(레일 맨 아래) · 절벽 단어(단원·타일·회화 단어) · 독음 토글
+    await t.tap(rail('앱 소개'));
+    await wait(t, 1500);
+    await shot(t, '10_about');
+
+    await t.tap(rail('홈'));
+    await wait(t, 1000);
+    final home = find.descendant(of: find.byType(HomeScreen), matching: find.byType(Scrollable)).first;
+    await t.dragUntilVisible(find.text('절벽 단어'), home, const Offset(0, -200));
+    await wait(t, 500);
+    await shot(t, '11_home_menu_lower');
+    await t.tap(find.text('절벽 단어'));
+    await wait(t, 2500);
+    await shot(t, '12_word_units');
+    await t.tap(find.textContaining('회화 단어 포함'));
+    await wait(t, 500);
+    await t.tap(find.text('회화').last);
+    await wait(t, 800);
+    await shot(t, '13_word_conv');
+    await t.tap(find.byTooltip('한글독음 표시'));
+    await wait(t, 500);
+    await shot(t, '14_reading_on_snack');
   });
 }

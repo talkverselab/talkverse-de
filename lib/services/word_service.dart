@@ -72,4 +72,7 @@ class WordService {
   }
 
   WordEntry? lookup(String word) => _byKey[word.toLowerCase()];
+
+  /// 순위 있는 단어(절벽 단어표) — 순위 순. 불러온 뒤에 쓴다.
+  List<WordEntry> get ranked => _byKey.values.where((e) => e.rank > 0).toList()..sort((a, b) => a.rank.compareTo(b.rank));
 }
