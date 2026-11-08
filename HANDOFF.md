@@ -45,6 +45,11 @@ _2026-11-03 새로 씀. 앞 판(2026-10-11 메모·Zealot 확인 필요)은 이 
 - 개선 시험 끝(2026-11-08): `r1_survival_s1` 은 MOSS·VoxCPM2 두 판, r2 11번 재생성 완료. 사용자 청취로 모델을 고른 뒤 r2~r4 를 `TTS_OUT` 을 나눠 다시 만든다(`make_plan.py` 가 문장 단위로 쪼개므로 옛 wav 와 이름이 다르다).
 - 레마는 `tools/add_lemmas.py` 그대로(사용자 지시로 고치지 않음). 소형 모델 오류(Taß·Hättest·Gute)가 남아 있다.
 
+## 2026-11-08 알파벳과 발음(공통 프롬프터 §5-3)
+
+- 홈 「기초」 첫 칸 `lib/screens/alphabet_screen.dart` + `lib/widgets/alphabet_sound_sheet.dart`·`de_vowel_chart.dart`, 데이터 `lib/services/de_phonetics.dart`(6묶음 57단위, 예시 단어는 단어장 그대로). 글자 탭 = 1초 뒤 기기 TTS·다시 듣기·IPA·조음 위치·모음 비교·한국어 비교.
+- `assets/images/ipa/` 두 장은 일본어앱에서 복사한 **임시 그림 — 출처 표기 없음(사용자 지시 "출처표기삭제 어차피 출시전 삭제")**. 출시 전에 Grok 그림으로 바꿀 것(CC BY-SA 그림이라 표기 없이 출시하면 안 된다).
+
 ## 2026-11-08 회화 전편 초안 · 음성 보류 · Grok 준비
 
 - 회화 초안 28편(레벨 0~5, `docs/DIALOGUE_RULES_de.md` §5·§6), 리뷰 페이지 REVIEW_de 게시(uk). 앱 빌드 전략 `docs/APP_STRATEGY_de.md`(Fable) — 결정 10개 대기.
@@ -58,8 +63,8 @@ _2026-11-03 새로 씀. 앞 판(2026-10-11 메모·Zealot 확인 필요)은 이 
 | UX/UI 시안 ② | **통과** 2026-11-03 — 글 `data/review/uxui/sian_de_01.md`(직접 작성), 그림 `sian_de_01.jpg`. 일본어앱 시안 02 + 독일어 칸 2개(명사 성 점·단어 시트 / du·Sie 배지) |
 | 아이패드 빌드 ③ | **완료** — 두 화면(레일·왼쪽 칸·오른쪽 칸), 만화책 읽기형 회화 리더, 그림 카드, 진행 탭 성과 데스크, 프로필 학습자 이름·성별. iPad Air 13 스크린샷 9장 넘침 0·예외 0(`integration_test/dialogue_pane_test.dart`, `tools/pane_shots.py`) |
 | Talkverse ID 로그인·평생 이용권 | 코드 들어감(`lib/data/account.dart`·`purchase.dart`·`entitlement.dart`, 로그인·잠금 시트, 프로필 계정 칸). client_id `de`, 딥링크 `talkverse.de://auth`, 상품 iOS `com.talkverse.germanUniverse.lifetime` / Android `lang_de`. **잠긴 콘텐츠 없음** |
-| Android | CI 빌드 13(`e01ec41`, 11-07 단어·메뉴 개편 + 단어장 독음 3개) → Zealot 「독일어유니버스」 https://apps.talkverse.uk/8itFp/349 , PC 백업. 그 전 빌드 12 /8itFp/310, 11 /8itFp/255
-| iOS | TestFlight **2611081627**(`e01ec41`, 11-07 개편, Apple 로그인 entitlement 확인, ipa PC 백업). 그 전 2611040312 |
+| Android | CI 빌드 14(`088bb04`, 알파벳과 발음 메뉴) → Zealot 「독일어유니버스」 https://apps.talkverse.uk/8itFp/371 , PC 백업. 그 전 13 /8itFp/349(11-07 개편), 12 /8itFp/310
+| iOS | TestFlight **2611081703**(`088bb04`, 알파벳과 발음, Apple 로그인 entitlement 확인). 그 전 2611081627(11-07 개편) |
 | 서명 키 | 원래 키 그대로(SHA-1 `9C:C4:…`), PC `D:\keys\talkverse-de\` 백업, Doppler `SIGNKEY_*` |
 | 저작권 | 출처 이름 든 파서·주석 삭제(`2db89c2`). 과거 이력 9커밋에 이름이 남아 있음 — 정리 안 함 |
 | 태그 | `pre-grok-uxui` = UX 시안 적용 전(`75cc18b`) |
