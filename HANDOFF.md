@@ -45,6 +45,12 @@ _2026-11-03 새로 씀. 앞 판(2026-10-11 메모·Zealot 확인 필요)은 이 
 - 개선 시험 끝(2026-11-08): `r1_survival_s1` 은 MOSS·VoxCPM2 두 판, r2 11번 재생성 완료. 사용자 청취로 모델을 고른 뒤 r2~r4 를 `TTS_OUT` 을 나눠 다시 만든다(`make_plan.py` 가 문장 단위로 쪼개므로 옛 wav 와 이름이 다르다).
 - 레마는 `tools/add_lemmas.py` 그대로(사용자 지시로 고치지 않음). 소형 모델 오류(Taß·Hättest·Gute)가 남아 있다.
 
+## 2026-11-08 회화 전편 초안 · 음성 보류 · Grok 준비
+
+- 회화 초안 28편(레벨 0~5, `docs/DIALOGUE_RULES_de.md` §5·§6), 리뷰 페이지 REVIEW_de 게시(uk). 앱 빌드 전략 `docs/APP_STRATEGY_de.md`(Fable) — 결정 10개 대기.
+- **독일어 음성은 보류(사용자 지시 2026-11-08) — PC 순서 요청도 하지 않는다.** MOSS 개선판·VoxCPM2 비교본은 R2 에 있음(`docs/AUDIO_QA_DE.md`).
+- Grok 재작성 준비 끝(실행은 사용자 지시 뒤, 주간 한도 11-10): 틀 `tools/prompts/rewrite_grok.md`, 요청문 26편 `data/review/grok/<편id>_prompt.md`(`tools/rewrite_request.py`), 반영 `tools/apply_rewrite.py`, 전송 `tools/grok_send.py`·`grok_fetch.py`·`grok_wait.py`(중국어앱 복사). 독일어용 M4 Chrome 포트는 아직 배정 전 — 스크립트 기본값 9233(비어 있음), 시작할 때 `GROK_M4_LOGIN.md` 15행에 보태고 M4 `~/chrome-grok-de` 를 만든다. 순서: 샘플 1~2편 → 사용자 통과 → 본작업, 편마다 새 대화방, 「전문가」 모델.
+
 ## 현재 상태 (2026-11-03 00:50)
 | 항목 | 상태 |
 |---|---|
