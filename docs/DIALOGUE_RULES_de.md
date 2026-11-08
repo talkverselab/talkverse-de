@@ -70,4 +70,4 @@
 - uk 검수 반영: R2 「Der Esel nennt sich immer zuerst」, R4 「흠잡을 데가 없네요」·wo ich herkomme·echt, R5 끝 킥(3월 예약 번호)·Bürgeramt·Blick in den Hof, R0 Wie heißt du?, R1 singt·dein Deutsch(twist 8), R3 관계문·과거형 제거.
 - 레벨 3 단계표 점검: 관계문은 레벨 4 로 미뤘다(r3_life_b1 7턴 「Der mit den Zetteln…」), r3_friends_b1 의 weil 절도 두 문장으로. 현재완료·화법조동사(ich soll)는 레벨 1 문법이라 그대로. 정식 간접화법(es sei)은 r4_work_b1 에만.
 - 독음 r 표기: 음절 끝 r = 어(단어장 248 대 3 → 단어장 3개도 고침), nn·mm 은 한 번, -tag = 탁. `check_dialogues.py --align-rd` 의 `unify()`. 예외 ALIGN_SKIP: Band(벤트), Zug(추크, 단어장 「축」 오기).
-- 카오스 비율: 레벨 1·2·3·5 는 30% 이상, **레벨 0(2편 0%)·레벨 4(25%)는 미달**.
+- 카오스 비율: 전체 11/28 = 39%(규칙은 전체 비율 — uk 확인 2026-11-08). 레벨별로는 0 이 0%, 4 가 25%.
