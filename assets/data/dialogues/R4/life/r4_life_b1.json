@@ -1,0 +1,649 @@
+{
+ "id": "r4_life_b1",
+ "region": "R4",
+ "island": "life",
+ "kind": "long",
+ "title": "규칙은 규칙이죠",
+ "emoji": "🗂️",
+ "scene": "Felix 가 색깔별로 정리한 서류를 들고 구청에 전입 신고를 하러 갔는데 컴퓨터가 꺼진다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Sachbearbeiter",
+  "C": "Felix"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "daily_life",
+  "housing"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Guten Tag",
+  "Leider",
+  "Kein Problem"
+ ],
+ "draft": true,
+ "level": "4 어려운 문법",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Guten Tag. Haben Sie einen Termin?",
+   "rd": "구텐 탁. 하벤 지 아이넨 테어민?",
+   "ko": "안녕하세요. 예약하셨어요?",
+   "note": "Termin = 예약(약속)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Guten",
+     "gut",
+     "구트"
+    ],
+    [
+     "Tag",
+     "Tag",
+     "탁"
+    ],
+    [
+     "Termin",
+     "Termin",
+     "테어민"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Ja, um zehn Uhr. Ich muss meine neue Wohnung melden.",
+   "rd": "야, 움 첸 우어. 이히 무스 마이네 노이에 보눙 멜덴.",
+   "ko": "네, 열 시요. 새 집 전입 신고를 해야 해서요.",
+   "note": "melden = 신고하다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Uhr",
+     "Uhr",
+     "우어"
+    ],
+    [
+     "muss",
+     "muss",
+     ""
+    ],
+    [
+     "neue",
+     "neu",
+     "노이"
+    ],
+    [
+     "Wohnung",
+     "Wohnung",
+     "보눙"
+    ],
+    [
+     "melden",
+     "melden",
+     "멜덴"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Gut. Dafür wird zuerst ein Formular gebraucht. Haben Sie das dabei?",
+   "rd": "구트. 다퓌어 비어트 추에어스트 아인 포어물라어 게브라우흐트. 하벤 지 다스 다바이?",
+   "ko": "네. 그러려면 먼저 서식이 필요합니다. 가져오셨어요?",
+   "note": "wird gebraucht = 필요하다(수동 werden + 과거분사) · Formular = 서식",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Gut",
+     "gut",
+     "구트"
+    ],
+    [
+     "Dafür",
+     "dafür",
+     "다퓌어"
+    ],
+    [
+     "zuerst",
+     "zuerst",
+     "추에어스트"
+    ],
+    [
+     "Formular",
+     "Formular",
+     ""
+    ],
+    [
+     "gebraucht",
+     "brauchen",
+     "브라우헨"
+    ],
+    [
+     "dabei",
+     "dabei",
+     "다바이"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "es": "Natürlich. Das wurde alles schon gestern gemacht. Jede Seite hat ihre eigene Farbe.",
+   "rd": "나튀얼리히. 다스 부어데 알레스 숀 게스턴 게마흐트. 예데 자이테 하트 이레 아이게네 파어베.",
+   "ko": "물론이죠. 어제 다 해 놨어요. 장마다 색도 다르게요.",
+   "note": "wurde gemacht = 되었다(수동 과거)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Natürlich",
+     "natürlich",
+     "나튀얼리히"
+    ],
+    [
+     "schon",
+     "schon",
+     "숀"
+    ],
+    [
+     "gestern",
+     "gestern",
+     "게스턴"
+    ],
+    [
+     "gemacht",
+     "machen",
+     "마헨"
+    ],
+    [
+     "Seite",
+     "Seite",
+     "자이테"
+    ],
+    [
+     "eigene",
+     "eigen",
+     "아이겐"
+    ],
+    [
+     "Farbe",
+     "Farbe",
+     "파어베"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Schön. Und wer sind Sie?",
+   "rd": "쇤. 운트 베어 진트 지?",
+   "ko": "좋네요. 그런데 누구세요?",
+   "note": "wer sind Sie = 누구세요",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Schön",
+     "schön",
+     "쇤"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "es": "Felix. Ich wohne auch dort. Die Regeln im Haus werden von mir geschrieben.",
+   "rd": "펠릭스. 이히 보네 아우흐 도어트. 디 레겔른 임 하우스 베어덴 폰 미어 게슈리벤.",
+   "ko": "펠릭스예요. 저도 거기 살아요. 집 규칙은 제가 씁니다.",
+   "note": "werden von mir geschrieben = 나에 의해 쓰인다(수동 + von)",
+   "tags": [
+    "draft",
+    "callback:r3_life_b1"
+   ],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "wohne",
+     "wohnen",
+     "보넨"
+    ],
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ],
+    [
+     "dort",
+     "dort",
+     "도어트"
+    ],
+    [
+     "Regeln",
+     "regeln",
+     "레겔른"
+    ],
+    [
+     "Haus",
+     "Haus",
+     "하우스"
+    ],
+    [
+     "geschrieben",
+     "schreiben",
+     "슈라이벤"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "Leider stimmt das. Zwölf Regeln.",
+   "rd": "라이더 슈팀트 다스. 츠뵐프 레겔른.",
+   "ko": "안타깝게도 사실이에요. 규칙이 열두 개예요.",
+   "note": "stimmen = 맞다",
+   "tags": [
+    "draft",
+    "callback:r3_life_b1"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Leider",
+     "leider",
+     "라이더"
+    ],
+    [
+     "stimmt",
+     "stimmen",
+     "슈티멘"
+    ],
+    [
+     "Regeln",
+     "regeln",
+     "레겔른"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Gut, dann wird jetzt alles in den Computer geschrieben. Moment. Der ist plötzlich aus.",
+   "rd": "구트, 단 비어트 예츠트 알레스 인 덴 콤퓨터 게슈리벤. 모멘트. 데어 이스트 플뢰츨리히 아우스.",
+   "ko": "좋습니다, 그럼 이제 전부 컴퓨터에 입력하… 잠깐요. 갑자기 꺼졌네요.",
+   "note": "wird geschrieben = 쓰인다(수동 현재) · Computer = 컴퓨터",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "polite",
+     "Gut, dann wird jetzt alles in den Computer geschrieben."
+    ],
+    [
+     "surprised",
+     "Moment. Der ist plötzlich aus."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Gut",
+     "gut",
+     "구트"
+    ],
+    [
+     "dann",
+     "dann",
+     "단"
+    ],
+    [
+     "jetzt",
+     "jetzt",
+     "예츠트"
+    ],
+    [
+     "Computer",
+     "Computer",
+     "콤퓨터"
+    ],
+    [
+     "geschrieben",
+     "schreiben",
+     "슈라이벤"
+    ],
+    [
+     "Moment",
+     "Moment",
+     "모멘트"
+    ],
+    [
+     "plötzlich",
+     "plötzlich",
+     "플뢰츨리히"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "es": "Aus? Das darf nicht passieren! Wir haben einen Termin!",
+   "rd": "아우스? 다스 다어프 니히트 파시렌! 비어 하벤 아이넨 테어민!",
+   "ko": "꺼졌다고요? 그러면 안 되죠! 저희 예약했다고요!",
+   "note": "darf nicht passieren = 일어나면 안 된다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "passieren",
+     "passieren",
+     "파시렌"
+    ],
+    [
+     "haben",
+     "haben",
+     "하벤"
+    ],
+    [
+     "Termin",
+     "Termin",
+     "테어민"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "es": "Kein Problem. Dann wird das eben mit der Hand gemacht.",
+   "rd": "카인 프로블렘. 단 비어트 다스 에벤 미트 데어 한트 게마흐트.",
+   "ko": "문제없습니다. 그럼 손으로 하면 되죠.",
+   "note": "wird mit der Hand gemacht = 손으로 처리된다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Problem",
+     "Problem",
+     "프로블렘"
+    ],
+    [
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "eben",
+     "eben",
+     "에벤"
+    ],
+    [
+     "Hand",
+     "Hand",
+     "한트"
+    ],
+    [
+     "gemacht",
+     "machen",
+     "마헨"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "es": "Felix! Deine Farben werden endlich gebraucht!",
+   "rd": "펠릭스! 다이네 파어벤 베어덴 엔틀리히 게브라우흐트!",
+   "ko": "펠릭스! 드디어 네 색깔들이 쓸모가 있네!",
+   "note": "werden gebraucht = 쓰이게 된다(수동)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Farben",
+     "Farbe",
+     "파어베"
+    ],
+    [
+     "endlich",
+     "endlich",
+     "엔틀리히"
+    ],
+    [
+     "gebraucht",
+     "brauchen",
+     "브라우헨"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "es": "Oh, der Computer ist wieder an. Dann muss leider alles noch einmal gemacht werden.",
+   "rd": "오, 데어 콤퓨터 이스트 비더 안. 단 무스 라이더 알레스 노흐 아인말 게마흐트 베어덴.",
+   "ko": "어, 컴퓨터가 다시 켜졌네요. 그럼 아쉽지만 전부 다시 해야 합니다.",
+   "note": "muss gemacht werden = 되어야 한다(조동사 + 수동)",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Oh, der Computer ist wieder an."
+    ],
+    [
+     "polite",
+     "Dann muss leider alles noch einmal gemacht werden."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Computer",
+     "Computer",
+     "콤퓨터"
+    ],
+    [
+     "wieder",
+     "wieder",
+     "비더"
+    ],
+    [
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "muss",
+     "muss",
+     ""
+    ],
+    [
+     "leider",
+     "leider",
+     "라이더"
+    ],
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "einmal",
+     "einmal",
+     "아인말"
+    ],
+    [
+     "gemacht",
+     "machen",
+     "마헨"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "es": "Noch einmal? Das wurde doch gerade erst gemacht!",
+   "rd": "노흐 아인말? 다스 부어데 도흐 게라데 에어스트 게마흐트!",
+   "ko": "다시요? 방금 했잖아요!",
+   "note": "gerade erst = 방금 막",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "Noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "einmal",
+     "einmal",
+     "아인말"
+    ],
+    [
+     "doch",
+     "doch",
+     "도흐"
+    ],
+    [
+     "gerade",
+     "gerade",
+     "게라데"
+    ],
+    [
+     "erst",
+     "erst",
+     "에어스트"
+    ],
+    [
+     "gemacht",
+     "machen",
+     "마헨"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "es": "Regeln sind Regeln. Das wissen Sie doch am besten.",
+   "rd": "레겔른 진트 레겔른. 다스 비센 지 도흐 암 베스텐.",
+   "ko": "규칙은 규칙이죠. 그건 손님이 제일 잘 아시잖아요.",
+   "note": "am besten = 가장 잘",
+   "tags": [
+    "draft",
+    "callback:r3_life_b1"
+   ],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Regeln",
+     "regeln",
+     "레겔른"
+    ],
+    [
+     "Regeln",
+     "regeln",
+     "레겔른"
+    ],
+    [
+     "wissen",
+     "wissen",
+     "비센"
+    ],
+    [
+     "doch",
+     "doch",
+     "도흐"
+    ],
+    [
+     "besten",
+     "gut",
+     "구트"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "es": "Felix, ich glaube, du hast deinen Meister gefunden.",
+   "rd": "펠릭스, 이히 글라우베, 두 하스트 다이넨 마이스터 게푼덴.",
+   "ko": "펠릭스, 너 임자 만난 것 같다.",
+   "note": "Meister = 달인(여기선 임자)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "glaube",
+     "glauben",
+     "글라우벤"
+    ],
+    [
+     "Meister",
+     "Meister",
+     "마이스터"
+    ],
+    [
+     "gefunden",
+     "finden",
+     "핀덴"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "C",
+   "es": "… Darf ich wenigstens die Farben behalten?",
+   "rd": "… 다어프 이히 베니히스텐스 디 파어벤 베할텐?",
+   "ko": "…색깔은 그대로 둬도 되나요?",
+   "note": "wenigstens = 적어도",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "wenigstens",
+     "wenigstens",
+     "베니히스텐스"
+    ],
+    [
+     "Farben",
+     "Farbe",
+     "파어베"
+    ],
+    [
+     "behalten",
+     "behalten",
+     "베할텐"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,626 @@
+{
+ "id": "r3_travel_b1",
+ "region": "R3",
+ "island": "travel",
+ "kind": "survival",
+ "title": "정확하게 늦어",
+ "emoji": "🚆",
+ "scene": "Lena 와 자전거를 싣고 기차에 탔는데, 검표원이 승차권을 보더니 문제가 하나가 아니라고 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Schaffnerin",
+  "C": "Lena"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "transport"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [
+  "Guten Tag",
+  "Oh Mann",
+  "Pünktlich"
+ ],
+ "draft": true,
+ "level": "3 그래머2",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Guten Tag! Ihre Karten, bitte.",
+   "rd": "구텐 탁! 이레 카어텐, 비테.",
+   "ko": "안녕하세요! 승차권 보여 주세요.",
+   "note": "Ihre = 당신(들)의(존칭 소유)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Guten",
+     "gut",
+     "구트"
+    ],
+    [
+     "Tag",
+     "Tag",
+     "탁"
+    ],
+    [
+     "Karten",
+     "Karte",
+     "카어테"
+    ],
+    [
+     "bitte",
+     "bitte",
+     "비테"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Hier, auf dem Handy. Für uns beide.",
+   "rd": "히어, 아우프 뎀 헨디. 퓌어 운스 바이데.",
+   "ko": "여기요, 휴대폰에 있어요. 저희 둘 거예요.",
+   "note": "uns beide = 우리 둘",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Hier",
+     "hier",
+     "히어"
+    ],
+    [
+     "Handy",
+     "Handy",
+     "헨디"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Danke. Und das Fahrrad da, gehört das auch Ihnen?",
+   "rd": "당케. 운트 다스 파어라트 다, 게회어트 다스 아우흐 이넨?",
+   "ko": "네. 그리고 저 자전거도 손님들 거예요?",
+   "note": "gehören + 3격 = ~의 것이다 · Fahrrad = 자전거",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Danke",
+     "danke",
+     "당케"
+    ],
+    [
+     "Fahrrad",
+     "fahren",
+     "파렌"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ],
+    [
+     "gehört",
+     "gehören",
+     "게회렌"
+    ],
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "es": "Ja, das gehört mir. Ohne Fahrrad gehe ich nicht aus dem Haus.",
+   "rd": "야, 다스 게회어트 미어. 오네 파어라트 게에 이히 니히트 아우스 뎀 하우스.",
+   "ko": "네, 제 거예요. 저는 자전거 없이는 집 밖에 안 나가요.",
+   "note": "ohne = ~ 없이",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "gehört",
+     "gehören",
+     "게회렌"
+    ],
+    [
+     "Fahrrad",
+     "fahren",
+     "파렌"
+    ],
+    [
+     "gehe",
+     "gehen",
+     "게엔"
+    ],
+    [
+     "Haus",
+     "Haus",
+     "하우스"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Für das Fahrrad brauchen Sie aber auch eine Karte.",
+   "rd": "퓌어 다스 파어라트 브라우헨 지 아버 아우흐 아이네 카어테.",
+   "ko": "자전거도 승차권이 따로 있어야 해요.",
+   "note": "brauchen Sie = 필요하세요(존칭)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Fahrrad",
+     "fahren",
+     "파렌"
+    ],
+    [
+     "brauchen",
+     "brauchen",
+     "브라우헨"
+    ],
+    [
+     "aber",
+     "aber",
+     "아버"
+    ],
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ],
+    [
+     "Karte",
+     "Karte",
+     "카어테"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Oh. Das wussten wir nicht. Können wir die bei Ihnen bekommen?",
+   "rd": "오. 다스 부스텐 비어 니히트. 쾨넨 비어 디 바이 이넨 베코멘?",
+   "ko": "아. 저희가 몰랐어요. 여기서 살 수 있나요?",
+   "note": "wussten wir = 우리가 알았다(복수 과거)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "wussten",
+     "wussen",
+     ""
+    ],
+    [
+     "bekommen",
+     "bekommen",
+     "베코멘"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "es": "Gern. Aber wo wollen Sie denn hin?",
+   "rd": "게언. 아버 보 볼렌 지 덴 힌?",
+   "ko": "네. 그런데 어디까지 가세요?",
+   "note": "wo … hin = 어디로",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Gern",
+     "gern",
+     "게언"
+    ],
+    [
+     "wo",
+     "wo",
+     "보"
+    ],
+    [
+     "denn",
+     "denn",
+     "덴"
+    ],
+    [
+     "hin",
+     "hin",
+     "힌"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "es": "Zu meiner Familie. Um sieben gibt es Essen, und ich bin nie spät.",
+   "rd": "추 마이너 파밀리에. 움 지벤 깁트 에스 에센, 운트 이히 빈 니 슈페트.",
+   "ko": "가족한테요. 일곱 시에 저녁인데, 저는 절대 안 늦어요.",
+   "note": "nie = 절대 ~ 않다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Familie",
+     "Familie",
+     "파밀리에"
+    ],
+    [
+     "gibt",
+     "geben",
+     "게벤"
+    ],
+    [
+     "nie",
+     "nie",
+     "니"
+    ],
+    [
+     "spät",
+     "spät",
+     "슈페트"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "es": "Dann haben Sie ein Problem. Dieser Zug fährt da nicht hin. Er fährt zurück.",
+   "rd": "단 하벤 지 아인 프로블렘. 디저 추크 페어트 다 니히트 힌. 에어 페어트 추뤽.",
+   "ko": "그럼 문제가 있네요. 이 기차는 거기 안 가요. 반대로 돌아가요.",
+   "note": "Zug = 기차 · zurückfahren = 되돌아가다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "Problem",
+     "Problem",
+     "프로블렘"
+    ],
+    [
+     "Zug",
+     "Zug",
+     "축"
+    ],
+    [
+     "fährt",
+     "fahren",
+     "파렌"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ],
+    [
+     "hin",
+     "hin",
+     "힌"
+    ],
+    [
+     "fährt",
+     "fahren",
+     "파렌"
+    ],
+    [
+     "zurück",
+     "zurück",
+     "추뤽"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "es": "Zurück? Lena, du hast doch gesagt, das ist richtig!",
+   "rd": "추뤽? 레나, 두 하스트 도흐 게자크트, 다스 이스트 리히티히!",
+   "ko": "반대로? 레나, 네가 이거 맞다며!",
+   "note": "doch = (따지며) ~했잖아",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Zurück",
+     "zurück",
+     "추뤽"
+    ],
+    [
+     "doch",
+     "doch",
+     "도흐"
+    ],
+    [
+     "gesagt",
+     "sagen",
+     "자겐"
+    ],
+    [
+     "richtig",
+     "richtig",
+     "리히티히"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "es": "Ich habe nur auf die Uhr geschaut. Die Zeit war richtig!",
+   "rd": "이히 하베 누어 아우프 디 우어 게샤우트. 디 차이트 바 리히티히!",
+   "ko": "난 시계만 봤단 말이야. 시간은 맞았어!",
+   "note": "auf die Uhr schauen = 시계를 보다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "nur",
+     "nur",
+     "누어"
+    ],
+    [
+     "Uhr",
+     "Uhr",
+     "우어"
+    ],
+    [
+     "geschaut",
+     "schauen",
+     "샤우엔"
+    ],
+    [
+     "Zeit",
+     "Zeit",
+     "차이트"
+    ],
+    [
+     "richtig",
+     "richtig",
+     "리히티히"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "es": "Und es wird noch besser: Wir halten erst in einer Stunde wieder.",
+   "rd": "운트 에스 비어트 노흐 베서: 비어 할텐 에어스트 인 아이너 슈툰데 비더.",
+   "ko": "게다가 더 있어요. 다음 정차는 한 시간 뒤예요.",
+   "note": "erst in einer Stunde = 한 시간 뒤에야",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "besser",
+     "gut",
+     "구트"
+    ],
+    [
+     "halten",
+     "halten",
+     "할텐"
+    ],
+    [
+     "erst",
+     "erst",
+     "에어스트"
+    ],
+    [
+     "Stunde",
+     "Stunde",
+     "슈툰데"
+    ],
+    [
+     "wieder",
+     "wieder",
+     "비더"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "es": "Oh Mann. Eine Stunde? Und die Karte für das Fahrrad?",
+   "rd": "오 만. 아이네 슈툰데? 운트 디 카어테 퓌어 다스 파어라트?",
+   "ko": "아 이런. 한 시간이요? 그럼 자전거 승차권은요?",
+   "note": "Oh Mann = 아 이런",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Mann",
+     "Mann",
+     "만"
+    ],
+    [
+     "Stunde",
+     "Stunde",
+     "슈툰데"
+    ],
+    [
+     "Karte",
+     "Karte",
+     "카어테"
+    ],
+    [
+     "Fahrrad",
+     "fahren",
+     "파렌"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "es": "Die brauchen Sie auch. Auch für den Weg zurück.",
+   "rd": "디 브라우헨 지 아우흐. 아우흐 퓌어 덴 베크 추뤽.",
+   "ko": "그것도 있어야 해요. 돌아가는 길 것도요.",
+   "note": "der Weg zurück = 돌아가는 길",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "brauchen",
+     "brauchen",
+     "브라우헨"
+    ],
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ],
+    [
+     "Auch",
+     "auch",
+     "아우흐"
+    ],
+    [
+     "Weg",
+     "weg",
+     "베크"
+    ],
+    [
+     "zurück",
+     "zurück",
+     "추뤽"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "C",
+   "es": "Mama wartet um sieben. Ich war noch nie zu spät … bis heute.",
+   "rd": "마마 바어테트 움 지벤. 이히 바 노흐 니 추 슈페트 … 비스 호이테.",
+   "ko": "엄마가 일곱 시에 기다려. 나 한 번도 안 늦었는데… 오늘까지는.",
+   "note": "noch nie = 한 번도 ~ 않은",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "worried",
+     "Mama wartet um sieben."
+    ],
+    [
+     "sad",
+     "Ich war noch nie zu spät … bis heute."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Mama",
+     "Mama",
+     "마마"
+    ],
+    [
+     "wartet",
+     "warten",
+     "바어텐"
+    ],
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "nie",
+     "nie",
+     "니"
+    ],
+    [
+     "spät",
+     "spät",
+     "슈페트"
+    ],
+    [
+     "heute",
+     "heute",
+     "호이테"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "A",
+   "es": "Sag ihr einfach: Wir kommen spät. Aber pünktlich.",
+   "rd": "자크 이어 아인파흐: 비어 코멘 슈페트. 아버 퓡크틀리히.",
+   "ko": "그냥 이렇게 말해. 우리 늦어. 대신 정확하게 늦어.",
+   "note": "pünktlich = 시간 딱 맞춰",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "einfach",
+     "einfach",
+     "아인파흐"
+    ],
+    [
+     "kommen",
+     "kommen",
+     "코멘"
+    ],
+    [
+     "spät",
+     "spät",
+     "슈페트"
+    ],
+    [
+     "pünktlich",
+     "pünktlich",
+     "퓡크틀리히"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,415 @@
+{
+ "id": "r2_love_c2",
+ "region": "R2",
+ "island": "love",
+ "kind": "chat",
+ "title": "카페인 탓이야",
+ "emoji": "🌙",
+ "scene": "새벽 한 시, 잠 못 든 Mia 가 먼저 메시지를 보낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love",
+  "chat"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Keine Ahnung",
+  "Ach so",
+  "Eigentlich",
+  "Oh Mann",
+  "Oder?",
+  "Ich auch",
+  "Okay"
+ ],
+ "draft": true,
+ "level": "2 챗 실전",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Schläfst du schon? 🌙",
+   "rd": "슐레프스트 두 숀?",
+   "ko": "벌써 자? 🌙",
+   "note": "schlafen = 자다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "ui": "bubble",
+   "at": "01:12",
+   "lemmas": [
+    [
+     "schon",
+     "schon",
+     "숀"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Nee. Du auch nicht?",
+   "rd": "네. 두 아우흐 니히트?",
+   "ko": "아니. 너도 안 자?",
+   "note": "nee = 아니(구어)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "01:13",
+   "lemmas": [
+    [
+     "Nee",
+     "nee",
+     "네"
+    ],
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Zu viel Kaffee. Ich mache ihn ja jeden Tag 😅",
+   "rd": "추 필 카페. 이히 마헤 인 야 예덴 탁",
+   "ko": "커피를 너무 마셨어. 매일 내리는 게 커피니까 😅",
+   "note": "zu viel = 너무 많이",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "01:13",
+   "lemmas": [
+    [
+     "Kaffee",
+     "Kaffee",
+     "카페"
+    ],
+    [
+     "mache",
+     "machen",
+     "마헨"
+    ],
+    [
+     "ja",
+     "ja",
+     "야"
+    ],
+    [
+     "Tag",
+     "Tag",
+     "탁"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Haha. Und warum schreibst du mir? 😏",
+   "rd": "하하. 운트 바룸 슈라입스트 두 미어?",
+   "ko": "하하. 근데 왜 나한테 연락했어? 😏",
+   "note": "schreiben = (메시지를) 쓰다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "01:14",
+   "lemmas": [
+    [
+     "schreibst",
+     "schreiben",
+     "슈라이벤"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Keine Ahnung. Du bist halt da 🤷‍♀️",
+   "rd": "카이네 아눙. 두 비스트 할트 다",
+   "ko": "몰라. 그냥 네가 있으니까 🤷‍♀️",
+   "note": "Keine Ahnung = 몰라",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "01:15",
+   "lemmas": [
+    [
+     "Ahnung",
+     "Ahnung",
+     "아눙"
+    ],
+    [
+     "halt",
+     "halt",
+     "할트"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Ach so. Nur weil ich da bin?",
+   "rd": "아흐 조. 누어 바일 이히 다 빈?",
+   "ko": "아 그래? 그냥 내가 있어서?",
+   "note": "weil = ~니까",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "01:15",
+   "lemmas": [
+    [
+     "so",
+     "so",
+     "조"
+    ],
+    [
+     "Nur",
+     "nur",
+     "누어"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "es": "Nein. Eigentlich … ich denke die ganze Zeit an dich.",
+   "rd": "나인. 아이겐틀리히 … 이히 덴케 디 간체 차이트 안 디히.",
+   "ko": "아니. 사실은… 계속 네 생각만 해.",
+   "note": "an dich denken = 너를 생각하다",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "flustered",
+     "Nein. Eigentlich … "
+    ],
+    [
+     "gentle",
+     "ich denke die ganze Zeit an dich."
+    ]
+   ],
+   "ui": "bubble",
+   "at": "01:17",
+   "lemmas": [
+    [
+     "Eigentlich",
+     "eigentlich",
+     "아이겐틀리히"
+    ],
+    [
+     "denke",
+     "denken",
+     "뎅켄"
+    ],
+    [
+     "ganze",
+     "ganz",
+     "간츠"
+    ],
+    [
+     "Zeit",
+     "Zeit",
+     "차이트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Oh Mann. Das war zu ehrlich, oder? 🫣",
+   "rd": "오 만. 다스 바어 추 에얼리히, 오더?",
+   "ko": "아 이런. 너무 솔직했지? 🫣",
+   "note": "zu ehrlich = 너무 솔직한",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "01:17",
+   "lemmas": [
+    [
+     "Mann",
+     "Mann",
+     "만"
+    ],
+    [
+     "ehrlich",
+     "ehrlich",
+     "에얼리히"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "es": "Nee. Das war genau richtig.",
+   "rd": "네. 다스 바어 게나우 리히티히.",
+   "ko": "아니. 딱 좋았어.",
+   "note": "genau richtig = 딱 맞는",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "01:18",
+   "lemmas": [
+    [
+     "Nee",
+     "nee",
+     "네"
+    ],
+    [
+     "genau",
+     "genau",
+     "게나우"
+    ],
+    [
+     "richtig",
+     "richtig",
+     "리히티히"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "es": "Ich auch. Schon lange.",
+   "rd": "이히 아우흐. 숀 랑에.",
+   "ko": "나도야. 꽤 오래전부터.",
+   "note": "schon lange = 오래전부터",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "ui": "bubble",
+   "at": "01:18",
+   "lemmas": [
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ],
+    [
+     "Schon",
+     "schon",
+     "숀"
+    ],
+    [
+     "lange",
+     "lange",
+     "랑에"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "es": "Okay. Jetzt kann ich gar nicht mehr schlafen 😳",
+   "rd": "오케이. 예츠트 칸 이히 가어 니히트 메어 슐라펜",
+   "ko": "오케이. 이제 진짜 잠 다 잤다 😳",
+   "note": "gar nicht mehr = 이제 전혀 ~않다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "01:19",
+   "lemmas": [
+    [
+     "Okay",
+     "Okay",
+     "오케이"
+    ],
+    [
+     "Jetzt",
+     "jetzt",
+     "예츠트"
+    ],
+    [
+     "gar",
+     "gar",
+     "가어"
+    ],
+    [
+     "mehr",
+     "mehr",
+     "메어"
+    ],
+    [
+     "schlafen",
+     "schlafen",
+     "슐라펜"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "es": "Morgen früh. Kaffee bei mir. Geht auf mich 😘",
+   "rd": "모어겐 프뤼. 카페 바이 미어. 게트 아우프 미히",
+   "ko": "내일 아침. 커피는 우리 가게에서. 내가 쏠게 😘",
+   "note": "geht auf mich = 내가 낸다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "01:19",
+   "lemmas": [
+    [
+     "Morgen",
+     "morgen",
+     "모어겐"
+    ],
+    [
+     "früh",
+     "früh",
+     "프뤼"
+    ],
+    [
+     "Kaffee",
+     "Kaffee",
+     "카페"
+    ],
+    [
+     "Geht",
+     "gehen",
+     "게엔"
+    ]
+   ]
+  }
+ ]
+}

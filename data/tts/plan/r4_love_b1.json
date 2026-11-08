@@ -1,0 +1,171 @@
+{
+ "ep": "r4_love_b1",
+ "cast": {
+  "B": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "Sag mal, wenn ich du wäre, würde ich langsam gehen."
+    ],
+    [
+     "teasing",
+     "Wir machen in zehn Minuten zu."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Oh, schon so spät?"
+    ],
+    [
+     "flustered",
+     "Ich dachte, es wäre erst sieben."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "amused",
+     "Du sitzt hier seit drei Stunden."
+    ],
+    [
+     "amused",
+     "Und du klopfst die ganze Zeit auf den Tisch."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Echt? Das ist mir peinlich."
+    ],
+    [
+     "shy",
+     "Das mache ich immer, wenn ich nachdenke."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Gar nicht. Wenn es ein bisschen schneller wäre, wäre es fast Musik."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Fast Musik? Du redest, als würdest du selbst Musik machen."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Mache ich auch."
+    ],
+    [
+     "cheerful",
+     "Ich spiele Schlagzeug."
+    ],
+    [
+     "amused",
+     "In einer Band … na ja, in einem Keller.",
+     "In einer Band, na ja, in einem Keller."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "excited",
+     "Krass. Wenn ich so etwas könnte, wäre ich jeden Abend glücklich."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "teasing",
+     "Und wenn du es einfach lernen würdest?"
+    ],
+    [
+     "teasing",
+     "Nur mal so gefragt."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Dann bräuchte ich jemanden, der mit mir sehr ruhig bleibt."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "teasing",
+     "Ruhig bin ich nicht."
+    ],
+    [
+     "shy",
+     "Aber Zeit … hätte ich.",
+     "Aber Zeit, hätte ich."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "surprised",
+     "Moment mal. Meinst du das ernst?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "cheerful",
+     "Morgen, zehn Uhr, hier."
+    ],
+    [
+     "shy",
+     "Und wenn du nicht kämst … wäre ich ein bisschen traurig.",
+     "Und wenn du nicht kämst, wäre ich ein bisschen traurig."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "gentle",
+     "Ich wäre schon um neun da, wenn ich dürfte."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "teasing",
+     "Um neun? Da schlafe ich noch."
+    ],
+    [
+     "teasing",
+     "Musiker, weißt du?"
+    ]
+   ]
+  }
+ }
+}

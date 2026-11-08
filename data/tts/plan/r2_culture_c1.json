@@ -1,0 +1,109 @@
+{
+ "ep": "r2_culture_c1",
+ "cast": {
+  "B": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Na? Heute Abend spiele ich. Kommst du? 🥁"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "Klar! Wo und wann?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Um neun. Du hörst mich, ich bin sehr laut 😜"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Mia, du warst mega!"
+    ],
+    [
+     "amused",
+     "Ich höre jetzt nichts mehr 😂"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Ehrlich. Ich hab nur dich gesehen."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Mia? 👀"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "sad",
+     "Okay … schlaf gut 🙃",
+     "Okay, schlaf gut 🙃"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Mist, meine Hand!"
+    ],
+    [
+     "flustered",
+     "Ich kann nicht mal das Handy halten."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shy",
+     "Aber ich hab's gelesen. Fünf Mal 🙈"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "surprised",
+     "Fünf Mal?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "gentle",
+     "Und nächstes Mal stehst du ganz vorne."
+    ],
+    [
+     "teasing",
+     "Dann seh ich dich auch 😉"
+    ]
+   ]
+  }
+ }
+}

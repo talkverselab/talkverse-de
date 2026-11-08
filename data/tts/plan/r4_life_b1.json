@@ -1,0 +1,182 @@
+{
+ "ep": "r4_life_b1",
+ "cast": {
+  "B": "man_m",
+  "C": "felix"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "stiff",
+     "Guten Tag. Haben Sie einen Termin?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Ja, um zehn Uhr."
+    ],
+    [
+     "polite",
+     "Ich muss meine neue Wohnung melden."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "stiff",
+     "Gut. Dafür wird zuerst ein Formular gebraucht."
+    ],
+    [
+     "stiff",
+     "Haben Sie das dabei?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Natürlich. Das wurde alles schon gestern gemacht."
+    ],
+    [
+     "cheerful",
+     "Jede Seite hat ihre eigene Farbe."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Schön. Und wer sind Sie?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "stiff",
+     "Felix. Ich wohne auch dort."
+    ],
+    [
+     "stiff",
+     "Die Regeln im Haus werden von mir geschrieben."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Leider stimmt das."
+    ],
+    [
+     "teasing",
+     "Zwölf Regeln."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "polite",
+     "Gut, dann wird jetzt alles in den Computer geschrieben."
+    ],
+    [
+     "surprised",
+     "Moment. Der ist plötzlich aus."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shout",
+     "Aus? Das darf nicht passieren!"
+    ],
+    [
+     "shout",
+     "Wir haben einen Termin!"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "polite",
+     "Kein Problem."
+    ],
+    [
+     "polite",
+     "Dann wird das eben mit der Hand gemacht."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "amused",
+     "Felix! Deine Farben werden endlich gebraucht!"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "surprised",
+     "Oh, der Computer ist wieder an."
+    ],
+    [
+     "polite",
+     "Dann muss leider alles noch einmal gemacht werden."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "annoyed",
+     "Noch einmal?"
+    ],
+    [
+     "annoyed",
+     "Das wurde doch gerade erst gemacht!"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "stiff",
+     "Regeln sind Regeln."
+    ],
+    [
+     "stiff",
+     "Das wissen Sie doch am besten."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "teasing",
+     "Felix, ich glaube, du hast deinen Meister gefunden."
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "sad",
+     "… Darf ich wenigstens die Farben behalten?",
+     "Darf ich wenigstens die Farben behalten?"
+    ]
+   ]
+  }
+ }
+}

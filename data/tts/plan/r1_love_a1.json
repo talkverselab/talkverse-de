@@ -1,0 +1,90 @@
+{
+ "ep": "r1_love_a1",
+ "cast": {
+  "B": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "shy",
+     "Sag mal, {name} … hast du einen Freund?",
+     "Sag mal, {name}, hast du einen Freund?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "sad",
+     "Einen Freund?"
+    ],
+    [
+     "sad",
+     "Nein, ich habe keinen. Leider."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "surprised",
+     "Keinen? Echt?"
+    ],
+    [
+     "shy",
+     "… Das ist gut.",
+     "Das ist gut."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "annoyed",
+     "Gut? Ich habe hier keinen. Nur mich."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "Nein. Jetzt hast du auch … mich.",
+     "Nein. Jetzt hast du auch, mich."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Oh! Dann … mag ich mich!",
+     "Oh! Dann, mag ich mich!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Du magst dich?"
+    ],
+    [
+     "teasing",
+     "Okay … und mich?",
+     "Okay, und mich?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Dich! Ich mag dich! … Oh Mann.",
+     "Dich! Ich mag dich!, Oh Mann."
+    ]
+   ]
+  }
+ }
+}

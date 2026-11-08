@@ -1,0 +1,269 @@
+{
+ "id": "r1_life_a1",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "title": "다 나한테 줘!",
+ "emoji": "♻️",
+ "scene": "WG 부엌. 병 하나 어떻게 하냐고 물었더니 분리수거에 진심인 Felix 가 휴대폰까지 걷어 간다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Felix"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "daily_life",
+  "grammar_dative"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Sag mal",
+  "Okay",
+  "Ach so"
+ ],
+ "draft": true,
+ "level": "1 관사·격·활용 골격",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "Felix, sag mal: was mache ich mit der Flasche?",
+   "rd": "펠릭스, 자크 말: 바스 마헤 이히 미트 데어 플라셰?",
+   "ko": "펠릭스, 있잖아. 이 병 어떻게 해?",
+   "note": "mit der Flasche = 병을 가지고(여격)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "mache",
+     "machen",
+     "마헨"
+    ],
+    [
+     "Flasche",
+     "Flasche",
+     "플라셰"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "Mit der Flasche? Die gibst du mir.",
+   "rd": "미트 데어 플라셰? 디 깁스트 두 미어.",
+   "ko": "그 병? 그건 나한테 줘.",
+   "note": "mir = 나한테(여격)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Flasche",
+     "Flasche",
+     "플라셰"
+    ],
+    [
+     "gibst",
+     "gibst",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "Okay, hier. Und mit dem da?",
+   "rd": "오케이, 히어. 운트 미트 뎀 다?",
+   "ko": "알았어, 여기. 그럼 저건?",
+   "note": "mit dem = 그걸 가지고(남성·중성 여격)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Okay",
+     "Okay",
+     "오케이"
+    ],
+    [
+     "hier",
+     "hier",
+     "히어"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "Das auch. Und das. Gib mir alles!",
+   "rd": "다스 아우흐. 운트 다스. 깁 미어 알레스!",
+   "ko": "그것도. 그것도. 다 나한테 줘!",
+   "note": "Gib mir … = 나한테 줘",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ],
+    [
+     "Gib",
+     "gib",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "Alles? Auch das hier? Das ist mein Handy!",
+   "rd": "알레스? 아우흐 다스 히어? 다스 이스트 마인 헨디!",
+   "ko": "다? 이것도? 이건 내 폰이야!",
+   "note": "Handy = 휴대폰",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Alles? Auch das hier? "
+    ],
+    [
+     "shout",
+     "Das ist mein Handy!"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Auch",
+     "auch",
+     "아우흐"
+    ],
+    [
+     "hier",
+     "hier",
+     "히어"
+    ],
+    [
+     "Handy",
+     "Handy",
+     "헨디"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "Ach so. Dann gebe ich es dir … morgen.",
+   "rd": "아흐 조. 단 게베 이히 에스 디어 … 모어겐.",
+   "ko": "아 그래. 그럼 돌려줄게… 내일.",
+   "note": "dir = 너한테(여격)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "so",
+     "so",
+     "조"
+    ],
+    [
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "gebe",
+     "geben",
+     "게벤"
+    ],
+    [
+     "morgen",
+     "morgen",
+     "모어겐"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "Morgen?! Felix, das gibst du mir jetzt!",
+   "rd": "모어겐?! 펠릭스, 다스 깁스트 두 미어 예츠트!",
+   "ko": "내일?! 펠릭스, 지금 내놔!",
+   "note": "das gibst du mir = 그거 나한테 줘",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Morgen",
+     "morgen",
+     "모어겐"
+    ],
+    [
+     "gibst",
+     "gibst",
+     ""
+    ],
+    [
+     "jetzt",
+     "jetzt",
+     "예츠트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Okay, hier. Und du? Was gibst du mir?",
+   "rd": "오케이, 히어. 운트 두? 바스 깁스트 두 미어?",
+   "ko": "알았어, 여기. 그럼 넌? 나한테 뭐 줄 건데?",
+   "note": "Was gibst du mir? = 나한테 뭐 줄래?",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Okay",
+     "Okay",
+     "오케이"
+    ],
+    [
+     "hier",
+     "hier",
+     "히어"
+    ],
+    [
+     "gibst",
+     "gibst",
+     ""
+    ]
+   ]
+  }
+ ]
+}

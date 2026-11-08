@@ -1,0 +1,274 @@
+{
+ "id": "r1_love_a2",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "title": "지금 아니면 끝",
+ "emoji": "📞",
+ "scene": "Mia 가 먼저 같이 가자는데, 학습자는 핑계를 대다 말문이 막힌다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love",
+  "grammar_separable_modal"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Sag mal",
+  "Na ja",
+  "Keine Ahnung",
+  "Echt?",
+  "Ist mir egal",
+  "Warte mal"
+ ],
+ "draft": true,
+ "level": "1 관사·격·활용 골격",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Hey, {name}! Ich gehe zu Jonas. Kommst du mit?",
+   "rd": "헤이, {name}! 이히 게에 추 요나스. 콤스트 두 미트?",
+   "ko": "{name}! 나 요나스네 가. 같이 갈래?",
+   "note": "mitkommen = 같이 가다(분리동사)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "gehe",
+     "gehen",
+     "게엔"
+    ],
+    [
+     "Kommst",
+     "kommen",
+     "코멘"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Jetzt? Ich kann nicht. Ich muss noch was machen.",
+   "rd": "예츠트? 이히 칸 니히트. 이히 무스 노흐 바스 마헨.",
+   "ko": "지금? 안 돼. 나 할 거 있어.",
+   "note": "muss = 해야 하다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Jetzt",
+     "jetzt",
+     "예츠트"
+    ],
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "machen",
+     "machen",
+     "마헨"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Was musst du denn machen? Sag mal.",
+   "rd": "바스 무스트 두 덴 마헨? 자크 말.",
+   "ko": "뭘 해야 하는데? 말해 봐.",
+   "note": "musst = 해야 하다(du 형)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "musst",
+     "musst",
+     ""
+    ],
+    [
+     "denn",
+     "denn",
+     "덴"
+    ],
+    [
+     "machen",
+     "machen",
+     "마헨"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Na ja … keine Ahnung. Ruf mich später an?",
+   "rd": "나 야 … 카이네 아눙. 루프 미히 슈페터 안?",
+   "ko": "그게… 모르겠어. 이따 전화해 줄래?",
+   "note": "anrufen = 전화하다(ruf … an)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "ja",
+     "ja",
+     "야"
+    ],
+    [
+     "Ahnung",
+     "Ahnung",
+     "아눙"
+    ],
+    [
+     "Ruf",
+     "rufen",
+     "루펜"
+    ],
+    [
+     "später",
+     "spät",
+     "슈페트"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Später? Nein. Jetzt oder nie.",
+   "rd": "슈페터? 나인. 예츠트 오더 니.",
+   "ko": "이따? 아니. 지금 아니면 끝이야.",
+   "note": "Jetzt oder nie = 지금 아니면 끝",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Später",
+     "spät",
+     "슈페트"
+    ],
+    [
+     "Jetzt",
+     "jetzt",
+     "예츠트"
+    ],
+    [
+     "nie",
+     "nie",
+     "니"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Jetzt oder nie? Echt? Bei Jonas?",
+   "rd": "예츠트 오더 니? 에히트? 바이 요나스?",
+   "ko": "지금 아니면 끝? 진짜? 요나스네가?",
+   "note": "bei Jonas = 요나스네에서",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Jetzt",
+     "jetzt",
+     "예츠트"
+    ],
+    [
+     "nie",
+     "nie",
+     "니"
+    ],
+    [
+     "Echt",
+     "echt",
+     "에히트"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "es": "Jonas ist mir egal. Ich will … mit dir.",
+   "rd": "요나스 이스트 미어 에갈. 이히 빌 … 미트 디어.",
+   "ko": "요나스는 상관없어. 난… 너랑 가고 싶어.",
+   "note": "Ich will … = …하고 싶어(화법조동사)",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "flustered",
+     "Jonas ist mir egal. "
+    ],
+    [
+     "shy",
+     "Ich will … mit dir."
+    ]
+   ],
+   "lemmas": [
+    [
+     "egal",
+     "egal",
+     "에갈"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "es": "Mit mir? … Warte mal. Ich komme mit!",
+   "rd": "미트 미어? … 바어테 말. 이히 코메 미트!",
+   "ko": "나랑? …잠깐만. 나 갈래!",
+   "note": "Ich komme mit = 같이 갈게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Warte",
+     "warten",
+     "바어텐"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "komme",
+     "kommen",
+     "코멘"
+    ]
+   ]
+  }
+ ]
+}

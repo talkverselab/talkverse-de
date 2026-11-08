@@ -68,15 +68,26 @@
   {
    "num": 3,
    "speaker": "B",
-   "es": "Haha, nein! Wer bist du?",
-   "rd": "하하, 나인! 베어 비스트 두?",
-   "ko": "하하, 아니! 너 누구냐고.",
-   "note": "wer = 누구",
+   "es": "Haha, nein! Wie heißt du?",
+   "rd": "하하, 나인! 비 하이스트 두?",
+   "ko": "하하, 아니! 이름이 뭐냐고.",
+   "note": "Wie heißt du? = 이름이 뭐야?",
    "tags": [
     "draft"
    ],
    "emotion": "amused",
-   "lemmas": []
+   "lemmas": [
+    [
+     "Wie",
+     "wie",
+     "비"
+    ],
+    [
+     "heißt",
+     "heißen",
+     "하이센"
+    ]
+   ]
   },
   {
    "num": 4,

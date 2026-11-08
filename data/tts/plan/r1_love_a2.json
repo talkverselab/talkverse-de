@@ -1,0 +1,103 @@
+{
+ "ep": "r1_love_a2",
+ "cast": {
+  "B": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Hey, {name}! Ich gehe zu Jonas."
+    ],
+    [
+     "cheerful",
+     "Kommst du mit?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Jetzt? Ich kann nicht."
+    ],
+    [
+     "flustered",
+     "Ich muss noch was machen."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Was musst du denn machen? Sag mal."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Na ja … keine Ahnung.",
+     "Na ja, keine Ahnung."
+    ],
+    [
+     "flustered",
+     "Ruf mich später an?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Später? Nein."
+    ],
+    [
+     "teasing",
+     "Jetzt oder nie."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Jetzt oder nie?"
+    ],
+    [
+     "surprised",
+     "Echt? Bei Jonas?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Jonas ist mir egal."
+    ],
+    [
+     "shy",
+     "Ich will … mit dir.",
+     "Ich will, mit dir."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "excited",
+     "Mit mir? … Warte mal.",
+     "Mit mir?, Warte mal."
+    ],
+    [
+     "excited",
+     "Ich komme mit!"
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "ep": "r2_love_c2",
+ "cast": {
+  "B": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "shy",
+     "Schläfst du schon? 🌙"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "amused",
+     "Nee. Du auch nicht?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "amused",
+     "Zu viel Kaffee."
+    ],
+    [
+     "amused",
+     "Ich mache ihn ja jeden Tag 😅"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Haha. Und warum schreibst du mir? 😏"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Keine Ahnung."
+    ],
+    [
+     "teasing",
+     "Du bist halt da 🤷‍♀️"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Ach so. Nur weil ich da bin?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Nein. Eigentlich …",
+     "Nein. Eigentlich."
+    ],
+    [
+     "gentle",
+     "ich denke die ganze Zeit an dich."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Oh Mann. Das war zu ehrlich, oder? 🫣"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "gentle",
+     "Nee. Das war genau richtig."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "shy",
+     "Ich auch. Schon lange."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "flustered",
+     "Okay. Jetzt kann ich gar nicht mehr schlafen 😳"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "cheerful",
+     "Morgen früh."
+    ],
+    [
+     "cheerful",
+     "Kaffee bei mir."
+    ],
+    [
+     "cheerful",
+     "Geht auf mich 😘"
+    ]
+   ]
+  }
+ }
+}

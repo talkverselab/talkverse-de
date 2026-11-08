@@ -5,7 +5,7 @@
  "kind": "long",
  "title": "61번째 손님",
  "emoji": "🏠",
- "scene": "베를린 집 보기. Felix 와 갔더니 문 앞에 사람이 백 명, 방에서는 유리병 수거함이 보인다",
+ "scene": "베를린 집 보기. Felix 와 갔더니 문 앞에 백 명, 방에서는 유리병 수거함이 보이고, 줄 선 끝에 받은 건 3월 예약 번호",
  "speakers": {
   "A": "{name}",
   "B": "Makler",
@@ -36,7 +36,7 @@
    "num": 1,
    "speaker": "C",
    "es": "Bist du sicher, dass die Adresse stimmt? Da stehen ja hundert Leute vor der Tür.",
-   "rd": "비스트 두 지허, 다스 디 아드레세 슈팀트? 다 슈테엔 야 훈데르트 로이테 포어 데어 튀어.",
+   "rd": "비스트 두 지허, 다스 디 아드레세 슈팀트? 다 슈테엔 야 훈데어트 로이테 포어 데어 튀어.",
    "ko": "주소 맞는 거 확실해? 문 앞에 백 명은 서 있는데.",
    "note": "vor der Tür = 문 앞에",
    "tags": [
@@ -264,10 +264,10 @@
   {
    "num": 7,
    "speaker": "C",
-   "es": "Sechzig Leute in zehn Minuten? Das ist ja schneller als die Post.",
-   "rd": "제히치히 로이테 인 첸 미누텐? 다스 이스트 야 슈넬러 알스 디 포스트.",
-   "ko": "60명이 10분에? 우체국보다 빠르네.",
-   "note": "schneller als = ~보다 빠른",
+   "es": "Sechzig Leute in zehn Minuten? Das ist ja schneller als beim Bürgeramt.",
+   "rd": "제히치히 로이테 인 첸 미누텐? 다스 이스트 야 슈넬러 알스 바임 뷔어거암트.",
+   "ko": "60명이 10분에? 구청보다 빠르네.",
+   "note": "Bürgeramt = 주민센터(느리기로 유명)",
    "tags": [
     "draft"
    ],
@@ -294,9 +294,9 @@
      "슈넬"
     ],
     [
-     "Post",
-     "Post",
-     "포스트"
+     "Bürgeramt",
+     "Bürgeramt",
+     ""
     ]
    ]
   },
@@ -332,8 +332,8 @@
   {
    "num": 9,
    "speaker": "B",
-   "es": "Ein Zimmer, mit Blick auf den Hof.",
-   "rd": "아인 치머, 미트 블리크 아우프 덴 호프.",
+   "es": "Ein Zimmer, mit Blick in den Hof.",
+   "rd": "아인 치머, 미트 블리크 인 덴 호프.",
    "ko": "방 하나, 안뜰 전망이에요.",
    "note": "Blick auf = ~ 전망",
    "tags": [
@@ -361,8 +361,8 @@
   {
    "num": 10,
    "speaker": "C",
-   "es": "Blick auf den Hof … meinen Sie den Müll da?",
-   "rd": "블리크 아우프 덴 호프 … 마이넨 지 덴 뮐 다?",
+   "es": "Blick in den Hof … meinen Sie den Müll da?",
+   "rd": "블리크 인 덴 호프 … 마이넨 지 덴 뮐 다?",
    "ko": "안뜰 전망… 저 쓰레기 말씀이세요?",
    "note": "Müll = 쓰레기",
    "tags": [
@@ -522,9 +522,9 @@
   {
    "num": 14,
    "speaker": "B",
-   "es": "Dann schreiben Sie bitte hier Ihren Namen auf. Sie sind Nummer einundsechzig.",
-   "rd": "단 슈라이벤 지 비테 히어 이렌 나멘 아우프. 지 진트 눔머 아인운트제히치히.",
-   "ko": "그럼 여기 성함 적어 주세요. 61번이세요.",
+   "es": "Dann schreiben Sie bitte hier Ihren Namen auf.",
+   "rd": "단 슈라이벤 지 비테 히어 이렌 나멘 아우프.",
+   "ko": "그럼 여기 성함 적어 주세요.",
    "note": "aufschreiben = 적다",
    "tags": [
     "draft"
@@ -555,11 +555,88 @@
      "Namen",
      "Name",
      "나메"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "es": "Und dann dürfen wir die Wohnung sehen?",
+   "rd": "운트 단 뒤어펜 비어 디 보눙 제엔?",
+   "ko": "그럼 이제 집 볼 수 있는 거죠?",
+   "note": "dürfen = ~해도 된다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "dann",
+     "dann",
+     "단"
+    ],
+    [
+     "Wohnung",
+     "Wohnung",
+     "보눙"
+    ],
+    [
+     "sehen",
+     "sehen",
+     "제엔"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "B",
+   "es": "Nein, dann stehen Sie auf der Liste. Nummer einundsechzig. Für den Termin im März.",
+   "rd": "나인, 단 슈테엔 지 아우프 데어 리스테. 눔머 아인운트제히치히. 퓌어 덴 테어민 임 메어츠.",
+   "ko": "아뇨, 그럼 명단에 오르시는 거예요. 61번. 3월 집 보기 예약이요.",
+   "note": "auf der Liste stehen = 명단에 있다",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "polite",
+     "Nein, dann stehen Sie auf der Liste."
+    ],
+    [
+     "cheerful",
+     "Nummer einundsechzig. Für den Termin im März."
+    ]
+   ],
+   "lemmas": [
+    [
+     "dann",
+     "dann",
+     "단"
+    ],
+    [
+     "stehen",
+     "stehen",
+     "슈테엔"
+    ],
+    [
+     "Liste",
+     "Liste",
+     "리스테"
     ],
     [
      "Nummer",
      "Nummer",
      "눔머"
+    ],
+    [
+     "Termin",
+     "Termin",
+     "테어민"
+    ],
+    [
+     "März",
+     "März",
+     ""
     ]
    ]
   }

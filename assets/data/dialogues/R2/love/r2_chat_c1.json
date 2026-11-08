@@ -3,7 +3,7 @@
  "region": "R2",
  "island": "love",
  "kind": "chat",
- "title": "너 먼저, 그다음 나",
+ "title": "너랑 나",
  "emoji": "💬",
  "scene": "밤 채팅. 학습자가 Mia 에게 내일 만나자고 하는데 커피도 아이스크림도 퇴짜",
  "speakers": {
@@ -184,10 +184,10 @@
   {
    "num": 6,
    "speaker": "B",
-   "es": "Ein Eis? Echt jetzt? 🥶",
-   "rd": "아인 아이스? 에히트 예츠트?",
-   "ko": "아이스크림? 진심? 🥶",
-   "note": "Echt jetzt? = 진심이야?",
+   "es": "Ein Eis? Bei dem Wetter? Echt jetzt? 🥶",
+   "rd": "아인 아이스? 바이 뎀 베터? 에히트 예츠트?",
+   "ko": "아이스크림? 이 날씨에? 진심? 🥶",
+   "note": "bei dem Wetter = 이 날씨에",
    "tags": [
     "draft"
    ],
@@ -199,6 +199,11 @@
      "Eis",
      "Eis",
      "아이스"
+    ],
+    [
+     "Wetter",
+     "Wetter",
+     "베터"
     ],
     [
      "Echt",
@@ -277,10 +282,10 @@
   {
    "num": 9,
    "speaker": "B",
-   "es": "Aber erst du, dann ich. Das ist Deutsch 😜",
-   "rd": "아버 에어스트 두, 단 이히. 다스 이스트 도이치",
-   "ko": "근데 너 먼저, 그다음 나야. 그게 독일어야 😜",
-   "note": "독일어는 상대를 먼저(du und ich)",
+   "es": "Aber: du und ich. Der Esel nennt sich immer zuerst 😜",
+   "rd": "아버: 두 운트 이히. 데어 에젤 넨트 지히 이머 추에어스트",
+   "ko": "근데 \"너랑 나\"라고 해야지. 자기부터 말하는 건 당나귀래 😜",
+   "note": "Der Esel nennt sich immer zuerst = 자기를 먼저 말하면 당나귀(독일 놀림말)",
    "tags": [
     "draft"
    ],
@@ -289,29 +294,34 @@
    "at": "22:01",
    "lemmas": [
     [
-     "erst",
-     "erst",
-     "에어스트"
+     "Esel",
+     "es",
+     "에스"
     ],
     [
-     "dann",
-     "dann",
-     "단"
+     "nennt",
+     "nennen",
+     "넨넨"
     ],
     [
-     "Deutsch",
-     "deutsch",
-     "도이치"
+     "immer",
+     "immer",
+     "이머"
+    ],
+    [
+     "zuerst",
+     "zuerst",
+     "추에어스트"
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "A",
-   "es": "Okay … erst du, dann ich. Morgen?",
-   "rd": "오케이 … 에어스트 두, 단 이히. 모어겐?",
-   "ko": "오케이… 너 먼저, 그다음 나. 내일?",
-   "note": "erst … dann = 먼저 … 그다음",
+   "es": "Okay … du und ich. Morgen?",
+   "rd": "오케이 … 두 운트 이히. 모어겐?",
+   "ko": "오케이… 너랑 나. 내일?",
+   "note": "du und ich = 상대를 먼저",
    "tags": [
     "draft"
    ],
@@ -323,16 +333,6 @@
      "Okay",
      "Okay",
      "오케이"
-    ],
-    [
-     "erst",
-     "erst",
-     "에어스트"
-    ],
-    [
-     "dann",
-     "dann",
-     "단"
     ],
     [
      "Morgen",

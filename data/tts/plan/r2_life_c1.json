@@ -1,0 +1,116 @@
+{
+ "ep": "r2_life_c1",
+ "cast": {
+  "B": "felix"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Felix, kurz: wo kommt die Flasche hin? 🍾"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "Oh! Gute Frage 😍 Groß oder klein?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "Keine Ahnung."
+    ],
+    [
+     "flustered",
+     "Eine Flasche halt 🤷"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Moment. Wo kommt sie her?"
+    ],
+    [
+     "worried",
+     "Und wie alt ist sie?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Felix. Es ist nur eine Flasche 😅"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "excited",
+     "Nur?! Warte mal."
+    ],
+    [
+     "excited",
+     "Ich schreibe dir alles auf."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "So. Zwanzig Regeln."
+    ],
+    [
+     "cheerful",
+     "Und das ist nur für die Flasche 📜"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Zwanzig?! Felix, du spinnst 😂"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "teasing",
+     "Regel einundzwanzig: Wer lacht, bringt die Flasche weg."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Okay, okay. Und wo kommt sie jetzt hin?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "gentle",
+     "Lass sie da. Ich mach das morgen."
+    ],
+    [
+     "gentle",
+     "Ich liebe das 🥰"
+    ]
+   ]
+  }
+ }
+}

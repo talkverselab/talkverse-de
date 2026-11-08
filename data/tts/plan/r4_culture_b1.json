@@ -1,0 +1,164 @@
+{
+ "ep": "r4_culture_b1",
+ "cast": {
+  "B": "mia",
+  "C": "jonas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "amused",
+     "Jonas, wer ist der Typ, der da vorne ganz allein tanzt?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Mias Bruder."
+    ],
+    [
+     "neutral",
+     "Er kommt immer, wenn sie spielt."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Süß. Und die Frau, die neben Mia singt?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Keine Ahnung."
+    ],
+    [
+     "amused",
+     "Aber Mia ist die, die am lautesten ist."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Hallo! Das nächste Lied ist eins, das wir noch nie gespielt haben!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Krass, ein neues Lied!"
+    ],
+    [
+     "surprised",
+     "Hast du das schon gehört?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "… Ein bisschen.",
+     "Ein bisschen."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Es ist für jemanden, der immer da ist, aber fast nie etwas sagt."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "teasing",
+     "Moment mal. Jemand, der nie etwas sagt … Jonas, schau mich an.",
+     "Moment mal. Jemand, der nie etwas sagt, Jonas, schau mich an."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Und der jedes Mal Brezeln mitbringt, die er dann allein isst!"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shout",
+     "Jonas! Das bist ja du!"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "flustered",
+     "Nicht nur das."
+    ],
+    [
+     "shy",
+     "Die Worte, die sie gleich singt, habe ich geschrieben."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Du? Du sagst am Tag fünf Wörter und schreibst ein Lied?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "gentle",
+     "Beim Schreiben muss man nicht reden."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "excited",
+     "Das Lied heißt: „Die Brezel, die mich nie verlassen hat“!"
+    ],
+    [
+     "shout",
+     "Eins, zwei, drei, vier!"
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "gentle",
+     "Jonas … das ist das schönste Lied, das ich je gehört habe.",
+     "Jonas, das ist das schönste Lied, das ich je gehört habe."
+    ],
+    [
+     "amused",
+     "Und das dümmste."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,618 @@
+{
+ "id": "r5_work_b1",
+ "region": "R5",
+ "island": "work",
+ "kind": "long",
+ "title": "브레첼 때문에요",
+ "emoji": "💼",
+ "scene": "첫 면접. 인사 담당자 앞에서 긴장했는데, 요나스가 브레첼 봉투를 들고 들어온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Personalerin",
+  "C": "Jonas"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "work",
+  "job_interview"
+ ],
+ "domain": [
+  "work"
+ ],
+ "expressions": [
+  "Guten Tag",
+  "Gerne",
+  "Keine Sorge",
+  "Entschuldigung",
+  "Pünktlich",
+  "Na klar"
+ ],
+ "draft": true,
+ "level": "5 어휘 완주",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Guten Tag, {name}! Bitte nehmen Sie Platz. Möchten Sie einen Kaffee?",
+   "rd": "구텐 탁, {name}! 비테 네멘 지 플라츠. 뫼히텐 지 아이넨 카페?",
+   "ko": "안녕하세요, {name} 씨! 앉으세요. 커피 드릴까요?",
+   "note": "Platz nehmen = 앉다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Guten",
+     "gut",
+     "구트"
+    ],
+    [
+     "Tag",
+     "Tag",
+     "탁"
+    ],
+    [
+     "nehmen",
+     "nehmen",
+     "네멘"
+    ],
+    [
+     "Platz",
+     "Platz",
+     "플라츠"
+    ],
+    [
+     "Kaffee",
+     "Kaffee",
+     "카페"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Gerne. Ich bin ehrlich gesagt ein bisschen nervös.",
+   "rd": "게어네. 이히 빈 에얼리히 게자크트 아인 비스헨 네어뵈스.",
+   "ko": "네, 주세요. 솔직히 좀 떨려요.",
+   "note": "nervös = 긴장한",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Gerne",
+     "gern",
+     "게언"
+    ],
+    [
+     "ehrlich",
+     "ehrlich",
+     "에얼리히"
+    ],
+    [
+     "gesagt",
+     "sagen",
+     "자겐"
+    ],
+    [
+     "bisschen",
+     "bisschen",
+     "비스헨"
+    ],
+    [
+     "nervös",
+     "nervös",
+     "네어뵈스"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Keine Sorge, das ist kein Test. Wir wollen Sie nur kennenlernen.",
+   "rd": "카이네 조어게, 다스 이스트 카인 테스트. 비어 볼렌 지 누어 케넨레어넨.",
+   "ko": "걱정 마세요, 시험 아니에요. 그냥 어떤 분인지 알고 싶어서요.",
+   "note": "kennenlernen = 알게 되다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Sorge",
+     "Sorge",
+     "조어게"
+    ],
+    [
+     "Test",
+     "Test",
+     "테스트"
+    ],
+    [
+     "nur",
+     "nur",
+     "누어"
+    ],
+    [
+     "kennenlernen",
+     "kennenlernen",
+     "케넨레어넨"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "es": "Entschuldigung. Ich bringe nur das Frühstück.",
+   "rd": "엔트슐디궁. 이히 브링에 누어 다스 프뤼슈튀크.",
+   "ko": "실례합니다. 아침만 놓고 갈게요.",
+   "note": "Frühstück = 아침 식사",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Entschuldigung",
+     "Entschuldigung",
+     "엔트슐디궁"
+    ],
+    [
+     "bringe",
+     "bringen",
+     "브링엔"
+    ],
+    [
+     "nur",
+     "nur",
+     "누어"
+    ],
+    [
+     "Frühstück",
+     "Frühstück",
+     "프뤼슈튀크"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Danke, Jonas. Also, {name}: Warum wollen Sie bei uns arbeiten?",
+   "rd": "당케, 요나스. 알조, {name}: 바룸 볼렌 지 바이 운스 아어바이텐?",
+   "ko": "고마워요, 요나스 씨. 자, {name} 씨, 왜 저희 회사에서 일하고 싶으세요?",
+   "note": "bei uns arbeiten = 우리 회사에서 일하다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Danke",
+     "danke",
+     "당케"
+    ],
+    [
+     "Also",
+     "also",
+     "알조"
+    ],
+    [
+     "Warum",
+     "warum",
+     "바룸"
+    ],
+    [
+     "arbeiten",
+     "arbeiten",
+     "아어바이텐"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Wegen der Brezeln … äh, ich meine, wegen des Teams!",
+   "rd": "베겐 데어 브레첼른 … 에, 이히 마이네, 베겐 데스 팀스!",
+   "ko": "브레첼 때문에요… 아, 아니, 팀 때문에요!",
+   "note": "Brezel = 브레첼(매듭 모양 빵)",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "excited",
+     "Wegen der Brezeln … "
+    ],
+    [
+     "flustered",
+     "äh, ich meine, wegen des Teams!"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Brezeln",
+     "Brezel",
+     ""
+    ],
+    [
+     "meine",
+     "meinen",
+     "마이넨"
+    ],
+    [
+     "Teams",
+     "Team",
+     "팀"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "es": "Das war die beste Antwort heute.",
+   "rd": "다스 바어 디 베스테 안트보어트 호이테.",
+   "ko": "오늘 들은 대답 중에 최고네요.",
+   "note": "die beste Antwort = 최고의 대답",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "beste",
+     "gut",
+     "구트"
+    ],
+    [
+     "Antwort",
+     "Antwort",
+     "안트보어트"
+    ],
+    [
+     "heute",
+     "heute",
+     "호이테"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Jonas, bitte! … Na gut. Was machen Sie nicht so gut?",
+   "rd": "요나스, 비테! … 나 구트. 바스 마헨 지 니히트 조 구트?",
+   "ko": "요나스 씨, 좀! …뭐, 좋아요. 잘 못하는 건 뭐예요?",
+   "note": "nicht so gut = 별로 잘 못하는",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "annoyed",
+     "Jonas, bitte! "
+    ],
+    [
+     "polite",
+     "… Na gut. Was machen Sie nicht so gut?"
+    ]
+   ],
+   "lemmas": [
+    [
+     "bitte",
+     "bitte",
+     "비테"
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
+    ],
+    [
+     "machen",
+     "machen",
+     "마헨"
+    ],
+    [
+     "so",
+     "so",
+     "조"
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "es": "Ich komme immer zu früh. Heute war ich schon um sieben hier.",
+   "rd": "이히 코메 이머 추 프뤼. 호이테 바어 이히 숀 움 지벤 히어.",
+   "ko": "늘 너무 일찍 와요. 오늘도 일곱 시에 벌써 와 있었어요.",
+   "note": "zu früh = 너무 일찍",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "komme",
+     "kommen",
+     "코멘"
+    ],
+    [
+     "immer",
+     "immer",
+     "이머"
+    ],
+    [
+     "früh",
+     "früh",
+     "프뤼"
+    ],
+    [
+     "Heute",
+     "heute",
+     "호이테"
+    ],
+    [
+     "schon",
+     "schon",
+     "숀"
+    ],
+    [
+     "hier",
+     "hier",
+     "히어"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "es": "Um sieben? Wir machen erst um neun auf.",
+   "rd": "움 지벤? 비어 마헨 에어스트 움 노인 아우프.",
+   "ko": "일곱 시요? 저희 아홉 시에 문 여는데요.",
+   "note": "aufmachen = 문을 열다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "machen",
+     "machen",
+     "마헨"
+    ],
+    [
+     "erst",
+     "erst",
+     "에어스트"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "es": "Ich weiß. Ich habe {name} vor der Tür gesehen. Zwei Stunden lang.",
+   "rd": "이히 바이스. 이히 하베 {name} 포어 데어 튀어 게제엔. 츠바이 슈툰덴 랑.",
+   "ko": "알아요. 문 앞에 {name} 씨 서 있는 거 봤어요. 두 시간 동안.",
+   "note": "zwei Stunden lang = 두 시간 동안",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "weiß",
+     "wissen",
+     "비센"
+    ],
+    [
+     "Tür",
+     "Tür",
+     "튀어"
+    ],
+    [
+     "gesehen",
+     "sehen",
+     "제엔"
+    ],
+    [
+     "Stunden",
+     "Stunde",
+     "슈툰데"
+    ],
+    [
+     "lang",
+     "lang",
+     "랑"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "es": "Und Sie haben mir nicht aufgemacht?",
+   "rd": "운트 지 하벤 미어 니히트 아우프게마흐트?",
+   "ko": "그런데 문을 안 열어 주셨어요?",
+   "note": "aufmachen = 열어 주다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "aufgemacht",
+     "aufmachen",
+     "아우프마헨"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "es": "Ich hatte keinen Schlüssel. Nur Brezeln.",
+   "rd": "이히 하테 카이넨 슐뤼셀. 누어 브레첼른.",
+   "ko": "열쇠가 없었어요. 브레첼만 있었고.",
+   "note": "Schlüssel = 열쇠",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "hatte",
+     "haben",
+     "하벤"
+    ],
+    [
+     "Schlüssel",
+     "Schlüssel",
+     "슐뤼셀"
+    ],
+    [
+     "Nur",
+     "nur",
+     "누어"
+    ],
+    [
+     "Brezeln",
+     "Brezel",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "es": "Gut. Pünktlich heißt bei uns fünf Minuten vorher, nicht zwei Stunden. Können Sie am Montag anfangen?",
+   "rd": "구트. 퓡크틀리히 하이스트 바이 운스 퓐프 미누텐 포어헤어, 니히트 츠바이 슈툰덴. 쾨넨 지 암 몬탁 안팡엔?",
+   "ko": "좋아요. 저희 회사에서 정시는 5분 전이에요, 두 시간 전이 아니라. 월요일부터 나올 수 있어요?",
+   "note": "vorher = 미리, 전에",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "teasing",
+     "Gut. Pünktlich heißt bei uns fünf Minuten vorher, nicht zwei Stunden. "
+    ],
+    [
+     "cheerful",
+     "Können Sie am Montag anfangen?"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Gut",
+     "gut",
+     "구트"
+    ],
+    [
+     "Pünktlich",
+     "pünktlich",
+     "퓡크틀리히"
+    ],
+    [
+     "heißt",
+     "heißen",
+     "하이센"
+    ],
+    [
+     "Minuten",
+     "Minute",
+     "미누테"
+    ],
+    [
+     "vorher",
+     "vorher",
+     "포어헤어"
+    ],
+    [
+     "Stunden",
+     "Stunde",
+     "슈툰데"
+    ],
+    [
+     "Montag",
+     "Montag",
+     "몬탁"
+    ],
+    [
+     "anfangen",
+     "anfangen",
+     "안팡엔"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "es": "Am Montag? Na klar! Dann bin ich um sieben da.",
+   "rd": "암 몬탁? 나 클라어! 단 빈 이히 움 지벤 다.",
+   "ko": "월요일요? 당연하죠! 그럼 일곱 시에 올게요.",
+   "note": "da sein = 와 있다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Montag",
+     "Montag",
+     "몬탁"
+    ],
+    [
+     "klar",
+     "klar",
+     "클라어"
+    ],
+    [
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "C",
+   "es": "Dann bringe ich den Schlüssel mit.",
+   "rd": "단 브링에 이히 덴 슐뤼셀 미트.",
+   "ko": "그럼 저는 열쇠 챙겨 올게요.",
+   "note": "mitbringen = 챙겨 오다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "bringe",
+     "bringen",
+     "브링엔"
+    ],
+    [
+     "Schlüssel",
+     "Schlüssel",
+     "슐뤼셀"
+    ]
+   ]
+  }
+ ]
+}

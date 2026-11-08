@@ -1,0 +1,243 @@
+{
+ "id": "r1_love_a1",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "title": "나는 나를 좋아해",
+ "emoji": "💘",
+ "scene": "Mia 가 먼저 애인 있냐고 묻는데, 학습자는 친구 얘기로 알아듣고 고백은 대명사부터 꼬인다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love",
+  "grammar_accusative"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Sag mal",
+  "Leider",
+  "Echt?",
+  "Okay",
+  "Oh Mann"
+ ],
+ "draft": true,
+ "level": "1 관사·격·활용 골격",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Sag mal, {name} … hast du einen Freund?",
+   "rd": "자크 말, {name} … 하스트 두 아이넨 프로인트?",
+   "ko": "있잖아, {name}… 너 애인 있어?",
+   "note": "einen Freund = 친구·애인(남성 대격)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "Freund",
+     "Freund",
+     "프로인트"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Einen Freund? Nein, ich habe keinen. Leider.",
+   "rd": "아이넨 프로인트? 나인, 이히 하베 카이넨. 라이더.",
+   "ko": "친구? 아니, 없어. 아쉽게도.",
+   "note": "keinen = 하나도 없다(남성 대격)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "Freund",
+     "Freund",
+     "프로인트"
+    ],
+    [
+     "habe",
+     "haben",
+     "하벤"
+    ],
+    [
+     "Leider",
+     "leider",
+     "라이더"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Keinen? Echt? … Das ist gut.",
+   "rd": "카이넨? 에히트? … 다스 이스트 구트.",
+   "ko": "없어? 진짜? …잘됐다.",
+   "note": "Das ist gut = 잘됐다",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Keinen? Echt? "
+    ],
+    [
+     "shy",
+     "… Das ist gut."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Echt",
+     "echt",
+     "에히트"
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Gut? Ich habe hier keinen. Nur mich.",
+   "rd": "구트? 이히 하베 히어 카이넨. 누어 미히.",
+   "ko": "잘됐다고? 나 여기 아무도 없어. 나 혼자야.",
+   "note": "mich = 나를(대격)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "Gut",
+     "gut",
+     "구트"
+    ],
+    [
+     "hier",
+     "hier",
+     "히어"
+    ],
+    [
+     "Nur",
+     "nur",
+     "누어"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Nein. Jetzt hast du auch … mich.",
+   "rd": "나인. 예츠트 하스트 두 아우흐 … 미히.",
+   "ko": "아니. 이제 너한텐… 나도 있잖아.",
+   "note": "auch mich = 나도(대격)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Jetzt",
+     "jetzt",
+     "예츠트"
+    ],
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Oh! Dann … mag ich mich!",
+   "rd": "오! 단 … 마크 이히 미히!",
+   "ko": "오! 그럼… 나는 나를 좋아해!",
+   "note": "mich ↔ dich 실수(dich 라고 해야 했다)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Dann",
+     "dann",
+     "단"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "es": "Du magst dich? Okay … und mich?",
+   "rd": "두 막스트 디히? 오케이 … 운트 미히?",
+   "ko": "너가 너를 좋아한다고? 그래… 그럼 나는?",
+   "note": "dich = 너를(대격)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "magst",
+     "magst",
+     ""
+    ],
+    [
+     "Okay",
+     "Okay",
+     "오케이"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "es": "Dich! Ich mag dich! … Oh Mann.",
+   "rd": "디히! 이히 마크 디히! … 오 만.",
+   "ko": "너! 너 좋아한다고! …아 진짜.",
+   "note": "Ich mag dich = 너 좋아해",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "mag",
+     "mögen",
+     "뫼겐"
+    ],
+    [
+     "Mann",
+     "Mann",
+     "만"
+    ]
+   ]
+  }
+ ]
+}

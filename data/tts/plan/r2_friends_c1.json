@@ -1,0 +1,124 @@
+{
+ "ep": "r2_friends_c1",
+ "cast": {
+  "B": "lena"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "flustered",
+     "Lena! Ich bin gleich da 🙈"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "annoyed",
+     "Gleich? Es ist zwei nach sechs."
+    ],
+    [
+     "annoyed",
+     "Ich warte schon 😤"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "surprised",
+     "Warte mal. Was höre ich da? 🎧"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Was hörst du?"
+    ],
+    [
+     "flustered",
+     "Ich hab nichts gemacht!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Dein Handy. Vier Minuten."
+    ],
+    [
+     "amused",
+     "Du, laut, mit Musik 😂"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Oh Mann. Das ist mir peinlich 🫣"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Warte, es geht noch weiter."
+    ],
+    [
+     "teasing",
+     "Ein Mann sagt: „Leise, bitte!“"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "excited",
+     "Und dann? Er macht mit! 🎶😂"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shout",
+     "Quatsch! Das gibt's doch nicht!"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "teasing",
+     "Doch. Und ich hab's noch 😈"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "worried",
+     "Lena, bitte! Ich bin in zwei Minuten da!"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "gentle",
+     "Gut. Ab jetzt pünktlich."
+    ],
+    [
+     "teasing",
+     "Sonst hört es jeder 😇"
+    ]
+   ]
+  }
+ }
+}

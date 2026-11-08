@@ -22,6 +22,7 @@ TURNS = {'R0': (4, 8), 'R1': (6, 8), 'R2': (8, 12), 'R3': (12, 16), 'R4': (12, 1
 WORDS = {'R0': 6, 'R1': 10, 'R2': 14, 'R3': 18, 'R4': 20, 'R5': 20}
 LOW = ('R0', 'R1', 'R2')   # 굴절어 전략 A3·A4: 레벨 0~2 는 단수·du 만(복수 wir/ihr·존댓말 Sie 는 레벨 3 부터)
 RD = {}
+ALIGN_SKIP = {'band', 'zug'}   # zug: 단어장 「축」은 오기, 추크   # 단어장 독음과 뜻이 다른 낱말(Band 밴드=벤트, 단어장은 책 권=반트)
 CHAT_WORDS = 8
 TWISTS = {'chaos', 'slip', 'reveal', 'emotion', 'ignore'}
 REQ = ('id', 'region', 'island', 'kind', 'title', 'emoji', 'scene', 'speakers', 'register', 'twist', 'twist_type', 'expressions', 'turns')
@@ -37,6 +38,27 @@ pool_file = os.path.join(ROOT, 'data/expressions/top_expressions.csv')
 if os.path.exists(pool_file):
     with open(pool_file, encoding='utf-8') as f:
         POOL = [r['expr'].lower() for r in csv.DictReader(f)]
+
+
+JONG_N, JONG_M = 4, 16
+
+
+def unify(word, tok):
+    """독음 한 낱말을 한 규칙으로(2026-11-08 uk 검수): 음절 끝 r = 어(르 아님) · 겹자음 nn/mm 은 한 번 · -tag = 탁."""
+    w = word.lower()
+    if re.search(r'[aeiouäöüy]r(?=[^aeiouäöüyrl]|$)', w) and '르' in tok[1:]:
+        tok = tok[0] + tok[1:].replace('르', '어')
+    out = list(tok)
+    for i in range(len(out) - 1):
+        c, n = ord(out[i]) - 0xAC00, ord(out[i + 1]) - 0xAC00
+        if 0 <= c < 11172 and 0 <= n < 11172:
+            jong, cho = c % 28, n // 588
+            if (jong == JONG_N and cho == 2 and 'nn' in w) or (jong == JONG_M and cho == 6 and 'mm' in w):
+                out[i] = chr(0xAC00 + c - jong)
+    tok = ''.join(out)
+    if w.endswith('tag') and tok.endswith('타크'):
+        tok = tok[:-2] + '탁'
+    return tok
 
 
 def nwords(t):
@@ -115,8 +137,9 @@ def main():
                 idx = [i for i, p in enumerate(parts) if re.fullmatch(r'[가-힣]+', p)]
                 if len(idx) == len(ws):
                     for i, w in zip(idx, ws):
-                        if RD.get(w.lower()) and RD[w.lower()] != parts[i]:
-                            parts[i] = RD[w.lower()]; changed = True
+                        want = RD[w.lower()] if RD.get(w.lower()) and w.lower() not in ALIGN_SKIP else unify(w, parts[i])
+                        if want != parts[i]:
+                            parts[i] = want; changed = True
                     t['rd'] = ''.join(parts)
                 else:
                     msg.append(f'{t["num"]}번 rd 낱말 수 {len(idx)} ≠ 본문 {len(ws)}')

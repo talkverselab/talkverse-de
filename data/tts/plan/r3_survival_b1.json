@@ -1,0 +1,150 @@
+{
+ "ep": "r3_survival_b1",
+ "cast": {
+  "B": "woman_m",
+  "C": "jonas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Guten Tag! Was darf es sein?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Moment, bitte."
+    ],
+    [
+     "cheerful",
+     "Jonas, was nehmen wir?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "amused",
+     "Brezeln. Was sonst?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "polite",
+     "Haben Sie noch Brezeln?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Ja, die sind gerade fertig."
+    ],
+    [
+     "polite",
+     "Wie viele möchten Sie?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Wir nehmen zwölf, bitte."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Zwölf? Gern! Sie haben wohl eine große Familie."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Familie? Nein, nur wir zwei."
+    ],
+    [
+     "flustered",
+     "Moment … habe ich zwölf gesagt?",
+     "Moment, habe ich zwölf gesagt?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "amused",
+     "Ja. Zwölf ist richtig."
+    ],
+    [
+     "amused",
+     "Zwei ist zu wenig."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Jonas! Wer soll die alle essen?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "cheerful",
+     "Ich. Heute sechs, morgen sechs."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "polite",
+     "Also zwölf. Zusammen oder getrennt?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "teasing",
+     "Zusammen. Aber er bekommt zehn, ich nur zwei."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "polite",
+     "Gern. Bar oder mit Karte?"
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "gentle",
+     "Ich mache das."
+    ],
+    [
+     "gentle",
+     "Für Brezeln immer."
+    ]
+   ]
+  }
+ }
+}

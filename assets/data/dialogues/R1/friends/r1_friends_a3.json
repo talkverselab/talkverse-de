@@ -1,0 +1,258 @@
+{
+ "id": "r1_friends_a3",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "title": "나도 집 앞이야!",
+ "emoji": "🚲",
+ "scene": "약속 시간에 칼같은 Lena 의 전화. 학습자는 벌써 도착했다고 둘러대는데…",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lena"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "making_friends",
+  "grammar_preposition"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Hallo",
+  "Na klar",
+  "Sag mal",
+  "Ach so",
+  "Ich auch",
+  "Oder?"
+ ],
+ "draft": true,
+ "level": "1 관사·격·활용 골격",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "Hallo, Lena! Wo bist du jetzt?",
+   "rd": "할로, 레나! 보 비스트 두 예츠트?",
+   "ko": "안녕, 레나! 지금 어디야?",
+   "note": "wo = 어디",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Wo",
+     "wo",
+     "보"
+    ],
+    [
+     "jetzt",
+     "jetzt",
+     "예츠트"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "Auf dem Fahrrad. Und du? Schon bei Mia?",
+   "rd": "아우프 뎀 파라트. 운트 두? 숀 바이 미아?",
+   "ko": "자전거 타는 중. 너는? 벌써 미아네야?",
+   "note": "auf dem Fahrrad = 자전거 위(여격)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Fahrrad",
+     "fahren",
+     "파렌"
+    ],
+    [
+     "Schon",
+     "schon",
+     "숀"
+    ],
+    [
+     "Mia",
+     "Mia",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "Na klar! Ich bin schon bei Mia.",
+   "rd": "나 클라어! 이히 빈 숀 바이 미아.",
+   "ko": "당연하지! 벌써 미아네 와 있어.",
+   "note": "bei Mia = 미아네 집에(여격)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "klar",
+     "klar",
+     "클라어"
+    ],
+    [
+     "schon",
+     "schon",
+     "숀"
+    ],
+    [
+     "Mia",
+     "Mia",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "Echt? Sag mal … ich bin vor deinem Haus.",
+   "rd": "에히트? 자크 말 … 이히 빈 포어 다이넴 하우스.",
+   "ko": "진짜? 있잖아… 나 지금 너네 집 앞인데.",
+   "note": "vor deinem Haus = 너네 집 앞(여격)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Echt",
+     "echt",
+     "에히트"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "Haus",
+     "Haus",
+     "하우스"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "Vor meinem Haus? … Ach so. Ich auch!",
+   "rd": "포어 마이넴 하우스? … 아흐 조. 이히 아우흐!",
+   "ko": "우리 집 앞? …아 그래. 나도!",
+   "note": "Ich auch = 나도",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Haus",
+     "Haus",
+     "하우스"
+    ],
+    [
+     "so",
+     "so",
+     "조"
+    ],
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "Ja, klar. Im Bett, oder?",
+   "rd": "야, 클라어. 임 베트, 오더?",
+   "ko": "그래, 퍽이나. 침대 속이겠지?",
+   "note": "im Bett = 침대에(in dem)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "klar",
+     "klar",
+     "클라어"
+    ],
+    [
+     "Bett",
+     "Bett",
+     "베트"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "Nein, nein! Ich komme gleich. Mit dir!",
+   "rd": "나인, 나인! 이히 코메 글라이히. 미트 디어!",
+   "ko": "아니, 아니! 바로 나갈게. 너랑 같이!",
+   "note": "mit dir = 너랑(여격)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "komme",
+     "kommen",
+     "코멘"
+    ],
+    [
+     "gleich",
+     "gleich",
+     "글라이히"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Gut. Und mach mal die Musik aus.",
+   "rd": "구트. 운트 마흐 말 디 무지크 아우스.",
+   "ko": "좋아. 그리고 음악 좀 꺼.",
+   "note": "ausmachen = 끄다(분리동사)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Gut",
+     "gut",
+     "구트"
+    ],
+    [
+     "mach",
+     "machen",
+     "마헨"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "Musik",
+     "Musik",
+     "무지크"
+    ]
+   ]
+  }
+ ]
+}

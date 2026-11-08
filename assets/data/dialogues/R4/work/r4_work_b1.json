@@ -208,7 +208,7 @@
    "num": 5,
    "speaker": "A",
    "es": "Genau das. Wäre es besser, wenn ich mich bei ihr entschuldigen würde?",
-   "rd": "게나우 다스. 베레 에스 베서, 벤 이히 미히 바이 이어 엔트슐디겐 뷔르데?",
+   "rd": "게나우 다스. 베레 에스 베서, 벤 이히 미히 바이 이어 엔트슐디겐 뷔어데?",
    "ko": "바로 그거야. 내가 가서 사과드리는 게 나을까?",
    "note": "Wäre es besser, wenn … = ~하는 게 나을까",
    "tags": [
@@ -265,10 +265,10 @@
   {
    "num": 7,
    "speaker": "A",
-   "es": "Ich dachte, sie wäre enttäuscht. Bei uns hätte man wenigstens etwas Nettes gesagt.",
-   "rd": "이히 다흐테, 지 베레 엔트토이슈트. 바이 운스 헤테 만 베니히스텐스 에트바스 네테스 게자크트.",
-   "ko": "실망하신 줄 알았어. 우리나라였으면 빈말이라도 좋은 말을 했을 텐데.",
-   "note": "hätte … gesagt = 말했을 텐데",
+   "es": "Ich dachte, sie wäre enttäuscht. Wo ich herkomme, hätte man wenigstens etwas Nettes gesagt.",
+   "rd": "이히 다흐테, 지 베레 엔트토이슈트. 보 이히 헤어코메, 헤테 만 베니히스텐스 에트바스 네테스 게자크트.",
+   "ko": "실망하신 줄 알았어. 내가 살던 곳에선 빈말이라도 좋은 말을 했을 텐데.",
+   "note": "wo ich herkomme = 내가 온 곳에서는",
    "tags": [
     "draft"
    ],
@@ -282,6 +282,11 @@
      "enttäuscht",
      "enttäuschen",
      "엔트토이셴"
+    ],
+    [
+     "herkomme",
+     "herkommen",
+     "헤어코멘"
     ],
     [
      "wenigstens",
@@ -304,8 +309,8 @@
   {
    "num": 8,
    "speaker": "B",
-   "es": "Du hast offenbar keine Ahnung, wie selten das vorkommt.",
-   "rd": "두 하스트 오펜바어 카이네 아눙, 비 젤텐 다스 포어콤트.",
+   "es": "Du hast echt keine Ahnung, wie selten das vorkommt.",
+   "rd": "두 하스트 에히트 카이네 아눙, 비 젤텐 다스 포어콤트.",
    "ko": "그게 얼마나 드문 일인지 전혀 모르는구나.",
    "note": "vorkommen = 일어나다",
    "tags": [
@@ -313,9 +318,9 @@
    ],
    "lemmas": [
     [
-     "offenbar",
-     "offenbar",
-     "오펜바어"
+     "echt",
+     "echt",
+     "에히트"
     ],
     [
      "Ahnung",
@@ -368,8 +373,8 @@
    "num": 10,
    "speaker": "B",
    "es": "Ich arbeite seit vier Jahren hier. Das Beste, was ich von ihr gehört habe, war: „Da kann man nichts sagen.“",
-   "rd": "이히 아르바이테 자이트 피어 야렌 히어. 다스 베스테, 바스 이히 폰 이어 게회어트 하베, 바: \"다 칸 만 니히츠 자겐.\"",
-   "ko": "나 여기서 4년 일했어. 그분한테 들은 최고의 말이 「뭐, 할 말 없네요」였어.",
+   "rd": "이히 아어바이테 자이트 피어 야렌 히어. 다스 베스테, 바스 이히 폰 이어 게회어트 하베, 바: \"다 칸 만 니히츠 자겐.\"",
+   "ko": "나 여기서 4년 일했어. 그분한테 들은 최고의 말이 「흠잡을 데가 없네요」였어.",
    "note": "das Beste, was … = ~한 것 중 최고",
    "tags": [
     "draft"
@@ -441,7 +446,7 @@
    "num": 12,
    "speaker": "B",
    "es": "Das höchste. „Nicht schlecht“ heißt bei ihr ungefähr, dass du bald befördert wirst.",
-   "rd": "다스 회히스테. \"니히트 슐레히트\" 하이스트 바이 이어 운게페어, 다스 두 발트 베푀르더트 비르스트.",
+   "rd": "다스 회히스테. \"니히트 슐레히트\" 하이스트 바이 이어 운게페어, 다스 두 발트 베푀어더트 비어스트.",
    "ko": "최고의 칭찬이지. 그분의 「나쁘지 않다」는 곧 승진한다는 뜻쯤 돼.",
    "note": "befördert werden = 승진하다",
    "tags": [
@@ -509,7 +514,7 @@
    "num": 14,
    "speaker": "B",
    "es": "Das hat sie noch nie gesagt. Ich würde mir Sorgen machen, dass sie kündigt.",
-   "rd": "다스 하트 지 노흐 니 게자크트. 이히 뷔르데 미어 조어겐 마헨, 다스 지 퀸디히트.",
+   "rd": "다스 하트 지 노흐 니 게자크트. 이히 뷔어데 미어 조어겐 마헨, 다스 지 퀸디히트.",
    "ko": "그런 말은 한 번도 안 하셨어. 그랬으면 난 그분이 퇴사하는 줄 알고 걱정할걸.",
    "note": "sich Sorgen machen = 걱정하다",
    "tags": [

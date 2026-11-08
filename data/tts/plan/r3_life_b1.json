@@ -9,7 +9,11 @@
    "segs": [
     [
      "annoyed",
-     "Entschuldigung! Wissen Sie, welcher Tag heute ist?"
+     "Entschuldigung!"
+    ],
+    [
+     "annoyed",
+     "Wissen Sie, welcher Tag heute ist?"
     ]
    ]
   },
@@ -17,7 +21,11 @@
    "segs": [
     [
      "neutral",
-     "Sonntag, oder? Ist das ein Problem?"
+     "Sonntag, oder?"
+    ],
+    [
+     "neutral",
+     "Ist das ein Problem?"
     ]
    ]
   },
@@ -25,7 +33,11 @@
    "segs": [
     [
      "annoyed",
-     "Sie werfen am Sonntag Flaschen in den Glascontainer. Das hört das ganze Haus."
+     "Sie werfen am Sonntag Flaschen in den Glascontainer."
+    ],
+    [
+     "annoyed",
+     "Das hört das ganze Haus."
     ]
    ]
   },
@@ -33,7 +45,7 @@
    "segs": [
     [
      "surprised",
-     "Oh, das wusste ich nicht."
+     "Oh, das habe ich nicht gewusst."
     ],
     [
      "stiff",
@@ -61,7 +73,7 @@
    "segs": [
     [
      "surprised",
-     "Felix? Der Felix, der uns jeden Monat Zettel zur Mülltrennung schreibt?"
+     "Felix? Der mit den Zetteln zur Mülltrennung im Treppenhaus?"
     ]
    ]
   },
@@ -73,7 +85,11 @@
     ],
     [
      "worried",
-     "Er hat mir eine Liste gegeben. Mit zwölf Regeln."
+     "Er hat mir eine Liste gegeben."
+    ],
+    [
+     "worried",
+     "Mit zwölf Regeln."
     ]
    ]
   },
@@ -89,7 +105,11 @@
    "segs": [
     [
      "shout",
-     "Felix! Es ist Sonntag! Sie schreien durchs ganze Haus!"
+     "Felix! Es ist Sonntag!"
+    ],
+    [
+     "shout",
+     "Sie schreien durchs ganze Haus!"
     ]
    ]
   },
@@ -113,7 +133,11 @@
    "segs": [
     [
      "amused",
-     "Moment mal, Felix. Das steht gar nicht auf meiner Liste."
+     "Moment mal, Felix."
+    ],
+    [
+     "amused",
+     "Das steht gar nicht auf meiner Liste."
     ]
    ]
   },
@@ -121,7 +145,8 @@
    "segs": [
     [
      "flustered",
-     "… Ich gehe wieder rein."
+     "… Ich gehe wieder rein.",
+     "Ich gehe wieder rein."
     ]
    ]
   },
@@ -133,7 +158,11 @@
     ],
     [
      "cheerful",
-     "Ich bin Renate. Wollen wir uns duzen?"
+     "Ich bin Renate."
+    ],
+    [
+     "cheerful",
+     "Wollen wir uns duzen?"
     ]
    ]
   },

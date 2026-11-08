@@ -1,0 +1,289 @@
+{
+ "id": "r1_culture_a1",
+ "region": "R1",
+ "island": "culture",
+ "kind": "short",
+ "title": "「응」 한마디의 결과",
+ "emoji": "🥁",
+ "scene": "Mia 밴드 공연 다음 날. 너무 긴장해서 기억이 하얀 학습자에게 Mia 가 어젯밤 일을 들려준다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "culture",
+  "grammar_perfect"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "expressions": [
+  "Sag mal",
+  "Echt jetzt?"
+ ],
+ "draft": true,
+ "level": "1 관사·격·활용 골격",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "Mia, sag mal: was habe ich gestern gemacht?",
+   "rd": "미아, 자크 말: 바스 하베 이히 게스턴 게마흐트?",
+   "ko": "미아, 있잖아. 나 어제 뭐 했어?",
+   "note": "habe … gemacht = 했다(현재완료)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Mia",
+     "mia",
+     ""
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "gestern",
+     "gestern",
+     "게스턴"
+    ],
+    [
+     "gemacht",
+     "machen",
+     "마헨"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "Du? Du hast „ja“ gesagt.",
+   "rd": "두? 두 하스트 „야“ 게작트.",
+   "ko": "너? 너 「응」이라고 했지.",
+   "note": "hast gesagt = 말했다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "ja",
+     "ja",
+     "야"
+    ],
+    [
+     "gesagt",
+     "sagen",
+     "자겐"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "Ich habe „ja“ gesagt? Und dann?",
+   "rd": "이히 하베 „야“ 게작트? 운트 단?",
+   "ko": "내가 「응」이라고 했다고? 그래서?",
+   "note": "Und dann? = 그래서?",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "gesagt",
+     "sagen",
+     "자겐"
+    ],
+    [
+     "dann",
+     "dann",
+     "단"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "Dann bist du mit mir auf die Bühne gegangen.",
+   "rd": "단 비스트 두 미트 미어 아우프 디 뷔네 게강엔.",
+   "ko": "그다음엔 나랑 같이 무대에 올라갔지.",
+   "note": "bist gegangen = 갔다(sein + 과거분사)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "Bühne",
+     "Bühne",
+     "뷔네"
+    ],
+    [
+     "gegangen",
+     "gehen",
+     "게엔"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "Auf die Bühne? Echt jetzt? Was habe ich gemacht?",
+   "rd": "아우프 디 뷔네? 에히트 예츠트? 바스 하베 이히 게마흐트?",
+   "ko": "무대에? 진심이야? 내가 뭘 했는데?",
+   "note": "Bühne = 무대",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Bühne",
+     "Bühne",
+     "뷔네"
+    ],
+    [
+     "Echt",
+     "echt",
+     "에히트"
+    ],
+    [
+     "jetzt",
+     "jetzt",
+     "예츠트"
+    ],
+    [
+     "gemacht",
+     "machen",
+     "마헨"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "Musik gemacht! Und der Mann da hat „noch mal!“ gesagt.",
+   "rd": "무지크 게마흐트! 운트 데어 만 다 하트 „노흐 말!“ 게작트.",
+   "ko": "음악 했지! 그리고 저기 그 아저씨가 「한 번 더!」 했어.",
+   "note": "hat gesagt = 말했다(er 형)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Musik",
+     "Musik",
+     "무지크"
+    ],
+    [
+     "gemacht",
+     "machen",
+     "마헨"
+    ],
+    [
+     "Mann",
+     "Mann",
+     "만"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ],
+    [
+     "hat",
+     "haben",
+     "하벤"
+    ],
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "gesagt",
+     "sagen",
+     "자겐"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "Und ich? Was habe ich gesagt?",
+   "rd": "운트 이히? 바스 하베 이히 게작트?",
+   "ko": "그럼 나는? 내가 뭐라고 했는데?",
+   "note": "Was habe ich gesagt? = 내가 뭐라고 했어?",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "gesagt",
+     "sagen",
+     "자겐"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "„Ja“. Immer nur „ja“. Jetzt bist du in der Band.",
+   "rd": "„야“. 이머 누어 „야“. 예츠트 비스트 두 인 데어 벤트.",
+   "ko": "「응」. 계속 「응」만. 이제 너 우리 밴드야.",
+   "note": "Band = 밴드",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Immer",
+     "immer",
+     "이머"
+    ],
+    [
+     "nur",
+     "nur",
+     "누어"
+    ],
+    [
+     "ja",
+     "ja",
+     "야"
+    ],
+    [
+     "Jetzt",
+     "jetzt",
+     "예츠트"
+    ],
+    [
+     "Band",
+     "Band",
+     "반트"
+    ]
+   ]
+  }
+ ]
+}

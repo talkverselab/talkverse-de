@@ -1,0 +1,441 @@
+{
+ "id": "r3_survival_b1",
+ "region": "R3",
+ "island": "survival",
+ "kind": "survival",
+ "title": "둘이 먹을 열두 개",
+ "emoji": "🥨",
+ "scene": "Jonas 와 빵집에서 브레첼 두 개를 주문하려다 「zwölf」라고 말해 버린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Verkäuferin",
+  "C": "Jonas"
+ },
+ "register": "mixed",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "ordering"
+ ],
+ "domain": [
+  "survival"
+ ],
+ "expressions": [
+  "Guten Tag",
+  "Zusammen oder getrennt?",
+  "Bar oder mit Karte?"
+ ],
+ "draft": true,
+ "level": "3 그래머2",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Guten Tag! Was darf es sein?",
+   "rd": "구텐 탁! 바스 다어프 에스 자인?",
+   "ko": "안녕하세요! 뭘 드릴까요?",
+   "note": "Was darf es sein? = 뭘 드릴까요(가게 단골 문장)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Guten",
+     "gut",
+     "구트"
+    ],
+    [
+     "Tag",
+     "Tag",
+     "탁"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Moment, bitte. Jonas, was nehmen wir?",
+   "rd": "모멘트, 비테. 요나스, 바스 네멘 비어?",
+   "ko": "잠시만요. 요나스, 우리 뭐 먹지?",
+   "note": "was nehmen wir = 우리 뭘 고르지(복수 wir)",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "polite",
+     "Moment, bitte."
+    ],
+    [
+     "cheerful",
+     "Jonas, was nehmen wir?"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Moment",
+     "Moment",
+     "모멘트"
+    ],
+    [
+     "nehmen",
+     "nehmen",
+     "네멘"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "es": "Brezeln. Was sonst?",
+   "rd": "브레첼른. 바스 존스트?",
+   "ko": "브레첼. 그거 말고 뭐가 있어?",
+   "note": "sonst = 그 밖에 · Brezel = 브레첼(매듭 모양 빵)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Brezeln",
+     "Brezel",
+     ""
+    ],
+    [
+     "sonst",
+     "sonst",
+     "존스트"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Haben Sie noch Brezeln?",
+   "rd": "하벤 지 노흐 브레첼른?",
+   "ko": "브레첼 아직 있어요?",
+   "note": "Haben Sie …? = ~ 있어요?(존칭 Sie)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "Brezeln",
+     "Brezel",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Ja, die sind gerade fertig. Wie viele möchten Sie?",
+   "rd": "야, 디 진트 게라데 페어티히. 비 필레 뫼히텐 지?",
+   "ko": "네, 방금 나왔어요. 몇 개 드릴까요?",
+   "note": "die sind = 그것들은 ~이다(복수 sie)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "gerade",
+     "gerade",
+     "게라데"
+    ],
+    [
+     "fertig",
+     "fertig",
+     "페어티히"
+    ],
+    [
+     "Wie",
+     "wie",
+     "비"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Wir nehmen zwölf, bitte.",
+   "rd": "비어 네멘 츠뵐프, 비테.",
+   "ko": "열두 개 주세요.",
+   "note": "zwölf = 12 — zwei(2)라고 하려다 말이 헛나왔다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "nehmen",
+     "nehmen",
+     "네멘"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "es": "Zwölf? Gern! Sie haben wohl eine große Familie.",
+   "rd": "츠뵐프? 게언! 지 하벤 볼 아이네 그로세 파밀리에.",
+   "ko": "열두 개요? 네! 가족이 많으신가 봐요.",
+   "note": "wohl = 아마 ~인가 보다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Gern",
+     "gern",
+     "게언"
+    ],
+    [
+     "wohl",
+     "wohl",
+     "볼"
+    ],
+    [
+     "große",
+     "groß",
+     "그로스"
+    ],
+    [
+     "Familie",
+     "Familie",
+     "파밀리에"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "es": "Familie? Nein, nur wir zwei. Moment … habe ich zwölf gesagt?",
+   "rd": "파밀리에? 나인, 누어 비어 츠바이. 모멘트 … 하베 이히 츠뵐프 게자크트?",
+   "ko": "가족이요? 아뇨, 저희 둘뿐인데요. 잠깐… 제가 열둘이라고 했어요?",
+   "note": "habe ich … gesagt? = 내가 ~라고 했나?",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Familie? Nein, nur wir zwei."
+    ],
+    [
+     "flustered",
+     "Moment … habe ich zwölf gesagt?"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Familie",
+     "Familie",
+     "파밀리에"
+    ],
+    [
+     "nur",
+     "nur",
+     "누어"
+    ],
+    [
+     "Moment",
+     "Moment",
+     "모멘트"
+    ],
+    [
+     "gesagt",
+     "sagen",
+     "자겐"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "es": "Ja. Zwölf ist richtig. Zwei ist zu wenig.",
+   "rd": "야. 츠뵐프 이스트 리히티히. 츠바이 이스트 추 베니히.",
+   "ko": "응. 열둘이 맞아. 둘은 너무 적어.",
+   "note": "zu wenig = 너무 적은",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "richtig",
+     "richtig",
+     "리히티히"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "es": "Jonas! Wer soll die alle essen?",
+   "rd": "요나스! 베어 졸 디 알레 에센?",
+   "ko": "요나스! 그걸 누가 다 먹어?",
+   "note": "die alle = 그것들 전부(복수)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "essen",
+     "essen",
+     "에센"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "es": "Ich. Heute sechs, morgen sechs.",
+   "rd": "이히. 호이테 젝스, 모어겐 젝스.",
+   "ko": "나. 오늘 여섯, 내일 여섯.",
+   "note": "sechs = 6",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Heute",
+     "heute",
+     "호이테"
+    ],
+    [
+     "morgen",
+     "morgen",
+     "모어겐"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "es": "Also zwölf. Zusammen oder getrennt?",
+   "rd": "알조 츠뵐프. 추자멘 오더 게트렌트?",
+   "ko": "그럼 열두 개요. 같이 계산하세요, 따로 하세요?",
+   "note": "Zusammen oder getrennt? = 같이요, 따로요?(계산)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Also",
+     "also",
+     "알조"
+    ],
+    [
+     "Zusammen",
+     "zusammen",
+     "추자멘"
+    ],
+    [
+     "getrennt",
+     "trennen",
+     "트렌넨"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "es": "Zusammen. Aber er bekommt zehn, ich nur zwei.",
+   "rd": "추자멘. 아버 에어 베콤트 첸, 이히 누어 츠바이.",
+   "ko": "같이요. 근데 이 친구가 열 개, 저는 두 개만요.",
+   "note": "bekommen = 받다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Zusammen",
+     "zusammen",
+     "추자멘"
+    ],
+    [
+     "bekommt",
+     "bekommen",
+     "베코멘"
+    ],
+    [
+     "nur",
+     "nur",
+     "누어"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "es": "Gern. Bar oder mit Karte?",
+   "rd": "게언. 바어 오더 미트 카어테?",
+   "ko": "네. 현금이세요, 카드세요?",
+   "note": "Bar oder mit Karte? = 현금요, 카드요?",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Gern",
+     "gern",
+     "게언"
+    ],
+    [
+     "Bar",
+     "Bar",
+     "바어"
+    ],
+    [
+     "Karte",
+     "Karte",
+     "카어테"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "C",
+   "es": "Ich mache das. Für Brezeln immer.",
+   "rd": "이히 마헤 다스. 퓌어 브레첼른 이머.",
+   "ko": "내가 낼게. 브레첼이라면 언제든.",
+   "note": "Ich mache das = 내가 할게(여기선 낼게)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "mache",
+     "machen",
+     "마헨"
+    ],
+    [
+     "Brezeln",
+     "Brezel",
+     ""
+    ],
+    [
+     "immer",
+     "immer",
+     "이머"
+    ]
+   ]
+  }
+ ]
+}

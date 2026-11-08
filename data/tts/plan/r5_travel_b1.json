@@ -1,0 +1,168 @@
+{
+ "ep": "r5_travel_b1",
+ "cast": {
+  "B": "man_m",
+  "C": "lena"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Guten Tag. Was kann ich für Sie tun?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "sad",
+     "Mein Hals tut weh, und meine Beine auch."
+    ],
+    [
+     "sad",
+     "Eigentlich tut alles weh."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Wir sind nur drei Tage hier, und {name} ist schon krank."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "polite",
+     "Haben Sie Fieber?"
+    ],
+    [
+     "polite",
+     "Und seit wann haben Sie das?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "sad",
+     "Seit gestern Abend."
+    ],
+    [
+     "sad",
+     "Kein Fieber, aber ich bin total müde."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "polite",
+     "Waren Sie gestern lange draußen?"
+    ],
+    [
+     "polite",
+     "Im Wind, im Regen?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "stiff",
+     "Nein, nein. Wir sind nur ein bisschen Fahrrad gefahren."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "worried",
+     "Ein bisschen?"
+    ],
+    [
+     "worried",
+     "Lena, wie weit sind wir wirklich gefahren?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "flustered",
+     "Na ja … sechzig Kilometer.",
+     "Na ja, sechzig Kilometer."
+    ],
+    [
+     "shy",
+     "Im Regen. Gegen den Wind."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "shout",
+     "Sechzig? Du hast gesagt, es sind nur zehn!"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "amused",
+     "Zehn, sechzig … das ist doch fast das Gleiche.",
+     "Zehn, sechzig, das ist doch fast das Gleiche."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "polite",
+     "Für den Hals nehmen Sie die hier, morgens und abends."
+    ],
+    [
+     "amused",
+     "Und für die Beine … ein Bett.",
+     "Und für die Beine, ein Bett."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "teasing",
+     "Haben Sie auch etwas gegen Lena?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "Leider nicht."
+    ],
+    [
+     "amused",
+     "Aber der Bahnhof ist gleich gegenüber."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "annoyed",
+     "Ach komm!"
+    ],
+    [
+     "cheerful",
+     "Morgen fahren wir nur dreißig. Ehrlich!"
+    ]
+   ]
+  }
+ }
+}

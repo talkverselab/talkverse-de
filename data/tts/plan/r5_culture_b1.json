@@ -1,0 +1,196 @@
+{
+ "ep": "r5_culture_b1",
+ "cast": {
+  "B": "felix",
+  "C": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Sonntag, acht Uhr fünfzehn!"
+    ],
+    [
+     "excited",
+     "Handys weg, Licht aus, „Die letzte Tür“ fängt an!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "annoyed",
+     "Moment mal. Wer hat das Essen zum Papier gelegt?"
+    ],
+    [
+     "annoyed",
+     "Papier ist nur für Papier!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "Das war ich. Aber Felix, es fängt an!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Schon gut, Felix, morgen."
+    ],
+    [
+     "teasing",
+     "Also, wer ist der Mörder?"
+    ],
+    [
+     "teasing",
+     "Ich sage: der Gärtner."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Es gibt keinen Gärtner."
+    ],
+    [
+     "tsukkomi",
+     "Das ist ein Haus in Berlin, ohne Garten."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Dann der große Mann da."
+    ],
+    [
+     "amused",
+     "Der hat so komische Augen."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Mia, das ist der Polizist."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "excited",
+     "Leise! Jetzt kommt es."
+    ],
+    [
+     "excited",
+     "Die Frau macht die Tür auf …",
+     "Die Frau macht die Tür auf."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "cheerful",
+     "Warte mal, kurz Pause."
+    ],
+    [
+     "cheerful",
+     "Ich muss noch die Flaschen …",
+     "Ich muss noch die Flaschen."
+    ],
+    [
+     "flustered",
+     "oh. Was habe ich gedrückt?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "shout",
+     "Felix! Da steht schon „Ende“!"
+    ],
+    [
+     "shout",
+     "Das ist die letzte Minute!"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shout",
+     "Zurück, zurück!"
+    ],
+    [
+     "shout",
+     "Wer war es? Ich habe nur Flaschen gehört!"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "surprised",
+     "Moment … da steht es.",
+     "Moment, da steht es."
+    ],
+    [
+     "surprised",
+     "Der Hausmeister war der Mörder."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Der Hausmeister?"
+    ],
+    [
+     "tsukkomi",
+     "Der war doch nur zwei Minuten im Bild!"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "Er hat seine Flaschen nie getrennt."
+    ],
+    [
+     "amused",
+     "Ich habe es gewusst."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "teasing",
+     "Felix, nächsten Sonntag bleibst du bei deinen Flaschen."
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "amused",
+     "Genau. Ich drücke, und du kochst Tee."
+    ]
+   ]
+  }
+ }
+}

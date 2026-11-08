@@ -1,0 +1,690 @@
+{
+ "id": "r5_culture_b1",
+ "region": "R5",
+ "island": "culture",
+ "kind": "long",
+ "title": "범인은 분리수거를 안 했다",
+ "emoji": "🔍",
+ "scene": "일요일 밤 셰어하우스 거실. 셋이 범죄 드라마 〈마지막 문〉을 보는데, 결정적 순간 펠릭스가 리모컨을 잡는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Felix",
+  "C": "Mia"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "culture",
+  "tv"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "expressions": [
+  "Moment mal",
+  "Schon gut",
+  "Warte mal",
+  "Genau"
+ ],
+ "draft": true,
+ "level": "5 어휘 완주",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "es": "Sonntag, acht Uhr fünfzehn! Handys weg, Licht aus, „Die letzte Tür“ fängt an!",
+   "rd": "존탁, 아흐트 우어 퓐프첸! 헨디스 베크, 리히트 아우스, „디 레츠테 튀어“ 펭트 안!",
+   "ko": "일요일 여덟 시 십오 분! 폰 치우고, 불 끄고, 〈마지막 문〉 시작한다!",
+   "note": "anfangen = 시작하다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Sonntag",
+     "Sonntag",
+     "존탁"
+    ],
+    [
+     "Uhr",
+     "Uhr",
+     "우어"
+    ],
+    [
+     "weg",
+     "weg",
+     "베크"
+    ],
+    [
+     "Licht",
+     "Licht",
+     "리히트"
+    ],
+    [
+     "letzte",
+     "letzt",
+     "레츠트"
+    ],
+    [
+     "Tür",
+     "Tür",
+     "튀어"
+    ],
+    [
+     "fängt",
+     "fangen",
+     "팡엔"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "Moment mal. Wer hat das Essen zum Papier gelegt? Papier ist nur für Papier!",
+   "rd": "모멘트 말. 베어 하트 다스 에센 춤 파피어 겔레크트? 파피어 이스트 누어 퓌어 파피어!",
+   "ko": "잠깐. 누가 음식을 종이 쪽에 넣었어? 종이는 종이만이야!",
+   "note": "zum Papier legen = 종이 쪽에 두다",
+   "tags": [
+    "draft",
+    "callback:r5_life_b1"
+   ],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "Moment",
+     "Moment",
+     "모멘트"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "Essen",
+     "essen",
+     "에센"
+    ],
+    [
+     "Papier",
+     "Papier",
+     "파피어"
+    ],
+    [
+     "gelegt",
+     "legen",
+     "레겐"
+    ],
+    [
+     "Papier",
+     "Papier",
+     "파피어"
+    ],
+    [
+     "nur",
+     "nur",
+     "누어"
+    ],
+    [
+     "Papier",
+     "Papier",
+     "파피어"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "Das war ich. Aber Felix, es fängt an!",
+   "rd": "다스 바어 이히. 아버 펠릭스, 에스 펭트 안!",
+   "ko": "나야. 근데 펠릭스, 시작한다니까!",
+   "note": "es fängt an = 시작한다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "fängt",
+     "fangen",
+     "팡엔"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "es": "Schon gut, Felix, morgen. Also, wer ist der Mörder? Ich sage: der Gärtner.",
+   "rd": "숀 구트, 펠릭스, 모어겐. 알조, 베어 이스트 데어 뫼어더? 이히 자게: 데어 게어트너.",
+   "ko": "됐어, 펠릭스, 내일 해. 자, 범인 누구게? 난 정원사.",
+   "note": "Gärtner = 정원사",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Schon",
+     "schon",
+     "숀"
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
+    ],
+    [
+     "morgen",
+     "morgen",
+     "모어겐"
+    ],
+    [
+     "Also",
+     "also",
+     "알조"
+    ],
+    [
+     "Mörder",
+     "Mörder",
+     "뫼어더"
+    ],
+    [
+     "sage",
+     "sagen",
+     "자겐"
+    ],
+    [
+     "Gärtner",
+     "Gärtner",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "Es gibt keinen Gärtner. Das ist ein Haus in Berlin, ohne Garten.",
+   "rd": "에스 깁트 카이넨 게어트너. 다스 이스트 아인 하우스 인 베를린, 오네 가어텐.",
+   "ko": "정원사 없어. 베를린 집이잖아, 정원도 없고.",
+   "note": "ohne Garten = 정원 없이",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "gibt",
+     "geben",
+     "게벤"
+    ],
+    [
+     "Gärtner",
+     "Gärtner",
+     ""
+    ],
+    [
+     "Haus",
+     "Haus",
+     "하우스"
+    ],
+    [
+     "Garten",
+     "Garten",
+     "가어텐"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "es": "Dann der große Mann da. Der hat so komische Augen.",
+   "rd": "단 데어 그로세 만 다. 데어 하트 조 코미셰 아우겐.",
+   "ko": "그럼 저 덩치 큰 남자. 눈빛이 좀 이상하잖아.",
+   "note": "komisch = 이상한",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "große",
+     "groß",
+     "그로스"
+    ],
+    [
+     "Mann",
+     "Mann",
+     "만"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ],
+    [
+     "hat",
+     "haben",
+     "하벤"
+    ],
+    [
+     "so",
+     "so",
+     "조"
+    ],
+    [
+     "komische",
+     "komisch",
+     "코미슈"
+    ],
+    [
+     "Augen",
+     "Auge",
+     "아우게"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "es": "Mia, das ist der Polizist.",
+   "rd": "미아, 다스 이스트 데어 폴리치스트.",
+   "ko": "미아, 저 사람 경찰이야.",
+   "note": "Polizist = 경찰관",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Mia",
+     "mia",
+     ""
+    ],
+    [
+     "Polizist",
+     "Polizist",
+     "폴리치스트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "es": "Leise! Jetzt kommt es. Die Frau macht die Tür auf …",
+   "rd": "라이제! 예츠트 콤트 에스. 디 프라우 마흐트 디 튀어 아우프 …",
+   "ko": "조용! 이제 나온다. 여자가 문을 열어…",
+   "note": "leise = 조용히",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Leise",
+     "leise",
+     "라이제"
+    ],
+    [
+     "Jetzt",
+     "jetzt",
+     "예츠트"
+    ],
+    [
+     "kommt",
+     "kommen",
+     "코멘"
+    ],
+    [
+     "Frau",
+     "Frau",
+     "프라우"
+    ],
+    [
+     "macht",
+     "machen",
+     "마헨"
+    ],
+    [
+     "Tür",
+     "Tür",
+     "튀어"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "es": "Warte mal, kurz Pause. Ich muss noch die Flaschen … oh. Was habe ich gedrückt?",
+   "rd": "바어테 말, 쿠어츠 파우제. 이히 무스 노흐 디 플라셴 … 오. 바스 하베 이히 게드뤽트?",
+   "ko": "잠깐, 잠깐 멈춰. 병 좀 내놔야 해서… 어. 나 뭐 눌렀지?",
+   "note": "drücken = 누르다",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Warte mal, kurz Pause. Ich muss noch die Flaschen … "
+    ],
+    [
+     "flustered",
+     "oh. Was habe ich gedrückt?"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Warte",
+     "warten",
+     "바어텐"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "kurz",
+     "kurz",
+     "쿠어츠"
+    ],
+    [
+     "Pause",
+     "Pause",
+     "파우제"
+    ],
+    [
+     "muss",
+     "muss",
+     ""
+    ],
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "Flaschen",
+     "Flasche",
+     "플라셰"
+    ],
+    [
+     "gedrückt",
+     "drücken",
+     "드뤼켄"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "es": "Felix! Da steht schon „Ende“! Das ist die letzte Minute!",
+   "rd": "펠릭스! 다 슈테트 숀 „엔데“! 다스 이스트 디 레츠테 미누테!",
+   "ko": "펠릭스! 벌써 「끝」이라고 떴잖아! 마지막 1분이야!",
+   "note": "Ende = 끝",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "Da",
+     "da",
+     "다"
+    ],
+    [
+     "steht",
+     "stehen",
+     "슈테엔"
+    ],
+    [
+     "schon",
+     "schon",
+     "숀"
+    ],
+    [
+     "Ende",
+     "Ende",
+     "엔데"
+    ],
+    [
+     "letzte",
+     "letzt",
+     "레츠트"
+    ],
+    [
+     "Minute",
+     "Minute",
+     "미누테"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "es": "Zurück, zurück! Wer war es? Ich habe nur Flaschen gehört!",
+   "rd": "추뤽, 추뤽! 베어 바어 에스? 이히 하베 누어 플라셴 게회어트!",
+   "ko": "뒤로, 뒤로! 누구였어? 난 병 얘기밖에 못 들었어!",
+   "note": "zurück = 뒤로",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "Zurück",
+     "zurück",
+     "추뤽"
+    ],
+    [
+     "zurück",
+     "zurück",
+     "추뤽"
+    ],
+    [
+     "nur",
+     "nur",
+     "누어"
+    ],
+    [
+     "Flaschen",
+     "Flasche",
+     "플라셰"
+    ],
+    [
+     "gehört",
+     "gehören",
+     "게회렌"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "es": "Moment … da steht es. Der Hausmeister war der Mörder.",
+   "rd": "모멘트 … 다 슈테트 에스. 데어 하우스마이스터 바어 데어 뫼어더.",
+   "ko": "잠깐… 여기 나온다. 관리인이 범인이었어.",
+   "note": "Hausmeister = 건물 관리인",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Moment",
+     "Moment",
+     "모멘트"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ],
+    [
+     "steht",
+     "stehen",
+     "슈테엔"
+    ],
+    [
+     "Hausmeister",
+     "Hausmeister",
+     ""
+    ],
+    [
+     "Mörder",
+     "Mörder",
+     "뫼어더"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "es": "Der Hausmeister? Der war doch nur zwei Minuten im Bild!",
+   "rd": "데어 하우스마이스터? 데어 바어 도흐 누어 츠바이 미누텐 임 빌트!",
+   "ko": "관리인? 2분밖에 안 나왔잖아!",
+   "note": "im Bild = 화면에",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Hausmeister",
+     "Hausmeister",
+     ""
+    ],
+    [
+     "doch",
+     "doch",
+     "도흐"
+    ],
+    [
+     "nur",
+     "nur",
+     "누어"
+    ],
+    [
+     "Minuten",
+     "Minute",
+     "미누테"
+    ],
+    [
+     "Bild",
+     "Bild",
+     "빌트"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "es": "Er hat seine Flaschen nie getrennt. Ich habe es gewusst.",
+   "rd": "에어 하트 자이네 플라셴 니 게트렌트. 이히 하베 에스 게부스트.",
+   "ko": "그 사람, 병 분리수거를 한 번도 안 했어. 내 그럴 줄 알았지.",
+   "note": "trennen = 분리하다",
+   "tags": [
+    "draft",
+    "callback:r5_life_b1"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Flaschen",
+     "Flasche",
+     "플라셰"
+    ],
+    [
+     "nie",
+     "nie",
+     "니"
+    ],
+    [
+     "getrennt",
+     "trennen",
+     "트렌넨"
+    ],
+    [
+     "gewusst",
+     "gewusst",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "es": "Felix, nächsten Sonntag bleibst du bei deinen Flaschen.",
+   "rd": "펠릭스, 넥스텐 존탁 블라입스트 두 바이 다이넨 플라셴.",
+   "ko": "펠릭스, 다음 주 일요일엔 넌 병이랑 놀아.",
+   "note": "bleiben bei = ~ 곁에 있다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "nächsten",
+     "nächst",
+     "네히스트"
+    ],
+    [
+     "Sonntag",
+     "Sonntag",
+     "존탁"
+    ],
+    [
+     "bleibst",
+     "bleiben",
+     "블라이벤"
+    ],
+    [
+     "Flaschen",
+     "Flasche",
+     "플라셰"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "C",
+   "es": "Genau. Ich drücke, und du kochst Tee.",
+   "rd": "게나우. 이히 드뤼케, 운트 두 코흐스트 테.",
+   "ko": "맞아. 버튼은 내가 누르고, 넌 차 끓여.",
+   "note": "Tee kochen = 차를 끓이다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Genau",
+     "genau",
+     "게나우"
+    ],
+    [
+     "drücke",
+     "drücken",
+     "드뤼켄"
+    ],
+    [
+     "kochst",
+     "kochen",
+     "코헨"
+    ],
+    [
+     "Tee",
+     "Tee",
+     "테"
+    ]
+   ]
+  }
+ ]
+}

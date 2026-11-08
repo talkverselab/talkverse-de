@@ -1,0 +1,187 @@
+{
+ "ep": "r5_work_b1",
+ "cast": {
+  "B": "woman_m",
+  "C": "jonas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Guten Tag, {name}!"
+    ],
+    [
+     "polite",
+     "Bitte nehmen Sie Platz."
+    ],
+    [
+     "polite",
+     "Möchten Sie einen Kaffee?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "shy",
+     "Gerne. Ich bin ehrlich gesagt ein bisschen nervös."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Keine Sorge, das ist kein Test."
+    ],
+    [
+     "gentle",
+     "Wir wollen Sie nur kennenlernen."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "stiff",
+     "Entschuldigung."
+    ],
+    [
+     "stiff",
+     "Ich bringe nur das Frühstück."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Danke, Jonas."
+    ],
+    [
+     "polite",
+     "Also, {name}: Warum wollen Sie bei uns arbeiten?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "excited",
+     "Wegen der Brezeln …",
+     "Wegen der Brezeln."
+    ],
+    [
+     "flustered",
+     "äh, ich meine, wegen des Teams!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Das war die beste Antwort heute."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "annoyed",
+     "Jonas, bitte!"
+    ],
+    [
+     "polite",
+     "… Na gut. Was machen Sie nicht so gut?",
+     "Na gut. Was machen Sie nicht so gut?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "cheerful",
+     "Ich komme immer zu früh."
+    ],
+    [
+     "cheerful",
+     "Heute war ich schon um sieben hier."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "surprised",
+     "Um sieben? Wir machen erst um neun auf."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "amused",
+     "Ich weiß. Ich habe {name} vor der Tür gesehen."
+    ],
+    [
+     "amused",
+     "Zwei Stunden lang."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Und Sie haben mir nicht aufgemacht?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "shy",
+     "Ich hatte keinen Schlüssel."
+    ],
+    [
+     "shy",
+     "Nur Brezeln."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "teasing",
+     "Gut. Pünktlich heißt bei uns fünf Minuten vorher, nicht zwei Stunden."
+    ],
+    [
+     "cheerful",
+     "Können Sie am Montag anfangen?"
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "excited",
+     "Am Montag? Na klar!"
+    ],
+    [
+     "excited",
+     "Dann bin ich um sieben da."
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "gentle",
+     "Dann bringe ich den Schlüssel mit."
+    ]
+   ]
+  }
+ }
+}

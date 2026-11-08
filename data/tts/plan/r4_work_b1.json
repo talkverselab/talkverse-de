@@ -8,7 +8,11 @@
    "segs": [
     [
      "stiff",
-     "Hättest du kurz Zeit? Ich wollte dich etwas fragen, wenn es dir gerade passt."
+     "Hättest du kurz Zeit?"
+    ],
+    [
+     "stiff",
+     "Ich wollte dich etwas fragen, wenn es dir gerade passt."
     ]
    ]
   },
@@ -24,7 +28,11 @@
    "segs": [
     [
      "worried",
-     "Ja. Frau Weber hat danach nur gesagt: „Das war nicht schlecht.“ Seitdem habe ich ein ungutes Gefühl."
+     "Ja. Frau Weber hat danach nur gesagt: „Das war nicht schlecht.“"
+    ],
+    [
+     "worried",
+     "Seitdem habe ich ein ungutes Gefühl."
     ]
    ]
   },
@@ -56,7 +64,11 @@
    "segs": [
     [
      "sad",
-     "Ich dachte, sie wäre enttäuscht. Bei uns hätte man wenigstens etwas Nettes gesagt."
+     "Ich dachte, sie wäre enttäuscht."
+    ],
+    [
+     "sad",
+     "Wo ich herkomme, hätte man wenigstens etwas Nettes gesagt."
     ]
    ]
   },
@@ -64,7 +76,7 @@
    "segs": [
     [
      "amused",
-     "Du hast offenbar keine Ahnung, wie selten das vorkommt."
+     "Du hast echt keine Ahnung, wie selten das vorkommt."
     ]
    ]
   },
@@ -80,7 +92,11 @@
    "segs": [
     [
      "amused",
-     "Ich arbeite seit vier Jahren hier. Das Beste, was ich von ihr gehört habe, war: „Da kann man nichts sagen.“"
+     "Ich arbeite seit vier Jahren hier."
+    ],
+    [
+     "amused",
+     "Das Beste, was ich von ihr gehört habe, war: „Da kann man nichts sagen.“"
     ]
    ]
   },
@@ -96,7 +112,11 @@
    "segs": [
     [
      "teasing",
-     "Das höchste. „Nicht schlecht“ heißt bei ihr ungefähr, dass du bald befördert wirst."
+     "Das höchste."
+    ],
+    [
+     "teasing",
+     "„Nicht schlecht“ heißt bei ihr ungefähr, dass du bald befördert wirst."
     ]
    ]
   },
@@ -112,7 +132,11 @@
    "segs": [
     [
      "amused",
-     "Das hat sie noch nie gesagt. Ich würde mir Sorgen machen, dass sie kündigt."
+     "Das hat sie noch nie gesagt."
+    ],
+    [
+     "amused",
+     "Ich würde mir Sorgen machen, dass sie kündigt."
     ]
    ]
   }

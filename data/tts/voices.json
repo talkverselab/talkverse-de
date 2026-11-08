@@ -141,6 +141,10 @@
   "Felix": "felix",
   "Verkäuferin": "woman_m",
   "Frau Becker": "woman_o",
-  "Makler": "man_m"
+  "Makler": "man_m",
+  "Personalerin": "woman_m",
+  "Apotheker": "man_m",
+  "Schaffnerin": "woman_m",
+  "Sachbearbeiter": "man_m"
  }
 }

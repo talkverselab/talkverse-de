@@ -1,0 +1,434 @@
+{
+ "id": "r2_friends_c1",
+ "region": "R2",
+ "island": "friends",
+ "kind": "chat",
+ "title": "4분짜리 버스 콘서트",
+ "emoji": "🎤",
+ "scene": "저녁 6시 약속. 늦은 학습자의 폰이 주머니 속에서 Lena 에게 4분짜리 음성 메시지를 보내 버린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lena"
+ },
+ "register": "chat",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "friends",
+  "chat"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Ich bin gleich da",
+  "Warte mal",
+  "Oh Mann",
+  "Das ist mir peinlich",
+  "Quatsch",
+  "Das gibt's doch nicht",
+  "Doch",
+  "Pünktlich"
+ ],
+ "draft": true,
+ "level": "2 챗 실전",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "Lena! Ich bin gleich da 🙈",
+   "rd": "레나! 이히 빈 글라이히 다",
+   "ko": "레나! 나 금방 도착해 🙈",
+   "note": "Ich bin gleich da = 금방 도착해",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "18:02",
+   "lemmas": [
+    [
+     "gleich",
+     "gleich",
+     "글라이히"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "Gleich? Es ist zwei nach sechs. Ich warte schon 😤",
+   "rd": "글라이히? 에스 이스트 츠바이 나흐 젝스. 이히 바어테 숀",
+   "ko": "금방? 벌써 6시 2분이야. 나 기다리는 중이거든 😤",
+   "note": "zwei nach sechs = 6시 2분",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "annoyed",
+   "ui": "bubble",
+   "at": "18:02",
+   "lemmas": [
+    [
+     "Gleich",
+     "gleich",
+     "글라이히"
+    ],
+    [
+     "warte",
+     "warten",
+     "바어텐"
+    ],
+    [
+     "schon",
+     "schon",
+     "숀"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Warte mal. Was höre ich da? 🎧",
+   "rd": "바어테 말. 바스 회레 이히 다?",
+   "ko": "잠깐만. 이거 뭐가 들리는 거야? 🎧",
+   "note": "Warte mal = 잠깐만",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "18:04",
+   "lemmas": [
+    [
+     "Warte",
+     "warten",
+     "바어텐"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "höre",
+     "hören",
+     "회렌"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Was hörst du? Ich hab nichts gemacht!",
+   "rd": "바스 회어스트 두? 이히 합 니히츠 게마흐트!",
+   "ko": "뭐가 들려? 나 아무것도 안 했는데!",
+   "note": "nichts gemacht = 아무것도 안 했다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "18:04",
+   "lemmas": [
+    [
+     "hörst",
+     "hören",
+     "회렌"
+    ],
+    [
+     "gemacht",
+     "machen",
+     "마헨"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Dein Handy. Vier Minuten. Du, laut, mit Musik 😂",
+   "rd": "다인 헨디. 피어 미누텐. 두, 라우트, 미트 무지크",
+   "ko": "네 폰. 4분짜리. 너, 크게, 음악이랑 같이 😂",
+   "note": "Minute = 분(시간)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "18:05",
+   "lemmas": [
+    [
+     "Handy",
+     "Handy",
+     "헨디"
+    ],
+    [
+     "Minuten",
+     "Minute",
+     "미누테"
+    ],
+    [
+     "laut",
+     "laut",
+     "라우트"
+    ],
+    [
+     "Musik",
+     "Musik",
+     "무지크"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Oh Mann. Das ist mir peinlich 🫣",
+   "rd": "오 만. 다스 이스트 미어 파인리히",
+   "ko": "아 이런. 진짜 창피해 🫣",
+   "note": "Das ist mir peinlich = 창피해",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "18:05",
+   "lemmas": [
+    [
+     "Mann",
+     "Mann",
+     "만"
+    ],
+    [
+     "peinlich",
+     "peinlich",
+     "파인리히"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "es": "Warte, es geht noch weiter. Ein Mann sagt: „Leise, bitte!“",
+   "rd": "바어테, 에스 게트 노흐 바이터. 아인 만 작트: „라이제, 비테!“",
+   "ko": "잠깐, 아직 안 끝났어. 어떤 아저씨가 \"좀 조용히요!\" 그래",
+   "note": "es geht weiter = 계속된다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "18:06",
+   "lemmas": [
+    [
+     "Warte",
+     "warten",
+     "바어텐"
+    ],
+    [
+     "geht",
+     "gehen",
+     "게엔"
+    ],
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "weiter",
+     "weiter",
+     "바이터"
+    ],
+    [
+     "Mann",
+     "Mann",
+     "만"
+    ],
+    [
+     "sagt",
+     "sagen",
+     "자겐"
+    ],
+    [
+     "Leise",
+     "leise",
+     "라이제"
+    ],
+    [
+     "bitte",
+     "bitte",
+     "비테"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Und dann? Er macht mit! 🎶😂",
+   "rd": "운트 단? 에어 마흐트 미트!",
+   "ko": "그다음엔? 아저씨도 같이 불러! 🎶😂",
+   "note": "mitmachen = 같이 하다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "18:06",
+   "lemmas": [
+    [
+     "dann",
+     "dann",
+     "단"
+    ],
+    [
+     "macht",
+     "machen",
+     "마헨"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "es": "Quatsch! Das gibt's doch nicht!",
+   "rd": "크바치! 다스 깁츠 도흐 니히트!",
+   "ko": "말도 안 돼! 그럴 리가 없어!",
+   "note": "Das gibt's doch nicht = 말도 안 돼",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shout",
+   "ui": "bubble",
+   "at": "18:07",
+   "lemmas": [
+    [
+     "Quatsch",
+     "Quatsch",
+     "크바치"
+    ],
+    [
+     "gibt's",
+     "gibt'sn",
+     ""
+    ],
+    [
+     "doch",
+     "doch",
+     "도흐"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "es": "Doch. Und ich hab's noch 😈",
+   "rd": "도흐. 운트 이히 합스 노흐",
+   "ko": "맞거든. 그리고 나 아직 갖고 있어 😈",
+   "note": "Doch = 아니, 맞거든",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "18:07",
+   "lemmas": [
+    [
+     "hab's",
+     "haben",
+     "하벤"
+    ],
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "es": "Lena, bitte! Ich bin in zwei Minuten da!",
+   "rd": "레나, 비테! 이히 빈 인 츠바이 미누텐 다!",
+   "ko": "레나, 제발! 나 2분이면 도착해!",
+   "note": "in zwei Minuten = 2분 뒤에",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "18:08",
+   "lemmas": [
+    [
+     "Minuten",
+     "Minute",
+     "미누테"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "es": "Gut. Ab jetzt pünktlich. Sonst hört es jeder 😇",
+   "rd": "구트. 압 예츠트 퓡크틀리히. 존스트 회어트 에스 예더",
+   "ko": "좋아. 앞으로는 칼같이 와. 안 그러면 다 듣게 된다 😇",
+   "note": "sonst = 안 그러면",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "gentle",
+     "Gut. Ab jetzt pünktlich. "
+    ],
+    [
+     "teasing",
+     "Sonst hört es jeder 😇"
+    ]
+   ],
+   "ui": "bubble",
+   "at": "18:08",
+   "lemmas": [
+    [
+     "Gut",
+     "gut",
+     "구트"
+    ],
+    [
+     "jetzt",
+     "jetzt",
+     "예츠트"
+    ],
+    [
+     "pünktlich",
+     "pünktlich",
+     "퓡크틀리히"
+    ],
+    [
+     "Sonst",
+     "sonst",
+     "존스트"
+    ],
+    [
+     "hört",
+     "hören",
+     "회렌"
+    ]
+   ]
+  }
+ ]
+}

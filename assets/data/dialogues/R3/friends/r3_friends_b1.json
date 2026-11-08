@@ -1,0 +1,524 @@
+{
+ "id": "r3_friends_b1",
+ "region": "R3",
+ "island": "friends",
+ "kind": "long",
+ "title": "너희 둘, 내일 뭐 해?",
+ "emoji": "🎉",
+ "scene": "파티에 초대했더니 Lena 와 Jonas 가 수상하게 거절한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lena",
+  "C": "Jonas"
+ },
+ "register": "casual",
+ "twist": 12,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Oder?",
+  "Leider",
+  "Genau",
+  "Na ja",
+  "Egal",
+  "Okay"
+ ],
+ "draft": true,
+ "level": "3 그래머2",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "Hey, ihr zwei! Habt ihr morgen Abend Zeit?",
+   "rd": "헤이, 이어 츠바이! 합트 이어 모어겐 아벤트 차이트?",
+   "ko": "야, 너희 둘! 내일 저녁에 시간 돼?",
+   "note": "habt ihr = 너희 있어?(복수 ihr)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Habt",
+     "haben",
+     "하벤"
+    ],
+    [
+     "morgen",
+     "morgen",
+     "모어겐"
+    ],
+    [
+     "Abend",
+     "Abend",
+     "아벤트"
+    ],
+    [
+     "Zeit",
+     "Zeit",
+     "차이트"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "Morgen Abend? Warum?",
+   "rd": "모어겐 아벤트? 바룸?",
+   "ko": "내일 저녁? 왜?",
+   "note": "warum = 왜",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Morgen",
+     "morgen",
+     "모어겐"
+    ],
+    [
+     "Abend",
+     "Abend",
+     "아벤트"
+    ],
+    [
+     "Warum",
+     "warum",
+     "바룸"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "Ich mache eine Party bei mir. Ihr kommt doch, oder?",
+   "rd": "이히 마헤 아이네 파어티 바이 미어. 이어 콤트 도흐, 오더?",
+   "ko": "우리 집에서 파티 해. 너희 올 거지?",
+   "note": "ihr kommt = 너희가 온다 · Party = 파티",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "mache",
+     "machen",
+     "마헨"
+    ],
+    [
+     "Party",
+     "Party",
+     ""
+    ],
+    [
+     "kommt",
+     "kommen",
+     "코멘"
+    ],
+    [
+     "doch",
+     "doch",
+     "도흐"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "Oh. Morgen können wir leider nicht.",
+   "rd": "오. 모어겐 쾨넨 비어 라이더 니히트.",
+   "ko": "아. 내일은 우리가 좀 안 돼.",
+   "note": "können wir = 우리는 할 수 있다(복수 wir)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Morgen",
+     "morgen",
+     "모어겐"
+    ],
+    [
+     "leider",
+     "leider",
+     "라이더"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "Ihr beide nicht? Was habt ihr denn vor?",
+   "rd": "이어 바이데 니히트? 바스 합트 이어 덴 포어?",
+   "ko": "둘 다 안 돼? 뭐 하는데?",
+   "note": "vorhaben = 계획이 있다(분리동사)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "denn",
+     "denn",
+     "덴"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "es": "Wir … arbeiten.",
+   "rd": "비어 … 아어바이텐.",
+   "ko": "우리… 일해.",
+   "note": "arbeiten = 일하다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "arbeiten",
+     "arbeiten",
+     "아어바이텐"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "es": "Genau. Wir arbeiten. Zusammen. Den ganzen Abend.",
+   "rd": "게나우. 비어 아어바이텐. 추자멘. 덴 간첸 아벤트.",
+   "ko": "맞아. 우리 일해. 같이. 저녁 내내.",
+   "note": "den ganzen Abend = 저녁 내내",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Genau",
+     "genau",
+     "게나우"
+    ],
+    [
+     "arbeiten",
+     "arbeiten",
+     "아어바이텐"
+    ],
+    [
+     "Zusammen",
+     "zusammen",
+     "추자멘"
+    ],
+    [
+     "ganzen",
+     "ganz",
+     "간츠"
+    ],
+    [
+     "Abend",
+     "Abend",
+     "아벤트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "es": "Ihr arbeitet zusammen? Jonas, du arbeitest doch nie am Abend.",
+   "rd": "이어 아어바이테트 추자멘? 요나스, 두 아어바이테스트 도흐 니 암 아벤트.",
+   "ko": "너희가 같이 일한다고? 요나스, 너 저녁엔 일 안 하잖아.",
+   "note": "ihr arbeitet = 너희가 일한다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "arbeitet",
+     "arbeiten",
+     "아어바이텐"
+    ],
+    [
+     "zusammen",
+     "zusammen",
+     "추자멘"
+    ],
+    [
+     "arbeitest",
+     "arbeiten",
+     "아어바이텐"
+    ],
+    [
+     "doch",
+     "doch",
+     "도흐"
+    ],
+    [
+     "nie",
+     "nie",
+     "니"
+    ],
+    [
+     "Abend",
+     "Abend",
+     "아벤트"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "es": "Jetzt schon.",
+   "rd": "예츠트 숀.",
+   "ko": "이제는 해.",
+   "note": "jetzt schon = 이제는 그래",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Jetzt",
+     "jetzt",
+     "예츠트"
+    ],
+    [
+     "schon",
+     "schon",
+     "숀"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "es": "Na ja. Dann mache ich sie halt ohne euch.",
+   "rd": "나 야. 단 마헤 이히 지 할트 오네 오이히.",
+   "ko": "뭐. 그럼 너희 없이 하지 뭐.",
+   "note": "ohne euch = 너희 없이",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "ja",
+     "ja",
+     "야"
+    ],
+    [
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "mache",
+     "machen",
+     "마헨"
+    ],
+    [
+     "halt",
+     "halt",
+     "할트"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "es": "Lena, sag es einfach.",
+   "rd": "레나, 자크 에스 아인파흐.",
+   "ko": "레나, 그냥 말해.",
+   "note": "sag es = 말해",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "einfach",
+     "einfach",
+     "아인파흐"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "es": "Okay, wir können nicht. Wir machen morgen eine Party. Eine Party für dich, bei mir.",
+   "rd": "오케이, 비어 쾨넨 니히트. 비어 마헨 모어겐 아이네 파어티. 아이네 파어티 퓌어 디히, 바이 미어.",
+   "ko": "알았어, 우리 내일 파티 하거든. 너를 위한 파티, 우리 집에서.",
+   "note": "종속절(weil) 없이 두 문장으로 — 레벨 3",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Okay",
+     "Okay",
+     "오케이"
+    ],
+    [
+     "machen",
+     "machen",
+     "마헨"
+    ],
+    [
+     "morgen",
+     "morgen",
+     "모어겐"
+    ],
+    [
+     "Party",
+     "Party",
+     ""
+    ],
+    [
+     "Party",
+     "Party",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "es": "Für mich? Warum für mich?",
+   "rd": "퓌어 미히? 바룸 퓌어 미히?",
+   "ko": "나를 위해? 왜?",
+   "note": "für mich = 나를 위해",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Warum",
+     "warum",
+     "바룸"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "es": "Felix hat gesagt, du hast morgen Geburtstag.",
+   "rd": "펠릭스 하트 게자크트, 두 하스트 모어겐 게부어츠탁.",
+   "ko": "펠릭스가 그러던데, 너 내일 생일이라며.",
+   "note": "Geburtstag = 생일",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "gesagt",
+     "sagen",
+     "자겐"
+    ],
+    [
+     "morgen",
+     "morgen",
+     "모어겐"
+    ],
+    [
+     "Geburtstag",
+     "Geburtstag",
+     "게부어츠탁"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "es": "Mein Geburtstag? Der war schon. Vor zwei Wochen!",
+   "rd": "마인 게부어츠탁? 데어 바 숀. 포어 츠바이 보헨!",
+   "ko": "내 생일? 벌써 지났어. 두 주 전에!",
+   "note": "vor zwei Wochen = 두 주 전에",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Mein Geburtstag? Der war schon."
+    ],
+    [
+     "tsukkomi",
+     "Vor zwei Wochen!"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Geburtstag",
+     "Geburtstag",
+     "게부어츠탁"
+    ],
+    [
+     "schon",
+     "schon",
+     "숀"
+    ],
+    [
+     "Wochen",
+     "Woche",
+     "보헤"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "C",
+   "es": "Egal. Die Brezeln sind schon da. Die Party bleibt.",
+   "rd": "에갈. 디 브레첼른 진트 숀 다. 디 파어티 블라입트.",
+   "ko": "상관없어. 브레첼은 벌써 와 있어. 파티는 해.",
+   "note": "bleiben = 그대로 남다 · Brezel = 브레첼",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Egal",
+     "egal",
+     "에갈"
+    ],
+    [
+     "Brezeln",
+     "Brezel",
+     ""
+    ],
+    [
+     "schon",
+     "schon",
+     "숀"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ],
+    [
+     "Party",
+     "Party",
+     ""
+    ],
+    [
+     "bleibt",
+     "bleiben",
+     "블라이벤"
+    ]
+   ]
+  }
+ ]
+}

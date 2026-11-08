@@ -1,0 +1,82 @@
+{
+ "ep": "r1_friends_a3",
+ "cast": {
+  "B": "lena"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Hallo, Lena! Wo bist du jetzt?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Auf dem Fahrrad."
+    ],
+    [
+     "neutral",
+     "Und du? Schon bei Mia?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Na klar! Ich bin schon bei Mia."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Echt? Sag mal … ich bin vor deinem Haus.",
+     "Echt? Sag mal, ich bin vor deinem Haus."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Vor meinem Haus?"
+    ],
+    [
+     "flustered",
+     "… Ach so. Ich auch!",
+     "Ach so. Ich auch!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Ja, klar. Im Bett, oder?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Nein, nein! Ich komme gleich. Mit dir!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Gut. Und mach mal die Musik aus."
+    ]
+   ]
+  }
+ }
+}

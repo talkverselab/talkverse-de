@@ -1,0 +1,178 @@
+{
+ "ep": "r3_friends_b1",
+ "cast": {
+  "B": "lena",
+  "C": "jonas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Hey, ihr zwei!"
+    ],
+    [
+     "cheerful",
+     "Habt ihr morgen Abend Zeit?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "stiff",
+     "Morgen Abend? Warum?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Ich mache eine Party bei mir."
+    ],
+    [
+     "excited",
+     "Ihr kommt doch, oder?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Oh. Morgen können wir leider nicht."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Ihr beide nicht?"
+    ],
+    [
+     "surprised",
+     "Was habt ihr denn vor?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "stiff",
+     "Wir … arbeiten.",
+     "Wir, arbeiten."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Genau. Wir arbeiten."
+    ],
+    [
+     "flustered",
+     "Zusammen. Den ganzen Abend."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Ihr arbeitet zusammen?"
+    ],
+    [
+     "tsukkomi",
+     "Jonas, du arbeitest doch nie am Abend."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "stiff",
+     "Jetzt schon."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "sad",
+     "Na ja. Dann mache ich sie halt ohne euch."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "gentle",
+     "Lena, sag es einfach."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "flustered",
+     "Okay, wir können nicht."
+    ],
+    [
+     "flustered",
+     "Wir machen morgen eine Party."
+    ],
+    [
+     "flustered",
+     "Eine Party für dich, bei mir."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "surprised",
+     "Für mich? Warum für mich?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "gentle",
+     "Felix hat gesagt, du hast morgen Geburtstag."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "surprised",
+     "Mein Geburtstag?"
+    ],
+    [
+     "surprised",
+     "Der war schon."
+    ],
+    [
+     "tsukkomi",
+     "Vor zwei Wochen!"
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "amused",
+     "Egal. Die Brezeln sind schon da."
+    ],
+    [
+     "amused",
+     "Die Party bleibt."
+    ]
+   ]
+  }
+ }
+}

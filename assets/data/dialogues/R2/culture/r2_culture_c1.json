@@ -1,0 +1,419 @@
+{
+ "id": "r2_culture_c1",
+ "region": "R2",
+ "island": "culture",
+ "kind": "chat",
+ "title": "다섯 번 읽었어",
+ "emoji": "🥁",
+ "scene": "Mia 의 밴드 공연 날. 공연 뒤 학습자가 보낸 메시지가 한참 읽씹된다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "chat",
+ "twist": 5,
+ "twist_type": "ignore",
+ "flags": [],
+ "purpose": [
+  "culture",
+  "chat"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "expressions": [
+  "Na?",
+  "Klar",
+  "Mega",
+  "Schlaf gut",
+  "Mist",
+  "Okay"
+ ],
+ "draft": true,
+ "level": "2 챗 실전",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Na? Heute Abend spiele ich. Kommst du? 🥁",
+   "rd": "나? 호이테 아벤트 슈필레 이히. 콤스트 두?",
+   "ko": "어때? 오늘 밤에 나 공연해. 올래? 🥁",
+   "note": "spielen = 연주하다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "17:30",
+   "lemmas": [
+    [
+     "Heute",
+     "heute",
+     "호이테"
+    ],
+    [
+     "Abend",
+     "Abend",
+     "아벤트"
+    ],
+    [
+     "spiele",
+     "spielen",
+     "슈필렌"
+    ],
+    [
+     "Kommst",
+     "kommen",
+     "코멘"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Klar! Wo und wann?",
+   "rd": "클라어! 보 운트 반?",
+   "ko": "당연하지! 어디서, 몇 시에?",
+   "note": "wann = 언제",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "17:31",
+   "lemmas": [
+    [
+     "Klar",
+     "klar",
+     "클라어"
+    ],
+    [
+     "Wo",
+     "wo",
+     "보"
+    ],
+    [
+     "wann",
+     "wann",
+     "반"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Um neun. Du hörst mich, ich bin sehr laut 😜",
+   "rd": "움 노인. 두 회어스트 미히, 이히 빈 제어 라우트",
+   "ko": "9시. 나 금방 찾을 거야, 엄청 시끄럽거든 😜",
+   "note": "um neun = 9시에",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "17:31",
+   "lemmas": [
+    [
+     "hörst",
+     "hören",
+     "회렌"
+    ],
+    [
+     "sehr",
+     "sehr",
+     "제어"
+    ],
+    [
+     "laut",
+     "laut",
+     "라우트"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Mia, du warst mega! Ich höre jetzt nichts mehr 😂",
+   "rd": "미아, 두 바어스트 메가! 이히 회레 예츠트 니히츠 메어",
+   "ko": "미아, 너 완전 최고였어! 나 지금 아무것도 안 들려 😂",
+   "note": "nichts mehr = 더는 아무것도",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "23:12",
+   "lemmas": [
+    [
+     "Mia",
+     "mia",
+     ""
+    ],
+    [
+     "warst",
+     "warst",
+     ""
+    ],
+    [
+     "mega",
+     "mega",
+     ""
+    ],
+    [
+     "höre",
+     "hören",
+     "회렌"
+    ],
+    [
+     "jetzt",
+     "jetzt",
+     "예츠트"
+    ],
+    [
+     "mehr",
+     "mehr",
+     "메어"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "Ehrlich. Ich hab nur dich gesehen.",
+   "rd": "에얼리히. 이히 합 누어 디히 게제엔.",
+   "ko": "진짜로. 나 너만 보였어.",
+   "note": "nur dich = 너만",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "ui": "bubble",
+   "at": "23:13",
+   "read": false,
+   "lemmas": [
+    [
+     "Ehrlich",
+     "ehrlich",
+     "에얼리히"
+    ],
+    [
+     "nur",
+     "nur",
+     "누어"
+    ],
+    [
+     "gesehen",
+     "sehen",
+     "제엔"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Mia? 👀",
+   "rd": "미아?",
+   "ko": "미아? 👀",
+   "note": "읽씹 = 읽고 답이 없음",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "23:20",
+   "read": false,
+   "lemmas": [
+    [
+     "Mia",
+     "mia",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "Okay … schlaf gut 🙃",
+   "rd": "오케이 … 슐라프 구트",
+   "ko": "알았어… 잘 자 🙃",
+   "note": "Schlaf gut = 잘 자",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "sad",
+   "ui": "bubble",
+   "at": "23:41",
+   "read": false,
+   "lemmas": [
+    [
+     "Okay",
+     "Okay",
+     "오케이"
+    ],
+    [
+     "schlaf",
+     "schlafen",
+     "슐라펜"
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Mist, meine Hand! Ich kann nicht mal das Handy halten.",
+   "rd": "미스트, 마이네 한트! 이히 칸 니히트 말 다스 헨디 할텐.",
+   "ko": "아 망했어, 내 손! 폰도 못 들겠어.",
+   "note": "nicht mal = ~조차 못",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "00:05",
+   "lemmas": [
+    [
+     "Hand",
+     "Hand",
+     "한트"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "Handy",
+     "Handy",
+     "헨디"
+    ],
+    [
+     "halten",
+     "halten",
+     "할텐"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "es": "Aber ich hab's gelesen. Fünf Mal 🙈",
+   "rd": "아버 이히 합스 게레젠. 퓐프 말",
+   "ko": "근데 읽긴 했어. 다섯 번 🙈",
+   "note": "lesen = 읽다(gelesen 읽었다)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "ui": "bubble",
+   "at": "00:06",
+   "lemmas": [
+    [
+     "hab's",
+     "haben",
+     "하벤"
+    ],
+    [
+     "gelesen",
+     "lesen",
+     "레젠"
+    ],
+    [
+     "Mal",
+     "mal",
+     "말"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "es": "Fünf Mal?",
+   "rd": "퓐프 말?",
+   "ko": "다섯 번?",
+   "note": "fünf Mal = 다섯 번",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "00:06",
+   "lemmas": [
+    [
+     "Mal",
+     "mal",
+     "말"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "es": "Und nächstes Mal stehst du ganz vorne. Dann seh ich dich auch 😉",
+   "rd": "운트 네히스테스 말 슈테스트 두 간츠 포어네. 단 제 이히 디히 아우흐",
+   "ko": "그리고 다음엔 맨 앞에 서. 그럼 나도 너 보이잖아 😉",
+   "note": "ganz vorne = 맨 앞",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "gentle",
+     "Und nächstes Mal stehst du ganz vorne. "
+    ],
+    [
+     "teasing",
+     "Dann seh ich dich auch 😉"
+    ]
+   ],
+   "ui": "bubble",
+   "at": "00:07",
+   "lemmas": [
+    [
+     "nächstes",
+     "nächst",
+     "네히스트"
+    ],
+    [
+     "Mal",
+     "mal",
+     "말"
+    ],
+    [
+     "stehst",
+     "stehen",
+     "슈테엔"
+    ],
+    [
+     "ganz",
+     "ganz",
+     "간츠"
+    ],
+    [
+     "vorne",
+     "vorne",
+     "포어네"
+    ],
+    [
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "seh",
+     "sehen",
+     "제엔"
+    ],
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ]
+   ]
+  }
+ ]
+}

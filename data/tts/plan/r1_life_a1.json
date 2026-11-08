@@ -1,0 +1,89 @@
+{
+ "ep": "r1_life_a1",
+ "cast": {
+  "B": "felix"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Felix, sag mal: was mache ich mit der Flasche?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "Mit der Flasche?"
+    ],
+    [
+     "gentle",
+     "Die gibst du mir."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Okay, hier. Und mit dem da?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Das auch. Und das."
+    ],
+    [
+     "excited",
+     "Gib mir alles!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Alles? Auch das hier?"
+    ],
+    [
+     "shout",
+     "Das ist mein Handy!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Ach so. Dann gebe ich es dir … morgen.",
+     "Ach so. Dann gebe ich es dir, morgen."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Morgen?! Felix, das gibst du mir jetzt!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Okay, hier. Und du?"
+    ],
+    [
+     "teasing",
+     "Was gibst du mir?"
+    ]
+   ]
+  }
+ }
+}

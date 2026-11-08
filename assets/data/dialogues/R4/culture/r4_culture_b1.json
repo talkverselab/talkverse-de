@@ -1,0 +1,621 @@
+{
+ "id": "r4_culture_b1",
+ "region": "R4",
+ "island": "culture",
+ "kind": "long",
+ "title": "나를 떠난 적 없는 브레첼",
+ "emoji": "🎸",
+ "scene": "지하 공연장, Mia 의 밴드가 신곡을 소개하는데 노래 주인공이 옆에 서 있는 Jonas 같다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia",
+  "C": "Jonas"
+ },
+ "register": "casual",
+ "twist": 12,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "expressions": [
+  "Süß",
+  "Keine Ahnung",
+  "Hallo",
+  "Krass",
+  "Moment mal"
+ ],
+ "draft": true,
+ "level": "4 어려운 문법",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "Jonas, wer ist der Typ, der da vorne ganz allein tanzt?",
+   "rd": "요나스, 베어 이스트 데어 튑, 데어 다 포어네 간츠 알라인 탄츠트?",
+   "ko": "요나스, 저 앞에서 혼자 춤추는 남자 누구야?",
+   "note": "der Typ, der … tanzt = 춤추는 녀석(관계문, 동사가 끝으로)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Typ",
+     "Typ",
+     "튑"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ],
+    [
+     "vorne",
+     "vorne",
+     "포어네"
+    ],
+    [
+     "ganz",
+     "ganz",
+     "간츠"
+    ],
+    [
+     "allein",
+     "allein",
+     "알라인"
+    ],
+    [
+     "tanzt",
+     "tanzen",
+     "탄첸"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "es": "Mias Bruder. Er kommt immer, wenn sie spielt.",
+   "rd": "미아스 브루더. 에어 콤트 이머, 벤 지 슈필트.",
+   "ko": "미아 오빠. 미아가 공연할 때마다 와.",
+   "note": "wenn sie spielt = 연주할 때마다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Bruder",
+     "Bruder",
+     "브루더"
+    ],
+    [
+     "kommt",
+     "kommen",
+     "코멘"
+    ],
+    [
+     "immer",
+     "immer",
+     "이머"
+    ],
+    [
+     "spielt",
+     "spielen",
+     "슈필렌"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "Süß. Und die Frau, die neben Mia singt?",
+   "rd": "쥐스. 운트 디 프라우, 디 네벤 미아 징트?",
+   "ko": "귀엽다. 그럼 미아 옆에서 노래하는 여자는?",
+   "note": "die Frau, die … singt = 노래하는 여자(관계문)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Süß",
+     "süß",
+     "쥐스"
+    ],
+    [
+     "Frau",
+     "Frau",
+     "프라우"
+    ],
+    [
+     "Mia",
+     "Mia",
+     ""
+    ],
+    [
+     "singt",
+     "singen",
+     "징엔"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "es": "Keine Ahnung. Aber Mia ist die, die am lautesten ist.",
+   "rd": "카이네 아눙. 아버 미아 이스트 디, 디 암 라우테스텐 이스트.",
+   "ko": "몰라. 근데 제일 시끄러운 건 미아야.",
+   "note": "die, die … ist = ~인 사람",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Ahnung",
+     "Ahnung",
+     "아눙"
+    ],
+    [
+     "Mia",
+     "mia",
+     ""
+    ],
+    [
+     "lautesten",
+     "lautester",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Hallo! Das nächste Lied ist eins, das wir noch nie gespielt haben!",
+   "rd": "할로! 다스 네히스테 리트 이스트 아인스, 다스 비어 노흐 니 게슈필트 하벤!",
+   "ko": "안녕! 다음 곡은 우리가 한 번도 안 해 본 곡이야!",
+   "note": "das Lied, das … = ~한 노래(관계문)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "nächste",
+     "nächst",
+     "네히스트"
+    ],
+    [
+     "Lied",
+     "Lied",
+     "리트"
+    ],
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "nie",
+     "nie",
+     "니"
+    ],
+    [
+     "gespielt",
+     "spielen",
+     "슈필렌"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Krass, ein neues Lied! Hast du das schon gehört?",
+   "rd": "크라스, 아인 노이에스 리트! 하스트 두 다스 숀 게회어트?",
+   "ko": "대박, 신곡이래! 너 들어 봤어?",
+   "note": "schon gehört = 벌써 들어 봤다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Krass",
+     "krass",
+     "크라스"
+    ],
+    [
+     "neues",
+     "neu",
+     "노이"
+    ],
+    [
+     "Lied",
+     "Lied",
+     "리트"
+    ],
+    [
+     "schon",
+     "schon",
+     "숀"
+    ],
+    [
+     "gehört",
+     "gehören",
+     "게회렌"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "es": "… Ein bisschen.",
+   "rd": "… 아인 비스헨.",
+   "ko": "…조금.",
+   "note": "ein bisschen = 조금",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "bisschen",
+     "bisschen",
+     "비스헨"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Es ist für jemanden, der immer da ist, aber fast nie etwas sagt.",
+   "rd": "에스 이스트 퓌어 예만덴, 데어 이머 다 이스트, 아버 파스트 니 에트바스 자크트.",
+   "ko": "늘 곁에 있는데 거의 말이 없는 누군가를 위한 노래야.",
+   "note": "jemand, der … = ~하는 누군가",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "immer",
+     "immer",
+     "이머"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ],
+    [
+     "fast",
+     "fast",
+     "파스트"
+    ],
+    [
+     "nie",
+     "nie",
+     "니"
+    ],
+    [
+     "sagt",
+     "sagen",
+     "자겐"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "es": "Moment mal. Jemand, der nie etwas sagt … Jonas, schau mich an.",
+   "rd": "모멘트 말. 예만트, 데어 니 에트바스 자크트 … 요나스, 샤우 미히 안.",
+   "ko": "잠깐만. 말이 없는 누군가라… 요나스, 나 좀 봐.",
+   "note": "anschauen = 쳐다보다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Moment",
+     "Moment",
+     "모멘트"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "nie",
+     "nie",
+     "니"
+    ],
+    [
+     "sagt",
+     "sagen",
+     "자겐"
+    ],
+    [
+     "schau",
+     "schauen",
+     "샤우엔"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "es": "Und der jedes Mal Brezeln mitbringt, die er dann allein isst!",
+   "rd": "운트 데어 예데스 말 브레첼른 미트브링트, 디 에어 단 알라인 이스트!",
+   "ko": "그리고 매번 브레첼을 사 와서 혼자 다 먹는 누군가!",
+   "note": "Brezeln, die er … isst = 그가 먹는 브레첼(관계문 4격) · Brezel = 브레첼",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Mal",
+     "mal",
+     "말"
+    ],
+    [
+     "Brezeln",
+     "Brezel",
+     ""
+    ],
+    [
+     "mitbringt",
+     "mitbringen",
+     "미트브링엔"
+    ],
+    [
+     "dann",
+     "dann",
+     "단"
+    ],
+    [
+     "allein",
+     "allein",
+     "알라인"
+    ],
+    [
+     "isst",
+     "isst",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "es": "Jonas! Das bist ja du!",
+   "rd": "요나스! 다스 비스트 야 두!",
+   "ko": "요나스! 너잖아!",
+   "note": "Das bist du = 그게 너다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "ja",
+     "ja",
+     "야"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "es": "Nicht nur das. Die Worte, die sie gleich singt, habe ich geschrieben.",
+   "rd": "니히트 누어 다스. 디 보어테, 디 지 글라이히 징트, 하베 이히 게슈리벤.",
+   "ko": "그것만이 아니야. 미아가 곧 부를 가사, 내가 썼어.",
+   "note": "die Worte, die sie singt = 그녀가 부르는 가사(관계문)",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "flustered",
+     "Nicht nur das."
+    ],
+    [
+     "shy",
+     "Die Worte, die sie gleich singt, habe ich geschrieben."
+    ]
+   ],
+   "lemmas": [
+    [
+     "nur",
+     "nur",
+     "누어"
+    ],
+    [
+     "Worte",
+     "Wort",
+     "보어트"
+    ],
+    [
+     "gleich",
+     "gleich",
+     "글라이히"
+    ],
+    [
+     "singt",
+     "singen",
+     "징엔"
+    ],
+    [
+     "geschrieben",
+     "schreiben",
+     "슈라이벤"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "es": "Du? Du sagst am Tag fünf Wörter und schreibst ein Lied?",
+   "rd": "두? 두 자크스트 암 탁 퓐프 뵈어터 운트 슈라이프스트 아인 리트?",
+   "ko": "네가? 하루에 다섯 마디 하는 애가 노래를 써?",
+   "note": "Wörter = 낱말들(Worte 는 말·가사)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "sagst",
+     "sagen",
+     "자겐"
+    ],
+    [
+     "Tag",
+     "Tag",
+     "탁"
+    ],
+    [
+     "Wörter",
+     "Wort",
+     "보어트"
+    ],
+    [
+     "schreibst",
+     "schreiben",
+     "슈라이벤"
+    ],
+    [
+     "Lied",
+     "Lied",
+     "리트"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "es": "Beim Schreiben muss man nicht reden.",
+   "rd": "바임 슈라이벤 무스 만 니히트 레덴.",
+   "ko": "쓸 때는 말 안 해도 되잖아.",
+   "note": "beim Schreiben = 쓸 때",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Schreiben",
+     "schreiben",
+     "슈라이벤"
+    ],
+    [
+     "muss",
+     "muss",
+     ""
+    ],
+    [
+     "reden",
+     "reden",
+     "레덴"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "es": "Das Lied heißt: „Die Brezel, die mich nie verlassen hat“! Eins, zwei, drei, vier!",
+   "rd": "다스 리트 하이스트: „디 브레첼, 디 미히 니 페어라센 하트“! 아인스, 츠바이, 드라이, 피어!",
+   "ko": "곡 제목은 「나를 떠난 적 없는 브레첼」! 하나, 둘, 셋, 넷!",
+   "note": "die mich nie verlassen hat = 나를 떠난 적 없는(관계문 현재완료)",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "excited",
+     "Das Lied heißt: „Die Brezel, die mich nie verlassen hat“!"
+    ],
+    [
+     "shout",
+     "Eins, zwei, drei, vier!"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Lied",
+     "Lied",
+     "리트"
+    ],
+    [
+     "heißt",
+     "heißen",
+     "하이센"
+    ],
+    [
+     "nie",
+     "nie",
+     "니"
+    ],
+    [
+     "verlassen",
+     "verlassen",
+     "페어라센"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "A",
+   "es": "Jonas … das ist das schönste Lied, das ich je gehört habe. Und das dümmste.",
+   "rd": "요나스 … 다스 이스트 다스 쇤스테 리트, 다스 이히 예 게회어트 하베. 운트 다스 뒴스테.",
+   "ko": "요나스… 내가 들어 본 노래 중에 제일 멋지다. 제일 바보 같기도 하고.",
+   "note": "das schönste Lied, das ich je gehört habe = 내가 들어 본 가장 멋진 노래",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "gentle",
+     "Jonas … das ist das schönste Lied, das ich je gehört habe."
+    ],
+    [
+     "amused",
+     "Und das dümmste."
+    ]
+   ],
+   "lemmas": [
+    [
+     "schönste",
+     "schön",
+     "쇤"
+    ],
+    [
+     "Lied",
+     "Lied",
+     "리트"
+    ],
+    [
+     "je",
+     "je",
+     "예"
+    ],
+    [
+     "gehört",
+     "hören",
+     "회렌"
+    ],
+    [
+     "dümmste",
+     "dümm",
+     ""
+    ]
+   ]
+  }
+ ]
+}

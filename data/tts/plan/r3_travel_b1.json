@@ -1,0 +1,182 @@
+{
+ "ep": "r3_travel_b1",
+ "cast": {
+  "B": "woman_m",
+  "C": "lena"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Guten Tag! Ihre Karten, bitte."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Hier, auf dem Handy."
+    ],
+    [
+     "polite",
+     "Für uns beide."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "stiff",
+     "Danke. Und das Fahrrad da, gehört das auch Ihnen?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Ja, das gehört mir."
+    ],
+    [
+     "cheerful",
+     "Ohne Fahrrad gehe ich nicht aus dem Haus."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Für das Fahrrad brauchen Sie aber auch eine Karte."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Oh. Das wussten wir nicht."
+    ],
+    [
+     "flustered",
+     "Können wir die bei Ihnen bekommen?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "polite",
+     "Gern. Aber wo wollen Sie denn hin?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "cheerful",
+     "Zu meiner Familie."
+    ],
+    [
+     "cheerful",
+     "Um sieben gibt es Essen, und ich bin nie spät."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "stiff",
+     "Dann haben Sie ein Problem."
+    ],
+    [
+     "stiff",
+     "Dieser Zug fährt da nicht hin."
+    ],
+    [
+     "stiff",
+     "Er fährt zurück."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Zurück? Lena, du hast doch gesagt, das ist richtig!"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "flustered",
+     "Ich habe nur auf die Uhr geschaut."
+    ],
+    [
+     "flustered",
+     "Die Zeit war richtig!"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "amused",
+     "Und es wird noch besser: Wir halten erst in einer Stunde wieder."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "worried",
+     "Oh Mann. Eine Stunde?"
+    ],
+    [
+     "worried",
+     "Und die Karte für das Fahrrad?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "polite",
+     "Die brauchen Sie auch."
+    ],
+    [
+     "polite",
+     "Auch für den Weg zurück."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "worried",
+     "Mama wartet um sieben."
+    ],
+    [
+     "sad",
+     "Ich war noch nie zu spät … bis heute.",
+     "Ich war noch nie zu spät, bis heute."
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "teasing",
+     "Sag ihr einfach: Wir kommen spät."
+    ],
+    [
+     "teasing",
+     "Aber pünktlich."
+    ]
+   ]
+  }
+ }
+}

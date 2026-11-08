@@ -11,7 +11,7 @@
   "B": "Lena"
  },
  "register": "casual",
- "twist": 4,
+ "twist": 8,
  "twist_type": "slip",
  "flags": [],
  "purpose": [
@@ -82,9 +82,9 @@
   {
    "num": 3,
    "speaker": "A",
-   "es": "Okay. Die Musik ist gut. Und die Mann da?",
-   "rd": "오케이. 디 무지크 이스트 구트. 운트 디 만 다?",
-   "ko": "오케이. 음악 좋다. 그럼 저기 저 남자는?",
+   "es": "Okay. Die Musik ist gut. Und die Mann singt gut!",
+   "rd": "오케이. 디 무지크 이스트 구트. 운트 디 만 징트 구트!",
+   "ko": "오케이. 음악 좋다. 그리고 저 남자 노래 잘한다!",
    "note": "die Mann = 틀린 관사(der Mann)",
    "tags": [
     "draft"
@@ -112,9 +112,14 @@
      "만"
     ],
     [
-     "da",
-     "da",
-     "다"
+     "singt",
+     "singen",
+     "징엔"
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
     ]
    ]
   },
@@ -246,9 +251,9 @@
   {
    "num": 8,
    "speaker": "B",
-   "es": "Ach so. Dann ist das ein Witz.",
-   "rd": "아흐 조. 단 이스트 다스 아인 비츠.",
-   "ko": "아 그렇구나. 그럼 그게 농담이네.",
+   "es": "Ach so. Dann ist dein Deutsch ein Witz.",
+   "rd": "아흐 조. 단 이스트 다인 도이치 아인 비츠.",
+   "ko": "아 그렇구나. 그럼 네 독일어가 농담이네.",
    "note": "dann = 그럼",
    "tags": [
     "draft"
@@ -264,6 +269,11 @@
      "Dann",
      "dann",
      "단"
+    ],
+    [
+     "Deutsch",
+     "deutsch",
+     "도이치"
     ],
     [
      "Witz",

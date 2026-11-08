@@ -1,0 +1,181 @@
+{
+ "id": "r0_love_a1",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "title": "지금… 꽤 좋아",
+ "emoji": "🌸",
+ "scene": "길에서 Mia 가 먼저 인사하더니, 「지금」 한마디만 남기고 도망친다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "casual",
+ "twist": 3,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love",
+  "greeting"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Hallo",
+  "Wie geht's?",
+  "Echt?",
+  "Na ja",
+  "Tschüss",
+  "Moment mal"
+ ],
+ "draft": true,
+ "level": "0 입문",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Hallo! Na, wie geht's?",
+   "rd": "할로! 나, 비 게츠?",
+   "ko": "안녕! 어때, 잘 지내?",
+   "note": "Na? = 어때?(가벼운 인사)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Gut, danke! Und dir?",
+   "rd": "구트, 당케! 운트 디어?",
+   "ko": "좋아, 고마워! 너는?",
+   "note": "Und dir? = 너는?(되묻기)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Gut",
+     "gut",
+     "구트"
+    ],
+    [
+     "danke",
+     "danken",
+     "당켄"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Mir geht's jetzt … ganz gut.",
+   "rd": "미어 게츠 예츠트 … 간츠 구트.",
+   "ko": "나는 지금… 꽤 좋아.",
+   "note": "jetzt = 지금(네가 와서)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "geht's",
+     "gehen",
+     "게엔"
+    ],
+    [
+     "jetzt",
+     "jetzt",
+     "예츠트"
+    ],
+    [
+     "ganz",
+     "ganz",
+     "간츠"
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Jetzt? Echt?",
+   "rd": "예츠트? 에히트?",
+   "ko": "지금? 진짜?",
+   "note": "Echt? = 진짜?",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Jetzt",
+     "jetzt",
+     "예츠트"
+    ],
+    [
+     "Echt",
+     "echt",
+     "에히트"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Na ja … Tschüss!",
+   "rd": "나 야 … 취스!",
+   "ko": "뭐… 안녕!",
+   "note": "Tschüss = 안녕(헤어질 때)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "ja",
+     "ja",
+     "야"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Mia? Moment mal!",
+   "rd": "미아? 모멘트 말!",
+   "ko": "미아? 잠깐만!",
+   "note": "Moment mal = 잠깐만",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Mia",
+     "mia",
+     ""
+    ],
+    [
+     "Moment",
+     "Moment",
+     "모멘트"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ]
+   ]
+  }
+ ]
+}

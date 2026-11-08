@@ -8,7 +8,11 @@
    "segs": [
     [
      "teasing",
-     "Wir machen gleich zu. Du bist ja immer noch da."
+     "Wir machen gleich zu."
+    ],
+    [
+     "teasing",
+     "Du bist ja immer noch da."
     ]
    ]
   },
@@ -16,7 +20,11 @@
    "segs": [
     [
      "flustered",
-     "Ich lerne noch ein bisschen Deutsch. Der Kaffee ist gut hier."
+     "Ich lerne noch ein bisschen Deutsch."
+    ],
+    [
+     "flustered",
+     "Der Kaffee ist gut hier."
     ]
    ]
   },
@@ -36,7 +44,8 @@
     ],
     [
      "flustered",
-     "… Na ja, ich trinke langsam."
+     "… Na ja, ich trinke langsam.",
+     "Na ja, ich trinke langsam."
     ]
    ]
   },
@@ -44,7 +53,11 @@
    "segs": [
     [
      "teasing",
-     "Sag mal, lernst du wirklich? Dein Buch ist immer noch auf Seite zwölf."
+     "Sag mal, lernst du wirklich?"
+    ],
+    [
+     "teasing",
+     "Dein Buch ist immer noch auf Seite zwölf."
     ]
    ]
   },
@@ -52,7 +65,11 @@
    "segs": [
     [
      "flustered",
-     "Okay, stimmt. Ich kann hier nicht so gut lernen."
+     "Okay, stimmt."
+    ],
+    [
+     "flustered",
+     "Ich kann hier nicht so gut lernen."
     ]
    ]
   },
@@ -60,7 +77,11 @@
    "segs": [
     [
      "gentle",
-     "Warum nicht? Ist die Musik zu laut?"
+     "Warum nicht?"
+    ],
+    [
+     "gentle",
+     "Ist die Musik zu laut?"
     ]
    ]
   },
@@ -68,7 +89,8 @@
    "segs": [
     [
      "shy",
-     "Nein, gar nicht. Es ist nur …"
+     "Nein, gar nicht. Es ist nur …",
+     "Nein, gar nicht. Es ist nur."
     ]
    ]
   },
@@ -100,7 +122,8 @@
    "segs": [
     [
      "shy",
-     "Dann … noch einen Kaffee, bitte."
+     "Dann … noch einen Kaffee, bitte.",
+     "Dann, noch einen Kaffee, bitte."
     ]
    ]
   }

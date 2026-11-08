@@ -63,3 +63,11 @@
 | 5 어휘 완주 | `r5_life_b1` 61번째 손님 | 새로 씀, 상한 1,500 밖 3(r3 콜백) |
 
 옛 초안 `r1_survival_s1`(Sie)·`r2_love_b1`(wir)은 레벨 0~2 규칙과 어긋나 지우지 않고 참고로 둔다. 검사기는 레벨 0~2 의 복수·Sie 를 오류로 잡는다. 사용자 통과 뒤 나머지를 자동으로 쓴다(uk 전달).
+
+## 6. 전편 초안(2026-11-08, 제한 해제 뒤)
+
+28편 332턴 = 레벨 0 2 · 1 8 · 2 6 · 3 4 · 4 4 · 5 4(옛 초안 r1_survival_s1·r2_love_b1 포함, 이 둘은 레벨 0~2 규칙과 어긋나 참고로 둠). 레벨별 핵심 문장 수(0=10, 1~5=50 안팎)에 맞춘 편 수. 전부 `draft: true`, 감정 열·감정 계획 있음, Grok 재작성(11-10 뒤) 대기.
+- uk 검수 반영: R2 「Der Esel nennt sich immer zuerst」, R4 「흠잡을 데가 없네요」·wo ich herkomme·echt, R5 끝 킥(3월 예약 번호)·Bürgeramt·Blick in den Hof, R0 Wie heißt du?, R1 singt·dein Deutsch(twist 8), R3 관계문·과거형 제거.
+- 레벨 3 단계표 점검: 관계문은 레벨 4 로 미뤘다(r3_life_b1 7턴 「Der mit den Zetteln…」), r3_friends_b1 의 weil 절도 두 문장으로. 현재완료·화법조동사(ich soll)는 레벨 1 문법이라 그대로. 정식 간접화법(es sei)은 r4_work_b1 에만.
+- 독음 r 표기: 음절 끝 r = 어(단어장 248 대 3 → 단어장 3개도 고침), nn·mm 은 한 번, -tag = 탁. `check_dialogues.py --align-rd` 의 `unify()`. 예외 ALIGN_SKIP: Band(벤트), Zug(추크, 단어장 「축」 오기).
+- 카오스 비율: 레벨 1·2·3·5 는 30% 이상, **레벨 0(2편 0%)·레벨 4(25%)는 미달**.

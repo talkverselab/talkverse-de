@@ -1,0 +1,84 @@
+{
+ "ep": "r1_culture_a1",
+ "cast": {
+  "B": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Mia, sag mal: was habe ich gestern gemacht?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "teasing",
+     "Du? Du hast „ja“ gesagt."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Ich habe „ja“ gesagt? Und dann?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Dann bist du mit mir auf die Bühne gegangen."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Auf die Bühne?"
+    ],
+    [
+     "surprised",
+     "Echt jetzt? Was habe ich gemacht?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Musik gemacht!"
+    ],
+    [
+     "amused",
+     "Und der Mann da hat „noch mal!“ gesagt."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Und ich? Was habe ich gesagt?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "„Ja“. Immer nur „ja“."
+    ],
+    [
+     "teasing",
+     "Jetzt bist du in der Band."
+    ]
+   ]
+  }
+ }
+}

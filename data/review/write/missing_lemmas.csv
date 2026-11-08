@@ -1,25 +1,53 @@
 lemma,count,example
+Brezel,9,Eine Brezel. Willst du auch eine?
+mia,7,Mia? Moment mal!
+Party,4,"Ich mache eine Party bei mir. Ihr kommt doch, oder?"
+muss,4,Beim Schreiben muss man nicht reden.
+Mia,3,Auf dem Fahrrad. Und du? Schon bei Mia?
+gibst,3,Mit der Flasche? Die gibst du mir.
 Glascontainer,2,Sie werfen am Sonntag Flaschen in den Glascontainer. Das hört das ganze Haus.
-Hof,2,"Ein Zimmer, mit Blick auf den Hof."
-Brezel,1,"Eine Brezel, bitte."
+gewusst,2,"Oh, das habe ich nicht gewusst. Tut mir leid, ich wohne erst seit einer Woche hier."
+würdest,2,"Fast Musik? Du redest, als würdest du selbst Musik machen."
+Gärtner,2,"Schon gut, Felix, morgen. Also, wer ist der Mörder? Ich sage: der Gärtner."
+Hausmeister,2,Moment … da steht es. Der Hausmeister war der Mörder.
+Hof,2,"Ein Zimmer, mit Blick in den Hof."
+Fieber,2,Haben Sie Fieber? Und seit wann haben Sie das?
+issen,1,"Na ja, nichts. Was isst du da?"
+Oh,1,"Oh Mann! Er gibt und gibt … Jonas, nur eine!"
+willn,1,"Ich weiß. Du willst eine, ich gebe alle."
+gib,1,Das auch. Und das. Gib mir alles!
+magst,1,Du magst dich? Okay … und mich?
+musst,1,Was musst du denn machen? Sag mal.
 Butter,1,Gerne. Mit Butter?
+warst,1,"Mia, du warst mega! Ich höre jetzt nichts mehr 😂"
+mega,1,"Mia, du warst mega! Ich höre jetzt nichts mehr 😂"
+gibt'sn,1,Quatsch! Das gibt's doch nicht!
 Taß,1,Der Kaffee? Die Tasse ist seit zwei Stunden leer.
-mia,1,"Ach, egal. Bis morgen, Mia."
-wussten,1,"Oh, das wusste ich nicht. Tut mir leid, ich wohne erst seit einer Woche hier."
-tut,1,"Oh, das wusste ich nicht. Tut mir leid, ich wohne erst seit einer Woche hier."
+tut,1,"Oh, das habe ich nicht gewusst. Tut mir leid, ich wohne erst seit einer Woche hier."
 einziehen,1,Ach so. Sie sind bei Felix eingezogen?
 wegbringen,1,"Genau. Felix hat gesagt, ich soll die Flaschen heute wegbringen."
-Zettel,1,"Felix? Der Felix, der uns jeden Monat Zettel zur Mülltrennung schreibt?"
-Mülltrennung,1,"Felix? Der Felix, der uns jeden Monat Zettel zur Mülltrennung schreibt?"
+Zettel,1,Felix? Der mit den Zetteln zur Mülltrennung im Treppenhaus?
+Mülltrennung,1,Felix? Der mit den Zetteln zur Mülltrennung im Treppenhaus?
+Treppenhaus,1,Felix? Der mit den Zetteln zur Mülltrennung im Treppenhaus?
 Container,1,"{name}, stopp! Grün kommt in den grünen Container, nicht in den weißen!"
 gefallen,1,Sie gefallen mir. Ich bin Renate. Wollen wir uns duzen?
 renate,1,Sie gefallen mir. Ich bin Renate. Wollen wir uns duzen?
+wussen,1,Oh. Das wussten wir nicht. Können wir die bei Ihnen bekommen?
+lautester,1,"Keine Ahnung. Aber Mia ist die, die am lautesten ist."
+isst,1,"Und der jedes Mal Brezeln mitbringt, die er dann allein isst!"
+dümm,1,"Jonas … das ist das schönste Lied, das ich je gehört habe. Und das dümmste."
+Formular,1,Gut. Dafür wird zuerst ein Formular gebraucht. Haben Sie das dabei?
+Schlagzeug,1,"Mache ich auch. Ich spiele Schlagzeug. In einer Band … na ja, in einem Keller."
+bräuchte,1,"Dann bräuchte ich jemanden, der mit mir sehr ruhig bleibt."
+kämst,1,"Morgen, zehn Uhr, hier. Und wenn du nicht kämst … wäre ich ein bisschen traurig."
 Hättest,1,"Hättest du kurz Zeit? Ich wollte dich etwas fragen, wenn es dir gerade passt."
 Präsentation,1,Klar. Geht es um die Präsentation von heute Morgen?
 ungut,1,Ja. Frau Weber hat danach nur gesagt: „Das war nicht schlecht.“ Seitdem habe ich ein ungutes Gefühl.
-vorkommen,1,"Du hast offenbar keine Ahnung, wie selten das vorkommt."
+vorkommen,1,"Du hast echt keine Ahnung, wie selten das vorkommt."
 Gute,1,"Ich arbeite seit vier Jahren hier. Das Beste, was ich von ihr gehört habe, war: „Da kann man nichts sagen.“"
 Lob,1,Das soll ein Lob sein? Ernsthaft?
 ernsthaft,1,Das soll ein Lob sein? Ernsthaft?
 befördern,1,"Das höchste. „Nicht schlecht“ heißt bei ihr ungefähr, dass du bald befördert wirst."
-Müll,1,Blick auf den Hof … meinen Sie den Müll da?
+Bürgeramt,1,Sechzig Leute in zehn Minuten? Das ist ja schneller als beim Bürgeramt.
+Müll,1,Blick in den Hof … meinen Sie den Müll da?
+März,1,"Nein, dann stehen Sie auf der Liste. Nummer einundsechzig. Für den Termin im März."

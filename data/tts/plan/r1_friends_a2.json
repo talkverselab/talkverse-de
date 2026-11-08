@@ -1,0 +1,90 @@
+{
+ "ep": "r1_friends_a2",
+ "cast": {
+  "B": "jonas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Hallo, Jonas!"
+    ],
+    [
+     "cheerful",
+     "Was machst du hier?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Ich esse. Und du?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Na ja, nichts."
+    ],
+    [
+     "cheerful",
+     "Was isst du da?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Eine Brezel."
+    ],
+    [
+     "gentle",
+     "Willst du auch eine?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Ja, bitte. Aber nur eine!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Eine für dich, eine für mich,"
+    ],
+    [
+     "amused",
+     "eine für dich …",
+     "eine für dich."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Oh Mann! Er gibt und gibt … Jonas, nur eine!",
+     "Oh Mann! Er gibt und gibt, Jonas, nur eine!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Ich weiß. Du willst eine, ich gebe alle."
+    ]
+   ]
+  }
+ }
+}

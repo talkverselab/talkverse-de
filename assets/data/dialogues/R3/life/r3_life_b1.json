@@ -142,8 +142,8 @@
   {
    "num": 4,
    "speaker": "A",
-   "es": "Oh, das wusste ich nicht. Tut mir leid, ich wohne erst seit einer Woche hier.",
-   "rd": "오, 다스 부스테 이히 니히트. 투트 미어 라이트, 이히 보네 에어스트 자이트 아이너 보헤 히어.",
+   "es": "Oh, das habe ich nicht gewusst. Tut mir leid, ich wohne erst seit einer Woche hier.",
+   "rd": "오, 다스 하베 이히 니히트 게부스트. 투트 미어 라이트, 이히 보네 에어스트 자이트 아이너 보헤 히어.",
    "ko": "아, 몰랐어요. 죄송해요, 여기 산 지 일주일밖에 안 돼서요.",
    "note": "erst seit = 겨우 ~부터",
    "tags": [
@@ -151,8 +151,13 @@
    ],
    "lemmas": [
     [
-     "wusste",
-     "wussten",
+     "habe",
+     "haben",
+     "하벤"
+    ],
+    [
+     "gewusst",
+     "gewusst",
      ""
     ],
     [
@@ -189,7 +194,7 @@
    "segs": [
     [
      "surprised",
-     "Oh, das wusste ich nicht."
+     "Oh, das habe ich nicht gewusst."
     ],
     [
      "stiff",
@@ -263,21 +268,16 @@
   {
    "num": 7,
    "speaker": "B",
-   "es": "Felix? Der Felix, der uns jeden Monat Zettel zur Mülltrennung schreibt?",
-   "rd": "펠릭스? 데어 펠릭스, 데어 운스 예덴 모나트 체텔 추어 뮐트레눙 슈라이프트?",
-   "ko": "펠릭스요? 매달 분리수거 쪽지 붙이는 그 펠릭스?",
-   "note": "der … = 관계문",
+   "es": "Felix? Der mit den Zetteln zur Mülltrennung im Treppenhaus?",
+   "rd": "펠릭스? 데어 미트 덴 체텔른 추어 뮐트레눙 임 트레펜하우스?",
+   "ko": "펠릭스요? 계단에 분리수거 쪽지 붙이는 그 사람?",
+   "note": "der mit … = ~하는 그 사람(관계문 없이)",
    "tags": [
     "draft"
    ],
    "lemmas": [
     [
-     "Monat",
-     "Monat",
-     "모나트"
-    ],
-    [
-     "Zettel",
+     "Zetteln",
      "Zettel",
      ""
     ],
@@ -287,9 +287,9 @@
      ""
     ],
     [
-     "schreibt",
-     "schreiben",
-     "슈라이벤"
+     "Treppenhaus",
+     "Treppenhaus",
+     ""
     ]
    ],
    "emotion": "surprised"
@@ -448,7 +448,7 @@
    "num": 12,
    "speaker": "B",
    "es": "Genau! Und Regel Nummer eins lautet: Sonntag ist Ruhetag!",
-   "rd": "게나우! 운트 레겔 눔머 아인스 라우테트: 존탁 이스트 루에타크!",
+   "rd": "게나우! 운트 레겔 눔머 아인스 라우테트: 존탁 이스트 루에탁!",
    "ko": "그러니까요! 규칙 1번이 뭐냐면, 일요일은 쉬는 날이에요!",
    "note": "Ruhetag = 쉬는 날",
    "tags": [
@@ -598,7 +598,7 @@
    "num": 16,
    "speaker": "A",
    "es": "Gerne, Renate. Aber sag mal, was mache ich jetzt mit den Flaschen?",
-   "rd": "게르네, 레나테. 아버 자크 말, 바스 마헤 이히 예츠트 미트 덴 플라셴?",
+   "rd": "게어네, 레나테. 아버 자크 말, 바스 마헤 이히 예츠트 미트 덴 플라셴?",
    "ko": "좋아요, 레나테. 근데 있잖아, 이제 이 병들은 어떡해?",
    "note": "첫 du 문장",
    "tags": [

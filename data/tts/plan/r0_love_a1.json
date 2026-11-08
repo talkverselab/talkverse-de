@@ -1,0 +1,58 @@
+{
+ "ep": "r0_love_a1",
+ "cast": {
+  "B": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Hallo! Na, wie geht's?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Gut, danke! Und dir?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shy",
+     "Mir geht's jetzt … ganz gut.",
+     "Mir geht's jetzt, ganz gut."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Jetzt? Echt?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Na ja … Tschüss!",
+     "Na ja, Tschüss!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Mia? Moment mal!"
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,656 @@
+{
+ "id": "r4_love_b1",
+ "region": "R4",
+ "island": "love",
+ "kind": "long",
+ "title": "거의 음악",
+ "emoji": "🥁",
+ "scene": "문 닫기 직전 카페, 테이블을 두드리던 학습자에게 Mia 가 먼저 말을 건다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "casual",
+ "twist": 13,
+ "twist_type": "emotion",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Sag mal",
+  "Echt?",
+  "Das ist mir peinlich",
+  "Na ja",
+  "Krass",
+  "Moment mal"
+ ],
+ "draft": true,
+ "level": "4 어려운 문법",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Sag mal, wenn ich du wäre, würde ich langsam gehen. Wir machen in zehn Minuten zu.",
+   "rd": "자크 말, 벤 이히 두 베레, 뷔어데 이히 랑잠 게엔. 비어 마헨 인 첸 미누텐 추.",
+   "ko": "있잖아, 내가 너라면 슬슬 일어나겠어. 우리 십 분 뒤에 문 닫아.",
+   "note": "wenn ich du wäre = 내가 너라면(Konjunktiv II)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "langsam",
+     "langsam",
+     "랑잠"
+    ],
+    [
+     "gehen",
+     "gehen",
+     "게엔"
+    ],
+    [
+     "machen",
+     "machen",
+     "마헨"
+    ],
+    [
+     "Minuten",
+     "Minute",
+     "미누테"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Oh, schon so spät? Ich dachte, es wäre erst sieben.",
+   "rd": "오, 숀 조 슈페트? 이히 다흐테, 에스 베레 에어스트 지벤.",
+   "ko": "어, 벌써 그렇게 됐어? 아직 일곱 시인 줄 알았어.",
+   "note": "ich dachte, es wäre … = ~인 줄 알았다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "schon",
+     "schon",
+     "숀"
+    ],
+    [
+     "so",
+     "so",
+     "조"
+    ],
+    [
+     "spät",
+     "spät",
+     "슈페트"
+    ],
+    [
+     "dachte",
+     "denken",
+     "뎅켄"
+    ],
+    [
+     "erst",
+     "erst",
+     "에어스트"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Du sitzt hier seit drei Stunden. Und du klopfst die ganze Zeit auf den Tisch.",
+   "rd": "두 지츠트 히어 자이트 드라이 슈툰덴. 운트 두 클로프스트 디 간체 차이트 아우프 덴 티슈.",
+   "ko": "너 여기 세 시간째 앉아 있어. 그리고 내내 테이블을 두드려.",
+   "note": "auf den Tisch klopfen = 테이블을 두드리다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "sitzt",
+     "sitzen",
+     "지첸"
+    ],
+    [
+     "hier",
+     "hier",
+     "히어"
+    ],
+    [
+     "Stunden",
+     "Stunde",
+     "슈툰데"
+    ],
+    [
+     "ganze",
+     "ganz",
+     "간츠"
+    ],
+    [
+     "Zeit",
+     "Zeit",
+     "차이트"
+    ],
+    [
+     "Tisch",
+     "Tisch",
+     "티슈"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Echt? Das ist mir peinlich. Das mache ich immer, wenn ich nachdenke.",
+   "rd": "에히트? 다스 이스트 미어 파인리히. 다스 마헤 이히 이머, 벤 이히 나흐뎅케.",
+   "ko": "진짜? 창피하다. 생각할 때 늘 그래.",
+   "note": "wenn ich nachdenke = 생각할 때(동사가 끝으로)",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Echt? Das ist mir peinlich."
+    ],
+    [
+     "shy",
+     "Das mache ich immer, wenn ich nachdenke."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Echt",
+     "echt",
+     "에히트"
+    ],
+    [
+     "peinlich",
+     "peinlich",
+     "파인리히"
+    ],
+    [
+     "mache",
+     "machen",
+     "마헨"
+    ],
+    [
+     "immer",
+     "immer",
+     "이머"
+    ],
+    [
+     "nachdenke",
+     "nachdenken",
+     "나흐뎅켄"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Gar nicht. Wenn es ein bisschen schneller wäre, wäre es fast Musik.",
+   "rd": "가어 니히트. 벤 에스 아인 비스헨 슈넬러 베레, 베레 에스 파스트 무지크.",
+   "ko": "전혀. 조금만 더 빠르면 거의 음악이겠는데.",
+   "note": "wenn es … wäre, wäre es … = ~라면 ~일 텐데",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Gar",
+     "gar",
+     "가어"
+    ],
+    [
+     "bisschen",
+     "bisschen",
+     "비스헨"
+    ],
+    [
+     "schneller",
+     "schnell",
+     "슈넬"
+    ],
+    [
+     "fast",
+     "fast",
+     "파스트"
+    ],
+    [
+     "Musik",
+     "Musik",
+     "무지크"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Fast Musik? Du redest, als würdest du selbst Musik machen.",
+   "rd": "파스트 무지크? 두 레데스트, 알스 뷔어데스트 두 젤프스트 무지크 마헨.",
+   "ko": "거의 음악? 무슨 직접 음악 하는 사람처럼 말하네.",
+   "note": "als würdest du … = 마치 ~하는 것처럼",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Fast",
+     "fast",
+     "파스트"
+    ],
+    [
+     "Musik",
+     "Musik",
+     "무지크"
+    ],
+    [
+     "würdest",
+     "würdest",
+     ""
+    ],
+    [
+     "selbst",
+     "selbst",
+     "젤프스트"
+    ],
+    [
+     "Musik",
+     "Musik",
+     "무지크"
+    ],
+    [
+     "machen",
+     "machen",
+     "마헨"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "es": "Mache ich auch. Ich spiele Schlagzeug. In einer Band … na ja, in einem Keller.",
+   "rd": "마헤 이히 아우흐. 이히 슈필레 슐라크초이크. 인 아이너 반트 … 나 야, 인 아이넴 켈러.",
+   "ko": "하는데. 드럼 쳐. 밴드에서… 뭐, 지하실에서.",
+   "note": "Schlagzeug = 드럼 · Band = 밴드",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Mache ich auch. Ich spiele Schlagzeug."
+    ],
+    [
+     "amused",
+     "In einer Band … na ja, in einem Keller."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Mache",
+     "machen",
+     "마헨"
+    ],
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ],
+    [
+     "spiele",
+     "spielen",
+     "슈필렌"
+    ],
+    [
+     "Schlagzeug",
+     "Schlagzeug",
+     ""
+    ],
+    [
+     "Band",
+     "Band",
+     "반트"
+    ],
+    [
+     "ja",
+     "ja",
+     "야"
+    ],
+    [
+     "Keller",
+     "Keller",
+     "켈러"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "es": "Krass. Wenn ich so etwas könnte, wäre ich jeden Abend glücklich.",
+   "rd": "크라스. 벤 이히 조 에트바스 쾬테, 베레 이히 예덴 아벤트 글뤽리히.",
+   "ko": "대박. 나도 그런 거 할 줄 알면 매일 저녁 행복할 텐데.",
+   "note": "wenn ich … könnte = 내가 ~할 수 있다면",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Krass",
+     "krass",
+     "크라스"
+    ],
+    [
+     "so",
+     "so",
+     "조"
+    ],
+    [
+     "Abend",
+     "Abend",
+     "아벤트"
+    ],
+    [
+     "glücklich",
+     "glücklich",
+     "글뤽리히"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "es": "Und wenn du es einfach lernen würdest? Nur mal so gefragt.",
+   "rd": "운트 벤 두 에스 아인파흐 레어넨 뷔어데스트? 누어 말 조 게프라크트.",
+   "ko": "그럼 그냥 배워 보면? 그냥 물어보는 거야.",
+   "note": "würdest … lernen = 배운다면(würde + 동사원형)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "einfach",
+     "einfach",
+     "아인파흐"
+    ],
+    [
+     "lernen",
+     "lernen",
+     "레어넨"
+    ],
+    [
+     "würdest",
+     "würdest",
+     ""
+    ],
+    [
+     "Nur",
+     "nur",
+     "누어"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "so",
+     "so",
+     "조"
+    ],
+    [
+     "gefragt",
+     "fragen",
+     "프라겐"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "es": "Dann bräuchte ich jemanden, der mit mir sehr ruhig bleibt.",
+   "rd": "단 브로이히테 이히 예만덴, 데어 미트 미어 제어 루이히 블라입트.",
+   "ko": "그럼 나랑 있어도 끝까지 차분한 사람이 필요하겠지.",
+   "note": "bräuchte = 필요할 텐데 · der … bleibt = 관계문",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "bräuchte",
+     "bräuchte",
+     ""
+    ],
+    [
+     "sehr",
+     "sehr",
+     "제어"
+    ],
+    [
+     "ruhig",
+     "ruhig",
+     "루이히"
+    ],
+    [
+     "bleibt",
+     "bleiben",
+     "블라이벤"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "es": "Ruhig bin ich nicht. Aber Zeit … hätte ich.",
+   "rd": "루이히 빈 이히 니히트. 아버 차이트 … 헤테 이히.",
+   "ko": "차분하진 않아. 근데 시간은… 있을걸.",
+   "note": "hätte ich = 있을 텐데(완곡)",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "teasing",
+     "Ruhig bin ich nicht."
+    ],
+    [
+     "shy",
+     "Aber Zeit … hätte ich."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Ruhig",
+     "ruhig",
+     "루이히"
+    ],
+    [
+     "Zeit",
+     "Zeit",
+     "차이트"
+    ],
+    [
+     "hätte",
+     "haben",
+     "하벤"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "es": "Moment mal. Meinst du das ernst?",
+   "rd": "모멘트 말. 마인스트 두 다스 에언스트?",
+   "ko": "잠깐만. 진심이야?",
+   "note": "ernst meinen = 진심으로 말하다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Moment",
+     "Moment",
+     "모멘트"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "Meinst",
+     "meinen",
+     "마이넨"
+    ],
+    [
+     "ernst",
+     "ernst",
+     "에언스트"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "es": "Morgen, zehn Uhr, hier. Und wenn du nicht kämst … wäre ich ein bisschen traurig.",
+   "rd": "모어겐, 첸 우어, 히어. 운트 벤 두 니히트 켐스트 … 베레 이히 아인 비스헨 트라우리히.",
+   "ko": "내일 열 시, 여기. 그리고 네가 안 오면… 나 조금 서운할 거야.",
+   "note": "wenn du nicht kämst = 네가 안 온다면(kommen 의 Konjunktiv II)",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Morgen, zehn Uhr, hier."
+    ],
+    [
+     "shy",
+     "Und wenn du nicht kämst … wäre ich ein bisschen traurig."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Morgen",
+     "morgen",
+     "모어겐"
+    ],
+    [
+     "Uhr",
+     "Uhr",
+     "우어"
+    ],
+    [
+     "hier",
+     "hier",
+     "히어"
+    ],
+    [
+     "kämst",
+     "kämst",
+     ""
+    ],
+    [
+     "bisschen",
+     "bisschen",
+     "비스헨"
+    ],
+    [
+     "traurig",
+     "traurig",
+     "트라우리히"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "es": "Ich wäre schon um neun da, wenn ich dürfte.",
+   "rd": "이히 베레 숀 움 노인 다, 벤 이히 뒤어프테.",
+   "ko": "된다면 아홉 시부터 와 있을게.",
+   "note": "wenn ich dürfte = 해도 된다면",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "schon",
+     "schon",
+     "숀"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "es": "Um neun? Da schlafe ich noch. Musiker, weißt du?",
+   "rd": "움 노인? 다 슐라페 이히 노흐. 무지커, 바이스트 두?",
+   "ko": "아홉 시? 그땐 나 자. 음악 하는 사람이잖아.",
+   "note": "Musiker = 음악가",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Da",
+     "da",
+     "다"
+    ],
+    [
+     "schlafe",
+     "schlafen",
+     "슐라펜"
+    ],
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "Musiker",
+     "Musik",
+     "무지크"
+    ],
+    [
+     "weißt",
+     "weiß",
+     "바이스"
+    ]
+   ]
+  }
+ ]
+}
