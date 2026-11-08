@@ -1,9 +1,23 @@
 # HANDOFF — talkverse-de (독일어유니버스)
 
+## 다음에 할 내용 (2026-11-08, 세션 종료 시점)
+
+**현재 상태**: master `b8791b7` 까지 푸시. 배포 = Zealot 빌드 14 https://apps.talkverse.uk/8itFp/371 · TestFlight 2611081703(같은 커밋 `088bb04`, 알파벳과 발음 포함). 작업 트리의 남은 변경은 빌드 잡음뿐(커밋하지 않음).
+
+**남은 일(순서)**
+1. **Grok 회화 재작성** — 11-09 13:30 재개(uk 공지), 사용자 지시 뒤. 준비물: 요청문 26편 `data/review/grok/<편id>_prompt.md`, 틀 `tools/prompts/rewrite_grok.md`, 반영 `tools/apply_rewrite.py`, 전송 `tools/grok_send.py` 등. 독일어 M4 Chrome 포트 미배정(기본값 9233) — 시작할 때 `~/talkverse/GROK_M4_LOGIN.md` 15행에 보태고 `~/chrome-grok-de` 생성. 샘플 1~2편 → 사용자 통과 → 본작업.
+2. **사용자 결정 대기**: `docs/APP_STRATEGY_de.md` §7 결정 10개(M0 안드로이드 선행 여부·초안 노출·옛 L1 5편·학습 기록 보존 등), `docs/DIALOGUE_RULES_de.md` §3 세 가지(성별판 최소화·강세 부호 미표기·단어 상한 2,000 유지), 외계인 캐릭터 시트(A10).
+3. **음성** — 독일어 음성 보류(사용자 지시), PC 순서 요청 금지. 재개되면 MOSS 개선판·VoxCPM2 중 사용자 선택 → `docs/AUDIO_QA_DE.md`.
+4. **앱 M0 구조**(전략 §5) — 회화 R 폴더 로더·pubspec 주제 폴더·DB 시딩(학습 기록 보존 먼저)·레벨 선택·앱 소개 레벨표. 결정 1·2·5 뒤.
+5. **알파벳과 발음 그림 교체** — `assets/images/ipa/` 는 출처 표기 없는 임시 그림(CC BY-SA). 출시 전 Grok 그림으로 바꿀 것.
+6. 단어표 2,000위 확장(동결 해제됨, 원 말뭉치 재측정 필요) — 사용자 지시 뒤.
+
+**주의**: 회화 28편은 모두 `draft: true`, 검사기 `tools/check_dialogues.py --align-rd`·`tools/level_grammar_check.py`·`tools/inflection_report.py`·`tools/tier_report.py`. 문법 배치 확정본 `docs/GRAMMAR_LEVELS_de.md`. 레마 도구 `tools/add_lemmas.py` 는 고치지 않는다(사용자 지시). 안드로이드·iOS 는 항상 같은 커밋으로 함께.
+
 _2026-11-03 새로 씀. 앞 판(2026-10-11 메모·Zealot 확인 필요)은 이 판으로 대체 — 해결된 것은 지웠다._
 
 ## ⛔ 지금 지킬 것
-- **회화·단어·예문·문법 설명 등 새 학습 콘텐츠 작성 금지**(2026-11-02 사용자 지시, 해제는 사용자 지시로). 회화 공통 원칙 링크·독일어 특이점은 CLAUDE.md 「화면 구성」.
+- ~~새 학습 콘텐츠 작성 금지~~ — **2026-11-08 사용자 지시로 회화·회화 밖 콘텐츠 동결 모두 해제**(uk 전달 "둘 다 해제"). 회화 공통 원칙 링크·독일어 특이점은 CLAUDE.md 「화면 구성」.
 - 아이콘은 talkverse.uk 세션 담당(`~/talkverse/branding/TONE.md`) — 아이콘 파일 직접 수정 금지.
 - Grok 그림 요청은 한자 세션 경유(그림만, 글 시안은 이 세션이 직접). `~/talkverse/LANG_APP_REPLICATE_PROMPT.md` §9.
 - **Grok·Gemini 를 직접 쓸 때(2026-11-03 사용자 지시)**: 사용자 지시가 있을 때만 켠다(M4 에 미리 켜 두지 않음). 쿠키 복사는 M4 안에서만(`~/chrome-grok` → `~/chrome-grok-de/Default/`), M4 에서 자기 포트(`GROK_CHROME_PORTS.md`)로 띄우고 M6 에서 `ssh -fN -L <로컬>:127.0.0.1:<포트> macmini4` 터널. 첨부는 M4 `/tmp/grok_att/de/`. 한 번에 한 작업, 연 탭은 끝나면 닫고 Chrome 도 끈다. 상세 `~/talkverse/GROK_M4_LOGIN.md`, 예 `~/talkverse/ko/tools/grok_base.py`.
