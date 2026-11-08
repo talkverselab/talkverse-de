@@ -63,10 +63,10 @@
   {
    "num": 2,
    "speaker": "B",
-   "es": "Die Musik. Nicht der.",
-   "rd": "디 무지크. 니히트 데어.",
-   "ko": "디 무지크야. 데어 말고.",
-   "note": "die Musik = 여성 명사",
+   "es": "Die Musik. Nicht der. Hörst du?",
+   "rd": "디 무지크. 니히트 데어. 회어스트 두?",
+   "ko": "디 무지크야. 데어 말고. 들려?",
+   "note": "hörst du = 너 들려?(hören 의 du 형)",
    "tags": [
     "draft"
    ],
@@ -76,6 +76,11 @@
      "Musik",
      "Musik",
      "무지크"
+    ],
+    [
+     "Hörst",
+     "hören",
+     "회렌"
     ]
    ]
   },
@@ -184,10 +189,10 @@
   {
    "num": 6,
    "speaker": "B",
-   "es": "Die Frau! Sag mal, das ist doch ein Witz, oder?",
-   "rd": "디 프라우! 자크 말, 다스 이스트 도흐 아인 비츠, 오더?",
-   "ko": "디 프라우! 있잖아, 너 이거 농담이지?",
-   "note": "Witz = 농담",
+   "es": "Die Frau! Sag mal, machst du das extra?",
+   "rd": "디 프라우! 자크 말, 마흐스트 두 다스 엑스트라?",
+   "ko": "디 프라우! 있잖아, 너 일부러 그러지?",
+   "note": "machst du = 너 하니?(machen 의 du 형) · extra = 일부러",
    "tags": [
     "draft"
    ],
@@ -198,7 +203,7 @@
     ],
     [
      "teasing",
-     "Sag mal, das ist doch ein Witz, oder?"
+     "Sag mal, machst du das extra?"
     ]
    ],
    "lemmas": [
@@ -213,33 +218,38 @@
      "말"
     ],
     [
-     "doch",
-     "doch",
-     "도흐"
+     "machst",
+     "machen",
+     "마헨"
     ],
     [
-     "Witz",
-     "Witz",
-     "비츠"
+     "extra",
+     "extra",
+     "엑스트라"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "es": "Nein, das ist kein Witz! Das ist mein Deutsch.",
-   "rd": "나인, 다스 이스트 카인 비츠! 다스 이스트 마인 도이치.",
-   "ko": "아니, 농담 아니야! 이게 내 독일어야.",
-   "note": "kein = 아니다(명사 부정)",
+   "es": "Nein, ich mache das nicht extra! Das ist mein Deutsch.",
+   "rd": "나인, 이히 마헤 다스 니히트 엑스트라! 다스 이스트 마인 도이치.",
+   "ko": "아니, 일부러 아니야! 이게 내 독일어야.",
+   "note": "ich mache ↔ du machst",
    "tags": [
     "draft"
    ],
    "emotion": "flustered",
    "lemmas": [
     [
-     "Witz",
-     "Witz",
-     "비츠"
+     "mache",
+     "machen",
+     "마헨"
+    ],
+    [
+     "extra",
+     "extra",
+     "엑스트라"
     ],
     [
      "Deutsch",

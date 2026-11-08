@@ -71,3 +71,7 @@
 - 레벨 3 단계표 점검: 관계문은 레벨 4 로 미뤘다(r3_life_b1 7턴 「Der mit den Zetteln…」), r3_friends_b1 의 weil 절도 두 문장으로. 현재완료·화법조동사(ich soll)는 레벨 1 문법이라 그대로. 정식 간접화법(es sei)은 r4_work_b1 에만.
 - 독음 r 표기: 음절 끝 r = 어(단어장 248 대 3 → 단어장 3개도 고침), nn·mm 은 한 번, -tag = 탁. `check_dialogues.py --align-rd` 의 `unify()`. 예외 ALIGN_SKIP: Band(벤트), Zug(추크, 단어장 「축」 오기).
 - 카오스 비율: 전체 11/28 = 39%(규칙은 전체 비율 — uk 확인 2026-11-08). 레벨별로는 0 이 0%, 4 가 25%.
+
+## 7. 굴절 반복 점검(2026-11-08, 사용자 지시 "학습자가 굴절어에 익숙해지게, 절벽구간 단어 참고 — 절대적이진 않음")
+
+`tools/inflection_report.py` — 편마다 같은 낱말이 두 형태 이상 나온 묶음(관사 der/den/dem, 대명사 ich/mich/mir, 동사 인칭 habe/hast/hat)과 나온 격·인칭. 28편 결과: 레벨 3~5 는 묶음 5~8, 레벨 1·2 는 2~4(소형 모델이 gib/gibst·kommst/komme 같은 동사 기본형을 놓쳐 실제보다 낮게 나온다), 레벨 0 은 인사뿐이라 0(의도). 실제로 약했던 관사 편 `r1_friends_a1` 에 동사 인칭 짝(hörst/hör, machst/mache)을 넣었다. 새 편을 쓸 때 기준: 한 편에 굴절 묶음 3개 이상 — 상대가 앞 턴의 낱말을 다른 격·인칭으로 받아치게(ich mache ↔ du machst, der Mann ↔ den Mann). 어휘는 절벽 구간 단어를 먼저 쓰되(`tools/tier_report.py`) 재미·자연스러움이 우선.

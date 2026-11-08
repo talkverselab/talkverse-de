@@ -9,10 +9,10 @@
 
 초안:
 1 A: Lena, hör mal! Der Musik ist gut! / 레나, 들어 봐! 이 음악 좋다!
-2 B: Die Musik. Nicht der. / 디 무지크야. 데어 말고.
+2 B: Die Musik. Nicht der. Hörst du? / 디 무지크야. 데어 말고. 들려?
 3 A: Okay. Die Musik ist gut. Und die Mann singt gut! / 오케이. 음악 좋다. 그리고 저 남자 노래 잘한다!
 4 B: Der Mann! Oh Mann … / 데어 만! 아이고 참…
 5 A: Oh Mann? Der Mann, die Musik … und das Frau? / 아이고? 데어 만, 디 무지크… 그럼 여자는 다스?
-6 B: Die Frau! Sag mal, das ist doch ein Witz, oder? / 디 프라우! 있잖아, 너 이거 농담이지?
-7 A: Nein, das ist kein Witz! Das ist mein Deutsch. / 아니, 농담 아니야! 이게 내 독일어야.
+6 B: Die Frau! Sag mal, machst du das extra? / 디 프라우! 있잖아, 너 일부러 그러지?
+7 A: Nein, ich mache das nicht extra! Das ist mein Deutsch. / 아니, 일부러 아니야! 이게 내 독일어야.
 8 B: Ach so. Dann ist dein Deutsch ein Witz. / 아 그렇구나. 그럼 네 독일어가 농담이네.
