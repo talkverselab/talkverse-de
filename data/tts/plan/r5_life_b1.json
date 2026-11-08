@@ -1,0 +1,158 @@
+{
+ "ep": "r5_life_b1",
+ "cast": {
+  "B": "man_m",
+  "C": "felix"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "surprised",
+     "Bist du sicher, dass die Adresse stimmt?"
+    ],
+    [
+     "surprised",
+     "Da stehen ja hundert Leute vor der Tür."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Ja, Nummer zwölf."
+    ],
+    [
+     "cheerful",
+     "Vielleicht gibt es hier was umsonst."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Oder alle wollen dieselbe Wohnung wie wir."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "polite",
+     "Guten Tag! Sind Sie wegen der Wohnung hier?"
+    ],
+    [
+     "polite",
+     "Bitte stellen Sie sich hinten an."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Hinten? Wie viele Leute sind denn vor uns?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "polite",
+     "Ungefähr sechzig."
+    ],
+    [
+     "polite",
+     "Aber keine Sorge, es dauert nur zehn Minuten."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Sechzig Leute in zehn Minuten?"
+    ],
+    [
+     "tsukkomi",
+     "Das ist ja schneller als die Post."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "neutral",
+     "Und wie groß ist die Wohnung?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "polite",
+     "Ein Zimmer, mit Blick auf den Hof."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "annoyed",
+     "Blick auf den Hof … meinen Sie den Müll da?",
+     "Blick auf den Hof, meinen Sie den Müll da?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "cheerful",
+     "Und den Glascontainer, ja."
+    ],
+    [
+     "cheerful",
+     "Sehr praktisch."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "teasing",
+     "Felix, das ist dein Traum, oder?"
+    ],
+    [
+     "teasing",
+     "Flaschen trennen direkt unter dem Fenster."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "annoyed",
+     "Hör auf."
+    ],
+    [
+     "shy",
+     "Eigentlich ist das gar nicht so schlecht."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "polite",
+     "Dann schreiben Sie bitte hier Ihren Namen auf."
+    ],
+    [
+     "polite",
+     "Sie sind Nummer einundsechzig."
+    ]
+   ]
+  }
+ }
+}

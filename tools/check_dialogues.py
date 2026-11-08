@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """회화 검사기(독일어, 2026-11-07) — 공통 프롬프터 §12·회화 공통 원칙(턴 수·턴 길이·독음·반전·카오스 30%+·표현 풀·du/Sie).
 
-  python3 tools/check_dialogues.py [--fix-rd] [--level R1] [--island love]
+  python3 tools/check_dialogues.py [--fix-rd] [--align-rd] [--level R1] [--island love]
+--align-rd: rd 에서 단어장에 있는 낱말을 단어장 독음으로 맞춘다(낱말 수가 본문과 같아야 한다).
 --fix-rd: 비어 있는 rd 만 tools/rd_de.py 로 채운다(작성자가 쓴 독음은 덮지 않는다).
 독음에서 단어장 낱말이 단어장 독음과 다르면 경고로 알린다. 오류가 0 이어야 다음 단계로 간다.
 """
@@ -17,8 +18,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from rd_de import rd  # noqa: E402
 
-TURNS = {'R0': (4, 8), 'R1': (6, 8), 'R2': (8, 12), 'R3': (12, 16), 'R4': (12, 16)}
-WORDS = {'R0': 6, 'R1': 10, 'R2': 14, 'R3': 18, 'R4': 20}
+TURNS = {'R0': (4, 8), 'R1': (6, 8), 'R2': (8, 12), 'R3': (12, 16), 'R4': (12, 16), 'R5': (12, 16)}
+WORDS = {'R0': 6, 'R1': 10, 'R2': 14, 'R3': 18, 'R4': 20, 'R5': 20}
+LOW = ('R0', 'R1', 'R2')   # 굴절어 전략 A3·A4: 레벨 0~2 는 단수·du 만(복수 wir/ihr·존댓말 Sie 는 레벨 3 부터)
+RD = {}
 CHAT_WORDS = 8
 TWISTS = {'chaos', 'slip', 'reveal', 'emotion', 'ignore'}
 REQ = ('id', 'region', 'island', 'kind', 'title', 'emoji', 'scene', 'speakers', 'register', 'twist', 'twist_type', 'expressions', 'turns')
@@ -28,6 +31,7 @@ RANK = {}
 with open(os.path.join(ROOT, 'assets/data/freq/lang_de_top.csv'), encoding='utf-8') as f:
     for r in csv.DictReader(f):
         RANK.setdefault(r['word'].lower(), int(r['rank']))
+        RD.setdefault(r['word'].lower(), r['reading'])
 POOL = []
 pool_file = os.path.join(ROOT, 'data/expressions/top_expressions.csv')
 if os.path.exists(pool_file):
@@ -41,6 +45,7 @@ def nwords(t):
 
 def main():
     fix = '--fix-rd' in sys.argv
+    align = '--align-rd' in sys.argv
     lv_only = sys.argv[sys.argv.index('--level') + 1] if '--level' in sys.argv else None
     is_only = sys.argv[sys.argv.index('--island') + 1] if '--island' in sys.argv else None
     bad = 0
@@ -105,6 +110,20 @@ def main():
                     msg.append(f'{t["num"]}번 rd 없음')
             elif re.search(r'[A-Za-zÄÖÜäöüß]', re.sub(r'\{[a-z_]+\}', '', t.get('rd', ''))):
                 msg.append(f'{t["num"]}번 rd 에 로마자')
+            if align and t.get('rd') and not ep.get('rd_manual'):
+                ws = re.findall(W + r"(?:'[a-z]+)?", re.sub(r'\{[a-z_]+\}', '', es)); parts = re.split(r'([가-힣]+)', t['rd'])
+                idx = [i for i, p in enumerate(parts) if re.fullmatch(r'[가-힣]+', p)]
+                if len(idx) == len(ws):
+                    for i, w in zip(idx, ws):
+                        if RD.get(w.lower()) and RD[w.lower()] != parts[i]:
+                            parts[i] = RD[w.lower()]; changed = True
+                    t['rd'] = ''.join(parts)
+                else:
+                    msg.append(f'{t["num"]}번 rd 낱말 수 {len(idx)} ≠ 본문 {len(ws)}')
+            if lv in LOW and t['speaker'] != '_':
+                bad_w = [x for x in re.findall(W, es)[1:] if x == 'Sie'] + [x for x in re.findall(W, es) if x.lower() in ('wir', 'ihr', 'uns', 'euch', 'unser', 'unsere', 'euer', 'eure')]
+                if bad_w:
+                    msg.append(f'{t["num"]}번 레벨 0~2 에 복수·존댓말 {bad_w}')
             if es:
                 seen_lines[es] += 1
             low = re.findall(W, es.lower())

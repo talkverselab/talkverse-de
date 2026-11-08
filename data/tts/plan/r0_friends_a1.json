@@ -1,0 +1,57 @@
+{
+ "ep": "r0_friends_a1",
+ "cast": {
+  "B": "lena"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Hallo! Ich bin Lena. Und du?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Gut, danke!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "amused",
+     "Haha, nein! Wer bist du?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Ach so! Ich bin {name}."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Hallo, {name}. Und wie geht's?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "… Gut, danke!",
+     "Gut, danke!"
+    ]
+   ]
+  }
+ }
+}

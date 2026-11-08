@@ -1,0 +1,381 @@
+{
+ "id": "r2_chat_c1",
+ "region": "R2",
+ "island": "love",
+ "kind": "chat",
+ "title": "너 먼저, 그다음 나",
+ "emoji": "💬",
+ "scene": "밤 채팅. 학습자가 Mia 에게 내일 만나자고 하는데 커피도 아이스크림도 퇴짜",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "chat",
+ "twist": 8,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love",
+  "chat"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Okay",
+  "Süß",
+  "Echt jetzt?"
+ ],
+ "draft": true,
+ "level": "2 챗 실전",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "Hey Mia! Hast du morgen Zeit?",
+   "rd": "헤이 미아! 하스트 두 모어겐 차이트?",
+   "ko": "안녕 미아! 내일 시간 있어?",
+   "note": "Zeit haben = 시간이 있다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "21:47",
+   "lemmas": [
+    [
+     "morgen",
+     "morgen",
+     "모어겐"
+    ],
+    [
+     "Zeit",
+     "Zeit",
+     "차이트"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "Hm, warum? 😏",
+   "rd": "흠, 바룸?",
+   "ko": "음, 왜? 😏",
+   "note": "warum = 왜",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "21:52",
+   "lemmas": [
+    [
+     "warum",
+     "warum",
+     "바룸"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "Kaffee trinken? Mit mir?",
+   "rd": "카페 트링켄? 미트 미어?",
+   "ko": "커피 마실래? 나랑?",
+   "note": "mit mir = 나와 함께",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "ui": "bubble",
+   "at": "21:52",
+   "lemmas": [
+    [
+     "Kaffee",
+     "Kaffee",
+     "카페"
+    ],
+    [
+     "trinken",
+     "trinken",
+     "트링켄"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "Kaffee? Ich mache doch jeden Tag Kaffee 😂",
+   "rd": "카페? 이히 마헤 도흐 예덴 탁 카페",
+   "ko": "커피? 나 매일 커피 만드는 사람이야 😂",
+   "note": "jeden Tag = 매일",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "21:53",
+   "lemmas": [
+    [
+     "Kaffee",
+     "Kaffee",
+     "카페"
+    ],
+    [
+     "mache",
+     "machen",
+     "마헨"
+    ],
+    [
+     "doch",
+     "doch",
+     "도흐"
+    ],
+    [
+     "Tag",
+     "Tag",
+     "탁"
+    ],
+    [
+     "Kaffee",
+     "Kaffee",
+     "카페"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "Okay, dann kein Kaffee. Ein Eis?",
+   "rd": "오케이, 단 카인 카페. 아인 아이스?",
+   "ko": "오케이, 그럼 커피 말고. 아이스크림?",
+   "note": "Eis = 아이스크림",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "21:53",
+   "lemmas": [
+    [
+     "Okay",
+     "Okay",
+     "오케이"
+    ],
+    [
+     "dann",
+     "dann",
+     "단"
+    ],
+    [
+     "Kaffee",
+     "Kaffee",
+     "카페"
+    ],
+    [
+     "Eis",
+     "Eis",
+     "아이스"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "Ein Eis? Echt jetzt? 🥶",
+   "rd": "아인 아이스? 에히트 예츠트?",
+   "ko": "아이스크림? 진심? 🥶",
+   "note": "Echt jetzt? = 진심이야?",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "ui": "bubble",
+   "at": "21:54",
+   "lemmas": [
+    [
+     "Eis",
+     "Eis",
+     "아이스"
+    ],
+    [
+     "Echt",
+     "echt",
+     "에히트"
+    ],
+    [
+     "jetzt",
+     "jetzt",
+     "예츠트"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "Okay, okay. Kein Kaffee, kein Eis. Nur … ich und du?",
+   "rd": "오케이, 오케이. 카인 카페, 카인 아이스. 누어 … 이히 운트 두?",
+   "ko": "알았어, 알았어. 커피도 아이스크림도 말고. 그냥… 나랑 너?",
+   "note": "nur = 그냥, ~만",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "ui": "bubble",
+   "at": "21:55",
+   "lemmas": [
+    [
+     "Okay",
+     "Okay",
+     "오케이"
+    ],
+    [
+     "okay",
+     "Okay",
+     "오케이"
+    ],
+    [
+     "Kaffee",
+     "Kaffee",
+     "카페"
+    ],
+    [
+     "Eis",
+     "Eis",
+     "아이스"
+    ],
+    [
+     "Nur",
+     "nur",
+     "누어"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Das ist süß.",
+   "rd": "다스 이스트 쥐스.",
+   "ko": "그거 귀엽다.",
+   "note": "süß = 귀엽다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "22:01",
+   "lemmas": [
+    [
+     "süß",
+     "süß",
+     "쥐스"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "es": "Aber erst du, dann ich. Das ist Deutsch 😜",
+   "rd": "아버 에어스트 두, 단 이히. 다스 이스트 도이치",
+   "ko": "근데 너 먼저, 그다음 나야. 그게 독일어야 😜",
+   "note": "독일어는 상대를 먼저(du und ich)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "22:01",
+   "lemmas": [
+    [
+     "erst",
+     "erst",
+     "에어스트"
+    ],
+    [
+     "dann",
+     "dann",
+     "단"
+    ],
+    [
+     "Deutsch",
+     "deutsch",
+     "도이치"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "es": "Okay … erst du, dann ich. Morgen?",
+   "rd": "오케이 … 에어스트 두, 단 이히. 모어겐?",
+   "ko": "오케이… 너 먼저, 그다음 나. 내일?",
+   "note": "erst … dann = 먼저 … 그다음",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "ui": "bubble",
+   "at": "22:02",
+   "lemmas": [
+    [
+     "Okay",
+     "Okay",
+     "오케이"
+    ],
+    [
+     "erst",
+     "erst",
+     "에어스트"
+    ],
+    [
+     "dann",
+     "dann",
+     "단"
+    ],
+    [
+     "Morgen",
+     "morgen",
+     "모어겐"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "es": "Morgen nach der Arbeit. Und der Kaffee geht auf dich 😘",
+   "rd": "모어겐 나흐 데어 아어바이트. 운트 데어 카페 게트 아우프 디히",
+   "ko": "내일 일 끝나고. 그리고 커피는 네가 사 😘",
+   "note": "geht auf dich = 네가 낸다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "22:02",
+   "lemmas": [
+    [
+     "Morgen",
+     "morgen",
+     "모어겐"
+    ],
+    [
+     "Arbeit",
+     "Arbeit",
+     "아어바이트"
+    ],
+    [
+     "Kaffee",
+     "Kaffee",
+     "카페"
+    ],
+    [
+     "geht",
+     "gehen",
+     "게엔"
+    ]
+   ]
+  }
+ ]
+}

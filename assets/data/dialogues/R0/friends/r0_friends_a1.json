@@ -1,0 +1,138 @@
+{
+ "id": "r0_friends_a1",
+ "region": "R0",
+ "island": "friends",
+ "kind": "short",
+ "title": "좋아, 고마워!",
+ "emoji": "👋",
+ "scene": "파티에서 Lena 가 이름을 묻는데, 학습자는 안부 인사로 알아듣는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lena"
+ },
+ "register": "casual",
+ "twist": 2,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Hallo",
+  "Ach so",
+  "Wie geht's?"
+ ],
+ "draft": true,
+ "level": "0 입문",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Hallo! Ich bin Lena. Und du?",
+   "rd": "할로! 이히 빈 레나. 운트 두?",
+   "ko": "안녕! 나는 레나야. 너는?",
+   "note": "Und du? = 너는?",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Gut, danke!",
+   "rd": "구트, 당케!",
+   "ko": "좋아, 고마워!",
+   "note": "안부 인사로 착각했다",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Gut",
+     "gut",
+     "구트"
+    ],
+    [
+     "danke",
+     "danken",
+     "당켄"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Haha, nein! Wer bist du?",
+   "rd": "하하, 나인! 베어 비스트 두?",
+   "ko": "하하, 아니! 너 누구냐고.",
+   "note": "wer = 누구",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Ach so! Ich bin {name}.",
+   "rd": "아흐 조! 이히 빈 {name}.",
+   "ko": "아 그렇구나! 나는 {name}이야.",
+   "note": "Ich bin … = 나는 …이야",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "so",
+     "so",
+     "조"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Hallo, {name}. Und wie geht's?",
+   "rd": "할로, {name}. 운트 비 게츠?",
+   "ko": "안녕, {name}. 그래서 잘 지내?",
+   "note": "Wie geht's? = 잘 지내?",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "… Gut, danke!",
+   "rd": "… 구트, 당케!",
+   "ko": "…좋아, 고마워!",
+   "note": "이번엔 맞는 대답",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Gut",
+     "gut",
+     "구트"
+    ],
+    [
+     "danke",
+     "danken",
+     "당켄"
+    ]
+   ]
+  }
+ ]
+}

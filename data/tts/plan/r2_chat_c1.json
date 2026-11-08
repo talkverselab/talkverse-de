@@ -1,0 +1,110 @@
+{
+ "ep": "r2_chat_c1",
+ "cast": {
+  "B": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Hey Mia! Hast du morgen Zeit?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "teasing",
+     "Hm, warum? 😏"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shy",
+     "Kaffee trinken? Mit mir?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Kaffee? Ich mache doch jeden Tag Kaffee 😂"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Okay, dann kein Kaffee. Ein Eis?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Ein Eis? Echt jetzt? 🥶"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "Okay, okay. Kein Kaffee, kein Eis."
+    ],
+    [
+     "shy",
+     "Nur … ich und du?",
+     "Nur, ich und du?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Das ist süß."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "teasing",
+     "Aber erst du, dann ich."
+    ],
+    [
+     "teasing",
+     "Das ist Deutsch 😜"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "shy",
+     "Okay … erst du, dann ich. Morgen?",
+     "Okay, erst du, dann ich. Morgen?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "teasing",
+     "Morgen nach der Arbeit."
+    ],
+    [
+     "teasing",
+     "Und der Kaffee geht auf dich 😘"
+    ]
+   ]
+  }
+ }
+}

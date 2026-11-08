@@ -1,0 +1,90 @@
+{
+ "ep": "r1_friends_a1",
+ "cast": {
+  "B": "lena"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Lena, hör mal!"
+    ],
+    [
+     "excited",
+     "Der Musik ist gut!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Die Musik. Nicht der."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Okay. Die Musik ist gut."
+    ],
+    [
+     "cheerful",
+     "Und die Mann da?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Der Mann! Oh Mann …",
+     "Der Mann! Oh Mann."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Oh Mann? Der Mann, die Musik … und das Frau?",
+     "Oh Mann? Der Mann, die Musik, und das Frau?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Die Frau!"
+    ],
+    [
+     "teasing",
+     "Sag mal, das ist doch ein Witz, oder?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Nein, das ist kein Witz!"
+    ],
+    [
+     "flustered",
+     "Das ist mein Deutsch."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Ach so. Dann ist das ein Witz."
+    ]
+   ]
+  }
+ }
+}

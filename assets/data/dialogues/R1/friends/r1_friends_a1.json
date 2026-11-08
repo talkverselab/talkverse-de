@@ -1,0 +1,276 @@
+{
+ "id": "r1_friends_a1",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "title": "데어? 디? 다스?",
+ "emoji": "🎵",
+ "scene": "공원에서 독일어 실력을 뽐내려다 관사를 전부 틀리는 학습자와 하나하나 고쳐 주는 Lena",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lena"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "making_friends",
+  "grammar_article"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Hör mal",
+  "Oh Mann",
+  "Sag mal",
+  "Ach so",
+  "Okay"
+ ],
+ "draft": true,
+ "level": "1 관사·격·활용 골격",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "Lena, hör mal! Der Musik ist gut!",
+   "rd": "레나, 회어 말! 데어 무지크 이스트 구트!",
+   "ko": "레나, 들어 봐! 이 음악 좋다!",
+   "note": "der Musik = 틀린 관사(die Musik)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "Musik",
+     "Musik",
+     "무지크"
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "Die Musik. Nicht der.",
+   "rd": "디 무지크. 니히트 데어.",
+   "ko": "디 무지크야. 데어 말고.",
+   "note": "die Musik = 여성 명사",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Musik",
+     "Musik",
+     "무지크"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "Okay. Die Musik ist gut. Und die Mann da?",
+   "rd": "오케이. 디 무지크 이스트 구트. 운트 디 만 다?",
+   "ko": "오케이. 음악 좋다. 그럼 저기 저 남자는?",
+   "note": "die Mann = 틀린 관사(der Mann)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Okay",
+     "Okay",
+     "오케이"
+    ],
+    [
+     "Musik",
+     "Musik",
+     "무지크"
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
+    ],
+    [
+     "Mann",
+     "Mann",
+     "만"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "Der Mann! Oh Mann …",
+   "rd": "데어 만! 오 만 …",
+   "ko": "데어 만! 아이고 참…",
+   "note": "Oh Mann = 아이고(Mann 말장난)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Mann",
+     "Mann",
+     "만"
+    ],
+    [
+     "Mann",
+     "Mann",
+     "만"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "Oh Mann? Der Mann, die Musik … und das Frau?",
+   "rd": "오 만? 데어 만, 디 무지크 … 운트 다스 프라우?",
+   "ko": "아이고? 데어 만, 디 무지크… 그럼 여자는 다스?",
+   "note": "das Frau = 틀린 관사(die Frau)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Mann",
+     "Mann",
+     "만"
+    ],
+    [
+     "Mann",
+     "Mann",
+     "만"
+    ],
+    [
+     "Musik",
+     "Musik",
+     "무지크"
+    ],
+    [
+     "Frau",
+     "Frau",
+     "프라우"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "Die Frau! Sag mal, das ist doch ein Witz, oder?",
+   "rd": "디 프라우! 자크 말, 다스 이스트 도흐 아인 비츠, 오더?",
+   "ko": "디 프라우! 있잖아, 너 이거 농담이지?",
+   "note": "Witz = 농담",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "tsukkomi",
+     "Die Frau!"
+    ],
+    [
+     "teasing",
+     "Sag mal, das ist doch ein Witz, oder?"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Frau",
+     "Frau",
+     "프라우"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "doch",
+     "doch",
+     "도흐"
+    ],
+    [
+     "Witz",
+     "Witz",
+     "비츠"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "Nein, das ist kein Witz! Das ist mein Deutsch.",
+   "rd": "나인, 다스 이스트 카인 비츠! 다스 이스트 마인 도이치.",
+   "ko": "아니, 농담 아니야! 이게 내 독일어야.",
+   "note": "kein = 아니다(명사 부정)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Witz",
+     "Witz",
+     "비츠"
+    ],
+    [
+     "Deutsch",
+     "deutsch",
+     "도이치"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Ach so. Dann ist das ein Witz.",
+   "rd": "아흐 조. 단 이스트 다스 아인 비츠.",
+   "ko": "아 그렇구나. 그럼 그게 농담이네.",
+   "note": "dann = 그럼",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "so",
+     "so",
+     "조"
+    ],
+    [
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "Witz",
+     "Witz",
+     "비츠"
+    ]
+   ]
+  }
+ ]
+}
