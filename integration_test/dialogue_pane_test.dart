@@ -6,6 +6,7 @@ import 'package:german_universe/core/l10n.dart';
 import 'package:german_universe/data/db/app_database.dart';
 import 'package:german_universe/data/db/seed_loader.dart';
 import 'package:german_universe/main.dart';
+import 'package:german_universe/screens/alphabet_screen.dart';
 import 'package:german_universe/screens/main_screen.dart';
 import 'package:german_universe/services/achievement_service.dart';
 import 'package:german_universe/services/ko_reading.dart';
@@ -93,12 +94,20 @@ void main() {
     await wait(t, 2500);
     await shot(t, '12_word_units');
     await t.tap(find.textContaining('회화 단어 포함'));
-    await wait(t, 500);
-    await t.tap(find.text('회화').last);
     await wait(t, 800);
     await shot(t, '13_word_conv');
     await t.tap(find.byTooltip('한글독음 표시'));
     await wait(t, 500);
     await shot(t, '14_reading_on_snack');
+
+    // 2026-11-08 알파벳과 발음(일본어앱 50음도와 같은 구조)
+    await t.tap(rail('홈'));
+    await wait(t, 1000);
+    await t.tap(find.text('알파벳과 발음'));
+    await wait(t, 2000);
+    await shot(t, '15_alphabet');
+    await t.tap(find.descendant(of: find.byType(AlphabetScreen), matching: find.text('ü')).first);
+    await wait(t, 3000);
+    await shot(t, '16_alphabet_sheet_u');
   });
 }

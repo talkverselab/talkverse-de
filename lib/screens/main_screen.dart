@@ -5,6 +5,7 @@ import '../core/platform.dart';
 import '../core/theme.dart';
 import '../main.dart';
 import '../widgets/spanish_decor.dart';
+import 'alphabet_screen.dart';
 import 'about_screen.dart';
 import 'chunk_search_screen.dart';
 import 'conversation_screen.dart';
@@ -390,8 +391,8 @@ class _MenuGrid extends StatelessWidget {
   Widget build(BuildContext context) {
     final groups = <(String, List<_MenuItem>)>[
       (tr('기초'), [
-        _MenuItem(label: tr('발음'), sub: 'Aussprache', badge: 'ü', color: AppColors.er,
-          builder: (_) => _ComingSoon(title: tr('발음 (ch · ü · 강세)'))),
+        _MenuItem(label: tr('알파벳과 발음'), sub: 'Alphabet', badge: 'ü', color: AppColors.er,
+          builder: (_) => const AlphabetScreen()),
       ]),
       (tr('문법'), [
         _MenuItem(label: tr('문법'), sub: 'Grammatik', badge: 'G', color: AppColors.rojoDeep,
