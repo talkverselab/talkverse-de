@@ -73,8 +73,8 @@
   {
    "num": 2,
    "speaker": "A",
-   "es": "Oh, schon so spät? Ich dachte, es wäre erst sieben.",
-   "rd": "오, 숀 조 슈페트? 이히 다흐테, 에스 베레 에어스트 지벤.",
+   "es": "Oh, schon so spät? Ich habe gedacht, es wäre erst sieben.",
+   "rd": "오, 숀 조 슈페트? 이히 하베 게다흐트, 에스 베레 에어스트 지벤.",
    "ko": "어, 벌써 그렇게 됐어? 아직 일곱 시인 줄 알았어.",
    "note": "ich dachte, es wäre … = ~인 줄 알았다",
    "tags": [
@@ -98,7 +98,7 @@
      "슈페트"
     ],
     [
-     "dachte",
+     "gedacht",
      "denken",
      "뎅켄"
     ],

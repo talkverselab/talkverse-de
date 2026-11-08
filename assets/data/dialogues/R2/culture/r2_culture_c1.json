@@ -353,35 +353,20 @@
   {
    "num": 11,
    "speaker": "B",
-   "es": "Und nächstes Mal stehst du ganz vorne. Dann seh ich dich auch 😉",
-   "rd": "운트 네히스테스 말 슈테스트 두 간츠 포어네. 단 제 이히 디히 아우흐",
+   "es": "Und dann stehst du ganz vorne. Dann seh ich dich auch 😉",
+   "rd": "운트 단 슈테스트 두 간츠 포어네. 단 제 이히 디히 아우흐",
    "ko": "그리고 다음엔 맨 앞에 서. 그럼 나도 너 보이잖아 😉",
    "note": "ganz vorne = 맨 앞",
    "tags": [
     "draft"
    ],
-   "segs": [
-    [
-     "gentle",
-     "Und nächstes Mal stehst du ganz vorne. "
-    ],
-    [
-     "teasing",
-     "Dann seh ich dich auch 😉"
-    ]
-   ],
    "ui": "bubble",
    "at": "00:07",
    "lemmas": [
     [
-     "nächstes",
-     "nächst",
-     "네히스트"
-    ],
-    [
-     "Mal",
-     "mal",
-     "말"
+     "dann",
+     "dann",
+     "단"
     ],
     [
      "stehst",
@@ -413,7 +398,8 @@
      "auch",
      "아우흐"
     ]
-   ]
+   ],
+   "emotion": "teasing"
   }
  ]
 }

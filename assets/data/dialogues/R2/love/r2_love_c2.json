@@ -204,22 +204,12 @@
   {
    "num": 7,
    "speaker": "B",
-   "es": "Nein. Eigentlich … ich denke die ganze Zeit an dich.",
-   "rd": "나인. 아이겐틀리히 … 이히 덴케 디 간체 차이트 안 디히.",
-   "ko": "아니. 사실은… 계속 네 생각만 해.",
+   "es": "Nein. Eigentlich … ich denke immer an dich.",
+   "rd": "나인. 아이겐틀리히 … 이히 뎅케 이머 안 디히.",
+   "ko": "아니. 사실은… 맨날 네 생각만 해.",
    "note": "an dich denken = 너를 생각하다",
    "tags": [
     "draft"
-   ],
-   "segs": [
-    [
-     "flustered",
-     "Nein. Eigentlich … "
-    ],
-    [
-     "gentle",
-     "ich denke die ganze Zeit an dich."
-    ]
    ],
    "ui": "bubble",
    "at": "01:17",
@@ -235,14 +225,9 @@
      "뎅켄"
     ],
     [
-     "ganze",
-     "ganz",
-     "간츠"
-    ],
-    [
-     "Zeit",
-     "Zeit",
-     "차이트"
+     "immer",
+     "immer",
+     "이머"
     ]
    ]
   },

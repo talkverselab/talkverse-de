@@ -265,8 +265,8 @@
   {
    "num": 7,
    "speaker": "A",
-   "es": "Ich dachte, sie wäre enttäuscht. Wo ich herkomme, hätte man wenigstens etwas Nettes gesagt.",
-   "rd": "이히 다흐테, 지 베레 엔트토이슈트. 보 이히 헤어코메, 헤테 만 베니히스텐스 에트바스 네테스 게자크트.",
+   "es": "Ich habe gedacht, sie wäre enttäuscht. Wo ich herkomme, hätte man wenigstens etwas Nettes gesagt.",
+   "rd": "이히 하베 게다흐트, 지 베레 엔트토이슈트. 보 이히 헤어코메, 헤테 만 베니히스텐스 에트바스 네테스 게자크트.",
    "ko": "실망하신 줄 알았어. 내가 살던 곳에선 빈말이라도 좋은 말을 했을 텐데.",
    "note": "wo ich herkomme = 내가 온 곳에서는",
    "tags": [
@@ -274,7 +274,7 @@
    ],
    "lemmas": [
     [
-     "dachte",
+     "gedacht",
      "denken",
      "뎅켄"
     ],

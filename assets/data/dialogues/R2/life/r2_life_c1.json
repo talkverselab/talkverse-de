@@ -69,9 +69,9 @@
   {
    "num": 2,
    "speaker": "B",
-   "es": "Oh! Gute Frage 😍 Groß oder klein?",
-   "rd": "오! 구테 프라게 그로스 오더 클라인?",
-   "ko": "오! 좋은 질문이야 😍 큰 거야 작은 거야?",
+   "es": "Oh! Super Frage 😍 Groß oder klein?",
+   "rd": "오! 주퍼 프라게 그로스 오더 클라인?",
+   "ko": "오! 질문 좋다 큰 거야 작은 거야?",
    "note": "Gute Frage = 좋은 질문",
    "tags": [
     "draft"
@@ -81,9 +81,9 @@
    "at": "20:14",
    "lemmas": [
     [
-     "Gute",
-     "gut",
-     "구트"
+     "Super",
+     "Super",
+     ""
     ],
     [
      "Frage",

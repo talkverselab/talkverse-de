@@ -25,7 +25,7 @@
 | 회화 레벨 수·이름 | 6(0 입문 · 1 관사·격·활용 골격 · 2 챗 실전 · 3 그래머2 · 4 어려운 문법 · 5 어휘 완주) |
 | 레벨당 문장 수 | 제안 500(50+450), 레벨 0 은 100(10+90) |
 | R1 코어 40 | 동결 해제 뒤 작성(관사 der/die/das·ein, 동사 sein·haben·gehen·machen·wollen·können, 명사 5, 형용사 3, 전치사 6, 대명사 3, 필러 Genau·Echt?·Na ja 등에서) |
-| R1 골격 묶음 | 제안: 관사+명사 주격 → 현재 동사(단수) → 대격 → 여격 → 전치사+격(in/an/auf 이중) → 분리동사 → 현재완료(haben/sein) → 화법조동사 → Konjunktiv II 고정형(hätte gern·würde) 씨앗 → 소유격 대신 von |
+| R1 골격 묶음 | 관사+명사 주격 → 현재 동사(단수) → **V2 도치(사용자 결정 2026-11-08)** → 대격 → 여격 → 전치사+격(in/an/auf 이중) → 분리동사 → 현재완료(haben/sein) → 화법조동사 → Konjunktiv II 고정형(hätte gern·würde) 씨앗 → 소유격 대신 von |
 | 불규칙 통문장 동사 수 | 제안 10(sein·haben·werden·können·müssen·wollen·sollen·dürfen·mögen·wissen) |
 | 존댓말 2인칭 형태 | Sie(3인칭 복수 동사형, 대문자) · 소유 Ihr |
 | 성별판 필요 여부 | 거의 불필요 — 말하는 사람의 성으로 동사·형용사가 바뀌지 않는다. 자기를 가리키는 사람 명사(Student/Studentin, Lehrer/Lehrerin)만 다르다 |
