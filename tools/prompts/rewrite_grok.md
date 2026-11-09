@@ -1,3 +1,5 @@
+> **2026-11-09 사용자 지시로 최소 프롬프트로 바뀜** — 규칙은 `docs/GROK_RULES_de.md`, 요청은 `tools/rewrite_request.py`(방 첫 메시지 `--first` 한 번, 이후 파일 주소 한 줄). 아래 긴 틀은 옛 방식 기록.
+
 # Grok 재작성 프롬프트 — 독일어 (2026-11-08, 중국어앱 틀을 옮김)
 
 흐름: Claude 초안(JSON) → 이 틀로 Grok 재작성(편마다 새 대화방, 「전문가」 모델) → 세션 리뷰(그대로 쓰지 않는다: 깎인 문장부호 복구·직원 반말 → Sie·논리 깨진 줄·지워진 심쿵 줄) → `data/review/final/<편id>.txt` → `tools/apply_rewrite.py <편id>` → `tools/check_dialogues.py --fix-rd --align-rd` → 독음 손질 → 사용자 리뷰. 요청문은 `tools/rewrite_request.py <편.json>...` 가 아래 틀로 만든다. Grok 은 사용자 지시 뒤에만(주간 한도 11-10).
