@@ -28,7 +28,15 @@ void main() async {
   // Talkverse ID(로그인 선택) + 평생 이용권 — 2026-11-02, 한자 앱과 같은 공용 클라이언트
   Account.load(); // 저장된 로그인 표시 + 뒤에서 토큰 갱신(기다리지 않음)
   await Entitlement.load();
-  Purchase.configure({Entitlement.lang: ('com.talkverse.germanUniverse.lifetime', 'lang_de')});
+  // 가격표 = ~/talkverse/PRICING.md(사용자 확정 2026-11-09) — 앱 할인가(30%)·앱 정가.
+  Purchase.configure('de', const [
+    Plan('lang_de_1m', 1, 3900, listKrw: 5500),
+    Plan('lang_de_3m', 3, 9000, listKrw: 12900),
+    Plan('lang_de_1y', 12, 19900, listKrw: 28500),
+    Plan('lang_de_life', 0, 49000, listKrw: 69900),
+    Plan('all_1y', 12, 79000, listKrw: 112900, bundle: true),
+    Plan('all_life', 0, 329000, listKrw: 469000, bundle: true),
+  ]);
   await _setOrientations(); // 폰은 세로 고정, 태블릿·폴드 펼침(짧은 변 600 이상)은 회전 허용
   // 그림(장면 컷·단어 그림) 기기 내려받기: 버전이 다르면 로딩 화면에서 받고 시작(사용자 지시 2026-11-04)
   final needSync = await ContentSync.instance.init(large: _wide ?? false);

@@ -195,7 +195,7 @@ class _AccountSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return ValueListenableBuilder<Map<String, dynamic>?>(
       valueListenable: Account.user,
-      builder: (context, u, _) => ValueListenableBuilder<Set<String>>(
+      builder: (context, u, _) => ValueListenableBuilder<Map<String, int>>(
         valueListenable: Purchase.owned,
         builder: (context, _, _) => _SettingsGroup(items: [
           if (u == null)
@@ -218,8 +218,8 @@ class _AccountSection extends StatelessWidget {
           ],
           _SettingItem(
               icon: Icons.workspace_premium_outlined,
-              title: tr('평생 이용권'),
-              subtitle: Entitlement.premium ? tr('이용 중') : tr('한 번 결제 · 구독 아님'),
+              title: tr('이용권'),
+              subtitle: Entitlement.premium ? tr('이용 중') : tr('1개월 · 3개월 · 1년 · 평생'),
               onTap: Entitlement.premium ? null : () => Entitlement.showPaywall(context)),
           _SettingItem(icon: Icons.restore, title: tr('구매 복원'), subtitle: tr('이전에 산 이용권을 다시 엽니다'), onTap: () => _restore(context)),
         ]),
