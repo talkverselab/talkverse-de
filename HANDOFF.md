@@ -14,7 +14,7 @@
 
 **회화 원칙 추가(2026-11-09)**: 일상 장면 안에서 반전·러브·플러팅을 다 넣는다(줄이지 않음, 비현실적 설정만 금지 — `docs/DIALOGUE_RULES_de.md` §8). **음성 생성은 새벽 01:00~07:00 에만**(전역 규칙, 사용자 지시 2026-11-09).
 
-**PC Grok(사용자 지시 2026-11-09 "집필 시작 안 한 세션은 PC 에서")**: 절차 `~/talkverse/PC_GROK_GUIDE.md`. 독일어 포트 9248·프로필 `D:\chrome-grok-de` 예정. ⚠ PC 작업 스케줄러 등록(`Grok-Chrome-de-9248`)은 이 세션의 권한 정책이 「지속 실행 등록」으로 막음(2026-11-09) — 사용자가 PC 에서 등록하거나 권한을 허용해야 시작. 등록되면: 포트표 추가 → M4 터널·`grok_cookie_sync.py 9231 9248` → `grok_mode.py 9248` → `tools/rewrite_request.py --first` 한 번, 이후 편마다 한 줄(도구는 `~/talkverse/hu/tools/grok_text.py` 복사).
+**PC Grok(사용자 지시 2026-11-09 "집필 시작 안 한 세션은 PC 에서", 작업 등록은 사용자 "허용")**: 포트 **9258**·프로필 `D:\chrome-grok-de`·작업 `Grok-Chrome-de-9258`(john), 포트표 uk c40e3a5a. ⚠ th 크롬도 9258 을 127.0.0.1 로 잡고 있어 de 크롬은 **::1 에만** 뜸 → 터널은 반드시 `ssh -fN -L '127.0.0.1:9258:[::1]:9258' pc`(M6), M4 도 같은 꼴(th 는 9259 로 옮길 예정, uk 31cd5148). 확인: `/json/list` 에 th 방(c/86e1…)이 보이면 잘못 붙은 것. 쿠키 `grok_cookie_sync.py 9231 9258`(M4), 모델 `grok_mode.py 9258` — 전문가 유지 확인(새 탭 OK). 회차: `zsh tools/grok_rewrite_run.sh [--chat <방>] <편id>...`(첫 메시지에 `docs/GROK_RULES_de.md`+편 JSON 첨부, 이후 `<id>.json` 한 줄+첨부; 결과 `data/review/grok/out/`). 샘플 r1_life_a1·r2_friends_c1 → 사용자 승인 뒤 나머지(방당 10편).
 
 **남은 일(순서)**
 1. **Grok 회화 재작성** — 11-09 13:30 재개(uk 공지), 사용자 지시 뒤. 준비물: 요청문 26편 `data/review/grok/<편id>_prompt.md`, 틀 `tools/prompts/rewrite_grok.md`, 반영 `tools/apply_rewrite.py`, 전송 `tools/grok_send.py` 등. 독일어 M4 Chrome 포트 미배정(기본값 9233) — 시작할 때 `~/talkverse/GROK_M4_LOGIN.md` 15행에 보태고 `~/chrome-grok-de` 생성. 샘플 1~2편 → 사용자 통과 → 본작업.
