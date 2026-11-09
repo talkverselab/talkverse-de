@@ -8,7 +8,7 @@
 - ⚠ 스토어 문서 작성 중 발견: 「동사 활용」 데이터 0개(화면이 계속 로딩), 「성·수」 준비 중 — 출시 전 채우거나 메뉴에서 뺀다(`docs/STORE_PRODUCTS.md` 체크리스트).
 - 통합 앱(~/talkverse/talkverse-app) 연결은 talkverse-uk 가 한다 — 이 저장소에서 통합 앱을 고치거나 빌드하지 않는다.
 
-**Grok 공지(2026-11-09, `~/logs/rc/RELAY_grok_20261109.md`)**: M4 uk 크롬(9231)에 옛 계정 재로그인(한도 남음, uk 방은 건드리지 말 것). 한자 세션 대행은 중단 — 이 세션이 자기 크롬(독일어 포트 미배정, 9233 예정)을 켜고 M4 에서 `/usr/bin/python3 ~/talkverse-uk/tools/grok_cookie_sync.py 9231 <자기 포트>`(ssh macmini4)로 쿠키를 맞춘 뒤 직접 처리. 요청 도구는 M6 `~/Hanja/tools/grok_req.py`·`grok_cdp.py` 를 복사해 쓴다.
+**Grok 공지(2026-11-09, `~/logs/rc/RELAY_grok_20261109.md`)**: M4 uk 크롬(9231)에 옛 계정 재로그인(한도 남음, uk 방은 건드리지 말 것). 한자 세션 대행은 중단 — 이 세션이 자기 크롬(독일어 포트 미배정, 9233 예정)을 켜고 M4 에서 `/usr/bin/python3 ~/talkverse-uk/tools/grok_cookie_sync.py 9231 <자기 포트>`(ssh macmini4)로 쿠키를 맞춘 뒤 직접 처리. 요청 도구는 M6 `~/Hanja/tools/grok_req.py`·`grok_cdp.py` 를 복사해 쓴다. 크롬을 켜면 모델이 「전문가」인지 확인·전환: M4 `/usr/bin/python3 ~/talkverse-uk/tools/grok_mode.py <포트>`(확인만 `--check`) — 사용자 지시 2026-11-09.
 
 **Grok 최소 프롬프트(사용자 지시 2026-11-09)**: 규칙은 `docs/GROK_RULES_de.md` 한 번, 방 첫 메시지 `python3 tools/rewrite_request.py --first`, 이후 편마다 파일 주소 한 줄(`data/review/grok/<편id>_prompt.md`). 그림이 처음과 달라지면 최초 통과 그림 기준(이미 만든 것은 그대로). 회화는 줄마다 감정 열 필수.
 
