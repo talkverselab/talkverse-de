@@ -8,6 +8,8 @@
 - ⚠ 스토어 문서 작성 중 발견: 「동사 활용」 데이터 0개(화면이 계속 로딩), 「성·수」 준비 중 — 출시 전 채우거나 메뉴에서 뺀다(`docs/STORE_PRODUCTS.md` 체크리스트).
 - 통합 앱(~/talkverse/talkverse-app) 연결은 talkverse-uk 가 한다 — 이 저장소에서 통합 앱을 고치거나 빌드하지 않는다.
 
+**Grok 공지(2026-11-09, `~/logs/rc/RELAY_grok_20261109.md`)**: M4 uk 크롬(9231)에 옛 계정 재로그인(한도 남음, uk 방은 건드리지 말 것). 한자 세션 대행은 중단 — 이 세션이 자기 크롬(독일어 포트 미배정, 9233 예정)을 켜고 M4 에서 `/usr/bin/python3 ~/talkverse-uk/tools/grok_cookie_sync.py 9231 <자기 포트>`(ssh macmini4)로 쿠키를 맞춘 뒤 직접 처리. 요청 도구는 M6 `~/Hanja/tools/grok_req.py`·`grok_cdp.py` 를 복사해 쓴다.
+
 **남은 일(순서)**
 1. **Grok 회화 재작성** — 11-09 13:30 재개(uk 공지), 사용자 지시 뒤. 준비물: 요청문 26편 `data/review/grok/<편id>_prompt.md`, 틀 `tools/prompts/rewrite_grok.md`, 반영 `tools/apply_rewrite.py`, 전송 `tools/grok_send.py` 등. 독일어 M4 Chrome 포트 미배정(기본값 9233) — 시작할 때 `~/talkverse/GROK_M4_LOGIN.md` 15행에 보태고 `~/chrome-grok-de` 생성. 샘플 1~2편 → 사용자 통과 → 본작업.
 2. **사용자 결정 대기**: `docs/APP_STRATEGY_de.md` §7 결정 10개(M0 안드로이드 선행 여부·초안 노출·옛 L1 5편·학습 기록 보존 등), `docs/DIALOGUE_RULES_de.md` §3 세 가지(성별판 최소화·강세 부호 미표기·단어 상한 2,000 유지), 외계인 캐릭터 시트(A10).
