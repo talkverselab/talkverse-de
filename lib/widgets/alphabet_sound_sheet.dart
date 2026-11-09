@@ -1,3 +1,4 @@
+import '../core/embed_env.dart';
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -214,7 +215,7 @@ class _AlphabetSoundSheetState extends State<AlphabetSoundSheet> {
               child: LayoutBuilder(
                 builder: (context, c) => Stack(
                   children: [
-                    Positioned.fill(child: Image.asset(asset, fit: BoxFit.fill)),
+                    Positioned.fill(child: Image.asset(assetPath(asset), fit: BoxFit.fill)),
                     for (final m in marks)
                       Positioned(
                         left: m.dx * c.maxWidth - 16,

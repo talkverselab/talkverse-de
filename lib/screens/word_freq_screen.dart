@@ -1,3 +1,4 @@
+import '../core/embed_env.dart';
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
@@ -55,7 +56,7 @@ class _WordFreqScreenState extends State<WordFreqScreen> {
     ];
     final conv = <_Word>[];
     try {
-      final j = json.decode(await rootBundle.loadString('assets/data/freq/conv_words_de.json')) as Map<String, dynamic>;
+      final j = json.decode(await rootBundle.loadString(assetPath('assets/data/freq/conv_words_de.json'))) as Map<String, dynamic>;
       var n = 0;
       for (final w in (j['words'] as List).cast<Map<String, dynamic>>()) {
         n++;

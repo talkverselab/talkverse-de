@@ -5,6 +5,7 @@ import 'login_screen.dart';
 
 import '../core/theme.dart';
 import '../widgets/spanish_decor.dart';
+import '../embed.dart' show switchLanguage;
 import '../core/l10n.dart';
 import '../core/pane.dart';
 import '../data/account.dart';
@@ -81,6 +82,8 @@ class ProfileScreen extends StatelessWidget {
           ValueListenableBuilder<bool>(
             valueListenable: KoReadingPrefs.show,
             builder: (context, on, _) => _SettingsGroup(items: [
+              if (switchLanguage != null)
+                _SettingItem(icon: Icons.swap_horiz, title: tr('다른 언어 배우기'), subtitle: tr('Talkverse 의 다른 언어로 이동'), onTap: switchLanguage!),
               _SettingItem(
                   icon: Icons.language,
                   title: tr('언어 / Language'),

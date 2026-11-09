@@ -1,7 +1,8 @@
+import '../core/embed_env.dart';
 import 'dart:convert';
 
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:shared_preferences/shared_preferences.dart';
+import '../core/prefs.dart';
 
 import 'learner_prefs.dart';
 
@@ -166,7 +167,7 @@ class DialogueService {
   String? get lastOpenedId => _lastOpened;
   Future<void> setLastOpened(String id) async {
     _lastOpened = id;
-    (await SharedPreferences.getInstance()).setString(_prefLast, id);
+    (await Prefs.getInstance()).setString(_prefLast, id);
   }
 
   /// 넓은 화면에서 탭 두 개가 동시에 불러도 한 번만 읽는다(플래그 방식은 경쟁으로 목록이 두 번 찼다).
@@ -174,9 +175,9 @@ class DialogueService {
   Future<void> ensureLoaded() => _loading ??= _load();
 
   Future<void> _load() async {
-    _lastOpened = (await SharedPreferences.getInstance()).getString(_prefLast);
+    _lastOpened = (await Prefs.getInstance()).getString(_prefLast);
     try {
-      final j = json.decode(await rootBundle.loadString('assets/data/dialogues/L1.json')) as Map<String, dynamic>;
+      final j = json.decode(await rootBundle.loadString(assetPath('assets/data/dialogues/L1.json'))) as Map<String, dynamic>;
       final chars = (j['characters'] as Map<String, dynamic>? ?? const {});
       final names = chars.map((k, v) => MapEntry(k, ((v as Map)['name'] ?? k).toString()));
       final genders = chars.map((k, v) => MapEntry(k, ((v as Map)['gender'] ?? 'female').toString()));

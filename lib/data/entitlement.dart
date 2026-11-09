@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import '../core/prefs.dart';
 
 import '../screens/paywall_screen.dart';
 import 'account.dart';
@@ -14,7 +14,7 @@ class Entitlement {
   static bool _local = false;
   static bool get premium => _local || Account.has(lang) || Purchase.owns(lang);
 
-  static Future<void> load() async => _local = (await SharedPreferences.getInstance()).getBool('premium') ?? false;
+  static Future<void> load() async => _local = (await Prefs.getInstance()).getBool('premium') ?? false;
 
   static Future<void> showPaywall(BuildContext context) => PaywallScreen.show(context);
 }

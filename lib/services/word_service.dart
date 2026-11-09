@@ -1,3 +1,4 @@
+import '../core/embed_env.dart';
 import 'dart:convert';
 
 import 'package:csv/csv.dart';
@@ -33,7 +34,7 @@ class WordService {
 
   Future<void> _load() async {
     try {
-      final raw = await rootBundle.loadString('assets/data/freq/lang_de_top.csv');
+      final raw = await rootBundle.loadString(assetPath('assets/data/freq/lang_de_top.csv'));
       final rows = const CsvToListConverter(eol: '\n', shouldParseNumbers: false).convert(raw);
       // header: rank,word,reading,ko,en,pos,level,picturable
       for (var i = 1; i < rows.length; i++) {
@@ -45,7 +46,7 @@ class WordService {
       }
     } catch (_) {}
     try {
-      final j = json.decode(await rootBundle.loadString('assets/data/vocab/travel_words.json')) as Map<String, dynamic>;
+      final j = json.decode(await rootBundle.loadString(assetPath('assets/data/vocab/travel_words.json'))) as Map<String, dynamic>;
       for (final t in (j['themes'] as List? ?? const [])) {
         for (final s in ((t as Map)['sections'] as List? ?? const [])) {
           for (final w in ((s as Map)['words'] as List? ?? const [])) {
