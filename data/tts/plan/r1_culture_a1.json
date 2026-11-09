@@ -7,44 +7,48 @@
   "1": {
    "segs": [
     [
-     "worried",
-     "Mia, sag mal: was habe ich gestern gemacht?"
+     "flustered",
+     "Mia, ich habe meine Jacke bei dir vergessen."
     ]
    ]
   },
   "2": {
    "segs": [
     [
-     "teasing",
-     "Du? Du hast „ja“ gesagt."
+     "cheerful",
+     "Ja, die habe ich."
+    ],
+    [
+     "cheerful",
+     "Ist sie schwarz?"
     ]
    ]
   },
   "3": {
    "segs": [
     [
-     "worried",
-     "Ich habe „ja“ gesagt? Und dann?"
+     "cheerful",
+     "Ja. Hast du gestern noch lange gespielt?"
     ]
    ]
   },
   "4": {
    "segs": [
     [
-     "excited",
-     "Dann bist du mit mir auf die Bühne gegangen."
+     "teasing",
+     "Bis zwei. Du bist schon um zehn gegangen."
     ]
    ]
   },
   "5": {
    "segs": [
     [
-     "surprised",
-     "Auf die Bühne?"
+     "worried",
+     "Ja, ich war so müde."
     ],
     [
-     "surprised",
-     "Echt jetzt? Was habe ich gemacht?"
+     "worried",
+     "Was habe ich verpasst?"
     ]
    ]
   },
@@ -52,19 +56,19 @@
    "segs": [
     [
      "amused",
-     "Musik gemacht!"
-    ],
-    [
-     "amused",
-     "Und der Mann da hat „noch mal!“ gesagt."
+     "Jonas hat getanzt."
     ]
    ]
   },
   "7": {
    "segs": [
     [
-     "flustered",
-     "Und ich? Was habe ich gesagt?"
+     "surprised",
+     "Jonas? Echt jetzt?"
+    ],
+    [
+     "surprised",
+     "Er tanzt doch nie!"
     ]
    ]
   },
@@ -72,11 +76,7 @@
    "segs": [
     [
      "teasing",
-     "„Ja“. Immer nur „ja“."
-    ],
-    [
-     "teasing",
-     "Jetzt bist du in der Band."
+     "Doch. Und er hat nach dir gefragt."
     ]
    ]
   }

@@ -8,19 +8,15 @@
    "segs": [
     [
      "cheerful",
-     "Felix, sag mal: was mache ich mit der Flasche?"
+     "Felix, gibst du mir mal das Salz?"
     ]
    ]
   },
   "2": {
    "segs": [
     [
-     "gentle",
-     "Mit der Flasche?"
-    ],
-    [
-     "gentle",
-     "Die gibst du mir."
+     "cheerful",
+     "Klar, hier. Was machst du denn?"
     ]
    ]
   },
@@ -28,7 +24,7 @@
    "segs": [
     [
      "cheerful",
-     "Okay, hier. Und mit dem da?"
+     "Nudeln. Willst du auch?"
     ]
    ]
   },
@@ -36,32 +32,23 @@
    "segs": [
     [
      "excited",
-     "Das auch. Und das."
-    ],
-    [
-     "excited",
-     "Gib mir alles!"
+     "Ja, gerne! Mach mir auch was."
     ]
    ]
   },
   "5": {
    "segs": [
     [
-     "surprised",
-     "Alles? Auch das hier?"
-    ],
-    [
-     "shout",
-     "Das ist mein Handy!"
+     "cheerful",
+     "Okay. Gib mir noch das da, bitte."
     ]
    ]
   },
   "6": {
    "segs": [
     [
-     "teasing",
-     "Ach so. Dann gebe ich es dir … morgen.",
-     "Ach so. Dann gebe ich es dir, morgen."
+     "amused",
+     "Das hier? Das ist mein Tee."
     ]
    ]
   },
@@ -69,7 +56,11 @@
    "segs": [
     [
      "tsukkomi",
-     "Morgen?! Felix, das gibst du mir jetzt!"
+     "Nein, nicht das!"
+    ],
+    [
+     "tsukkomi",
+     "Das Wasser da."
     ]
    ]
   },
@@ -77,11 +68,7 @@
    "segs": [
     [
      "teasing",
-     "Okay, hier. Und du?"
-    ],
-    [
-     "teasing",
-     "Was gibst du mir?"
+     "Ach so, hier. Aber mir machst du viel, ja?"
     ]
    ]
   }

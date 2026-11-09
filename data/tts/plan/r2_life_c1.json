@@ -7,108 +7,117 @@
   "1": {
    "segs": [
     [
-     "cheerful",
-     "Felix, kurz: wo kommt die Flasche hin? 🍾"
+     "worried",
+     "Felix, wohin mit den Flaschen?"
+    ],
+    [
+     "worried",
+     "Der Müll ist voll 🍾"
     ]
    ]
   },
   "2": {
    "segs": [
     [
-     "excited",
-     "Oh! Super Frage 😍 Groß oder klein?"
+     "shout",
+     "Nicht in den Müll!"
+    ],
+    [
+     "shout",
+     "Das sind Pfandflaschen 😱"
     ]
    ]
   },
   "3": {
    "segs": [
     [
-     "flustered",
-     "Keine Ahnung."
-    ],
-    [
-     "flustered",
-     "Eine Flasche halt 🤷"
+     "surprised",
+     "Pfand? Was ist das?"
     ]
    ]
   },
   "4": {
    "segs": [
     [
-     "worried",
-     "Moment. Wo kommt sie her?"
+     "cheerful",
+     "Du bringst sie zum Supermarkt."
     ],
     [
-     "worried",
-     "Und wie alt ist sie?"
+     "cheerful",
+     "Pro Flasche gibt's Geld zurück."
     ]
    ]
   },
   "5": {
    "segs": [
     [
-     "tsukkomi",
-     "Felix. Es ist nur eine Flasche 😅"
+     "excited",
+     "Echt? Wie viel?"
     ]
    ]
   },
   "6": {
    "segs": [
     [
-     "excited",
-     "Nur?! Warte mal."
+     "cheerful",
+     "Fünfundzwanzig Cent."
     ],
     [
-     "excited",
-     "Ich schreibe dir alles auf."
+     "cheerful",
+     "Ich zähl mal … warte.",
+     "Ich zähl mal, warte."
     ]
    ]
   },
   "7": {
    "segs": [
     [
-     "cheerful",
-     "So. Zwanzig Regeln."
+     "excited",
+     "Achtundvierzig Flaschen."
     ],
     [
-     "cheerful",
-     "Und das ist nur für die Flasche 📜"
+     "excited",
+     "Das sind zwölf Euro 🤑"
     ]
    ]
   },
   "8": {
    "segs": [
     [
-     "tsukkomi",
-     "Zwanzig?! Felix, du spinnst 😂"
+     "surprised",
+     "Zwölf Euro?! Und die liegen hier seit Monaten?"
     ]
    ]
   },
   "9": {
    "segs": [
     [
-     "teasing",
-     "Regel einundzwanzig: Wer lacht, bringt die Flasche weg."
+     "gentle",
+     "Ja. Die sind für dich."
+    ],
+    [
+     "gentle",
+     "Willkommen in der WG 😇"
     ]
    ]
   },
   "10": {
    "segs": [
     [
-     "amused",
-     "Okay, okay. Und wo kommt sie jetzt hin?"
+     "excited",
+     "Felix, du bist der Beste!"
     ]
    ]
   },
   "11": {
    "segs": [
     [
-     "gentle",
-     "Lass sie da. Ich mach das morgen."
+     "teasing",
+     "Aber du bringst sie weg."
     ],
     [
-     "gentle",
-     "Ich liebe das 🥰"
+     "teasing",
+     "Regel Nummer eins 😏"
     ]
    ]
   }

@@ -8,7 +8,7 @@
    "segs": [
     [
      "flustered",
-     "Lena! Ich bin gleich da 🙈"
+     "Lena, sorry! Mein Bus hat Verspätung 🙈"
     ]
    ]
   },
@@ -16,79 +16,72 @@
    "segs": [
     [
      "annoyed",
-     "Gleich? Es ist zwei nach sechs."
-    ],
-    [
-     "annoyed",
-     "Ich warte schon 😤"
+     "Wie viel? Ich sitze schon im Café 😤"
     ]
    ]
   },
   "3": {
    "segs": [
     [
-     "surprised",
-     "Warte mal. Was höre ich da? 🎧"
+     "worried",
+     "Zehn Minuten."
+    ],
+    [
+     "worried",
+     "Sagt die App."
     ]
    ]
   },
   "4": {
    "segs": [
     [
-     "flustered",
-     "Was hörst du?"
-    ],
-    [
-     "flustered",
-     "Ich hab nichts gemacht!"
+     "cheerful",
+     "Okay. Ich bestell dir schon mal was."
     ]
    ]
   },
   "5": {
    "segs": [
     [
-     "amused",
-     "Dein Handy. Vier Minuten."
-    ],
-    [
-     "amused",
-     "Du, laut, mit Musik 😂"
+     "surprised",
+     "Äh … warte. Der Bus fährt zurück 😳",
+     "Äh, warte. Der Bus fährt zurück 😳"
     ]
    ]
   },
   "6": {
    "segs": [
     [
-     "flustered",
-     "Oh Mann. Das ist mir peinlich 🫣"
+     "tsukkomi",
+     "Zurück?! Welchen Bus hast du genommen?"
     ]
    ]
   },
   "7": {
    "segs": [
     [
-     "teasing",
-     "Warte, es geht noch weiter."
+     "worried",
+     "Die Hundert."
     ],
     [
-     "teasing",
-     "Ein Mann sagt: „Leise, bitte!“"
+     "worried",
+     "Ist das nicht richtig?"
     ]
    ]
   },
   "8": {
    "segs": [
     [
-     "excited",
-     "Und dann? Er macht mit! 🎶😂"
+     "amused",
+     "Die Hundert fährt in beide Richtungen 😂"
     ]
    ]
   },
   "9": {
    "segs": [
     [
-     "shout",
-     "Quatsch! Das gibt's doch nicht!"
+     "flustered",
+     "Oh Mann. Ich steige jetzt aus."
     ]
    ]
   },
@@ -96,27 +89,31 @@
    "segs": [
     [
      "teasing",
-     "Doch. Und ich hab's noch 😈"
+     "Gut. Dein Kaffee wird kalt."
+    ],
+    [
+     "teasing",
+     "Ich trink ihn jetzt 😇"
     ]
    ]
   },
   "11": {
    "segs": [
     [
-     "worried",
-     "Lena, bitte! Ich bin in zwei Minuten da!"
+     "shout",
+     "Lena! Das gibt's doch nicht!"
     ]
    ]
   },
   "12": {
    "segs": [
     [
-     "gentle",
-     "Gut. Ab jetzt pünktlich."
+     "teasing",
+     "Doch. Ab jetzt pünktlich."
     ],
     [
      "teasing",
-     "Sonst hört es jeder 😇"
+     "Dann kriegst du auch Kaffee ☕"
     ]
    ]
   }

@@ -3,16 +3,11 @@
  "region": "R1",
  "island": "life",
  "kind": "short",
- "title": "다 나한테 줘!",
- "emoji": "♻️",
- "scene": "WG 부엌. 병 하나 어떻게 하냐고 물었더니 분리수거에 진심인 Felix 가 휴대폰까지 걷어 간다",
  "speakers": {
   "A": "{name}",
   "B": "Felix"
  },
  "register": "casual",
- "twist": 4,
- "twist_type": "chaos",
  "flags": [],
  "purpose": [
   "daily_life",
@@ -21,74 +16,138 @@
  "domain": [
   "life"
  ],
- "expressions": [
-  "Sag mal",
-  "Okay",
-  "Ach so"
- ],
  "draft": true,
  "level": "1 관사·격·활용 골격",
+ "title": "소금 좀 줄래?",
+ "emoji": "🧂",
+ "scene": "셰어하우스 부엌. 파스타를 만들다 Felix 에게 이것저것 건네 달라고 한다",
+ "twist": 6,
+ "twist_type": "slip",
+ "expressions": [
+  "Klar",
+  "Ach so",
+  "Okay",
+  "Gerne"
+ ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "es": "Felix, sag mal: was mache ich mit der Flasche?",
-   "rd": "펠릭스, 자크 말: 바스 마헤 이히 미트 데어 플라셰?",
-   "ko": "펠릭스, 있잖아. 이 병 어떻게 해?",
-   "note": "mit der Flasche = 병을 가지고(여격)",
+   "es": "Felix, gibst du mir mal das Salz?",
+   "rd": "펠릭스, 깁스트 두 미어 말 다스 잘츠?",
+   "ko": "펠릭스, 소금 좀 줄래?",
+   "note": "gibst du mir = 나에게 줄래(여격 mir)",
    "tags": [
     "draft"
    ],
    "emotion": "cheerful",
    "lemmas": [
     [
+     "gibst",
+     "gibst",
+     ""
+    ],
+    [
      "mal",
      "mal",
      "말"
     ],
     [
-     "mache",
-     "machen",
-     "마헨"
-    ],
-    [
-     "Flasche",
-     "Flasche",
-     "플라셰"
+     "Salz",
+     "Salz",
+     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "es": "Mit der Flasche? Die gibst du mir.",
-   "rd": "미트 데어 플라셰? 디 깁스트 두 미어.",
-   "ko": "그 병? 그건 나한테 줘.",
-   "note": "mir = 나한테(여격)",
+   "es": "Klar, hier. Was machst du denn?",
+   "rd": "클라어, 히어. 바스 마흐스트 두 덴?",
+   "ko": "응, 여기. 뭐 만들어?",
+   "note": "denn = 질문을 부드럽게",
    "tags": [
     "draft"
    ],
-   "emotion": "gentle",
+   "emotion": "cheerful",
    "lemmas": [
     [
-     "Flasche",
-     "Flasche",
-     "플라셰"
+     "Klar",
+     "klar",
+     "클라어"
     ],
     [
-     "gibst",
-     "gibst",
-     ""
+     "hier",
+     "hier",
+     "히어"
+    ],
+    [
+     "machst",
+     "machen",
+     "마헨"
+    ],
+    [
+     "denn",
+     "denn",
+     "덴"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "es": "Okay, hier. Und mit dem da?",
-   "rd": "오케이, 히어. 운트 미트 뎀 다?",
-   "ko": "알았어, 여기. 그럼 저건?",
-   "note": "mit dem = 그걸 가지고(남성·중성 여격)",
+   "es": "Nudeln. Willst du auch?",
+   "rd": "누델른. 빌스트 두 아우흐?",
+   "ko": "파스타. 너도 먹을래?",
+   "note": "Nudeln = 면, 파스타",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Nudeln",
+     "Nudeln",
+     ""
+    ],
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "Ja, gerne! Mach mir auch was.",
+   "rd": "야, 게어네! 마흐 미어 아우흐 바스.",
+   "ko": "응, 좋아! 나도 좀 해 줘.",
+   "note": "mach mir = 나에게 해 줘(여격)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "gerne",
+     "gern",
+     "게언"
+    ],
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "Okay. Gib mir noch das da, bitte.",
+   "rd": "오케이. 깁 미어 노흐 다스 다, 비테.",
+   "ko": "알았어. 그것도 좀 줘.",
+   "note": "das da = 저거",
    "tags": [
     "draft"
    ],
@@ -100,9 +159,67 @@
      "오케이"
     ],
     [
+     "Gib",
+     "gib",
+     ""
+    ],
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ],
+    [
+     "bitte",
+     "bitte",
+     "비테"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "Das hier? Das ist mein Tee.",
+   "rd": "다스 히어? 다스 이스트 마인 테.",
+   "ko": "이거? 이건 내 차인데.",
+   "note": "Tee = 차",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
      "hier",
      "hier",
      "히어"
+    ],
+    [
+     "Tee",
+     "Tee",
+     "테"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "Nein, nicht das! Das Wasser da.",
+   "rd": "나인, 니히트 다스! 다스 바서 다.",
+   "ko": "아니, 그거 말고! 거기 물.",
+   "note": "Wasser = 물",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Wasser",
+     "Wasser",
+     "바서"
     ],
     [
      "da",
@@ -112,74 +229,12 @@
    ]
   },
   {
-   "num": 4,
+   "num": 8,
    "speaker": "B",
-   "es": "Das auch. Und das. Gib mir alles!",
-   "rd": "다스 아우흐. 운트 다스. 깁 미어 알레스!",
-   "ko": "그것도. 그것도. 다 나한테 줘!",
-   "note": "Gib mir … = 나한테 줘",
-   "tags": [
-    "draft"
-   ],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "auch",
-     "auch",
-     "아우흐"
-    ],
-    [
-     "Gib",
-     "gib",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "es": "Alles? Auch das hier? Das ist mein Handy!",
-   "rd": "알레스? 아우흐 다스 히어? 다스 이스트 마인 헨디!",
-   "ko": "다? 이것도? 이건 내 폰이야!",
-   "note": "Handy = 휴대폰",
-   "tags": [
-    "draft"
-   ],
-   "segs": [
-    [
-     "surprised",
-     "Alles? Auch das hier? "
-    ],
-    [
-     "shout",
-     "Das ist mein Handy!"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Auch",
-     "auch",
-     "아우흐"
-    ],
-    [
-     "hier",
-     "hier",
-     "히어"
-    ],
-    [
-     "Handy",
-     "Handy",
-     "헨디"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "es": "Ach so. Dann gebe ich es dir … morgen.",
-   "rd": "아흐 조. 단 게베 이히 에스 디어 … 모어겐.",
-   "ko": "아 그래. 그럼 돌려줄게… 내일.",
-   "note": "dir = 너한테(여격)",
+   "es": "Ach so, hier. Aber mir machst du viel, ja?",
+   "rd": "아흐 조, 히어. 아버 미어 마흐스트 두 필, 야?",
+   "ko": "아 그거, 여기. 대신 내 건 많이 해 줘, 알았지?",
+   "note": "mir machst du = 나한테 해 줘(여격이 앞으로)",
    "tags": [
     "draft"
    ],
@@ -191,77 +246,19 @@
      "조"
     ],
     [
-     "Dann",
-     "dann",
-     "단"
-    ],
-    [
-     "gebe",
-     "geben",
-     "게벤"
-    ],
-    [
-     "morgen",
-     "morgen",
-     "모어겐"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "es": "Morgen?! Felix, das gibst du mir jetzt!",
-   "rd": "모어겐?! 펠릭스, 다스 깁스트 두 미어 예츠트!",
-   "ko": "내일?! 펠릭스, 지금 내놔!",
-   "note": "das gibst du mir = 그거 나한테 줘",
-   "tags": [
-    "draft"
-   ],
-   "emotion": "tsukkomi",
-   "lemmas": [
-    [
-     "Morgen",
-     "morgen",
-     "모어겐"
-    ],
-    [
-     "gibst",
-     "gibst",
-     ""
-    ],
-    [
-     "jetzt",
-     "jetzt",
-     "예츠트"
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "B",
-   "es": "Okay, hier. Und du? Was gibst du mir?",
-   "rd": "오케이, 히어. 운트 두? 바스 깁스트 두 미어?",
-   "ko": "알았어, 여기. 그럼 넌? 나한테 뭐 줄 건데?",
-   "note": "Was gibst du mir? = 나한테 뭐 줄래?",
-   "tags": [
-    "draft"
-   ],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "Okay",
-     "Okay",
-     "오케이"
-    ],
-    [
      "hier",
      "hier",
      "히어"
     ],
     [
-     "gibst",
-     "gibst",
-     ""
+     "machst",
+     "machen",
+     "마헨"
+    ],
+    [
+     "ja",
+     "ja",
+     "야"
     ]
    ]
   }

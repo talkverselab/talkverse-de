@@ -3,16 +3,11 @@
  "region": "R2",
  "island": "life",
  "kind": "chat",
- "title": "병 하나, 규칙 스무 개",
- "emoji": "🍾",
- "scene": "WG 단톡 대신 1:1 채팅. 빈 병 하나 어디 버리냐고 물었더니 Felix 가 규칙을 쏟아낸다",
  "speakers": {
   "A": "{name}",
   "B": "Felix"
  },
  "register": "chat",
- "twist": 7,
- "twist_type": "chaos",
  "flags": [],
  "purpose": [
   "daily_life",
@@ -21,100 +16,108 @@
  "domain": [
   "life"
  ],
- "expressions": [
-  "Keine Ahnung",
-  "Warte mal",
-  "Du spinnst",
-  "Okay"
- ],
  "draft": true,
  "level": "2 챗 실전",
+ "title": "병 하나에 25센트",
+ "emoji": "🍾",
+ "scene": "셰어하우스 채팅. 쓰레기통이 꽉 차서 병을 버리려는데 Felix 가 말린다 — 보증금(Pfand) 병이다",
+ "twist": 7,
+ "twist_type": "chaos",
+ "expressions": [
+  "Echt?",
+  "Okay"
+ ],
  "turns": [
   {
    "num": 1,
    "speaker": "A",
-   "es": "Felix, kurz: wo kommt die Flasche hin? 🍾",
-   "rd": "펠릭스, 쿠어츠: 보 콤트 디 플라셰 힌?",
-   "ko": "펠릭스, 잠깐: 이 병 어디에 버려? 🍾",
-   "note": "Flasche = 병",
+   "es": "Felix, wohin mit den Flaschen? Der Müll ist voll 🍾",
+   "rd": "펠릭스, 보힌 미트 덴 플라셴? 데어 뮐 이스트 폴",
+   "ko": "펠릭스, 병 어디다 버려? 쓰레기통 꽉 찼어 🍾",
+   "note": "wohin mit … = …은 어디로",
    "tags": [
     "draft"
    ],
-   "emotion": "cheerful",
+   "emotion": "worried",
    "ui": "bubble",
-   "at": "20:14",
+   "at": "19:10",
    "lemmas": [
     [
-     "kurz",
-     "kurz",
-     "쿠어츠"
-    ],
-    [
-     "kommt",
-     "kommen",
-     "코멘"
-    ],
-    [
-     "Flasche",
+     "Flaschen",
      "Flasche",
      "플라셰"
     ],
     [
-     "hin",
-     "hin",
-     "힌"
+     "Müll",
+     "Müll",
+     ""
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "es": "Oh! Super Frage 😍 Groß oder klein?",
-   "rd": "오! 주퍼 프라게 그로스 오더 클라인?",
-   "ko": "오! 질문 좋다 큰 거야 작은 거야?",
-   "note": "Gute Frage = 좋은 질문",
+   "es": "Nicht in den Müll! Das sind Pfandflaschen 😱",
+   "rd": "니히트 인 덴 뮐! 다스 진트 판트플라셴",
+   "ko": "쓰레기통 말고! 그거 보증금 병이야 😱",
+   "note": "Pfand = 병 보증금",
    "tags": [
     "draft"
    ],
-   "emotion": "excited",
+   "emotion": "shout",
    "ui": "bubble",
-   "at": "20:14",
+   "at": "19:11",
    "lemmas": [
     [
-     "Super",
-     "Super",
+     "Müll",
+     "Müll",
      ""
     ],
     [
-     "Frage",
-     "Frage",
-     "프라게"
-    ],
-    [
-     "klein",
-     "klein",
-     "클라인"
+     "Pfandflaschen",
+     "Pfandflasche",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "es": "Keine Ahnung. Eine Flasche halt 🤷",
-   "rd": "카이네 아눙. 아이네 플라셰 할트",
-   "ko": "몰라. 그냥 병이야 🤷",
-   "note": "halt = 그냥(어쩔 수 없다는 느낌)",
+   "es": "Pfand? Was ist das?",
+   "rd": "판트? 바스 이스트 다스?",
+   "ko": "보증금? 그게 뭔데?",
+   "note": "Was ist das? = 그게 뭐야?",
    "tags": [
     "draft"
    ],
-   "emotion": "flustered",
+   "emotion": "surprised",
    "ui": "bubble",
-   "at": "20:15",
+   "at": "19:11",
+   "lemmas": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "Du bringst sie zum Supermarkt. Pro Flasche gibt's Geld zurück.",
+   "rd": "두 브링스트 지 춤 주퍼마어크트. 프로 플라셰 깁츠 겔트 추뤽.",
+   "ko": "슈퍼에 가져가는 거야. 병마다 돈을 돌려받아.",
+   "note": "zum = zu dem(여격)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "19:12",
    "lemmas": [
     [
-     "Ahnung",
-     "Ahnung",
-     "아눙"
+     "bringst",
+     "bringen",
+     "브링엔"
+    ],
+    [
+     "Supermarkt",
+     "Supermarkt",
+     ""
     ],
     [
      "Flasche",
@@ -122,107 +125,66 @@
      "플라셰"
     ],
     [
-     "halt",
-     "halt",
-     "할트"
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "B",
-   "es": "Moment. Wo kommt sie her? Und wie alt ist sie?",
-   "rd": "모멘트. 보 콤트 지 헤어? 운트 비 알트 이스트 지?",
-   "ko": "잠깐. 그거 어디서 났어? 그리고 얼마나 오래됐어?",
-   "note": "wo kommt … her = 어디서 왔나",
-   "tags": [
-    "draft"
-   ],
-   "emotion": "worried",
-   "ui": "bubble",
-   "at": "20:15",
-   "lemmas": [
-    [
-     "Moment",
-     "Moment",
-     "모멘트"
+     "gibt's",
+     "gibt's",
+     ""
     ],
     [
-     "Wo",
-     "wo",
-     "보"
+     "Geld",
+     "Geld",
+     "겔트"
     ],
     [
-     "kommt",
-     "kommen",
-     "코멘"
-    ],
-    [
-     "her",
-     "her",
-     "헤어"
-    ],
-    [
-     "wie",
-     "wie",
-     "비"
-    ],
-    [
-     "alt",
-     "alt",
-     "알트"
+     "zurück",
+     "zurück",
+     "추뤽"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "es": "Felix. Es ist nur eine Flasche 😅",
-   "rd": "펠릭스. 에스 이스트 누어 아이네 플라셰",
-   "ko": "펠릭스. 그냥 병 하나라고 😅",
-   "note": "nur = 그냥, ~일 뿐",
+   "es": "Echt? Wie viel?",
+   "rd": "에히트? 비 필?",
+   "ko": "진짜? 얼마나?",
+   "note": "Wie viel? = 얼마나?",
    "tags": [
     "draft"
    ],
-   "emotion": "tsukkomi",
+   "emotion": "excited",
    "ui": "bubble",
-   "at": "20:16",
+   "at": "19:12",
    "lemmas": [
     [
-     "nur",
-     "nur",
-     "누어"
+     "Echt",
+     "echt",
+     "에히트"
     ],
     [
-     "Flasche",
-     "Flasche",
-     "플라셰"
+     "Wie",
+     "wie",
+     "비"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "es": "Nur?! Warte mal. Ich schreibe dir alles auf.",
-   "rd": "누어?! 바어테 말. 이히 슈라이베 디어 알레스 아우프.",
-   "ko": "그냥?! 잠깐만. 내가 다 적어 줄게.",
-   "note": "aufschreiben = 적어 두다",
+   "es": "Fünfundzwanzig Cent. Ich zähl mal … warte.",
+   "rd": "퓐프운트츠반치히 센트. 이히 첼 말 … 바어테.",
+   "ko": "25센트. 잠깐, 세어 볼게…",
+   "note": "zählen = 세다",
    "tags": [
     "draft"
    ],
-   "emotion": "excited",
+   "emotion": "cheerful",
    "ui": "bubble",
-   "at": "20:16",
+   "at": "19:13",
    "lemmas": [
     [
-     "Nur",
-     "nur",
-     "누어"
-    ],
-    [
-     "Warte",
-     "warten",
-     "바어텐"
+     "zähl",
+     "zählen",
+     "첼렌"
     ],
     [
      "mal",
@@ -230,184 +192,149 @@
      "말"
     ],
     [
-     "schreibe",
-     "schreiben",
-     "슈라이벤"
+     "warte",
+     "warten",
+     "바어텐"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "es": "So. Zwanzig Regeln. Und das ist nur für die Flasche 📜",
-   "rd": "조. 츠반치히 레겔른. 운트 다스 이스트 누어 퓌어 디 플라셰",
-   "ko": "자. 규칙 스무 개. 이건 병 하나에 대한 거야 📜",
-   "note": "Regel = 규칙",
+   "es": "Achtundvierzig Flaschen. Das sind zwölf Euro 🤑",
+   "rd": "아흐트운트피어치히 플라셴. 다스 진트 츠뵐프 오이로",
+   "ko": "마흔여덟 병. 12유로야 🤑",
+   "note": "das sind = 그건 ~이다(복수)",
    "tags": [
     "draft"
    ],
-   "emotion": "cheerful",
+   "emotion": "excited",
    "ui": "bubble",
-   "at": "20:19",
+   "at": "19:15",
    "lemmas": [
     [
-     "Regeln",
-     "regeln",
-     "레겔른"
-    ],
-    [
-     "nur",
-     "nur",
-     "누어"
-    ],
-    [
-     "Flasche",
+     "Flaschen",
      "Flasche",
      "플라셰"
+    ],
+    [
+     "Euro",
+     "Euro",
+     "오이로"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "es": "Zwanzig?! Felix, du spinnst 😂",
-   "rd": "츠반치히?! 펠릭스, 두 슈핀스트",
-   "ko": "스무 개?! 펠릭스, 너 미쳤구나 😂",
-   "note": "Du spinnst = 너 미쳤어",
+   "es": "Zwölf Euro?! Und die liegen hier seit Monaten?",
+   "rd": "츠뵐프 오이로?! 운트 디 리겐 히어 자이트 모나텐?",
+   "ko": "12유로?! 그게 몇 달째 여기 있었던 거야?",
+   "note": "seit Monaten = 몇 달째",
    "tags": [
     "draft"
    ],
-   "emotion": "tsukkomi",
+   "emotion": "surprised",
    "ui": "bubble",
-   "at": "20:20",
+   "at": "19:15",
    "lemmas": [
     [
-     "spinnst",
-     "spinnen",
-     "슈피넨"
+     "Euro",
+     "Euro",
+     "오이로"
+    ],
+    [
+     "liegen",
+     "liegen",
+     "리겐"
+    ],
+    [
+     "hier",
+     "hier",
+     "히어"
+    ],
+    [
+     "Monaten",
+     "Monat",
+     "모나트"
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "B",
-   "es": "Regel einundzwanzig: Wer lacht, bringt die Flasche weg.",
-   "rd": "레겔 아인운트츠반치히: 베어 라흐트, 브링트 디 플라셰 베크.",
-   "ko": "규칙 21번: 웃는 사람이 병 갖다 버린다.",
-   "note": "wer lacht = 웃는 사람은",
+   "es": "Ja. Die sind für dich. Willkommen in der WG 😇",
+   "rd": "야. 디 진트 퓌어 디히. 빌코멘 인 데어 베게",
+   "ko": "응. 너 주려고. 우리 집 온 거 환영해 😇",
+   "note": "WG = 셰어하우스",
    "tags": [
     "draft"
    ],
-   "emotion": "teasing",
+   "emotion": "gentle",
    "ui": "bubble",
-   "at": "20:20",
+   "at": "19:16",
    "lemmas": [
     [
-     "Regel",
-     "regen",
-     "레겐"
-    ],
-    [
-     "lacht",
-     "lachen",
-     "라헨"
-    ],
-    [
-     "bringt",
-     "bringen",
-     "브링엔"
-    ],
-    [
-     "Flasche",
-     "Flasche",
-     "플라셰"
-    ],
-    [
-     "weg",
-     "weg",
-     "베크"
+     "Willkommen",
+     "willkommen",
+     "빌코멘"
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "A",
-   "es": "Okay, okay. Und wo kommt sie jetzt hin?",
-   "rd": "오케이, 오케이. 운트 보 콤트 지 예츠트 힌?",
-   "ko": "알았어, 알았어. 그래서 이거 어디에 넣는데?",
-   "note": "wo kommt … hin = 어디에 두나",
+   "es": "Felix, du bist der Beste!",
+   "rd": "펠릭스, 두 비스트 데어 베스테!",
+   "ko": "펠릭스, 너 최고다!",
+   "note": "der Beste = 최고",
    "tags": [
     "draft"
    ],
-   "emotion": "amused",
+   "emotion": "excited",
    "ui": "bubble",
-   "at": "20:21",
+   "at": "19:16",
    "lemmas": [
     [
-     "Okay",
-     "Okay",
-     "오케이"
-    ],
-    [
-     "okay",
-     "Okay",
-     "오케이"
-    ],
-    [
-     "wo",
-     "wo",
-     "보"
-    ],
-    [
-     "kommt",
-     "kommen",
-     "코멘"
-    ],
-    [
-     "jetzt",
-     "jetzt",
-     "예츠트"
-    ],
-    [
-     "hin",
-     "hin",
-     "힌"
+     "Beste",
+     "Gute",
+     ""
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "B",
-   "es": "Lass sie da. Ich mach das morgen. Ich liebe das 🥰",
-   "rd": "라스 지 다. 이히 마흐 다스 모어겐. 이히 리베 다스",
-   "ko": "그냥 둬. 내일 내가 할게. 나 이거 너무 좋아해 🥰",
-   "note": "Lass sie da = 거기 둬",
+   "es": "Aber du bringst sie weg. Regel Nummer eins 😏",
+   "rd": "아버 두 브링스트 지 베크. 레겔 눔머 아인스",
+   "ko": "대신 갖다 주는 건 너야. 규칙 1번 😏",
+   "note": "wegbringen = 갖다 놓다(분리동사)",
    "tags": [
     "draft"
    ],
-   "emotion": "gentle",
+   "emotion": "teasing",
    "ui": "bubble",
-   "at": "20:22",
+   "at": "19:17",
    "lemmas": [
     [
-     "da",
-     "da",
-     "다"
+     "bringst",
+     "bringen",
+     "브링엔"
     ],
     [
-     "mach",
-     "machen",
-     "마헨"
+     "weg",
+     "weg",
+     "베크"
     ],
     [
-     "morgen",
-     "morgen",
-     "모어겐"
+     "Regel",
+     "regen",
+     "레겐"
     ],
     [
-     "liebe",
-     "lieben",
-     "리벤"
+     "Nummer",
+     "Nummer",
+     "눔머"
     ]
    ]
   }
