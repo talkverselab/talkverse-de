@@ -12,7 +12,7 @@
 
 **Grok 최소 프롬프트(사용자 지시 2026-11-09)**: 규칙은 `docs/GROK_RULES_de.md` 한 번, 방 첫 메시지 `python3 tools/rewrite_request.py --first`, 이후 편마다 파일 주소 한 줄(`data/review/grok/<편id>_prompt.md`). 그림이 처음과 달라지면 최초 통과 그림 기준(이미 만든 것은 그대로). 회화는 줄마다 감정 열 필수.
 
-**회화 원칙 추가(2026-11-09)**: 일상이 먼저, 반전은 있을 법한 작은 의외성까지(`docs/DIALOGUE_RULES_de.md` §8). **음성 생성은 새벽 01:00~07:00 에만**(전역 규칙, 사용자 지시 2026-11-09).
+**회화 원칙 추가(2026-11-09)**: 일상 장면 안에서 반전·러브·플러팅을 다 넣는다(줄이지 않음, 비현실적 설정만 금지 — `docs/DIALOGUE_RULES_de.md` §8). **음성 생성은 새벽 01:00~07:00 에만**(전역 규칙, 사용자 지시 2026-11-09).
 
 **남은 일(순서)**
 1. **Grok 회화 재작성** — 11-09 13:30 재개(uk 공지), 사용자 지시 뒤. 준비물: 요청문 26편 `data/review/grok/<편id>_prompt.md`, 틀 `tools/prompts/rewrite_grok.md`, 반영 `tools/apply_rewrite.py`, 전송 `tools/grok_send.py` 등. 독일어 M4 Chrome 포트 미배정(기본값 9233) — 시작할 때 `~/talkverse/GROK_M4_LOGIN.md` 15행에 보태고 `~/chrome-grok-de` 생성. 샘플 1~2편 → 사용자 통과 → 본작업.
