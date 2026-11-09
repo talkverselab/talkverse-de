@@ -1,8 +1,12 @@
 # HANDOFF — talkverse-de (독일어유니버스)
 
-## 다음에 할 내용 (2026-11-08, 세션 종료 시점)
+## 다음에 할 내용 (2026-11-09, 세션 종료 시점)
 
-**현재 상태**: master `b8791b7` 까지 푸시. 배포 = Zealot 빌드 14 https://apps.talkverse.uk/8itFp/371 · TestFlight 2611081703(같은 커밋 `088bb04`, 알파벳과 발음 포함). 작업 트리의 남은 변경은 빌드 잡음뿐(커밋하지 않음).
+**현재 상태**: master `5fd0aca` 까지 푸시. 배포 = Zealot 빌드 16 https://apps.talkverse.uk/8itFp/426 · TestFlight 2611091216(같은 커밋). 이번에 들어간 것: 가격 확정표(uk 커밋 7423bac — lang_de_1m·3m·1y·life·all_1y·all_life, 결제 화면 규정 표기) · 스토어 차별화 문서 `docs/STORE_PRODUCTS.md`·`docs/store/review_notes.md` · 통합 앱 연결점(`lib/embed.dart`·`core/embed_env.dart`·`core/prefs.dart`, 패키지 `german_universe`, 콜백 `talkverse.de://auth`). 작업 트리의 남은 변경은 빌드 잡음뿐.
+
+- ⚠ 이 빌드부터 설정 키·DB 파일·그림 폴더가 `de_` 이름으로 바뀐다(단독 앱은 처음 실행 때 옛 이름에서 한 번 옮김). 코드 확인·시뮬레이터 새 설치 실행만 했고 **옛 데이터가 있는 폰에서 업데이트 확인은 아직** — 학습 기록이 남는지 확인할 것.
+- ⚠ 스토어 문서 작성 중 발견: 「동사 활용」 데이터 0개(화면이 계속 로딩), 「성·수」 준비 중 — 출시 전 채우거나 메뉴에서 뺀다(`docs/STORE_PRODUCTS.md` 체크리스트).
+- 통합 앱(~/talkverse/talkverse-app) 연결은 talkverse-uk 가 한다 — 이 저장소에서 통합 앱을 고치거나 빌드하지 않는다.
 
 **남은 일(순서)**
 1. **Grok 회화 재작성** — 11-09 13:30 재개(uk 공지), 사용자 지시 뒤. 준비물: 요청문 26편 `data/review/grok/<편id>_prompt.md`, 틀 `tools/prompts/rewrite_grok.md`, 반영 `tools/apply_rewrite.py`, 전송 `tools/grok_send.py` 등. 독일어 M4 Chrome 포트 미배정(기본값 9233) — 시작할 때 `~/talkverse/GROK_M4_LOGIN.md` 15행에 보태고 `~/chrome-grok-de` 생성. 샘플 1~2편 → 사용자 통과 → 본작업.
@@ -77,8 +81,8 @@ _2026-11-03 새로 씀. 앞 판(2026-10-11 메모·Zealot 확인 필요)은 이 
 | UX/UI 시안 ② | **통과** 2026-11-03 — 글 `data/review/uxui/sian_de_01.md`(직접 작성), 그림 `sian_de_01.jpg`. 일본어앱 시안 02 + 독일어 칸 2개(명사 성 점·단어 시트 / du·Sie 배지) |
 | 아이패드 빌드 ③ | **완료** — 두 화면(레일·왼쪽 칸·오른쪽 칸), 만화책 읽기형 회화 리더, 그림 카드, 진행 탭 성과 데스크, 프로필 학습자 이름·성별. iPad Air 13 스크린샷 9장 넘침 0·예외 0(`integration_test/dialogue_pane_test.dart`, `tools/pane_shots.py`) |
 | Talkverse ID 로그인·평생 이용권 | 코드 들어감(`lib/data/account.dart`·`purchase.dart`·`entitlement.dart`, 로그인·잠금 시트, 프로필 계정 칸). client_id `de`, 딥링크 `talkverse.de://auth`, 상품 iOS `com.talkverse.germanUniverse.lifetime` / Android `lang_de`. **잠긴 콘텐츠 없음** |
-| Android | CI 빌드 14(`088bb04`, 알파벳과 발음 메뉴) → Zealot 「독일어유니버스」 https://apps.talkverse.uk/8itFp/371 , PC 백업. 그 전 13 /8itFp/349(11-07 개편), 12 /8itFp/310
-| iOS | TestFlight **2611081703**(`088bb04`, 알파벳과 발음, Apple 로그인 entitlement 확인). 그 전 2611081627(11-07 개편) |
+| Android | CI 빌드 16(`5fd0aca`, 가격표·통합 앱 연결점) → Zealot https://apps.talkverse.uk/8itFp/426 , PC 백업. 그 전 14 /8itFp/371(알파벳과 발음), 13 /8itFp/349
+| iOS | TestFlight **2611091216**(`5fd0aca`, Apple 로그인 entitlement 확인). 그 전 2611081703(알파벳과 발음) |
 | 서명 키 | 원래 키 그대로(SHA-1 `9C:C4:…`), PC `D:\keys\talkverse-de\` 백업, Doppler `SIGNKEY_*` |
 | 저작권 | 출처 이름 든 파서·주석 삭제(`2db89c2`). 과거 이력 9커밋에 이름이 남아 있음 — 정리 안 함 |
 | 태그 | `pre-grok-uxui` = UX 시안 적용 전(`75cc18b`) |
