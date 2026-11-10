@@ -114,3 +114,9 @@ _2026-11-03 새로 씀. 앞 판(2026-10-11 메모·Zealot 확인 필요)은 이 
 - Android: master 푸시 → CI(빌드 번호 = 실행 번호) → `tools/zealot_push.sh --ci "변경 한 줄"` → PC 백업. `**.md`·`tools/**`·`ios/**` 만 바뀐 푸시는 빌드 안 함.
 - iOS: `bash tools/ios_release.sh`(백그라운드, 8~12분, 빌드 번호 = KST yymmddHHMM) → 끝나면 ipa 를 풀어 `codesign -d --entitlements :-` 에 `applesignin` 확인.
 - 빌드 뒤 잡음(xcconfig·xcscheme·Podfile·swiftpm·launch_background 등 CRLF)은 커밋하지 않는다.
+
+## 2026-11-10 종료 상태 (사용자 지시 "M6 꽉 참 — 정리 후 세션 닫기")
+- 정리: build/·.dart_tool/·android/.gradle·ios/Pods·tools/__pycache__ 삭제(약 4.2GB). 다시 빌드할 땐 `flutter pub get` → iOS 는 `pod install`.
+- Grok 재작성: 26편 중 14편(R0~R2) 답 `data/review/grok/out/`, 남은 12편(R3~R5, r3_friends_b1 포함). Grok 주간 한도 11/16 초기화 — 그 뒤 재개. 터널은 `ssh -fN -L '127.0.0.1:9258:[::1]:9258' pc`(th 가 9259 로 옮겼으면 일반 꼴도 됨, `/json/list` 로 de 방인지 확인).
+- 다음 할 일: ① 받은 14편 검토(초안 재사용·레벨 문법) → `data/review/final/` → `apply_rewrite.py` → `check_dialogues.py --fix-rd --align-rd` ② 남은 12편 재작성 ③ 자산 DB 업로드 — 공용 `talkverse-db` 에 회화·문장·음성·단어표 표가 없어 uk 세션이 표 이름·칸을 정해 주면 올림(그림은 uk). IPA 임시 그림은 올리지 않음.
+- 지울 후보(애매해 남김): 없음.
