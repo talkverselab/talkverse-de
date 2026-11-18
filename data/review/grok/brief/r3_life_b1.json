@@ -1,0 +1,177 @@
+{
+ "id": "r3_life_b1",
+ "region": "R3",
+ "island": "life",
+ "kind": "long",
+ "title": "일요일의 유리병",
+ "emoji": "🍾",
+ "scene": "일요일 아침, 룸메이트 Felix 의 규칙표대로 유리병을 버리다가 이웃 Frau Becker 에게 걸린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Frau Becker",
+  "C": "Felix"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "daily_life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Entschuldigung",
+  "Tut mir leid",
+  "Ach so",
+  "Genau",
+  "Wollen wir uns duzen?",
+  "Gerne"
+ ],
+ "duzen": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "annoyed"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "neutral"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "annoyed"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "neutral"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "polite"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "surprised"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "shout"
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "shout"
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "stiff"
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "amused"
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "flustered"
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 16,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "level": "3 그래머2",
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

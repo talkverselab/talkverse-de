@@ -36,10 +36,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "es": "Guten Tag. Was kann ich für Sie tun?",
-   "rd": "구텐 탁. 바스 칸 이히 퓌어 지 툰?",
-   "ko": "안녕하세요. 뭘 도와드릴까요?",
-   "note": "für Sie tun = 해 드리다",
+   "es": "Guten Tag! Was kann ich für Sie tun?",
+   "rd": "구텐 탁! 바스 칸 이히 퓌어 지 툰?",
+   "ko": "안녕하세요! 무엇을 도와드릴까요?",
+   "note": "약국 시작",
    "tags": [
     "draft"
    ],
@@ -65,20 +65,15 @@
   {
    "num": 2,
    "speaker": "A",
-   "es": "Mein Hals tut weh, und meine Beine auch. Eigentlich tut alles weh.",
-   "rd": "마인 할스 투트 베, 운트 마이네 바이네 아우흐. 아이겐틀리히 투트 알레스 베.",
-   "ko": "목이 아프고 다리도 아파요. 사실 다 아파요.",
-   "note": "weh tun = 아프다",
+   "es": "Mir tut alles weh. Rücken, Beine, Arme.",
+   "rd": "미어 투트 알레스 베. 뤼켄, 바이네, 아어메.",
+   "ko": "온몸이 아파요. 등, 다리, 팔.",
+   "note": "슬프게",
    "tags": [
     "draft"
    ],
    "emotion": "sad",
    "lemmas": [
-    [
-     "Hals",
-     "Hals",
-     "할스"
-    ],
     [
      "tut",
      "tun",
@@ -88,6 +83,11 @@
      "weh",
      "weh",
      "베"
+    ],
+    [
+     "Rücken",
+     "Rücken",
+     "뤼켄"
     ],
     [
      "Beine",
@@ -95,226 +95,75 @@
      "바인"
     ],
     [
-     "auch",
-     "auch",
-     "아우흐"
-    ],
-    [
-     "Eigentlich",
-     "eigentlich",
-     "아이겐틀리히"
-    ],
-    [
-     "tut",
-     "tun",
-     "툰"
-    ],
-    [
-     "weh",
-     "weh",
-     "베"
+     "Arme",
+     "Arm",
+     "아엄"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "C",
-   "es": "Wir sind nur drei Tage hier, und {name} ist schon krank.",
-   "rd": "비어 진트 누어 드라이 타게 히어, 운트 {name} 이스트 숀 크랑크.",
-   "ko": "여기 사흘밖에 안 있는데 {name}가 벌써 아파요.",
-   "note": "krank = 아픈",
+   "es": "Eigentlich war es nur eine kurze Radtour.",
+   "rd": "아이겐틀리히 바어 에스 누어 아이네 쿠어체 라토우어.",
+   "ko": "사실은 짧은 자전거 길이었어.",
+   "note": "걱정",
    "tags": [
     "draft"
    ],
    "emotion": "worried",
    "lemmas": [
     [
+     "Eigentlich",
+     "eigentlich",
+     "아이겐틀리히"
+    ],
+    [
      "nur",
      "nur",
      "누어"
     ],
     [
-     "Tage",
-     "Tag",
-     "탁"
+     "kurze",
+     "kurz",
+     "쿠어츠"
     ],
     [
-     "hier",
-     "hier",
-     "히어"
-    ],
-    [
-     "schon",
-     "schon",
-     "숀"
-    ],
-    [
-     "krank",
-     "krank",
-     "크랑크"
+     "Radtour",
+     "Radtour",
+     ""
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "es": "Haben Sie Fieber? Und seit wann haben Sie das?",
-   "rd": "하벤 지 피버? 운트 자이트 반 하벤 지 다스?",
-   "ko": "열이 있으세요? 언제부터 그러셨어요?",
-   "note": "Fieber = 열(체온)",
+   "es": "Leider klingt das nach Muskelkater. Wie weit sind Sie gefahren?",
+   "rd": "라이더 클링트 다스 나흐 무스켈카터. 비 바이트 진트 지 게파렌?",
+   "ko": "유감이지만 근육통 같네요. 얼마나 타셨나요?",
+   "note": "정중히",
    "tags": [
     "draft"
    ],
    "emotion": "polite",
    "lemmas": [
     [
-     "Fieber",
-     "Fieber",
+     "Leider",
+     "leider",
+     "라이더"
+    ],
+    [
+     "klingt",
+     "klingen",
+     "클링엔"
+    ],
+    [
+     "Muskelkater",
+     "Muskelkater",
      ""
     ],
     [
-     "wann",
-     "wann",
-     "반"
-    ],
-    [
-     "haben",
-     "haben",
-     "하벤"
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "es": "Seit gestern Abend. Kein Fieber, aber ich bin total müde.",
-   "rd": "자이트 게스턴 아벤트. 카인 피버, 아버 이히 빈 토탈 뮈데.",
-   "ko": "어제 저녁부터요. 열은 없는데 완전 녹초예요.",
-   "note": "müde = 피곤한",
-   "tags": [
-    "draft"
-   ],
-   "emotion": "sad",
-   "lemmas": [
-    [
-     "gestern",
-     "gestern",
-     "게스턴"
-    ],
-    [
-     "Abend",
-     "Abend",
-     "아벤트"
-    ],
-    [
-     "Fieber",
-     "Fieber",
-     ""
-    ],
-    [
-     "total",
-     "total",
-     "토탈"
-    ],
-    [
-     "müde",
-     "müde",
-     "뮈데"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "es": "Waren Sie gestern lange draußen? Im Wind, im Regen?",
-   "rd": "바렌 지 게스턴 랑에 드라우센? 임 빈트, 임 레겐?",
-   "ko": "어제 밖에 오래 계셨어요? 바람이나 비 맞으면서?",
-   "note": "draußen = 밖에",
-   "tags": [
-    "draft"
-   ],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "gestern",
-     "gestern",
-     "게스턴"
-    ],
-    [
-     "lange",
-     "lange",
-     "랑에"
-    ],
-    [
-     "draußen",
-     "draußen",
-     "드라우센"
-    ],
-    [
-     "Wind",
-     "Wind",
-     "빈트"
-    ],
-    [
-     "Regen",
-     "regen",
-     "레겐"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "C",
-   "es": "Nein, nein. Wir sind nur ein bisschen Fahrrad gefahren.",
-   "rd": "나인, 나인. 비어 진트 누어 아인 비스헨 파어라트 게파렌.",
-   "ko": "아뇨, 아뇨. 자전거 조금 탄 것뿐이에요.",
-   "note": "Fahrrad fahren = 자전거를 타다",
-   "tags": [
-    "draft"
-   ],
-   "emotion": "stiff",
-   "lemmas": [
-    [
-     "nur",
-     "nur",
-     "누어"
-    ],
-    [
-     "bisschen",
-     "bisschen",
-     "비스헨"
-    ],
-    [
-     "Fahrrad",
-     "fahren",
-     "파렌"
-    ],
-    [
-     "gefahren",
-     "fahren",
-     "파렌"
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "A",
-   "es": "Ein bisschen? Lena, wie weit sind wir wirklich gefahren?",
-   "rd": "아인 비스헨? 레나, 비 바이트 진트 비어 비어클리히 게파렌?",
-   "ko": "조금? 레나, 우리 진짜 얼마나 탄 거야?",
-   "note": "wie weit = 얼마나 멀리",
-   "tags": [
-    "draft"
-   ],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "bisschen",
-     "bisschen",
-     "비스헨"
-    ],
-    [
-     "wie",
+     "Wie",
      "wie",
      "비"
     ],
@@ -324,11 +173,6 @@
      "바이트"
     ],
     [
-     "wirklich",
-     "wirklich",
-     "비어클리히"
-    ],
-    [
      "gefahren",
      "fahren",
      "파렌"
@@ -336,30 +180,21 @@
    ]
   },
   {
-   "num": 9,
-   "speaker": "C",
-   "es": "Na ja … sechzig Kilometer. Im Regen. Gegen den Wind.",
-   "rd": "나 야 … 제히치히 킬로메터. 임 레겐. 게겐 덴 빈트.",
-   "ko": "음… 60킬로. 빗속에서. 맞바람 맞으며.",
-   "note": "gegen den Wind = 바람을 거슬러",
+   "num": 5,
+   "speaker": "A",
+   "es": "Sie hat gesagt, zehn Kilometer. Wirklich?",
+   "rd": "지 하트 게자크트, 첸 킬로메터. 비어클리히?",
+   "ko": "그녀가 십 킬로라고 했어. 진짜?",
+   "note": "슬프게",
    "tags": [
     "draft"
    ],
-   "segs": [
-    [
-     "flustered",
-     "Na ja … sechzig Kilometer. "
-    ],
-    [
-     "shy",
-     "Im Regen. Gegen den Wind."
-    ]
-   ],
+   "emotion": "sad",
    "lemmas": [
     [
-     "ja",
-     "ja",
-     "야"
+     "gesagt",
+     "sagen",
+     "자겐"
     ],
     [
      "Kilometer",
@@ -367,24 +202,155 @@
      "킬로메터"
     ],
     [
-     "Regen",
-     "regen",
-     "레겐"
+     "Wirklich",
+     "wirklich",
+     "비어클리히"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "Na ja, bei zehn Kilometern sollte es nicht so schlimm sein.",
+   "rd": "나 야, 바이 첸 키로메테언 졸테 에스 니히트 조 슐림 자인.",
+   "ko": "음, 십 킬로면 이렇게 심하지 않아야 해요.",
+   "note": "정중히",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "ja",
+     "ja",
+     "야"
     ],
     [
-     "Wind",
-     "Wind",
-     "빈트"
+     "Kilometern",
+     "Kilometer",
+     "킬로메터"
+    ],
+    [
+     "so",
+     "so",
+     "조"
+    ],
+    [
+     "schlimm",
+     "schlimm",
+     "슐림"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "es": "Es war halt ein bisschen länger.",
+   "rd": "에스 바어 할트 아인 비스헨 렝어.",
+   "ko": "그냥 조금 더 길었어.",
+   "note": "경직",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "halt",
+     "halt",
+     "할트"
+    ],
+    [
+     "bisschen",
+     "bisschen",
+     "비스헨"
+    ],
+    [
+     "länger",
+     "lang",
+     "랑"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "es": "Ach komm, wie viel länger denn?",
+   "rd": "아흐 콤, 비 필 렝어 덴?",
+   "ko": "에이, 얼마나 더 긴데?",
+   "note": "걱정",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "komm",
+     "kommen",
+     "코멘"
+    ],
+    [
+     "wie",
+     "wie",
+     "비"
+    ],
+    [
+     "viel",
+     "viel",
+     "필"
+    ],
+    [
+     "länger",
+     "lang",
+     "랑"
+    ],
+    [
+     "denn",
+     "denn",
+     "덴"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "es": "Eigentlich eher vierzig Kilometer. Mit Gegenwind.",
+   "rd": "아이겐틀리히 에어 피어치히 킬로메터. 미트 게겐빈트.",
+   "ko": "사실은 사십 킬로쯤. 역풍 불고.",
+   "note": "반전 공개",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Eigentlich",
+     "eigentlich",
+     "아이겐틀리히"
+    ],
+    [
+     "eher",
+     "eher",
+     "에어"
+    ],
+    [
+     "Kilometer",
+     "Kilometer",
+     "킬로메터"
+    ],
+    [
+     "Gegenwind",
+     "Gegenwind",
+     ""
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "A",
-   "es": "Sechzig? Du hast gesagt, es sind nur zehn!",
-   "rd": "제히치히? 두 하스트 게자크트, 에스 진트 누어 첸!",
-   "ko": "60? 10킬로라며!",
-   "note": "du hast gesagt = 네가 그랬잖아",
+   "es": "Vierzig?! Du hast zehn gesagt!",
+   "rd": "피어치히?! 두 하스트 첸 게자크트!",
+   "ko": "사십?! 너는 십이라고 했어!",
+   "note": "소리침",
    "tags": [
     "draft"
    ],
@@ -394,131 +360,44 @@
      "gesagt",
      "sagen",
      "자겐"
-    ],
-    [
-     "nur",
-     "nur",
-     "누어"
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "C",
-   "es": "Zehn, sechzig … das ist doch fast das Gleiche.",
-   "rd": "첸, 제히치히 … 다스 이스트 도흐 파스트 다스 글라이헤.",
-   "ko": "10이나 60이나… 거의 똑같잖아.",
-   "note": "fast das Gleiche = 거의 같은 것",
+   "es": "Na ja, für mich ist das kurz. Wirklich.",
+   "rd": "나 야, 퓌어 미히 이스트 다스 쿠어츠. 비어클리히.",
+   "ko": "음, 나한테는 짧은 거야. 진짜로.",
+   "note": "재미있게",
    "tags": [
     "draft"
    ],
    "emotion": "amused",
    "lemmas": [
     [
-     "doch",
-     "doch",
-     "도흐"
+     "kurz",
+     "kurz",
+     "쿠어츠"
     ],
     [
-     "fast",
-     "fast",
-     "파스트"
-    ],
-    [
-     "Gleiche",
-     "gleich",
-     "글라이히"
+     "Wirklich",
+     "wirklich",
+     "비어클리히"
     ]
    ]
   },
   {
    "num": 12,
    "speaker": "B",
-   "es": "Für den Hals nehmen Sie die hier, morgens und abends. Und für die Beine … ein Bett.",
-   "rd": "퓌어 덴 할스 네멘 지 디 히어, 모어겐스 운트 아벤츠. 운트 퓌어 디 바이네 … 아인 베트.",
-   "ko": "목에는 이거 드세요, 아침저녁으로. 그리고 다리에는… 침대요.",
-   "note": "morgens und abends = 아침저녁으로",
+   "es": "Leider brauchen Sie dann Salbe und Ruhe.",
+   "rd": "라이더 브라우헨 지 단 잘베 운트 루에.",
+   "ko": "유감이지만 그럼 연고랑 휴식이 필요해요.",
+   "note": "정중히",
    "tags": [
     "draft"
    ],
-   "segs": [
-    [
-     "polite",
-     "Für den Hals nehmen Sie die hier, morgens und abends. "
-    ],
-    [
-     "amused",
-     "Und für die Beine … ein Bett."
-    ]
-   ],
-   "lemmas": [
-    [
-     "Hals",
-     "Hals",
-     "할스"
-    ],
-    [
-     "nehmen",
-     "nehmen",
-     "네멘"
-    ],
-    [
-     "hier",
-     "hier",
-     "히어"
-    ],
-    [
-     "morgens",
-     "morgens",
-     "모어겐스"
-    ],
-    [
-     "abends",
-     "abends",
-     "아벤츠"
-    ],
-    [
-     "Beine",
-     "Bein",
-     "바인"
-    ],
-    [
-     "Bett",
-     "Bett",
-     "베트"
-    ]
-   ]
-  },
-  {
-   "num": 13,
-   "speaker": "A",
-   "es": "Haben Sie auch etwas gegen Lena?",
-   "rd": "하벤 지 아우흐 에트바스 게겐 레나?",
-   "ko": "레나한테 듣는 약도 있어요?",
-   "note": "etwas gegen = ~에 듣는 것",
-   "tags": [
-    "draft"
-   ],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "auch",
-     "auch",
-     "아우흐"
-    ]
-   ]
-  },
-  {
-   "num": 14,
-   "speaker": "B",
-   "es": "Leider nicht. Aber der Bahnhof ist gleich gegenüber.",
-   "rd": "라이더 니히트. 아버 데어 반호프 이스트 글라이히 게겐위버.",
-   "ko": "아쉽게도 없네요. 대신 기차역이 바로 맞은편이에요.",
-   "note": "gegenüber = 맞은편",
-   "tags": [
-    "draft"
-   ],
-   "emotion": "amused",
+   "emotion": "polite",
    "lemmas": [
     [
      "Leider",
@@ -526,37 +405,38 @@
      "라이더"
     ],
     [
-     "Bahnhof",
-     "Bahnhof",
-     "반호프"
+     "brauchen",
+     "brauchen",
+     "브라우헨"
     ],
     [
-     "gleich",
-     "gleich",
-     "글라이히"
+     "dann",
+     "dann",
+     "단"
+    ],
+    [
+     "Salbe",
+     "Salbe",
+     ""
+    ],
+    [
+     "Ruhe",
+     "Ruhe",
+     "루에"
     ]
    ]
   },
   {
-   "num": 15,
-   "speaker": "C",
-   "es": "Ach komm! Morgen fahren wir nur dreißig. Ehrlich!",
-   "rd": "아흐 콤! 모어겐 파렌 비어 누어 드라이시히. 에얼리히!",
-   "ko": "아, 왜 그래! 내일은 30킬로만 타. 진짜로!",
-   "note": "ehrlich = 정말로, 솔직히",
+   "num": 13,
+   "speaker": "A",
+   "es": "Ach komm, Lena. Nächstes Mal sagst du die Wahrheit.",
+   "rd": "아흐 콤, 레나. 네히스테스 말 자크스트 두 디 바하이트.",
+   "ko": "에이, 레나. 다음엔 진실을 말해.",
+   "note": "놀림",
    "tags": [
     "draft"
    ],
-   "segs": [
-    [
-     "annoyed",
-     "Ach komm! "
-    ],
-    [
-     "cheerful",
-     "Morgen fahren wir nur dreißig. Ehrlich!"
-    ]
-   ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "komm",
@@ -564,26 +444,99 @@
      "코멘"
     ],
     [
-     "Morgen",
-     "morgen",
-     "모어겐"
+     "Lena",
+     "Lena",
+     ""
     ],
     [
-     "fahren",
-     "fahren",
-     "파렌"
+     "Nächstes",
+     "nächst",
+     "네히스트"
     ],
     [
-     "nur",
-     "nur",
-     "누어"
+     "Mal",
+     "mal",
+     "말"
     ],
     [
-     "Ehrlich",
-     "ehrlich",
-     "에얼리히"
+     "sagst",
+     "sagen",
+     "자겐"
+    ],
+    [
+     "Wahrheit",
+     "Wahrheit",
+     "바하이트"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "es": "Wirklich, vierzig Kilometer am dritten Tag? Respekt.",
+   "rd": "비어클리히, 피어치히 킬로메터 암 드리텐 탁? 레스펙트.",
+   "ko": "진짜로, 사흘째에 사십 킬로? 대단하네요.",
+   "note": "재미있게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Wirklich",
+     "wirklich",
+     "비어클리히"
+    ],
+    [
+     "Kilometer",
+     "Kilometer",
+     "킬로메터"
+    ],
+    [
+     "dritten",
+     "dritte",
+     "드리테"
+    ],
+    [
+     "Tag",
+     "Tag",
+     "탁"
+    ],
+    [
+     "Respekt",
+     "Respekt",
+     "레스펙트"
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "C",
+   "es": "Eigentlich war es schön. Trotz allem.",
+   "rd": "아이겐틀리히 바어 에스 쇤. 트로츠 알렘.",
+   "ko": "사실은 좋았어. 그래도.",
+   "note": "부드럽게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Eigentlich",
+     "eigentlich",
+     "아이겐틀리히"
+    ],
+    [
+     "schön",
+     "schön",
+     "쇤"
     ]
    ]
   }
- ]
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r5_travel_b1_rewrite.md",
+  "model": "전문가",
+  "final": "data/review/final/r5_travel_b1.txt"
+ }
 }

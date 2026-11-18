@@ -1,0 +1,17 @@
+1 B: Guten Tag. Sie möchten sich anmelden? / 안녕하세요. 전입 신고하시려는 거죠? / 공식 시작 / stiff
+2 A: Ja, bitte. Mein Mitbewohner hat die Unterlagen dabei. / 네, 부탁해요. 제 룸메이트가 서류를 가져왔어요. / 정중히 / polite
+3 B: Die Papiere, die Sie brauchen, liegen hier vor. / 필요하신 서류는 여기 앞에 있어요. / 관계문으로 확인 / stiff
+4 C: Alles nach Farbe sortiert. Grün für den Vertrag. / 전부 색깔별로 정리했어요. 초록은 계약서용. / 밝게 규칙 자랑 / cheerful
+5 B: Leider fehlt die Meldebescheinigung vom Vormieter. / 유감이지만 이전 세입자의 신고 확인서가 없어요. / 중립적으로 / neutral
+6 C: Die liegt im blauen Ordner. Ganz oben. / 파란 폴더에 있어요. 맨 위에. / 경직되게 지적 / stiff
+7 A: Felix, du übertreibst mit den Farben mal wieder. / 펠릭스, 너 또 색깔로 오버하는구나. / 놀림 / teasing
+8 B: Moment... der Computer ist gerade ausgegangen. / 잠깐... 컴퓨터가 방금 꺼졌어요. / 반전 카오스 / surprised
+9 C: Was?! Alle Daten müssen doch gespeichert sein! / 뭐?! 모든 데이터가 저장돼 있어야 하잖아요! / 소리침 / shout
+10 B: Kein Problem. Wir starten ihn neu. / 문제없어요. 다시 켤게요. / 정중히 진정 / polite
+11 A: Wenn der Computer nicht ausginge, wären wir schon fertig. / 컴퓨터가 안 꺼졌으면 벌써 끝났을 텐데. / 접속법 II로 재미있게 / amused
+12 B: Die Anmeldung wird bearbeitet, sobald er wieder läuft. / 다시 켜지면 신고가 처리될 거예요. / 수동으로 설명 / polite
+13 C: Die Regeln sind Regeln. Farben helfen immer. / 규칙은 규칙이죠. 색깔이 항상 도와줘요. / 짜증 / annoyed
+14 B: Leider dauert es heute länger. / 유감이지만 오늘은 더 걸려요. / 경직 / stiff
+15 A: Deine Ordner haben den Computer geschockt, Felix. / 네 폴더가 컴퓨터를 충격에 빠뜨렸구나, 펠릭스. / 놀림 / teasing
+16 C: Nächstes Mal nehme ich weniger Farben mit. / 다음엔 색깔을 덜 가져올게. / 슬프게 / sad
+추천 표현: Kein Problem / 문제없어요 , Leider / 유감이지만

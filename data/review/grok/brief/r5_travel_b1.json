@@ -1,0 +1,169 @@
+{
+ "id": "r5_travel_b1",
+ "region": "R5",
+ "island": "travel",
+ "kind": "long",
+ "title": "10킬로라며",
+ "emoji": "💊",
+ "scene": "여행 사흘째 약국. 온몸이 아픈데, 레나가 말한 \"짧은 자전거 길\"의 진실이 드러난다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Apotheker",
+  "C": "Lena"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "travel",
+  "health"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [
+  "Guten Tag",
+  "Eigentlich",
+  "Wirklich?",
+  "Na ja",
+  "Leider",
+  "Ach komm"
+ ],
+ "level": "5 어휘 완주",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "sad"
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "worried"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "polite"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "sad"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "polite"
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "stiff"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "worried"
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "shout"
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "amused"
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "teasing"
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "amused"
+  },
+  {
+   "num": 15,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

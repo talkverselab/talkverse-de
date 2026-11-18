@@ -1,0 +1,178 @@
+{
+ "id": "r5_life_b1",
+ "region": "R5",
+ "island": "life",
+ "kind": "long",
+ "title": "61번째 손님",
+ "emoji": "🏠",
+ "scene": "베를린 집 보기. Felix 와 갔더니 문 앞에 백 명, 방에서는 유리병 수거함이 보이고, 줄 선 끝에 받은 건 3월 예약 번호",
+ "speakers": {
+  "A": "{name}",
+  "B": "Makler",
+  "C": "Felix"
+ },
+ "register": "mixed",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "daily_life",
+  "housing"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Guten Tag",
+  "Keine Sorge",
+  "Hör auf",
+  "Eigentlich",
+  "Oder?"
+ ],
+ "level": "5 어휘 완주",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "surprised"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "worried"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "polite"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "surprised"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "polite"
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "neutral"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "polite"
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "annoyed"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "teasing"
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "polite"
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 16,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

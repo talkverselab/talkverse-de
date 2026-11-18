@@ -31,106 +31,19 @@
   {
    "num": 1,
    "speaker": "A",
-   "es": "Hättest du kurz Zeit? Ich wollte dich etwas fragen, wenn es dir gerade passt.",
-   "rd": "헤테스트 두 쿠어츠 차이트? 이히 볼테 디히 에트바스 프라겐, 벤 에스 디어 게라데 파스트.",
-   "ko": "잠깐 시간 돼? 괜찮으면 뭐 좀 물어보려고.",
-   "note": "Hättest du = 있을까(완곡)",
+   "es": "Der Chef hat nur gesagt, dass es nicht schlecht war.",
+   "rd": "데어 셰프 하트 누어 게자크트, 다스 에스 니히트 슐레히트 바어.",
+   "ko": "상사가 나쁘지 않았다고만 했어.",
+   "note": "걱정하며 시작",
    "tags": [
     "draft"
    ],
+   "emotion": "stiff",
    "lemmas": [
     [
-     "Hättest",
-     "Hättest",
-     ""
-    ],
-    [
-     "kurz",
-     "kurz",
-     "쿠어츠"
-    ],
-    [
-     "Zeit",
-     "Zeit",
-     "차이트"
-    ],
-    [
-     "fragen",
-     "fragen",
-     "프라겐"
-    ],
-    [
-     "gerade",
-     "gerade",
-     "게라데"
-    ],
-    [
-     "passt",
-     "passen",
-     "파센"
-    ]
-   ],
-   "emotion": "stiff"
-  },
-  {
-   "num": 2,
-   "speaker": "B",
-   "es": "Klar. Geht es um die Präsentation von heute Morgen?",
-   "rd": "클라어. 게트 에스 움 디 프레젠타치온 폰 호이테 모어겐?",
-   "ko": "그럼. 오늘 아침 발표 얘기야?",
-   "note": "es geht um = ~에 관한 일이다",
-   "tags": [
-    "draft"
-   ],
-   "lemmas": [
-    [
-     "Klar",
-     "klar",
-     "클라어"
-    ],
-    [
-     "Geht",
-     "gehen",
-     "게엔"
-    ],
-    [
-     "Präsentation",
-     "Präsentation",
-     ""
-    ],
-    [
-     "heute",
-     "heute",
-     "호이테"
-    ],
-    [
-     "Morgen",
-     "morgen",
-     "모어겐"
-    ]
-   ],
-   "emotion": "neutral"
-  },
-  {
-   "num": 3,
-   "speaker": "A",
-   "es": "Ja. Frau Weber hat danach nur gesagt: „Das war nicht schlecht.“ Seitdem habe ich ein ungutes Gefühl.",
-   "rd": "야. 프라우 베버 하트 다나흐 누어 게자크트: \"다스 바 니히트 슐레히트.\" 자이트뎀 하베 이히 아인 운구테스 게퓔.",
-   "ko": "응. 베버 팀장님이 끝나고 「나쁘지 않았어요」라고만 하셨어. 그때부터 기분이 찜찜해.",
-   "note": "seitdem = 그때부터",
-   "tags": [
-    "draft"
-   ],
-   "lemmas": [
-    [
-     "Frau",
-     "Frau",
-     "프라우"
-    ],
-    [
-     "danach",
-     "danach",
-     "다나흐"
+     "Chef",
+     "Chef",
+     "셰프"
     ],
     [
      "nur",
@@ -146,35 +59,286 @@
      "schlecht",
      "schlecht",
      "슐레히트"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "Klar. Das sagt er immer.",
+   "rd": "클라어. 다스 자크트 에어 이머.",
+   "ko": "그렇지. 그 사람은 항상 그렇게 말해.",
+   "note": "짧게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Klar",
+     "klar",
+     "클라어"
     ],
     [
-     "Seitdem",
-     "seitdem",
-     "자이트뎀"
+     "sagt",
+     "sagen",
+     "자겐"
     ],
     [
-     "ungutes",
-     "ungut",
+     "immer",
+     "immer",
+     "이머"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "Ernsthaft? Ich dachte, er hasst die Präsentation.",
+   "rd": "에언스타프트? 이히 다흐테, 에어 하스트 디 프레젠타치온.",
+   "ko": "진짜? 난 그가 발표를 싫어하는 줄 알았어.",
+   "note": "걱정",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Ernsthaft",
+     "ernsthaft",
      ""
     ],
     [
-     "Gefühl",
-     "Gefühl",
-     "게퓔"
+     "dachte",
+     "denken",
+     "뎅켄"
+    ],
+    [
+     "hasst",
+     "hassen",
+     "하센"
+    ],
+    [
+     "Präsentation",
+     "Präsentation",
+     ""
     ]
-   ],
-   "emotion": "worried"
+   ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "es": "Moment mal. Hat sie wirklich „nicht schlecht“ gesagt?",
-   "rd": "모멘트 말. 하트 지 비어클리히 \"니히트 슐레히트\" 게자크트?",
-   "ko": "잠깐만. 진짜 「나쁘지 않다」고 하셨어?",
-   "note": "wirklich = 정말로",
+   "es": "Moment mal. Die Präsentation, die du gehalten hast, war okay.",
+   "rd": "모멘트 말. 디 프레젠타치온, 디 두 게할텐 하스트, 바어 오케이.",
+   "ko": "잠깐. 네가 한 발표는 괜찮았어.",
+   "note": "관계문으로 놀람",
    "tags": [
     "draft"
    ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Moment",
+     "Moment",
+     "모멘트"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "Präsentation",
+     "Präsentation",
+     ""
+    ],
+    [
+     "gehalten",
+     "halten",
+     "할텐"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "Aber er hat nichts Nettes gesagt.",
+   "rd": "아버 에어 하트 니히츠 네테스 게자크트.",
+   "ko": "근데 그는 좋은 말을 하나도 안 했어.",
+   "note": "걱정",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Nettes",
+     "nett",
+     "네트"
+    ],
+    [
+     "gesagt",
+     "sagen",
+     "자겐"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "Keine Ahnung. Bei mir war es genauso.",
+   "rd": "카이네 아눙. 바이 미어 바어 에스 게나우조.",
+   "ko": "몰라. 나한테도 똑같았어.",
+   "note": "놀람",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Ahnung",
+     "Ahnung",
+     "아눙"
+    ],
+    [
+     "genauso",
+     "genauso",
+     "게나우조"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "Dann bin ich wohl durchgefallen.",
+   "rd": "단 빈 이히 볼 두어히게팔렌.",
+   "ko": "그럼 난 아마 떨어진 거야.",
+   "note": "슬프게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "wohl",
+     "wohl",
+     "볼"
+    ],
+    [
+     "durchgefallen",
+     "durchfallen",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Wenn er dich feuern würde, hätte er mehr gesagt.",
+   "rd": "벤 에어 디히 포이에언 뷔어데, 헤테 에어 메어 게자크트.",
+   "ko": "그가 널 해고할 거면 더 말했을 거야.",
+   "note": "접속법 II로 재미있게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "feuern",
+     "Feuer",
+     "포이어"
+    ],
+    [
+     "mehr",
+     "mehr",
+     "메어"
+    ],
+    [
+     "gesagt",
+     "sagen",
+     "자겐"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "es": "Ernsthaft? Du denkst, es war gut?",
+   "rd": "에언스타프트? 두 덴크스트, 에스 바어 구트?",
+   "ko": "진짜? 네가 보기에 좋았다고?",
+   "note": "걱정",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Ernsthaft",
+     "ernsthaft",
+     ""
+    ],
+    [
+     "denkst",
+     "denken",
+     "뎅켄"
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "es": "Klar. Nicht schlecht heißt bei ihm gut.",
+   "rd": "클라어. 니히트 슐레히트 하이스트 바이 임 구트.",
+   "ko": "그렇지. 그에게 나쁘지 않다는 건 좋다는 뜻이야.",
+   "note": "웃으며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Klar",
+     "klar",
+     "클라어"
+    ],
+    [
+     "schlecht",
+     "schlecht",
+     "슐레히트"
+    ],
+    [
+     "heißt",
+     "heißen",
+     "하이센"
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "es": "Moment mal, wirklich?",
+   "rd": "모멘트 말, 비어클리히?",
+   "ko": "잠깐, 진짜로?",
+   "note": "놀람",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
    "lemmas": [
     [
      "Moment",
@@ -190,137 +354,93 @@
      "wirklich",
      "wirklich",
      "비어클리히"
-    ],
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "es": "Ja. Er hat mir später gesagt, dass deine Charts krass waren.",
+   "rd": "야. 에어 하트 미어 슈페터 게자크트, 다스 다이네 하어트스 크라스 바렌.",
+   "ko": "응. 그가 나중에 나한테 네 차트가 대박이었다고 했어.",
+   "note": "반전 공개",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
     [
-     "schlecht",
-     "schlecht",
-     "슐레히트"
+     "später",
+     "spät",
+     "슈페트"
     ],
     [
      "gesagt",
      "sagen",
      "자겐"
+    ],
+    [
+     "Charts",
+     "Chart",
+     ""
+    ],
+    [
+     "krass",
+     "krass",
+     "크라스"
     ]
-   ],
-   "emotion": "surprised"
+   ]
   },
   {
-   "num": 5,
+   "num": 13,
    "speaker": "A",
-   "es": "Genau das. Wäre es besser, wenn ich mich bei ihr entschuldigen würde?",
-   "rd": "게나우 다스. 베레 에스 베서, 벤 이히 미히 바이 이어 엔트슐디겐 뷔어데?",
-   "ko": "바로 그거야. 내가 가서 사과드리는 게 나을까?",
-   "note": "Wäre es besser, wenn … = ~하는 게 나을까",
+   "es": "Ernsthaft? Warum sagt er mir das nicht direkt?",
+   "rd": "에언스타프트? 바룸 자크트 에어 미어 다스 니히트 디렉트?",
+   "ko": "진짜? 왜 나한테 직접 안 말해?",
+   "note": "걱정",
    "tags": [
     "draft"
    ],
+   "emotion": "worried",
    "lemmas": [
     [
-     "Genau",
-     "genau",
-     "게나우"
+     "Ernsthaft",
+     "ernsthaft",
+     ""
     ],
     [
-     "besser",
-     "gut",
-     "구트"
+     "Warum",
+     "warum",
+     "바룸"
     ],
     [
-     "entschuldigen",
-     "entschuldigen",
-     "엔트슐디겐"
-    ]
-   ],
-   "emotion": "worried"
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "es": "Entschuldigen? Wofür denn?",
-   "rd": "엔트슐디겐? 보퓌어 덴?",
-   "ko": "사과? 뭘?",
-   "note": "wofür = 무엇 때문에",
-   "tags": [
-    "draft"
-   ],
-   "lemmas": [
-    [
-     "Entschuldigen",
-     "entschuldigen",
-     "엔트슐디겐"
-    ],
-    [
-     "Wofür",
-     "wofür",
-     "보퓌어"
-    ],
-    [
-     "denn",
-     "denn",
-     "덴"
-    ]
-   ],
-   "emotion": "surprised"
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "es": "Ich habe gedacht, sie wäre enttäuscht. Wo ich herkomme, hätte man wenigstens etwas Nettes gesagt.",
-   "rd": "이히 하베 게다흐트, 지 베레 엔트토이슈트. 보 이히 헤어코메, 헤테 만 베니히스텐스 에트바스 네테스 게자크트.",
-   "ko": "실망하신 줄 알았어. 내가 살던 곳에선 빈말이라도 좋은 말을 했을 텐데.",
-   "note": "wo ich herkomme = 내가 온 곳에서는",
-   "tags": [
-    "draft"
-   ],
-   "lemmas": [
-    [
-     "gedacht",
-     "denken",
-     "뎅켄"
-    ],
-    [
-     "enttäuscht",
-     "enttäuschen",
-     "엔트토이셴"
-    ],
-    [
-     "herkomme",
-     "herkommen",
-     "헤어코멘"
-    ],
-    [
-     "wenigstens",
-     "wenigstens",
-     "베니히스텐스"
-    ],
-    [
-     "Nettes",
-     "nett",
-     "네트"
-    ],
-    [
-     "gesagt",
+     "sagt",
      "sagen",
      "자겐"
+    ],
+    [
+     "direkt",
+     "direkt",
+     "디렉트"
     ]
-   ],
-   "emotion": "sad"
+   ]
   },
   {
-   "num": 8,
+   "num": 14,
    "speaker": "B",
-   "es": "Du hast echt keine Ahnung, wie selten das vorkommt.",
-   "rd": "두 하스트 에히트 카이네 아눙, 비 젤텐 다스 포어콤트.",
-   "ko": "그게 얼마나 드문 일인지 전혀 모르는구나.",
-   "note": "vorkommen = 일어나다",
+   "es": "Weil er so ist. Keine Ahnung warum.",
+   "rd": "바일 에어 조 이스트. 카이네 아눙 바룸.",
+   "ko": "그가 원래 그래서. 왜인지는 몰라.",
+   "note": "재미있게 마무리",
    "tags": [
     "draft"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
-     "echt",
-     "echt",
-     "에히트"
+     "so",
+     "so",
+     "조"
     ],
     [
      "Ahnung",
@@ -328,232 +448,17 @@
      "아눙"
     ],
     [
-     "wie",
-     "wie",
-     "비"
-    ],
-    [
-     "selten",
-     "selten",
-     "젤텐"
-    ],
-    [
-     "vorkommt",
-     "vorkommen",
-     ""
+     "warum",
+     "warum",
+     "바룸"
     ]
-   ],
-   "emotion": "amused"
-  },
-  {
-   "num": 9,
-   "speaker": "A",
-   "es": "Wie meinst du das?",
-   "rd": "비 마인스트 두 다스?",
-   "ko": "무슨 말이야?",
-   "note": "Wie meinst du das? = 무슨 뜻이야",
-   "tags": [
-    "draft"
-   ],
-   "lemmas": [
-    [
-     "Wie",
-     "wie",
-     "비"
-    ],
-    [
-     "meinst",
-     "meinen",
-     "마이넨"
-    ]
-   ],
-   "emotion": "worried"
-  },
-  {
-   "num": 10,
-   "speaker": "B",
-   "es": "Ich arbeite seit vier Jahren hier. Das Beste, was ich von ihr gehört habe, war: „Da kann man nichts sagen.“",
-   "rd": "이히 아어바이테 자이트 피어 야렌 히어. 다스 베스테, 바스 이히 폰 이어 게회어트 하베, 바: \"다 칸 만 니히츠 자겐.\"",
-   "ko": "나 여기서 4년 일했어. 그분한테 들은 최고의 말이 「흠잡을 데가 없네요」였어.",
-   "note": "das Beste, was … = ~한 것 중 최고",
-   "tags": [
-    "draft"
-   ],
-   "lemmas": [
-    [
-     "arbeite",
-     "arbeiten",
-     "아어바이텐"
-    ],
-    [
-     "Jahren",
-     "Jahr",
-     "야어"
-    ],
-    [
-     "hier",
-     "hier",
-     "히어"
-    ],
-    [
-     "Beste",
-     "Gute",
-     ""
-    ],
-    [
-     "gehört",
-     "hören",
-     "회렌"
-    ],
-    [
-     "Da",
-     "da",
-     "다"
-    ],
-    [
-     "sagen",
-     "sagen",
-     "자겐"
-    ]
-   ],
-   "emotion": "amused"
-  },
-  {
-   "num": 11,
-   "speaker": "A",
-   "es": "Das soll ein Lob sein? Ernsthaft?",
-   "rd": "다스 졸 아인 로프 자인? 에른스트하프트?",
-   "ko": "그게 칭찬이라고? 진심이야?",
-   "note": "Das soll … sein = 그게 ~라는 거야?",
-   "tags": [
-    "draft"
-   ],
-   "lemmas": [
-    [
-     "Lob",
-     "Lob",
-     ""
-    ],
-    [
-     "Ernsthaft",
-     "ernsthaft",
-     ""
-    ]
-   ],
-   "emotion": "surprised"
-  },
-  {
-   "num": 12,
-   "speaker": "B",
-   "es": "Das höchste. „Nicht schlecht“ heißt bei ihr ungefähr, dass du bald befördert wirst.",
-   "rd": "다스 회히스테. \"니히트 슐레히트\" 하이스트 바이 이어 운게페어, 다스 두 발트 베푀어더트 비어스트.",
-   "ko": "최고의 칭찬이지. 그분의 「나쁘지 않다」는 곧 승진한다는 뜻쯤 돼.",
-   "note": "befördert werden = 승진하다",
-   "tags": [
-    "draft"
-   ],
-   "lemmas": [
-    [
-     "höchste",
-     "hoch",
-     "호흐"
-    ],
-    [
-     "schlecht",
-     "schlecht",
-     "슐레히트"
-    ],
-    [
-     "heißt",
-     "heißen",
-     "하이센"
-    ],
-    [
-     "ungefähr",
-     "ungefähr",
-     "운게페어"
-    ],
-    [
-     "bald",
-     "bald",
-     "발트"
-    ],
-    [
-     "befördert",
-     "befördern",
-     ""
-    ]
-   ],
-   "emotion": "teasing"
-  },
-  {
-   "num": 13,
-   "speaker": "A",
-   "es": "Und wenn sie gesagt hätte, es sei gut gewesen?",
-   "rd": "운트 벤 지 게자크트 헤테, 에스 자이 구트 게베젠?",
-   "ko": "그럼 「좋았다」고 하셨으면?",
-   "note": "es sei = 간접화법",
-   "tags": [
-    "draft"
-   ],
-   "lemmas": [
-    [
-     "gesagt",
-     "sagen",
-     "자겐"
-    ],
-    [
-     "gut",
-     "gut",
-     "구트"
-    ]
-   ],
-   "emotion": "worried"
-  },
-  {
-   "num": 14,
-   "speaker": "B",
-   "es": "Das hat sie noch nie gesagt. Ich würde mir Sorgen machen, dass sie kündigt.",
-   "rd": "다스 하트 지 노흐 니 게자크트. 이히 뷔어데 미어 조어겐 마헨, 다스 지 퀸디히트.",
-   "ko": "그런 말은 한 번도 안 하셨어. 그랬으면 난 그분이 퇴사하는 줄 알고 걱정할걸.",
-   "note": "sich Sorgen machen = 걱정하다",
-   "tags": [
-    "draft"
-   ],
-   "lemmas": [
-    [
-     "noch",
-     "noch",
-     "노흐"
-    ],
-    [
-     "nie",
-     "nie",
-     "니"
-    ],
-    [
-     "gesagt",
-     "sagen",
-     "자겐"
-    ],
-    [
-     "Sorgen",
-     "Sorge",
-     "조어게"
-    ],
-    [
-     "machen",
-     "machen",
-     "마헨"
-    ],
-    [
-     "kündigt",
-     "kündigen",
-     "퀸디겐"
-    ]
-   ],
-   "emotion": "amused"
+   ]
   }
  ],
- "level": "4 어려운 문법"
+ "level": "4 어려운 문법",
+ "review": {
+  "grok_rewrite": "data/review/grok/r4_work_b1_rewrite.md",
+  "model": "전문가",
+  "final": "data/review/final/r4_work_b1.txt"
+ }
 }

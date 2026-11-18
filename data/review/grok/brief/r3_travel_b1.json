@@ -1,0 +1,176 @@
+{
+ "id": "r3_travel_b1",
+ "region": "R3",
+ "island": "travel",
+ "kind": "survival",
+ "title": "정확하게 늦어",
+ "emoji": "🚆",
+ "scene": "Lena 와 자전거를 싣고 기차에 탔는데, 검표원이 승차권을 보더니 문제가 하나가 아니라고 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Schaffnerin",
+  "C": "Lena"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "transport"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [
+  "Guten Tag",
+  "Oh Mann",
+  "Pünktlich"
+ ],
+ "level": "3 그래머2",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "polite"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "stiff"
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "polite"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "flustered"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "polite"
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "stiff"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "flustered"
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "amused"
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "worried"
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "polite"
+  },
+  {
+   "num": 15,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 16,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "teasing"
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

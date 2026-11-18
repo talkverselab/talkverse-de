@@ -1,0 +1,17 @@
+Grok
+
+1 A: Der Chef hat nur gesagt, dass es nicht schlecht war. / 상사가 나쁘지 않았다고만 했어. / 걱정하며 시작 / stiff
+2 Jonas: Klar. Das sagt er immer. / 그렇지. 그 사람은 항상 그렇게 말해. / 짧게 / neutral
+3 A: Ernsthaft? Ich dachte, er hasst die Präsentation. / 진짜? 난 그가 발표를 싫어하는 줄 알았어. / 걱정 / worried
+4 Jonas: Moment mal. Die Präsentation, die du gehalten hast, war okay. / 잠깐. 네가 한 발표는 괜찮았어. / 관계문으로 놀람 / surprised
+5 A: Aber er hat nichts Nettes gesagt. / 근데 그는 좋은 말을 하나도 안 했어. / 걱정 / worried
+6 Jonas: Keine Ahnung. Bei mir war es genauso. / 몰라. 나한테도 똑같았어. / 놀람 / surprised
+7 A: Dann bin ich wohl durchgefallen. / 그럼 난 아마 떨어진 거야. / 슬프게 / sad
+8 Jonas: Wenn er dich feuern würde, hätte er mehr gesagt. / 그가 널 해고할 거면 더 말했을 거야. / 접속법 II로 재미있게 / amused
+9 A: Ernsthaft? Du denkst, es war gut? / 진짜? 네가 보기에 좋았다고? / 걱정 / worried
+10 Jonas: Klar. Nicht schlecht heißt bei ihm gut. / 그렇지. 그에게 나쁘지 않다는 건 좋다는 뜻이야. / 웃으며 / amused
+11 A: Moment mal, wirklich? / 잠깐, 진짜로? / 놀람 / surprised
+12 Jonas: Ja. Er hat mir später gesagt, dass deine Charts krass waren. / 응. 그가 나중에 나한테 네 차트가 대박이었다고 했어. / 반전 공개 / teasing
+13 A: Ernsthaft? Warum sagt er mir das nicht direkt? / 진짜? 왜 나한테 직접 안 말해? / 걱정 / worried
+14 Jonas: Weil er so ist. Keine Ahnung warum. / 그가 원래 그래서. 왜인지는 몰라. / 재미있게 마무리 / amused
+추천 표현: Klar / 그렇지 , Ernsthaft? / 진짜로?

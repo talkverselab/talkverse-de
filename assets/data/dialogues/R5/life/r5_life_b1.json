@@ -35,32 +35,27 @@
   {
    "num": 1,
    "speaker": "C",
-   "es": "Bist du sicher, dass die Adresse stimmt? Da stehen ja hundert Leute vor der Tür.",
-   "rd": "비스트 두 지허, 다스 디 아드레세 슈팀트? 다 슈테엔 야 훈데어트 로이테 포어 데어 튀어.",
-   "ko": "주소 맞는 거 확실해? 문 앞에 백 명은 서 있는데.",
-   "note": "vor der Tür = 문 앞에",
+   "es": "Moment mal, da stehen ja mindestens hundert Leute vor der Tür!",
+   "rd": "모멘트 말, 다 슈테엔 야 민데스텐스 훈데어트 로이테 포어 데어 튀어!",
+   "ko": "잠깐, 문 앞에 최소한 백 명은 서 있어!",
+   "note": "놀람",
    "tags": [
     "draft"
    ],
    "emotion": "surprised",
    "lemmas": [
     [
-     "sicher",
-     "sicher",
-     "지허"
+     "Moment",
+     "Moment",
+     "모멘트"
     ],
     [
-     "Adresse",
-     "Adresse",
-     "아드레세"
+     "mal",
+     "mal",
+     "말"
     ],
     [
-     "stimmt",
-     "stimmen",
-     "슈티멘"
-    ],
-    [
-     "Da",
+     "da",
      "da",
      "다"
     ],
@@ -73,6 +68,11 @@
      "ja",
      "ja",
      "야"
+    ],
+    [
+     "mindestens",
+     "mindestens",
+     "민데스텐스"
     ],
     [
      "Leute",
@@ -89,68 +89,78 @@
   {
    "num": 2,
    "speaker": "A",
-   "es": "Ja, Nummer zwölf. Vielleicht gibt es hier was umsonst.",
-   "rd": "야, 눔머 츠뵐프. 필라이히트 깁트 에스 히어 바스 움존스트.",
-   "ko": "응, 12번지. 여기서 뭐 공짜로 나눠 주나 봐.",
-   "note": "umsonst = 공짜로",
+   "es": "Keine Sorge, wir kommen schon rein. Oder?",
+   "rd": "카이네 조어게, 비어 코멘 숀 라인. 오더?",
+   "ko": "걱정 마, 우린 들어갈 거야. 그치?",
+   "note": "밝게",
    "tags": [
     "draft"
    ],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Nummer",
-     "Nummer",
-     "눔머"
+     "Sorge",
+     "Sorge",
+     "조어게"
     ],
     [
-     "Vielleicht",
-     "vielleicht",
-     "필라이히트"
+     "kommen",
+     "kommen",
+     "코멘"
     ],
     [
-     "gibt",
-     "geben",
-     "게벤"
+     "schon",
+     "schon",
+     "숀"
     ],
     [
-     "hier",
-     "hier",
-     "히어"
-    ],
-    [
-     "umsonst",
-     "umsonst",
-     "움존스트"
+     "rein",
+     "rein",
+     "라인"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "C",
-   "es": "Oder alle wollen dieselbe Wohnung wie wir.",
-   "rd": "오더 알레 볼렌 디젤베 보눙 비 비어.",
-   "ko": "아니면 다들 우리랑 같은 집을 노리거나.",
-   "note": "dieselbe = 같은",
+   "es": "Eigentlich sieht das nach einem riesigen Chaos aus.",
+   "rd": "아이겐틀리히 지트 다스 나흐 아이넴 리지겐 하오스 아우스.",
+   "ko": "사실 이건 엄청난 난리처럼 보여.",
+   "note": "걱정",
    "tags": [
     "draft"
    ],
    "emotion": "worried",
    "lemmas": [
     [
-     "Wohnung",
-     "Wohnung",
-     "보눙"
+     "Eigentlich",
+     "eigentlich",
+     "아이겐틀리히"
+    ],
+    [
+     "sieht",
+     "sehen",
+     "제엔"
+    ],
+    [
+     "riesigen",
+     "riesig",
+     ""
+    ],
+    [
+     "Chaos",
+     "Chaos",
+     ""
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "es": "Guten Tag! Sind Sie wegen der Wohnung hier? Bitte stellen Sie sich hinten an.",
-   "rd": "구텐 탁! 진트 지 베겐 데어 보눙 히어? 비테 슈텔렌 지 지히 힌텐 안.",
-   "ko": "안녕하세요! 집 보러 오셨어요? 뒤에 줄 서 주세요.",
-   "note": "sich anstellen = 줄 서다",
+   "es": "Guten Tag! Bitte stellen Sie sich hinten an.",
+   "rd": "구텐 탁! 비테 슈텔렌 지 지히 힌텐 안.",
+   "ko": "안녕하세요! 뒤로 줄 서 주세요.",
+   "note": "정중히",
    "tags": [
     "draft"
    ],
@@ -167,16 +177,6 @@
      "탁"
     ],
     [
-     "Wohnung",
-     "Wohnung",
-     "보눙"
-    ],
-    [
-     "hier",
-     "hier",
-     "히어"
-    ],
-    [
      "stellen",
      "stellen",
      "슈텔렌"
@@ -191,306 +191,14 @@
   {
    "num": 5,
    "speaker": "A",
-   "es": "Hinten? Wie viele Leute sind denn vor uns?",
-   "rd": "힌텐? 비 필레 로이테 진트 덴 포어 운스?",
-   "ko": "뒤요? 우리 앞에 몇 명이나 있는데요?",
-   "note": "vor uns = 우리 앞에",
+   "es": "Hör auf, das sind wirklich so viele Menschen?",
+   "rd": "회어 아우프, 다스 진트 비어클리히 조 피레 멘셴?",
+   "ko": "그만, 진짜로 이렇게 많은 사람들이야?",
+   "note": "놀람",
    "tags": [
     "draft"
    ],
    "emotion": "surprised",
-   "lemmas": [
-    [
-     "Hinten",
-     "hinten",
-     "힌텐"
-    ],
-    [
-     "Wie",
-     "wie",
-     "비"
-    ],
-    [
-     "Leute",
-     "Leute",
-     "로이테"
-    ],
-    [
-     "denn",
-     "denn",
-     "덴"
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "es": "Ungefähr sechzig. Aber keine Sorge, es dauert nur zehn Minuten.",
-   "rd": "운게페어 제히치히. 아버 카이네 조어게, 에스 다우어트 누어 첸 미누텐.",
-   "ko": "한 60명쯤요. 그래도 걱정 마세요, 10분이면 끝나요.",
-   "note": "dauern = 걸리다",
-   "tags": [
-    "draft"
-   ],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "Ungefähr",
-     "ungefähr",
-     "운게페어"
-    ],
-    [
-     "Sorge",
-     "Sorge",
-     "조어게"
-    ],
-    [
-     "dauert",
-     "dauern",
-     "다우언"
-    ],
-    [
-     "nur",
-     "nur",
-     "누어"
-    ],
-    [
-     "Minuten",
-     "Minute",
-     "미누테"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "C",
-   "es": "Sechzig Leute in zehn Minuten? Das ist ja schneller als beim Bürgeramt.",
-   "rd": "제히치히 로이테 인 첸 미누텐? 다스 이스트 야 슈넬러 알스 바임 뷔어거암트.",
-   "ko": "60명이 10분에? 구청보다 빠르네.",
-   "note": "Bürgeramt = 주민센터(느리기로 유명)",
-   "tags": [
-    "draft"
-   ],
-   "emotion": "tsukkomi",
-   "lemmas": [
-    [
-     "Leute",
-     "Leute",
-     "로이테"
-    ],
-    [
-     "Minuten",
-     "Minute",
-     "미누테"
-    ],
-    [
-     "ja",
-     "ja",
-     "야"
-    ],
-    [
-     "schneller",
-     "schnell",
-     "슈넬"
-    ],
-    [
-     "Bürgeramt",
-     "Bürgeramt",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "A",
-   "es": "Und wie groß ist die Wohnung?",
-   "rd": "운트 비 그로스 이스트 디 보눙?",
-   "ko": "집은 얼마나 커요?",
-   "note": "wie groß = 얼마나 큰",
-   "tags": [
-    "draft"
-   ],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "wie",
-     "wie",
-     "비"
-    ],
-    [
-     "groß",
-     "groß",
-     "그로스"
-    ],
-    [
-     "Wohnung",
-     "Wohnung",
-     "보눙"
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "B",
-   "es": "Ein Zimmer, mit Blick in den Hof.",
-   "rd": "아인 치머, 미트 블리크 인 덴 호프.",
-   "ko": "방 하나, 안뜰 전망이에요.",
-   "note": "Blick auf = ~ 전망",
-   "tags": [
-    "draft"
-   ],
-   "emotion": "polite",
-   "lemmas": [
-    [
-     "Zimmer",
-     "Zimmer",
-     "치머"
-    ],
-    [
-     "Blick",
-     "Blick",
-     "블리크"
-    ],
-    [
-     "Hof",
-     "Hof",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "C",
-   "es": "Blick in den Hof … meinen Sie den Müll da?",
-   "rd": "블리크 인 덴 호프 … 마이넨 지 덴 뮐 다?",
-   "ko": "안뜰 전망… 저 쓰레기 말씀이세요?",
-   "note": "Müll = 쓰레기",
-   "tags": [
-    "draft"
-   ],
-   "emotion": "annoyed",
-   "lemmas": [
-    [
-     "Blick",
-     "Blick",
-     "블리크"
-    ],
-    [
-     "Hof",
-     "Hof",
-     ""
-    ],
-    [
-     "meinen",
-     "meinen",
-     "마이넨"
-    ],
-    [
-     "Müll",
-     "Müll",
-     ""
-    ],
-    [
-     "da",
-     "da",
-     "다"
-    ]
-   ]
-  },
-  {
-   "num": 11,
-   "speaker": "B",
-   "es": "Und den Glascontainer, ja. Sehr praktisch.",
-   "rd": "운트 덴 글라스콘테이너, 야. 제어 프락티슈.",
-   "ko": "유리병 수거함도요, 네. 아주 편리하죠.",
-   "note": "praktisch = 편리한",
-   "tags": [
-    "draft",
-    "callback:r3_life_b1"
-   ],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "Glascontainer",
-     "Glascontainer",
-     ""
-    ],
-    [
-     "ja",
-     "ja",
-     "야"
-    ],
-    [
-     "Sehr",
-     "sehr",
-     "제어"
-    ],
-    [
-     "praktisch",
-     "praktisch",
-     "프락티슈"
-    ]
-   ]
-  },
-  {
-   "num": 12,
-   "speaker": "A",
-   "es": "Felix, das ist dein Traum, oder? Flaschen trennen direkt unter dem Fenster.",
-   "rd": "펠릭스, 다스 이스트 다인 트라움, 오더? 플라셴 트렌넨 디렉트 운터 뎀 펜스터.",
-   "ko": "펠릭스, 이거 네 꿈이지? 창문 바로 아래서 병 분리수거.",
-   "note": "direkt unter = 바로 아래",
-   "tags": [
-    "draft"
-   ],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "Traum",
-     "Traum",
-     "트라움"
-    ],
-    [
-     "Flaschen",
-     "Flasche",
-     "플라셰"
-    ],
-    [
-     "trennen",
-     "trennen",
-     "트렌넨"
-    ],
-    [
-     "direkt",
-     "direkt",
-     "디렉트"
-    ],
-    [
-     "Fenster",
-     "Fenster",
-     "펜스터"
-    ]
-   ]
-  },
-  {
-   "num": 13,
-   "speaker": "C",
-   "es": "Hör auf. … Eigentlich ist das gar nicht so schlecht.",
-   "rd": "회어 아우프. … 아이겐틀리히 이스트 다스 가어 니히트 조 슐레히트.",
-   "ko": "그만해. …근데 사실 나쁘지 않은데.",
-   "note": "eigentlich = 사실은",
-   "tags": [
-    "draft"
-   ],
-   "segs": [
-    [
-     "annoyed",
-     "Hör auf."
-    ],
-    [
-     "shy",
-     "Eigentlich ist das gar nicht so schlecht."
-    ]
-   ],
    "lemmas": [
     [
      "Hör",
@@ -498,14 +206,9 @@
      "회렌"
     ],
     [
-     "Eigentlich",
-     "eigentlich",
-     "아이겐틀리히"
-    ],
-    [
-     "gar",
-     "gar",
-     "가어"
+     "wirklich",
+     "wirklich",
+     "비어클리히"
     ],
     [
      "so",
@@ -513,115 +216,33 @@
      "조"
     ],
     [
-     "schlecht",
-     "schlecht",
-     "슐레히트"
+     "Menschen",
+     "Mensch",
+     "멘슈"
     ]
    ]
   },
   {
-   "num": 14,
+   "num": 6,
    "speaker": "B",
-   "es": "Dann schreiben Sie bitte hier Ihren Namen auf.",
-   "rd": "단 슈라이벤 지 비테 히어 이렌 나멘 아우프.",
-   "ko": "그럼 여기 성함 적어 주세요.",
-   "note": "aufschreiben = 적다",
+   "es": "Sie sind die einundsechzigste Person. Die Nummer für März bekommen Sie am Ende.",
+   "rd": "지 진트 디 아이눈트제히치크스테 페어존. 디 눔머 퓌어 메어츠 베코멘 지 암 엔데.",
+   "ko": "당신은 예순한 번째예요. 3월 번호는 끝에 받으실 거예요.",
+   "note": "반전 카오스",
    "tags": [
     "draft"
    ],
    "emotion": "polite",
    "lemmas": [
     [
-     "Dann",
-     "dann",
-     "단"
+     "einundsechzigste",
+     "einundsechzig",
+     ""
     ],
     [
-     "schreiben",
-     "schreiben",
-     "슈라이벤"
-    ],
-    [
-     "bitte",
-     "bitte",
-     "비테"
-    ],
-    [
-     "hier",
-     "hier",
-     "히어"
-    ],
-    [
-     "Namen",
-     "Name",
-     "나메"
-    ]
-   ]
-  },
-  {
-   "num": 15,
-   "speaker": "A",
-   "es": "Und dann dürfen wir die Wohnung sehen?",
-   "rd": "운트 단 뒤어펜 비어 디 보눙 제엔?",
-   "ko": "그럼 이제 집 볼 수 있는 거죠?",
-   "note": "dürfen = ~해도 된다",
-   "tags": [
-    "draft"
-   ],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "dann",
-     "dann",
-     "단"
-    ],
-    [
-     "Wohnung",
-     "Wohnung",
-     "보눙"
-    ],
-    [
-     "sehen",
-     "sehen",
-     "제엔"
-    ]
-   ]
-  },
-  {
-   "num": 16,
-   "speaker": "B",
-   "es": "Nein, dann stehen Sie auf der Liste. Nummer einundsechzig. Für den Termin im März.",
-   "rd": "나인, 단 슈테엔 지 아우프 데어 리스테. 눔머 아인운트제히치히. 퓌어 덴 테어민 임 메어츠.",
-   "ko": "아뇨, 그럼 명단에 오르시는 거예요. 61번. 3월 집 보기 예약이요.",
-   "note": "auf der Liste stehen = 명단에 있다",
-   "tags": [
-    "draft"
-   ],
-   "segs": [
-    [
-     "polite",
-     "Nein, dann stehen Sie auf der Liste."
-    ],
-    [
-     "cheerful",
-     "Nummer einundsechzig. Für den Termin im März."
-    ]
-   ],
-   "lemmas": [
-    [
-     "dann",
-     "dann",
-     "단"
-    ],
-    [
-     "stehen",
-     "stehen",
-     "슈테엔"
-    ],
-    [
-     "Liste",
-     "Liste",
-     "리스테"
+     "Person",
+     "Person",
+     "페어존"
     ],
     [
      "Nummer",
@@ -629,16 +250,377 @@
      "눔머"
     ],
     [
-     "Termin",
-     "Termin",
-     "테어민"
-    ],
-    [
      "März",
      "März",
      ""
+    ],
+    [
+     "bekommen",
+     "bekommen",
+     "베코멘"
+    ],
+    [
+     "Ende",
+     "Ende",
+     "엔데"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "es": "Hör auf! Im Zimmer steht doch der Glascontainer!",
+   "rd": "회어 아우프! 임 치머 슈테트 도흐 데어 글라스콘타이너!",
+   "ko": "그만! 방에 유리병 수거함이 보이잖아!",
+   "note": "지적",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Hör",
+     "hören",
+     "회렌"
+    ],
+    [
+     "Zimmer",
+     "Zimmer",
+     "치머"
+    ],
+    [
+     "steht",
+     "stehen",
+     "슈테엔"
+    ],
+    [
+     "doch",
+     "doch",
+     "도흐"
+    ],
+    [
+     "Glascontainer",
+     "Glascontainer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "es": "Eigentlich ist die Wohnung ganz okay. Oder?",
+   "rd": "아이겐틀리히 이스트 디 보눙 간츠 오케이. 오더?",
+   "ko": "사실 집은 꽤 괜찮아. 그치?",
+   "note": "중립",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Eigentlich",
+     "eigentlich",
+     "아이겐틀리히"
+    ],
+    [
+     "Wohnung",
+     "Wohnung",
+     "보눙"
+    ],
+    [
+     "ganz",
+     "ganz",
+     "간츠"
+    ],
+    [
+     "okay",
+     "Okay",
+     "오케이"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "es": "Keine Sorge, der Container wird morgen abgeholt.",
+   "rd": "카이네 조어게, 데어 콘타이너 비어트 모어겐 아프게홀트.",
+   "ko": "걱정 마세요, 그 수거함은 내일 수거돼요.",
+   "note": "정중히",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Sorge",
+     "Sorge",
+     "조어게"
+    ],
+    [
+     "Container",
+     "Container",
+     ""
+    ],
+    [
+     "morgen",
+     "morgen",
+     "모어겐"
+    ],
+    [
+     "abgeholt",
+     "abholen",
+     "압홀렌"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "es": "Das ist doch total unordentlich für eine Besichtigung.",
+   "rd": "다스 이스트 도흐 토탈 우노어덴트리히 퓌어 아이네 베지히티궁.",
+   "ko": "집 보기에 완전 정리가 안 됐잖아.",
+   "note": "짜증",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "doch",
+     "doch",
+     "도흐"
+    ],
+    [
+     "total",
+     "total",
+     "토탈"
+    ],
+    [
+     "unordentlich",
+     "unordentlich",
+     ""
+    ],
+    [
+     "Besichtigung",
+     "Besichtigung",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "es": "Eigentlich ist die Lage super. Viele Interessenten.",
+   "rd": "아이겐틀리히 이스트 디 라게 주퍼. 피레 인테레센텐.",
+   "ko": "사실 위치는 최고예요. 관심 있는 사람이 많아요.",
+   "note": "밝게",
+   "tags": [
+    "draft",
+    "callback:r3_life_b1"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Eigentlich",
+     "eigentlich",
+     "아이겐틀리히"
+    ],
+    [
+     "Lage",
+     "Lage",
+     "라게"
+    ],
+    [
+     "super",
+     "super",
+     ""
+    ],
+    [
+     "Interessenten",
+     "Interessent",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "es": "Felix, hör auf mit den Flaschen. Wir wollen die Wohnung.",
+   "rd": "페리크스, 회어 아우프 미트 덴 플라셴. 비어 볼렌 디 보눙.",
+   "ko": "펠릭스, 병 얘기 그만해. 우린 이 집 원해.",
+   "note": "놀림",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "hör",
+     "hören",
+     "회렌"
+    ],
+    [
+     "Flaschen",
+     "Flasche",
+     "플라셰"
+    ],
+    [
+     "wollen",
+     "wollen",
+     "볼렌"
+    ],
+    [
+     "Wohnung",
+     "Wohnung",
+     "보눙"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "es": "Keine Sorge, ich sag nichts mehr. Oder doch.",
+   "rd": "카이네 조어게, 이히 자크 니히츠 메어. 오더 도흐.",
+   "ko": "걱정 마, 더 이상 말 안 할게. 아니면 말거나.",
+   "note": "당황",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Sorge",
+     "Sorge",
+     "조어게"
+    ],
+    [
+     "sag",
+     "sagen",
+     "자겐"
+    ],
+    [
+     "mehr",
+     "mehr",
+     "메어"
+    ],
+    [
+     "doch",
+     "doch",
+     "도흐"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "es": "Am Ende der Schlange bekommen Sie die März-Nummer.",
+   "rd": "암 엔데 데어 슐랑에 베코멘 지 디 메어츠-눔머.",
+   "ko": "줄 끝에 3월 번호를 받으실 거예요.",
+   "note": "정중히",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Ende",
+     "Ende",
+     "엔데"
+    ],
+    [
+     "Schlange",
+     "Schlange",
+     ""
+    ],
+    [
+     "bekommen",
+     "bekommen",
+     "베코멘"
+    ],
+    [
+     "März-Nummer",
+     "März-Nummer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "es": "Dann warten wir einfach. Keine Sorge, Felix.",
+   "rd": "단 바어텐 비어 아인파흐. 카이네 조어게, 페리크스.",
+   "ko": "그럼 그냥 기다리자. 걱정 마, 펠릭스.",
+   "note": "밝게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "warten",
+     "warten",
+     "바어텐"
+    ],
+    [
+     "einfach",
+     "einfach",
+     "아인파흐"
+    ],
+    [
+     "Sorge",
+     "Sorge",
+     "조어게"
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "B",
+   "es": "Guten Tag noch. Viel Erfolg bei der Suche.",
+   "rd": "구텐 탁 노흐. 필 에어폴크 바이 데어 주헤.",
+   "ko": "안녕히 가세요. 집 찾기 성공하시길.",
+   "note": "마무리",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Guten",
+     "gut",
+     "구트"
+    ],
+    [
+     "Tag",
+     "Tag",
+     "탁"
+    ],
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "Erfolg",
+     "Erfolg",
+     "에어폴크"
+    ],
+    [
+     "Suche",
+     "Suche",
+     "주헤"
     ]
    ]
   }
- ]
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r5_life_b1_rewrite.md",
+  "model": "전문가",
+  "final": "data/review/final/r5_life_b1.txt"
+ }
 }

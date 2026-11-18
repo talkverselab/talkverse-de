@@ -1,21 +1,26 @@
 lemma,count,example
-Brezel,9,Eine Brezel. Willst du auch eine?
-mia,7,Mia? Moment mal!
-Party,4,"Ich mache eine Party bei mir. Ihr kommt doch, oder?"
-muss,4,Beim Schreiben muss man nicht reden.
-Mia,3,Auf dem Fahrrad. Und du? Schon bei Mia?
+Brezel,10,Eine Brezel. Willst du auch eine?
+mia,6,Mia? Moment mal!
+tut,4,Tut mir wirklich leid.
+super,3,Die liegt hier. Gestern war super!
+Oh,3,"Oh Mann! Er gibt und gibt … Jonas, nur eine!"
 Müll,3,"Felix, Müll ist voll. Wohin mit den Flaschen? 🍾"
-Oh,2,"Oh Mann! Er gibt und gibt … Jonas, nur eine!"
-Gute,2,"Felix, du bist der Beste!"
-Glascontainer,2,Sie werfen am Sonntag Flaschen in den Glascontainer. Das hört das ganze Haus.
-gewusst,2,"Oh, das habe ich nicht gewusst. Tut mir leid, ich wohne erst seit einer Woche hier."
-würdest,2,"Fast Musik? Du redest, als würdest du selbst Musik machen."
-Gärtner,2,"Schon gut, Felix, morgen. Also, wer ist der Mörder? Ich sage: der Gärtner."
-Hausmeister,2,Moment … da steht es. Der Hausmeister war der Mörder.
-Hof,2,"Ein Zimmer, mit Blick in den Hof."
-Fieber,2,Haben Sie Fieber? Und seit wann haben Sie das?
-super,1,"Lena, hör mal! Der Musik ist super!"
-issen,1,"Na ja, nichts. Was isst du da?"
+ernsthaft,3,"Ernsthaft? Ich dachte, er hasst die Präsentation."
+Konzert,2,Echt jetzt? Das Konzert war gut?
+issen,2,"Na ja, nichts. Was isst du da?"
+Mia,2,Auf dem Fahrrad. Und du? Schon bei Mia?
+mega,2,"Mia, du warst mega! Ich höre jetzt nichts mehr 😂"
+Café,2,Wie lange denn? Ich sitz schon im Café und warte 😤
+wussten,2,Tut mir leid. Ich wusste das nicht.
+Mitbewohner,2,Mein Mitbewohner hat eine Tabelle dafür.
+übertreibst,2,"Felix, du übertreibst mal wieder total."
+äh,2,"Zwölf! Äh, ich meine zwei."
+Chaos,2,"Dein Fahrrad macht immer Chaos, Lena."
+Lena,2,"Dein Fahrrad macht immer Chaos, Lena."
+sortieren,2,Alles nach Farbe sortiert. Grün für den Vertrag.
+Ordner,2,Die liegt im blauen Ordner. Ganz oben.
+Rhythmus,2,"Sag mal, der Rhythmus, den du auf den Tisch trommelst, ist fast Musik."
+Präsentation,2,"Ernsthaft? Ich dachte, er hasst die Präsentation."
 willn,1,"Ich weiß. Du willst eine, ich gebe alle."
 gibst,1,"Felix, gibst du mir mal das Salz?"
 Salz,1,"Felix, gibst du mir mal das Salz?"
@@ -25,37 +30,70 @@ magst,1,Du magst dich? Okay … und mich?
 musst,1,Was musst du denn machen? Sag mal.
 Butter,1,Gerne. Mit Butter?
 warst,1,"Mia, du warst mega! Ich höre jetzt nichts mehr 😂"
-mega,1,"Mia, du warst mega! Ich höre jetzt nichts mehr 😂"
-Café,1,Wie lange denn? Ich sitz schon im Café und warte 😤
 App,1,"Zehn Minuten, sagt die App."
 gibt'sn,1,Lena! Das gibt's doch nicht!
 Supermarkt,1,Du bringst sie zum Supermarkt. Pro Flasche gibt's Geld zurück.
 gibt's,1,Du bringst sie zum Supermarkt. Pro Flasche gibt's Geld zurück.
+Gute,1,"Felix, du bist der Beste!"
 Taß,1,Der Kaffee? Die Tasse ist seit zwei Stunden leer.
 schläfen,1,"Hey, schläfst du schon? 🌙"
-tut,1,"Oh, das habe ich nicht gewusst. Tut mir leid, ich wohne erst seit einer Woche hier."
-einziehen,1,Ach so. Sie sind bei Felix eingezogen?
-wegbringen,1,"Genau. Felix hat gesagt, ich soll die Flaschen heute wegbringen."
-Zettel,1,Felix? Der mit den Zetteln zur Mülltrennung im Treppenhaus?
-Mülltrennung,1,Felix? Der mit den Zetteln zur Mülltrennung im Treppenhaus?
-Treppenhaus,1,Felix? Der mit den Zetteln zur Mülltrennung im Treppenhaus?
-Container,1,"{name}, stopp! Grün kommt in den grünen Container, nicht in den weißen!"
-gefallen,1,Sie gefallen mir. Ich bin Renate. Wollen wir uns duzen?
-renate,1,Sie gefallen mir. Ich bin Renate. Wollen wir uns duzen?
-wussen,1,Oh. Das wussten wir nicht. Können wir die bei Ihnen bekommen?
-lautester,1,"Keine Ahnung. Aber Mia ist die, die am lautesten ist."
-isst,1,"Und der jedes Mal Brezeln mitbringt, die er dann allein isst!"
-dümm,1,"Jonas … das ist das schönste Lied, das ich je gehört habe. Und das dümmste."
-Formular,1,Gut. Dafür wird zuerst ein Formular gebraucht. Haben Sie das dabei?
-Schlagzeug,1,"Mache ich auch. Ich spiele Schlagzeug. In einer Band … na ja, in einem Keller."
-bräuchte,1,"Dann bräuchte ich jemanden, der mit mir sehr ruhig bleibt."
-kämst,1,"Morgen, zehn Uhr, hier. Und wenn du nicht kämst … wäre ich ein bisschen traurig."
-Hättest,1,"Hättest du kurz Zeit? Ich wollte dich etwas fragen, wenn es dir gerade passt."
-Präsentation,1,Klar. Geht es um die Präsentation von heute Morgen?
-ungut,1,Ja. Frau Weber hat danach nur gesagt: „Das war nicht schlecht.“ Seitdem habe ich ein ungutes Gefühl.
-vorkommen,1,"Du hast echt keine Ahnung, wie selten das vorkommt."
-Lob,1,Das soll ein Lob sein? Ernsthaft?
-ernsthaft,1,Das soll ein Lob sein? Ernsthaft?
-befördern,1,"Das höchste. „Nicht schlecht“ heißt bei ihr ungefähr, dass du bald befördert wirst."
-Bürgeramt,1,Sechzig Leute in zehn Minuten? Das ist ja schneller als beim Bürgeramt.
-März,1,"Nein, dann stehen Sie auf der Liste. Nummer einundsechzig. Für den Termin im März."
+gleichzeitig,1,Ihr beide gleichzeitig? Das ist total verdächtig!
+dabeihaben,1,"Okay, schade. Ich wollte euch unbedingt dabeihaben."
+Party,1,Danke. Die Party lassen wir aber aus.
+wegwerfen,1,"Entschuldigung, aber Glas wegwerfen am Sonntag ist verboten!"
+Tabelle,1,Mein Mitbewohner hat eine Tabelle dafür.
+Behälter,1,Halt! Die grüne Flasche gehört in den grünen Behälter!!
+Sonntagmorgen,1,Am Sonntagmorgen so laut? Das ist doch verrückt!
+Verständnis,1,Gerne! Danke fürs Verständnis.
+Fahrkarte,1,Guten Tag! Die Fahrkarten bitte.
+Extra-Kart,1,Das Fahrrad braucht eine Extra-Karte.
+gewusst,1,"Oh Mann, wir haben das nicht gewusst."
+Fahrradkarte,1,"Probleme: keine Fahrradkarte, falscher Wagen, und die Karte ist abgelaufen."
+ablaufen,1,"Probleme: keine Fahrradkarte, falscher Wagen, und die Karte ist abgelaufen."
+Strafe,1,Müssen wir jetzt Strafe zahlen?
+Song-Idee,1,"Sie hat eine neue Song-Idee, die sie vorstellen will."
+weggangen,1,"Hallo Leute! Der nächste Song heißt „Der Brezel, der nie wegging“."
+isst,1,"Der Typ im Song ist groß und isst immer Brezeln. Süß, oder?"
+anmelden,1,Guten Tag. Sie möchten sich anmelden?
+Meldebescheinigung,1,Leider fehlt die Meldebescheinigung vom Vormieter.
+Vormieter,1,Leider fehlt die Meldebescheinigung vom Vormieter.
+speichern,1,Was?! Alle Daten müssen doch gespeichert sein!
+ausgingen,1,"Wenn der Computer nicht ausginge, wären wir schon fertig."
+Anmeldung,1,"Die Anmeldung wird bearbeitet, sobald er wieder läuft."
+bearbeiten,1,"Die Anmeldung wird bearbeitet, sobald er wieder läuft."
+schocken,1,"Deine Ordner haben den Computer geschockt, Felix."
+trommelst,1,"Sag mal, der Rhythmus, den du auf den Tisch trommelst, ist fast Musik."
+zuhört,1,"Oh, das ist mir peinlich. Ich hab nicht gemerkt, dass jemand zuhört."
+Stress,1,"Kein Stress. Ich bin Drummerin, deshalb fällt mir sowas auf."
+Drummerin,1,"Kein Stress. Ich bin Drummerin, deshalb fällt mir sowas auf."
+Schlagzeug,1,Echt? Du spielst Schlagzeug?
+Beat,1,"Ja. Und dein Beat ist gar nicht schlecht. Na ja, fast."
+öfter,1,"Wenn du öfter hier wärst, würde ich dir ein paar Tricks zeigen."
+wärst,1,"Wenn du öfter hier wärst, würde ich dir ein paar Tricks zeigen."
+Trick,1,"Wenn du öfter hier wärst, würde ich dir ein paar Tricks zeigen."
+Barista,1,"Moment mal, du arbeitest hier als Barista, oder?"
+trommelen,1,Genau. Und ich schließe gleich. Du trommelst bis zum Schluss.
+welchen,1,Echt? Welchen?
+durchfallen,1,Dann bin ich wohl durchgefallen.
+Chart,1,"Ja. Er hat mir später gesagt, dass deine Charts krass waren."
+Sonntagabend,1,Moment mal. Der Fernseher ist zu laut für Sonntagabend.
+Detektiv,1,"Felix, du bist schlimmer als der Detektiv in der Serie."
+Serie,1,"Felix, du bist schlimmer als der Detektiv in der Serie."
+gelb,1,Warte mal. Im Hintergrund steht eine gelbe Tonne. Falsch sortiert!
+Gib,1,Gib den Remote zurück! Sofort!
+riesig,1,Eigentlich sieht das nach einem riesigen Chaos aus.
+einundsechzig,1,Sie sind die einundsechzigste Person. Die Nummer für März bekommen Sie am Ende.
+März,1,Sie sind die einundsechzigste Person. Die Nummer für März bekommen Sie am Ende.
+Glascontainer,1,Hör auf! Im Zimmer steht doch der Glascontainer!
+Container,1,"Keine Sorge, der Container wird morgen abgeholt."
+unordentlich,1,Das ist doch total unordentlich für eine Besichtigung.
+Besichtigung,1,Das ist doch total unordentlich für eine Besichtigung.
+Interessent,1,Eigentlich ist die Lage super. Viele Interessenten.
+Schlange,1,Am Ende der Schlange bekommen Sie die März-Nummer.
+März-Nummer,1,Am Ende der Schlange bekommen Sie die März-Nummer.
+Radtour,1,Eigentlich war es nur eine kurze Radtour.
+Muskelkater,1,Leider klingt das nach Muskelkater. Wie weit sind Sie gefahren?
+Gegenwind,1,Eigentlich eher vierzig Kilometer. Mit Gegenwind.
+Salbe,1,Leider brauchen Sie dann Salbe und Ruhe.
+zuverlässig,1,"Ja, gerne. Ich war pünktlich und zuverlässig."
+solltest,1,"Jonas, du solltest draußen warten!"

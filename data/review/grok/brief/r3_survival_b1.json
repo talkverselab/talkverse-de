@@ -1,0 +1,166 @@
+{
+ "id": "r3_survival_b1",
+ "region": "R3",
+ "island": "survival",
+ "kind": "survival",
+ "title": "둘이 먹을 열두 개",
+ "emoji": "🥨",
+ "scene": "Jonas 와 빵집에서 브레첼 두 개를 주문하려다 「zwölf」라고 말해 버린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Verkäuferin",
+  "C": "Jonas"
+ },
+ "register": "mixed",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "ordering"
+ ],
+ "domain": [
+  "survival"
+ ],
+ "expressions": [
+  "Guten Tag",
+  "Zusammen oder getrennt?",
+  "Bar oder mit Karte?"
+ ],
+ "level": "3 그래머2",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "amused"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "polite"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "polite"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "amused"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "polite"
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "teasing"
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "polite"
+  },
+  {
+   "num": 15,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "gentle"
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

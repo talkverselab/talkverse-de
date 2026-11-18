@@ -35,13 +35,14 @@
   {
    "num": 1,
    "speaker": "B",
-   "es": "Entschuldigung! Wissen Sie, welcher Tag heute ist?",
-   "rd": "엔트슐디궁! 비센 지, 벨허 탁 호이테 이스트?",
-   "ko": "실례합니다! 오늘 무슨 요일인지 아세요?",
-   "note": "Wissen Sie = 아세요(존칭)",
+   "es": "Entschuldigung, aber Glas wegwerfen am Sonntag ist verboten!",
+   "rd": "엔트슐디궁, 아버 글라스 베크베어펜 암 존탁 이스트 페어보텐!",
+   "ko": "실례합니다, 일요일에 유리병 버리는 건 금지예요!",
+   "note": "이웃이 규칙 위반을 지적하며 시작",
    "tags": [
     "draft"
    ],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Entschuldigung",
@@ -49,117 +50,39 @@
      "엔트슐디궁"
     ],
     [
-     "Wissen",
-     "wissen",
-     "비센"
+     "Glas",
+     "Glas",
+     "글라스"
     ],
     [
-     "Tag",
-     "Tag",
-     "탁"
+     "wegwerfen",
+     "wegwerfen",
+     ""
     ],
     [
-     "heute",
-     "heute",
-     "호이테"
+     "Sonntag",
+     "Sonntag",
+     "존탁"
+    ],
+    [
+     "verboten",
+     "verbieten",
+     "페어비텐"
     ]
-   ],
-   "emotion": "annoyed"
+   ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "es": "Sonntag, oder? Ist das ein Problem?",
-   "rd": "존탁, 오더? 이스트 다스 아인 프로블렘?",
-   "ko": "일요일이죠? 무슨 문제 있나요?",
-   "note": "oder? = 그렇죠?",
+   "es": "Tut mir leid. Ich wusste das nicht.",
+   "rd": "투트 미어 라이트. 이히 부스테 다스 니히트.",
+   "ko": "죄송합니다. 몰랐어요.",
+   "note": "짧게 사과",
    "tags": [
     "draft"
    ],
+   "emotion": "neutral",
    "lemmas": [
-    [
-     "Sonntag",
-     "Sonntag",
-     "존탁"
-    ],
-    [
-     "Problem",
-     "Problem",
-     "프로블렘"
-    ]
-   ],
-   "emotion": "neutral"
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "es": "Sie werfen am Sonntag Flaschen in den Glascontainer. Das hört das ganze Haus.",
-   "rd": "지 베어펜 암 존탁 플라셴 인 덴 글라스콘테이너. 다스 회어트 다스 간체 하우스.",
-   "ko": "일요일에 유리병을 수거함에 던지시잖아요. 건물 전체가 다 들어요.",
-   "note": "일요일엔 유리병을 버리지 않는다",
-   "tags": [
-    "draft"
-   ],
-   "lemmas": [
-    [
-     "werfen",
-     "werfen",
-     "베어펜"
-    ],
-    [
-     "Sonntag",
-     "Sonntag",
-     "존탁"
-    ],
-    [
-     "Flaschen",
-     "Flasche",
-     "플라셰"
-    ],
-    [
-     "Glascontainer",
-     "Glascontainer",
-     ""
-    ],
-    [
-     "hört",
-     "hören",
-     "회렌"
-    ],
-    [
-     "ganze",
-     "ganz",
-     "간츠"
-    ],
-    [
-     "Haus",
-     "Haus",
-     "하우스"
-    ]
-   ],
-   "emotion": "annoyed"
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "es": "Oh, das habe ich nicht gewusst. Tut mir leid, ich wohne erst seit einer Woche hier.",
-   "rd": "오, 다스 하베 이히 니히트 게부스트. 투트 미어 라이트, 이히 보네 에어스트 자이트 아이너 보헤 히어.",
-   "ko": "아, 몰랐어요. 죄송해요, 여기 산 지 일주일밖에 안 돼서요.",
-   "note": "erst seit = 겨우 ~부터",
-   "tags": [
-    "draft"
-   ],
-   "lemmas": [
-    [
-     "habe",
-     "haben",
-     "하벤"
-    ],
-    [
-     "gewusst",
-     "gewusst",
-     ""
-    ],
     [
      "Tut",
      "tut",
@@ -171,47 +94,81 @@
      "라이트"
     ],
     [
-     "wohne",
-     "wohnen",
-     "보넨"
-    ],
-    [
-     "erst",
-     "erst",
-     "에어스트"
-    ],
-    [
-     "Woche",
-     "Woche",
-     "보헤"
-    ],
-    [
-     "hier",
-     "hier",
-     "히어"
+     "wusste",
+     "wussten",
+     ""
     ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Die Flaschen müssen nach Farbe getrennt sein!",
+   "rd": "디 플라셴 뮈센 나흐 파어베 게트렌트 자인!",
+   "ko": "병은 색깔별로 분리해야 해요!",
+   "note": "더 짜증내며 규칙 강조",
+   "tags": [
+    "draft"
    ],
-   "segs": [
+   "emotion": "annoyed",
+   "lemmas": [
     [
-     "surprised",
-     "Oh, das habe ich nicht gewusst."
+     "Flaschen",
+     "Flasche",
+     "플라셰"
     ],
     [
-     "stiff",
-     "Tut mir leid, ich wohne erst seit einer Woche hier."
+     "Farbe",
+     "Farbe",
+     "파어베"
+    ],
+    [
+     "getrennt",
+     "trennen",
+     "트렌넨"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Mein Mitbewohner hat eine Tabelle dafür.",
+   "rd": "마인 미트베보너 하트 아이네 타벨레 다퓌어.",
+   "ko": "제 룸메이트가 그걸 위한 표가 있어요.",
+   "note": "펠릭스 규칙 언급",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Mitbewohner",
+     "Mitbewohner",
+     ""
+    ],
+    [
+     "Tabelle",
+     "Tabelle",
+     ""
+    ],
+    [
+     "dafür",
+     "dafür",
+     "다퓌어"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "es": "Ach so. Sie sind bei Felix eingezogen?",
-   "rd": "아흐 조. 지 진트 바이 펠릭스 아인게초겐?",
-   "ko": "아 그렇구나. 펠릭스네로 들어오신 거예요?",
-   "note": "einziehen = 입주하다",
+   "es": "Ach so. Und trotzdem sonntags?",
+   "rd": "아흐 조. 운트 트로츠뎀 존타크스?",
+   "ko": "아, 그렇군요. 그래도 일요일에?",
+   "note": "이해하면서도 의문",
    "tags": [
     "draft"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "so",
@@ -219,91 +176,96 @@
      "조"
     ],
     [
-     "eingezogen",
-     "einziehen",
-     ""
+     "trotzdem",
+     "trotzdem",
+     "트로츠뎀"
+    ],
+    [
+     "sonntags",
+     "Sonntag",
+     "존탁"
     ]
-   ],
-   "emotion": "neutral"
+   ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "es": "Genau. Felix hat gesagt, ich soll die Flaschen heute wegbringen.",
-   "rd": "게나우. 펠릭스 하트 게자크트, 이히 졸 디 플라셴 호이테 베크브링엔.",
-   "ko": "맞아요. 펠릭스가 오늘 병을 내다 버리라고 했어요.",
-   "note": "sollen = ~하라고 하다",
+   "es": "Er sagt, früh am Morgen geht das. Entschuldigung.",
+   "rd": "에어 자크트, 프뤼 암 모어겐 게트 다스. 엔트슐디궁.",
+   "ko": "그분이 아침 일찍은 괜찮다고 해요. 죄송해요.",
+   "note": "정중히 설명",
    "tags": [
     "draft"
    ],
+   "emotion": "polite",
    "lemmas": [
     [
-     "Genau",
-     "genau",
-     "게나우"
-    ],
-    [
-     "gesagt",
+     "sagt",
      "sagen",
      "자겐"
     ],
     [
-     "Flaschen",
-     "Flasche",
-     "플라셰"
+     "früh",
+     "früh",
+     "프뤼"
     ],
     [
-     "heute",
-     "heute",
-     "호이테"
+     "Morgen",
+     "morgen",
+     "모어겐"
     ],
     [
-     "wegbringen",
-     "wegbringen",
-     ""
+     "geht",
+     "gehen",
+     "게엔"
+    ],
+    [
+     "Entschuldigung",
+     "Entschuldigung",
+     "엔트슐디궁"
     ]
-   ],
-   "emotion": "polite"
+   ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "es": "Felix? Der mit den Zetteln zur Mülltrennung im Treppenhaus?",
-   "rd": "펠릭스? 데어 미트 덴 체텔른 추어 뮐트레눙 임 트레펜하우스?",
-   "ko": "펠릭스요? 계단에 분리수거 쪽지 붙이는 그 사람?",
-   "note": "der mit … = ~하는 그 사람(관계문 없이)",
+   "es": "Der Felix? Der große Junge von nebenan?",
+   "rd": "데어 페리크스? 데어 그로세 융에 폰 네베난?",
+   "ko": "펠릭스요? 옆집 그 큰 청년?",
+   "note": "놀람",
    "tags": [
     "draft"
    ],
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Zetteln",
-     "Zettel",
-     ""
+     "große",
+     "groß",
+     "그로스"
     ],
     [
-     "Mülltrennung",
-     "Mülltrennung",
-     ""
+     "Junge",
+     "Junge",
+     "융에"
     ],
     [
-     "Treppenhaus",
-     "Treppenhaus",
-     ""
+     "nebenan",
+     "neben",
+     "네벤"
     ]
-   ],
-   "emotion": "surprised"
+   ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "es": "Ja, genau der. Er hat mir eine Liste gegeben. Mit zwölf Regeln.",
-   "rd": "야, 게나우 데어. 에어 하트 미어 아이네 리스테 게게벤. 미트 츠뵐프 레겔른.",
-   "ko": "네, 바로 그 사람요. 저한테 목록을 줬어요. 규칙 열두 개짜리요.",
-   "note": "Regel = 규칙",
+   "es": "Ja, genau. Er ist sehr streng mit dem Müll.",
+   "rd": "야, 게나우. 에어 이스트 제어 슈트렝 미트 뎀 뮐.",
+   "ko": "네, 맞아요. 그분은 쓰레기 분리에 아주 엄격해요.",
+   "note": "확인",
    "tags": [
     "draft"
    ],
+   "emotion": "neutral",
    "lemmas": [
     [
      "genau",
@@ -311,57 +273,53 @@
      "게나우"
     ],
     [
-     "Liste",
-     "Liste",
-     "리스테"
+     "sehr",
+     "sehr",
+     "제어"
     ],
     [
-     "gegeben",
-     "geben",
-     "게벤"
+     "streng",
+     "streng",
+     "슈트렝"
     ],
     [
-     "Regeln",
-     "regeln",
-     "레겔른"
-    ]
-   ],
-   "segs": [
-    [
-     "neutral",
-     "Ja, genau der."
-    ],
-    [
-     "worried",
-     "Er hat mir eine Liste gegeben. Mit zwölf Regeln."
+     "Müll",
+     "Müll",
+     ""
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "C",
-   "es": "{name}, stopp! Grün kommt in den grünen Container, nicht in den weißen!",
-   "rd": "{name}, 슈토프! 그륀 콤트 인 덴 그뤼넨 콘테이너, 니히트 인 덴 바이센!",
-   "ko": "{name}, 멈춰! 초록 병은 초록 수거함이야, 흰색 말고!",
-   "note": "창문에서 소리친다",
+   "es": "Halt! Die grüne Flasche gehört in den grünen Behälter!!",
+   "rd": "할트! 디 그뤼네 플라셰 게회어트 인 덴 그뤼넨 베헬터!!",
+   "ko": "잠깐! 초록 병은 초록 통에 넣어야 해!!",
+   "note": "반전 카오스, 뛰어나와 소리침",
    "tags": [
     "draft"
    ],
+   "emotion": "shout",
    "lemmas": [
     [
-     "stopp",
-     "stopp",
-     "슈토프"
+     "Halt",
+     "halt",
+     "할트"
     ],
     [
-     "Grün",
+     "grüne",
      "grün",
      "그륀"
     ],
     [
-     "kommt",
-     "kommen",
-     "코멘"
+     "Flasche",
+     "Flasche",
+     "플라셰"
+    ],
+    [
+     "gehört",
+     "gehören",
+     "게회렌"
     ],
     [
      "grünen",
@@ -369,179 +327,135 @@
      "그륀"
     ],
     [
-     "Container",
-     "Container",
+     "Behälter",
+     "Behälter",
      ""
-    ],
-    [
-     "weißen",
-     "weiß",
-     "바이스"
     ]
-   ],
-   "emotion": "shout"
+   ]
   },
   {
    "num": 10,
    "speaker": "B",
-   "es": "Felix! Es ist Sonntag! Sie schreien durchs ganze Haus!",
-   "rd": "펠릭스! 에스 이스트 존탁! 지 슈라이엔 두어히스 간체 하우스!",
-   "ko": "펠릭스! 일요일이에요! 온 건물이 떠나가게 소리치시네요!",
-   "note": "schreien = 소리치다",
+   "es": "Was machen Sie denn hier?!",
+   "rd": "바스 마헨 지 덴 히어?!",
+   "ko": "여기서 뭘 하시는 거예요?!",
+   "note": "놀라 소리",
    "tags": [
     "draft"
    ],
+   "emotion": "shout",
    "lemmas": [
     [
-     "Sonntag",
-     "Sonntag",
-     "존탁"
+     "machen",
+     "machen",
+     "마헨"
     ],
     [
-     "schreien",
-     "schreien",
-     "슈라이엔"
+     "denn",
+     "denn",
+     "덴"
     ],
     [
-     "ganze",
-     "ganz",
-     "간츠"
-    ],
-    [
-     "Haus",
-     "Haus",
-     "하우스"
+     "hier",
+     "hier",
+     "히어"
     ]
-   ],
-   "emotion": "shout"
+   ]
   },
   {
    "num": 11,
    "speaker": "C",
-   "es": "Frau Becker, Regeln sind Regeln.",
-   "rd": "프라우 베커, 레겔른 진트 레겔른.",
-   "ko": "베커 아주머니, 규칙은 규칙이잖아요.",
-   "note": "독일 농담의 단골",
+   "es": "Die Regeln sind klar. Getrennt nach Farbe.",
+   "rd": "디 레겔른 진트 클라어. 게트렌트 나흐 파어베.",
+   "ko": "규칙은 명확해요. 색깔별로 분리.",
+   "note": "경직되게 주장",
    "tags": [
     "draft"
    ],
+   "emotion": "stiff",
    "lemmas": [
     [
-     "Frau",
-     "Frau",
-     "프라우"
-    ],
-    [
      "Regeln",
      "regeln",
      "레겔른"
     ],
     [
-     "Regeln",
-     "regeln",
-     "레겔른"
+     "klar",
+     "klar",
+     "클라어"
+    ],
+    [
+     "Getrennt",
+     "trennen",
+     "트렌넨"
+    ],
+    [
+     "Farbe",
+     "Farbe",
+     "파어베"
     ]
-   ],
-   "emotion": "stiff"
+   ]
   },
   {
    "num": 12,
    "speaker": "B",
-   "es": "Genau! Und Regel Nummer eins lautet: Sonntag ist Ruhetag!",
-   "rd": "게나우! 운트 레겔 눔머 아인스 라우테트: 존탁 이스트 루에탁!",
-   "ko": "그러니까요! 규칙 1번이 뭐냐면, 일요일은 쉬는 날이에요!",
-   "note": "Ruhetag = 쉬는 날",
+   "es": "Am Sonntagmorgen so laut? Das ist doch verrückt!",
+   "rd": "암 존타크모어겐 조 라우트? 다스 이스트 도흐 페어뤼크트!",
+   "ko": "일요일 아침에 이렇게 시끄럽게? 진짜 미쳤네!",
+   "note": "지적하며 한탄",
    "tags": [
     "draft"
    ],
+   "emotion": "tsukkomi",
    "lemmas": [
     [
-     "Genau",
-     "genau",
-     "게나우"
+     "Sonntagmorgen",
+     "Sonntagmorgen",
+     ""
     ],
     [
-     "Regel",
-     "regen",
-     "레겐"
+     "so",
+     "so",
+     "조"
     ],
     [
-     "Nummer",
-     "Nummer",
-     "눔머"
+     "laut",
+     "laut",
+     "라우트"
     ],
     [
-     "lautet",
-     "lauten",
-     "라우텐"
+     "doch",
+     "doch",
+     "도흐"
     ],
     [
-     "Sonntag",
-     "Sonntag",
-     "존탁"
-    ],
-    [
-     "Ruhetag",
-     "Ruhe",
-     "루에"
+     "verrückt",
+     "verrückt",
+     "페어뤼크트"
     ]
-   ],
-   "emotion": "tsukkomi"
+   ]
   },
   {
    "num": 13,
    "speaker": "A",
-   "es": "Moment mal, Felix. Das steht gar nicht auf meiner Liste.",
-   "rd": "모멘트 말, 펠릭스. 다스 슈테트 가어 니히트 아우프 마이너 리스테.",
-   "ko": "잠깐만, 펠릭스. 그거 내 목록엔 아예 없는데.",
-   "note": "stehen = (글에) 적혀 있다",
+   "es": "Felix, du übertreibst mal wieder total.",
+   "rd": "페리크스, 두 위베어트라이프스트 말 비더 토탈.",
+   "ko": "펠릭스, 너 또 완전 오버하는구나.",
+   "note": "웃으며 지적",
    "tags": [
     "draft"
    ],
+   "emotion": "amused",
    "lemmas": [
     [
-     "Moment",
-     "Moment",
-     "모멘트"
+     "übertreibst",
+     "übertreibst",
+     ""
     ],
     [
      "mal",
      "mal",
      "말"
-    ],
-    [
-     "steht",
-     "stehen",
-     "슈테엔"
-    ],
-    [
-     "gar",
-     "gar",
-     "가어"
-    ],
-    [
-     "Liste",
-     "Liste",
-     "리스테"
-    ]
-   ],
-   "emotion": "amused"
-  },
-  {
-   "num": 14,
-   "speaker": "C",
-   "es": "… Ich gehe wieder rein.",
-   "rd": "… 이히 게에 비더 라인.",
-   "ko": "…나 들어갈게.",
-   "note": "reingehen = 들어가다",
-   "tags": [
-    "draft"
-   ],
-   "lemmas": [
-    [
-     "gehe",
-     "gehen",
-     "게엔"
     ],
     [
      "wieder",
@@ -549,61 +463,91 @@
      "비더"
     ],
     [
-     "rein",
-     "rein",
-     "라인"
+     "total",
+     "total",
+     "토탈"
     ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "es": "Tut mir leid, Frau Becker. Ich wollte nur helfen.",
+   "rd": "투트 미어 라이트, 프라우 베커. 이히 볼테 누어 헬펜.",
+   "ko": "죄송해요, 베커 부인. 그냥 도와주려 했어요.",
+   "note": "당황하며 사과",
+   "tags": [
+    "draft"
    ],
-   "emotion": "flustered"
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Tut",
+     "tut",
+     ""
+    ],
+    [
+     "leid",
+     "Leid",
+     "라이트"
+    ],
+    [
+     "Frau",
+     "Frau",
+     "프라우"
+    ],
+    [
+     "nur",
+     "nur",
+     "누어"
+    ],
+    [
+     "helfen",
+     "helfen",
+     "헬펜"
+    ]
+   ]
   },
   {
    "num": 15,
    "speaker": "B",
-   "es": "Sie gefallen mir. Ich bin Renate. Wollen wir uns duzen?",
-   "rd": "지 게팔렌 미어. 이히 빈 레나테. 볼렌 비어 운스 두첸?",
-   "ko": "마음에 드네요. 나는 레나테예요. 우리 말 놓을까요?",
-   "note": "duzen = du 로 부르다",
+   "es": "Wollen wir uns duzen? Dann ist es einfacher.",
+   "rd": "볼렌 비어 운스 두첸? 단 이스트 에스 아인파허.",
+   "ko": "우리 서로 반말해? 그럼 더 편할 거야.",
+   "note": "분위기 풀어 제안",
    "tags": [
     "draft"
    ],
+   "emotion": "gentle",
    "lemmas": [
-    [
-     "gefallen",
-     "gefallen",
-     ""
-    ],
-    [
-     "Renate",
-     "renate",
-     ""
-    ],
     [
      "duzen",
      "du",
      "두"
-    ]
-   ],
-   "segs": [
-    [
-     "amused",
-     "Sie gefallen mir."
     ],
     [
-     "cheerful",
-     "Ich bin Renate. Wollen wir uns duzen?"
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "einfacher",
+     "einfach",
+     "아인파흐"
     ]
    ]
   },
   {
    "num": 16,
    "speaker": "A",
-   "es": "Gerne, Renate. Aber sag mal, was mache ich jetzt mit den Flaschen?",
-   "rd": "게어네, 레나테. 아버 자크 말, 바스 마헤 이히 예츠트 미트 덴 플라셴?",
-   "ko": "좋아요, 레나테. 근데 있잖아, 이제 이 병들은 어떡해?",
-   "note": "첫 du 문장",
+   "es": "Gerne! Danke fürs Verständnis.",
+   "rd": "게어네! 당케 퓌어스 페어스텐트니스.",
+   "ko": "좋아요! 이해해 주셔서 감사해요.",
+   "note": "수락하며 마무리",
    "tags": [
     "draft"
    ],
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Gerne",
@@ -611,37 +555,22 @@
      "게언"
     ],
     [
-     "mal",
-     "mal",
-     "말"
+     "Danke",
+     "danke",
+     "당케"
     ],
     [
-     "mache",
-     "machen",
-     "마헨"
-    ],
-    [
-     "jetzt",
-     "jetzt",
-     "예츠트"
-    ],
-    [
-     "Flaschen",
-     "Flasche",
-     "플라셰"
-    ]
-   ],
-   "segs": [
-    [
-     "cheerful",
-     "Gerne, Renate."
-    ],
-    [
-     "worried",
-     "Aber sag mal, was mache ich jetzt mit den Flaschen?"
+     "Verständnis",
+     "Verständnis",
+     ""
     ]
    ]
   }
  ],
- "level": "3 그래머2"
+ "level": "3 그래머2",
+ "review": {
+  "grok_rewrite": "data/review/grok/r3_life_b1_rewrite.md",
+  "model": "전문가",
+  "final": "data/review/final/r3_life_b1.txt"
+ }
 }

@@ -1,0 +1,166 @@
+{
+ "id": "r4_love_b1",
+ "region": "R4",
+ "island": "love",
+ "kind": "long",
+ "title": "거의 음악",
+ "emoji": "🥁",
+ "scene": "문 닫기 직전 카페, 테이블을 두드리던 학습자에게 Mia 가 먼저 말을 건다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "casual",
+ "twist": 13,
+ "twist_type": "emotion",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Sag mal",
+  "Echt?",
+  "Das ist mir peinlich",
+  "Na ja",
+  "Krass",
+  "Moment mal"
+ ],
+ "level": "4 어려운 문법",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "teasing"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "flustered"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "amused"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "teasing"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "amused"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "excited"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "teasing"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "amused"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "surprised"
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "gentle"
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "teasing"
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

@@ -1,0 +1,104 @@
+{
+ "id": "r1_culture_a1",
+ "region": "R1",
+ "island": "culture",
+ "kind": "short",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "casual",
+ "flags": [],
+ "purpose": [
+  "culture",
+  "grammar_perfect"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "level": "1 관사·격·활용 골격",
+ "title": "재킷 두고 왔어",
+ "emoji": "🧥",
+ "scene": "Mia 의 공연 다음 날. 재킷을 찾으러 갔다가 어젯밤 얘기를 듣는다",
+ "twist": 6,
+ "twist_type": "reveal",
+ "expressions": [
+  "Echt jetzt?",
+  "Doch"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "flustered"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "teasing"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "worried"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "amused"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "surprised"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "teasing"
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

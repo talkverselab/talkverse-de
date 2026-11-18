@@ -1,0 +1,159 @@
+{
+ "id": "r4_work_b1",
+ "region": "R4",
+ "island": "work",
+ "kind": "long",
+ "title": "나쁘지 않았어요",
+ "emoji": "📊",
+ "scene": "첫 발표 뒤 상사가 「나쁘지 않았다」고만 했다. 걱정이 된 학습자가 동료 Jonas 에게 묻는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Jonas"
+ },
+ "register": "casual",
+ "twist": 12,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "work"
+ ],
+ "domain": [
+  "work"
+ ],
+ "expressions": [
+  "Klar",
+  "Moment mal",
+  "Keine Ahnung",
+  "Ernsthaft?"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "stiff"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "neutral"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "worried"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "surprised"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "worried"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "surprised"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "sad"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "amused"
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "worried"
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "amused"
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "surprised"
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "teasing"
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "worried"
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "amused"
+  }
+ ],
+ "level": "4 어려운 문법",
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

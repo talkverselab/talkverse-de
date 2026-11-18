@@ -1,0 +1,17 @@
+1 A: Das Konzert hier unten ist schon krass. / 여기 지하 공연 진짜 대박이야. / 장소 분위기 시작 / amused
+2 C: Ja. Mia spielt heute. / 응. 미아가 오늘 연주해. / 짧게 / neutral
+3 A: Sie hat eine neue Song-Idee, die sie vorstellen will. / 그녀가 소개할 새 곡 아이디어가 있어. / 관계문으로 설명 / cheerful
+4 C: Hoffentlich nicht über Brezeln. / 브레첼에 관한 거 아니면 좋겠어. / 재미있게 / amused
+5 B: Hallo Leute! Der nächste Song heißt „Der Brezel, der nie wegging“. / 안녕 얘들아! 다음 곡은 ‘떠나지 않은 브레첼’이야. / 흥분해서 소개 / excited
+6 A: Moment mal, das klingt total nach Jonas! / 잠깐, 그거 완전 요나스 같잖아! / 놀람 / surprised
+7 C: Keine Ahnung. Ich steh nur hier. / 몰라. 난 그냥 여기 서 있어. / 수줍게 / shy
+8 B: Der Typ im Song ist groß und isst immer Brezeln. Süß, oder? / 노래 속 남자는 크고 항상 브레첼을 먹어. 귀엽지? / 부드럽게 설명 / gentle
+9 A: Wenn das nicht Jonas wäre, würde ich es nicht glauben. / 그게 요나스가 아니면 난 안 믿을 거야. / 접속법 II로 놀림 / teasing
+10 B: Krass, dass du das sofort merkst. / 네가 바로 알아차린 거 대박이야. / 재미있게 / amused
+11 A: Mia, ist der Song wirklich über ihn?! / 미아, 그 노래 진짜 그에 관한 거야?! / 소리치며 / shout
+12 C: Ja. Sie hat ihn für mich geschrieben. / 응. 그녀가 나를 위해 썼어. / 반전 공개 / shy
+13 A: Das ist ja total süß! Du sagst ja nie was! / 완전 귀엽잖아! 너는 말을 안 하잖아! / 지적 / tsukkomi
+14 C: Weil ich sie mag. Einfach so. / 내가 그녀를 좋아해서. 그냥. / 부드럽게 / gentle
+15 B: Ich wollte, dass du es heute hörst. / 네가 오늘 듣길 바랐어. / 심쿵, 여성이 먼저 / gentle
+16 A: Ihr zwei seid ja krass. Echt jetzt. / 너희 둘 진짜 대박이다. 진짜로. / 마무리 / amused
+추천 표현: Moment mal / 잠깐만 , Krass / 대박이야

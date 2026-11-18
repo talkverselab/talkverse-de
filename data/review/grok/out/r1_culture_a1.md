@@ -1,5 +1,11 @@
 Grok
 
-1 A: Mia, ich hab die Jacke bei dir vergessen. / 미아, 너네 집에 재킷 두고 왔어. / 공연 다음날 재킷 찾으러 와서 바로 말하기 / flustered
-2 B: Ja, die hab ich. Schwarz, oder? / 응, 나한테 있어. 검은색이지? / 갖고 있다며 확인, 장난스럽게 / cheerful
-3 A: Ja
+1 A: Ich habe meine Jacke vergessen. / 나 재킷 두고 왔어. / 당황하며 시작 / flustered
+2 Mia: Die liegt hier. Gestern war super! / 여기 있어. 어제 완전 좋았어! / 밝게 / cheerful
+3 A: Echt jetzt? Das Konzert war gut? / 진짜? 공연 좋았어? / 밝게 / cheerful
+4 Mia: Doch! Du hast getanzt. Sehr wild. / 응! 너 춤췄어. 아주 격하게. / 놀림 / teasing
+5 A: Ich? Das weiß ich nicht mehr. / 내가? 그거 더 이상 기억 안 나. / 걱정 / worried
+6 Mia: Doch. Du hast die Jacke auf die Bühne geworfen. / 응. 너 재킷을 무대에 던졌어. / 반전 공개 / amused
+7 A: Echt jetzt? Das war ich? / 진짜? 그게 나였어? / 놀람 / surprised
+8 Mia: Ja. Und dann hast du gelacht. Sehr laut. / 응. 그리고 너 웃었어. 아주 크게. / 놀림 / teasing
+추천 표현: Echt jetzt? / 진짜? , Doch / 응 (부정에 대한 긍정)

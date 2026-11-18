@@ -1,0 +1,17 @@
+1 A: Hey, morgen Abend Party bei mir. Kommt ihr beide? / 야, 내일 저녁 내 집에서 파티야. 너희 둘 와? / 장면 시작으로 자연스럽게 초대 / cheerful
+2 B: Leider nicht. Ich hab schon Pläne. / 미안, 안 돼. 이미 계획 있어. / 직설적으로 짧게 거절 / stiff
+3 A: Wird richtig geil! Viele Freunde, gute Musik. Oder? / 완전 멋질 거야! 친구들 많고 음악도 좋아. 그치? / 흥분해서 설득하며 추천 표현 사용 / excited
+4 B: Na ja, ich muss mein Fahrrad reparieren. / 음, 나 자전거 고쳐야 해. / 자전거 설정 살린 어색한 변명 / flustered
+5 A: Am Abend? Das macht doch keinen Sinn! / 저녁에? 말이 안 되잖아! / 의심하며 놀람 / surprised
+6 C: Ich auch nicht. Leider. / 나도 안 돼. 미안. / 말수 적게 짧게 거절 / stiff
+7 B: Genau. Wir haben... äh, jeder eigene Sachen. / 맞아. 우리... 아, 각자 할 일 있어. / 말실수로 당황 / flustered
+8 A: Ihr beide gleichzeitig? Das ist total verdächtig! / 너희 둘 동시에? 완전 수상해! / 이상한 점 지적 / tsukkomi
+9 C: Egal. Wir kommen nicht. / 상관없어. 우리 안 가. / 짧게 잘라 말함 / stiff
+10 A: Okay, schade. Ich wollte euch unbedingt dabeihaben. / 알겠어, 아쉽다. 너희 꼭 같이 하고 싶었는데. / 실망 표현 / sad
+11 C: Tut mir wirklich leid. / 정말 미안해. / 부드럽게 사과 / gentle
+12 B: Okay, wir sind ein Paar. Morgen Date. / 알겠어, 우리 사귀어. 내일 데이트야. / 반전으로 관계 공개, 여성이 먼저 / flustered
+13 A: Echt? Ihr zwei zusammen? Seit wann? / 진짜? 너희 둘이 사귀어? 언제부터? / 놀람 / surprised
+14 C: Seit zwei Wochen. Ja. / 이 주 됐어. 응. / 조용히 확인 / gentle
+15 A: Das ist ja mega! Herzlichen Glückwunsch an euch! / 대박이네! 너희 축하해! / 기쁨으로 축하 / cheerful
+16 C: Danke. Die Party lassen wir aber aus. / 고마워. 파티는 빠질게. / 재미있게 마무리 / amused
+추천 표현: Oder? / 그렇지? , Leider / 유감이지만

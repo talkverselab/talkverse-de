@@ -1,0 +1,17 @@
+1 B: Entschuldigung, aber Glas wegwerfen am Sonntag ist verboten! / 실례합니다, 일요일에 유리병 버리는 건 금지예요! / 이웃이 규칙 위반을 지적하며 시작 / annoyed
+2 A: Tut mir leid. Ich wusste das nicht. / 죄송합니다. 몰랐어요. / 짧게 사과 / neutral
+3 B: Die Flaschen müssen nach Farbe getrennt sein! / 병은 색깔별로 분리해야 해요! / 더 짜증내며 규칙 강조 / annoyed
+4 A: Mein Mitbewohner hat eine Tabelle dafür. / 제 룸메이트가 그걸 위한 표가 있어요. / 펠릭스 규칙 언급 / polite
+5 B: Ach so. Und trotzdem sonntags? / 아, 그렇군요. 그래도 일요일에? / 이해하면서도 의문 / neutral
+6 A: Er sagt, früh am Morgen geht das. Entschuldigung. / 그분이 아침 일찍은 괜찮다고 해요. 죄송해요. / 정중히 설명 / polite
+7 B: Der Felix? Der große Junge von nebenan? / 펠릭스요? 옆집 그 큰 청년? / 놀람 / surprised
+8 A: Ja, genau. Er ist sehr streng mit dem Müll. / 네, 맞아요. 그분은 쓰레기 분리에 아주 엄격해요. / 확인 / neutral
+9 C: Halt! Die grüne Flasche gehört in den grünen Behälter!! / 잠깐! 초록 병은 초록 통에 넣어야 해!! / 반전 카오스, 뛰어나와 소리침 / shout
+10 B: Was machen Sie denn hier?! / 여기서 뭘 하시는 거예요?! / 놀라 소리 / shout
+11 C: Die Regeln sind klar. Getrennt nach Farbe. / 규칙은 명확해요. 색깔별로 분리. / 경직되게 주장 / stiff
+12 B: Am Sonntagmorgen so laut? Das ist doch verrückt! / 일요일 아침에 이렇게 시끄럽게? 진짜 미쳤네! / 지적하며 한탄 / tsukkomi
+13 A: Felix, du übertreibst mal wieder total. / 펠릭스, 너 또 완전 오버하는구나. / 웃으며 지적 / amused
+14 C: Tut mir leid, Frau Becker. Ich wollte nur helfen. / 죄송해요, 베커 부인. 그냥 도와주려 했어요. / 당황하며 사과 / flustered
+15 B: Wollen wir uns duzen? Dann ist es einfacher. / 우리 서로 반말해? 그럼 더 편할 거야. / 분위기 풀어 제안 / gentle
+16 A: Gerne! Danke fürs Verständnis. / 좋아요! 이해해 주셔서 감사해요. / 수락하며 마무리 / cheerful
+추천 표현: Ach so / 아, 그렇군요 , Wollen wir uns duzen? / 우리 서로 반말해 볼까?

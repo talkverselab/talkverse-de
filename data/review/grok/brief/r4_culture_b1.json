@@ -1,0 +1,176 @@
+{
+ "id": "r4_culture_b1",
+ "region": "R4",
+ "island": "culture",
+ "kind": "long",
+ "title": "나를 떠난 적 없는 브레첼",
+ "emoji": "🎸",
+ "scene": "지하 공연장, Mia 의 밴드가 신곡을 소개하는데 노래 주인공이 옆에 서 있는 Jonas 같다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia",
+  "C": "Jonas"
+ },
+ "register": "casual",
+ "twist": 12,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "expressions": [
+  "Süß",
+  "Keine Ahnung",
+  "Hallo",
+  "Krass",
+  "Moment mal"
+ ],
+ "level": "4 어려운 문법",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "amused"
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "neutral"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "amused"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "excited"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "surprised"
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "shy"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "gentle"
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "teasing"
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "amused"
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "shout"
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "gentle"
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 16,
+   "speaker": "A",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

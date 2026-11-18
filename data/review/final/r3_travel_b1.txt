@@ -1,0 +1,17 @@
+1 B: Guten Tag! Die Fahrkarten bitte. / 안녕하세요! 승차권 보여 주세요. / 검표 시작 / polite
+2 A: Hier, bitte. Wir fahren nach Berlin. / 여기요. 저희 베를린으로 가요. / 정중히 제시 / polite
+3 B: Das Fahrrad braucht eine Extra-Karte. / 자전거는 추가 표가 필요해요. / 경직되게 지적 / stiff
+4 C: Wir sind pünktlich. Das reicht doch, oder? / 우리 정시야. 그거면 되지, 응? / 직설적으로 밝게 / cheerful
+5 B: Nein. Und die Karte ist nur für eine Person. / 아니요. 그리고 표는 한 명만 가능해요. / 정중히 설명 / polite
+6 A: Oh Mann, wir haben das nicht gewusst. / 아 망, 저희 그걸 몰랐어요. / 당황 / flustered
+7 B: Das Fahrrad steht auch im falschen Wagen. / 자전거도 잘못된 칸에 있어요. / 추가 문제 / polite
+8 C: Aber wir sind genau pünktlich angekommen! / 근데 우리 정확히 정시에 도착했어! / 밝게 강조 / cheerful
+9 B: Probleme: keine Fahrradkarte, falscher Wagen, und die Karte ist abgelaufen. / 문제: 자전거 표 없고, 잘못된 칸, 그리고 표가 만료됐어요. / 반전 카오스, 여러 문제 지적 / stiff
+10 A: Oh Mann, das sind ja drei Sachen auf einmal! / 아 망, 한 번에 세 가지나! / 지적 / tsukkomi
+11 C: Die Karte... ich dachte, die gilt noch. / 표는... 아직 유효한 줄 알았어. / 당황하며 인정 / flustered
+12 B: Nächstes Mal besser planen. / 다음엔 더 잘 계획하세요. / 재미있게 / amused
+13 A: Müssen wir jetzt Strafe zahlen? / 지금 벌금 내야 해요? / 걱정 / worried
+14 B: Nein, diesmal nur eine Warnung. Guten Tag. / 아니요, 이번엔 경고만 할게요. 안녕히 가세요. / 정중히 마무리 / polite
+15 C: Wir bleiben trotzdem pünktlich. / 그래도 우린 정시로 남을 거야. / 직설적으로 / stiff
+16 A: Dein Fahrrad macht immer Chaos, Lena. / 네 자전거가 항상 난리야, 레나. / 놀리며 / teasing
+추천 표현: Oh Mann / 아 망 , Pünktlich / 정시에

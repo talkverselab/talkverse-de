@@ -31,20 +31,15 @@
   {
    "num": 1,
    "speaker": "A",
-   "es": "Mia, ich habe meine Jacke bei dir vergessen.",
-   "rd": "미아, 이히 하베 마이네 야케 바이 디어 페어게센.",
-   "ko": "미아, 너네 집에 재킷 두고 왔어.",
-   "note": "habe … vergessen = 깜빡했다(현재완료)",
+   "es": "Ich habe meine Jacke vergessen.",
+   "rd": "이히 하베 마이네 야케 페어게센.",
+   "ko": "나 재킷 두고 왔어.",
+   "note": "당황하며 시작",
    "tags": [
     "draft"
    ],
    "emotion": "flustered",
    "lemmas": [
-    [
-     "Mia",
-     "mia",
-     ""
-    ],
     [
      "Jacke",
      "Jacke",
@@ -60,140 +55,160 @@
   {
    "num": 2,
    "speaker": "B",
-   "es": "Ja, die habe ich. Ist sie schwarz?",
-   "rd": "야, 디 하베 이히. 이스트 지 슈바어츠?",
-   "ko": "응, 나한테 있어. 검은색 맞지?",
-   "note": "die habe ich = 그거 내가 갖고 있어",
+   "es": "Die liegt hier. Gestern war super!",
+   "rd": "디 리크트 히어. 게스턴 바어 주퍼!",
+   "ko": "여기 있어. 어제 완전 좋았어!",
+   "note": "밝게",
    "tags": [
     "draft"
    ],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "habe",
-     "haben",
-     "하벤"
+     "liegt",
+     "liegen",
+     "리겐"
     ],
     [
-     "schwarz",
-     "schwarz",
-     "슈바어츠"
+     "hier",
+     "hier",
+     "히어"
+    ],
+    [
+     "Gestern",
+     "gestern",
+     "게스턴"
+    ],
+    [
+     "super",
+     "super",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "es": "Ja. Hast du gestern noch lange gespielt?",
-   "rd": "야. 하스트 두 게스턴 노흐 랑에 게슈필트?",
-   "ko": "응. 어제 늦게까지 공연했어?",
-   "note": "hast … gespielt = 연주했어?(현재완료)",
+   "es": "Echt jetzt? Das Konzert war gut?",
+   "rd": "에히트 예츠트? 다스 콘체어트 바어 구트?",
+   "ko": "진짜? 공연 좋았어?",
+   "note": "밝게",
    "tags": [
     "draft"
    ],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "gestern",
-     "gestern",
-     "게스턴"
+     "Echt",
+     "echt",
+     "에히트"
     ],
     [
-     "noch",
-     "noch",
-     "노흐"
+     "jetzt",
+     "jetzt",
+     "예츠트"
     ],
     [
-     "lange",
-     "lange",
-     "랑에"
+     "Konzert",
+     "Konzert",
+     ""
     ],
     [
-     "gespielt",
-     "spielen",
-     "슈필렌"
+     "gut",
+     "gut",
+     "구트"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "es": "Bis zwei. Du bist schon um zehn gegangen.",
-   "rd": "비스 츠바이. 두 비스트 숀 움 첸 게강엔.",
-   "ko": "두 시까지. 넌 열 시에 벌써 갔잖아.",
-   "note": "bist gegangen = 갔다(sein 완료)",
+   "es": "Doch! Du hast getanzt. Sehr wild.",
+   "rd": "도흐! 두 하스트 게탄츠트. 제어 빌트.",
+   "ko": "응! 너 춤췄어. 아주 격하게.",
+   "note": "놀림",
    "tags": [
     "draft"
    ],
    "emotion": "teasing",
    "lemmas": [
     [
-     "schon",
-     "schon",
-     "숀"
+     "getanzt",
+     "tanzen",
+     "탄첸"
     ],
     [
-     "gegangen",
-     "gehen",
-     "게엔"
+     "Sehr",
+     "sehr",
+     "제어"
+    ],
+    [
+     "wild",
+     "wild",
+     "빌트"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "es": "Ja, ich war so müde. Was habe ich verpasst?",
-   "rd": "야, 이히 바어 조 뮈데. 바스 하베 이히 페어파스트?",
-   "ko": "응, 너무 피곤했어. 나 뭐 놓쳤어?",
-   "note": "verpassen = 놓치다",
+   "es": "Ich? Das weiß ich nicht mehr.",
+   "rd": "이히? 다스 바이스 이히 니히트 메어.",
+   "ko": "내가? 그거 더 이상 기억 안 나.",
+   "note": "걱정",
    "tags": [
     "draft"
    ],
    "emotion": "worried",
    "lemmas": [
     [
-     "so",
-     "so",
-     "조"
+     "weiß",
+     "wissen",
+     "비센"
     ],
     [
-     "müde",
-     "müde",
-     "뮈데"
-    ],
-    [
-     "verpasst",
-     "verpassen",
-     "페어파센"
+     "mehr",
+     "mehr",
+     "메어"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "es": "Jonas hat getanzt.",
-   "rd": "요나스 하트 게탄츠트.",
-   "ko": "요나스가 춤췄어.",
-   "note": "hat getanzt = 춤췄다",
+   "es": "Doch. Du hast die Jacke auf die Bühne geworfen.",
+   "rd": "도흐. 두 하스트 디 야케 아우프 디 뷔네 게보어펜.",
+   "ko": "응. 너 재킷을 무대에 던졌어.",
+   "note": "반전 공개",
    "tags": [
     "draft"
    ],
    "emotion": "amused",
    "lemmas": [
     [
-     "getanzt",
-     "tanzen",
-     "탄첸"
+     "Jacke",
+     "Jacke",
+     "야케"
+    ],
+    [
+     "Bühne",
+     "Bühne",
+     "뷔네"
+    ],
+    [
+     "geworfen",
+     "werfen",
+     "베어펜"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "es": "Jonas? Echt jetzt? Er tanzt doch nie!",
-   "rd": "요나스? 에히트 예츠트? 에어 탄츠트 도흐 니!",
-   "ko": "요나스가? 진짜? 걔 춤 절대 안 추잖아!",
-   "note": "nie = 절대 ~ 않다",
+   "es": "Echt jetzt? Das war ich?",
+   "rd": "에히트 예츠트? 다스 바어 이히?",
+   "ko": "진짜? 그게 나였어?",
+   "note": "놀람",
    "tags": [
     "draft"
    ],
@@ -208,42 +223,47 @@
      "jetzt",
      "jetzt",
      "예츠트"
-    ],
-    [
-     "tanzt",
-     "tanzen",
-     "탄첸"
-    ],
-    [
-     "doch",
-     "doch",
-     "도흐"
-    ],
-    [
-     "nie",
-     "nie",
-     "니"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "B",
-   "es": "Doch. Und er hat nach dir gefragt.",
-   "rd": "도흐. 운트 에어 하트 나흐 디어 게프라크트.",
-   "ko": "췄다니까. 그리고 너 어디 갔냐고 물어보더라.",
-   "note": "nach dir fragen = 너를 찾다",
+   "es": "Ja. Und dann hast du gelacht. Sehr laut.",
+   "rd": "야. 운트 단 하스트 두 게라흐트. 제어 라우트.",
+   "ko": "응. 그리고 너 웃었어. 아주 크게.",
+   "note": "놀림",
    "tags": [
     "draft"
    ],
    "emotion": "teasing",
    "lemmas": [
     [
-     "gefragt",
-     "fragen",
-     "프라겐"
+     "dann",
+     "dann",
+     "단"
+    ],
+    [
+     "gelacht",
+     "lachen",
+     "라헨"
+    ],
+    [
+     "Sehr",
+     "sehr",
+     "제어"
+    ],
+    [
+     "laut",
+     "laut",
+     "라우트"
     ]
    ]
   }
- ]
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r1_culture_a1_rewrite.md",
+  "model": "전문가",
+  "final": "data/review/final/r1_culture_a1.txt"
+ }
 }

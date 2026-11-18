@@ -8,7 +8,7 @@ tmp=${GROK_TMP:-${TMPDIR:-/tmp}}/grok_de_first.txt
 for id in "$@"; do
   out=data/review/grok/out/$id.md
   [[ -s $out ]] && { echo "skip $id"; continue; }
-  src=$(ls assets/data/dialogues/R*/*/$id.json data/drafts/R*/*/$id.json 2>/dev/null | head -1)  # 새 편은 대사 없는 초안(data/drafts)
+  srcs=(assets/data/dialogues/R*/*/$id.json(N) data/drafts/R*/*/$id.json(N)); src=${srcs[1]}  # 새 편은 대사 없는 초안(data/drafts)
   [[ -z $src ]] && { echo "없음 $id"; continue; }
   mkdir -p data/review/grok/brief; python3 tools/grok_brief.py $src data/review/grok/brief/$id.json  # 대사 비운 뼈대만 첨부(초안 베끼기 방지)
   src=data/review/grok/brief/$id.json
