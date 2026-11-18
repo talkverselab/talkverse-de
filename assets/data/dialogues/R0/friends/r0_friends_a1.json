@@ -31,23 +31,39 @@
   {
    "num": 1,
    "speaker": "B",
-   "es": "Hallo! Ich bin Lena. Und du?",
-   "rd": "할로! 이히 빈 레나. 운트 두?",
-   "ko": "안녕! 나는 레나야. 너는?",
-   "note": "Und du? = 너는?",
+   "es": "Hey! Lena hier. Wie heißt du?",
+   "rd": "헤이! 레나 히어. 비 하이스트 두?",
+   "ko": "안녕! 레나야. 이름이 뭐야?",
+   "note": "파티에서 바로 이름 묻기, 짧고 직접적으로",
    "tags": [
     "draft"
    ],
    "emotion": "cheerful",
-   "lemmas": []
+   "lemmas": [
+    [
+     "hier",
+     "hier",
+     "히어"
+    ],
+    [
+     "Wie",
+     "wie",
+     "비"
+    ],
+    [
+     "heißt",
+     "heißen",
+     "하이센"
+    ]
+   ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "es": "Gut, danke!",
-   "rd": "구트, 당케!",
-   "ko": "좋아, 고마워!",
-   "note": "안부 인사로 착각했다",
+   "es": "Gut, danke! Super!",
+   "rd": "구트, 당케! 주퍼!",
+   "ko": "좋아, 고마워! 최고야!",
+   "note": "이름을 안부 인사로 잘못 듣고 대답한 실수",
    "tags": [
     "draft"
    ],
@@ -68,34 +84,29 @@
   {
    "num": 3,
    "speaker": "B",
-   "es": "Haha, nein! Wie heißt du?",
-   "rd": "하하, 나인! 비 하이스트 두?",
-   "ko": "하하, 아니! 이름이 뭐냐고.",
-   "note": "Wie heißt du? = 이름이 뭐야?",
+   "es": "Haha! Nein, dein Name!",
+   "rd": "하하! 나인, 다인 나메!",
+   "ko": "하하! 아니, 네 이름이라고!",
+   "note": "웃으며 바로 정정, 웃음 킥",
    "tags": [
     "draft"
    ],
    "emotion": "amused",
    "lemmas": [
     [
-     "Wie",
-     "wie",
-     "비"
-    ],
-    [
-     "heißt",
-     "heißen",
-     "하이센"
+     "Name",
+     "Name",
+     "나메"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "es": "Ach so! Ich bin {name}.",
-   "rd": "아흐 조! 이히 빈 {name}.",
-   "ko": "아 그렇구나! 나는 {name}이야.",
-   "note": "Ich bin … = 나는 …이야",
+   "es": "Ach so! {name} hier.",
+   "rd": "아흐 조! {name} 히어.",
+   "ko": "아 그렇구나! {name}이야.",
+   "note": "깨닫고 짧게 이름 말하기",
    "tags": [
     "draft"
    ],
@@ -105,29 +116,40 @@
      "so",
      "so",
      "조"
+    ],
+    [
+     "hier",
+     "hier",
+     "히어"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "es": "Hallo, {name}. Und wie geht's?",
-   "rd": "할로, {name}. 운트 비 게츠?",
-   "ko": "안녕, {name}. 그래서 잘 지내?",
-   "note": "Wie geht's? = 잘 지내?",
+   "es": "Hallo {name}! Wie geht's?",
+   "rd": "할로 {name}! 비 게트스?",
+   "ko": "안녕 {name}! 잘 지내?",
+   "note": "이름 알고 진짜 안부, 살짝 놀리며",
    "tags": [
     "draft"
    ],
    "emotion": "teasing",
-   "lemmas": []
+   "lemmas": [
+    [
+     "Wie",
+     "wie",
+     "비"
+    ]
+   ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "es": "… Gut, danke!",
-   "rd": "… 구트, 당케!",
-   "ko": "…좋아, 고마워!",
-   "note": "이번엔 맞는 대답",
+   "es": "Gut, danke! Jetzt klar.",
+   "rd": "구트, 당케! 예츠트 클라어.",
+   "ko": "좋아, 고마워! 이제 알겠어.",
+   "note": "이번엔 맞게 대답하며 웃기",
    "tags": [
     "draft"
    ],
@@ -142,8 +164,23 @@
      "danke",
      "danken",
      "당켄"
+    ],
+    [
+     "Jetzt",
+     "jetzt",
+     "예츠트"
+    ],
+    [
+     "klar",
+     "klar",
+     "클라어"
     ]
    ]
   }
- ]
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r0_friends_a1_rewrite.md",
+  "model": "전문가",
+  "final": "data/review/final/r0_friends_a1.txt"
+ }
 }

@@ -34,9 +34,9 @@
    "num": 1,
    "speaker": "A",
    "es": "Felix, gibst du mir mal das Salz?",
-   "rd": "펠릭스, 깁스트 두 미어 말 다스 잘츠?",
+   "rd": "페리크스, 기프스트 두 미어 말 다스 잘츠?",
    "ko": "펠릭스, 소금 좀 줄래?",
-   "note": "gibst du mir = 나에게 줄래(여격 mir)",
+   "note": "부엌에서 파스타 만들다 소금 부탁",
    "tags": [
     "draft"
    ],
@@ -65,7 +65,7 @@
    "es": "Klar, hier. Was machst du denn?",
    "rd": "클라어, 히어. 바스 마흐스트 두 덴?",
    "ko": "응, 여기. 뭐 만들어?",
-   "note": "denn = 질문을 부드럽게",
+   "note": "바로 주며 궁금해서 물어보기",
    "tags": [
     "draft"
    ],
@@ -97,9 +97,9 @@
    "num": 3,
    "speaker": "A",
    "es": "Nudeln. Willst du auch?",
-   "rd": "누델른. 빌스트 두 아우흐?",
+   "rd": "누델느. 빌스트 두 아우흐?",
    "ko": "파스타. 너도 먹을래?",
-   "note": "Nudeln = 면, 파스타",
+   "note": "나눠 먹자고 제안",
    "tags": [
     "draft"
    ],
@@ -123,7 +123,7 @@
    "es": "Ja, gerne! Mach mir auch was.",
    "rd": "야, 게어네! 마흐 미어 아우흐 바스.",
    "ko": "응, 좋아! 나도 좀 해 줘.",
-   "note": "mach mir = 나에게 해 줘(여격)",
+   "note": "기쁘게 부탁하기",
    "tags": [
     "draft"
    ],
@@ -145,9 +145,9 @@
    "num": 5,
    "speaker": "A",
    "es": "Okay. Gib mir noch das da, bitte.",
-   "rd": "오케이. 깁 미어 노흐 다스 다, 비테.",
+   "rd": "오케이. 기프 미어 노흐 다스 다, 비테.",
    "ko": "알았어. 그것도 좀 줘.",
-   "note": "das da = 저거",
+   "note": "다음 재료 가리키며",
    "tags": [
     "draft"
    ],
@@ -186,7 +186,7 @@
    "es": "Das hier? Das ist mein Tee.",
    "rd": "다스 히어? 다스 이스트 마인 테.",
    "ko": "이거? 이건 내 차인데.",
-   "note": "Tee = 차",
+   "note": "차를 잘못 집어 주는 실수",
    "tags": [
     "draft"
    ],
@@ -210,7 +210,7 @@
    "es": "Nein, nicht das! Das Wasser da.",
    "rd": "나인, 니히트 다스! 다스 바서 다.",
    "ko": "아니, 그거 말고! 거기 물.",
-   "note": "Wasser = 물",
+   "note": "당황해서 바로 정정",
    "tags": [
     "draft"
    ],
@@ -234,7 +234,7 @@
    "es": "Ach so, hier. Aber mir machst du viel, ja?",
    "rd": "아흐 조, 히어. 아버 미어 마흐스트 두 필, 야?",
    "ko": "아 그거, 여기. 대신 내 건 많이 해 줘, 알았지?",
-   "note": "mir machst du = 나한테 해 줘(여격이 앞으로)",
+   "note": "물 주며 장난스럽게 부탁",
    "tags": [
     "draft"
    ],
@@ -262,5 +262,10 @@
     ]
    ]
   }
- ]
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r1_life_a1_rewrite.md",
+  "model": "전문가",
+  "final": "data/review/final/r1_life_a1.txt"
+ }
 }

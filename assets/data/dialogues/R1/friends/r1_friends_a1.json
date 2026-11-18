@@ -34,10 +34,10 @@
   {
    "num": 1,
    "speaker": "A",
-   "es": "Lena, hör mal! Der Musik ist gut!",
-   "rd": "레나, 회어 말! 데어 무지크 이스트 구트!",
-   "ko": "레나, 들어 봐! 이 음악 좋다!",
-   "note": "der Musik = 틀린 관사(die Musik)",
+   "es": "Lena, hör mal! Der Musik ist super!",
+   "rd": "레나, 회어 말! 데어 무지크 이스트 주퍼!",
+   "ko": "레나, 들어 봐! 이 음악 최고야!",
+   "note": "공원에서 실력 자랑하다 관사부터 틀리기",
    "tags": [
     "draft"
    ],
@@ -54,9 +54,9 @@
      "무지크"
     ],
     [
-     "gut",
-     "gut",
-     "구트"
+     "super",
+     "super",
+     ""
     ]
    ]
   },
@@ -66,7 +66,7 @@
    "es": "Die Musik. Nicht der. Hörst du?",
    "rd": "디 무지크. 니히트 데어. 회어스트 두?",
    "ko": "디 무지크야. 데어 말고. 들려?",
-   "note": "hörst du = 너 들려?(hören 의 du 형)",
+   "note": "바로 정정하며 확인",
    "tags": [
     "draft"
    ],
@@ -87,10 +87,10 @@
   {
    "num": 3,
    "speaker": "A",
-   "es": "Okay. Die Musik ist gut. Und die Mann singt gut!",
-   "rd": "오케이. 디 무지크 이스트 구트. 운트 디 만 징트 구트!",
-   "ko": "오케이. 음악 좋다. 그리고 저 남자 노래 잘한다!",
-   "note": "die Mann = 틀린 관사(der Mann)",
+   "es": "Okay. Die Musik ist gut. Und die Mann singt!",
+   "rd": "오케이. 디 무지크 이스트 구트. 운트 디 만 징트!",
+   "ko": "오케이. 음악 좋다. 그리고 저 남자 노래 잘해!",
+   "note": "고치고 또 다른 관사 틀리기",
    "tags": [
     "draft"
    ],
@@ -120,11 +120,6 @@
      "singt",
      "singen",
      "징엔"
-    ],
-    [
-     "gut",
-     "gut",
-     "구트"
     ]
    ]
   },
@@ -134,7 +129,7 @@
    "es": "Der Mann! Oh Mann …",
    "rd": "데어 만! 오 만 …",
    "ko": "데어 만! 아이고 참…",
-   "note": "Oh Mann = 아이고(Mann 말장난)",
+   "note": "말장난으로 한숨 쉬며",
    "tags": [
     "draft"
    ],
@@ -158,7 +153,7 @@
    "es": "Oh Mann? Der Mann, die Musik … und das Frau?",
    "rd": "오 만? 데어 만, 디 무지크 … 운트 다스 프라우?",
    "ko": "아이고? 데어 만, 디 무지크… 그럼 여자는 다스?",
-   "note": "das Frau = 틀린 관사(die Frau)",
+   "note": "더 헷갈려서 물어보기",
    "tags": [
     "draft"
    ],
@@ -192,20 +187,11 @@
    "es": "Die Frau! Sag mal, machst du das extra?",
    "rd": "디 프라우! 자크 말, 마흐스트 두 다스 엑스트라?",
    "ko": "디 프라우! 있잖아, 너 일부러 그러지?",
-   "note": "machst du = 너 하니?(machen 의 du 형) · extra = 일부러",
+   "note": "놀리듯 물어보기",
    "tags": [
     "draft"
    ],
-   "segs": [
-    [
-     "tsukkomi",
-     "Die Frau!"
-    ],
-    [
-     "teasing",
-     "Sag mal, machst du das extra?"
-    ]
-   ],
+   "emotion": "teasing",
    "lemmas": [
     [
      "Frau",
@@ -235,7 +221,7 @@
    "es": "Nein, ich mache das nicht extra! Das ist mein Deutsch.",
    "rd": "나인, 이히 마헤 다스 니히트 엑스트라! 다스 이스트 마인 도이치.",
    "ko": "아니, 일부러 아니야! 이게 내 독일어야.",
-   "note": "ich mache ↔ du machst",
+   "note": "당황해서 변명",
    "tags": [
     "draft"
    ],
@@ -264,7 +250,7 @@
    "es": "Ach so. Dann ist dein Deutsch ein Witz.",
    "rd": "아흐 조. 단 이스트 다인 도이치 아인 비츠.",
    "ko": "아 그렇구나. 그럼 네 독일어가 농담이네.",
-   "note": "dann = 그럼",
+   "note": "마지막에 슬쩍 놀리며 마무리",
    "tags": [
     "draft"
    ],
@@ -292,5 +278,10 @@
     ]
    ]
   }
- ]
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r1_friends_a1_rewrite.md",
+  "model": "전문가",
+  "final": "data/review/final/r1_friends_a1.txt"
+ }
 }

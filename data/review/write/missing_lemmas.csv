@@ -4,7 +4,8 @@ mia,7,Mia? Moment mal!
 Party,4,"Ich mache eine Party bei mir. Ihr kommt doch, oder?"
 muss,4,Beim Schreiben muss man nicht reden.
 Mia,3,Auf dem Fahrrad. Und du? Schon bei Mia?
-Müll,3,"Felix, wohin mit den Flaschen? Der Müll ist voll 🍾"
+Müll,3,"Felix, Müll ist voll. Wohin mit den Flaschen? 🍾"
+Oh,2,"Oh Mann! Er gibt und gibt … Jonas, nur eine!"
 Gute,2,"Felix, du bist der Beste!"
 Glascontainer,2,Sie werfen am Sonntag Flaschen in den Glascontainer. Das hört das ganze Haus.
 gewusst,2,"Oh, das habe ich nicht gewusst. Tut mir leid, ich wohne erst seit einer Woche hier."
@@ -13,8 +14,8 @@ Gärtner,2,"Schon gut, Felix, morgen. Also, wer ist der Mörder? Ich sage: der G
 Hausmeister,2,Moment … da steht es. Der Hausmeister war der Mörder.
 Hof,2,"Ein Zimmer, mit Blick in den Hof."
 Fieber,2,Haben Sie Fieber? Und seit wann haben Sie das?
+super,1,"Lena, hör mal! Der Musik ist super!"
 issen,1,"Na ja, nichts. Was isst du da?"
-Oh,1,"Oh Mann! Er gibt und gibt … Jonas, nur eine!"
 willn,1,"Ich weiß. Du willst eine, ich gebe alle."
 gibst,1,"Felix, gibst du mir mal das Salz?"
 Salz,1,"Felix, gibst du mir mal das Salz?"
@@ -25,15 +26,13 @@ musst,1,Was musst du denn machen? Sag mal.
 Butter,1,Gerne. Mit Butter?
 warst,1,"Mia, du warst mega! Ich höre jetzt nichts mehr 😂"
 mega,1,"Mia, du warst mega! Ich höre jetzt nichts mehr 😂"
-Verspätung,1,"Lena, sorry! Mein Bus hat Verspätung 🙈"
-Café,1,Wie viel? Ich sitze schon im Café 😤
-App,1,Zehn Minuten. Sagt die App.
-äh,1,Äh … warte. Der Bus fährt zurück 😳
+Café,1,Wie lange denn? Ich sitz schon im Café und warte 😤
+App,1,"Zehn Minuten, sagt die App."
 gibt'sn,1,Lena! Das gibt's doch nicht!
-Pfandflasche,1,Nicht in den Müll! Das sind Pfandflaschen 😱
 Supermarkt,1,Du bringst sie zum Supermarkt. Pro Flasche gibt's Geld zurück.
 gibt's,1,Du bringst sie zum Supermarkt. Pro Flasche gibt's Geld zurück.
 Taß,1,Der Kaffee? Die Tasse ist seit zwei Stunden leer.
+schläfen,1,"Hey, schläfst du schon? 🌙"
 tut,1,"Oh, das habe ich nicht gewusst. Tut mir leid, ich wohne erst seit einer Woche hier."
 einziehen,1,Ach so. Sie sind bei Felix eingezogen?
 wegbringen,1,"Genau. Felix hat gesagt, ich soll die Flaschen heute wegbringen."

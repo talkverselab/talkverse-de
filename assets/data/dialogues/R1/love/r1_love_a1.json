@@ -39,7 +39,7 @@
    "es": "Sag mal, {name} … hast du einen Freund?",
    "rd": "자크 말, {name} … 하스트 두 아이넨 프로인트?",
    "ko": "있잖아, {name}… 너 애인 있어?",
-   "note": "einen Freund = 친구·애인(남성 대격)",
+   "note": "먼저 다가가 수줍게 물어보기",
    "tags": [
     "draft"
    ],
@@ -63,7 +63,7 @@
    "es": "Einen Freund? Nein, ich habe keinen. Leider.",
    "rd": "아이넨 프로인트? 나인, 이히 하베 카이넨. 라이더.",
    "ko": "친구? 아니, 없어. 아쉽게도.",
-   "note": "keinen = 하나도 없다(남성 대격)",
+   "note": "애인을 친구로 잘못 듣고 대답",
    "tags": [
     "draft"
    ],
@@ -92,14 +92,14 @@
    "es": "Keinen? Echt? … Das ist gut.",
    "rd": "카이넨? 에히트? … 다스 이스트 구트.",
    "ko": "없어? 진짜? …잘됐다.",
-   "note": "Das ist gut = 잘됐다",
+   "note": "놀랐다가 기쁘게",
    "tags": [
     "draft"
    ],
    "segs": [
     [
      "surprised",
-     "Keinen? Echt? "
+     "Keinen? Echt?"
     ],
     [
      "shy",
@@ -125,7 +125,7 @@
    "es": "Gut? Ich habe hier keinen. Nur mich.",
    "rd": "구트? 이히 하베 히어 카이넨. 누어 미히.",
    "ko": "잘됐다고? 나 여기 아무도 없어. 나 혼자야.",
-   "note": "mich = 나를(대격)",
+   "note": "약간 짜증 나며 강조",
    "tags": [
     "draft"
    ],
@@ -154,7 +154,7 @@
    "es": "Nein. Jetzt hast du auch … mich.",
    "rd": "나인. 예츠트 하스트 두 아우흐 … 미히.",
    "ko": "아니. 이제 너한텐… 나도 있잖아.",
-   "note": "auch mich = 나도(대격)",
+   "note": "심쿵하게 다가서기",
    "tags": [
     "draft"
    ],
@@ -178,7 +178,7 @@
    "es": "Oh! Dann … mag ich mich!",
    "rd": "오! 단 … 마크 이히 미히!",
    "ko": "오! 그럼… 나는 나를 좋아해!",
-   "note": "mich ↔ dich 실수(dich 라고 해야 했다)",
+   "note": "고백하려다 대명사 실수",
    "tags": [
     "draft"
    ],
@@ -195,9 +195,9 @@
    "num": 7,
    "speaker": "B",
    "es": "Du magst dich? Okay … und mich?",
-   "rd": "두 막스트 디히? 오케이 … 운트 미히?",
+   "rd": "두 마크스트 디히? 오케이 … 운트 미히?",
    "ko": "너가 너를 좋아한다고? 그래… 그럼 나는?",
-   "note": "dich = 너를(대격)",
+   "note": "놀리며 정정 유도",
    "tags": [
     "draft"
    ],
@@ -221,7 +221,7 @@
    "es": "Dich! Ich mag dich! … Oh Mann.",
    "rd": "디히! 이히 마크 디히! … 오 만.",
    "ko": "너! 너 좋아한다고! …아 진짜.",
-   "note": "Ich mag dich = 너 좋아해",
+   "note": "바로 고치며 당황",
    "tags": [
     "draft"
    ],
@@ -239,5 +239,10 @@
     ]
    ]
   }
- ]
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r1_love_a1_rewrite.md",
+  "model": "전문가",
+  "final": "data/review/final/r1_love_a1.txt"
+ }
 }

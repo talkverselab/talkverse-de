@@ -34,16 +34,16 @@
   {
    "num": 1,
    "speaker": "A",
-   "es": "Lena, sorry! Mein Bus hat Verspätung 🙈",
-   "rd": "레나, 소리! 마인 부스 하트 페어슈페퉁",
-   "ko": "레나, 미안! 버스가 늦어 🙈",
-   "note": "Verspätung haben = 늦다(교통)",
+   "es": "Lena, sorry! Der Bus ist richtig spät 🙈",
+   "rd": "레나, 조뤼! 데어 부스 이스트 리히티히 슈페트 🙈",
+   "ko": "레나, 미안! 버스가 정말 늦어 🙈",
+   "note": "구어체와 당황감을 초안보다 강화",
    "tags": [
     "draft"
    ],
-   "emotion": "flustered",
    "ui": "bubble",
    "at": "18:02",
+   "emotion": "flustered",
    "lemmas": [
     [
      "Bus",
@@ -51,25 +51,30 @@
      "부스"
     ],
     [
-     "Verspätung",
-     "Verspätung",
-     ""
+     "richtig",
+     "richtig",
+     "리히티히"
+    ],
+    [
+     "spät",
+     "spät",
+     "슈페트"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "es": "Wie viel? Ich sitze schon im Café 😤",
-   "rd": "비 필? 이히 지체 숀 임 카페",
-   "ko": "얼마나? 나 벌써 카페에 앉아 있어 😤",
-   "note": "im Café = 카페에(in dem)",
+   "es": "Wie lange denn? Ich sitz schon im Café und warte 😤",
+   "rd": "비 랑에 덴? 이히 지츠 숀 임 카프é 운트 바어테 😤",
+   "ko": "얼마나 더? 나 벌써 카페에 앉아 기다리고 있어 😤",
+   "note": "레나의 정시 성격으로 짜증을 세게 표현",
    "tags": [
     "draft"
    ],
-   "emotion": "annoyed",
    "ui": "bubble",
    "at": "18:03",
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Wie",
@@ -77,9 +82,19 @@
      "비"
     ],
     [
-     "sitze",
-     "sitzen",
-     "지첸"
+     "lange",
+     "lange",
+     "랑에"
+    ],
+    [
+     "denn",
+     "denn",
+     "덴"
+    ],
+    [
+     "sitz",
+     "Sitz",
+     "지츠"
     ],
     [
      "schon",
@@ -90,22 +105,27 @@
      "Café",
      "Café",
      ""
+    ],
+    [
+     "warte",
+     "warten",
+     "바어텐"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "es": "Zehn Minuten. Sagt die App.",
-   "rd": "첸 미누텐. 자크트 디 앱.",
-   "ko": "10분. 앱에서 그러네.",
-   "note": "sagt die App = 앱이 그래(도치)",
+   "es": "Zehn Minuten, sagt die App.",
+   "rd": "첸 미누텐, 자크트 디 아프.",
+   "ko": "십 분, 앱이 그래.",
+   "note": "앱 정보를 간단하게",
    "tags": [
     "draft"
    ],
-   "emotion": "worried",
    "ui": "bubble",
    "at": "18:03",
+   "emotion": "worried",
    "lemmas": [
     [
      "Minuten",
@@ -113,7 +133,7 @@
      "미누테"
     ],
     [
-     "Sagt",
+     "sagt",
      "sagen",
      "자겐"
     ],
@@ -127,16 +147,16 @@
   {
    "num": 4,
    "speaker": "B",
-   "es": "Okay. Ich bestell dir schon mal was.",
-   "rd": "오케이. 이히 베슈텔 디어 숀 말 바스.",
-   "ko": "알았어. 네 거 먼저 시켜 둘게.",
-   "note": "bestell dir = 너한테 시켜 줄게",
+   "es": "Okay. Ich bestell dir schon mal einen Kaffee.",
+   "rd": "오케이. 이히 베스텔 디어 숀 말 아이넨 카페.",
+   "ko": "알았어. 네 커피 먼저 시켜 둘게.",
+   "note": "배려를 자연스러운 구어로",
    "tags": [
     "draft"
    ],
-   "emotion": "cheerful",
    "ui": "bubble",
    "at": "18:04",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "Okay",
@@ -157,32 +177,37 @@
      "mal",
      "mal",
      "말"
+    ],
+    [
+     "Kaffee",
+     "Kaffee",
+     "카페"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "es": "Äh … warte. Der Bus fährt zurück 😳",
-   "rd": "에 … 바어테. 데어 부스 페어트 추뤽",
-   "ko": "어… 잠깐. 버스가 반대로 가 😳",
-   "note": "zurück = 거꾸로, 되돌아",
+   "es": "Warte mal! Der Bus fährt plötzlich zurück 😳",
+   "rd": "바어테 말! 데어 부스 페어트 플뢰츨리히 추뤽 😳",
+   "ko": "잠깐만! 버스가 갑자기 반대로 가 😳",
+   "note": "트위스트에서 갑작스러운 혼돈 추가",
    "tags": [
     "draft"
    ],
-   "emotion": "surprised",
    "ui": "bubble",
    "at": "18:12",
+   "emotion": "surprised",
    "lemmas": [
     [
-     "Äh",
-     "äh",
-     ""
-    ],
-    [
-     "warte",
+     "Warte",
      "warten",
      "바어텐"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
     ],
     [
      "Bus",
@@ -193,6 +218,11 @@
      "fährt",
      "fahren",
      "파렌"
+    ],
+    [
+     "plötzlich",
+     "plötzlich",
+     "플뢰츨리히"
     ],
     [
      "zurück",
@@ -206,14 +236,14 @@
    "speaker": "B",
    "es": "Zurück?! Welchen Bus hast du genommen?",
    "rd": "추뤽?! 벨헨 부스 하스트 두 게노멘?",
-   "ko": "반대로?! 몇 번 탔는데?",
-   "note": "welchen Bus = 어느 버스를(대격)",
+   "ko": "반대로?! 어떤 버스 탔어?",
+   "note": "놀라움과 질책을 믹스",
    "tags": [
     "draft"
    ],
-   "emotion": "tsukkomi",
    "ui": "bubble",
    "at": "18:12",
+   "emotion": "tsukkomi",
    "lemmas": [
     [
      "Zurück",
@@ -235,16 +265,16 @@
   {
    "num": 7,
    "speaker": "A",
-   "es": "Die Hundert. Ist das nicht richtig?",
-   "rd": "디 훈더트. 이스트 다스 니히트 리히티히?",
-   "ko": "100번. 그거 아니야?",
-   "note": "die Hundert = 100번 버스",
+   "es": "Die Hundert. Ist das richtig?",
+   "rd": "디 훈데어트. 이스트 다스 리히티히?",
+   "ko": "백 번. 그거 맞아?",
+   "note": "걱정스럽게 확인",
    "tags": [
     "draft"
    ],
-   "emotion": "worried",
    "ui": "bubble",
    "at": "18:13",
+   "emotion": "worried",
    "lemmas": [
     [
      "Hundert",
@@ -261,16 +291,16 @@
   {
    "num": 8,
    "speaker": "B",
-   "es": "Die Hundert fährt in beide Richtungen 😂",
-   "rd": "디 훈더트 페어트 인 바이데 리히퉁엔",
-   "ko": "100번은 양방향 다 다녀 😂",
-   "note": "in beide Richtungen = 양쪽으로",
+   "es": "Die Hundert fährt in beide Richtungen, ne? 😂",
+   "rd": "디 훈데어트 페어트 인 바이데 리히퉁엔, 네? 😂",
+   "ko": "백 번은 양방향으로 다 다녀, 맞지? 😂",
+   "note": "웃음을 위한 킥으로 사실 공개",
    "tags": [
     "draft"
    ],
-   "emotion": "amused",
    "ui": "bubble",
    "at": "18:13",
+   "emotion": "amused",
    "lemmas": [
     [
      "Hundert",
@@ -292,24 +322,29 @@
   {
    "num": 9,
    "speaker": "A",
-   "es": "Oh Mann. Ich steige jetzt aus.",
-   "rd": "오 만. 이히 슈타이게 예츠트 아우스.",
+   "es": "Oh Mann. Ich steig jetzt aus.",
+   "rd": "오 만. 이히 슈타이히 예츠트 아우스.",
    "ko": "아 진짜. 지금 내릴게.",
-   "note": "aussteigen = 내리다(분리동사)",
+   "note": "포기와 당황",
    "tags": [
     "draft"
    ],
-   "emotion": "flustered",
    "ui": "bubble",
    "at": "18:14",
+   "emotion": "flustered",
    "lemmas": [
+    [
+     "Oh",
+     "Oh",
+     ""
+    ],
     [
      "Mann",
      "Mann",
      "만"
     ],
     [
-     "steige",
+     "steig",
      "steigen",
      "슈타이겐"
     ],
@@ -324,15 +359,15 @@
    "num": 10,
    "speaker": "B",
    "es": "Gut. Dein Kaffee wird kalt. Ich trink ihn jetzt 😇",
-   "rd": "구트. 다인 카페 비어트 칼트. 이히 트링크 인 예츠트",
-   "ko": "좋아. 네 커피 식는다. 내가 마실게 😇",
-   "note": "wird kalt = 식는다",
+   "rd": "구트. 다인 카페 비어트 칼트. 이히 트린크 인 예츠트 😇",
+   "ko": "좋아. 네 커피 식어. 내가 마실게 😇",
+   "note": "장난과 놀림 강화",
    "tags": [
     "draft"
    ],
-   "emotion": "teasing",
    "ui": "bubble",
    "at": "18:14",
+   "emotion": "teasing",
    "lemmas": [
     [
      "Gut",
@@ -365,15 +400,15 @@
    "num": 11,
    "speaker": "A",
    "es": "Lena! Das gibt's doch nicht!",
-   "rd": "레나! 다스 깁츠 도흐 니히트!",
+   "rd": "레나! 다스 기프트스 도흐 니히트!",
    "ko": "레나! 말도 안 돼!",
-   "note": "Das gibt's doch nicht = 말도 안 돼",
+   "note": "외침으로 강하게 반응",
    "tags": [
     "draft"
    ],
-   "emotion": "shout",
    "ui": "bubble",
    "at": "18:15",
+   "emotion": "shout",
    "lemmas": [
     [
      "gibt's",
@@ -390,17 +425,22 @@
   {
    "num": 12,
    "speaker": "B",
-   "es": "Doch. Ab jetzt pünktlich. Dann kriegst du auch Kaffee ☕",
-   "rd": "도흐. 압 예츠트 퓡크틀리히. 단 크리크스트 두 아우흐 카페",
-   "ko": "마실 거야. 앞으로 시간 지켜. 그럼 커피도 생겨 ☕",
-   "note": "kriegen = 받다(구어)",
+   "es": "Doch. Komm ab jetzt pünktlich. Dann kriegst du Kaffee ☕",
+   "rd": "도흐. 콤 압 예츠트 퓡크틀리히. 단 크리크스트 두 카페 ☕",
+   "ko": "그럴 거야. 앞으로 시간 맞춰 와. 그럼 커피도 줄 거야 ☕",
+   "note": "직설적인 장난으로 마무리",
    "tags": [
     "draft"
    ],
-   "emotion": "teasing",
    "ui": "bubble",
    "at": "18:15",
+   "emotion": "teasing",
    "lemmas": [
+    [
+     "Komm",
+     "kommen",
+     "코멘"
+    ],
     [
      "jetzt",
      "jetzt",
@@ -422,16 +462,16 @@
      "크리겐"
     ],
     [
-     "auch",
-     "auch",
-     "아우흐"
-    ],
-    [
      "Kaffee",
      "Kaffee",
      "카페"
     ]
    ]
   }
- ]
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r2_friends_c1_rewrite.md",
+  "model": "전문가",
+  "final": "data/review/final/r2_friends_c1.txt"
+ }
 }

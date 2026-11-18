@@ -31,51 +31,61 @@
   {
    "num": 1,
    "speaker": "A",
-   "es": "Felix, wohin mit den Flaschen? Der Müll ist voll 🍾",
-   "rd": "펠릭스, 보힌 미트 덴 플라셴? 데어 뮐 이스트 폴",
-   "ko": "펠릭스, 병 어디다 버려? 쓰레기통 꽉 찼어 🍾",
-   "note": "wohin mit … = …은 어디로",
+   "es": "Felix, Müll ist voll. Wohin mit den Flaschen? 🍾",
+   "rd": "페리크스, 뮐 이스트 폴. 보힌 미트 덴 플라셴? 🍾",
+   "ko": "펠릭스, 쓰레기통 꽉 찼어. 병 어디다 버려? 🍾",
+   "note": "구어체로 상황 설명 강화",
    "tags": [
     "draft"
    ],
-   "emotion": "worried",
    "ui": "bubble",
    "at": "19:10",
+   "emotion": "worried",
    "lemmas": [
-    [
-     "Flaschen",
-     "Flasche",
-     "플라셰"
-    ],
     [
      "Müll",
      "Müll",
      ""
+    ],
+    [
+     "voll",
+     "voll",
+     "폴"
+    ],
+    [
+     "Wohin",
+     "wohin",
+     "보힌"
+    ],
+    [
+     "Flaschen",
+     "Flasche",
+     "플라셰"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "es": "Nicht in den Müll! Das sind Pfandflaschen 😱",
-   "rd": "니히트 인 덴 뮐! 다스 진트 판트플라셴",
-   "ko": "쓰레기통 말고! 그거 보증금 병이야 😱",
-   "note": "Pfand = 병 보증금",
+   "es": "Halt! Nicht in den Müll. Die sind Pfand 😱",
+   "rd": "할트! 니히트 인 덴 뮐. 디 진트 판트 😱",
+   "ko": "멈춰! 쓰레기통 말고. 그거 보증금 병이야 😱",
+   "note": "분리수거 규칙을 직설적으로 강조",
    "tags": [
     "draft"
    ],
-   "emotion": "shout",
    "ui": "bubble",
    "at": "19:11",
+   "emotion": "shout",
    "lemmas": [
     [
-     "Müll",
-     "Müll",
-     ""
+     "Halt",
+     "halt",
+     "할트"
     ],
     [
-     "Pfandflaschen",
-     "Pfandflasche",
+     "Müll",
+     "Müll",
      ""
     ]
    ]
@@ -83,31 +93,37 @@
   {
    "num": 3,
    "speaker": "A",
-   "es": "Pfand? Was ist das?",
-   "rd": "판트? 바스 이스트 다스?",
-   "ko": "보증금? 그게 뭔데?",
-   "note": "Was ist das? = 그게 뭐야?",
+   "es": "Pfand? Was ist das denn?",
+   "rd": "판트? 바스 이스트 다스 덴?",
+   "ko": "보증금? 그게 무슨 뜻이야?",
+   "note": "놀라움으로 질문",
    "tags": [
     "draft"
    ],
-   "emotion": "surprised",
    "ui": "bubble",
    "at": "19:11",
-   "lemmas": []
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "denn",
+     "denn",
+     "덴"
+    ]
+   ]
   },
   {
    "num": 4,
    "speaker": "B",
    "es": "Du bringst sie zum Supermarkt. Pro Flasche gibt's Geld zurück.",
-   "rd": "두 브링스트 지 춤 주퍼마어크트. 프로 플라셰 깁츠 겔트 추뤽.",
-   "ko": "슈퍼에 가져가는 거야. 병마다 돈을 돌려받아.",
-   "note": "zum = zu dem(여격)",
+   "rd": "두 브링스트 지 춤 주페어마어크트. 프로 플라셰 기프트스 겔트 추뤽.",
+   "ko": "슈퍼에 가져가면 병마다 돈을 돌려받아.",
+   "note": "설명을 간단하게",
    "tags": [
     "draft"
    ],
-   "emotion": "cheerful",
    "ui": "bubble",
    "at": "19:12",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "bringst",
@@ -144,16 +160,16 @@
   {
    "num": 5,
    "speaker": "A",
-   "es": "Echt? Wie viel?",
-   "rd": "에히트? 비 필?",
+   "es": "Echt? Wie viel denn?",
+   "rd": "에히트? 비 필 덴?",
    "ko": "진짜? 얼마나?",
-   "note": "Wie viel? = 얼마나?",
+   "note": "흥분하며 확인",
    "tags": [
     "draft"
    ],
-   "emotion": "excited",
    "ui": "bubble",
    "at": "19:12",
+   "emotion": "excited",
    "lemmas": [
     [
      "Echt",
@@ -164,6 +180,11 @@
      "Wie",
      "wie",
      "비"
+    ],
+    [
+     "denn",
+     "denn",
+     "덴"
     ]
    ]
   },
@@ -171,15 +192,15 @@
    "num": 6,
    "speaker": "B",
    "es": "Fünfundzwanzig Cent. Ich zähl mal … warte.",
-   "rd": "퓐프운트츠반치히 센트. 이히 첼 말 … 바어테.",
-   "ko": "25센트. 잠깐, 세어 볼게…",
-   "note": "zählen = 세다",
+   "rd": "퓐푼트츠반치히 켄트. 이히 첼 말 … 바어테.",
+   "ko": "이십오 센트. 잠깐 세어 볼게.",
+   "note": "친절하게 계산 시작",
    "tags": [
     "draft"
    ],
-   "emotion": "cheerful",
    "ui": "bubble",
    "at": "19:13",
+   "emotion": "cheerful",
    "lemmas": [
     [
      "zähl",
@@ -201,16 +222,16 @@
   {
    "num": 7,
    "speaker": "B",
-   "es": "Achtundvierzig Flaschen. Das sind zwölf Euro 🤑",
-   "rd": "아흐트운트피어치히 플라셴. 다스 진트 츠뵐프 오이로",
-   "ko": "마흔여덟 병. 12유로야 🤑",
-   "note": "das sind = 그건 ~이다(복수)",
+   "es": "Achtundvierzig Flaschen! Das sind zwölf Euro 🤑",
+   "rd": "아흐툰트피어치히 플라셴! 다스 진트 츠뵐프 오이로 🤑",
+   "ko": "마흔여덟 병! 십이 유로야 🤑",
+   "note": "트위스트에서 금액 놀라움 강화",
    "tags": [
     "draft"
    ],
-   "emotion": "excited",
    "ui": "bubble",
    "at": "19:15",
+   "emotion": "excited",
    "lemmas": [
     [
      "Flaschen",
@@ -229,14 +250,14 @@
    "speaker": "A",
    "es": "Zwölf Euro?! Und die liegen hier seit Monaten?",
    "rd": "츠뵐프 오이로?! 운트 디 리겐 히어 자이트 모나텐?",
-   "ko": "12유로?! 그게 몇 달째 여기 있었던 거야?",
-   "note": "seit Monaten = 몇 달째",
+   "ko": "십이 유로?! 몇 달째 여기 있었던 거야?",
+   "note": "놀라움 크게",
    "tags": [
     "draft"
    ],
-   "emotion": "surprised",
    "ui": "bubble",
    "at": "19:15",
+   "emotion": "surprised",
    "lemmas": [
     [
      "Euro",
@@ -264,15 +285,15 @@
    "num": 9,
    "speaker": "B",
    "es": "Ja. Die sind für dich. Willkommen in der WG 😇",
-   "rd": "야. 디 진트 퓌어 디히. 빌코멘 인 데어 베게",
-   "ko": "응. 너 주려고. 우리 집 온 거 환영해 😇",
-   "note": "WG = 셰어하우스",
+   "rd": "야. 디 진트 퓌어 디히. 빌코멘 인 데어 프크 😇",
+   "ko": "응. 너 주려고 모은 거야. 우리 집 온 거 환영해 😇",
+   "note": "다정하게 선물로",
    "tags": [
     "draft"
    ],
-   "emotion": "gentle",
    "ui": "bubble",
    "at": "19:16",
+   "emotion": "gentle",
    "lemmas": [
     [
      "Willkommen",
@@ -285,15 +306,15 @@
    "num": 10,
    "speaker": "A",
    "es": "Felix, du bist der Beste!",
-   "rd": "펠릭스, 두 비스트 데어 베스테!",
-   "ko": "펠릭스, 너 최고다!",
-   "note": "der Beste = 최고",
+   "rd": "페리크스, 두 비스트 데어 베스테!",
+   "ko": "펠릭스, 너 최고야!",
+   "note": "기쁨 표현",
    "tags": [
     "draft"
    ],
-   "emotion": "excited",
    "ui": "bubble",
    "at": "19:16",
+   "emotion": "excited",
    "lemmas": [
     [
      "Beste",
@@ -306,15 +327,15 @@
    "num": 11,
    "speaker": "B",
    "es": "Aber du bringst sie weg. Regel Nummer eins 😏",
-   "rd": "아버 두 브링스트 지 베크. 레겔 눔머 아인스",
-   "ko": "대신 갖다 주는 건 너야. 규칙 1번 😏",
-   "note": "wegbringen = 갖다 놓다(분리동사)",
+   "rd": "아버 두 브링스트 지 베크. 레겔 눔머 아인스 😏",
+   "ko": "대신 네가 가져가야 해. 규칙 일번 😏",
+   "note": "규칙을 장난스럽게 상기",
    "tags": [
     "draft"
    ],
-   "emotion": "teasing",
    "ui": "bubble",
    "at": "19:17",
+   "emotion": "teasing",
    "lemmas": [
     [
      "bringst",
@@ -338,5 +359,10 @@
     ]
    ]
   }
- ]
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/r2_life_c1_rewrite.md",
+  "model": "전문가",
+  "final": "data/review/final/r2_life_c1.txt"
+ }
 }
