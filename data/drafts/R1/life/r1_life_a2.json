@@ -1,0 +1,141 @@
+{
+ "id": "r1_life_a2",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "title": "분홍 셔츠",
+ "emoji": "🧺",
+ "scene": "빨래를 꺼낸 Felix. 학습자가 빨간 양말을 흰 빨래와 같이 돌렸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Felix"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [],
+ "draft": true,
+ "level": "1 관사·격·활용 골격",
+ "outline": true,
+ "words": [
+  "waschen",
+  "Hemd",
+  "rot",
+  "weiß",
+  "Socke",
+  "rosa"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "beat": "Felix 가 분홍색이 된 셔츠를 들고 나온다",
+   "emotion": "surprised",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "beat": "예쁜 셔츠라고 칭찬한다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "beat": "원래 흰색이었다고 말한다",
+   "emotion": "annoyed",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "beat": "누가 빨았냐고 묻는다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "beat": "현재완료로 네가 빨았다고, 빨간 양말과 같이 넣었다고 짚는다",
+   "emotion": "tsukkomi",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "beat": "미안하다며 양말을 찾는다",
+   "emotion": "flustered",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "beat": "규칙표에 흰색은 따로라고 적혀 있다고 말한다",
+   "emotion": "stiff",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "beat": "분홍도 잘 어울린다고 웃으며 넘긴다",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  }
+ ]
+}

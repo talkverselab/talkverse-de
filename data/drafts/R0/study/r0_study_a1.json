@@ -1,0 +1,116 @@
+{
+ "id": "r0_study_a1",
+ "region": "R0",
+ "island": "study",
+ "kind": "short",
+ "title": "여기 비었어?",
+ "emoji": "📚",
+ "scene": "어학원 첫날. 학습자가 빈자리를 묻자 Mia 가 가방을 치운다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "study"
+ ],
+ "domain": [
+  "study"
+ ],
+ "expressions": [],
+ "draft": true,
+ "level": "0 입문",
+ "outline": true,
+ "words": [
+  "frei",
+  "ja",
+  "neu",
+  "auch",
+  "cool"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "beat": "여기 자리 비었냐고 묻는다",
+   "emotion": "polite",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "beat": "Mia 가 원래 안 비었다고 한다",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "beat": "아 미안, 하고 돌아선다",
+   "emotion": "flustered",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "beat": "가방을 치우며 너한테는 비었다고 한다",
+   "emotion": "shy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "beat": "고맙다며 앉고 자기도 새로 왔다고 한다",
+   "emotion": "shy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "beat": "자기도 새로 왔다며 좋다고 한다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  }
+ ]
+}

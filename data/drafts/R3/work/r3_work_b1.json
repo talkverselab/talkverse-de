@@ -1,0 +1,207 @@
+{
+ "id": "r3_work_b1",
+ "region": "R3",
+ "island": "work",
+ "kind": "long",
+ "title": "시급 면접",
+ "emoji": "💼",
+ "scene": "Mia 가 일하는 카페의 사장이 학습자를 아르바이트로 면접 본다. 사장은 Sie 로 시작한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Herr Wagner",
+  "C": "Mia"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "work"
+ ],
+ "domain": [
+  "work"
+ ],
+ "expressions": [],
+ "draft": true,
+ "level": "3 그래머2",
+ "outline": true,
+ "words": [
+  "Job",
+  "Erfahrung",
+  "Stunde",
+  "Wochenende",
+  "anfangen",
+  "duzen"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "beat": "사장이 Sie 로 앉으라고 한다",
+   "emotion": "polite",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "beat": "Sie 로 고맙다며 인사한다",
+   "emotion": "polite",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "beat": "카페 경험이 있냐고 묻는다",
+   "emotion": "stiff",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "beat": "한 번 거품을 만들어 봤다고 한다(현재완료)",
+   "emotion": "flustered",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "beat": "뒤에서 Mia 가 카운터를 거품으로 덮었다고 끼어든다",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "beat": "주말에 일할 수 있냐고 묻는다",
+   "emotion": "polite",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "beat": "토요일, 일요일 다 된다고 한다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "beat": "언제 시작할 수 있냐고 묻는다",
+   "emotion": "polite",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "beat": "내일도 된다고 한다",
+   "emotion": "excited",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "beat": "사실 Mia 가 이미 추천해서 합격이라고 한다",
+   "emotion": "amused",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "beat": "여기서는 다 du 로 부르자고 제안한다",
+   "emotion": "gentle",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "beat": "좋다며 du 로 처음 인사한다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "beat": "첫 근무는 거품 청소라고 놀린다",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  }
+ ]
+}

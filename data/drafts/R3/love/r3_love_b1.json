@@ -1,0 +1,196 @@
+{
+ "id": "r3_love_b1",
+ "region": "R3",
+ "island": "love",
+ "kind": "long",
+ "title": "계산은 누가",
+ "emoji": "🍝",
+ "scene": "Mia 와 첫 식당 데이트. 웨이터는 Sie 로 말하고, 계산할 때 둘이 서로 내겠다고 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia",
+  "C": "Kellner"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [],
+ "draft": true,
+ "level": "3 그래머2",
+ "outline": true,
+ "words": [
+  "bestellen",
+  "Rechnung",
+  "zahlen",
+  "zusammen",
+  "getrennt",
+  "Trinkgeld"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "beat": "웨이터가 Sie 로 무엇을 드시겠냐고 묻는다",
+   "emotion": "polite",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "beat": "Sie 로 파스타를 주문한다",
+   "emotion": "polite",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "beat": "Mia 가 같은 걸로 하겠다고 한다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "beat": "오늘 왜 이렇게 긴장했냐고 묻는다",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "beat": "첫 데이트라 그렇다고 한다",
+   "emotion": "shy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "beat": "데이트라고 말한 건 처음이라고 한다",
+   "emotion": "shy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "beat": "웨이터가 같이 낼지 따로 낼지 묻는다",
+   "emotion": "polite",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "beat": "내가 내겠다고 한다",
+   "emotion": "excited",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "beat": "이미 계산했다고 말한다",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "beat": "언제 냈냐고 놀란다",
+   "emotion": "surprised",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "beat": "화장실 가는 척하고 냈다고, 대신 다음엔 네가 내라고 한다",
+   "emotion": "shy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "beat": "그럼 다음 데이트 약속이라고 웃는다",
+   "emotion": "gentle",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  }
+ ]
+}

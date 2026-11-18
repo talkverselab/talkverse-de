@@ -1,0 +1,169 @@
+{
+ "id": "r2_love_c4",
+ "region": "R2",
+ "island": "love",
+ "kind": "chat",
+ "title": "지금 뭐 해?",
+ "emoji": "💬",
+ "scene": "Mia 가 지금 뭐 하냐고 묻고, 학습자가 보낸 사진에 Mia 가 이미 찍혀 있다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [],
+ "draft": true,
+ "level": "2 챗 실전",
+ "outline": true,
+ "words": [
+  "gerade",
+  "Foto",
+  "Café",
+  "sitzen",
+  "hinter",
+  "wenn"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "beat": "Mia 가 지금 뭐 하냐고 묻는다",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "beat": "카페에서 책 읽는다고 한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "beat": "사진 보내 달라고 한다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "beat": "커피와 책 사진을 보낸다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "beat": "사진 뒤쪽을 확대해 보라고 한다",
+   "emotion": "amused",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "beat": "뒤에 앉은 사람이 Mia 라는 걸 알아챈다",
+   "emotion": "surprised",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "beat": "돌아보면 안 된다고, 그럼 재미없다고 한다(wenn)",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "beat": "이미 돌아봤다고 한다",
+   "emotion": "flustered",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "beat": "손을 흔든다고 보낸다",
+   "emotion": "shy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "beat": "그럼 커피 한 잔 더 시키겠다고 한다",
+   "emotion": "gentle",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  }
+ ]
+}

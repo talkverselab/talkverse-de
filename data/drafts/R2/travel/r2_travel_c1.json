@@ -1,0 +1,167 @@
+{
+ "id": "r2_travel_c1",
+ "region": "R2",
+ "island": "travel",
+ "kind": "chat",
+ "title": "함부르크 주말",
+ "emoji": "💬",
+ "scene": "Jonas 와 주말 여행 계획. Jonas 는 계속 한 단어로만 답한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Jonas"
+ },
+ "register": "chat",
+ "twist": 8,
+ "twist_type": "ignore",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [],
+ "draft": true,
+ "level": "2 챗 실전",
+ "outline": true,
+ "words": [
+  "Wochenende",
+  "Zug",
+  "fahren",
+  "Hotel",
+  "ok",
+  "wenn"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "beat": "주말에 함부르크 가자고 한다",
+   "emotion": "excited",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "beat": "Jonas 가 좋다고 한 단어로 답한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "beat": "기차는 토요일 아침이 어떠냐고 묻는다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "beat": "오케이라고만 한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "beat": "호텔은 싼 데로 하자고 한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "beat": "또 오케이",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "beat": "다른 말은 없냐고 묻는다",
+   "emotion": "annoyed",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "beat": "갑자기 긴 메시지 — 생선 빵 가게 목록을 다 보낸다",
+   "emotion": "excited",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "beat": "먹는 거면 말이 많다고 웃는다",
+   "emotion": "tsukkomi",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "beat": "시간 되면 다 가자고 한다(wenn)",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  }
+ ]
+}

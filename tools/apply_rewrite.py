@@ -7,8 +7,19 @@ import glob, json, re, sys
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 for id_ in sys.argv[1:]:
-    p = glob.glob(str(ROOT / f'assets/data/dialogues/R*/*/{id_}.json'))[0]
-    e = json.load(open(p, encoding='utf-8'))
+    hit = glob.glob(str(ROOT / f'assets/data/dialogues/R*/*/{id_}.json'))
+    if hit:
+        p = hit[0]
+        e = json.load(open(p, encoding='utf-8'))
+    else:  # 새 편: 대사 없는 초안(data/drafts) → Grok 대사를 붙여 assets 로
+        d = glob.glob(str(ROOT / f'data/drafts/R*/*/{id_}.json'))[0]
+        e = json.load(open(d, encoding='utf-8'))
+        p = str(ROOT / 'assets/data/dialogues' / Path(d).relative_to(ROOT / 'data/drafts'))
+        Path(p).parent.mkdir(parents=True, exist_ok=True)
+        for k in ('outline', 'words'):
+            e.pop(k, None)
+        for t in e['turns']:
+            t.pop('beat', None)
     lines = [l.strip() for l in open(ROOT / f'data/review/final/{id_}.txt', encoding='utf-8') if l.strip() and re.match(r'\d+ ', l)]
     turns = []
     for l in lines:
@@ -32,6 +43,9 @@ for id_ in sys.argv[1:]:
             t['emotion'] = old.get('emotion', 'neutral')
         turns.append(t)
     e['turns'] = turns
+    rec = [l for l in open(ROOT / f'data/review/final/{id_}.txt', encoding='utf-8') if l.startswith('추천 표현:')]
+    if rec and not e.get('expressions'):
+        e['expressions'] = [x.split(' / ')[0].strip() for x in rec[0].split(':', 1)[1].split('|') if x.strip()]
     e['review'] = {'grok_rewrite': f'data/review/grok/{id_}_rewrite.md', 'model': '전문가', 'final': f'data/review/final/{id_}.txt'}
     json.dump(e, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(id_, len(turns), '턴')

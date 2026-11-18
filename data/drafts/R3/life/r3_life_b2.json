@@ -1,0 +1,194 @@
+{
+ "id": "r3_life_b2",
+ "region": "R3",
+ "island": "life",
+ "kind": "long",
+ "title": "방 보러 왔어요",
+ "emoji": "🏠",
+ "scene": "Felix 와 함께 새 WG 방을 보러 간다. 집주인은 Sie, 방은 기대와 다르다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Frau Schulz",
+  "C": "Felix"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [],
+ "draft": true,
+ "level": "3 그래머2",
+ "outline": true,
+ "words": [
+  "Zimmer",
+  "Miete",
+  "Küche",
+  "hell",
+  "klein",
+  "Balkon"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "beat": "집주인이 Sie 로 들어오라고 한다",
+   "emotion": "polite",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "beat": "Sie 로 인사하며 방이 밝다고 한다",
+   "emotion": "polite",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "beat": "창이 큰 방이라고 소개한다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "beat": "Felix 가 부엌은 어디냐고 묻는다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "beat": "부엌은 같이 쓴다고 한다(wir·Sie)",
+   "emotion": "polite",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "beat": "월세가 얼마냐고 묻는다",
+   "emotion": "polite",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "beat": "문을 열자 발코니에 거위 두 마리가 있다",
+   "emotion": "surprised",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "beat": "이웃 거위인데 매일 온다고 아무렇지 않게 말한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "beat": "분리수거 규칙에 거위도 있냐고 묻는다",
+   "emotion": "tsukkomi",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "beat": "거위가 방보다 크다고 웃는다",
+   "emotion": "amused",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "beat": "거위 덕분에 월세가 싸다고 한다",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "beat": "이 방으로 하겠다고 한다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  }
+ ]
+}

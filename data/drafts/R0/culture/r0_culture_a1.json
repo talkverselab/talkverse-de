@@ -1,0 +1,114 @@
+{
+ "id": "r0_culture_a1",
+ "region": "R0",
+ "island": "culture",
+ "kind": "short",
+ "title": "뭐라고?",
+ "emoji": "🥁",
+ "scene": "Mia 의 드럼 연습실. 소리가 너무 커서 서로 말이 안 들린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "expressions": [],
+ "draft": true,
+ "level": "0 입문",
+ "outline": true,
+ "words": [
+  "wie bitte",
+  "laut",
+  "gut",
+  "super",
+  "noch mal"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "beat": "Mia 가 드럼을 치다 멈추고 어떠냐고 묻는다",
+   "emotion": "excited",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "beat": "좋았다고 말한다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "beat": "다시 치기 시작하며 뭐라고 했냐고 크게 묻는다",
+   "emotion": "shout",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "beat": "크게 최고라고 외친다",
+   "emotion": "shout",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "beat": "드럼을 멈춘 순간 학습자 목소리만 크게 울린다",
+   "emotion": "amused",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "beat": "머쓱하게 한 번 더 작게 좋다고 말한다",
+   "emotion": "flustered",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  }
+ ]
+}

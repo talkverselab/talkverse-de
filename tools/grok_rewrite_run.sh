@@ -1,5 +1,5 @@
 #!/bin/zsh
-# 회화 Grok 재작성 회차(PC 크롬 9258, 전문가 모드 — hu 회차 스크립트를 옮김). 방 하나에 N편(10편 이하) — 첫 메시지만 규칙 첨부, 이후 파일 이름 한 줄 + 그 편 JSON 첨부.
+# 회화 Grok 재작성 회차(PC 크롬 9258, 「빠른」 모드(2026-11-18) — hu 회차 스크립트를 옮김). 방 하나에 N편(10편 이하) — 첫 메시지만 규칙 첨부, 이후 파일 이름 한 줄 + 그 편 JSON 첨부.
 #   zsh tools/grok_rewrite_run.sh [--chat <방 주소>] <편id>...   결과 data/review/grok/out/<id>.md, 로그 data/review/grok/run.log
 cd "$(dirname "$0")/.."
 export GROK_CDP_PORT=9258
@@ -8,7 +8,7 @@ tmp=${GROK_TMP:-${TMPDIR:-/tmp}}/grok_de_first.txt
 for id in "$@"; do
   out=data/review/grok/out/$id.md
   [[ -s $out ]] && { echo "skip $id"; continue; }
-  src=$(ls assets/data/dialogues/R*/*/$id.json 2>/dev/null | head -1)
+  src=$(ls assets/data/dialogues/R*/*/$id.json data/drafts/R*/*/$id.json 2>/dev/null | head -1)  # 새 편은 대사 없는 초안(data/drafts)
   [[ -z $src ]] && { echo "없음 $id"; continue; }
   if [[ -z $chat ]]; then
     print -r -- "첨부한 GROK_RULES_de.md 가 이 방의 규칙이다. 앞으로는 파일 이름 한 줄만 보내고 그 파일을 첨부한다. 첫 편: $id.json" > $tmp

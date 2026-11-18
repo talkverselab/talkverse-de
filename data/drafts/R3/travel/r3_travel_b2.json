@@ -1,0 +1,194 @@
+{
+ "id": "r3_travel_b2",
+ "region": "R3",
+ "island": "travel",
+ "kind": "long",
+ "title": "검표원",
+ "emoji": "🚆",
+ "scene": "지역 열차. 검표원이 오자 학습자가 앱 표를 못 찾는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Kontrolleur",
+  "C": "Jonas"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [],
+ "draft": true,
+ "level": "3 그래머2",
+ "outline": true,
+ "words": [
+  "Fahrkarte",
+  "Ticket",
+  "App",
+  "zeigen",
+  "gültig",
+  "Ausweis"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "beat": "검표원이 Sie 로 표를 보여 달라고 한다",
+   "emotion": "stiff",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "beat": "앱에 있다며 휴대폰을 연다",
+   "emotion": "flustered",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "beat": "앱이 로딩만 된다고 한다",
+   "emotion": "worried",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "beat": "Jonas 가 와이파이를 켜 보라고 짧게 말한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "beat": "신분증도 보여 줄 수 있냐고 묻는다",
+   "emotion": "stiff",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "beat": "신분증을 내밀며 표를 분명히 샀다고 한다",
+   "emotion": "worried",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "beat": "시간이 없다고 다음 역에서 내려야 할 수도 있다고 한다",
+   "emotion": "stiff",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "beat": "Jonas 가 자기 휴대폰으로 둘 표를 같이 샀다고 말한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "beat": "확인하더니 둘 다 유효하다고 한다",
+   "emotion": "polite",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "beat": "왜 진작 말 안 했냐고 Jonas 에게 따진다",
+   "emotion": "tsukkomi",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "beat": "네가 안 물어봤다고 한다",
+   "emotion": "amused",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "beat": "좋은 여행 되라고 웃으며 간다",
+   "emotion": "gentle",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  }
+ ]
+}

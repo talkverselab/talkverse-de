@@ -1,0 +1,167 @@
+{
+ "id": "r2_friends_c2",
+ "region": "R2",
+ "island": "friends",
+ "kind": "chat",
+ "title": "보낼 데를 잘못",
+ "emoji": "💬",
+ "scene": "학습자가 Lena 생일 선물 얘기를 Jonas 에게 보낸다는 게 Lena 에게 보낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lena"
+ },
+ "register": "chat",
+ "twist": 3,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [],
+ "draft": true,
+ "level": "2 챗 실전",
+ "outline": true,
+ "words": [
+  "schicken",
+  "Geschenk",
+  "Überraschung",
+  "falsch",
+  "Chat",
+  "weil"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "beat": "Jonas 에게 쓰는 줄 알고 Lena 선물로 자전거 벨을 사자고 보낸다",
+   "emotion": "excited",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "beat": "Lena 가 물음표 하나를 보낸다",
+   "emotion": "surprised",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "beat": "잘못 보냈다는 걸 알고 당황한다",
+   "emotion": "flustered",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "beat": "무슨 선물이냐고 묻는다",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "beat": "아무것도 아니라고 둘러댄다",
+   "emotion": "flustered",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "beat": "자전거 벨이라고 다 읽었다고 한다",
+   "emotion": "amused",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "beat": "깜짝 선물이었는데 망했다고 한다",
+   "emotion": "sad",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "beat": "내 벨이 고장 나서 딱 필요했다고 한다(weil)",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "beat": "그래도 놀란 척하겠다고 약속한다",
+   "emotion": "gentle",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "beat": "고맙다며 이건 비밀이라고 한다",
+   "emotion": "amused",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  }
+ ]
+}
