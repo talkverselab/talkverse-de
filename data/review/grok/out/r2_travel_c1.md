@@ -1,14 +1,14 @@
 Grok
 
-1 A: Wochenende nach Hamburg fahren? / 주말에 함부르크 갈래? / 들떠서 제안하는 채팅 / excited
-2 B: Gut. / 좋아. / 한 단어로 답하는 중립 / neutral
-3 A: Zug Samstag früh? / 기차 토요일 아침? / 밝게 일정 묻는 말 / cheerful
-4 B: Ok. / 오케이. / 또 한 단어 / neutral
-5 A: Hotel billig. / 호텔은 싼 데로. / 짧게 제안하는 말 / neutral
-6 B: Ok. / 오케이. / 또 한 단어 / neutral
-7 A: Sagst du noch was anderes? / 다른 말은 없어? / 짜증 섞여 묻는 말 / annoyed
-8 B: Fischbrötchen-Läden: drei am Hafen, zwei in der Stadt, einer am Bahnhof. / 생선 빵 가게: 항구에 세 개, 시내에 두 개, 역에 하나. / 갑자기 긴 메시지로 카오스 반전 / excited
-9 A: Bei Essen redest du plötzlich viel. / 먹는 거면 갑자기 말이 많네. / 어이없어 웃는 츠코미 / tsukkomi
-10 B: Wenn wir Zeit haben, alle probieren. / 시간 있으면 다 먹으러 가자. / wenn으로 밝게 마무리 / cheerful
-
-추천 표현: Ok. / 오케이. | Wenn wir Zeit haben. / 시간 있으면.
+1 A: Wochenende nach Hamburg, kommst du mit? / 주말에 함부르크 가는데 너도 올래? / 여행 계획을 신나게 제안 / excited
+2 B: Gute Idee. / 좋은 생각. / 한 단어로 긍정, Gute Idee 그대로 / neutral
+3 A: Zug Samstag früh, wie klingt das? / 기차 토요일 아침은 어때? / 기차 시간을 밝게 물어봄 / cheerful
+4 B: Passt. / 괜찮아. / 또 한 단어로 동의, Passt 그대로 / neutral
+5 A: Hotel günstig ist besser. / 호텔은 싼 데가 좋아. / 호텔 조건을 짧게 말함 / neutral
+6 B: Ok. / 오케이. / 다시 한 단어로만 답함 / neutral
+7 A: Na und? Sagst du sonst nichts? / 그래서? 다른 말은 없어? / 말이 없는 걸 짜증내며 Na und? 삽입 / annoyed
+8 B: Fischbrötchen: Laden eins, zwei, drei, alle geil! / 생선 빵: 가게 하나, 둘, 셋, 다 맛있어! / 갑자기 긴 메시지로 가게 목록을 흥분해서 보냄 / excited
+9 A: Bei Essen redest du plötzlich viel, ne? / 먹는 거면 갑자기 말이 많네? / 음식 얘기엔 말이 많다고 웃으며 지적 / tsukkomi
+10 B: Wenn Zeit ist, will ich alle sehen. / 시간 되면 다 보고 싶어. / 시간 되면 다 보고 싶다고 wenn으로 밝게 / cheerful
+추천 표현: Gute Idee! / 좋은 생각!
+Passt. / 괜찮아.

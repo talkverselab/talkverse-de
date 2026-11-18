@@ -1,9 +1,9 @@
 Grok
 
-1 {name}: Hier frei? / 여기 비었어? / 짧게 묻기 / polite
-2 Mia: Nein. / 아니. / teasing하게 / teasing
-3 {name}: Sorry. / 미안. / 당황해서 돌아섬 / flustered
-4 Mia: Für dich ja. / 너한테는 응. / 가방 치우며 / shy
-5 {name}: Danke. Ich neu. / 고마워. 나 새로 왔어. / 앉으며 / shy
-6 Mia: Ich auch. Cool. / 나도. 좋아. / 밝게 / cheerful
-추천 표현: Hier frei? / 여기 비었어? , Ich neu. / 나 새로 왔어.
+1 {name}: Hallo. Frei? / 안녕. 비었어? / 여기 자리 비었냐고 묻기 / polite
+2 Mia: Nein. / 아니. / 원래 안 비었다고 / teasing
+3 {name}: Oh, sorry. / 오, 미안. / 아 미안, 하고 돌아섬 / flustered
+4 Mia: Klar. Für dich. / 그래. 너한테는. / 가방 치우며 너한테는 비었다고 / shy
+5 {name}: Danke. Ich neu. / 고마워. 나 새로. / 고맙다며 앉고 자기도 새로 왔다고 / shy
+6 Mia: Ich auch! Cool. / 나도! 좋아. / 자기도 새로 왔다며 좋다고 / cheerful
+추천 표현: Frei? / 비었어? Klar! / 그래!

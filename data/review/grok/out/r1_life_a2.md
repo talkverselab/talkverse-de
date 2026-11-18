@@ -1,11 +1,11 @@
 Grok
 
-1 Felix: Das Hemd ist rosa. / 셔츠가 분홍색이야. / 들고 나오며 / surprised
-2 {name}: Schönes Hemd. / 예쁜 셔츠네. / 칭찬 / cheerful
-3 Felix: Es war weiß. / 원래 흰색이었어. / 짜증 / annoyed
-4 {name}: Wer hat gewaschen? / 누가 빨았어? / 묻기 / neutral
-5 Felix: Du hast die rote Socke mitgewaschen. / 네가 빨간 양말이랑 같이 넣었어. / 현재완료로 짚음 / tsukkomi
-6 {name}: Sorry. Wo ist die Socke? / 미안. 양말 어디 있어? / 당황 / flustered
-7 Felix: Weiß getrennt. Steht auf der Liste. / 흰색은 따로. 규칙표에 적혀 있어. / 딱딱하게 / stiff
-8 {name}: Rosa steht dir gut. / 분홍도 잘 어울려. / 웃으며 넘김 / teasing
-추천 표현: Wer hat gewaschen? / 누가 빨았어? , Es war weiß. / 원래 흰색이었어.
+1 Felix: Das Hemd ist rosa! / 셔츠가 분홍색이야! / 분홍색이 된 셔츠를 들고 나옴 / surprised
+2 {name}: Das Hemd ist schön! / 셔츠 예뻐! / 예쁜 셔츠라고 칭찬 / cheerful
+3 Felix: Es war weiß. / 원래 흰색이었어. / 원래 흰색이었다고 / annoyed
+4 {name}: Wer hat gewaschen? / 누가 빨았어? / 누가 빨았냐고 / neutral
+5 Felix: Du hast gewaschen. Die Socke ist rot. / 네가 빨았어. 양말이 빨갛고. / 현재완료로 네가 빨았다고, 빨간 양말과 같이 넣었다고 / tsukkomi
+6 {name}: Mist! Ich hab's vergessen. / 젠장! 깜빡했어. / 미안하다며 양말을 찾음 / flustered
+7 Felix: Weiß extra. Steht auf der Liste. / 흰색은 따로. 규칙표에 적혀 있어. / 규칙표에 흰색은 따로라고 / stiff
+8 {name}: Rosa passt dir. Macht nichts! / 분홍 잘 어울려. 괜찮아! / 분홍도 잘 어울린다고 웃으며 넘김 / teasing
+추천 표현: Mist! / 젠장! Macht nichts! / 괜찮아!

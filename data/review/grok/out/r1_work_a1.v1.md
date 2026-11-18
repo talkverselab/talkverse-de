@@ -1,0 +1,12 @@
+Grok
+
+1 B: Heute machst du den Schaum. / 오늘은 네가 거품 만들어. / 카페 문 닫은 뒤 장난스럽게 맡기는 한 줄 / teasing
+2 A: Wie mache ich das? / 어떻게 하는데? / 바로 방법을 묻는 짧은 걱정 / worried
+3 B: Milch rein. Dann den Knopf drücken. / 우유 넣어. 그리고 버튼 눌러. / 단계를 짧게 지시하는 구어 / neutral
+4 A: Oh! Der Schaum läuft über! / 오! 거품이 넘쳐! / 버튼을 누르자마자 당황하는 반응 / surprised
+5 B: Stopp! Zu viel Schaum! / 멈춰! 거품 너무 많아! / 넘치자 외치는 카오스 순간 / shout
+6 A: Der Tresen ist voller Schaum. Haha. / 카운터가 온통 거품이야. 하하. / 웃으며 상황을 받아들이는 킥 / amused
+7 B: Ich probiere mal. / 내가 한번 마셔 볼게. / wir 없이 맛보기로 하는 한 줄 / amused
+8 B: Schmeckt gut. Nächstes Mal in die Tasse. / 맛있어. 다음엔 컵에 넣자. / 다정하게 마무리하는 반응 / gentle
+
+추천 표현: Milch rein. / 우유 넣어. | Ich probiere mal. / 내가 한번 마셔 볼게.

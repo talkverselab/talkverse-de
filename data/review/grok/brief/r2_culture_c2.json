@@ -25,6 +25,9 @@
  "expressions": [],
  "level": "2 챗 실전",
  "words": [
+  "Na klar",
+  "Mega",
+  "Mal sehen",
   "Konzert",
   "Karte",
   "zwei",
@@ -106,7 +109,7 @@
   {
    "num": 8,
    "speaker": "B",
-   "beat": "방금 같이 가자고 물은 거라고 한다",
+   "beat": "방금 너도 올 거냐고 물은 거라고 한다(kommst du mit?)",
    "emotion": "tsukkomi",
    "es": "",
    "rd": "",
@@ -116,7 +119,7 @@
   {
    "num": 9,
    "speaker": "A",
-   "beat": "같이 간다고 한다(mitkommen)",
+   "beat": "나도 간다고 한다(mitkommen)",
    "emotion": "excited",
    "es": "",
    "rd": "",
@@ -133,6 +136,10 @@
    "ko": "",
    "note": ""
   }
+ ],
+ "must": [
+  "표현 풀 낱말(words 앞 3개)을 대사에 그대로 넣는다.",
+  "R0~R2: du·단수만 — wir·uns·unser·ihr·euch·euer·Sie 를 쓰지 않는다."
  ],
  "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
 }

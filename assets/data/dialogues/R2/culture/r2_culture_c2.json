@@ -23,8 +23,7 @@
   "culture"
  ],
  "expressions": [
-  "Was machst du am Samstag?",
-  "Ich komm mit."
+  "Kommst du mit?"
  ],
  "draft": true,
  "level": "2 챗 실전",
@@ -32,10 +31,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "es": "Hey, was machst du am Samstag?",
-   "rd": "헤이, 바스 마흐스트 두 암 잠스탁?",
-   "ko": "야, 토요일에 뭐 해?",
-   "note": "채팅처럼 자연스럽게 묻기",
+   "es": "Was machst du am Samstag?",
+   "rd": "바스 마흐스트 두 암 잠스탁?",
+   "ko": "토요일에 뭐 해?",
+   "note": "빈 칸을 R2 채팅체로",
    "tags": [
     "draft"
    ],
@@ -56,22 +55,27 @@
   {
    "num": 2,
    "speaker": "A",
-   "es": "Weiß noch nicht.",
-   "rd": "바이스 노흐 니히트.",
-   "ko": "아직 모르겠어.",
-   "note": "짧게 답하는 구어",
+   "es": "Mal sehen. Noch nichts.",
+   "rd": "말 제엔. 노흐 니히츠.",
+   "ko": "글쎄. 아직 없어.",
+   "note": "Mal sehen 넣고 짧게",
    "tags": [
     "draft"
    ],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Weiß",
-     "weiß",
-     "바이스"
+     "Mal",
+     "mal",
+     "말"
     ],
     [
-     "noch",
+     "sehen",
+     "sehen",
+     "제엔"
+    ],
+    [
+     "Noch",
      "noch",
      "노흐"
     ]
@@ -80,10 +84,10 @@
   {
    "num": 3,
    "speaker": "B",
-   "es": "Ich hab Karten für ein Konzert!",
-   "rd": "이히 합 카어텐 퓌어 아인 콘체어트!",
-   "ko": "나 공연 표 샀어!",
-   "note": "들뜬 목소리로 바로 밝힘",
+   "es": "Mega! Hab Karten fürs Konzert.",
+   "rd": "메가! 합 카어텐 퓌어스 콘체어트.",
+   "ko": "대박! 콘서트 표 샀어.",
+   "note": "Mega와 단어 넣어 신나게",
    "tags": [
     "draft"
    ],
@@ -107,7 +111,7 @@
    "es": "Cool. Viel Spaß dann.",
    "rd": "콜. 필 슈파스 단.",
    "ko": "멋지다. 재밌게 봐.",
-   "note": "부러워하면서 응원하는 짧은 말",
+   "note": "부러운 반응으로",
    "tags": [
     "draft"
    ],
@@ -130,8 +134,8 @@
    "speaker": "B",
    "es": "Das ist nicht die Reaktion.",
    "rd": "다스 이스트 니히트 디 레아크치온.",
-   "ko": "그게 아니야.",
-   "note": "반응이 빗나가서 살짝 짜증",
+   "ko": "그게 반응이 아니야.",
+   "note": "짜증 나게",
    "tags": [
     "draft"
    ],
@@ -147,24 +151,24 @@
   {
    "num": 6,
    "speaker": "B",
-   "es": "Ich hab zwei Karten…",
-   "rd": "이히 합 츠바이 카어텐…",
-   "ko": "표가 두 장이야…",
-   "note": "수줍게 밝히는 반전 한 줄",
+   "es": "Zwei Karten. Na klar für dich?",
+   "rd": "츠바이 카어텐. 나 클라어 퓌어 디히?",
+   "ko": "표 두 장이야. 당연히 너도?",
+   "note": "Na klar 넣고 수줍게 반전으로",
    "tags": [
     "draft"
    ],
    "emotion": "shy",
    "lemmas": [
     [
-     "hab",
-     "haben",
-     "하벤"
-    ],
-    [
      "Karten",
      "Karte",
      "카어테"
+    ],
+    [
+     "klar",
+     "klar",
+     "클라어"
     ]
    ]
   },
@@ -174,7 +178,7 @@
    "es": "Mit wem gehst du?",
    "rd": "미트 벰 게스트 두?",
    "ko": "누구랑 가?",
-   "note": "아직 눈치 못 채고 묻는 말",
+   "note": "물어보는 비트로",
    "tags": [
     "draft"
    ],
@@ -190,44 +194,49 @@
   {
    "num": 8,
    "speaker": "B",
-   "es": "Ich hab dich gerade gefragt!",
-   "rd": "이히 합 디히 게라데 게프라크트!",
-   "ko": "방금 너한테 물은 거잖아!",
-   "note": "어이없어 하는 츠코미",
+   "es": "Hab doch gefragt: Kommst du mit?",
+   "rd": "합 도흐 게프라크트: 콤스트 두 미트?",
+   "ko": "방금 물어봤잖아: 같이 갈래?",
+   "note": "쓰쿠코미로",
    "tags": [
     "draft"
    ],
    "emotion": "tsukkomi",
    "lemmas": [
     [
-     "gerade",
-     "gerade",
-     "게라데"
+     "Hab",
+     "haben",
+     "하벤"
+    ],
+    [
+     "doch",
+     "doch",
+     "도흐"
     ],
     [
      "gefragt",
      "fragen",
      "프라겐"
+    ],
+    [
+     "Kommst",
+     "kommen",
+     "코멘"
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "A",
-   "es": "Dann komm ich mit!",
-   "rd": "단 콤 이히 미트!",
-   "ko": "그럼 나 같이 갈게!",
-   "note": "mitkommen으로 바로 수락",
+   "es": "Ja, ich komm mit!",
+   "rd": "야, 이히 콤 미트!",
+   "ko": "응, 나도 갈게!",
+   "note": "mitkommen 넣어 신나게",
    "tags": [
     "draft"
    ],
    "emotion": "excited",
    "lemmas": [
-    [
-     "Dann",
-     "dann",
-     "단"
-    ],
     [
      "komm",
      "kommen",
@@ -238,18 +247,18 @@
   {
    "num": 10,
    "speaker": "B",
-   "es": "Ich wusste, dass du das sagst.",
-   "rd": "이히 부스테, 다스 두 다스 자크스트.",
+   "es": "Wusste, dass du das sagst.",
+   "rd": "부스테, 다스 두 다스 자크스트.",
    "ko": "네가 그렇게 말할 줄 알았어.",
-   "note": "dass로 장난스럽게 마무리",
+   "note": "dass 넣고 장난스럽게",
    "tags": [
     "draft"
    ],
    "emotion": "teasing",
    "lemmas": [
     [
-     "wusste",
-     "wussten",
+     "Wusste",
+     "Wusste",
      ""
     ],
     [

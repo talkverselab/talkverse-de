@@ -21,8 +21,7 @@
   "friends"
  ],
  "expressions": [
-  "Noch mal?",
-  "Du gewinnst."
+  "Komm schon!"
  ],
  "draft": true,
  "level": "1 관사·격·활용 골격",
@@ -30,10 +29,10 @@
   {
    "num": 1,
    "speaker": "A",
-   "es": "Noch mal eine Runde spielen?",
-   "rd": "노흐 말 아이네 룬데 슈필렌?",
-   "ko": "한 판 더 할래?",
-   "note": "제안",
+   "es": "Noch eine Runde? Komm schon!",
+   "rd": "노흐 아이네 룬데? 콤 숀!",
+   "ko": "한 판 더? 어서!",
+   "note": "한 판 더 할 거냐고 묻기",
    "tags": [
     "draft"
    ],
@@ -45,19 +44,19 @@
      "노흐"
     ],
     [
-     "mal",
-     "mal",
-     "말"
-    ],
-    [
      "Runde",
      "Runde",
      "룬데"
     ],
     [
-     "spielen",
-     "spielen",
-     "슈필렌"
+     "Komm",
+     "kommen",
+     "코멘"
+    ],
+    [
+     "schon",
+     "schon",
+     "숀"
     ]
    ]
   },
@@ -67,7 +66,7 @@
    "es": "Ja.",
    "rd": "야.",
    "ko": "응.",
-   "note": "한 단어",
+   "note": "좋다고 한 단어로 답",
    "tags": [
     "draft"
    ],
@@ -77,43 +76,48 @@
   {
    "num": 3,
    "speaker": "A",
-   "es": "Diesmal gewinne ich.",
-   "rd": "디스말 게비네 이히.",
-   "ko": "이번엔 내가 이겨.",
-   "note": "큰소리",
+   "es": "Ich gewinne diesmal!",
+   "rd": "이히 게비네 디스말!",
+   "ko": "이번엔 내가 이겨!",
+   "note": "이번엔 내가 이긴다고 큰소리침",
    "tags": [
     "draft"
    ],
    "emotion": "excited",
    "lemmas": [
     [
-     "Diesmal",
-     "diesmal",
-     "디스말"
-    ],
-    [
      "gewinne",
      "gewinnen",
      "게빈넨"
+    ],
+    [
+     "diesmal",
+     "diesmal",
+     "디스말"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "es": "Du verlierst. Noch mal?",
-   "rd": "두 페어리어스트. 노흐 말?",
-   "ko": "또 졌네. 한 판 더?",
-   "note": "teasing",
+   "es": "Wieder gewonnen. Noch mal?",
+   "rd": "비더 게보넨. 노흐 말?",
+   "ko": "또 이겼어. 한 판 더?",
+   "note": "또 이기고 한 판 더냐고",
    "tags": [
     "draft"
    ],
    "emotion": "teasing",
    "lemmas": [
     [
-     "verlierst",
-     "verlieren",
-     "페어리렌"
+     "Wieder",
+     "wieder",
+     "비더"
+    ],
+    [
+     "gewonnen",
+     "gewinnen",
+     "게빈넨"
     ],
     [
      "Noch",
@@ -130,34 +134,34 @@
   {
    "num": 5,
    "speaker": "A",
-   "es": "Wie kannst du immer gewinnen?",
-   "rd": "비 칸스트 두 이머 게빈넨?",
-   "ko": "어떻게 매번 이겨?",
-   "note": "짜증",
+   "es": "Hör auf! Wie gewinnst du immer?",
+   "rd": "회어 아우프! 비 게빈스트 두 이머?",
+   "ko": "그만! 어떻게 매번 이겨?",
+   "note": "어떻게 매번 이기냐고",
    "tags": [
     "draft"
    ],
    "emotion": "annoyed",
    "lemmas": [
     [
+     "Hör",
+     "hören",
+     "회렌"
+    ],
+    [
      "Wie",
      "wie",
      "비"
     ],
     [
-     "kannst",
-     "kannsen",
-     ""
+     "gewinnst",
+     "gewinnen",
+     "게빈넨"
     ],
     [
      "immer",
      "immer",
      "이머"
-    ],
-    [
-     "gewinnen",
-     "gewinnen",
-     "게빈넨"
     ]
    ]
   },
@@ -167,7 +171,7 @@
    "es": "Dein Controller war aus.",
    "rd": "다인 콘트롤러 바어 아우스.",
    "ko": "네 컨트롤러가 꺼져 있었어.",
-   "note": "반전",
+   "note": "처음부터 꺼져 있었다고",
    "tags": [
     "draft"
    ],
@@ -183,24 +187,29 @@
   {
    "num": 7,
    "speaker": "A",
-   "es": "Ich habe die ganze Zeit gedrückt?",
-   "rd": "이히 하베 디 간체 차이트 게드뤼크트?",
-   "ko": "나 혼자 계속 눌렀던 거야?",
-   "note": "현재완료로 놀람",
+   "es": "Oh Mann! Ich habe allein gedrückt?",
+   "rd": "오 만! 이히 하베 알라인 게드뤼크트?",
+   "ko": "오 맨! 나 혼자 눌렀어?",
+   "note": "현재완료로 나 혼자 계속 눌렀냐고 놀람",
    "tags": [
     "draft"
    ],
    "emotion": "surprised",
    "lemmas": [
     [
-     "ganze",
-     "ganz",
-     "간츠"
+     "Oh",
+     "Oh",
+     ""
     ],
     [
-     "Zeit",
-     "Zeit",
-     "차이트"
+     "Mann",
+     "Mann",
+     "만"
+    ],
+    [
+     "allein",
+     "allein",
+     "알라인"
     ],
     [
      "gedrückt",
@@ -212,10 +221,10 @@
   {
    "num": 8,
    "speaker": "B",
-   "es": "Jetzt an. Echte Runde.",
-   "rd": "예츠트 안. 에히테 룬데.",
-   "ko": "이제 켜 줄게. 진짜 한 판.",
-   "note": "부드럽게",
+   "es": "Jetzt an. Richtig spielen.",
+   "rd": "예츠트 안. 리히티히 슈필렌.",
+   "ko": "이제 켜. 제대로 하자.",
+   "note": "켜 주며 이제 진짜 한 판이라고",
    "tags": [
     "draft"
    ],
@@ -227,14 +236,14 @@
      "예츠트"
     ],
     [
-     "Echte",
-     "echt",
-     "에히트"
+     "Richtig",
+     "richtig",
+     "리히티히"
     ],
     [
-     "Runde",
-     "Runde",
-     "룬데"
+     "spielen",
+     "spielen",
+     "슈필렌"
     ]
    ]
   }

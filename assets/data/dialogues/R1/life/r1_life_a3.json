@@ -21,8 +21,7 @@
   "life"
  ],
  "expressions": [
-  "Ich habe keinen Schlüssel.",
-  "Hast du gesucht?"
+  "Keine Ahnung!"
  ],
  "draft": true,
  "level": "1 관사·격·활용 골격",
@@ -30,19 +29,19 @@
   {
    "num": 1,
    "speaker": "A",
-   "es": "Ich habe keinen Schlüssel.",
-   "rd": "이히 하베 카이넨 슐뤼셀.",
-   "ko": "열쇠가 없어.",
-   "note": "걱정하며",
+   "es": "Keine Ahnung. Kein Schlüssel!",
+   "rd": "카이네 아눙. 카인 슐뤼셀!",
+   "ko": "모르겠어. 열쇠가 없어!",
+   "note": "열쇠가 없다고",
    "tags": [
     "draft"
    ],
    "emotion": "worried",
    "lemmas": [
     [
-     "habe",
-     "haben",
-     "하벤"
+     "Ahnung",
+     "Ahnung",
+     "아눙"
     ],
     [
      "Schlüssel",
@@ -54,14 +53,38 @@
   {
    "num": 2,
    "speaker": "B",
-   "es": "Hast du die Tasche gesucht?",
-   "rd": "하스트 두 디 타셰 게주흐트?",
-   "ko": "가방은 찾아봤어?",
-   "note": "묻기",
+   "es": "Hast du die Tasche gesehen?",
+   "rd": "하스트 두 디 타셰 게젠?",
+   "ko": "가방은 봤어?",
+   "note": "가방은 봤냐고",
    "tags": [
     "draft"
    ],
    "emotion": "neutral",
+   "lemmas": [
+    [
+     "Tasche",
+     "Tasche",
+     "타셰"
+    ],
+    [
+     "gesehen",
+     "sehen",
+     "제엔"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "Ich habe die Tasche gesucht. Alles.",
+   "rd": "이히 하베 디 타셰 게주흐트. 알레스.",
+   "ko": "가방 다 찾았어.",
+   "note": "가방도 다 찾아봤다고 (현재완료)",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "annoyed",
    "lemmas": [
     [
      "Tasche",
@@ -76,74 +99,65 @@
    ]
   },
   {
-   "num": 3,
-   "speaker": "A",
-   "es": "Ich habe alles gesucht.",
-   "rd": "이히 하베 알레스 게주흐트.",
-   "ko": "다 찾아봤어.",
-   "note": "현재완료",
-   "tags": [
-    "draft"
-   ],
-   "emotion": "annoyed",
-   "lemmas": [
-    [
-     "gesucht",
-     "suchen",
-     "주헨"
-    ]
-   ]
-  },
-  {
    "num": 4,
    "speaker": "B",
-   "es": "Und die Tasche?",
-   "rd": "운트 디 타셰?",
+   "es": "Und die Hosentasche?",
+   "rd": "운트 디 호젠타셰?",
    "ko": "주머니는?",
-   "note": "짧게",
+   "note": "주머니는? 하고 묻기",
    "tags": [
     "draft"
    ],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Tasche",
-     "Tasche",
-     "타셰"
+     "Hosentasche",
+     "Hosentasche",
+     ""
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "es": "Nichts in der Tasche.",
-   "rd": "니히츠 인 데어 타셰.",
-   "ko": "주머니에도 없어.",
-   "note": "슬프게",
+   "es": "Auch nicht.",
+   "rd": "아우흐 니히트.",
+   "ko": "거기에도 없어.",
+   "note": "주머니에도 없다고",
    "tags": [
     "draft"
    ],
    "emotion": "sad",
    "lemmas": [
     [
-     "Tasche",
-     "Tasche",
-     "타셰"
+     "Auch",
+     "auch",
+     "아우흐"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "es": "Was hast du in der Hand?",
-   "rd": "바스 하스트 두 인 데어 한트?",
-   "ko": "손에 뭐 들고 있어?",
-   "note": "영상으로",
+   "es": "Warte mal. Was hast du in der Hand?",
+   "rd": "바어테 말. 바스 하스트 두 인 데어 한트?",
+   "ko": "잠깐. 손에 든 게 뭐야?",
+   "note": "영상 통화 켜고 손에 든 게 뭐냐고",
    "tags": [
     "draft"
    ],
    "emotion": "amused",
    "lemmas": [
+    [
+     "Warte",
+     "warten",
+     "바어텐"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
     [
      "Hand",
      "Hand",
@@ -154,10 +168,10 @@
   {
    "num": 7,
    "speaker": "A",
-   "es": "Der Schlüssel!",
-   "rd": "데어 슐뤼셀!",
-   "ko": "열쇠야!",
-   "note": "놀라며",
+   "es": "Der Schlüssel! Zum Glück!",
+   "rd": "데어 슐뤼셀! 춤 글뤽!",
+   "ko": "열쇠! 다행이다!",
+   "note": "손에 열쇠가 있다는 걸 알고 놀람",
    "tags": [
     "draft"
    ],
@@ -167,25 +181,35 @@
      "Schlüssel",
      "Schlüssel",
      "슐뤼셀"
+    ],
+    [
+     "Glück",
+     "Glück",
+     "글뤽"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "B",
-   "es": "Du hast ihn schon.",
-   "rd": "두 하스트 인 숀.",
-   "ko": "이미 갖고 있네.",
-   "note": "웃으며",
+   "es": "Du hast ihn die ganze Zeit!",
+   "rd": "두 하스트 인 디 간체 차이트!",
+   "ko": "계속 갖고 있었잖아!",
+   "note": "열쇠 안 갖고 왔다고 웃음",
    "tags": [
     "draft"
    ],
    "emotion": "teasing",
    "lemmas": [
     [
-     "schon",
-     "schon",
-     "숀"
+     "ganze",
+     "ganz",
+     "간츠"
+    ],
+    [
+     "Zeit",
+     "Zeit",
+     "차이트"
     ]
    ]
   }

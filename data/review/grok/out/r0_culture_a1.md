@@ -1,9 +1,9 @@
 Grok
 
-1 Mia: Und? War das gut? / 어때? 좋았어? / 구어로 짧게, gut 포함 / excited
-2 {name}: Ja, super! / 응, 최고야! / super 넣고 짧게 / cheerful
-3 Mia: Wie bitte? Noch mal! / 뭐라고? 다시! / 단어 두 개 넣고 외침 / shout
-4 {name}: Super! Das war super! / 최고! 진짜 최고였어! / 크게 외치며 super 강조 / shout
-5 Mia: Haha, so laut! / 하하, 너무 시끄러웠네! / 멈춘 순간 웃음 킥, laut / amused
-6 {name}: Ähm... gut. / 어... 좋아. / 머쓱하게 작게 / flustered
-추천 표현: Wie bitte? / 뭐라고? , Noch mal! / 한 번 더!
+1 Mia: Oh Mann! Wie war's? / 오 맨! 어땠어? / 드럼 멈추고 흥분해서 짧게 묻기 / excited
+2 {name}: Super gut! / 정말 좋아! / 좋았다고 짧게 칭찬 / cheerful
+3 Mia: Wie bitte? / 뭐라고? / 다시 치기 시작하며 안 들려 크게 / shout
+4 {name}: Super! / 최고! / 최고라고 크게 외침 / shout
+5 Mia: Echt? / 진짜? / 멈추자 목소리만 크게 울려 웃김 / amused
+6 {name}: Äh... gut. / 어... 좋아. / 머쓱해서 작게 다시 말함 / flustered
+추천 표현: Wie bitte? / 뭐라고? Echt? / 진짜?

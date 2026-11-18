@@ -23,8 +23,7 @@
   "love"
  ],
  "expressions": [
-  "Was machst du gerade?",
-  "Schick mal ein Foto."
+  "Was machst du gerade?"
  ],
  "draft": true,
  "level": "2 챗 실전",
@@ -32,10 +31,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "es": "Was machst du gerade?",
-   "rd": "바스 마흐스트 두 게라데?",
-   "ko": "지금 뭐 해?",
-   "note": "장난스럽게 묻는 채팅 시작",
+   "es": "Hey, was machst du gerade?",
+   "rd": "헤이, 바스 마흐스트 두 게라데?",
+   "ko": "야, 지금 뭐 해?",
+   "note": "장난스럽게 지금 뭐 하냐고 물어봄",
    "tags": [
     "draft"
    ],
@@ -56,19 +55,19 @@
   {
    "num": 2,
    "speaker": "A",
-   "es": "Ich sitze im Café und lese.",
-   "rd": "이히 지체 임 카프é 운트 레제.",
-   "ko": "카페에 앉아 책 읽고 있어.",
-   "note": "중립적으로 답하는 한 줄",
+   "es": "Ich sitz im Café und les ein Buch.",
+   "rd": "이히 지츠 임 카프é 운트 레스 아인 부흐.",
+   "ko": "나 카페에서 책 읽고 있어.",
+   "note": "카페에서 책 읽는다고 짧게 답함",
    "tags": [
     "draft"
    ],
    "emotion": "neutral",
    "lemmas": [
     [
-     "sitze",
-     "sitzen",
-     "지첸"
+     "sitz",
+     "Sitz",
+     "지츠"
     ],
     [
      "Café",
@@ -76,19 +75,19 @@
      ""
     ],
     [
-     "lese",
-     "lesen",
-     "레젠"
+     "Buch",
+     "Buch",
+     "부흐"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "es": "Schick mal ein Foto.",
-   "rd": "시크 말 아인 포토.",
-   "ko": "사진 하나 보내 봐.",
-   "note": "밝게 부탁하는 말",
+   "es": "Schick mal ein Foto!",
+   "rd": "시크 말 아인 포토!",
+   "ko": "사진 좀 보내!",
+   "note": "사진 보내 달라고 밝게 요청",
    "tags": [
     "draft"
    ],
@@ -114,10 +113,10 @@
   {
    "num": 4,
    "speaker": "A",
-   "es": "Hier. Kaffee und Buch.",
-   "rd": "히어. 카페 운트 부흐.",
-   "ko": "여기. 커피랑 책.",
-   "note": "사진 보낸 뒤 짧게 설명",
+   "es": "Hier, Kaffee und Buch.",
+   "rd": "히어, 카페 운트 부흐.",
+   "ko": "여기, 커피랑 책.",
+   "note": "커피와 책 사진을 보냈다고 밝게 알림",
    "tags": [
     "draft"
    ],
@@ -145,8 +144,8 @@
    "speaker": "B",
    "es": "Zoom mal hinter dich.",
    "rd": "촘 말 힌터 디히.",
-   "ko": "네 뒤쪽 확대해 봐.",
-   "note": "웃으며 힌트 주는 말",
+   "ko": "뒤에 줌 좀 해 봐.",
+   "note": "사진 뒤쪽을 확대해 보라고 재미있게",
    "tags": [
     "draft"
    ],
@@ -167,77 +166,72 @@
   {
    "num": 6,
    "speaker": "A",
-   "es": "Hä? Du sitzt hinter mir?!",
-   "rd": "헤? 두 지츠트 힌터 미어?!",
-   "ko": "어? 네가 내 뒤에 앉아 있잖아?!",
-   "note": "사진 보고 알아채는 놀라움",
+   "es": "Krass, bist du das hinter mir?",
+   "rd": "크라스, 비스트 두 다스 힌터 미어?",
+   "ko": "헐, 뒤에 있는 거 너야?",
+   "note": "뒤에 앉은 사람이 Mia인 걸 알아채고 놀람, Krass 삽입",
    "tags": [
     "draft"
    ],
    "emotion": "surprised",
    "lemmas": [
     [
-     "sitzt",
-     "sitzen",
-     "지첸"
+     "Krass",
+     "krass",
+     "크라스"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "es": "Nicht umdrehen, wenn du das Foto schickst. Dann ist es langweilig.",
-   "rd": "니히트 움드렌, 벤 두 다스 포토 시크스트. 단 이스트 에스 랑바일리히.",
-   "ko": "사진 보낼 때 돌아보지 마. 그럼 재미없잖아.",
-   "note": "wenn으로 장난치는 한 줄",
+   "es": "Hör auf, wenn du dich umdrehst, ist der Spaß weg.",
+   "rd": "회어 아우프, 벤 두 디히 움드레스트, 이스트 데어 슈파스 베크.",
+   "ko": "그만, 돌아보면 재미없어.",
+   "note": "돌아보면 안 된다고 장난치며 wenn 사용, Hör auf 삽입",
    "tags": [
     "draft"
    ],
    "emotion": "teasing",
    "lemmas": [
     [
-     "umdrehen",
+     "Hör",
+     "hören",
+     "회렌"
+    ],
+    [
+     "umdrehst",
      "umdrehen",
      ""
     ],
     [
-     "Foto",
-     "Foto",
-     "포토"
+     "Spaß",
+     "Spaß",
+     "슈파스"
     ],
     [
-     "schickst",
-     "schicken",
-     "쉬켄"
-    ],
-    [
-     "Dann",
-     "dann",
-     "단"
-    ],
-    [
-     "langweilig",
-     "langweilig",
-     "랑바일리히"
+     "weg",
+     "weg",
+     "베크"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "es": "Hab schon umgedreht…",
-   "rd": "합 숀 움게드레트…",
-   "ko": "이미 돌아봤어…",
-   "note": "당황하며 인정하는 말",
+   "es": "Ehrlich? Ich hab mich schon umgedreht.",
+   "rd": "에얼리히? 이히 합 미히 숀 움게드레트.",
+   "ko": "진짜? 나 이미 돌아봤어.",
+   "note": "이미 돌아봤다고 당황하며 Ehrlich? 삽입",
    "tags": [
     "draft"
    ],
    "emotion": "flustered",
    "lemmas": [
     [
-     "Hab",
-     "haben",
-     "하벤"
+     "Ehrlich",
+     "ehrlich",
+     "에얼리히"
     ],
     [
      "schon",
@@ -254,24 +248,19 @@
   {
    "num": 9,
    "speaker": "B",
-   "es": "Winke gerade.",
-   "rd": "빈케 게라데.",
-   "ko": "지금 손 흔들고 있어.",
-   "note": "수줍게 보내는 한 줄",
+   "es": "Ich winke dir zu.",
+   "rd": "이히 빈케 디어 추.",
+   "ko": "나 손 흔들고 있어.",
+   "note": "손을 흔든다고 수줍게 보냄",
    "tags": [
     "draft"
    ],
    "emotion": "shy",
    "lemmas": [
     [
-     "Winke",
      "winke",
+     "winken",
      ""
-    ],
-    [
-     "gerade",
-     "gerade",
-     "게라데"
     ]
    ]
   },
@@ -281,7 +270,7 @@
    "es": "Dann bestell ich noch einen Kaffee.",
    "rd": "단 베스텔 이히 노흐 아이넨 카페.",
    "ko": "그럼 커피 한 잔 더 시킬게.",
-   "note": "다정하게 이어가는 마무리",
+   "note": "커피 한 잔 더 시키겠다고 다정하게",
    "tags": [
     "draft"
    ],

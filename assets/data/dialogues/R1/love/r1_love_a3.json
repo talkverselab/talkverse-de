@@ -23,8 +23,7 @@
   "love"
  ],
  "expressions": [
-  "Das ist für dich.",
-  "Ein Geschenk?"
+  "Süß!"
  ],
  "draft": true,
  "level": "1 관사·격·활용 골격",
@@ -32,10 +31,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "es": "Das ist für dich.",
-   "rd": "다스 이스트 퓌어 디히.",
-   "ko": "이거 너 주려고.",
-   "note": "shy하게 내밀며",
+   "es": "Für dich.",
+   "rd": "퓌어 디히.",
+   "ko": "너 주려고.",
+   "note": "너 주려고 가져왔다며 뭔가를 내밈",
    "tags": [
     "draft"
    ],
@@ -45,19 +44,24 @@
   {
    "num": 2,
    "speaker": "A",
-   "es": "Ein Geschenk?",
-   "rd": "아인 게셴크?",
-   "ko": "선물이야?",
-   "note": "놀라며",
+   "es": "Wirklich? Süß!",
+   "rd": "비어클리히? 쥐스!",
+   "ko": "진짜? 귀여워!",
+   "note": "선물이냐고 묻기",
    "tags": [
     "draft"
    ],
    "emotion": "surprised",
    "lemmas": [
     [
-     "Geschenk",
-     "Geschenk",
-     "게셴크"
+     "Wirklich",
+     "wirklich",
+     "비어클리히"
+    ],
+    [
+     "Süß",
+     "süß",
+     "쥐스"
     ]
    ]
   },
@@ -66,8 +70,8 @@
    "speaker": "B",
    "es": "Ein Stick.",
    "rd": "아인 슈티크.",
-   "ko": "드럼 스틱 하나.",
-   "note": "밝게",
+   "ko": "스틱 하나.",
+   "note": "드럼 스틱 하나라고",
    "tags": [
     "draft"
    ],
@@ -83,10 +87,10 @@
   {
    "num": 4,
    "speaker": "A",
-   "es": "Ich habe keine Trommel.",
-   "rd": "이히 하베 카이네 트로멜.",
-   "ko": "나는 드럼이 없는데.",
-   "note": "웃으며",
+   "es": "Ich habe kein Schlagzeug!",
+   "rd": "이히 하베 카인 슐라크초이크!",
+   "ko": "나 드럼 없어!",
+   "note": "나는 드럼이 없는데, 하고 웃음",
    "tags": [
     "draft"
    ],
@@ -98,8 +102,8 @@
      "하벤"
     ],
     [
-     "Trommel",
-     "Trommel",
+     "Schlagzeug",
+     "Schlagzeug",
      ""
     ]
    ]
@@ -107,63 +111,53 @@
   {
    "num": 5,
    "speaker": "B",
-   "es": "Ich habe den anderen.",
-   "rd": "이히 하베 덴 안데렌.",
-   "ko": "하나는 내가 갖고 있어.",
-   "note": "teasing",
+   "es": "Ich habe einen.",
+   "rd": "이히 하베 아이넨.",
+   "ko": "나는 하나 있어.",
+   "note": "하나는 자기가 갖고 있다고",
    "tags": [
     "draft"
    ],
    "emotion": "teasing",
    "lemmas": [
     [
-     "anderen",
-     "ander",
-     "안더"
+     "habe",
+     "haben",
+     "하벤"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "es": "Du musst zur nächsten Show kommen.",
-   "rd": "두 무스트 추어 네히스텐 스호프 코멘.",
-   "ko": "다음 공연에도 와야 해.",
-   "note": "shy하게",
+   "es": "Einer für dich. Einer für mich. Komm wieder.",
+   "rd": "아이너 퓌어 디히. 아이너 퓌어 미히. 콤 비더.",
+   "ko": "하나는 네 거. 하나는 내 거. 또 와.",
+   "note": "하나는 네 거 하나는 내 거 — 다음 공연에도 오라는 뜻",
    "tags": [
     "draft"
    ],
    "emotion": "shy",
    "lemmas": [
     [
-     "musst",
-     "musst",
-     ""
-    ],
-    [
-     "nächsten",
-     "nächst",
-     "네히스트"
-    ],
-    [
-     "Show",
-     "Show",
-     ""
-    ],
-    [
-     "kommen",
+     "Komm",
      "kommen",
      "코멘"
+    ],
+    [
+     "wieder",
+     "wieder",
+     "비더"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "es": "Ich behalte ihn immer.",
-   "rd": "이히 베할테 인 이머.",
+   "es": "Ich behalte ihn. Immer.",
+   "rd": "이히 베할테 인. 이머.",
    "ko": "꼭 가지고 다닐게.",
-   "note": "부드럽게",
+   "note": "그럼 꼭 가지고 다니겠다고",
    "tags": [
     "draft"
    ],
@@ -175,7 +169,7 @@
      "베할텐"
     ],
     [
-     "immer",
+     "Immer",
      "immer",
      "이머"
     ]
@@ -184,10 +178,10 @@
   {
    "num": 8,
    "speaker": "B",
-   "es": "Du darfst ihn nicht verlieren.",
-   "rd": "두 다어프스트 인 니히트 페어리렌.",
-   "ko": "잃어버리면 안 돼.",
-   "note": "teasing",
+   "es": "Nicht verlieren! Schlaf gut.",
+   "rd": "니히트 페어리렌! 슐라프 구트.",
+   "ko": "잃어버리면 안 돼! 잘 자.",
+   "note": "잃어버리면 안 된다고 다짐받음",
    "tags": [
     "draft"
    ],
@@ -197,6 +191,16 @@
      "verlieren",
      "verlieren",
      "페어리렌"
+    ],
+    [
+     "Schlaf",
+     "schlafen",
+     "슐라펜"
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
     ]
    ]
   }

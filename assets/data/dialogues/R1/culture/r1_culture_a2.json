@@ -21,8 +21,7 @@
   "culture"
  ],
  "expressions": [
-  "Kann ich helfen?",
-  "Du musst langsam."
+  "Gerne!"
  ],
  "draft": true,
  "level": "1 관사·격·활용 골격",
@@ -30,10 +29,10 @@
   {
    "num": 1,
    "speaker": "A",
-   "es": "Kann ich helfen?",
-   "rd": "칸 이히 헬펜?",
-   "ko": "도와줄 수 있어?",
-   "note": "짧게 제안",
+   "es": "Kann ich helfen? Gerne!",
+   "rd": "칸 이히 헬펜? 게어네!",
+   "ko": "도와줄 수 있어? 기꺼이!",
+   "note": "도와줄 수 있냐고 묻기",
    "tags": [
     "draft"
    ],
@@ -43,6 +42,11 @@
      "helfen",
      "helfen",
      "헬펜"
+    ],
+    [
+     "Gerne",
+     "gern",
+     "게언"
     ]
    ]
   },
@@ -52,7 +56,7 @@
    "es": "Du musst den Teig rühren.",
    "rd": "두 무스트 덴 타이히 뤼렌.",
    "ko": "반죽을 저어야 해.",
-   "note": "할 일 말함",
+   "note": "반죽을 저어야 한다고",
    "tags": [
     "draft"
    ],
@@ -78,10 +82,10 @@
   {
    "num": 3,
    "speaker": "A",
-   "es": "Wie lange muss ich rühren?",
-   "rd": "비 랑에 무스 이히 뤼렌?",
-   "ko": "얼마나 저어야 해?",
-   "note": "단순하게 묻기",
+   "es": "Wie lange?",
+   "rd": "비 랑에?",
+   "ko": "얼마나?",
+   "note": "얼마나 저어야 하냐고",
    "tags": [
     "draft"
    ],
@@ -96,55 +100,50 @@
      "lange",
      "lange",
      "랑에"
-    ],
-    [
-     "muss",
-     "muss",
-     ""
-    ],
-    [
-     "rühren",
-     "rühren",
-     ""
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "es": "Bis der Arm weh tut.",
-   "rd": "비스 데어 아엄 베 투트.",
-   "ko": "팔이 아플 때까지.",
-   "note": "teasing",
+   "es": "Lange. Der Arm tut weh.",
+   "rd": "랑에. 데어 아엄 투트 베.",
+   "ko": "오래. 팔이 아파.",
+   "note": "팔이 아플 때까지라고",
    "tags": [
     "draft"
    ],
    "emotion": "teasing",
    "lemmas": [
     [
+     "Lange",
+     "lange",
+     "랑에"
+    ],
+    [
      "Arm",
      "Arm",
      "아엄"
     ],
     [
-     "weh",
-     "weh",
-     "베"
-    ],
-    [
      "tut",
      "tun",
      "툰"
+    ],
+    [
+     "weh",
+     "weh",
+     "베"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "A",
-   "es": "Ich tue den Teig ins Wasser.",
-   "rd": "이히 투에 덴 타이히 인스 바서.",
-   "ko": "반죽 통째로 물에 넣을게.",
-   "note": "실수하며",
+   "es": "Ich tue alles ins Wasser!",
+   "rd": "이히 투에 알레스 인스 바서!",
+   "ko": "전부 물에 넣었어!",
+   "note": "물에 반죽을 통째로 넣어 버림",
    "tags": [
     "draft"
    ],
@@ -152,12 +151,7 @@
    "lemmas": [
     [
      "tue",
-     "tun",
-     "툰"
-    ],
-    [
-     "Teig",
-     "Teig",
+     "tuen",
      ""
     ],
     [
@@ -170,49 +164,39 @@
   {
    "num": 6,
    "speaker": "B",
-   "es": "Nein! Du musst langsam!",
-   "rd": "나인! 두 무스트 랑잠!",
-   "ko": "안 돼! 조금씩 넣어야 해!",
-   "note": "외침",
+   "es": "Moment mal! Nicht alles!",
+   "rd": "모멘트 말! 니히트 알레스!",
+   "ko": "잠깐! 전부 말고!",
+   "note": "조금씩 넣어야 한다고 외침",
    "tags": [
     "draft"
    ],
    "emotion": "shout",
    "lemmas": [
     [
-     "musst",
-     "musst",
-     ""
+     "Moment",
+     "Moment",
+     "모멘트"
     ],
     [
-     "langsam",
-     "langsam",
-     "랑잠"
+     "mal",
+     "mal",
+     "말"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "es": "Jetzt ist es ein großer Klumpen.",
-   "rd": "예츠트 이스트 에스 아인 그로서 클룸펜.",
-   "ko": "이제 한 덩어리가 됐어.",
-   "note": "웃으며",
+   "es": "Ein Klumpen!",
+   "rd": "아인 클룸펜!",
+   "ko": "한 덩어리!",
+   "note": "한 덩어리 국수가 됐다며 웃음",
    "tags": [
     "draft"
    ],
    "emotion": "amused",
    "lemmas": [
-    [
-     "Jetzt",
-     "jetzt",
-     "예츠트"
-    ],
-    [
-     "großer",
-     "groß",
-     "그로스"
-    ],
     [
      "Klumpen",
      "Klumpe",
@@ -223,19 +207,19 @@
   {
    "num": 8,
    "speaker": "B",
-   "es": "Aber es kann lecker sein.",
-   "rd": "아버 에스 칸 레커 자인.",
-   "ko": "그래도 맛은 있을 거야.",
-   "note": "부드럽게",
+   "es": "Lecker trotzdem.",
+   "rd": "레커 트로츠뎀.",
+   "ko": "그래도 맛있겠다.",
+   "note": "그래도 맛은 있겠다고",
    "tags": [
     "draft"
    ],
    "emotion": "gentle",
    "lemmas": [
     [
-     "lecker",
-     "lecker",
-     "레커"
+     "trotzdem",
+     "trotzdem",
+     "트로츠뎀"
     ]
    ]
   }

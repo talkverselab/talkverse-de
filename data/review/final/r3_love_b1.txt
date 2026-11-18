@@ -1,13 +1,13 @@
-1 C: Was möchten Sie bestellen? / 무엇을 주문하시겠어요? / Sie로 정중하게 묻는 말 / polite
-2 A: Ich hätte gern die Pasta, bitte. / 파스타로 할게요. / Sie로 주문하는 정중 말 / polite
-3 B: Ich nehme dasselbe. / 나도 같은 걸로. / 밝게 따라 주문하는 말 / cheerful
-4 B: Warum bist du heute so nervös? / 오늘 왜 이렇게 긴장했어? / 장난스럽게 묻는 말 / teasing
-5 A: Weil es das erste Date ist. / 첫 데이트라서. / 수줍게 답하는 한 줄 / shy
-6 B: Du hast gerade Date gesagt. / 방금 데이트라고 말했네. / 수줍게 받아치는 말 / shy
-7 C: Zusammen oder getrennt zahlen? / 같이 내실까요, 따로 내실까요? / Sie로 묻는 정중 질문 / polite
-8 A: Ich zahle. / 내가 낼게. / 바로 나서는 들뜬 말 / excited
-9 B: Hab schon bezahlt. / 이미 계산했어. / 반전으로 장난스럽게 밝히는 말 / teasing
-10 A: Wann denn? / 언제? / 놀라서 묻는 말 / surprised
-11 B: Als ich zur Toilette ging. Nächstes Mal du. / 화장실 가는 척하고. 다음엔 네가. / 수줍게 설명하고 다음을 맡기는 말 / shy
-12 A: Dann ist das nächste Date fest. / 그럼 다음 데이트는 약속된 거네. / 다정하게 웃으며 마무리 / gentle
-추천 표현: Was möchten Sie bestellen? / 무엇을 주문하시겠어요? | Zusammen oder getrennt? / 같이 내실까요, 따로 내실까요?
+1 C: Was möchten Sie bestellen? / 무엇을 드시겠습니까? / 웨이터가 Sie로 정중히 주문 물음 / polite
+2 A: Ich hätte gern die Pasta, bitte. / 파스타로 부탁드려요. / Sie로 파스타 주문 / polite
+3 B: Ich nehm das Gleiche. / 나도 같은 걸로. / 같은 걸로 하겠다고 밝게 / cheerful
+4 B: Warum bist du heute so nervös? / 오늘 왜 이렇게 긴장해? / 긴장한 이유 장난스럽게 물음 / teasing
+5 A: Weil es unser erstes Date ist. / 첫 데이트라서 그래. / 첫 데이트라고 수줍게 인정 / shy
+6 B: Date hast du zum ersten Mal gesagt. / 데이트라고 말한 건 처음이네. / 데이트라고 한 게 처음이라고 수줍게 / shy
+7 C: Zusammen oder getrennt? / 같이 내실까요, 따로 내실까요? / 계산 방식 물으며 표현 그대로 / polite
+8 A: Ich zahl die Rechnung. / 내가 낼게. / 내가 내겠다고 신나게 / excited
+9 B: Auf keinen Fall. Ich hab schon gezahlt. / 절대 안 돼. 나 이미 냈어. / 이미 계산했다고 장난치며 Auf keinen Fall 삽입 / teasing
+10 A: Wann denn? / 언제 냈어? / 언제 냈냐고 놀람 / surprised
+11 B: Als ich auf Toilette war. Stimmt so, nächstes Mal du. / 화장실 가는 척하고 냈어. 팁은 됐고, 다음엔 네가. / 화장실 핑계로 냈다고 하고 다음엔 네가 내라고 수줍게, Stimmt so 삽입 / shy
+12 A: Dann ist das nächste Date fest. / 그럼 다음 데이트 약속이네. / 다음 데이트라고 웃으며 다정하게 / gentle
+추천 표현: Zusammen oder getrennt? / 같이 낼까요, 따로?

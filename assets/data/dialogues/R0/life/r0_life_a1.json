@@ -21,8 +21,7 @@
   "life"
  ],
  "expressions": [
-  "Willkommen!",
-  "Geht nicht."
+  "Hallo!"
  ],
  "draft": true,
  "level": "0 입문",
@@ -30,10 +29,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "es": "Willkommen!",
-   "rd": "빌코멘!",
-   "ko": "어서 와!",
-   "note": "환영 인사",
+   "es": "Hallo! Willkommen!",
+   "rd": "할로! 빌코멘!",
+   "ko": "안녕! 환영해!",
+   "note": "환영하며 인사",
    "tags": [
     "draft"
    ],
@@ -49,10 +48,10 @@
   {
    "num": 2,
    "speaker": "A",
-   "es": "Danke.",
-   "rd": "당케.",
-   "ko": "고마워.",
-   "note": "짧게 인사",
+   "es": "Hallo! Danke!",
+   "rd": "할로! 당케!",
+   "ko": "안녕! 고마워!",
+   "note": "고맙다며 인사",
    "tags": [
     "draft"
    ],
@@ -71,7 +70,7 @@
    "es": "Schlüssel. Oben, unten.",
    "rd": "슐뤼셀. 오벤, 운텐.",
    "ko": "열쇠. 위, 아래.",
-   "note": "두 개 주며",
+   "note": "열쇠 두 개 주며 짧게",
    "tags": [
     "draft"
    ],
@@ -97,34 +96,23 @@
   {
    "num": 4,
    "speaker": "A",
-   "es": "Tür... geht nicht.",
-   "rd": "튀어... 게트 니히트.",
-   "ko": "문... 안 열려.",
-   "note": "아래 문에 위 열쇠",
+   "es": "Passt nicht!",
+   "rd": "파스트 니히트!",
+   "ko": "안 맞아!",
+   "note": "위 열쇠로 아래 문 열려다 실패",
    "tags": [
     "draft"
    ],
    "emotion": "flustered",
-   "lemmas": [
-    [
-     "Tür",
-     "Tür",
-     "튀어"
-    ],
-    [
-     "geht",
-     "gehen",
-     "게엔"
-    ]
-   ]
+   "lemmas": []
   },
   {
    "num": 5,
    "speaker": "B",
-   "es": "Oben. Fahrrad.",
-   "rd": "오벤. 파라트.",
-   "ko": "위 열쇠야. 자전거 창고.",
-   "note": "웃으며 설명",
+   "es": "Oben! Fürs Fahrrad.",
+   "rd": "오벤! 퓌어스 파라트.",
+   "ko": "위! 자전거용.",
+   "note": "위 열쇠라고, 자전거 창고라고",
    "tags": [
     "draft"
    ],
@@ -134,30 +122,30 @@
      "Oben",
      "oben",
      "오벤"
+    ],
+    [
+     "Fahrrad",
+     "fahren",
+     "파렌"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "es": "Ah, okay.",
-   "rd": "아, 오케이.",
-   "ko": "아, 그렇구나.",
-   "note": "웃으며",
+   "es": "Alles klar!",
+   "rd": "알레스 클라어!",
+   "ko": "알겠어!",
+   "note": "아 그렇구나 하고 웃음",
    "tags": [
     "draft"
    ],
    "emotion": "amused",
    "lemmas": [
     [
-     "Ah",
-     "Ah",
-     ""
-    ],
-    [
-     "okay",
-     "Okay",
-     "오케이"
+     "klar",
+     "klar",
+     "클라어"
     ]
    ]
   }

@@ -21,8 +21,7 @@
   "travel"
  ],
  "expressions": [
-  "Steig aus!",
-  "Der Akku ist leer."
+  "Dann zu Fuß."
  ],
  "draft": true,
  "level": "1 관사·격·활용 골격",
@@ -33,7 +32,7 @@
    "es": "Mein Handy ist aus. Der Akku ist leer.",
    "rd": "마인 헨디 이스트 아우스. 데어 아쿠 이스트 레어.",
    "ko": "내 휴대폰 꺼졌어. 배터리 다 됐어.",
-   "note": "전철 안에서 바로 걱정하는 직설 구어",
+   "note": "",
    "tags": [
     "draft"
    ],
@@ -54,24 +53,29 @@
   {
    "num": 2,
    "speaker": "A",
-   "es": "Keine Panik. Ich kenne den Weg.",
-   "rd": "카이네 파닉. 이히 케네 덴 베크.",
-   "ko": "걱정 마. 나 길 알아.",
-   "note": "자신 있게 안심시키는 짧은 답",
+   "es": "Keine Sorge. Warte mal, ich kenn den Weg.",
+   "rd": "카이네 조어게. 바어테 말, 이히 켄 덴 베크.",
+   "ko": "걱정 마. 잠깐만, 내가 길 알아.",
+   "note": "표현 그대로 넣고 단수로",
    "tags": [
     "draft"
    ],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Panik",
-     "Panik",
-     "파닉"
+     "Sorge",
+     "Sorge",
+     "조어게"
     ],
     [
-     "kenne",
-     "kennen",
-     "케넨"
+     "Warte",
+     "warten",
+     "바어텐"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
     ],
     [
      "Weg",
@@ -83,10 +87,10 @@
   {
    "num": 3,
    "speaker": "B",
-   "es": "Wann steigen wir aus?",
-   "rd": "반 슈타이겐 비어 아우스?",
-   "ko": "언제 내려?",
-   "note": "길을 묻는 단순한 질문, R1 한도 안",
+   "es": "Wann aussteigen? Sag mal.",
+   "rd": "반 아우스타이겐? 자크 말.",
+   "ko": "언제 내려? 말해 봐.",
+   "note": "분리동사 자연스럽게 넣어",
    "tags": [
     "draft"
    ],
@@ -98,19 +102,24 @@
      "반"
     ],
     [
-     "steigen",
-     "steigen",
-     "슈타이겐"
+     "aussteigen",
+     "aussteigen",
+     ""
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "es": "Jetzt! Steig aus!",
-   "rd": "예츠트! 슈타이히 아우스!",
-   "ko": "지금! 내려!",
-   "note": "분리동사로 크게 외치는 순간",
+   "es": "Jetzt aussteigen! Schnell, hier!",
+   "rd": "예츠트 아우스타이겐! 슈넬, 히어!",
+   "ko": "지금 내려! 빨리, 여기!",
+   "note": "외치는 비트에 맞춰 짧은 명령으로",
    "tags": [
     "draft"
    ],
@@ -122,28 +131,38 @@
      "예츠트"
     ],
     [
-     "Steig",
-     "steigen",
-     "슈타이겐"
+     "aussteigen",
+     "aussteigen",
+     ""
+    ],
+    [
+     "Schnell",
+     "schnell",
+     "슈넬"
+    ],
+    [
+     "hier",
+     "hier",
+     "히어"
     ]
    ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "es": "Hä? Die Station ist falsch.",
-   "rd": "헤? 디 슈타치온 이스트 팔슈.",
-   "ko": "어? 역 이름이 다른데.",
-   "note": "내리고 나서 당황하는 카오스 반전",
+   "es": "Das ist die falsche Station! Echt?",
+   "rd": "다스 이스트 디 팔셰 슈타치온! 에히트?",
+   "ko": "이건 틀린 역이야! 진짜?",
+   "note": "반전 지점에 맞춰 놀라움 키워",
    "tags": [
     "draft"
    ],
    "emotion": "surprised",
    "lemmas": [
     [
-     "Hä",
-     "Hä",
-     ""
+     "falsche",
+     "falsch",
+     "팔슈"
     ],
     [
      "Station",
@@ -151,24 +170,29 @@
      "슈타치온"
     ],
     [
-     "falsch",
-     "falsch",
-     "팔슈"
+     "Echt",
+     "echt",
+     "에히트"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "es": "Oops… eine Station zu früh.",
-   "rd": "오프스… 아이네 슈타치온 추 프뤼.",
-   "ko": "앗… 한 정거장 일찍 내렸네.",
-   "note": "실수 인정하며 당황하는 반응",
+   "es": "Genau, eine Station zu früh. Einsteigen?",
+   "rd": "게나우, 아이네 슈타치온 추 프뤼. 아인스타이겐?",
+   "ko": "맞아, 한 정거장 일찍. 타야 해?",
+   "note": "Genau와 einsteigen 넣어 당황스럽게",
    "tags": [
     "draft"
    ],
    "emotion": "flustered",
    "lemmas": [
+    [
+     "Genau",
+     "genau",
+     "게나우"
+    ],
     [
      "Station",
      "Station",
@@ -178,16 +202,21 @@
      "früh",
      "früh",
      "프뤼"
+    ],
+    [
+     "Einsteigen",
+     "einsteigen",
+     ""
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "es": "Dann laufen wir. Langsamer als mein Fahrrad.",
-   "rd": "단 라우펜 비어. 랑자머 알스 마인 파라트.",
-   "ko": "그럼 걸어가자. 내 자전거보다 느려.",
-   "note": "투덜대며 걷는 걸로 정리하는 직설",
+   "es": "Dann laufen. Langsamer als mein Fahrrad.",
+   "rd": "단 라우펜. 랑자머 알스 마인 파라트.",
+   "ko": "그럼 걷자. 내 자전거보다 느려.",
+   "note": "Lena 자전거 성격 살려 투덜대게",
    "tags": [
     "draft"
    ],
@@ -218,10 +247,10 @@
   {
    "num": 8,
    "speaker": "A",
-   "es": "Laufen ist auch okay. Wirklich.",
-   "rd": "라우펜 이스트 아우흐 오케이. 비어클리히.",
-   "ko": "걷는 것도 괜찮아. 진짜.",
-   "note": "웃으며 받아들이는 가벼운 마무리",
+   "es": "Laufen ist auch gut. Haha.",
+   "rd": "라우펜 이스트 아우흐 구트. 하하.",
+   "ko": "걷는 것도 좋아. 하하.",
+   "note": "웃는 킥으로 마무리하며",
    "tags": [
     "draft"
    ],
@@ -238,14 +267,9 @@
      "아우흐"
     ],
     [
-     "okay",
-     "Okay",
-     "오케이"
-    ],
-    [
-     "Wirklich",
-     "wirklich",
-     "비어클리히"
+     "gut",
+     "gut",
+     "구트"
     ]
    ]
   }

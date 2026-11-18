@@ -23,8 +23,7 @@
   "love"
  ],
  "expressions": [
-  "Bis morgen!",
-  "Wer?"
+  "Bis morgen!"
  ],
  "draft": true,
  "level": "0 입문",
@@ -35,7 +34,7 @@
    "es": "Bis morgen!",
    "rd": "비스 모어겐!",
    "ko": "내일 봐!",
-   "note": "윙크하며 먼저",
+   "note": "윙크하며 먼저 내일 보자고",
    "tags": [
     "draft"
    ],
@@ -51,10 +50,10 @@
   {
    "num": 2,
    "speaker": "A",
-   "es": "Wer? Du?",
-   "rd": "베어? 두?",
-   "ko": "누구한테? 너?",
-   "note": "뒤를 돌아보며",
+   "es": "Wer?",
+   "rd": "베어?",
+   "ko": "누구?",
+   "note": "뒤를 돌아보며 누구한테 하는 말이냐고",
    "tags": [
     "draft"
    ],
@@ -64,10 +63,10 @@
   {
    "num": 3,
    "speaker": "B",
-   "es": "Du. Ich.",
-   "rd": "두. 이히.",
-   "ko": "너한테. 나야.",
-   "note": "웃으며",
+   "es": "Du!",
+   "rd": "두!",
+   "ko": "너!",
+   "note": "너한테, 하고 웃음",
    "tags": [
     "draft"
    ],
@@ -77,42 +76,48 @@
   {
    "num": 4,
    "speaker": "A",
-   "es": "Ich?",
-   "rd": "이히?",
-   "ko": "나?",
-   "note": "당황하며 되묻기",
+   "es": "Wirklich? Ich?",
+   "rd": "비어클리히? 이히?",
+   "ko": "진짜? 나?",
+   "note": "나? 하고 되묻기",
    "tags": [
     "draft"
    ],
    "emotion": "flustered",
-   "lemmas": []
+   "lemmas": [
+    [
+     "Wirklich",
+     "wirklich",
+     "비어클리히"
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "es": "Ja, du. Bis morgen.",
-   "rd": "야, 두. 비스 모어겐.",
-   "ko": "응, 너. 내일 또 와.",
-   "note": "손 흔들며",
+   "es": "Ja, du. Süß.",
+   "rd": "야, 두. 쥐스.",
+   "ko": "응, 너. 귀여워.",
+   "note": "그래 너, 내일 또 와 하고 손 흔듦",
    "tags": [
     "draft"
    ],
    "emotion": "shy",
    "lemmas": [
     [
-     "morgen",
-     "morgen",
-     "모어겐"
+     "Süß",
+     "süß",
+     "쥐스"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "es": "Ja. Bis morgen.",
-   "rd": "야. 비스 모어겐.",
-   "ko": "응. 내일 봐.",
-   "note": "shy하게",
+   "es": "Ja, bis morgen!",
+   "rd": "야, 비스 모어겐!",
+   "ko": "응, 내일 봐!",
+   "note": "응, 내일 보자고 대답",
    "tags": [
     "draft"
    ],

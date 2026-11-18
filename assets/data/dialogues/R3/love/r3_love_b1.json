@@ -24,7 +24,6 @@
   "love"
  ],
  "expressions": [
-  "Was möchten Sie bestellen?",
   "Zusammen oder getrennt?"
  ],
  "draft": true,
@@ -35,8 +34,8 @@
    "speaker": "C",
    "es": "Was möchten Sie bestellen?",
    "rd": "바스 뫼히텐 지 베슈텔렌?",
-   "ko": "무엇을 주문하시겠어요?",
-   "note": "Sie로 정중하게 묻는 말",
+   "ko": "무엇을 드시겠습니까?",
+   "note": "웨이터가 Sie로 정중히 주문 물음",
    "tags": [
     "draft"
    ],
@@ -54,8 +53,8 @@
    "speaker": "A",
    "es": "Ich hätte gern die Pasta, bitte.",
    "rd": "이히 헤테 게언 디 파스타, 비테.",
-   "ko": "파스타로 할게요.",
-   "note": "Sie로 주문하는 정중 말",
+   "ko": "파스타로 부탁드려요.",
+   "note": "Sie로 파스타 주문",
    "tags": [
     "draft"
    ],
@@ -76,19 +75,24 @@
   {
    "num": 3,
    "speaker": "B",
-   "es": "Ich nehme dasselbe.",
-   "rd": "이히 네메 다셀베.",
+   "es": "Ich nehm das Gleiche.",
+   "rd": "이히 넴 다스 글라이헤.",
    "ko": "나도 같은 걸로.",
-   "note": "밝게 따라 주문하는 말",
+   "note": "같은 걸로 하겠다고 밝게",
    "tags": [
     "draft"
    ],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "nehme",
+     "nehm",
      "nehmen",
      "네멘"
+    ],
+    [
+     "Gleiche",
+     "gleich",
+     "글라이히"
     ]
    ]
   },
@@ -97,8 +101,8 @@
    "speaker": "B",
    "es": "Warum bist du heute so nervös?",
    "rd": "바룸 비스트 두 호이테 조 네어뵈스?",
-   "ko": "오늘 왜 이렇게 긴장했어?",
-   "note": "장난스럽게 묻는 말",
+   "ko": "오늘 왜 이렇게 긴장해?",
+   "note": "긴장한 이유 장난스럽게 물음",
    "tags": [
     "draft"
    ],
@@ -129,17 +133,17 @@
   {
    "num": 5,
    "speaker": "A",
-   "es": "Weil es das erste Date ist.",
-   "rd": "바일 에스 다스 에어스테 다테 이스트.",
-   "ko": "첫 데이트라서.",
-   "note": "수줍게 답하는 한 줄",
+   "es": "Weil es unser erstes Date ist.",
+   "rd": "바일 에스 운저 에어스테스 다테 이스트.",
+   "ko": "첫 데이트라서 그래.",
+   "note": "첫 데이트라고 수줍게 인정",
    "tags": [
     "draft"
    ],
    "emotion": "shy",
    "lemmas": [
     [
-     "erste",
+     "erstes",
      "erst",
      "에어스트"
     ],
@@ -153,24 +157,24 @@
   {
    "num": 6,
    "speaker": "B",
-   "es": "Du hast gerade Date gesagt.",
-   "rd": "두 하스트 게라데 다테 게자크트.",
-   "ko": "방금 데이트라고 말했네.",
-   "note": "수줍게 받아치는 말",
+   "es": "Date hast du zum ersten Mal gesagt.",
+   "rd": "다테 하스트 두 춤 에어스텐 말 게자크트.",
+   "ko": "데이트라고 말한 건 처음이네.",
+   "note": "데이트라고 한 게 처음이라고 수줍게",
    "tags": [
     "draft"
    ],
    "emotion": "shy",
    "lemmas": [
     [
-     "gerade",
-     "gerade",
-     "게라데"
+     "ersten",
+     "erst",
+     "에어스트"
     ],
     [
-     "Date",
-     "Daten",
-     "다텐"
+     "Mal",
+     "mal",
+     "말"
     ],
     [
      "gesagt",
@@ -182,10 +186,10 @@
   {
    "num": 7,
    "speaker": "C",
-   "es": "Zusammen oder getrennt zahlen?",
-   "rd": "추자멘 오더 게트렌트 찰렌?",
+   "es": "Zusammen oder getrennt?",
+   "rd": "추자멘 오더 게트렌트?",
    "ko": "같이 내실까요, 따로 내실까요?",
-   "note": "Sie로 묻는 정중 질문",
+   "note": "계산 방식 물으며 표현 그대로",
    "tags": [
     "draft"
    ],
@@ -200,49 +204,49 @@
      "getrennt",
      "trennen",
      "트렌넨"
-    ],
-    [
-     "zahlen",
-     "zahlen",
-     "찰렌"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "es": "Ich zahle.",
-   "rd": "이히 차레.",
+   "es": "Ich zahl die Rechnung.",
+   "rd": "이히 찰 디 레히눙.",
    "ko": "내가 낼게.",
-   "note": "바로 나서는 들뜬 말",
+   "note": "내가 내겠다고 신나게",
    "tags": [
     "draft"
    ],
    "emotion": "excited",
    "lemmas": [
     [
-     "zahle",
+     "zahl",
      "zahlen",
      "찰렌"
+    ],
+    [
+     "Rechnung",
+     "Rechnung",
+     "레히눙"
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "B",
-   "es": "Hab schon bezahlt.",
-   "rd": "합 숀 베찰트.",
-   "ko": "이미 계산했어.",
-   "note": "반전으로 장난스럽게 밝히는 말",
+   "es": "Auf keinen Fall. Ich hab schon gezahlt.",
+   "rd": "아우프 카이넨 팔. 이히 합 숀 게찰트.",
+   "ko": "절대 안 돼. 나 이미 냈어.",
+   "note": "이미 계산했다고 장난치며 Auf keinen Fall 삽입",
    "tags": [
     "draft"
    ],
    "emotion": "teasing",
    "lemmas": [
     [
-     "Hab",
-     "haben",
-     "하벤"
+     "Fall",
+     "Fall",
+     "팔"
     ],
     [
      "schon",
@@ -250,9 +254,9 @@
      "숀"
     ],
     [
-     "bezahlt",
-     "bezahlen",
-     "베찰렌"
+     "gezahlt",
+     "zahlen",
+     "찰렌"
     ]
    ]
   },
@@ -261,8 +265,8 @@
    "speaker": "A",
    "es": "Wann denn?",
    "rd": "반 덴?",
-   "ko": "언제?",
-   "note": "놀라서 묻는 말",
+   "ko": "언제 냈어?",
+   "note": "언제 냈냐고 놀람",
    "tags": [
     "draft"
    ],
@@ -283,10 +287,10 @@
   {
    "num": 11,
    "speaker": "B",
-   "es": "Als ich zur Toilette ging. Nächstes Mal du.",
-   "rd": "알스 이히 추어 토이레테 깅. 네히스테스 말 두.",
-   "ko": "화장실 가는 척하고. 다음엔 네가.",
-   "note": "수줍게 설명하고 다음을 맡기는 말",
+   "es": "Als ich auf Toilette war. Stimmt so, nächstes Mal du.",
+   "rd": "알스 이히 아우프 토이레테 바어. 슈팀트 조, 네히스테스 말 두.",
+   "ko": "화장실 가는 척하고 냈어. 팁은 됐고, 다음엔 네가.",
+   "note": "화장실 핑계로 냈다고 하고 다음엔 네가 내라고 수줍게, Stimmt so 삽입",
    "tags": [
     "draft"
    ],
@@ -298,14 +302,24 @@
      ""
     ],
     [
-     "ging",
-     "gehen",
-     "게엔"
+     "Stimmt",
+     "stimmen",
+     "슈티멘"
     ],
     [
-     "Nächstes",
+     "so",
+     "so",
+     "조"
+    ],
+    [
+     "nächstes",
      "nächst",
      "네히스트"
+    ],
+    [
+     "Mal",
+     "mal",
+     "말"
     ]
    ]
   },
@@ -314,8 +328,8 @@
    "speaker": "A",
    "es": "Dann ist das nächste Date fest.",
    "rd": "단 이스트 다스 네히스테 다테 페스트.",
-   "ko": "그럼 다음 데이트는 약속된 거네.",
-   "note": "다정하게 웃으며 마무리",
+   "ko": "그럼 다음 데이트 약속이네.",
+   "note": "다음 데이트라고 웃으며 다정하게",
    "tags": [
     "draft"
    ],

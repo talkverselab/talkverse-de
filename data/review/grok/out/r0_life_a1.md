@@ -1,9 +1,9 @@
 Grok
 
-1 Felix: Willkommen! / 어서 와! / 환영 인사 / cheerful
-2 {name}: Danke. / 고마워. / 짧게 인사 / cheerful
-3 Felix: Schlüssel. Oben, unten. / 열쇠. 위, 아래. / 두 개 주며 / neutral
-4 {name}: Tür... geht nicht. / 문... 안 열려. / 아래 문에 위 열쇠 / flustered
-5 Felix: Oben. Fahrrad. / 위 열쇠야. 자전거 창고. / 웃으며 설명 / amused
-6 {name}: Ah, okay. / 아, 그렇구나. / 웃으며 / amused
-추천 표현: Willkommen! / 어서 와! , Geht nicht. / 안 열려.
+1 Felix: Hallo! Willkommen! / 안녕! 환영해! / 환영하며 인사 / cheerful
+2 {name}: Hallo! Danke! / 안녕! 고마워! / 고맙다며 인사 / cheerful
+3 Felix: Schlüssel. Oben, unten. / 열쇠. 위, 아래. / 열쇠 두 개 주며 짧게 / neutral
+4 {name}: Passt nicht! / 안 맞아! / 위 열쇠로 아래 문 열려다 실패 / flustered
+5 Felix: Oben! Fürs Fahrrad. / 위! 자전거용. / 위 열쇠라고, 자전거 창고라고 / amused
+6 {name}: Alles klar! / 알겠어! / 아 그렇구나 하고 웃음 / amused
+추천 표현: Hallo! / 안녕! Alles klar! / 알겠어!

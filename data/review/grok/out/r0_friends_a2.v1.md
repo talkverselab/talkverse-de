@@ -1,0 +1,9 @@
+Grok
+
+1 Lena: Sorry! Alles gut? / 미안! 괜찮아? / 급정거 후 자연스러운 사과, 단어 포함 / surprised
+2 {name}: Ja, alles gut. Du? / 응, 괜찮아. 너는? / 괜찮다고 확인하며 / flustered
+3 Lena: Ja. Fahrrad auch. / 응. 자전거도. / 자전거 가리키며 짧게 / cheerful
+4 {name}: Wohin? / 어디 가? / 한 단어로 짧게 / neutral
+5 Lena: Nach Hause. Hier! / 집에. 여기! / 옆 건물 가리키며 반전 / teasing
+6 {name}: Ich auch! Hier wohnen. / 나도! 여기 살아. / 놀라며 웃음, wohnen 포함 / amused
+추천 표현: Alles gut? / 괜찮아? , Sorry! / 미안!

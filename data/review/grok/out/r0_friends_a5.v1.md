@@ -1,0 +1,9 @@
+Grok
+
+1 {name}: Kuchen! Lecker. / 케이크! 맛있겠다. / 보고 짧게 / cheerful
+2 Lena: Zusammen essen. / 같이 먹자. / 제안하며 / cheerful
+3 {name}: Was heute? / 오늘 무슨 날? / 짧게 묻기 / neutral
+4 Lena: Heute Geburtstag. / 오늘 생일. / teasing하며 밝힘 / teasing
+5 {name}: Alles Gute! / 생일 축하해! / 놀라며 / surprised
+6 Lena: Danke. Hier. / 고마워. 여기. / 첫 조각 내밀며 / gentle
+추천 표현: Alles Gute! / 생일 축하해! , Lecker! / 맛있겠다!

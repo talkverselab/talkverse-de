@@ -22,8 +22,7 @@
   "friends"
  ],
  "expressions": [
-  "Gib mir den Ball.",
-  "Ist das kaputt?"
+  "Mist!"
  ],
  "draft": true,
  "level": "1 관사·격·활용 골격",
@@ -31,10 +30,10 @@
   {
    "num": 1,
    "speaker": "A",
-   "es": "Gib mir den Ball.",
-   "rd": "기프 미어 덴 발.",
-   "ko": "공 줘.",
-   "note": "요청",
+   "es": "Gib mir den Ball!",
+   "rd": "기프 미어 덴 발!",
+   "ko": "공 줘!",
+   "note": "Jonas에게 공을 달라고",
    "tags": [
     "draft"
    ],
@@ -58,7 +57,7 @@
    "es": "Hier.",
    "rd": "히어.",
    "ko": "여기.",
-   "note": "한 단어",
+   "note": "공을 줌",
    "tags": [
     "draft"
    ],
@@ -74,10 +73,10 @@
   {
    "num": 3,
    "speaker": "A",
-   "es": "Ich schieße stark.",
-   "rd": "이히 시세 슈타어크.",
-   "ko": "세게 찰게.",
-   "note": "큰소리",
+   "es": "Ich schieße stark!",
+   "rd": "이히 시세 슈타어크!",
+   "ko": "세게 찰게!",
+   "note": "세게 찬다고 큰소리침",
    "tags": [
     "draft"
    ],
@@ -98,27 +97,27 @@
   {
    "num": 4,
    "speaker": "B",
-   "es": "Der Ball geht oben.",
-   "rd": "데어 발 게트 오벤.",
-   "ko": "공이 위로 가.",
-   "note": "짧게",
+   "es": "Oh Mann! Oben!",
+   "rd": "오 만! 오벤!",
+   "ko": "오 맨! 위로!",
+   "note": "공이 위로 간다고 짧게",
    "tags": [
     "draft"
    ],
    "emotion": "surprised",
    "lemmas": [
     [
-     "Ball",
-     "Ball",
-     "발"
+     "Oh",
+     "Oh",
+     ""
     ],
     [
-     "geht",
-     "gehen",
-     "게엔"
+     "Mann",
+     "Mann",
+     "만"
     ],
     [
-     "oben",
+     "Oben",
      "oben",
      "오벤"
     ]
@@ -127,34 +126,29 @@
   {
    "num": 5,
    "speaker": "C",
-   "es": "Ist das euer Ball?",
-   "rd": "이스트 다스 오이어 발?",
-   "ko": "이거 너희 공이야?",
-   "note": "창문에서",
+   "es": "Ist das deiner?",
+   "rd": "이스트 다스 다이너?",
+   "ko": "이거 네 거야?",
+   "note": "창문에서 공 들고 네 거냐고",
    "tags": [
     "draft"
    ],
    "emotion": "annoyed",
    "lemmas": [
     [
-     "euer",
-     "euer",
-     "오이어"
-    ],
-    [
-     "Ball",
-     "Ball",
-     "발"
+     "deiner",
+     "dein",
+     "다인"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "es": "Ist das Fenster kaputt?",
-   "rd": "이스트 다스 펜스터 카푸트?",
-   "ko": "창문 괜찮아?",
-   "note": "걱정",
+   "es": "Mist! Fenster okay?",
+   "rd": "미스트! 펜스터 오케이?",
+   "ko": "젠장! 창문 괜찮아?",
+   "note": "창문 괜찮냐고",
    "tags": [
     "draft"
    ],
@@ -164,11 +158,6 @@
      "Fenster",
      "Fenster",
      "펜스터"
-    ],
-    [
-     "kaputt",
-     "kaputt",
-     "카푸트"
     ]
    ]
   },
@@ -177,8 +166,8 @@
    "speaker": "C",
    "es": "Fenster okay. Kaffee kaputt.",
    "rd": "펜스터 오케이. 카페 카푸트.",
-   "ko": "창문은 괜찮아. 커피가 쏟아졌어.",
-   "note": "찌름",
+   "ko": "창문 괜찮아. 커피 쏟아졌어.",
+   "note": "창문은 괜찮고 커피가 쏟아졌다고",
    "tags": [
     "draft"
    ],
@@ -204,15 +193,20 @@
   {
    "num": 8,
    "speaker": "B",
-   "es": "Ich kaufe Kaffee.",
-   "rd": "이히 카우페 카페.",
-   "ko": "내가 커피 살게.",
-   "note": "한 마디",
+   "es": "Keine Sorge. Ich kaufe Kaffee.",
+   "rd": "카이네 조어게. 이히 카우페 카페.",
+   "ko": "걱정 마. 내가 커피 살게.",
+   "note": "내가 커피 산다고 한 마디",
    "tags": [
     "draft"
    ],
    "emotion": "gentle",
    "lemmas": [
+    [
+     "Sorge",
+     "Sorge",
+     "조어게"
+    ],
     [
      "kaufe",
      "kaufen",

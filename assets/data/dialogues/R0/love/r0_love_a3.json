@@ -23,8 +23,7 @@
   "love"
  ],
  "expressions": [
-  "Komm!",
-  "Nicht nass."
+  "Komm schon!"
  ],
  "draft": true,
  "level": "0 입문",
@@ -32,10 +31,10 @@
   {
    "num": 1,
    "speaker": "A",
-   "es": "Regen!",
-   "rd": "레겐!",
-   "ko": "비!",
-   "note": "짧게 놀라며",
+   "es": "Oh, Regen!",
+   "rd": "오, 레겐!",
+   "ko": "오, 비!",
+   "note": "비 온다고 짧게 놀람",
    "tags": [
     "draft"
    ],
@@ -51,39 +50,49 @@
   {
    "num": 2,
    "speaker": "B",
-   "es": "Komm. Schirm.",
-   "rd": "콤. 시엄.",
-   "ko": "이리 와. 우산.",
-   "note": "펴고 다가오며",
+   "es": "Zum Glück! Komm schon!",
+   "rd": "춤 글뤽! 콤 숀!",
+   "ko": "다행이다! 이리 와!",
+   "note": "우산 펴며 다가와 이리 오라고",
    "tags": [
     "draft"
    ],
    "emotion": "gentle",
    "lemmas": [
     [
+     "Glück",
+     "Glück",
+     "글뤽"
+    ],
+    [
      "Komm",
      "kommen",
      "코멘"
     ],
     [
-     "Schirm",
-     "Schirm",
-     ""
+     "schon",
+     "schon",
+     "숀"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "es": "Danke.",
-   "rd": "당케.",
-   "ko": "고마워.",
-   "note": "shy하게 들어감",
+   "es": "Gerne. Danke.",
+   "rd": "게어네. 당케.",
+   "ko": "좋아. 고마워.",
+   "note": "고맙다며 우산 밑으로",
    "tags": [
     "draft"
    ],
    "emotion": "shy",
    "lemmas": [
+    [
+     "Gerne",
+     "gern",
+     "게언"
+    ],
     [
      "Danke",
      "danke",
@@ -94,24 +103,24 @@
   {
    "num": 4,
    "speaker": "B",
-   "es": "Schirm klein.",
-   "rd": "시엄 클라인.",
-   "ko": "우산 작아.",
-   "note": "웃으며",
+   "es": "Kleiner Schirm.",
+   "rd": "클라이너 시엄.",
+   "ko": "작은 우산.",
+   "note": "우산이 작다며 웃음",
    "tags": [
     "draft"
    ],
    "emotion": "amused",
    "lemmas": [
     [
+     "Kleiner",
+     "klein",
+     "클라인"
+    ],
+    [
      "Schirm",
      "Schirm",
      ""
-    ],
-    [
-     "klein",
-     "klein",
-     "클라인"
     ]
    ]
   },
@@ -120,8 +129,8 @@
    "speaker": "B",
    "es": "Näher. Nicht nass.",
    "rd": "네어. 니히트 나스.",
-   "ko": "더 붙어. 안 젖게.",
-   "note": "shy하게",
+   "ko": "더 가까이. 안 젖게.",
+   "note": "조금 더 붙으라고, 안 젖는다고",
    "tags": [
     "draft"
    ],
@@ -145,7 +154,7 @@
    "es": "Ja. Schön.",
    "rd": "야. 쇤.",
    "ko": "응. 좋아.",
-   "note": "작게",
+   "note": "응, 좋다고 작게 대답",
    "tags": [
     "draft"
    ],

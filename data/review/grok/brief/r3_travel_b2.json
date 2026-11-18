@@ -24,6 +24,9 @@
  "expressions": [],
  "level": "3 그래머2",
  "words": [
+  "Moment mal",
+  "Entschuldigung",
+  "Zum Glück",
   "Fahrkarte",
   "Ticket",
   "App",
@@ -152,6 +155,9 @@
    "ko": "",
    "note": ""
   }
+ ],
+ "must": [
+  "표현 풀 낱말(words 앞 3개)을 대사에 그대로 넣는다."
  ],
  "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
 }

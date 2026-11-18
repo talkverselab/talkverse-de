@@ -21,8 +21,7 @@
   "friends"
  ],
  "expressions": [
-  "Alles Gute!",
-  "Lecker!"
+  "Alles Gute!"
  ],
  "draft": true,
  "level": "0 입문",
@@ -30,10 +29,10 @@
   {
    "num": 1,
    "speaker": "A",
-   "es": "Kuchen! Lecker.",
-   "rd": "쿠헨! 레커.",
-   "ko": "케이크! 맛있겠다.",
-   "note": "보고 짧게",
+   "es": "Oh, Kuchen!",
+   "rd": "오, 쿠헨!",
+   "ko": "오, 케이크!",
+   "note": "케이크 보고 맛있겠다",
    "tags": [
     "draft"
    ],
@@ -49,39 +48,44 @@
   {
    "num": 2,
    "speaker": "B",
-   "es": "Zusammen essen.",
-   "rd": "추자멘 에센.",
-   "ko": "같이 먹자.",
-   "note": "제안하며",
+   "es": "Hier, für dich!",
+   "rd": "히어, 퓌어 디히!",
+   "ko": "여기, 너도 먹어!",
+   "note": "너도 먹으라고 내밈",
    "tags": [
     "draft"
    ],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Zusammen",
-     "zusammen",
-     "추자멘"
-    ],
-    [
-     "essen",
-     "essen",
-     "에센"
+     "Hier",
+     "hier",
+     "히어"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "es": "Was heute?",
-   "rd": "바스 호이테?",
-   "ko": "오늘 무슨 날?",
-   "note": "짧게 묻기",
+   "es": "Echt jetzt? Was ist heute?",
+   "rd": "에히트 예츠트? 바스 이스트 호이테?",
+   "ko": "진짜야? 오늘 뭐야?",
+   "note": "무슨 날이냐고 묻기",
    "tags": [
     "draft"
    ],
    "emotion": "neutral",
    "lemmas": [
+    [
+     "Echt",
+     "echt",
+     "에히트"
+    ],
+    [
+     "jetzt",
+     "jetzt",
+     "예츠트"
+    ],
     [
      "heute",
      "heute",
@@ -92,10 +96,10 @@
   {
    "num": 4,
    "speaker": "B",
-   "es": "Heute Geburtstag.",
-   "rd": "호이테 게부어츠탁.",
-   "ko": "오늘 생일.",
-   "note": "teasing하며 밝힘",
+   "es": "Heute mein Geburtstag.",
+   "rd": "호이테 마인 게부어츠탁.",
+   "ko": "오늘 내 생일.",
+   "note": "오늘 자기 생일이라고",
    "tags": [
     "draft"
    ],
@@ -116,15 +120,20 @@
   {
    "num": 5,
    "speaker": "A",
-   "es": "Alles Gute!",
-   "rd": "알레스 구테!",
-   "ko": "생일 축하해!",
-   "note": "놀라며",
+   "es": "Das ist mir peinlich! Alles Gute!",
+   "rd": "다스 이스트 미어 파인리히! 알레스 구테!",
+   "ko": "창피해! 생일 축하해!",
+   "note": "놀라며 축하하고 미안함",
    "tags": [
     "draft"
    ],
    "emotion": "surprised",
    "lemmas": [
+    [
+     "peinlich",
+     "peinlich",
+     "파인리히"
+    ],
     [
      "Gute",
      "gut",
@@ -135,10 +144,10 @@
   {
    "num": 6,
    "speaker": "B",
-   "es": "Danke. Hier.",
-   "rd": "당케. 히어.",
-   "ko": "고마워. 여기.",
-   "note": "첫 조각 내밀며",
+   "es": "Danke! Hier.",
+   "rd": "당케! 히어.",
+   "ko": "고마워! 여기.",
+   "note": "고맙다며 첫 조각 내밈",
    "tags": [
     "draft"
    ],

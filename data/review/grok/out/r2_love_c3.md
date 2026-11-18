@@ -1,14 +1,13 @@
 Grok
 
-1 B: Warst du heute busy? / 오늘 바빴어? / 채팅으로 가볍게 묻는 중립 시작 / neutral
-2 A: Hab den ganzen Tag gearbeitet. / 하루 종일 일했어. / 현재완료로 짧게 답함 / neutral
-3 B: Ich hab im Café nur die Tür angeschaut… / 나 카페에서 계속 문만 봤어… / 수줍게 고백하는 한 줄 / shy
-4 A: Hast du auf Gäste gewartet? / 손님 기다렸던 거야? / 그대로 묻는 중립 반응 / neutral
-5 B: Nicht auf Gäste… / 손님 말고… / 말을 흐리는 수줍은 반응 / shy
-6 B: Ich hab dich vermisst, weil du nicht gekommen bist. / 너 안 와서 보고 싶었어. / 반전으로 보고 싶다고 밝히는 shy 라인 / shy
-7 A: Mich? Echt? / 나를? 진짜? / 놀라서 되묻는 짧은 말 / surprised
-8 B: Wenn jemand anders reinkommt, bin ich enttäuscht. / 다른 사람이 들어오면 실망해. / wenn으로 장난스럽게 이어가는 말 / teasing
-9 A: Morgen komm ich bestimmt. / 내일은 꼭 갈게. / 다정하게 약속하는 한 줄 / gentle
-10 B: Dann schau ich morgen die ganze Zeit auf die Tür. / 그럼 내일은 계속 문 보고 있을게. / 수줍게 기대하는 마무리 / shy
-
-추천 표현: Ich hab dich vermisst. / 보고 싶었어. | Morgen komm ich. / 내일 갈게.
+1 B: Warst du heute beschäftigt? / 오늘 바빴어? / 빈 칸을 R2 채팅체로 새로 작성 / neutral
+2 A: Hab den ganzen Tag gearbeitet. Keine Zeit. / 하루 종일 일했어. 시간 없었어. / 현재완료로 새로 씀 / neutral
+3 B: Hab im Café die Tür angeschaut. / 카페에서 문만 봤어. / 수줍게 새로 작성 / shy
+4 A: Auf Kunden gewartet? / 손님 기다린 거야? / 짧게 물어보며 새로 씀 / neutral
+5 B: Nicht Kunden. Eigentlich... / 손님 말고. 사실은... / 필수 Eigentlich 넣고 말을 흐리며 새로 작성 / shy
+6 B: Hab dich vermisst. Du warst nicht da. / 네가 안 와서 보고 싶었어. / 감정 반전으로 수줍게 새로 씀 / shy
+7 A: Mich? Ich auch. / 나를? 나도. / 필수 Ich auch 넣고 놀라며 새로 작성 / surprised
+8 B: Wenn jemand anders kommt, bin ich enttäuscht. / 다른 사람이 들어오면 실망해. / wenn 넣고 장난스럽게 새로 씀 / teasing
+9 A: Morgen will ich dich sehen. / 내일은 꼭 보러 갈게. / 부드럽게 새로 작성 / gentle
+10 B: Dann schau ich die Tür an. Schlaf gut. / 그럼 문 계속 보고 있을게. 잘 자. / 필수 Schlaf gut 넣고 수줍게 새로 씀 / shy
+추천 표현: Hab dich vermisst. / 보고 싶었어. Schlaf gut. / 잘 자.

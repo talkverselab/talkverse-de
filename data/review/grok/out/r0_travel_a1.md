@@ -1,9 +1,9 @@
 Grok
 
-1 {name}: Hier! Hier! / 여기야! 여기! / 손 흔들며 외침 / excited
-2 Jonas: Ich hier. / 나 여기. / 뒤에서 짧게 / amused
-3 {name}: Hallo! / 안녕! / 놀라서 돌아보며 / surprised
-4 Jonas: Groß. Ich. / 큰 거. 나야. / teasing하게 / teasing
-5 {name}: Endlich da. / 드디어 왔네. / 반가워하며 / cheerful
-6 Jonas: Hunger. / 배고파. / 한마디만 / neutral
-추천 표현: Hier! / 여기야! , Endlich da. / 드디어 왔네.
+1 {name}: Hallo! Hier! / 안녕! 여기! / 손을 흔들며 여기라고 외침 / excited
+2 Jonas: Na? Hier. / 응? 여기. / 뒤에서 나 여기 있다고 짧게 / amused
+3 {name}: Das ist mir peinlich! / 창피해! / 놀라서 돌아보며 / surprised
+4 Jonas: Groß. Ich. / 키 큰. 나. / 키 큰 사람이 자기라고 한마디 / teasing
+5 {name}: Endlich da! / 드디어 왔어! / 드디어 왔다고 반가워 / cheerful
+6 Jonas: Hunger. / 배고파. / 배고프다고만 말함 / neutral
+추천 표현: Hallo! / 안녕! Na? / 응?

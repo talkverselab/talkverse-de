@@ -16,7 +16,7 @@ for id_ in sys.argv[1:]:
         e = json.load(open(d, encoding='utf-8'))
         p = str(ROOT / 'assets/data/dialogues' / Path(d).relative_to(ROOT / 'data/drafts'))
         Path(p).parent.mkdir(parents=True, exist_ok=True)
-        for k in ('outline', 'words'):
+        for k in ('outline', 'words', 'must'):
             e.pop(k, None)
         for t in e['turns']:
             t.pop('beat', None)

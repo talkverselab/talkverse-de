@@ -1,7 +1,7 @@
-1 B: Sorry! Alles gut? / 미안! 괜찮아? / 급정거 후 자연스러운 사과, 단어 포함 / surprised
-2 A: Ja, alles gut. Du? / 응, 괜찮아. 너는? / 괜찮다고 확인하며 / flustered
-3 B: Ja. Fahrrad auch. / 응. 자전거도. / 자전거 가리키며 짧게 / cheerful
-4 A: Wohin? / 어디 가? / 한 단어로 짧게 / neutral
-5 B: Nach Hause. Hier! / 집에. 여기! / 옆 건물 가리키며 반전 / teasing
-6 A: Ich auch! Hier wohnen. / 나도! 여기 살아. / 놀라며 웃음, wohnen 포함 / amused
-추천 표현: Alles gut? / 괜찮아? , Sorry! / 미안!
+1 B: Tut mir leid! / 미안! / 급정거하며 바로 사과 / surprised
+2 A: Alles gut? Du okay? / 괜찮아? 너는 괜찮아? / 괜찮다고 하며 상대 확인 / flustered
+3 B: Kein Problem. Fahrrad okay. / 문제없어. 자전거 괜찮아. / 자기도 괜찮다며 자전거 가리킴 / cheerful
+4 A: Wohin? / 어디로? / 어디 가는지 짧게 묻기 / neutral
+5 B: Nach Hause. Hier! / 집에. 여기! / 옆 건물 가리키며 놀림 / teasing
+6 A: Echt? Ich wohne hier! / 진짜? 나도 여기 살아! / 같은 건물임을 알고 놀라 웃음 / amused
+추천 표현: Tut mir leid! / 미안! Kein Problem! / 괜찮아!

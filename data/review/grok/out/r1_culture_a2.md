@@ -1,11 +1,11 @@
 Grok
 
-1 {name}: Kann ich helfen? / 도와줄 수 있어? / 짧게 제안 / cheerful
-2 Felix: Du musst den Teig rühren. / 반죽을 저어야 해. / 할 일 말함 / neutral
-3 {name}: Wie lange muss ich rühren? / 얼마나 저어야 해? / 단순하게 묻기 / neutral
-4 Felix: Bis der Arm weh tut. / 팔이 아플 때까지. / teasing / teasing
-5 {name}: Ich tue den Teig ins Wasser. / 반죽 통째로 물에 넣을게. / 실수하며 / excited
-6 Felix: Nein! Du musst langsam! / 안 돼! 조금씩 넣어야 해! / 외침 / shout
-7 {name}: Jetzt ist es ein großer Klumpen. / 이제 한 덩어리가 됐어. / 웃으며 / amused
-8 Felix: Aber es kann lecker sein. / 그래도 맛은 있을 거야. / 부드럽게 / gentle
-추천 표현: Kann ich helfen? / 도와줄까? , Du musst langsam. / 조금씩 해야 해.
+1 {name}: Kann ich helfen? Gerne! / 도와줄 수 있어? 기꺼이! / 도와줄 수 있냐고 묻기 / cheerful
+2 Felix: Du musst den Teig rühren. / 반죽을 저어야 해. / 반죽을 저어야 한다고 / neutral
+3 {name}: Wie lange? / 얼마나? / 얼마나 저어야 하냐고 / neutral
+4 Felix: Lange. Der Arm tut weh. / 오래. 팔이 아파. / 팔이 아플 때까지라고 / teasing
+5 {name}: Ich tue alles ins Wasser! / 전부 물에 넣었어! / 물에 반죽을 통째로 넣어 버림 / excited
+6 Felix: Moment mal! Nicht alles! / 잠깐! 전부 말고! / 조금씩 넣어야 한다고 외침 / shout
+7 {name}: Ein Klumpen! / 한 덩어리! / 한 덩어리 국수가 됐다며 웃음 / amused
+8 Felix: Lecker trotzdem. / 그래도 맛있겠다. / 그래도 맛은 있겠다고 / gentle
+추천 표현: Gerne! / 기꺼이! Moment mal! / 잠깐!

@@ -23,8 +23,7 @@
   "love"
  ],
  "expressions": [
-  "Ich hab dich vermisst.",
-  "Morgen komm ich."
+  "Hab dich vermisst."
  ],
  "draft": true,
  "level": "2 챗 실전",
@@ -32,10 +31,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "es": "Warst du heute busy?",
-   "rd": "바어스트 두 호이테 부쥐?",
+   "es": "Warst du heute beschäftigt?",
+   "rd": "바어스트 두 호이테 베셰프티크트?",
    "ko": "오늘 바빴어?",
-   "note": "채팅으로 가볍게 묻는 중립 시작",
+   "note": "빈 칸을 R2 채팅체로",
    "tags": [
     "draft"
    ],
@@ -52,19 +51,19 @@
      "호이테"
     ],
     [
-     "busy",
-     "Bus",
-     "부스"
+     "beschäftigt",
+     "beschäftigen",
+     "베셰프티겐"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "es": "Hab den ganzen Tag gearbeitet.",
-   "rd": "합 덴 간첸 탁 게아어바이테트.",
-   "ko": "하루 종일 일했어.",
-   "note": "현재완료로 짧게 답함",
+   "es": "Hab den ganzen Tag gearbeitet. Keine Zeit.",
+   "rd": "합 덴 간첸 탁 게아어바이테트. 카이네 차이트.",
+   "ko": "하루 종일 일했어. 시간 없었어.",
+   "note": "현재완료로",
    "tags": [
     "draft"
    ],
@@ -89,30 +88,35 @@
      "gearbeitet",
      "arbeiten",
      "아어바이텐"
+    ],
+    [
+     "Zeit",
+     "Zeit",
+     "차이트"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "es": "Ich hab im Café nur die Tür angeschaut…",
-   "rd": "이히 합 임 카프é 누어 디 튀어 앙에샤우트…",
-   "ko": "나 카페에서 계속 문만 봤어…",
-   "note": "수줍게 고백하는 한 줄",
+   "es": "Hab im Café die Tür angeschaut.",
+   "rd": "합 임 카프é 디 튀어 앙에샤우트.",
+   "ko": "카페에서 문만 봤어.",
+   "note": "수줍게",
    "tags": [
     "draft"
    ],
    "emotion": "shy",
    "lemmas": [
     [
+     "Hab",
+     "haben",
+     "하벤"
+    ],
+    [
      "Café",
      "Café",
      ""
-    ],
-    [
-     "nur",
-     "nur",
-     "누어"
     ],
     [
      "Tür",
@@ -129,19 +133,19 @@
   {
    "num": 4,
    "speaker": "A",
-   "es": "Hast du auf Gäste gewartet?",
-   "rd": "하스트 두 아우프 게스테 게바어테트?",
-   "ko": "손님 기다렸던 거야?",
-   "note": "그대로 묻는 중립 반응",
+   "es": "Auf Kunden gewartet?",
+   "rd": "아우프 쿤덴 게바어테트?",
+   "ko": "손님 기다린 거야?",
+   "note": "짧게 물어보며",
    "tags": [
     "draft"
    ],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Gäste",
-     "Gast",
-     "가스트"
+     "Kunden",
+     "Kunde",
+     "쿤데"
     ],
     [
      "gewartet",
@@ -153,72 +157,87 @@
   {
    "num": 5,
    "speaker": "B",
-   "es": "Nicht auf Gäste…",
-   "rd": "니히트 아우프 게스테…",
-   "ko": "손님 말고…",
-   "note": "말을 흐리는 수줍은 반응",
+   "es": "Nicht Kunden. Eigentlich...",
+   "rd": "니히트 쿤덴. 아이겐틀리히...",
+   "ko": "손님 말고. 사실은...",
+   "note": "Eigentlich 넣고 말을 흐리며",
    "tags": [
     "draft"
    ],
    "emotion": "shy",
    "lemmas": [
     [
-     "Gäste",
-     "Gast",
-     "가스트"
+     "Kunden",
+     "Kunde",
+     "쿤데"
+    ],
+    [
+     "Eigentlich",
+     "eigentlich",
+     "아이겐틀리히"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "B",
-   "es": "Ich hab dich vermisst, weil du nicht gekommen bist.",
-   "rd": "이히 합 디히 페어미스트, 바일 두 니히트 게코멘 비스트.",
-   "ko": "너 안 와서 보고 싶었어.",
-   "note": "반전으로 보고 싶다고 밝히는 shy 라인",
+   "es": "Hab dich vermisst. Du warst nicht da.",
+   "rd": "합 디히 페어미스트. 두 바어스트 니히트 다.",
+   "ko": "네가 안 와서 보고 싶었어.",
+   "note": "감정 반전으로 수줍게",
    "tags": [
     "draft"
    ],
    "emotion": "shy",
    "lemmas": [
     [
+     "Hab",
+     "haben",
+     "하벤"
+    ],
+    [
      "vermisst",
      "vermissen",
      "페어미센"
     ],
     [
-     "gekommen",
-     "kommen",
-     "코멘"
+     "warst",
+     "warst",
+     ""
+    ],
+    [
+     "da",
+     "da",
+     "다"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "es": "Mich? Echt?",
-   "rd": "미히? 에히트?",
-   "ko": "나를? 진짜?",
-   "note": "놀라서 되묻는 짧은 말",
+   "es": "Mich? Ich auch.",
+   "rd": "미히? 이히 아우흐.",
+   "ko": "나를? 나도.",
+   "note": "Ich auch 넣고 놀라며",
    "tags": [
     "draft"
    ],
    "emotion": "surprised",
    "lemmas": [
     [
-     "Echt",
-     "echt",
-     "에히트"
+     "auch",
+     "auch",
+     "아우흐"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "B",
-   "es": "Wenn jemand anders reinkommt, bin ich enttäuscht.",
-   "rd": "벤 예만트 안더스 라인콤트, 빈 이히 엔토이슈트.",
+   "es": "Wenn jemand anders kommt, bin ich enttäuscht.",
+   "rd": "벤 예만트 안더스 콤트, 빈 이히 엔토이슈트.",
    "ko": "다른 사람이 들어오면 실망해.",
-   "note": "wenn으로 장난스럽게 이어가는 말",
+   "note": "wenn 넣고 장난스럽게",
    "tags": [
     "draft"
    ],
@@ -230,9 +249,9 @@
      "안더스"
     ],
     [
-     "reinkommt",
-     "reinkommen",
-     "라인코멘"
+     "kommt",
+     "kommen",
+     "코멘"
     ],
     [
      "enttäuscht",
@@ -244,10 +263,10 @@
   {
    "num": 9,
    "speaker": "A",
-   "es": "Morgen komm ich bestimmt.",
-   "rd": "모어겐 콤 이히 베슈팀트.",
-   "ko": "내일은 꼭 갈게.",
-   "note": "다정하게 약속하는 한 줄",
+   "es": "Morgen will ich dich sehen.",
+   "rd": "모어겐 빌 이히 디히 제엔.",
+   "ko": "내일은 꼭 보러 갈게.",
+   "note": "부드럽게",
    "tags": [
     "draft"
    ],
@@ -259,24 +278,19 @@
      "모어겐"
     ],
     [
-     "komm",
-     "kommen",
-     "코멘"
-    ],
-    [
-     "bestimmt",
-     "bestimmt",
-     "베슈팀트"
+     "sehen",
+     "sehen",
+     "제엔"
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "B",
-   "es": "Dann schau ich morgen die ganze Zeit auf die Tür.",
-   "rd": "단 샤우 이히 모어겐 디 간체 차이트 아우프 디 튀어.",
-   "ko": "그럼 내일은 계속 문 보고 있을게.",
-   "note": "수줍게 기대하는 마무리",
+   "es": "Dann schau ich die Tür an. Schlaf gut.",
+   "rd": "단 샤우 이히 디 튀어 안. 슐라프 구트.",
+   "ko": "그럼 문 계속 보고 있을게. 잘 자.",
+   "note": "Schlaf gut 넣고 수줍게",
    "tags": [
     "draft"
    ],
@@ -293,24 +307,19 @@
      "샤우엔"
     ],
     [
-     "morgen",
-     "morgen",
-     "모어겐"
-    ],
-    [
-     "ganze",
-     "ganz",
-     "간츠"
-    ],
-    [
-     "Zeit",
-     "Zeit",
-     "차이트"
-    ],
-    [
      "Tür",
      "Tür",
      "튀어"
+    ],
+    [
+     "Schlaf",
+     "schlafen",
+     "슐라펜"
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
     ]
    ]
   }

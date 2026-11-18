@@ -22,8 +22,7 @@
   "travel"
  ],
  "expressions": [
-  "Die Fahrkarte bitte.",
-  "Alles in Ordnung."
+  "Moment mal."
  ],
  "draft": true,
  "level": "3 그래머2",
@@ -31,10 +30,10 @@
   {
    "num": 1,
    "speaker": "B",
-   "es": "Die Fahrkarte bitte.",
-   "rd": "디 파어카어테 비테.",
+   "es": "Die Fahrkarte, bitte. Zeigen Sie sie.",
+   "rd": "디 파어카어테, 비테. 차이겐 지 지.",
    "ko": "표 보여 주세요.",
-   "note": "Sie로 딱딱하게 요구하는 말",
+   "note": "Sie로 단호하게",
    "tags": [
     "draft"
    ],
@@ -46,43 +45,48 @@
      ""
     ],
     [
-     "bitte",
-     "bitte",
-     "비테"
+     "Zeigen",
+     "zeigen",
+     "차이겐"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "es": "Sie ist in der App. Moment.",
-   "rd": "지 이스트 인 데어 아프. 모멘트.",
-   "ko": "앱에 있어요. 잠깐만요.",
-   "note": "당황하며 휴대폰 여는 말",
+   "es": "Moment mal, sie ist in der App.",
+   "rd": "모멘트 말, 지 이스트 인 데어 아프.",
+   "ko": "잠깐만, 앱에 있어.",
+   "note": "Moment mal 넣고 당황스럽게",
    "tags": [
     "draft"
    ],
    "emotion": "flustered",
    "lemmas": [
     [
-     "App",
-     "App",
-     ""
-    ],
-    [
      "Moment",
      "Moment",
      "모멘트"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "App",
+     "App",
+     ""
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "es": "Die App lädt nur…",
-   "rd": "디 아프 레트 누어…",
-   "ko": "앱이 로딩만 돼요…",
-   "note": "걱정하며 말하는 말",
+   "es": "Die App lädt nur.",
+   "rd": "디 아프 레트 누어.",
+   "ko": "앱이 로딩만 돼.",
+   "note": "걱정하며",
    "tags": [
     "draft"
    ],
@@ -108,23 +112,29 @@
   {
    "num": 4,
    "speaker": "C",
-   "es": "WLAN an.",
+   "es": "Wlan an.",
    "rd": "프란 안.",
    "ko": "와이파이 켜.",
-   "note": "짧게 조언하는 중립 말",
+   "note": "짧게 조언하며",
    "tags": [
     "draft"
    ],
    "emotion": "neutral",
-   "lemmas": []
+   "lemmas": [
+    [
+     "Wlan",
+     "Wlan",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "es": "Kann ich auch den Ausweis sehen?",
-   "rd": "칸 이히 아우흐 덴 아우스바이스 제엔?",
+   "es": "Können Sie auch den Ausweis zeigen?",
+   "rd": "쾨넨 지 아우흐 덴 아우스바이스 차이겐?",
    "ko": "신분증도 보여 주실 수 있어요?",
-   "note": "Sie로 딱딱하게 묻는 말",
+   "note": "Sie로 단호하게",
    "tags": [
     "draft"
    ],
@@ -141,19 +151,19 @@
      ""
     ],
     [
-     "sehen",
-     "sehen",
-     "제엔"
+     "zeigen",
+     "zeigen",
+     "차이겐"
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "es": "Hier. Ich habe das Ticket bestimmt gekauft.",
-   "rd": "히어. 이히 하베 다스 티케트 베슈팀트 게카우프트.",
-   "ko": "여기요. 표는 분명히 샀어요.",
-   "note": "걱정하며 신분증 내미는 말",
+   "es": "Hier ist der Ausweis. Ich hab das Ticket gekauft.",
+   "rd": "히어 이스트 데어 아우스바이스. 이히 합 다스 티케트 게카우프트.",
+   "ko": "여기 신분증이에요. 표는 분명히 샀어요.",
+   "note": "걱정하며",
    "tags": [
     "draft"
    ],
@@ -165,14 +175,14 @@
      "히어"
     ],
     [
-     "Ticket",
-     "Ticket",
+     "Ausweis",
+     "Ausweis",
      ""
     ],
     [
-     "bestimmt",
-     "bestimmt",
-     "베슈팀트"
+     "Ticket",
+     "Ticket",
+     ""
     ],
     [
      "gekauft",
@@ -184,29 +194,24 @@
   {
    "num": 7,
    "speaker": "B",
-   "es": "Wenn Sie keine gültige Karte haben, müssen Sie an der nächsten Station aussteigen.",
-   "rd": "벤 지 카이네 귈티게 카어테 하벤, 뮈센 지 안 데어 네히스텐 슈타치온 아우스타이겐.",
-   "ko": "유효한 표가 없으면 다음 역에서 내리셔야 해요.",
-   "note": "딱딱하게 경고하는 말",
+   "es": "Keine Zeit. Vielleicht müssen Sie an der nächsten Station aussteigen.",
+   "rd": "카이네 차이트. 필라이히트 뮈센 지 안 데어 네히스텐 슈타치온 아우스타이겐.",
+   "ko": "시간이 없어요. 다음 역에서 내려야 할 수도 있어요.",
+   "note": "단호하게",
    "tags": [
     "draft"
    ],
    "emotion": "stiff",
    "lemmas": [
     [
-     "gültige",
-     "gültig",
-     ""
+     "Zeit",
+     "Zeit",
+     "차이트"
     ],
     [
-     "Karte",
-     "Karte",
-     "카어테"
-    ],
-    [
-     "haben",
-     "haben",
-     "하벤"
+     "Vielleicht",
+     "vielleicht",
+     "필라이히트"
     ],
     [
      "nächsten",
@@ -228,15 +233,20 @@
   {
    "num": 8,
    "speaker": "C",
-   "es": "Beide Tickets sind auf meinem Handy.",
-   "rd": "바이데 티케트스 진트 아우프 마이넴 헨디.",
-   "ko": "둘 다 내 휴대폰에 있어.",
-   "note": "짧게 밝히는 말",
+   "es": "Hab beide Tickets auf meinem Handy gekauft.",
+   "rd": "합 바이데 티케트스 아우프 마이넴 헨디 게카우프트.",
+   "ko": "내 휴대폰으로 둘 표 같이 샀어.",
+   "note": "담담하게",
    "tags": [
     "draft"
    ],
    "emotion": "neutral",
    "lemmas": [
+    [
+     "Hab",
+     "haben",
+     "하벤"
+    ],
     [
      "Tickets",
      "Ticket",
@@ -246,45 +256,45 @@
      "Handy",
      "Handy",
      "헨디"
+    ],
+    [
+     "gekauft",
+     "kaufen",
+     "카우펜"
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "B",
-   "es": "Beide Karten sind gültig. Alles in Ordnung.",
-   "rd": "바이데 카어텐 진트 귈티히. 알레스 인 오어트눙.",
-   "ko": "둘 다 유효합니다. 괜찮아요.",
-   "note": "확인하고 정중하게 밝히는 반전",
+   "es": "Beide sind gültig. Entschuldigung.",
+   "rd": "바이데 진트 귈티히. 엔트슐디궁.",
+   "ko": "둘 다 유효해요. 미안합니다.",
+   "note": "Entschuldigung 넣고 정중하게 반전으로",
    "tags": [
     "draft"
    ],
    "emotion": "polite",
    "lemmas": [
     [
-     "Karten",
-     "Karte",
-     "카어테"
-    ],
-    [
      "gültig",
      "gültig",
      ""
     ],
     [
-     "Ordnung",
-     "Ordnung",
-     "오어트눙"
+     "Entschuldigung",
+     "Entschuldigung",
+     "엔트슐디궁"
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "A",
-   "es": "Warum hast du das nicht früher gesagt?",
-   "rd": "바룸 하스트 두 다스 니히트 프뤼어 게자크트?",
+   "es": "Warum sagst du das nicht früher?",
+   "rd": "바룸 자크스트 두 다스 니히트 프뤼어?",
    "ko": "왜 진작 말 안 했어?",
-   "note": "어이없어 따지는 츠코미",
+   "note": "따지며",
    "tags": [
     "draft"
    ],
@@ -296,14 +306,14 @@
      "바룸"
     ],
     [
+     "sagst",
+     "sagen",
+     "자겐"
+    ],
+    [
      "früher",
      "früh",
      "프뤼"
-    ],
-    [
-     "gesagt",
-     "sagen",
-     "자겐"
     ]
    ]
   },
@@ -313,7 +323,7 @@
    "es": "Du hast nicht gefragt.",
    "rd": "두 하스트 니히트 게프라크트.",
    "ko": "네가 안 물어봤잖아.",
-   "note": "웃으며 짧게 답하는 말",
+   "note": "웃으며 짧게",
    "tags": [
     "draft"
    ],
@@ -329,29 +339,34 @@
   {
    "num": 12,
    "speaker": "B",
-   "es": "Gute Fahrt noch.",
-   "rd": "구테 파어트 노흐.",
-   "ko": "좋은 여행 되세요.",
-   "note": "다정하게 웃으며 가는 말",
+   "es": "Zum Glück alles gut. Gute Reise.",
+   "rd": "춤 글뤽 알레스 구트. 구테 라이제.",
+   "ko": "다행히 다 괜찮아요. 좋은 여행 되세요.",
+   "note": "Zum Glück 넣고 부드럽게",
    "tags": [
     "draft"
    ],
    "emotion": "gentle",
    "lemmas": [
     [
+     "Glück",
+     "Glück",
+     "글뤽"
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
+    ],
+    [
      "Gute",
      "gut",
      "구트"
     ],
     [
-     "Fahrt",
-     "fahren",
-     "파렌"
-    ],
-    [
-     "noch",
-     "noch",
-     "노흐"
+     "Reise",
+     "Reise",
+     "라이제"
     ]
    ]
   }

@@ -22,8 +22,7 @@
   "survival"
  ],
  "expressions": [
-  "Kann ich Ihnen helfen?",
-  "Der Automat ist voll."
+  "Entschuldigung."
  ],
  "draft": true,
  "level": "3 그래머2",
@@ -31,39 +30,34 @@
   {
    "num": 1,
    "speaker": "A",
-   "es": "Der Automat nimmt die Flasche nicht.",
-   "rd": "데어 아우토마트 님트 디 플라셰 니히트.",
-   "ko": "기계가 병을 안 받아.",
-   "note": "짜증 섞여 Lena에게 말하는 말",
+   "es": "Der Pfandautomat funktioniert nicht.",
+   "rd": "데어 판다우토마트 푼크티오니어트 니히트.",
+   "ko": "빈 병 반환기가 안 돼.",
+   "note": "짜증 나게",
    "tags": [
     "draft"
    ],
    "emotion": "annoyed",
    "lemmas": [
     [
-     "Automat",
-     "Auto",
-     "아우토"
+     "Pfandautomat",
+     "Pfandautomat",
+     ""
     ],
     [
-     "nimmt",
-     "nehmen",
-     "네멘"
-    ],
-    [
-     "Flasche",
-     "Flasche",
-     "플라셰"
+     "funktioniert",
+     "funktionieren",
+     "풍치오니렌"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "C",
-   "es": "Versuch mal mit dem Etikett nach oben.",
-   "rd": "페어주흐 말 미트 뎀 에티케트 나흐 오벤.",
-   "ko": "라벨을 위로 해서 넣어 봐.",
-   "note": "중립적으로 조언하는 말",
+   "es": "Versuch das Etikett nach oben.",
+   "rd": "페어주흐 다스 에티케트 나흐 오벤.",
+   "ko": "라벨을 위로 넣어 봐.",
+   "note": "담담하게 조언하며",
    "tags": [
     "draft"
    ],
@@ -73,11 +67,6 @@
      "Versuch",
      "Versuch",
      "페어주흐"
-    ],
-    [
-     "mal",
-     "mal",
-     "말"
     ],
     [
      "Etikett",
@@ -96,8 +85,8 @@
    "speaker": "A",
    "es": "Kommt trotzdem wieder raus.",
    "rd": "콤트 트로츠뎀 비더 라우스.",
-   "ko": "그래도 또 나와.",
-   "note": "짜증 나는 짧은 반응",
+   "ko": "그래도 다시 나와.",
+   "note": "짜증 나게",
    "tags": [
     "draft"
    ],
@@ -128,15 +117,20 @@
   {
    "num": 4,
    "speaker": "B",
-   "es": "Kann ich Ihnen helfen?",
-   "rd": "칸 이히 이넨 헬펜?",
-   "ko": "도와드릴까요?",
-   "note": "Sie로 다가오는 정중 말",
+   "es": "Entschuldigung, kann ich Ihnen helfen?",
+   "rd": "엔트슐디궁, 칸 이히 이넨 헬펜?",
+   "ko": "저기요, 도와드릴까요?",
+   "note": "Entschuldigung 넣고 Sie로 정중하게",
    "tags": [
     "draft"
    ],
    "emotion": "polite",
    "lemmas": [
+    [
+     "Entschuldigung",
+     "Entschuldigung",
+     "엔트슐디궁"
+    ],
     [
      "helfen",
      "helfen",
@@ -150,7 +144,7 @@
    "es": "Diese Flasche geht nicht rein.",
    "rd": "디제 플라셰 게트 니히트 라인.",
    "ko": "이 병이 안 들어가요.",
-   "note": "Sie로 설명하는 정중 말",
+   "note": "Sie로 설명하며",
    "tags": [
     "draft"
    ],
@@ -179,7 +173,7 @@
    "es": "Die Flasche ist nicht von hier.",
    "rd": "디 플라셰 이스트 니히트 폰 히어.",
    "ko": "이 병은 여기서 산 게 아니에요.",
-   "note": "딱딱하게 말하는 말",
+   "note": "단호하게",
    "tags": [
     "draft"
    ],
@@ -200,20 +194,15 @@
   {
    "num": 7,
    "speaker": "C",
-   "es": "Wir kaufen alle Flaschen hier.",
-   "rd": "비어 카우펜 알레 플라셴 히어.",
-   "ko": "우리 집 병은 다 여기서 사요.",
-   "note": "wir로 끼어드는 짜증 말",
+   "es": "Alle unsere Flaschen sind von hier.",
+   "rd": "알레 운제레 플라셴 진트 폰 히어.",
+   "ko": "우리 집 병은 다 여기서 산 거야.",
+   "note": "wir 넣어 끼어들며",
    "tags": [
     "draft"
    ],
    "emotion": "annoyed",
    "lemmas": [
-    [
-     "kaufen",
-     "kaufen",
-     "카우펜"
-    ],
     [
      "Flaschen",
      "Flasche",
@@ -229,15 +218,25 @@
   {
    "num": 8,
    "speaker": "B",
-   "es": "Der Automat ist voll.",
-   "rd": "데어 아우토마트 이스트 폴.",
-   "ko": "기계가 꽉 찼네요.",
-   "note": "확인하고 놀라며 밝히는 반전",
+   "es": "Das gibt's doch nicht. Der Automat ist voll.",
+   "rd": "다스 기프트스 도흐 니히트. 데어 아우토마트 이스트 폴.",
+   "ko": "그럴 리가 없어. 기계가 꽉 찼어요.",
+   "note": "Das gibt's doch nicht 넣고 놀라며",
    "tags": [
     "draft"
    ],
    "emotion": "surprised",
    "lemmas": [
+    [
+     "gibt's",
+     "gibt'sn",
+     ""
+    ],
+    [
+     "doch",
+     "doch",
+     "도흐"
+    ],
     [
      "Automat",
      "Auto",
@@ -253,10 +252,10 @@
   {
    "num": 9,
    "speaker": "B",
-   "es": "Die Flaschen fallen alle raus!",
-   "rd": "디 플라셴 팔렌 알레 라우스!",
-   "ko": "병들이 다 쏟아져요!",
-   "note": "비우다가 쏟아지는 카오스",
+   "es": "Die Flaschen fallen alle raus, während wir leeren.",
+   "rd": "디 플라셴 팔렌 알레 라우스, 베렌트 비어 레렌.",
+   "ko": "우리가 비우는 동안 병이 우르르 쏟아져요.",
+   "note": "놀라며 반전으로",
    "tags": [
     "draft"
    ],
@@ -276,16 +275,21 @@
      "raus",
      "raus",
      "라우스"
+    ],
+    [
+     "leeren",
+     "leer",
+     "레어"
     ]
    ]
   },
   {
    "num": 10,
    "speaker": "A",
-   "es": "Wir sammeln sie alle ein.",
-   "rd": "비어 자멜른 지 알레 아인.",
-   "ko": "다 같이 주워 담자.",
-   "note": "웃으며 말하는 말",
+   "es": "Wir sammeln sie alle ein. Haha.",
+   "rd": "비어 자멜른 지 알레 아인. 하하.",
+   "ko": "다 같이 주워 담아. 하하.",
+   "note": "웃으며",
    "tags": [
     "draft"
    ],
@@ -306,10 +310,10 @@
   {
    "num": 11,
    "speaker": "B",
-   "es": "Ich schreibe Ihnen den Bon von Hand.",
-   "rd": "이히 슈라이베 이넨 덴 본 폰 한트.",
+   "es": "Ich schreibe den Bon für die Kasse.",
+   "rd": "이히 슈라이베 덴 본 퓌어 디 카세.",
    "ko": "영수증을 손으로 써 드릴게요.",
-   "note": "다정하게 제안하는 말",
+   "note": "부드럽게",
    "tags": [
     "draft"
    ],
@@ -321,28 +325,28 @@
      "슈라이벤"
     ],
     [
-     "Hand",
-     "Hand",
-     "한트"
+     "Kasse",
+     "Kasse",
+     ""
     ]
    ]
   },
   {
    "num": 12,
    "speaker": "C",
-   "es": "Heute haben wir Kaffeegeld verdient.",
-   "rd": "호이테 하벤 비어 카페겔트 페어딘트.",
-   "ko": "오늘 커피값 벌었네.",
-   "note": "밝게 웃으며 마무리",
+   "es": "Zum Glück Kaffeegeld verdient.",
+   "rd": "춤 글뤽 카페겔트 페어딘트.",
+   "ko": "다행히 오늘 커피값 벌었어.",
+   "note": "Zum Glück 넣고 밝게",
    "tags": [
     "draft"
    ],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Heute",
-     "heute",
-     "호이테"
+     "Glück",
+     "Glück",
+     "글뤽"
     ],
     [
      "Kaffeegeld",

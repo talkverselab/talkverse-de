@@ -21,8 +21,7 @@
   "friends"
  ],
  "expressions": [
-  "Hunger?",
-  "Lecker!"
+  "Na?"
  ],
  "draft": true,
  "level": "0 입문",
@@ -30,53 +29,52 @@
   {
    "num": 1,
    "speaker": "B",
-   "es": "Hunger?",
-   "rd": "훙어?",
-   "ko": "배고파?",
-   "note": "한 단어로 짧게",
+   "es": "Na? Hunger?",
+   "rd": "나? 훙어?",
+   "ko": "응? 배고파?",
+   "note": "한 단어로 배고프냐고 묻기",
    "tags": [
     "draft"
    ],
    "emotion": "neutral",
-   "lemmas": [
-    [
-     "Hunger",
-     "Hunger",
-     "훙어"
-    ]
-   ]
+   "lemmas": []
   },
   {
    "num": 2,
    "speaker": "A",
-   "es": "Ja, Hunger.",
-   "rd": "야, 훙어.",
-   "ko": "응, 배고파.",
-   "note": "단어 Hunger 포함",
+   "es": "Ja! Ich auch!",
+   "rd": "야! 이히 아우흐!",
+   "ko": "응! 나도!",
+   "note": "배고프다고 짧게 답",
    "tags": [
     "draft"
    ],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "Hunger",
-     "Hunger",
-     "훙어"
+     "auch",
+     "auch",
+     "아우흐"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "B",
-   "es": "Brezel. Halb.",
-   "rd": "브레첼. 할프.",
-   "ko": "브레첼. 반.",
-   "note": "반으로 쪼개 내밀며",
+   "es": "Hier. Halb.",
+   "rd": "히어. 할프.",
+   "ko": "여기. 반.",
+   "note": "브레첼 반으로 쪼개 내밈",
    "tags": [
     "draft"
    ],
    "emotion": "gentle",
    "lemmas": [
+    [
+     "Hier",
+     "hier",
+     "히어"
+    ],
     [
      "Halb",
      "halb",
@@ -87,29 +85,23 @@
   {
    "num": 4,
    "speaker": "A",
-   "es": "Lecker! Danke.",
-   "rd": "레커! 당케.",
-   "ko": "맛있겠다! 고마워.",
-   "note": "먹기도 전에 말해 버림",
+   "es": "Lecker!",
+   "rd": "레커!",
+   "ko": "맛있어!",
+   "note": "먹기도 전에 맛있다고 말해버림",
    "tags": [
     "draft"
    ],
    "emotion": "excited",
-   "lemmas": [
-    [
-     "Danke",
-     "danke",
-     "당케"
-    ]
-   ]
+   "lemmas": []
   },
   {
    "num": 5,
    "speaker": "B",
    "es": "Noch nicht.",
    "rd": "노흐 니히트.",
-   "ko": "아직 안 먹었잖아.",
-   "note": "짧게 찌름",
+   "ko": "아직 아니야.",
+   "note": "아직 안 먹었다고 짧게 찌름",
    "tags": [
     "draft"
    ],
@@ -128,7 +120,7 @@
    "es": "Echt lecker!",
    "rd": "에히트 레커!",
    "ko": "진짜 맛있어!",
-   "note": "먹고 나서 다시",
+   "note": "먹어 보고 다시 말함",
    "tags": [
     "draft"
    ],

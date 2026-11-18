@@ -23,6 +23,9 @@
  "expressions": [],
  "level": "1 관사·격·활용 골격",
  "words": [
+  "Keine Ahnung",
+  "Warte mal",
+  "Zum Glück",
   "Schlüssel",
   "Tasche",
   "suchen",
@@ -110,6 +113,10 @@
    "ko": "",
    "note": ""
   }
+ ],
+ "must": [
+  "표현 풀 낱말(words 앞 3개)을 대사에 그대로 넣는다.",
+  "R0~R2: du·단수만 — wir·uns·unser·ihr·euch·euer·Sie 를 쓰지 않는다."
  ],
  "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
 }

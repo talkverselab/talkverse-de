@@ -1,13 +1,13 @@
-1 B: Kommen Sie bitte rein. Das Zimmer ist hier. / 들어오세요. 방은 이쪽이에요. / Sie로 정중하게 안내하는 말 / polite
-2 A: Guten Tag. Das Zimmer ist sehr hell. / 안녕하세요. 방이 정말 밝네요. / Sie로 인사하며 칭찬하는 말 / polite
-3 B: Ja, das große Fenster macht alles hell. / 네, 큰 창문이 다 밝게 해 줘요. / 방을 소개하는 밝은 말 / cheerful
-4 C: Wo ist die Küche? / 부엌은 어디예요? / 짧게 묻는 중립 질문 / neutral
-5 B: Die Küche teilen wir alle. / 부엌은 다 같이 써요. / wir·Sie로 설명하는 정중 말 / polite
-6 A: Wie hoch ist die Miete? / 월세가 얼마예요? / Sie로 묻는 정중 질문 / polite
-7 B: Oh. Auf dem Balkon sind zwei Gänse. / 어. 발코니에 거위가 두 마리 있네요. / 문 열자 카오스 반전 / surprised
-8 B: Die Nachbar-Gänse kommen jeden Tag. / 이웃 거위들이 매일 와요. / 아무렇지 않게 말하는 중립 / neutral
-9 C: Stehen die Gänse auch in den Müllregeln? / 거위도 분리수거 규칙에 있어요? / 어이없어 묻는 츠코미 / tsukkomi
-10 A: Die Gänse sind größer als das Zimmer. / 거위가 방보다 크네. / 웃으며 말하는 한 줄 / amused
-11 B: Wegen der Gänse ist die Miete klein. / 거위 덕분에 월세가 싸요. / 장난스럽게 말하는 말 / teasing
-12 A: Wir nehmen das Zimmer. / 이 방으로 할게요. / 밝게 결정하는 마무리 / cheerful
-추천 표현: Kommen Sie bitte rein. / 들어오세요. | Wie hoch ist die Miete? / 월세가 얼마예요?
+1 B: Guten Tag. Kommen Sie bitte rein. / 안녕하세요. 들어오세요. / 필수 Guten Tag 넣고 정중하게 새로 작성 / polite
+2 A: Guten Tag. Das Zimmer ist hell. / 안녕하세요. 방이 밝네요. / Sie로 인사하며 새로 씀 / polite
+3 B: Das Zimmer hat ein großes Fenster. / 이 방은 창이 커요. / 밝게 소개하며 새로 작성 / cheerful
+4 C: Wo ist die Küche? / 부엌은 어디예요? / 짧게 물어보며 새로 씀 / neutral
+5 B: Die Küche nutzen wir zusammen. / 부엌은 같이 써요. / wir·Sie 넣어 정중하게 새로 작성 / polite
+6 A: Wie hoch ist die Miete? / 월세는 얼마예요? / 정중하게 물어보며 새로 씀 / polite
+7 B: Oh! Zwei Gänse auf dem Balkon! / 어! 발코니에 거위 두 마리! / 놀라며 반전으로 새로 작성 / surprised
+8 B: Na ja, die Nachbarsgänse kommen jeden Tag. / 뭐, 이웃 거위가 매일 와요. / 필수 Na ja 넣고 담담하게 새로 씀 / neutral
+9 C: Stehen Gänse in den Müllregeln? / 분리수거 규칙에 거위도 있어요? / Felix 성격 살려 쓰쿠코미로 새로 작성 / tsukkomi
+10 A: Die Gänse sind größer als das kleine Zimmer. Haha. / 거위가 작은 방보다 커. 하하. / 웃으며 새로 씀 / amused
+11 B: Eigentlich ist die Miete deshalb billiger. / 사실은 그래서 월세가 싸요. / 필수 Eigentlich 넣고 장난스럽게 새로 작성 / teasing
+12 A: Dann nehmen wir das Zimmer. / 그럼 이 방으로 할게요. / 밝게 결정하며 새로 씀 / cheerful
+추천 표현: Guten Tag. / 안녕하세요. Kommen Sie rein. / 들어오세요.

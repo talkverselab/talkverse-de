@@ -23,8 +23,7 @@
   "study"
  ],
  "expressions": [
-  "Hier frei?",
-  "Ich neu."
+  "Frei?"
  ],
  "draft": true,
  "level": "0 입문",
@@ -32,22 +31,17 @@
   {
    "num": 1,
    "speaker": "A",
-   "es": "Hier frei?",
-   "rd": "히어 프라이?",
-   "ko": "여기 비었어?",
-   "note": "짧게 묻기",
+   "es": "Hallo. Frei?",
+   "rd": "할로. 프라이?",
+   "ko": "안녕. 비었어?",
+   "note": "여기 자리 비었냐고 묻기",
    "tags": [
     "draft"
    ],
    "emotion": "polite",
    "lemmas": [
     [
-     "Hier",
-     "hier",
-     "히어"
-    ],
-    [
-     "frei",
+     "Frei",
      "frei",
      "프라이"
     ]
@@ -59,7 +53,7 @@
    "es": "Nein.",
    "rd": "나인.",
    "ko": "아니.",
-   "note": "teasing하게",
+   "note": "원래 안 비었다고",
    "tags": [
     "draft"
    ],
@@ -69,10 +63,10 @@
   {
    "num": 3,
    "speaker": "A",
-   "es": "Sorry.",
-   "rd": "조뤼.",
-   "ko": "미안.",
-   "note": "당황해서 돌아섬",
+   "es": "Oh, sorry.",
+   "rd": "오, 조뤼.",
+   "ko": "오, 미안.",
+   "note": "아 미안, 하고 돌아섬",
    "tags": [
     "draft"
    ],
@@ -82,19 +76,19 @@
   {
    "num": 4,
    "speaker": "B",
-   "es": "Für dich ja.",
-   "rd": "퓌어 디히 야.",
-   "ko": "너한테는 응.",
-   "note": "가방 치우며",
+   "es": "Klar. Für dich.",
+   "rd": "클라어. 퓌어 디히.",
+   "ko": "그래. 너한테는.",
+   "note": "가방 치우며 너한테는 비었다고",
    "tags": [
     "draft"
    ],
    "emotion": "shy",
    "lemmas": [
     [
-     "ja",
-     "ja",
-     "야"
+     "Klar",
+     "klar",
+     "클라어"
     ]
    ]
   },
@@ -103,8 +97,8 @@
    "speaker": "A",
    "es": "Danke. Ich neu.",
    "rd": "당케. 이히 노이.",
-   "ko": "고마워. 나 새로 왔어.",
-   "note": "앉으며",
+   "ko": "고마워. 나 새로.",
+   "note": "고맙다며 앉고 자기도 새로 왔다고",
    "tags": [
     "draft"
    ],
@@ -125,10 +119,10 @@
   {
    "num": 6,
    "speaker": "B",
-   "es": "Ich auch. Cool.",
-   "rd": "이히 아우흐. 콜.",
-   "ko": "나도. 좋아.",
-   "note": "밝게",
+   "es": "Ich auch! Cool.",
+   "rd": "이히 아우흐! 콜.",
+   "ko": "나도! 좋아.",
+   "note": "자기도 새로 왔다며 좋다고",
    "tags": [
     "draft"
    ],

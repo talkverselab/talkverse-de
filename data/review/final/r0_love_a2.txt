@@ -1,7 +1,7 @@
-1 B: Bis morgen! / 내일 봐! / 윙크하며 먼저 / teasing
-2 A: Wer? Du? / 누구한테? 너? / 뒤를 돌아보며 / surprised
-3 B: Du. Ich. / 너한테. 나야. / 웃으며 / amused
-4 A: Ich? / 나? / 당황하며 되묻기 / flustered
-5 B: Ja, du. Bis morgen. / 응, 너. 내일 또 와. / 손 흔들며 / shy
-6 A: Ja. Bis morgen. / 응. 내일 봐. / shy하게 / shy
-추천 표현: Bis morgen! / 내일 봐! , Wer? / 누구?
+1 B: Bis morgen! / 내일 봐! / 윙크하며 먼저 내일 보자고 / teasing
+2 A: Wer? / 누구? / 뒤를 돌아보며 누구한테 하는 말이냐고 / surprised
+3 B: Du! / 너! / 너한테, 하고 웃음 / amused
+4 A: Wirklich? Ich? / 진짜? 나? / 나? 하고 되묻기 / flustered
+5 B: Ja, du. Süß. / 응, 너. 귀여워. / 그래 너, 내일 또 와 하고 손 흔듦 / shy
+6 A: Ja, bis morgen! / 응, 내일 봐! / 응, 내일 보자고 대답 / shy
+추천 표현: Bis morgen! / 내일 봐! Wirklich? / 진짜?

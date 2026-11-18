@@ -21,8 +21,7 @@
   "travel"
  ],
  "expressions": [
-  "Ok.",
-  "Wenn wir Zeit haben."
+  "Gute Idee!"
  ],
  "draft": true,
  "level": "2 챗 실전",
@@ -30,10 +29,10 @@
   {
    "num": 1,
    "speaker": "A",
-   "es": "Wochenende nach Hamburg fahren?",
-   "rd": "보헨엔데 나흐 함부어크 파렌?",
-   "ko": "주말에 함부르크 갈래?",
-   "note": "들떠서 제안하는 채팅",
+   "es": "Wochenende nach Hamburg, kommst du mit?",
+   "rd": "보헨엔데 나흐 함부어크, 콤스트 두 미트?",
+   "ko": "주말에 함부르크 가는데 너도 올래?",
+   "note": "여행 계획을 신나게 제안",
    "tags": [
     "draft"
    ],
@@ -45,38 +44,43 @@
      "보헨엔데"
     ],
     [
-     "fahren",
-     "fahren",
-     "파렌"
+     "kommst",
+     "kommen",
+     "코멘"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "B",
-   "es": "Gut.",
-   "rd": "구트.",
-   "ko": "좋아.",
-   "note": "한 단어로 답하는 중립",
+   "es": "Gute Idee.",
+   "rd": "구테 이데.",
+   "ko": "좋은 생각.",
+   "note": "한 단어로 긍정, Gute Idee 그대로",
    "tags": [
     "draft"
    ],
    "emotion": "neutral",
    "lemmas": [
     [
-     "Gut",
+     "Gute",
      "gut",
      "구트"
+    ],
+    [
+     "Idee",
+     "Idee",
+     "이데"
     ]
    ]
   },
   {
    "num": 3,
    "speaker": "A",
-   "es": "Zug Samstag früh?",
-   "rd": "축 잠스탁 프뤼?",
-   "ko": "기차 토요일 아침?",
-   "note": "밝게 일정 묻는 말",
+   "es": "Zug Samstag früh, wie klingt das?",
+   "rd": "축 잠스탁 프뤼, 비 클링트 다스?",
+   "ko": "기차 토요일 아침은 어때?",
+   "note": "기차 시간을 밝게 물어봄",
    "tags": [
     "draft"
    ],
@@ -96,16 +100,26 @@
      "früh",
      "früh",
      "프뤼"
+    ],
+    [
+     "wie",
+     "wie",
+     "비"
+    ],
+    [
+     "klingt",
+     "klingen",
+     "클링엔"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "B",
-   "es": "Ok.",
-   "rd": "오케이.",
-   "ko": "오케이.",
-   "note": "또 한 단어",
+   "es": "Passt.",
+   "rd": "파스트.",
+   "ko": "괜찮아.",
+   "note": "또 한 단어로 동의, Passt 그대로",
    "tags": [
     "draft"
    ],
@@ -115,10 +129,10 @@
   {
    "num": 5,
    "speaker": "A",
-   "es": "Hotel billig.",
-   "rd": "호텔 빌리히.",
-   "ko": "호텔은 싼 데로.",
-   "note": "짧게 제안하는 말",
+   "es": "Hotel günstig ist besser.",
+   "rd": "호텔 귄스티히 이스트 베서.",
+   "ko": "호텔은 싼 데가 좋아.",
+   "note": "호텔 조건을 짧게 말함",
    "tags": [
     "draft"
    ],
@@ -130,9 +144,14 @@
      "호텔"
     ],
     [
-     "billig",
-     "billig",
+     "günstig",
+     "günstig",
      ""
+    ],
+    [
+     "besser",
+     "gut",
+     "구트"
     ]
    ]
   },
@@ -142,7 +161,7 @@
    "es": "Ok.",
    "rd": "오케이.",
    "ko": "오케이.",
-   "note": "또 한 단어",
+   "note": "다시 한 단어로만 답함",
    "tags": [
     "draft"
    ],
@@ -152,10 +171,10 @@
   {
    "num": 7,
    "speaker": "A",
-   "es": "Sagst du noch was anderes?",
-   "rd": "자크스트 두 노흐 바스 안데레스?",
-   "ko": "다른 말은 없어?",
-   "note": "짜증 섞여 묻는 말",
+   "es": "Na und? Sagst du sonst nichts?",
+   "rd": "나 운트? 자크스트 두 존스트 니히츠?",
+   "ko": "그래서? 다른 말은 없어?",
+   "note": "말이 없는 걸 짜증내며 Na und? 삽입",
    "tags": [
     "draft"
    ],
@@ -167,53 +186,48 @@
      "자겐"
     ],
     [
-     "noch",
-     "noch",
-     "노흐"
+     "sonst",
+     "sonst",
+     "존스트"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "B",
-   "es": "Fischbrötchen-Läden: drei am Hafen, zwei in der Stadt, einer am Bahnhof.",
-   "rd": "피슈브뢰트헨-레덴: 드라이 암 하펜, 츠바이 인 데어 슈타트, 아이너 암 반호프.",
-   "ko": "생선 빵 가게: 항구에 세 개, 시내에 두 개, 역에 하나.",
-   "note": "갑자기 긴 메시지로 카오스 반전",
+   "es": "Fischbrötchen: Laden eins, zwei, drei, alle geil!",
+   "rd": "피슈브뢰트헨: 라덴 아인스, 츠바이, 드라이, 알레 가일!",
+   "ko": "생선 빵: 가게 하나, 둘, 셋, 다 맛있어!",
+   "note": "갑자기 긴 메시지로 가게 목록을 흥분해서 보냄",
    "tags": [
     "draft"
    ],
    "emotion": "excited",
    "lemmas": [
     [
-     "Fischbrötchen-Läden",
-     "Fischbrötchen-Läde",
+     "Fischbrötchen",
+     "Fischbrötchen",
      ""
     ],
     [
-     "Hafen",
-     "Hafen",
-     "하펜"
+     "Laden",
+     "laden",
+     "라덴"
     ],
     [
-     "Stadt",
-     "Stadt",
-     "슈타트"
-    ],
-    [
-     "Bahnhof",
-     "Bahnhof",
-     "반호프"
+     "geil",
+     "geil",
+     "가일"
     ]
    ]
   },
   {
    "num": 9,
    "speaker": "A",
-   "es": "Bei Essen redest du plötzlich viel.",
-   "rd": "바이 에센 레데스트 두 플뢰츨리히 필.",
-   "ko": "먹는 거면 갑자기 말이 많네.",
-   "note": "어이없어 웃는 츠코미",
+   "es": "Bei Essen redest du plötzlich viel, ne?",
+   "rd": "바이 에센 레데스트 두 플뢰츨리히 필, 네?",
+   "ko": "먹는 거면 갑자기 말이 많네?",
+   "note": "음식 얘기엔 말이 많다고 웃으며 지적",
    "tags": [
     "draft"
    ],
@@ -234,10 +248,10 @@
   {
    "num": 10,
    "speaker": "B",
-   "es": "Wenn wir Zeit haben, alle probieren.",
-   "rd": "벤 비어 차이트 하벤, 알레 프로비렌.",
-   "ko": "시간 있으면 다 먹으러 가자.",
-   "note": "wenn으로 밝게 마무리",
+   "es": "Wenn Zeit ist, will ich alle sehen.",
+   "rd": "벤 차이트 이스트, 빌 이히 알레 제엔.",
+   "ko": "시간 되면 다 보고 싶어.",
+   "note": "시간 되면 다 보고 싶다고 wenn으로 밝게",
    "tags": [
     "draft"
    ],
@@ -249,14 +263,9 @@
      "차이트"
     ],
     [
-     "haben",
-     "haben",
-     "하벤"
-    ],
-    [
-     "probieren",
-     "probieren",
-     "프로비렌"
+     "sehen",
+     "sehen",
+     "제엔"
     ]
    ]
   }

@@ -1,0 +1,14 @@
+Grok
+
+1 B: Hey, was machst du am Samstag? / 야, 토요일에 뭐 해? / 채팅처럼 자연스럽게 묻기 / neutral
+2 A: Weiß noch nicht. / 아직 모르겠어. / 짧게 답하는 구어 / neutral
+3 B: Ich hab Karten für ein Konzert! / 나 공연 표 샀어! / 들뜬 목소리로 바로 밝힘 / excited
+4 A: Cool. Viel Spaß dann. / 멋지다. 재밌게 봐. / 부러워하면서 응원하는 짧은 말 / cheerful
+5 B: Das ist nicht die Reaktion. / 그게 아니야. / 반응이 빗나가서 살짝 짜증 / annoyed
+6 B: Ich hab zwei Karten… / 표가 두 장이야… / 수줍게 밝히는 반전 한 줄 / shy
+7 A: Mit wem gehst du? / 누구랑 가? / 아직 눈치 못 채고 묻는 말 / neutral
+8 B: Ich hab dich gerade gefragt! / 방금 너한테 물은 거잖아! / 어이없어 하는 츠코미 / tsukkomi
+9 A: Dann komm ich mit! / 그럼 나 같이 갈게! / mitkommen으로 바로 수락 / excited
+10 B: Ich wusste, dass du das sagst. / 네가 그렇게 말할 줄 알았어. / dass로 장난스럽게 마무리 / teasing
+
+추천 표현: Was machst du am Samstag? / 토요일에 뭐 해? | Ich komm mit. / 나 같이 갈게.

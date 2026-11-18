@@ -21,8 +21,7 @@
   "travel"
  ],
  "expressions": [
-  "Hier!",
-  "Endlich da."
+  "Hallo!"
  ],
  "draft": true,
  "level": "0 입문",
@@ -30,20 +29,15 @@
   {
    "num": 1,
    "speaker": "A",
-   "es": "Hier! Hier!",
-   "rd": "히어! 히어!",
-   "ko": "여기야! 여기!",
-   "note": "손 흔들며 외침",
+   "es": "Hallo! Hier!",
+   "rd": "할로! 히어!",
+   "ko": "안녕! 여기!",
+   "note": "손을 흔들며 여기라고 외침",
    "tags": [
     "draft"
    ],
    "emotion": "excited",
    "lemmas": [
-    [
-     "Hier",
-     "hier",
-     "히어"
-    ],
     [
      "Hier",
      "hier",
@@ -54,17 +48,17 @@
   {
    "num": 2,
    "speaker": "B",
-   "es": "Ich hier.",
-   "rd": "이히 히어.",
-   "ko": "나 여기.",
-   "note": "뒤에서 짧게",
+   "es": "Na? Hier.",
+   "rd": "나? 히어.",
+   "ko": "응? 여기.",
+   "note": "뒤에서 나 여기 있다고 짧게",
    "tags": [
     "draft"
    ],
    "emotion": "amused",
    "lemmas": [
     [
-     "hier",
+     "Hier",
      "hier",
      "히어"
     ]
@@ -73,23 +67,29 @@
   {
    "num": 3,
    "speaker": "A",
-   "es": "Hallo!",
-   "rd": "할로!",
-   "ko": "안녕!",
+   "es": "Das ist mir peinlich!",
+   "rd": "다스 이스트 미어 파인리히!",
+   "ko": "창피해!",
    "note": "놀라서 돌아보며",
    "tags": [
     "draft"
    ],
    "emotion": "surprised",
-   "lemmas": []
+   "lemmas": [
+    [
+     "peinlich",
+     "peinlich",
+     "파인리히"
+    ]
+   ]
   },
   {
    "num": 4,
    "speaker": "B",
    "es": "Groß. Ich.",
    "rd": "그로스. 이히.",
-   "ko": "큰 거. 나야.",
-   "note": "teasing하게",
+   "ko": "키 큰. 나.",
+   "note": "키 큰 사람이 자기라고 한마디",
    "tags": [
     "draft"
    ],
@@ -99,10 +99,10 @@
   {
    "num": 5,
    "speaker": "A",
-   "es": "Endlich da.",
-   "rd": "엔틀리히 다.",
-   "ko": "드디어 왔네.",
-   "note": "반가워하며",
+   "es": "Endlich da!",
+   "rd": "엔틀리히 다!",
+   "ko": "드디어 왔어!",
+   "note": "드디어 왔다고 반가워",
    "tags": [
     "draft"
    ],
@@ -126,7 +126,7 @@
    "es": "Hunger.",
    "rd": "훙어.",
    "ko": "배고파.",
-   "note": "한마디만",
+   "note": "배고프다고만 말함",
    "tags": [
     "draft"
    ],

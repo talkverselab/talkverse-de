@@ -21,8 +21,7 @@
   "friends"
  ],
  "expressions": [
-  "Alles gut?",
-  "Sorry!"
+  "Tut mir leid!"
  ],
  "draft": true,
  "level": "0 입문",
@@ -30,29 +29,34 @@
   {
    "num": 1,
    "speaker": "B",
-   "es": "Sorry! Alles gut?",
-   "rd": "조뤼! 알레스 구트?",
-   "ko": "미안! 괜찮아?",
-   "note": "급정거 후 자연스러운 사과, 단어 포함",
+   "es": "Tut mir leid!",
+   "rd": "투트 미어 라이트!",
+   "ko": "미안!",
+   "note": "급정거하며 바로 사과",
    "tags": [
     "draft"
    ],
    "emotion": "surprised",
    "lemmas": [
     [
-     "gut",
-     "gut",
-     "구트"
+     "Tut",
+     "tut",
+     ""
+    ],
+    [
+     "leid",
+     "Leid",
+     "라이트"
     ]
    ]
   },
   {
    "num": 2,
    "speaker": "A",
-   "es": "Ja, alles gut. Du?",
-   "rd": "야, 알레스 구트. 두?",
-   "ko": "응, 괜찮아. 너는?",
-   "note": "괜찮다고 확인하며",
+   "es": "Alles gut? Du okay?",
+   "rd": "알레스 구트? 두 오케이?",
+   "ko": "괜찮아? 너는 괜찮아?",
+   "note": "괜찮다고 하며 상대 확인",
    "tags": [
     "draft"
    ],
@@ -68,19 +72,24 @@
   {
    "num": 3,
    "speaker": "B",
-   "es": "Ja. Fahrrad auch.",
-   "rd": "야. 파라트 아우흐.",
-   "ko": "응. 자전거도.",
-   "note": "자전거 가리키며 짧게",
+   "es": "Kein Problem. Fahrrad okay.",
+   "rd": "카인 프로블렘. 파라트 오케이.",
+   "ko": "문제없어. 자전거 괜찮아.",
+   "note": "자기도 괜찮다며 자전거 가리킴",
    "tags": [
     "draft"
    ],
    "emotion": "cheerful",
    "lemmas": [
     [
-     "auch",
-     "auch",
-     "아우흐"
+     "Problem",
+     "Problem",
+     "프로블렘"
+    ],
+    [
+     "Fahrrad",
+     "fahren",
+     "파렌"
     ]
    ]
   },
@@ -89,8 +98,8 @@
    "speaker": "A",
    "es": "Wohin?",
    "rd": "보힌?",
-   "ko": "어디 가?",
-   "note": "한 단어로 짧게",
+   "ko": "어디로?",
+   "note": "어디 가는지 짧게 묻기",
    "tags": [
     "draft"
    ],
@@ -109,7 +118,7 @@
    "es": "Nach Hause. Hier!",
    "rd": "나흐 하우제. 히어!",
    "ko": "집에. 여기!",
-   "note": "옆 건물 가리키며 반전",
+   "note": "옆 건물 가리키며 놀림",
    "tags": [
     "draft"
    ],
@@ -130,29 +139,29 @@
   {
    "num": 6,
    "speaker": "A",
-   "es": "Ich auch! Hier wohnen.",
-   "rd": "이히 아우흐! 히어 보넨.",
-   "ko": "나도! 여기 살아.",
-   "note": "놀라며 웃음, wohnen 포함",
+   "es": "Echt? Ich wohne hier!",
+   "rd": "에히트? 이히 보네 히어!",
+   "ko": "진짜? 나도 여기 살아!",
+   "note": "같은 건물임을 알고 놀라 웃음",
    "tags": [
     "draft"
    ],
    "emotion": "amused",
    "lemmas": [
     [
-     "auch",
-     "auch",
-     "아우흐"
+     "Echt",
+     "echt",
+     "에히트"
     ],
     [
-     "Hier",
-     "hier",
-     "히어"
-    ],
-    [
-     "wohnen",
+     "wohne",
      "wohnen",
      "보넨"
+    ],
+    [
+     "hier",
+     "hier",
+     "히어"
     ]
    ]
   }
