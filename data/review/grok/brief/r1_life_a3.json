@@ -1,0 +1,115 @@
+{
+ "id": "r1_life_a3",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "title": "열쇠 어디 있어?",
+ "emoji": "🚪",
+ "scene": "현관 앞. 학습자가 열쇠가 없다며 Lena 에게 전화한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lena"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [],
+ "level": "1 관사·격·활용 골격",
+ "words": [
+  "Schlüssel",
+  "Tasche",
+  "suchen",
+  "haben",
+  "Hand"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "beat": "열쇠가 없다고 한다",
+   "emotion": "worried",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "beat": "Lena 가 가방은 봤냐고 묻는다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "beat": "가방도 다 찾아봤다고 한다(현재완료)",
+   "emotion": "annoyed",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "beat": "주머니는? 하고 묻는다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "beat": "주머니에도 없다고 한다",
+   "emotion": "sad",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "beat": "영상 통화를 켜고 네 손에 든 게 뭐냐고 묻는다",
+   "emotion": "amused",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "beat": "손에 열쇠가 있다는 걸 알고 놀란다",
+   "emotion": "surprised",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "beat": "열쇠 안 갖고 왔다고 웃는다",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

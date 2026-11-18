@@ -1,0 +1,115 @@
+{
+ "id": "r1_friends_a4",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "title": "한 판 더",
+ "emoji": "🎮",
+ "scene": "Jonas 집에서 게임. 말수 적은 Jonas 가 계속 이긴다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Jonas"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [],
+ "level": "1 관사·격·활용 골격",
+ "words": [
+  "spielen",
+  "gewinnen",
+  "noch mal",
+  "Runde",
+  "Trick"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "beat": "한 판 더 하자고 한다",
+   "emotion": "excited",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "beat": "Jonas 가 좋다고 한 단어로 답한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "beat": "이번엔 내가 이긴다고 큰소리친다",
+   "emotion": "excited",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "beat": "또 이기고 한 판 더냐고 묻는다",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "beat": "어떻게 매번 이기냐고 묻는다",
+   "emotion": "annoyed",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "beat": "네 컨트롤러가 처음부터 꺼져 있었다고 말한다",
+   "emotion": "amused",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "beat": "현재완료로 나 혼자 계속 눌렀냐고 놀란다",
+   "emotion": "surprised",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "beat": "켜 주며 이제 진짜 한 판이라고 한다",
+   "emotion": "gentle",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

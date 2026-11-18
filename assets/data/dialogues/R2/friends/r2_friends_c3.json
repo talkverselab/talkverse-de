@@ -1,0 +1,261 @@
+{
+ "id": "r2_friends_c3",
+ "region": "R2",
+ "island": "friends",
+ "kind": "chat",
+ "title": "깜짝 파티 단톡",
+ "emoji": "💬",
+ "scene": "Jonas 깜짝 생일 파티 단톡방. 그런데 Jonas 가 이 방에 들어와 있다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lena",
+  "C": "Jonas"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Pssst.",
+  "Ich tu überrascht."
+ ],
+ "draft": true,
+ "level": "2 챗 실전",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Samstag Überraschungsparty für Jonas. Bei mir.",
+   "rd": "잠스탁 위베라슝스파어튀 퓌어 요나스. 바이 미어.",
+   "ko": "토요일 요나스 깜짝 파티. 우리 집에서.",
+   "note": "단톡에 바로 계획을 올리는 들뜬 채팅",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Samstag",
+     "Samstag",
+     "잠스탁"
+    ],
+    [
+     "Überraschungsparty",
+     "Überraschungsparty",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Ich hol den Kuchen.",
+   "rd": "이히 홀 덴 쿠헨.",
+   "ko": "나 케이크 살게.",
+   "note": "짧게 역할 맡는 밝은 답",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Kuchen",
+     "Kuchen",
+     "쿠헨"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Pssst. Jonas nichts sagen.",
+   "rd": "프스스트. 요나스 니히츠 자겐.",
+   "ko": "쉿. 요나스한테 절대 말하지 마.",
+   "note": "비밀 강조하는 딱딱한 한 줄",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Pssst",
+     "Pssst",
+     ""
+    ],
+    [
+     "sagen",
+     "sagen",
+     "자겐"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Klar. Das bleibt geheim.",
+   "rd": "클라어. 다스 블라이프트 게하임.",
+   "ko": "당연하지. 비밀이야.",
+   "note": "동의하는 짧은 중립 반응",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Klar",
+     "klar",
+     "클라어"
+    ],
+    [
+     "bleibt",
+     "bleiben",
+     "블라이벤"
+    ],
+    [
+     "geheim",
+     "gehen",
+     "게엔"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Schoko-Kuchen wäre gut.",
+   "rd": "쇼코-쿠헨 베레 구트.",
+   "ko": "초콜릿 케이크가 좋겠어.",
+   "note": "메뉴 제안하는 밝은 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Schoko-Kuchen",
+     "Schoko-Kuchen",
+     ""
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "es": "Erdbeer.",
+   "rd": "에어트베어.",
+   "ko": "딸기.",
+   "note": "한 단어로 끼어드는 카오스 반전",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "Jonas? Warum bist du hier?",
+   "rd": "요나스? 바룸 비스트 두 히어?",
+   "ko": "요나스? 왜 여기 있어?",
+   "note": "놀라서 바로 묻는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Warum",
+     "warum",
+     "바룸"
+    ],
+    [
+     "hier",
+     "hier",
+     "히어"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Die Gruppe ist von deinem Handy…",
+   "rd": "디 그루페 이스트 폰 다이넴 헨디…",
+   "ko": "이 방이 네 휴대폰으로 만든 거야…",
+   "note": "당황하며 고백하는 한 줄",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Gruppe",
+     "Gruppe",
+     "그루페"
+    ],
+    [
+     "Handy",
+     "Handy",
+     "헨디"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "es": "Ich tu überrascht.",
+   "rd": "이히 투 위베라슈트.",
+   "ko": "놀란 척할게.",
+   "note": "짧게 웃으며 받아주는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "überrascht",
+     "überraschen",
+     "위버라셴"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "es": "Dann Erdbeer-Kuchen. Haha.",
+   "rd": "단 에어트베어-쿠헨. 하하.",
+   "ko": "그럼 딸기 케이크. 하하.",
+   "note": "웃으며 정리하는 마무리",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "Erdbeer-Kuchen",
+     "Erdbeer-Kuchen",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r2_friends_c3.md",
+  "model": "빠른",
+  "final": "data/review/final/r2_friends_c3.txt"
+ }
+}

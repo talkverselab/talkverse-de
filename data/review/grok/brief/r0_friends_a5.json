@@ -1,0 +1,95 @@
+{
+ "id": "r0_friends_a5",
+ "region": "R0",
+ "island": "friends",
+ "kind": "short",
+ "title": "오늘이야?",
+ "emoji": "🎂",
+ "scene": "Lena 가 케이크를 들고 있다. 학습자는 오늘이 Lena 생일인 줄 몰랐다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lena"
+ },
+ "register": "casual",
+ "twist": 3,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [],
+ "level": "0 입문",
+ "words": [
+  "Kuchen",
+  "heute",
+  "Geburtstag",
+  "alles Gute",
+  "danke"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "beat": "케이크를 보고 맛있겠다고 한다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "beat": "같이 먹자고 한다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "beat": "무슨 날이냐고 묻는다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "beat": "오늘 자기 생일이라고 한다",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "beat": "놀라며 생일 축하한다고 말한다",
+   "emotion": "surprised",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "beat": "고맙다며 첫 조각을 내민다",
+   "emotion": "gentle",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

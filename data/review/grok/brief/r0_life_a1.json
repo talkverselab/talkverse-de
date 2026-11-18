@@ -1,0 +1,95 @@
+{
+ "id": "r0_life_a1",
+ "region": "R0",
+ "island": "life",
+ "kind": "short",
+ "title": "열쇠가 두 개",
+ "emoji": "🔑",
+ "scene": "WG 이사 첫날. 룸메이트 Felix 가 열쇠를 건넨다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Felix"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [],
+ "level": "0 입문",
+ "words": [
+  "willkommen",
+  "Schlüssel",
+  "Tür",
+  "oben",
+  "unten"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "beat": "Felix 가 환영한다고 인사한다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "beat": "고맙다며 인사한다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "beat": "열쇠 두 개를 주며 위, 아래라고만 말한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "beat": "위 열쇠로 아래 문을 열려다 안 열린다",
+   "emotion": "flustered",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "beat": "그건 위 열쇠라고, 자전거 창고라고 말한다",
+   "emotion": "amused",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "beat": "아 그렇구나, 하고 웃는다",
+   "emotion": "amused",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

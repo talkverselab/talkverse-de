@@ -524,8 +524,8 @@
   }
  ],
  "review": {
-  "grok_rewrite": "data/review/grok/r5_work_b1_rewrite.md",
-  "model": "전문가",
+  "grok_rewrite": "data/review/grok/out/r5_work_b1.md",
+  "model": "빠른",
   "final": "data/review/final/r5_work_b1.txt"
  }
 }

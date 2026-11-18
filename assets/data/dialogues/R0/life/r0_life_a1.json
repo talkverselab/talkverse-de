@@ -1,0 +1,170 @@
+{
+ "id": "r0_life_a1",
+ "region": "R0",
+ "island": "life",
+ "kind": "short",
+ "title": "열쇠가 두 개",
+ "emoji": "🔑",
+ "scene": "WG 이사 첫날. 룸메이트 Felix 가 열쇠를 건넨다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Felix"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Willkommen!",
+  "Geht nicht."
+ ],
+ "draft": true,
+ "level": "0 입문",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Willkommen!",
+   "rd": "빌코멘!",
+   "ko": "어서 와!",
+   "note": "환영 인사",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Willkommen",
+     "willkommen",
+     "빌코멘"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Danke.",
+   "rd": "당케.",
+   "ko": "고마워.",
+   "note": "짧게 인사",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Danke",
+     "danke",
+     "당케"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Schlüssel. Oben, unten.",
+   "rd": "슐뤼셀. 오벤, 운텐.",
+   "ko": "열쇠. 위, 아래.",
+   "note": "두 개 주며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Schlüssel",
+     "Schlüssel",
+     "슐뤼셀"
+    ],
+    [
+     "Oben",
+     "oben",
+     "오벤"
+    ],
+    [
+     "unten",
+     "unten",
+     "운텐"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Tür... geht nicht.",
+   "rd": "튀어... 게트 니히트.",
+   "ko": "문... 안 열려.",
+   "note": "아래 문에 위 열쇠",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Tür",
+     "Tür",
+     "튀어"
+    ],
+    [
+     "geht",
+     "gehen",
+     "게엔"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Oben. Fahrrad.",
+   "rd": "오벤. 파라트.",
+   "ko": "위 열쇠야. 자전거 창고.",
+   "note": "웃으며 설명",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Oben",
+     "oben",
+     "오벤"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Ah, okay.",
+   "rd": "아, 오케이.",
+   "ko": "아, 그렇구나.",
+   "note": "웃으며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Ah",
+     "Ah",
+     ""
+    ],
+    [
+     "okay",
+     "Okay",
+     "오케이"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r0_life_a1.md",
+  "model": "빠른",
+  "final": "data/review/final/r0_life_a1.txt"
+ }
+}

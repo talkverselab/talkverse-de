@@ -1,0 +1,153 @@
+{
+ "id": "r0_life_a2",
+ "region": "R0",
+ "island": "life",
+ "kind": "short",
+ "title": "여보세요?",
+ "emoji": "📱",
+ "scene": "저녁. 학습자에게 Felix 의 전화가 오는데, Felix 는 바로 옆방에 있다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Felix"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Hallo?",
+  "Wo bist du?"
+ ],
+ "draft": true,
+ "level": "0 입문",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Hallo?",
+   "rd": "할로?",
+   "ko": "여보세요?",
+   "note": "전화로 짧게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Hallo. Was?",
+   "rd": "할로. 바스?",
+   "ko": "여보세요. 무슨 일?",
+   "note": "짧게 되묻기",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Wo bist du?",
+   "rd": "보 비스트 두?",
+   "ko": "어디야?",
+   "note": "wo 포함",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Wo",
+     "wo",
+     "보"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Im Zimmer.",
+   "rd": "임 치머.",
+   "ko": "방에.",
+   "note": "짧게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Zimmer",
+     "Zimmer",
+     "치머"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Nebenan. Essen fertig.",
+   "rd": "네베난. 에센 페어티히.",
+   "ko": "옆방이야. 밥 다 됐어.",
+   "note": "반전, 단어 포함",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Nebenan",
+     "neben",
+     "네벤"
+    ],
+    [
+     "Essen",
+     "essen",
+     "에센"
+    ],
+    [
+     "fertig",
+     "fertig",
+     "페어티히"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Ruf doch.",
+   "rd": "루프 도흐.",
+   "ko": "그냥 부르지.",
+   "note": "웃으며 찌름",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Ruf",
+     "rufen",
+     "루펜"
+    ],
+    [
+     "doch",
+     "doch",
+     "도흐"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r0_life_a2.md",
+  "model": "빠른",
+  "final": "data/review/final/r0_life_a2.txt"
+ }
+}

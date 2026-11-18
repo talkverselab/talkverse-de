@@ -1,0 +1,95 @@
+{
+ "id": "r0_travel_a1",
+ "region": "R0",
+ "island": "travel",
+ "kind": "short",
+ "title": "여기야!",
+ "emoji": "🚆",
+ "scene": "기차역. 학습자가 Jonas 를 마중 나왔는데 모르는 사람에게 먼저 손을 흔든다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Jonas"
+ },
+ "register": "casual",
+ "twist": 2,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [],
+ "level": "0 입문",
+ "words": [
+  "hier",
+  "da",
+  "hallo",
+  "groß",
+  "endlich"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "beat": "손을 흔들며 여기라고 외친다",
+   "emotion": "excited",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "beat": "뒤에서 Jonas 가 나 여기 있다고 짧게 말한다",
+   "emotion": "amused",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "beat": "놀라서 돌아보며 인사한다",
+   "emotion": "surprised",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "beat": "키 큰 사람이 자기라고 한마디 한다",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "beat": "드디어 왔다고 반가워한다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "beat": "배고프다고만 말한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

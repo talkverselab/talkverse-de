@@ -1,0 +1,137 @@
+{
+ "id": "r2_friends_c3",
+ "region": "R2",
+ "island": "friends",
+ "kind": "chat",
+ "title": "깜짝 파티 단톡",
+ "emoji": "💬",
+ "scene": "Jonas 깜짝 생일 파티 단톡방. 그런데 Jonas 가 이 방에 들어와 있다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lena",
+  "C": "Jonas"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [],
+ "level": "2 챗 실전",
+ "words": [
+  "Party",
+  "Überraschung",
+  "Kuchen",
+  "Gruppe",
+  "pssst",
+  "dass"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "beat": "Lena 가 토요일 깜짝 파티 계획을 올린다",
+   "emotion": "excited",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "beat": "케이크는 내가 사겠다고 한다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "beat": "Jonas 한테는 절대 말하지 말라고 한다",
+   "emotion": "stiff",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "beat": "당연하다고, 비밀이라고 한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "beat": "초콜릿 케이크가 좋겠다고 한다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "beat": "Jonas 가 딸기가 더 좋다고 한 단어로 끼어든다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "beat": "Jonas 가 왜 여기 있냐고 놀란다",
+   "emotion": "surprised",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "beat": "방을 만든 게 Jonas 휴대폰이었다고 고백한다",
+   "emotion": "flustered",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "beat": "놀란 척하겠다고 짧게 말한다",
+   "emotion": "amused",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "beat": "그럼 딸기 케이크로 한다고 웃는다",
+   "emotion": "amused",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

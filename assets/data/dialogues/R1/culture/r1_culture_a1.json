@@ -262,8 +262,8 @@
   }
  ],
  "review": {
-  "grok_rewrite": "data/review/grok/r1_culture_a1_rewrite.md",
-  "model": "전문가",
+  "grok_rewrite": "data/review/grok/out/r1_culture_a1.md",
+  "model": "빠른",
   "final": "data/review/final/r1_culture_a1.txt"
  }
 }

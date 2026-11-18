@@ -1,0 +1,167 @@
+{
+ "id": "r0_love_a3",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "title": "같이 쓸래?",
+ "emoji": "🌧️",
+ "scene": "갑자기 비. 우산이 없는 학습자 옆에 Mia 가 우산을 펴고 다가온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Komm!",
+  "Nicht nass."
+ ],
+ "draft": true,
+ "level": "0 입문",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "Regen!",
+   "rd": "레겐!",
+   "ko": "비!",
+   "note": "짧게 놀라며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Regen",
+     "regen",
+     "레겐"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "Komm. Schirm.",
+   "rd": "콤. 시엄.",
+   "ko": "이리 와. 우산.",
+   "note": "펴고 다가오며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Komm",
+     "kommen",
+     "코멘"
+    ],
+    [
+     "Schirm",
+     "Schirm",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "Danke.",
+   "rd": "당케.",
+   "ko": "고마워.",
+   "note": "shy하게 들어감",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Danke",
+     "danke",
+     "당케"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "Schirm klein.",
+   "rd": "시엄 클라인.",
+   "ko": "우산 작아.",
+   "note": "웃으며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Schirm",
+     "Schirm",
+     ""
+    ],
+    [
+     "klein",
+     "klein",
+     "클라인"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Näher. Nicht nass.",
+   "rd": "네어. 니히트 나스.",
+   "ko": "더 붙어. 안 젖게.",
+   "note": "shy하게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Näher",
+     "Nähe",
+     "네에"
+    ],
+    [
+     "nass",
+     "nass",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Ja. Schön.",
+   "rd": "야. 쇤.",
+   "ko": "응. 좋아.",
+   "note": "작게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Schön",
+     "schön",
+     "쇤"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r0_love_a3.md",
+  "model": "빠른",
+  "final": "data/review/final/r0_love_a3.txt"
+ }
+}

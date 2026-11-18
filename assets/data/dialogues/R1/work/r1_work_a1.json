@@ -1,0 +1,263 @@
+{
+ "id": "r1_work_a1",
+ "region": "R1",
+ "island": "work",
+ "kind": "short",
+ "title": "귀리 우유요",
+ "emoji": "☕",
+ "scene": "Mia 가 일하는 카페가 문을 닫은 뒤, 학습자에게 우유 거품 내는 법을 가르친다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "work"
+ ],
+ "domain": [
+  "work"
+ ],
+ "expressions": [
+  "Milch rein.",
+  "Ich probiere mal."
+ ],
+ "draft": true,
+ "level": "1 관사·격·활용 골격",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Heute machst du den Schaum.",
+   "rd": "호이테 마흐스트 두 덴 샤움.",
+   "ko": "오늘은 네가 거품 만들어.",
+   "note": "카페 문 닫은 뒤 장난스럽게 맡기는 한 줄",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Heute",
+     "heute",
+     "호이테"
+    ],
+    [
+     "machst",
+     "machen",
+     "마헨"
+    ],
+    [
+     "Schaum",
+     "schauen",
+     "샤우엔"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Wie mache ich das?",
+   "rd": "비 마헤 이히 다스?",
+   "ko": "어떻게 하는데?",
+   "note": "바로 방법을 묻는 짧은 걱정",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Wie",
+     "wie",
+     "비"
+    ],
+    [
+     "mache",
+     "machen",
+     "마헨"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Milch rein. Dann den Knopf drücken.",
+   "rd": "밀히 라인. 단 덴 크노프 드뤼켄.",
+   "ko": "우유 넣어. 그리고 버튼 눌러.",
+   "note": "단계를 짧게 지시하는 구어",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Milch",
+     "Milch",
+     "밀히"
+    ],
+    [
+     "rein",
+     "rein",
+     "라인"
+    ],
+    [
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "Knopf",
+     "Knopf",
+     ""
+    ],
+    [
+     "drücken",
+     "drücken",
+     "드뤼켄"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Oh! Der Schaum läuft über!",
+   "rd": "오! 데어 샤움 로이프트 위버!",
+   "ko": "오! 거품이 넘쳐!",
+   "note": "버튼을 누르자마자 당황하는 반응",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Schaum",
+     "schauen",
+     "샤우엔"
+    ],
+    [
+     "läuft",
+     "laufen",
+     "라우펜"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Stopp! Zu viel Schaum!",
+   "rd": "슈토프! 추 필 샤움!",
+   "ko": "멈춰! 거품 너무 많아!",
+   "note": "넘치자 외치는 카오스 순간",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "Stopp",
+     "stopp",
+     "슈토프"
+    ],
+    [
+     "Schaum",
+     "schauen",
+     "샤우엔"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Der Tresen ist voller Schaum. Haha.",
+   "rd": "데어 트레젠 이스트 폴러 샤움. 하하.",
+   "ko": "카운터가 온통 거품이야. 하하.",
+   "note": "웃으며 상황을 받아들이는 킥",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Tresen",
+     "Tresen",
+     ""
+    ],
+    [
+     "Schaum",
+     "schauen",
+     "샤우엔"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "es": "Ich probiere mal.",
+   "rd": "이히 프로비레 말.",
+   "ko": "내가 한번 마셔 볼게.",
+   "note": "wir 없이 맛보기로 하는 한 줄",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "probiere",
+     "probieren",
+     "프로비렌"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Schmeckt gut. Nächstes Mal in die Tasse.",
+   "rd": "슈메크트 구트. 네히스테스 말 인 디 타세.",
+   "ko": "맛있어. 다음엔 컵에 넣자.",
+   "note": "다정하게 마무리하는 반응",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Schmeckt",
+     "schmecken",
+     "슈메켄"
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
+    ],
+    [
+     "Nächstes",
+     "nächst",
+     "네히스트"
+    ],
+    [
+     "Mal",
+     "mal",
+     "말"
+    ],
+    [
+     "Tasse",
+     "Taß",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r1_work_a1.md",
+  "model": "빠른",
+  "final": "data/review/final/r1_work_a1.txt"
+ }
+}

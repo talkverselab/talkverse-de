@@ -1,0 +1,116 @@
+{
+ "id": "r1_friends_a5",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "title": "공은 어디로",
+ "emoji": "⚽",
+ "scene": "마당에서 Jonas 와 공차기. 학습자가 찬 공이 Felix 방 창문 쪽으로 날아간다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Jonas",
+  "C": "Felix"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [],
+ "level": "1 관사·격·활용 골격",
+ "words": [
+  "Ball",
+  "schießen",
+  "Fenster",
+  "oben",
+  "kaputt"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "beat": "Jonas 에게 공을 달라고 한다",
+   "emotion": "excited",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "beat": "Jonas 가 공을 준다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "beat": "세게 찬다고 큰소리친다",
+   "emotion": "excited",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "beat": "공이 위로 간다고 짧게 말한다",
+   "emotion": "surprised",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "beat": "창문에서 Felix 가 공을 들고 이거 너희 거냐고 묻는다",
+   "emotion": "annoyed",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "beat": "창문 괜찮냐고 묻는다",
+   "emotion": "worried",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "beat": "창문은 괜찮고 자기 커피가 쏟아졌다고 한다",
+   "emotion": "tsukkomi",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "beat": "내가 커피 산다고 한 마디 한다",
+   "emotion": "gentle",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

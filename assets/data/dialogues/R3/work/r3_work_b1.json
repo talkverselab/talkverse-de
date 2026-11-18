@@ -1,0 +1,372 @@
+{
+ "id": "r3_work_b1",
+ "region": "R3",
+ "island": "work",
+ "kind": "long",
+ "title": "시급 면접",
+ "emoji": "💼",
+ "scene": "Mia 가 일하는 카페의 사장이 학습자를 아르바이트로 면접 본다. 사장은 Sie 로 시작한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Herr Wagner",
+  "C": "Mia"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "work"
+ ],
+ "domain": [
+  "work"
+ ],
+ "expressions": [
+  "Haben Sie Erfahrung?",
+  "Bei uns duzen wir uns."
+ ],
+ "draft": true,
+ "level": "3 그래머2",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Bitte setzen Sie sich.",
+   "rd": "비테 제첸 지 지히.",
+   "ko": "앉으세요.",
+   "note": "Sie로 정중하게 자리 권하는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Bitte",
+     "bitte",
+     "비테"
+    ],
+    [
+     "setzen",
+     "setzen",
+     "제첸"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Vielen Dank.",
+   "rd": "피렌 당크.",
+   "ko": "감사합니다.",
+   "note": "Sie로 인사하는 정중 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Haben Sie Erfahrung im Café?",
+   "rd": "하벤 지 에어파룽 임 카프é?",
+   "ko": "카페 경험 있으세요?",
+   "note": "딱딱하게 묻는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Erfahrung",
+     "Erfahrung",
+     "에어파룽"
+    ],
+    [
+     "Café",
+     "Café",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Ich habe einmal Schaum gemacht.",
+   "rd": "이히 하베 아인말 샤움 게마흐트.",
+   "ko": "거품을 한 번 만들어 봤어요.",
+   "note": "현재완료로 당황하며 답하는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "einmal",
+     "einmal",
+     "아인말"
+    ],
+    [
+     "Schaum",
+     "schauen",
+     "샤우엔"
+    ],
+    [
+     "gemacht",
+     "machen",
+     "마헨"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "es": "Und den ganzen Tresen damit bedeckt.",
+   "rd": "운트 덴 간첸 트레젠 다미트 베데크트.",
+   "ko": "그리고 카운터를 온통 거품으로 덮었지.",
+   "note": "뒤에서 장난스럽게 끼어드는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "ganzen",
+     "ganz",
+     "간츠"
+    ],
+    [
+     "Tresen",
+     "Tresen",
+     ""
+    ],
+    [
+     "damit",
+     "damit",
+     "다미트"
+    ],
+    [
+     "bedeckt",
+     "bedeckt",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "Können Sie am Wochenende arbeiten?",
+   "rd": "쾨넨 지 암 보헨엔데 아어바이텐?",
+   "ko": "주말에 일하실 수 있어요?",
+   "note": "Sie로 정중하게 묻는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Wochenende",
+     "Wochenende",
+     "보헨엔데"
+    ],
+    [
+     "arbeiten",
+     "arbeiten",
+     "아어바이텐"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "Samstag und Sonntag, beides geht.",
+   "rd": "잠스탁 운트 존탁, 바이데스 게트.",
+   "ko": "토요일, 일요일 다 돼요.",
+   "note": "밝게 답하는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Samstag",
+     "Samstag",
+     "잠스탁"
+    ],
+    [
+     "Sonntag",
+     "Sonntag",
+     "존탁"
+    ],
+    [
+     "geht",
+     "gehen",
+     "게엔"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Wann können Sie anfangen?",
+   "rd": "반 쾨넨 지 안팡엔?",
+   "ko": "언제 시작하실 수 있어요?",
+   "note": "Sie로 묻는 정중 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Wann",
+     "wann",
+     "반"
+    ],
+    [
+     "anfangen",
+     "anfangen",
+     "안팡엔"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "es": "Morgen geht auch.",
+   "rd": "모어겐 게트 아우흐.",
+   "ko": "내일도 돼요.",
+   "note": "들떠서 답하는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Morgen",
+     "morgen",
+     "모어겐"
+    ],
+    [
+     "geht",
+     "gehen",
+     "게엔"
+    ],
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "es": "Mia hat Sie schon empfohlen. Sie haben den Job.",
+   "rd": "미아 하트 지 숀 엠포렌. 지 하벤 덴 요프.",
+   "ko": "미아가 이미 추천했어요. 합격입니다.",
+   "note": "웃으며 밝히는 반전",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Mia",
+     "mia",
+     ""
+    ],
+    [
+     "schon",
+     "schon",
+     "숀"
+    ],
+    [
+     "empfohlen",
+     "empfehlen",
+     "엠펠렌"
+    ],
+    [
+     "haben",
+     "haben",
+     "하벤"
+    ],
+    [
+     "Job",
+     "Job",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "es": "Bei uns duzen wir uns alle.",
+   "rd": "바이 운스 두첸 비어 운스 알레.",
+   "ko": "여기선 다 du로 불러요.",
+   "note": "다정하게 du 제안하는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "duzen",
+     "du",
+     "두"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "es": "Cool. Hi, ich bin {name}.",
+   "rd": "콜. 하이, 이히 빈 {name}.",
+   "ko": "좋아. 안녕, 나는 {name}이야.",
+   "note": "du로 처음 인사하는 밝은 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": []
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "es": "Erste Schicht: Schaum wegputzen.",
+   "rd": "에어스테 시히트: 샤움 베크푸첸.",
+   "ko": "첫 근무는 거품 청소야.",
+   "note": "놀리며 마무리하는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Erste",
+     "erst",
+     "에어스트"
+    ],
+    [
+     "Schicht",
+     "Schicht",
+     ""
+    ],
+    [
+     "Schaum",
+     "schauen",
+     "샤우엔"
+    ],
+    [
+     "wegputzen",
+     "wegputzen",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r3_work_b1.md",
+  "model": "빠른",
+  "final": "data/review/final/r3_work_b1.txt"
+ }
+}

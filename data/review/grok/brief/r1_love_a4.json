@@ -1,0 +1,117 @@
+{
+ "id": "r1_love_a4",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "title": "나 찍어 줄래?",
+ "emoji": "📸",
+ "scene": "강가. Mia 가 사진을 부탁하는데 원하는 건 둘이 같이 찍는 사진",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [],
+ "level": "1 관사·격·활용 골격",
+ "words": [
+  "Foto",
+  "von mir",
+  "mit dir",
+  "Handy",
+  "lächeln"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "beat": "Mia 가 사진 한 장 찍어 줄 수 있냐고 묻는다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "beat": "물론이라며 휴대폰을 받는다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "beat": "웃으라고 하고 찍는다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "beat": "사진을 보고 고개를 젓는다",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "beat": "내가 원한 건 나랑 너 사진이라고 한다(mit + 여격)",
+   "emotion": "shy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "beat": "놀라서 나도? 하고 묻는다",
+   "emotion": "surprised",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "beat": "옆에 서라고 휴대폰을 든다",
+   "emotion": "shy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "beat": "이번엔 둘 다 웃는다고 말한다",
+   "emotion": "gentle",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

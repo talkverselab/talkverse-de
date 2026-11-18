@@ -1,0 +1,156 @@
+{
+ "id": "r3_survival_b3",
+ "region": "R3",
+ "island": "survival",
+ "kind": "long",
+ "title": "약국에서",
+ "emoji": "💊",
+ "scene": "약국. 목이 아픈 학습자가 증상을 설명하다 단어를 헷갈린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Apothekerin"
+ },
+ "register": "polite",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "survival"
+ ],
+ "domain": [
+  "survival"
+ ],
+ "expressions": [],
+ "level": "3 그래머2",
+ "words": [
+  "Halsschmerzen",
+  "Tablette",
+  "Tee",
+  "Rezept",
+  "zweimal",
+  "Fieber"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "beat": "약사가 Sie 로 무엇을 도와드릴지 묻는다",
+   "emotion": "polite",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "beat": "목이 아프다고 한다",
+   "emotion": "sad",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "beat": "언제부터 아팠냐고 묻는다",
+   "emotion": "polite",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "beat": "어제부터라고 한다(현재완료)",
+   "emotion": "sad",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "beat": "열도 있냐고 묻는다",
+   "emotion": "polite",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "beat": "열은 없고 아침에 조금 높았다고 한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "beat": "배가 아프다는 말과 목이 아프다는 말을 섞어 말한다",
+   "emotion": "flustered",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "beat": "배요 목이요? 하고 되묻는다",
+   "emotion": "surprised",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "beat": "목을 가리키며 목이라고 고친다",
+   "emotion": "amused",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "beat": "하루 두 번 먹는 사탕형 약과 따뜻한 차를 권한다",
+   "emotion": "gentle",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "beat": "처방전이 필요하냐고 묻는다",
+   "emotion": "polite",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "beat": "필요 없다며 빨리 나으라고 한다",
+   "emotion": "gentle",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

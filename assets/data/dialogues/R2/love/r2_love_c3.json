@@ -1,0 +1,323 @@
+{
+ "id": "r2_love_c3",
+ "region": "R2",
+ "island": "love",
+ "kind": "chat",
+ "title": "보고 싶다는 말",
+ "emoji": "💬",
+ "scene": "Mia 가 짧은 음성 메시지 대신 글로 보낸 한마디를 학습자가 다르게 읽는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Ich hab dich vermisst.",
+  "Morgen komm ich."
+ ],
+ "draft": true,
+ "level": "2 챗 실전",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Warst du heute busy?",
+   "rd": "바어스트 두 호이테 부쥐?",
+   "ko": "오늘 바빴어?",
+   "note": "채팅으로 가볍게 묻는 중립 시작",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Warst",
+     "warst",
+     ""
+    ],
+    [
+     "heute",
+     "heute",
+     "호이테"
+    ],
+    [
+     "busy",
+     "Bus",
+     "부스"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Hab den ganzen Tag gearbeitet.",
+   "rd": "합 덴 간첸 탁 게아어바이테트.",
+   "ko": "하루 종일 일했어.",
+   "note": "현재완료로 짧게 답함",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Hab",
+     "haben",
+     "하벤"
+    ],
+    [
+     "ganzen",
+     "ganz",
+     "간츠"
+    ],
+    [
+     "Tag",
+     "Tag",
+     "탁"
+    ],
+    [
+     "gearbeitet",
+     "arbeiten",
+     "아어바이텐"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Ich hab im Café nur die Tür angeschaut…",
+   "rd": "이히 합 임 카프é 누어 디 튀어 앙에샤우트…",
+   "ko": "나 카페에서 계속 문만 봤어…",
+   "note": "수줍게 고백하는 한 줄",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Café",
+     "Café",
+     ""
+    ],
+    [
+     "nur",
+     "nur",
+     "누어"
+    ],
+    [
+     "Tür",
+     "Tür",
+     "튀어"
+    ],
+    [
+     "angeschaut",
+     "anschauen",
+     "안샤우엔"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Hast du auf Gäste gewartet?",
+   "rd": "하스트 두 아우프 게스테 게바어테트?",
+   "ko": "손님 기다렸던 거야?",
+   "note": "그대로 묻는 중립 반응",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Gäste",
+     "Gast",
+     "가스트"
+    ],
+    [
+     "gewartet",
+     "warten",
+     "바어텐"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Nicht auf Gäste…",
+   "rd": "니히트 아우프 게스테…",
+   "ko": "손님 말고…",
+   "note": "말을 흐리는 수줍은 반응",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Gäste",
+     "Gast",
+     "가스트"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "Ich hab dich vermisst, weil du nicht gekommen bist.",
+   "rd": "이히 합 디히 페어미스트, 바일 두 니히트 게코멘 비스트.",
+   "ko": "너 안 와서 보고 싶었어.",
+   "note": "반전으로 보고 싶다고 밝히는 shy 라인",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "vermisst",
+     "vermissen",
+     "페어미센"
+    ],
+    [
+     "gekommen",
+     "kommen",
+     "코멘"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "Mich? Echt?",
+   "rd": "미히? 에히트?",
+   "ko": "나를? 진짜?",
+   "note": "놀라서 되묻는 짧은 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Echt",
+     "echt",
+     "에히트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Wenn jemand anders reinkommt, bin ich enttäuscht.",
+   "rd": "벤 예만트 안더스 라인콤트, 빈 이히 엔토이슈트.",
+   "ko": "다른 사람이 들어오면 실망해.",
+   "note": "wenn으로 장난스럽게 이어가는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "anders",
+     "anders",
+     "안더스"
+    ],
+    [
+     "reinkommt",
+     "reinkommen",
+     "라인코멘"
+    ],
+    [
+     "enttäuscht",
+     "enttäuschen",
+     "엔트토이셴"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "es": "Morgen komm ich bestimmt.",
+   "rd": "모어겐 콤 이히 베슈팀트.",
+   "ko": "내일은 꼭 갈게.",
+   "note": "다정하게 약속하는 한 줄",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Morgen",
+     "morgen",
+     "모어겐"
+    ],
+    [
+     "komm",
+     "kommen",
+     "코멘"
+    ],
+    [
+     "bestimmt",
+     "bestimmt",
+     "베슈팀트"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "es": "Dann schau ich morgen die ganze Zeit auf die Tür.",
+   "rd": "단 샤우 이히 모어겐 디 간체 차이트 아우프 디 튀어.",
+   "ko": "그럼 내일은 계속 문 보고 있을게.",
+   "note": "수줍게 기대하는 마무리",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "schau",
+     "schauen",
+     "샤우엔"
+    ],
+    [
+     "morgen",
+     "morgen",
+     "모어겐"
+    ],
+    [
+     "ganze",
+     "ganz",
+     "간츠"
+    ],
+    [
+     "Zeit",
+     "Zeit",
+     "차이트"
+    ],
+    [
+     "Tür",
+     "Tür",
+     "튀어"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r2_love_c3.md",
+  "model": "빠른",
+  "final": "data/review/final/r2_love_c3.txt"
+ }
+}

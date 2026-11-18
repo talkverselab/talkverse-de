@@ -1,0 +1,269 @@
+{
+ "id": "r2_travel_c1",
+ "region": "R2",
+ "island": "travel",
+ "kind": "chat",
+ "title": "함부르크 주말",
+ "emoji": "💬",
+ "scene": "Jonas 와 주말 여행 계획. Jonas 는 계속 한 단어로만 답한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Jonas"
+ },
+ "register": "chat",
+ "twist": 8,
+ "twist_type": "ignore",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [
+  "Ok.",
+  "Wenn wir Zeit haben."
+ ],
+ "draft": true,
+ "level": "2 챗 실전",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "Wochenende nach Hamburg fahren?",
+   "rd": "보헨엔데 나흐 함부어크 파렌?",
+   "ko": "주말에 함부르크 갈래?",
+   "note": "들떠서 제안하는 채팅",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Wochenende",
+     "Wochenende",
+     "보헨엔데"
+    ],
+    [
+     "fahren",
+     "fahren",
+     "파렌"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "Gut.",
+   "rd": "구트.",
+   "ko": "좋아.",
+   "note": "한 단어로 답하는 중립",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Gut",
+     "gut",
+     "구트"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "Zug Samstag früh?",
+   "rd": "축 잠스탁 프뤼?",
+   "ko": "기차 토요일 아침?",
+   "note": "밝게 일정 묻는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Zug",
+     "Zug",
+     "축"
+    ],
+    [
+     "Samstag",
+     "Samstag",
+     "잠스탁"
+    ],
+    [
+     "früh",
+     "früh",
+     "프뤼"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "Ok.",
+   "rd": "오케이.",
+   "ko": "오케이.",
+   "note": "또 한 단어",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "Hotel billig.",
+   "rd": "호텔 빌리히.",
+   "ko": "호텔은 싼 데로.",
+   "note": "짧게 제안하는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Hotel",
+     "Hotel",
+     "호텔"
+    ],
+    [
+     "billig",
+     "billig",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "Ok.",
+   "rd": "오케이.",
+   "ko": "오케이.",
+   "note": "또 한 단어",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "Sagst du noch was anderes?",
+   "rd": "자크스트 두 노흐 바스 안데레스?",
+   "ko": "다른 말은 없어?",
+   "note": "짜증 섞여 묻는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "Sagst",
+     "sagen",
+     "자겐"
+    ],
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Fischbrötchen-Läden: drei am Hafen, zwei in der Stadt, einer am Bahnhof.",
+   "rd": "피슈브뢰트헨-레덴: 드라이 암 하펜, 츠바이 인 데어 슈타트, 아이너 암 반호프.",
+   "ko": "생선 빵 가게: 항구에 세 개, 시내에 두 개, 역에 하나.",
+   "note": "갑자기 긴 메시지로 카오스 반전",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Fischbrötchen-Läden",
+     "Fischbrötchen-Läde",
+     ""
+    ],
+    [
+     "Hafen",
+     "Hafen",
+     "하펜"
+    ],
+    [
+     "Stadt",
+     "Stadt",
+     "슈타트"
+    ],
+    [
+     "Bahnhof",
+     "Bahnhof",
+     "반호프"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "es": "Bei Essen redest du plötzlich viel.",
+   "rd": "바이 에센 레데스트 두 플뢰츨리히 필.",
+   "ko": "먹는 거면 갑자기 말이 많네.",
+   "note": "어이없어 웃는 츠코미",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "redest",
+     "reden",
+     "레덴"
+    ],
+    [
+     "plötzlich",
+     "plötzlich",
+     "플뢰츨리히"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "es": "Wenn wir Zeit haben, alle probieren.",
+   "rd": "벤 비어 차이트 하벤, 알레 프로비렌.",
+   "ko": "시간 있으면 다 먹으러 가자.",
+   "note": "wenn으로 밝게 마무리",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Zeit",
+     "Zeit",
+     "차이트"
+    ],
+    [
+     "haben",
+     "haben",
+     "하벤"
+    ],
+    [
+     "probieren",
+     "probieren",
+     "프로비렌"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r2_travel_c1.md",
+  "model": "빠른",
+  "final": "data/review/final/r2_travel_c1.txt"
+ }
+}

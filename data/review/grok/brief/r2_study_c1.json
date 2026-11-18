@@ -1,0 +1,136 @@
+{
+ "id": "r2_study_c1",
+ "region": "R2",
+ "island": "study",
+ "kind": "chat",
+ "title": "숙제 오늘까지",
+ "emoji": "💬",
+ "scene": "밤 11시. Lena 가 독일어 수업 숙제를 했냐고 묻는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lena"
+ },
+ "register": "chat",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "study"
+ ],
+ "domain": [
+  "study"
+ ],
+ "expressions": [],
+ "level": "2 챗 실전",
+ "words": [
+  "Hausaufgabe",
+  "heute",
+  "morgen",
+  "fertig",
+  "schreiben",
+  "weil"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "beat": "Lena 가 숙제 다 했냐고 묻는다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "beat": "숙제는 다음 주 아니냐고 한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "beat": "아니라고 한다",
+   "emotion": "worried",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "beat": "그럼 언제냐고 묻는다",
+   "emotion": "worried",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "beat": "내일 아침이라고 한다",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "beat": "아무것도 안 썼다고 놀란다(현재완료)",
+   "emotion": "surprised",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "beat": "주제가 뭐냐고 물어 준다",
+   "emotion": "gentle",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "beat": "내 하루를 쓰는 거라고 한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "beat": "오늘 하루는 숙제를 잊어버린 날이라고 쓰라고 한다",
+   "emotion": "amused",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "beat": "그게 사실이라 쓰기 쉽겠다고 한다(weil)",
+   "emotion": "amused",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

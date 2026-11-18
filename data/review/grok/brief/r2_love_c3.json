@@ -1,0 +1,137 @@
+{
+ "id": "r2_love_c3",
+ "region": "R2",
+ "island": "love",
+ "kind": "chat",
+ "title": "보고 싶다는 말",
+ "emoji": "💬",
+ "scene": "Mia 가 짧은 음성 메시지 대신 글로 보낸 한마디를 학습자가 다르게 읽는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [],
+ "level": "2 챗 실전",
+ "words": [
+  "vermissen",
+  "sehen",
+  "morgen",
+  "wenn",
+  "Zeit"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "beat": "Mia 가 오늘 바빴냐고 묻는다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "beat": "종일 일했다고 답한다(현재완료)",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "beat": "자기는 카페에서 계속 문만 봤다고 한다",
+   "emotion": "shy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "beat": "손님 기다렸냐고 묻는다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "beat": "손님 말고, 하고 말을 흐린다",
+   "emotion": "shy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "beat": "네가 안 와서 보고 싶었다고 한다",
+   "emotion": "shy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "beat": "놀라서 나를? 하고 묻는다",
+   "emotion": "surprised",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "beat": "다른 사람이 문으로 들어오면 실망했다고 한다(wenn)",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "beat": "내일은 꼭 간다고 한다",
+   "emotion": "gentle",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "beat": "그럼 내일 문 계속 보고 있겠다고 한다",
+   "emotion": "shy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

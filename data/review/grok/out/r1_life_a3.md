@@ -1,0 +1,11 @@
+Grok
+
+1 {name}: Ich habe keinen Schlüssel. / 열쇠가 없어. / 걱정하며 / worried
+2 Lena: Hast du die Tasche gesucht? / 가방은 찾아봤어? / 묻기 / neutral
+3 {name}: Ich habe alles gesucht. / 다 찾아봤어. / 현재완료 / annoyed
+4 Lena: Und die Tasche? / 주머니는? / 짧게 / neutral
+5 {name}: Nichts in der Tasche. / 주머니에도 없어. / 슬프게 / sad
+6 Lena: Was hast du in der Hand? / 손에 뭐 들고 있어? / 영상으로 / amused
+7 {name}: Der Schlüssel! / 열쇠야! / 놀라며 / surprised
+8 Lena: Du hast ihn schon. / 이미 갖고 있네. / 웃으며 / teasing
+추천 표현: Ich habe keinen Schlüssel. / 열쇠가 없어. , Hast du gesucht? / 찾아봤어?

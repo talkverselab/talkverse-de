@@ -1,0 +1,165 @@
+{
+ "id": "r0_friends_a5",
+ "region": "R0",
+ "island": "friends",
+ "kind": "short",
+ "title": "오늘이야?",
+ "emoji": "🎂",
+ "scene": "Lena 가 케이크를 들고 있다. 학습자는 오늘이 Lena 생일인 줄 몰랐다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lena"
+ },
+ "register": "casual",
+ "twist": 3,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Alles Gute!",
+  "Lecker!"
+ ],
+ "draft": true,
+ "level": "0 입문",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "Kuchen! Lecker.",
+   "rd": "쿠헨! 레커.",
+   "ko": "케이크! 맛있겠다.",
+   "note": "보고 짧게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Kuchen",
+     "Kuchen",
+     "쿠헨"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "Zusammen essen.",
+   "rd": "추자멘 에센.",
+   "ko": "같이 먹자.",
+   "note": "제안하며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Zusammen",
+     "zusammen",
+     "추자멘"
+    ],
+    [
+     "essen",
+     "essen",
+     "에센"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "Was heute?",
+   "rd": "바스 호이테?",
+   "ko": "오늘 무슨 날?",
+   "note": "짧게 묻기",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "heute",
+     "heute",
+     "호이테"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "Heute Geburtstag.",
+   "rd": "호이테 게부어츠탁.",
+   "ko": "오늘 생일.",
+   "note": "teasing하며 밝힘",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Heute",
+     "heute",
+     "호이테"
+    ],
+    [
+     "Geburtstag",
+     "Geburtstag",
+     "게부어츠탁"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "Alles Gute!",
+   "rd": "알레스 구테!",
+   "ko": "생일 축하해!",
+   "note": "놀라며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Gute",
+     "gut",
+     "구트"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "Danke. Hier.",
+   "rd": "당케. 히어.",
+   "ko": "고마워. 여기.",
+   "note": "첫 조각 내밀며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Danke",
+     "danke",
+     "당케"
+    ],
+    [
+     "Hier",
+     "hier",
+     "히어"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r0_friends_a5.md",
+  "model": "빠른",
+  "final": "data/review/final/r0_friends_a5.txt"
+ }
+}

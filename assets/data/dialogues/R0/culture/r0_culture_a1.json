@@ -1,0 +1,175 @@
+{
+ "id": "r0_culture_a1",
+ "region": "R0",
+ "island": "culture",
+ "kind": "short",
+ "title": "뭐라고?",
+ "emoji": "🥁",
+ "scene": "Mia 의 드럼 연습실. 소리가 너무 커서 서로 말이 안 들린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "expressions": [
+  "Wie bitte?",
+  "Noch mal!"
+ ],
+ "draft": true,
+ "level": "0 입문",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Und? War das gut?",
+   "rd": "운트? 바어 다스 구트?",
+   "ko": "어때? 좋았어?",
+   "note": "구어로 짧게, gut 포함",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "gut",
+     "gut",
+     "구트"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Ja, super!",
+   "rd": "야, 주퍼!",
+   "ko": "응, 최고야!",
+   "note": "super 넣고 짧게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "super",
+     "super",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Wie bitte? Noch mal!",
+   "rd": "비 비테? 노흐 말!",
+   "ko": "뭐라고? 다시!",
+   "note": "단어 두 개 넣고 외침",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "Wie",
+     "wie",
+     "비"
+    ],
+    [
+     "bitte",
+     "bitte",
+     "비테"
+    ],
+    [
+     "Noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Super! Das war super!",
+   "rd": "주퍼! 다스 바어 주퍼!",
+   "ko": "최고! 진짜 최고였어!",
+   "note": "크게 외치며 super 강조",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "super",
+     "super",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Haha, so laut!",
+   "rd": "하하, 조 라우트!",
+   "ko": "하하, 너무 시끄러웠네!",
+   "note": "멈춘 순간 웃음 킥, laut",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "so",
+     "so",
+     "조"
+    ],
+    [
+     "laut",
+     "laut",
+     "라우트"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Ähm... gut.",
+   "rd": "엠... 구트.",
+   "ko": "어... 좋아.",
+   "note": "머쓱하게 작게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Ähm",
+     "Ähm",
+     ""
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r0_culture_a1.md",
+  "model": "빠른",
+  "final": "data/review/final/r0_culture_a1.txt"
+ }
+}

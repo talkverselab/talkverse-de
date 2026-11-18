@@ -1,0 +1,354 @@
+{
+ "id": "r3_survival_b3",
+ "region": "R3",
+ "island": "survival",
+ "kind": "long",
+ "title": "약국에서",
+ "emoji": "💊",
+ "scene": "약국. 목이 아픈 학습자가 증상을 설명하다 단어를 헷갈린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Apothekerin"
+ },
+ "register": "polite",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "survival"
+ ],
+ "domain": [
+  "survival"
+ ],
+ "expressions": [
+  "Was kann ich für Sie tun?",
+  "Gute Besserung."
+ ],
+ "draft": true,
+ "level": "3 그래머2",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Was kann ich für Sie tun?",
+   "rd": "바스 칸 이히 퓌어 지 툰?",
+   "ko": "무엇을 도와드릴까요?",
+   "note": "Sie로 정중하게 묻는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "tun",
+     "tun",
+     "툰"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Ich habe Halsschmerzen.",
+   "rd": "이히 하베 할스히메어첸.",
+   "ko": "목이 아파요.",
+   "note": "슬프게 증상을 말하는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "Halsschmerzen",
+     "Halsschmerz",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Seit wann haben Sie die Schmerzen?",
+   "rd": "자이트 반 하벤 지 디 슈메어첸?",
+   "ko": "언제부터 아프셨어요?",
+   "note": "Sie로 묻는 정중 질문",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "wann",
+     "wann",
+     "반"
+    ],
+    [
+     "haben",
+     "haben",
+     "하벤"
+    ],
+    [
+     "Schmerzen",
+     "Schmerz",
+     "슈메어츠"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Seit gestern.",
+   "rd": "자이트 게스턴.",
+   "ko": "어제부터요.",
+   "note": "현재완료로 짧게 답하는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "gestern",
+     "gestern",
+     "게스턴"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Haben Sie auch Fieber?",
+   "rd": "하벤 지 아우흐 피버?",
+   "ko": "열도 있으세요?",
+   "note": "Sie로 묻는 정중 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ],
+    [
+     "Fieber",
+     "Fieber",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Nein, nur ein bisschen heute Morgen.",
+   "rd": "나인, 누어 아인 비스헨 호이테 모어겐.",
+   "ko": "아니요, 아침에 조금만요.",
+   "note": "중립적으로 답하는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "nur",
+     "nur",
+     "누어"
+    ],
+    [
+     "bisschen",
+     "bisschen",
+     "비스헨"
+    ],
+    [
+     "heute",
+     "heute",
+     "호이테"
+    ],
+    [
+     "Morgen",
+     "morgen",
+     "모어겐"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "Mein Bauch… nein, mein Hals tut weh.",
+   "rd": "마인 바우흐… 나인, 마인 할스 투트 베.",
+   "ko": "배가… 아니, 목이 아파요.",
+   "note": "단어를 헷갈려 당황하는 슬립",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Bauch",
+     "Bauch",
+     "바우흐"
+    ],
+    [
+     "Hals",
+     "Hals",
+     "할스"
+    ],
+    [
+     "tut",
+     "tun",
+     "툰"
+    ],
+    [
+     "weh",
+     "weh",
+     "베"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Der Bauch oder der Hals?",
+   "rd": "데어 바우흐 오더 데어 할스?",
+   "ko": "배요, 목이요?",
+   "note": "놀라서 되묻는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Bauch",
+     "Bauch",
+     "바우흐"
+    ],
+    [
+     "Hals",
+     "Hals",
+     "할스"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "es": "Der Hals. Hier.",
+   "rd": "데어 할스. 히어.",
+   "ko": "목이에요. 여기.",
+   "note": "목을 가리키며 웃으며 고치는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Hals",
+     "Hals",
+     "할스"
+    ],
+    [
+     "Hier",
+     "hier",
+     "히어"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "es": "Nehmen Sie die Tablette zweimal am Tag. Und warmen Tee.",
+   "rd": "네멘 지 디 타블레테 츠바이말 암 탁. 운트 바어멘 테.",
+   "ko": "알약은 하루 두 번 드세요. 그리고 따뜻한 차요.",
+   "note": "다정하게 권하는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Nehmen",
+     "nehmen",
+     "네멘"
+    ],
+    [
+     "Tablette",
+     "Tablette",
+     ""
+    ],
+    [
+     "zweimal",
+     "zweimal",
+     "츠바이말"
+    ],
+    [
+     "Tag",
+     "Tag",
+     "탁"
+    ],
+    [
+     "warmen",
+     "warm",
+     "바엄"
+    ],
+    [
+     "Tee",
+     "Tee",
+     "테"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "es": "Brauche ich ein Rezept?",
+   "rd": "브라우헤 이히 아인 레체프트?",
+   "ko": "처방전이 필요해요?",
+   "note": "Sie로 묻는 정중 질문",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Brauche",
+     "brauchen",
+     "브라우헨"
+    ],
+    [
+     "Rezept",
+     "Rezept",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "es": "Nein. Gute Besserung.",
+   "rd": "나인. 구테 베세룽.",
+   "ko": "아니요. 빨리 나으세요.",
+   "note": "다정하게 마무리하는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Gute",
+     "gut",
+     "구트"
+    ],
+    [
+     "Besserung",
+     "besser",
+     "베서"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r3_survival_b3.md",
+  "model": "빠른",
+  "final": "data/review/final/r3_survival_b3.txt"
+ }
+}

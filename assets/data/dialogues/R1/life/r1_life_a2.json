@@ -1,0 +1,233 @@
+{
+ "id": "r1_life_a2",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "title": "분홍 셔츠",
+ "emoji": "🧺",
+ "scene": "빨래를 꺼낸 Felix. 학습자가 빨간 양말을 흰 빨래와 같이 돌렸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Felix"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Wer hat gewaschen?",
+  "Es war weiß."
+ ],
+ "draft": true,
+ "level": "1 관사·격·활용 골격",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Das Hemd ist rosa.",
+   "rd": "다스 헴트 이스트 로자.",
+   "ko": "셔츠가 분홍색이야.",
+   "note": "들고 나오며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Hemd",
+     "Hemd",
+     ""
+    ],
+    [
+     "rosa",
+     "rosa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Schönes Hemd.",
+   "rd": "쇠네스 헴트.",
+   "ko": "예쁜 셔츠네.",
+   "note": "칭찬",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Schönes",
+     "schön",
+     "쇤"
+    ],
+    [
+     "Hemd",
+     "Hemd",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Es war weiß.",
+   "rd": "에스 바어 바이스.",
+   "ko": "원래 흰색이었어.",
+   "note": "짜증",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "weiß",
+     "weiß",
+     "바이스"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Wer hat gewaschen?",
+   "rd": "베어 하트 게바셴?",
+   "ko": "누가 빨았어?",
+   "note": "묻기",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "gewaschen",
+     "waschen",
+     "바셴"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Du hast die rote Socke mitgewaschen.",
+   "rd": "두 하스트 디 로테 조케 미트게바셴.",
+   "ko": "네가 빨간 양말이랑 같이 넣었어.",
+   "note": "현재완료로 짚음",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "rote",
+     "rot",
+     "로트"
+    ],
+    [
+     "Socke",
+     "so",
+     "조"
+    ],
+    [
+     "mitgewaschen",
+     "mitgewaschen",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Sorry. Wo ist die Socke?",
+   "rd": "조뤼. 보 이스트 디 조케?",
+   "ko": "미안. 양말 어디 있어?",
+   "note": "당황",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Wo",
+     "wo",
+     "보"
+    ],
+    [
+     "Socke",
+     "so",
+     "조"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "es": "Weiß getrennt. Steht auf der Liste.",
+   "rd": "바이스 게트렌트. 슈테트 아우프 데어 리스테.",
+   "ko": "흰색은 따로. 규칙표에 적혀 있어.",
+   "note": "딱딱하게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Weiß",
+     "weiß",
+     "바이스"
+    ],
+    [
+     "getrennt",
+     "trennen",
+     "트렌넨"
+    ],
+    [
+     "Steht",
+     "stehen",
+     "슈테엔"
+    ],
+    [
+     "Liste",
+     "Liste",
+     "리스테"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "es": "Rosa steht dir gut.",
+   "rd": "로자 슈테트 디어 구트.",
+   "ko": "분홍도 잘 어울려.",
+   "note": "웃으며 넘김",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "steht",
+     "stehen",
+     "슈테엔"
+    ],
+    [
+     "gut",
+     "gut",
+     "구트"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r1_life_a2.md",
+  "model": "빠른",
+  "final": "data/review/final/r1_life_a2.txt"
+ }
+}

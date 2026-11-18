@@ -45,7 +45,7 @@ for id_ in sys.argv[1:]:
     e['turns'] = turns
     rec = [l for l in open(ROOT / f'data/review/final/{id_}.txt', encoding='utf-8') if l.startswith('추천 표현:')]
     if rec and not e.get('expressions'):
-        e['expressions'] = [x.split(' / ')[0].strip() for x in rec[0].split(':', 1)[1].split('|') if x.strip()]
-    e['review'] = {'grok_rewrite': f'data/review/grok/{id_}_rewrite.md', 'model': '전문가', 'final': f'data/review/final/{id_}.txt'}
+        e['expressions'] = [x.split(' / ')[0].strip() for x in re.split(r'\s*\|\s*| , ', rec[0].split(':', 1)[1]) if x.strip()]
+    e['review'] = {'grok_rewrite': f'data/review/grok/out/{id_}.md', 'model': '빠른', 'final': f'data/review/final/{id_}.txt'}
     json.dump(e, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(id_, len(turns), '턴')

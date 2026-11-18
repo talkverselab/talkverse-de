@@ -1,0 +1,95 @@
+{
+ "id": "r0_friends_a2",
+ "region": "R0",
+ "island": "friends",
+ "kind": "short",
+ "title": "조심해!",
+ "emoji": "🚲",
+ "scene": "골목에서 Lena 의 자전거와 부딪힐 뻔한 학습자. 사과하고 보니 같은 건물에 산다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lena"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [],
+ "level": "0 입문",
+ "words": [
+  "Sorry",
+  "alles gut",
+  "Fahrrad",
+  "wohnen",
+  "hier"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "beat": "Lena 가 급정거하며 사과한다",
+   "emotion": "surprised",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "beat": "괜찮다고, 너는 괜찮냐고 묻는다",
+   "emotion": "flustered",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "beat": "자기도 괜찮다며 자전거를 가리킨다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "beat": "어디 가냐고 짧게 묻는다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "beat": "집에 간다며 바로 옆 건물을 가리킨다 — 학습자가 사는 그 건물",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "beat": "나도 여기 산다고 놀라며 웃는다",
+   "emotion": "amused",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

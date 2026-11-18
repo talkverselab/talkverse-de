@@ -1,0 +1,390 @@
+{
+ "id": "r3_life_b2",
+ "region": "R3",
+ "island": "life",
+ "kind": "long",
+ "title": "방 보러 왔어요",
+ "emoji": "🏠",
+ "scene": "Felix 와 함께 새 WG 방을 보러 간다. 집주인은 Sie, 방은 기대와 다르다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Frau Schulz",
+  "C": "Felix"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Kommen Sie bitte rein.",
+  "Wie hoch ist die Miete?"
+ ],
+ "draft": true,
+ "level": "3 그래머2",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Kommen Sie bitte rein. Das Zimmer ist hier.",
+   "rd": "코멘 지 비테 라인. 다스 치머 이스트 히어.",
+   "ko": "들어오세요. 방은 이쪽이에요.",
+   "note": "Sie로 정중하게 안내하는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Kommen",
+     "kommen",
+     "코멘"
+    ],
+    [
+     "bitte",
+     "bitte",
+     "비테"
+    ],
+    [
+     "rein",
+     "rein",
+     "라인"
+    ],
+    [
+     "Zimmer",
+     "Zimmer",
+     "치머"
+    ],
+    [
+     "hier",
+     "hier",
+     "히어"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Guten Tag. Das Zimmer ist sehr hell.",
+   "rd": "구텐 탁. 다스 치머 이스트 제어 헬.",
+   "ko": "안녕하세요. 방이 정말 밝네요.",
+   "note": "Sie로 인사하며 칭찬하는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Guten",
+     "gut",
+     "구트"
+    ],
+    [
+     "Tag",
+     "Tag",
+     "탁"
+    ],
+    [
+     "Zimmer",
+     "Zimmer",
+     "치머"
+    ],
+    [
+     "sehr",
+     "sehr",
+     "제어"
+    ],
+    [
+     "hell",
+     "hell",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Ja, das große Fenster macht alles hell.",
+   "rd": "야, 다스 그로세 펜스터 마흐트 알레스 헬.",
+   "ko": "네, 큰 창문이 다 밝게 해 줘요.",
+   "note": "방을 소개하는 밝은 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "große",
+     "groß",
+     "그로스"
+    ],
+    [
+     "Fenster",
+     "Fenster",
+     "펜스터"
+    ],
+    [
+     "macht",
+     "machen",
+     "마헨"
+    ],
+    [
+     "hell",
+     "hell",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "es": "Wo ist die Küche?",
+   "rd": "보 이스트 디 퀴헤?",
+   "ko": "부엌은 어디예요?",
+   "note": "짧게 묻는 중립 질문",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Wo",
+     "wo",
+     "보"
+    ],
+    [
+     "Küche",
+     "Küche",
+     "퀴헤"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Die Küche teilen wir alle.",
+   "rd": "디 퀴헤 타일렌 비어 알레.",
+   "ko": "부엌은 다 같이 써요.",
+   "note": "wir·Sie로 설명하는 정중 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Küche",
+     "Küche",
+     "퀴헤"
+    ],
+    [
+     "teilen",
+     "teilen",
+     "타일렌"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Wie hoch ist die Miete?",
+   "rd": "비 호흐 이스트 디 미테?",
+   "ko": "월세가 얼마예요?",
+   "note": "Sie로 묻는 정중 질문",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Wie",
+     "wie",
+     "비"
+    ],
+    [
+     "hoch",
+     "hoch",
+     "호흐"
+    ],
+    [
+     "Miete",
+     "Miete",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "es": "Oh. Auf dem Balkon sind zwei Gänse.",
+   "rd": "오. 아우프 뎀 발콘 진트 츠바이 겐제.",
+   "ko": "어. 발코니에 거위가 두 마리 있네요.",
+   "note": "문 열자 카오스 반전",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Balkon",
+     "Balkon",
+     ""
+    ],
+    [
+     "Gänse",
+     "Gans",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Die Nachbar-Gänse kommen jeden Tag.",
+   "rd": "디 나흐바어-겐제 코멘 예덴 탁.",
+   "ko": "이웃 거위들이 매일 와요.",
+   "note": "아무렇지 않게 말하는 중립",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "kommen",
+     "kommen",
+     "코멘"
+    ],
+    [
+     "Tag",
+     "Tag",
+     "탁"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "es": "Stehen die Gänse auch in den Müllregeln?",
+   "rd": "슈테엔 디 겐제 아우흐 인 덴 뮐레겔느?",
+   "ko": "거위도 분리수거 규칙에 있어요?",
+   "note": "어이없어 묻는 츠코미",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Stehen",
+     "stehen",
+     "슈테엔"
+    ],
+    [
+     "Gänse",
+     "Gans",
+     ""
+    ],
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ],
+    [
+     "Müllregeln",
+     "Müllregel",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "es": "Die Gänse sind größer als das Zimmer.",
+   "rd": "디 겐제 진트 그뢰서 알스 다스 치머.",
+   "ko": "거위가 방보다 크네.",
+   "note": "웃으며 말하는 한 줄",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Gänse",
+     "Gans",
+     ""
+    ],
+    [
+     "größer",
+     "groß",
+     "그로스"
+    ],
+    [
+     "Zimmer",
+     "Zimmer",
+     "치머"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "es": "Wegen der Gänse ist die Miete klein.",
+   "rd": "베겐 데어 겐제 이스트 디 미테 클라인.",
+   "ko": "거위 덕분에 월세가 싸요.",
+   "note": "장난스럽게 말하는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Gänse",
+     "Gans",
+     ""
+    ],
+    [
+     "Miete",
+     "Miete",
+     ""
+    ],
+    [
+     "klein",
+     "klein",
+     "클라인"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "es": "Wir nehmen das Zimmer.",
+   "rd": "비어 네멘 다스 치머.",
+   "ko": "이 방으로 할게요.",
+   "note": "밝게 결정하는 마무리",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "nehmen",
+     "nehmen",
+     "네멘"
+    ],
+    [
+     "Zimmer",
+     "Zimmer",
+     "치머"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r3_life_b2.md",
+  "model": "빠른",
+  "final": "data/review/final/r3_life_b2.txt"
+ }
+}

@@ -1,0 +1,168 @@
+{
+ "id": "r0_friends_a4",
+ "region": "R0",
+ "island": "friends",
+ "kind": "short",
+ "title": "안녕, 또 안녕",
+ "emoji": "👋",
+ "scene": "카페 앞에서 Lena 와 헤어지는데 둘이 같은 방향으로 걷는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lena"
+ },
+ "register": "casual",
+ "twist": 3,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Tschüss!",
+  "Du auch?"
+ ],
+ "draft": true,
+ "level": "0 입문",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Tschüss!",
+   "rd": "취스!",
+   "ko": "안녕!",
+   "note": "손 흔들며 짧게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Tschüss!",
+   "rd": "취스!",
+   "ko": "안녕!",
+   "note": "같이 흔들며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Du auch da lang?",
+   "rd": "두 아우흐 다 랑?",
+   "ko": "너도 저쪽이야?",
+   "note": "같은 방향 발견, 단어 포함",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ],
+    [
+     "lang",
+     "lang",
+     "랑"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Ja, auch da lang.",
+   "rd": "야, 아우흐 다 랑.",
+   "ko": "응, 나도 저쪽.",
+   "note": "웃으며 확인",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ],
+    [
+     "lang",
+     "lang",
+     "랑"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Tschüss noch mal.",
+   "rd": "취스 노흐 말.",
+   "ko": "또 안녕.",
+   "note": "다시 인사하며 웃음",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Echt tschüss!",
+   "rd": "에히트 취스!",
+   "ko": "진짜 안녕!",
+   "note": "둘 다 웃으며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Echt",
+     "echt",
+     "에히트"
+    ],
+    [
+     "tschüss",
+     "Tschüss",
+     "츄스"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r0_friends_a4.md",
+  "model": "빠른",
+  "final": "data/review/final/r0_friends_a4.txt"
+ }
+}

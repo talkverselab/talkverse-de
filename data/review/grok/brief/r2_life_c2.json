@@ -1,0 +1,136 @@
+{
+ "id": "r2_life_c2",
+ "region": "R2",
+ "island": "life",
+ "kind": "chat",
+ "title": "장 볼 목록",
+ "emoji": "💬",
+ "scene": "Felix 가 장 보러 간 학습자에게 목록을 하나씩 늘려 보낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Felix"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [],
+ "level": "2 챗 실전",
+ "words": [
+  "einkaufen",
+  "Liste",
+  "Milch",
+  "Brot",
+  "noch",
+  "dass"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "beat": "지금 슈퍼라고 필요한 거 있냐고 묻는다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "beat": "Felix 가 우유만 사 오라고 한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "beat": "아 그리고 빵도 라고 덧붙인다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "beat": "우유랑 빵, 알았다고 한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "beat": "그리고 치즈, 사과, 휴지를 연달아 보낸다",
+   "emotion": "excited",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "beat": "목록이 길어진다고 투덜댄다",
+   "emotion": "annoyed",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "beat": "사실 오늘 친구 열 명이 온다고 고백한다",
+   "emotion": "flustered",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "beat": "그걸 왜 이제 말하냐고 따진다",
+   "emotion": "tsukkomi",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "beat": "네가 거절할까 봐 그랬다고 한다(dass·weil)",
+   "emotion": "worried",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "beat": "카트를 하나 더 가져온다며 웃는다",
+   "emotion": "amused",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

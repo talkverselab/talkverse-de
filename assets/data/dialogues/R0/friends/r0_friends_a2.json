@@ -1,0 +1,165 @@
+{
+ "id": "r0_friends_a2",
+ "region": "R0",
+ "island": "friends",
+ "kind": "short",
+ "title": "조심해!",
+ "emoji": "🚲",
+ "scene": "골목에서 Lena 의 자전거와 부딪힐 뻔한 학습자. 사과하고 보니 같은 건물에 산다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lena"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Alles gut?",
+  "Sorry!"
+ ],
+ "draft": true,
+ "level": "0 입문",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Sorry! Alles gut?",
+   "rd": "조뤼! 알레스 구트?",
+   "ko": "미안! 괜찮아?",
+   "note": "급정거 후 자연스러운 사과, 단어 포함",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "gut",
+     "gut",
+     "구트"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Ja, alles gut. Du?",
+   "rd": "야, 알레스 구트. 두?",
+   "ko": "응, 괜찮아. 너는?",
+   "note": "괜찮다고 확인하며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "gut",
+     "gut",
+     "구트"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Ja. Fahrrad auch.",
+   "rd": "야. 파라트 아우흐.",
+   "ko": "응. 자전거도.",
+   "note": "자전거 가리키며 짧게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Wohin?",
+   "rd": "보힌?",
+   "ko": "어디 가?",
+   "note": "한 단어로 짧게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Wohin",
+     "wohin",
+     "보힌"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Nach Hause. Hier!",
+   "rd": "나흐 하우제. 히어!",
+   "ko": "집에. 여기!",
+   "note": "옆 건물 가리키며 반전",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Hause",
+     "Haus",
+     "하우스"
+    ],
+    [
+     "Hier",
+     "hier",
+     "히어"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Ich auch! Hier wohnen.",
+   "rd": "이히 아우흐! 히어 보넨.",
+   "ko": "나도! 여기 살아.",
+   "note": "놀라며 웃음, wohnen 포함",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ],
+    [
+     "Hier",
+     "hier",
+     "히어"
+    ],
+    [
+     "wohnen",
+     "wohnen",
+     "보넨"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r0_friends_a2.md",
+  "model": "빠른",
+  "final": "data/review/final/r0_friends_a2.txt"
+ }
+}

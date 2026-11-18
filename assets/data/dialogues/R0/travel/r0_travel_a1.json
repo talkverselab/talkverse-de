@@ -1,0 +1,148 @@
+{
+ "id": "r0_travel_a1",
+ "region": "R0",
+ "island": "travel",
+ "kind": "short",
+ "title": "여기야!",
+ "emoji": "🚆",
+ "scene": "기차역. 학습자가 Jonas 를 마중 나왔는데 모르는 사람에게 먼저 손을 흔든다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Jonas"
+ },
+ "register": "casual",
+ "twist": 2,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [
+  "Hier!",
+  "Endlich da."
+ ],
+ "draft": true,
+ "level": "0 입문",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "Hier! Hier!",
+   "rd": "히어! 히어!",
+   "ko": "여기야! 여기!",
+   "note": "손 흔들며 외침",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Hier",
+     "hier",
+     "히어"
+    ],
+    [
+     "Hier",
+     "hier",
+     "히어"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "Ich hier.",
+   "rd": "이히 히어.",
+   "ko": "나 여기.",
+   "note": "뒤에서 짧게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "hier",
+     "hier",
+     "히어"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "Hallo!",
+   "rd": "할로!",
+   "ko": "안녕!",
+   "note": "놀라서 돌아보며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "Groß. Ich.",
+   "rd": "그로스. 이히.",
+   "ko": "큰 거. 나야.",
+   "note": "teasing하게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "Endlich da.",
+   "rd": "엔틀리히 다.",
+   "ko": "드디어 왔네.",
+   "note": "반가워하며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Endlich",
+     "endlich",
+     "엔틀리히"
+    ],
+    [
+     "da",
+     "da",
+     "다"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "Hunger.",
+   "rd": "훙어.",
+   "ko": "배고파.",
+   "note": "한마디만",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Hunger",
+     "Hunger",
+     "훙어"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r0_travel_a1.md",
+  "model": "빠른",
+  "final": "data/review/final/r0_travel_a1.txt"
+ }
+}

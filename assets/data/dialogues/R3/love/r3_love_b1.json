@@ -1,0 +1,352 @@
+{
+ "id": "r3_love_b1",
+ "region": "R3",
+ "island": "love",
+ "kind": "long",
+ "title": "계산은 누가",
+ "emoji": "🍝",
+ "scene": "Mia 와 첫 식당 데이트. 웨이터는 Sie 로 말하고, 계산할 때 둘이 서로 내겠다고 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia",
+  "C": "Kellner"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Was möchten Sie bestellen?",
+  "Zusammen oder getrennt?"
+ ],
+ "draft": true,
+ "level": "3 그래머2",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "es": "Was möchten Sie bestellen?",
+   "rd": "바스 뫼히텐 지 베슈텔렌?",
+   "ko": "무엇을 주문하시겠어요?",
+   "note": "Sie로 정중하게 묻는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "bestellen",
+     "bestellen",
+     "베슈텔렌"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Ich hätte gern die Pasta, bitte.",
+   "rd": "이히 헤테 게언 디 파스타, 비테.",
+   "ko": "파스타로 할게요.",
+   "note": "Sie로 주문하는 정중 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "gern",
+     "gern",
+     "게언"
+    ],
+    [
+     "Pasta",
+     "Pasta",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Ich nehme dasselbe.",
+   "rd": "이히 네메 다셀베.",
+   "ko": "나도 같은 걸로.",
+   "note": "밝게 따라 주문하는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "nehme",
+     "nehmen",
+     "네멘"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "Warum bist du heute so nervös?",
+   "rd": "바룸 비스트 두 호이테 조 네어뵈스?",
+   "ko": "오늘 왜 이렇게 긴장했어?",
+   "note": "장난스럽게 묻는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Warum",
+     "warum",
+     "바룸"
+    ],
+    [
+     "heute",
+     "heute",
+     "호이테"
+    ],
+    [
+     "so",
+     "so",
+     "조"
+    ],
+    [
+     "nervös",
+     "nervös",
+     "네어뵈스"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "Weil es das erste Date ist.",
+   "rd": "바일 에스 다스 에어스테 다테 이스트.",
+   "ko": "첫 데이트라서.",
+   "note": "수줍게 답하는 한 줄",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "erste",
+     "erst",
+     "에어스트"
+    ],
+    [
+     "Date",
+     "Daten",
+     "다텐"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "Du hast gerade Date gesagt.",
+   "rd": "두 하스트 게라데 다테 게자크트.",
+   "ko": "방금 데이트라고 말했네.",
+   "note": "수줍게 받아치는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "gerade",
+     "gerade",
+     "게라데"
+    ],
+    [
+     "Date",
+     "Daten",
+     "다텐"
+    ],
+    [
+     "gesagt",
+     "sagen",
+     "자겐"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "es": "Zusammen oder getrennt zahlen?",
+   "rd": "추자멘 오더 게트렌트 찰렌?",
+   "ko": "같이 내실까요, 따로 내실까요?",
+   "note": "Sie로 묻는 정중 질문",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "Zusammen",
+     "zusammen",
+     "추자멘"
+    ],
+    [
+     "getrennt",
+     "trennen",
+     "트렌넨"
+    ],
+    [
+     "zahlen",
+     "zahlen",
+     "찰렌"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "es": "Ich zahle.",
+   "rd": "이히 차레.",
+   "ko": "내가 낼게.",
+   "note": "바로 나서는 들뜬 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "zahle",
+     "zahlen",
+     "찰렌"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "es": "Hab schon bezahlt.",
+   "rd": "합 숀 베찰트.",
+   "ko": "이미 계산했어.",
+   "note": "반전으로 장난스럽게 밝히는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Hab",
+     "haben",
+     "하벤"
+    ],
+    [
+     "schon",
+     "schon",
+     "숀"
+    ],
+    [
+     "bezahlt",
+     "bezahlen",
+     "베찰렌"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "es": "Wann denn?",
+   "rd": "반 덴?",
+   "ko": "언제?",
+   "note": "놀라서 묻는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Wann",
+     "wann",
+     "반"
+    ],
+    [
+     "denn",
+     "denn",
+     "덴"
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "es": "Als ich zur Toilette ging. Nächstes Mal du.",
+   "rd": "알스 이히 추어 토이레테 깅. 네히스테스 말 두.",
+   "ko": "화장실 가는 척하고. 다음엔 네가.",
+   "note": "수줍게 설명하고 다음을 맡기는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "Toilette",
+     "Toilette",
+     ""
+    ],
+    [
+     "ging",
+     "gehen",
+     "게엔"
+    ],
+    [
+     "Nächstes",
+     "nächst",
+     "네히스트"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "es": "Dann ist das nächste Date fest.",
+   "rd": "단 이스트 다스 네히스테 다테 페스트.",
+   "ko": "그럼 다음 데이트는 약속된 거네.",
+   "note": "다정하게 웃으며 마무리",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Dann",
+     "dann",
+     "단"
+    ],
+    [
+     "nächste",
+     "nächst",
+     "네히스트"
+    ],
+    [
+     "Date",
+     "Daten",
+     "다텐"
+    ],
+    [
+     "fest",
+     "fest",
+     "페스트"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r3_love_b1.md",
+  "model": "빠른",
+  "final": "data/review/final/r3_love_b1.txt"
+ }
+}

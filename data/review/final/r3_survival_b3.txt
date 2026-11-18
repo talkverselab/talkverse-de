@@ -1,0 +1,13 @@
+1 B: Was kann ich für Sie tun? / 무엇을 도와드릴까요? / Sie로 정중하게 묻는 말 / polite
+2 A: Ich habe Halsschmerzen. / 목이 아파요. / 슬프게 증상을 말하는 말 / sad
+3 B: Seit wann haben Sie die Schmerzen? / 언제부터 아프셨어요? / Sie로 묻는 정중 질문 / polite
+4 A: Seit gestern. / 어제부터요. / 현재완료로 짧게 답하는 말 / sad
+5 B: Haben Sie auch Fieber? / 열도 있으세요? / Sie로 묻는 정중 말 / polite
+6 A: Nein, nur ein bisschen heute Morgen. / 아니요, 아침에 조금만요. / 중립적으로 답하는 말 / neutral
+7 A: Mein Bauch… nein, mein Hals tut weh. / 배가… 아니, 목이 아파요. / 단어를 헷갈려 당황하는 슬립 / flustered
+8 B: Der Bauch oder der Hals? / 배요, 목이요? / 놀라서 되묻는 말 / surprised
+9 A: Der Hals. Hier. / 목이에요. 여기. / 목을 가리키며 웃으며 고치는 말 / amused
+10 B: Nehmen Sie die Tablette zweimal am Tag. Und warmen Tee. / 알약은 하루 두 번 드세요. 그리고 따뜻한 차요. / 다정하게 권하는 말 / gentle
+11 A: Brauche ich ein Rezept? / 처방전이 필요해요? / Sie로 묻는 정중 질문 / polite
+12 B: Nein. Gute Besserung. / 아니요. 빨리 나으세요. / 다정하게 마무리하는 말 / gentle
+추천 표현: Was kann ich für Sie tun? / 무엇을 도와드릴까요? | Gute Besserung. / 빨리 나으세요.

@@ -1,0 +1,247 @@
+{
+ "id": "r1_friends_a4",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "title": "한 판 더",
+ "emoji": "🎮",
+ "scene": "Jonas 집에서 게임. 말수 적은 Jonas 가 계속 이긴다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Jonas"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Noch mal?",
+  "Du gewinnst."
+ ],
+ "draft": true,
+ "level": "1 관사·격·활용 골격",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "Noch mal eine Runde spielen?",
+   "rd": "노흐 말 아이네 룬데 슈필렌?",
+   "ko": "한 판 더 할래?",
+   "note": "제안",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ],
+    [
+     "Runde",
+     "Runde",
+     "룬데"
+    ],
+    [
+     "spielen",
+     "spielen",
+     "슈필렌"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "Ja.",
+   "rd": "야.",
+   "ko": "응.",
+   "note": "한 단어",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "Diesmal gewinne ich.",
+   "rd": "디스말 게비네 이히.",
+   "ko": "이번엔 내가 이겨.",
+   "note": "큰소리",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Diesmal",
+     "diesmal",
+     "디스말"
+    ],
+    [
+     "gewinne",
+     "gewinnen",
+     "게빈넨"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "Du verlierst. Noch mal?",
+   "rd": "두 페어리어스트. 노흐 말?",
+   "ko": "또 졌네. 한 판 더?",
+   "note": "teasing",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "verlierst",
+     "verlieren",
+     "페어리렌"
+    ],
+    [
+     "Noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "mal",
+     "mal",
+     "말"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "Wie kannst du immer gewinnen?",
+   "rd": "비 칸스트 두 이머 게빈넨?",
+   "ko": "어떻게 매번 이겨?",
+   "note": "짜증",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "Wie",
+     "wie",
+     "비"
+    ],
+    [
+     "kannst",
+     "kannsen",
+     ""
+    ],
+    [
+     "immer",
+     "immer",
+     "이머"
+    ],
+    [
+     "gewinnen",
+     "gewinnen",
+     "게빈넨"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "Dein Controller war aus.",
+   "rd": "다인 콘트롤러 바어 아우스.",
+   "ko": "네 컨트롤러가 꺼져 있었어.",
+   "note": "반전",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Controller",
+     "Controller",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "Ich habe die ganze Zeit gedrückt?",
+   "rd": "이히 하베 디 간체 차이트 게드뤼크트?",
+   "ko": "나 혼자 계속 눌렀던 거야?",
+   "note": "현재완료로 놀람",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "ganze",
+     "ganz",
+     "간츠"
+    ],
+    [
+     "Zeit",
+     "Zeit",
+     "차이트"
+    ],
+    [
+     "gedrückt",
+     "drücken",
+     "드뤼켄"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Jetzt an. Echte Runde.",
+   "rd": "예츠트 안. 에히테 룬데.",
+   "ko": "이제 켜 줄게. 진짜 한 판.",
+   "note": "부드럽게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Jetzt",
+     "jetzt",
+     "예츠트"
+    ],
+    [
+     "Echte",
+     "echt",
+     "에히트"
+    ],
+    [
+     "Runde",
+     "Runde",
+     "룬데"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r1_friends_a4.md",
+  "model": "빠른",
+  "final": "data/review/final/r1_friends_a4.txt"
+ }
+}

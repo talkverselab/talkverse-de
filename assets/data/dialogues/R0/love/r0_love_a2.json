@@ -1,0 +1,134 @@
+{
+ "id": "r0_love_a2",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "title": "내일 봐?",
+ "emoji": "☕",
+ "scene": "카페 앞. Mia 가 윙크하며 인사하는데 학습자는 뒤의 누군가에게 한 말인 줄 안다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "casual",
+ "twist": 3,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Bis morgen!",
+  "Wer?"
+ ],
+ "draft": true,
+ "level": "0 입문",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Bis morgen!",
+   "rd": "비스 모어겐!",
+   "ko": "내일 봐!",
+   "note": "윙크하며 먼저",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "morgen",
+     "morgen",
+     "모어겐"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Wer? Du?",
+   "rd": "베어? 두?",
+   "ko": "누구한테? 너?",
+   "note": "뒤를 돌아보며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Du. Ich.",
+   "rd": "두. 이히.",
+   "ko": "너한테. 나야.",
+   "note": "웃으며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Ich?",
+   "rd": "이히?",
+   "ko": "나?",
+   "note": "당황하며 되묻기",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Ja, du. Bis morgen.",
+   "rd": "야, 두. 비스 모어겐.",
+   "ko": "응, 너. 내일 또 와.",
+   "note": "손 흔들며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "morgen",
+     "morgen",
+     "모어겐"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Ja. Bis morgen.",
+   "rd": "야. 비스 모어겐.",
+   "ko": "응. 내일 봐.",
+   "note": "shy하게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "morgen",
+     "morgen",
+     "모어겐"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r0_love_a2.md",
+  "model": "빠른",
+  "final": "data/review/final/r0_love_a2.txt"
+ }
+}

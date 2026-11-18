@@ -1,0 +1,311 @@
+{
+ "id": "r2_life_c2",
+ "region": "R2",
+ "island": "life",
+ "kind": "chat",
+ "title": "장 볼 목록",
+ "emoji": "💬",
+ "scene": "Felix 가 장 보러 간 학습자에게 목록을 하나씩 늘려 보낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Felix"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Brauchst du was?",
+  "Noch was?"
+ ],
+ "draft": true,
+ "level": "2 챗 실전",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "Bin im Supermarkt. Brauchst du was?",
+   "rd": "빈 임 주페어마어크트. 브라우흐스트 두 바스?",
+   "ko": "슈퍼에 있어. 필요한 거 있어?",
+   "note": "밝게 묻는 짧은 채팅",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Supermarkt",
+     "Supermarkt",
+     ""
+    ],
+    [
+     "Brauchst",
+     "brauchen",
+     "브라우헨"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "Nur Milch.",
+   "rd": "누어 밀히.",
+   "ko": "우유만.",
+   "note": "짧게 하나만 말하는 중립 답",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Nur",
+     "nur",
+     "누어"
+    ],
+    [
+     "Milch",
+     "Milch",
+     "밀히"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Und Brot auch.",
+   "rd": "운트 브로트 아우흐.",
+   "ko": "빵도.",
+   "note": "바로 덧붙이는 한 줄",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Brot",
+     "Brot",
+     "브로트"
+    ],
+    [
+     "auch",
+     "auch",
+     "아우흐"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Milch und Brot. Okay.",
+   "rd": "밀히 운트 브로트. 오케이.",
+   "ko": "우유랑 빵. 알겠어.",
+   "note": "확인하는 짧은 반응",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Milch",
+     "Milch",
+     "밀히"
+    ],
+    [
+     "Brot",
+     "Brot",
+     "브로트"
+    ],
+    [
+     "Okay",
+     "Okay",
+     "오케이"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Noch Käse. Äpfel. Klopapier.",
+   "rd": "노흐 케제. 에펠. 클로파피어.",
+   "ko": "치즈도. 사과. 휴지.",
+   "note": "연달아 추가하는 들뜬 메시지",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "Käse",
+     "Käse",
+     ""
+    ],
+    [
+     "Äpfel",
+     "Äpfel",
+     ""
+    ],
+    [
+     "Klopapier",
+     "Klopapier",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Die Liste wird immer länger…",
+   "rd": "디 리스테 비어트 이머 렝어…",
+   "ko": "목록이 점점 길어지는데…",
+   "note": "투덜대는 짜증 섞인 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "Liste",
+     "Liste",
+     "리스테"
+    ],
+    [
+     "immer",
+     "immer",
+     "이머"
+    ],
+    [
+     "länger",
+     "lang",
+     "랑"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "es": "Zehn Freunde kommen heute.",
+   "rd": "첸 프로인데 코멘 호이테.",
+   "ko": "친구 열 명이 오늘 와.",
+   "note": "카오스 반전으로 고백하는 당황",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Freunde",
+     "Freund",
+     "프로인트"
+    ],
+    [
+     "kommen",
+     "kommen",
+     "코멘"
+    ],
+    [
+     "heute",
+     "heute",
+     "호이테"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "es": "Das sagst du jetzt erst?!",
+   "rd": "다스 자크스트 두 예츠트 에어스트?!",
+   "ko": "그걸 이제야 말해?!",
+   "note": "어이없어 따지는 츠코미",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "sagst",
+     "sagen",
+     "자겐"
+    ],
+    [
+     "jetzt",
+     "jetzt",
+     "예츠트"
+    ],
+    [
+     "erst",
+     "erst",
+     "에어스트"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "es": "Weil ich Angst hatte, dass du nein sagst.",
+   "rd": "바일 이히 앙스트 하테, 다스 두 나인 자크스트.",
+   "ko": "네가 거절할까 봐 그랬어.",
+   "note": "weil·dass로 변명하는 걱정",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Angst",
+     "Angst",
+     "앙스트"
+    ],
+    [
+     "hatte",
+     "haben",
+     "하벤"
+    ],
+    [
+     "sagst",
+     "sagen",
+     "자겐"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "es": "Ich hol noch einen Wagen. Haha.",
+   "rd": "이히 홀 노흐 아이넨 바겐. 하하.",
+   "ko": "카트 하나 더 가져올게. 하하.",
+   "note": "웃으며 받아들이는 마무리",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "noch",
+     "noch",
+     "노흐"
+    ],
+    [
+     "Wagen",
+     "Wagen",
+     "바겐"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r2_life_c2.md",
+  "model": "빠른",
+  "final": "data/review/final/r2_life_c2.txt"
+ }
+}

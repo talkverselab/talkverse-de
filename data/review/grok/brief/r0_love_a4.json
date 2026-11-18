@@ -1,0 +1,97 @@
+{
+ "id": "r0_love_a4",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "title": "잘 자 ♥",
+ "emoji": "🌙",
+ "scene": "밤 채팅. Mia 가 하트와 함께 잘 자라고 보내는데 학습자가 고맙다고만 답한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "chat",
+ "twist": 4,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [],
+ "level": "0 입문",
+ "words": [
+  "gute Nacht",
+  "danke",
+  "auch",
+  "süß",
+  "schlaf gut"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "beat": "Mia 가 잘 자라며 하트를 보낸다",
+   "emotion": "shy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "beat": "고맙다고만 답한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "beat": "고맙다고? 하고 되묻는다",
+   "emotion": "surprised",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "beat": "당황해서 너도 잘 자라고 고친다",
+   "emotion": "flustered",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "beat": "귀엽다고 한다",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "beat": "하트를 보내며 잘 자라고 한다",
+   "emotion": "shy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

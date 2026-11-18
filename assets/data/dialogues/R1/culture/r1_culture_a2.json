@@ -1,0 +1,248 @@
+{
+ "id": "r1_culture_a2",
+ "region": "R1",
+ "island": "culture",
+ "kind": "short",
+ "title": "슈페츨레 수업",
+ "emoji": "🍲",
+ "scene": "Felix 가 남부 독일 국수를 만든다. 학습자가 돕겠다고 나선다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Felix"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "expressions": [
+  "Kann ich helfen?",
+  "Du musst langsam."
+ ],
+ "draft": true,
+ "level": "1 관사·격·활용 골격",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "Kann ich helfen?",
+   "rd": "칸 이히 헬펜?",
+   "ko": "도와줄 수 있어?",
+   "note": "짧게 제안",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "helfen",
+     "helfen",
+     "헬펜"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "Du musst den Teig rühren.",
+   "rd": "두 무스트 덴 타이히 뤼렌.",
+   "ko": "반죽을 저어야 해.",
+   "note": "할 일 말함",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "musst",
+     "musst",
+     ""
+    ],
+    [
+     "Teig",
+     "Teig",
+     ""
+    ],
+    [
+     "rühren",
+     "rühren",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "Wie lange muss ich rühren?",
+   "rd": "비 랑에 무스 이히 뤼렌?",
+   "ko": "얼마나 저어야 해?",
+   "note": "단순하게 묻기",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Wie",
+     "wie",
+     "비"
+    ],
+    [
+     "lange",
+     "lange",
+     "랑에"
+    ],
+    [
+     "muss",
+     "muss",
+     ""
+    ],
+    [
+     "rühren",
+     "rühren",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "Bis der Arm weh tut.",
+   "rd": "비스 데어 아엄 베 투트.",
+   "ko": "팔이 아플 때까지.",
+   "note": "teasing",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Arm",
+     "Arm",
+     "아엄"
+    ],
+    [
+     "weh",
+     "weh",
+     "베"
+    ],
+    [
+     "tut",
+     "tun",
+     "툰"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "Ich tue den Teig ins Wasser.",
+   "rd": "이히 투에 덴 타이히 인스 바서.",
+   "ko": "반죽 통째로 물에 넣을게.",
+   "note": "실수하며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "tue",
+     "tun",
+     "툰"
+    ],
+    [
+     "Teig",
+     "Teig",
+     ""
+    ],
+    [
+     "Wasser",
+     "Wasser",
+     "바서"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "Nein! Du musst langsam!",
+   "rd": "나인! 두 무스트 랑잠!",
+   "ko": "안 돼! 조금씩 넣어야 해!",
+   "note": "외침",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "musst",
+     "musst",
+     ""
+    ],
+    [
+     "langsam",
+     "langsam",
+     "랑잠"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "Jetzt ist es ein großer Klumpen.",
+   "rd": "예츠트 이스트 에스 아인 그로서 클룸펜.",
+   "ko": "이제 한 덩어리가 됐어.",
+   "note": "웃으며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Jetzt",
+     "jetzt",
+     "예츠트"
+    ],
+    [
+     "großer",
+     "groß",
+     "그로스"
+    ],
+    [
+     "Klumpen",
+     "Klumpe",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Aber es kann lecker sein.",
+   "rd": "아버 에스 칸 레커 자인.",
+   "ko": "그래도 맛은 있을 거야.",
+   "note": "부드럽게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "lecker",
+     "lecker",
+     "레커"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r1_culture_a2.md",
+  "model": "빠른",
+  "final": "data/review/final/r1_culture_a2.txt"
+ }
+}

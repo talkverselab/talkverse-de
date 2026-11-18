@@ -1,0 +1,11 @@
+1 A: Bin im Supermarkt. Brauchst du was? / 슈퍼에 있어. 필요한 거 있어? / 밝게 묻는 짧은 채팅 / cheerful
+2 B: Nur Milch. / 우유만. / 짧게 하나만 말하는 중립 답 / neutral
+3 B: Und Brot auch. / 빵도. / 바로 덧붙이는 한 줄 / neutral
+4 A: Milch und Brot. Okay. / 우유랑 빵. 알겠어. / 확인하는 짧은 반응 / neutral
+5 B: Noch Käse. Äpfel. Klopapier. / 치즈도. 사과. 휴지. / 연달아 추가하는 들뜬 메시지 / excited
+6 A: Die Liste wird immer länger… / 목록이 점점 길어지는데… / 투덜대는 짜증 섞인 말 / annoyed
+7 B: Zehn Freunde kommen heute. / 친구 열 명이 오늘 와. / 카오스 반전으로 고백하는 당황 / flustered
+8 A: Das sagst du jetzt erst?! / 그걸 이제야 말해?! / 어이없어 따지는 츠코미 / tsukkomi
+9 B: Weil ich Angst hatte, dass du nein sagst. / 네가 거절할까 봐 그랬어. / weil·dass로 변명하는 걱정 / worried
+10 A: Ich hol noch einen Wagen. Haha. / 카트 하나 더 가져올게. 하하. / 웃으며 받아들이는 마무리 / amused
+추천 표현: Brauchst du was? / 필요한 거 있어? | Noch was? / 더 있어?

@@ -1,0 +1,155 @@
+{
+ "id": "r0_friends_a3",
+ "region": "R0",
+ "island": "friends",
+ "kind": "short",
+ "title": "반만 줄게",
+ "emoji": "🥨",
+ "scene": "공원 벤치. 말수 적은 Jonas 가 브레첼을 꺼낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Jonas"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Hunger?",
+  "Lecker!"
+ ],
+ "draft": true,
+ "level": "0 입문",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "es": "Hunger?",
+   "rd": "훙어?",
+   "ko": "배고파?",
+   "note": "한 단어로 짧게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Hunger",
+     "Hunger",
+     "훙어"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "es": "Ja, Hunger.",
+   "rd": "야, 훙어.",
+   "ko": "응, 배고파.",
+   "note": "단어 Hunger 포함",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Hunger",
+     "Hunger",
+     "훙어"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "es": "Brezel. Halb.",
+   "rd": "브레첼. 할프.",
+   "ko": "브레첼. 반.",
+   "note": "반으로 쪼개 내밀며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Halb",
+     "halb",
+     "할프"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "es": "Lecker! Danke.",
+   "rd": "레커! 당케.",
+   "ko": "맛있겠다! 고마워.",
+   "note": "먹기도 전에 말해 버림",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Danke",
+     "danke",
+     "당케"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "es": "Noch nicht.",
+   "rd": "노흐 니히트.",
+   "ko": "아직 안 먹었잖아.",
+   "note": "짧게 찌름",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Noch",
+     "noch",
+     "노흐"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Echt lecker!",
+   "rd": "에히트 레커!",
+   "ko": "진짜 맛있어!",
+   "note": "먹고 나서 다시",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Echt",
+     "echt",
+     "에히트"
+    ],
+    [
+     "lecker",
+     "lecker",
+     "레커"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r0_friends_a3.md",
+  "model": "빠른",
+  "final": "data/review/final/r0_friends_a3.txt"
+ }
+}

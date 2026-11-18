@@ -1,0 +1,234 @@
+{
+ "id": "r1_friends_a5",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "title": "공은 어디로",
+ "emoji": "⚽",
+ "scene": "마당에서 Jonas 와 공차기. 학습자가 찬 공이 Felix 방 창문 쪽으로 날아간다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Jonas",
+  "C": "Felix"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Gib mir den Ball.",
+  "Ist das kaputt?"
+ ],
+ "draft": true,
+ "level": "1 관사·격·활용 골격",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "Gib mir den Ball.",
+   "rd": "기프 미어 덴 발.",
+   "ko": "공 줘.",
+   "note": "요청",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Gib",
+     "Gib",
+     ""
+    ],
+    [
+     "Ball",
+     "Ball",
+     "발"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "Hier.",
+   "rd": "히어.",
+   "ko": "여기.",
+   "note": "한 단어",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Hier",
+     "hier",
+     "히어"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "Ich schieße stark.",
+   "rd": "이히 시세 슈타어크.",
+   "ko": "세게 찰게.",
+   "note": "큰소리",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "schieße",
+     "schießen",
+     "쉬센"
+    ],
+    [
+     "stark",
+     "stark",
+     "슈타어크"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "Der Ball geht oben.",
+   "rd": "데어 발 게트 오벤.",
+   "ko": "공이 위로 가.",
+   "note": "짧게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Ball",
+     "Ball",
+     "발"
+    ],
+    [
+     "geht",
+     "gehen",
+     "게엔"
+    ],
+    [
+     "oben",
+     "oben",
+     "오벤"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "es": "Ist das euer Ball?",
+   "rd": "이스트 다스 오이어 발?",
+   "ko": "이거 너희 공이야?",
+   "note": "창문에서",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "euer",
+     "euer",
+     "오이어"
+    ],
+    [
+     "Ball",
+     "Ball",
+     "발"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "es": "Ist das Fenster kaputt?",
+   "rd": "이스트 다스 펜스터 카푸트?",
+   "ko": "창문 괜찮아?",
+   "note": "걱정",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Fenster",
+     "Fenster",
+     "펜스터"
+    ],
+    [
+     "kaputt",
+     "kaputt",
+     "카푸트"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "es": "Fenster okay. Kaffee kaputt.",
+   "rd": "펜스터 오케이. 카페 카푸트.",
+   "ko": "창문은 괜찮아. 커피가 쏟아졌어.",
+   "note": "찌름",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Fenster",
+     "Fenster",
+     "펜스터"
+    ],
+    [
+     "Kaffee",
+     "Kaffee",
+     "카페"
+    ],
+    [
+     "kaputt",
+     "kaputt",
+     "카푸트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Ich kaufe Kaffee.",
+   "rd": "이히 카우페 카페.",
+   "ko": "내가 커피 살게.",
+   "note": "한 마디",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "kaufe",
+     "kaufen",
+     "카우펜"
+    ],
+    [
+     "Kaffee",
+     "Kaffee",
+     "카페"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r1_friends_a5.md",
+  "model": "빠른",
+  "final": "data/review/final/r1_friends_a5.txt"
+ }
+}

@@ -1,0 +1,11 @@
+1 A: Hey Jonas, wir kaufen Lena eine Fahrradklingel als Geschenk! / 야 요나스, 레나 생일 선물로 자전거 벨 사자! / 요나스에게 보내는 줄 알고 들뜬 채팅 / excited
+2 B: ? / ? / 물음표 하나로 반응하는 짧은 놀라움 / surprised
+3 A: Oh nein. Falsch geschickt. / 아 안 돼. 잘못 보냈어. / 실수 깨닫고 당황하는 한 줄 / flustered
+4 B: Was für ein Geschenk? / 무슨 선물인데? / 바로 캐묻는 장난기 / teasing
+5 A: Nichts. Vergiss es. / 아무것도 아니야. 잊어. / 둘러대며 당황하는 반응 / flustered
+6 B: Fahrradklingel. Hab alles gelesen. / 자전거 벨. 다 읽었어. / 다 봤다고 밝히는 웃는 말 / amused
+7 A: Die Überraschung ist kaputt. / 깜짝 선물이 망했어. / 슬퍼하는 짧은 한숨 / sad
+8 B: Meine Klingel ist kaputt, weil ich eine brauche. / 내 벨 고장 났어, 그래서 딱 필요했어. / weil로 필요했다고 밝히는 밝은 반응 / cheerful
+9 B: Ich tu so, als wüsste ich nichts. / 모르는 척할게. / 그래도 놀란 척하겠다고 다정하게 약속 / gentle
+10 A: Danke. Das bleibt unser Geheimnis. / 고마워. 이건 우리 비밀이야. / 웃으며 비밀로 하자고 하는 마무리 / amused
+추천 표현: Falsch geschickt. / 잘못 보냈어. | Ich tu so, als wüsste ich nichts. / 모르는 척할게.

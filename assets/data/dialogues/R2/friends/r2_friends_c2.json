@@ -1,0 +1,264 @@
+{
+ "id": "r2_friends_c2",
+ "region": "R2",
+ "island": "friends",
+ "kind": "chat",
+ "title": "보낼 데를 잘못",
+ "emoji": "💬",
+ "scene": "학습자가 Lena 생일 선물 얘기를 Jonas 에게 보낸다는 게 Lena 에게 보낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lena"
+ },
+ "register": "chat",
+ "twist": 3,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Falsch geschickt.",
+  "Ich tu so, als wüsste ich nichts."
+ ],
+ "draft": true,
+ "level": "2 챗 실전",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "Hey Jonas, wir kaufen Lena eine Fahrradklingel als Geschenk!",
+   "rd": "헤이 요나스, 비어 카우펜 레나 아이네 파라트클링엘 알스 게셴크!",
+   "ko": "야 요나스, 레나 생일 선물로 자전거 벨 사자!",
+   "note": "요나스에게 보내는 줄 알고 들뜬 채팅",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "kaufen",
+     "kaufen",
+     "카우펜"
+    ],
+    [
+     "Fahrradklingel",
+     "Fahrradklingel",
+     ""
+    ],
+    [
+     "Geschenk",
+     "Geschenk",
+     "게셴크"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "?",
+   "rd": "?",
+   "ko": "?",
+   "note": "물음표 하나로 반응하는 짧은 놀라움",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "Oh nein. Falsch geschickt.",
+   "rd": "오 나인. 팔슈 게시크트.",
+   "ko": "아 안 돼. 잘못 보냈어.",
+   "note": "실수 깨닫고 당황하는 한 줄",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Falsch",
+     "falsch",
+     "팔슈"
+    ],
+    [
+     "geschickt",
+     "schicken",
+     "쉬켄"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "Was für ein Geschenk?",
+   "rd": "바스 퓌어 아인 게셴크?",
+   "ko": "무슨 선물인데?",
+   "note": "바로 캐묻는 장난기",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Geschenk",
+     "Geschenk",
+     "게셴크"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "Nichts. Vergiss es.",
+   "rd": "니히츠. 페어기스 에스.",
+   "ko": "아무것도 아니야. 잊어.",
+   "note": "둘러대며 당황하는 반응",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered",
+   "lemmas": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "Fahrradklingel. Hab alles gelesen.",
+   "rd": "파라트클링엘. 합 알레스 게레젠.",
+   "ko": "자전거 벨. 다 읽었어.",
+   "note": "다 봤다고 밝히는 웃는 말",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Hab",
+     "haben",
+     "하벤"
+    ],
+    [
+     "gelesen",
+     "lesen",
+     "레젠"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "Die Überraschung ist kaputt.",
+   "rd": "디 위버라슝 이스트 카푸트.",
+   "ko": "깜짝 선물이 망했어.",
+   "note": "슬퍼하는 짧은 한숨",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "Überraschung",
+     "Überraschung",
+     "위버라슝"
+    ],
+    [
+     "kaputt",
+     "kaputt",
+     "카푸트"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Meine Klingel ist kaputt, weil ich eine brauche.",
+   "rd": "마이네 클링엘 이스트 카푸트, 바일 이히 아이네 브라우헤.",
+   "ko": "내 벨 고장 났어, 그래서 딱 필요했어.",
+   "note": "weil로 필요했다고 밝히는 밝은 반응",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Klingel",
+     "klingen",
+     "클링엔"
+    ],
+    [
+     "kaputt",
+     "kaputt",
+     "카푸트"
+    ],
+    [
+     "brauche",
+     "brauchen",
+     "브라우헨"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "es": "Ich tu so, als wüsste ich nichts.",
+   "rd": "이히 투 조, 알스 뷔스테 이히 니히츠.",
+   "ko": "모르는 척할게.",
+   "note": "그래도 놀란 척하겠다고 다정하게 약속",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "so",
+     "so",
+     "조"
+    ],
+    [
+     "wüsste",
+     "wüs",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "es": "Danke. Das bleibt unser Geheimnis.",
+   "rd": "당케. 다스 블라이프트 운저 게하임니스.",
+   "ko": "고마워. 이건 우리 비밀이야.",
+   "note": "웃으며 비밀로 하자고 하는 마무리",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Danke",
+     "danke",
+     "당케"
+    ],
+    [
+     "bleibt",
+     "bleiben",
+     "블라이벤"
+    ],
+    [
+     "Geheimnis",
+     "Geheimnis",
+     "게하임니스"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r2_friends_c2.md",
+  "model": "빠른",
+  "final": "data/review/final/r2_friends_c2.txt"
+ }
+}

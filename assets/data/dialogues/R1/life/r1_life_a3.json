@@ -1,0 +1,198 @@
+{
+ "id": "r1_life_a3",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "title": "열쇠 어디 있어?",
+ "emoji": "🚪",
+ "scene": "현관 앞. 학습자가 열쇠가 없다며 Lena 에게 전화한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Lena"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Ich habe keinen Schlüssel.",
+  "Hast du gesucht?"
+ ],
+ "draft": true,
+ "level": "1 관사·격·활용 골격",
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "es": "Ich habe keinen Schlüssel.",
+   "rd": "이히 하베 카이넨 슐뤼셀.",
+   "ko": "열쇠가 없어.",
+   "note": "걱정하며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "habe",
+     "haben",
+     "하벤"
+    ],
+    [
+     "Schlüssel",
+     "Schlüssel",
+     "슐뤼셀"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "es": "Hast du die Tasche gesucht?",
+   "rd": "하스트 두 디 타셰 게주흐트?",
+   "ko": "가방은 찾아봤어?",
+   "note": "묻기",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Tasche",
+     "Tasche",
+     "타셰"
+    ],
+    [
+     "gesucht",
+     "suchen",
+     "주헨"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "es": "Ich habe alles gesucht.",
+   "rd": "이히 하베 알레스 게주흐트.",
+   "ko": "다 찾아봤어.",
+   "note": "현재완료",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "gesucht",
+     "suchen",
+     "주헨"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "es": "Und die Tasche?",
+   "rd": "운트 디 타셰?",
+   "ko": "주머니는?",
+   "note": "짧게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "Tasche",
+     "Tasche",
+     "타셰"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "es": "Nichts in der Tasche.",
+   "rd": "니히츠 인 데어 타셰.",
+   "ko": "주머니에도 없어.",
+   "note": "슬프게",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "Tasche",
+     "Tasche",
+     "타셰"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "es": "Was hast du in der Hand?",
+   "rd": "바스 하스트 두 인 데어 한트?",
+   "ko": "손에 뭐 들고 있어?",
+   "note": "영상으로",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "Hand",
+     "Hand",
+     "한트"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "es": "Der Schlüssel!",
+   "rd": "데어 슐뤼셀!",
+   "ko": "열쇠야!",
+   "note": "놀라며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "Schlüssel",
+     "Schlüssel",
+     "슐뤼셀"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "es": "Du hast ihn schon.",
+   "rd": "두 하스트 인 숀.",
+   "ko": "이미 갖고 있네.",
+   "note": "웃으며",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "schon",
+     "schon",
+     "숀"
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "grok_rewrite": "data/review/grok/out/r1_life_a3.md",
+  "model": "빠른",
+  "final": "data/review/final/r1_life_a3.txt"
+ }
+}

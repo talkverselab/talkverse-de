@@ -1,0 +1,138 @@
+{
+ "id": "r2_culture_c2",
+ "region": "R2",
+ "island": "culture",
+ "kind": "chat",
+ "title": "표가 두 장",
+ "emoji": "💬",
+ "scene": "Mia 가 밴드 공연 표 얘기를 꺼낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "expressions": [],
+ "level": "2 챗 실전",
+ "words": [
+  "Konzert",
+  "Karte",
+  "zwei",
+  "Samstag",
+  "mitkommen",
+  "dass"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "beat": "Mia 가 토요일에 뭐 하냐고 묻는다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "beat": "아직 모르겠다고 한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "beat": "좋아하는 밴드 공연 표를 샀다고 한다",
+   "emotion": "excited",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "beat": "부럽다고, 재밌게 보라고 한다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "beat": "그 반응이 아니라고 한다",
+   "emotion": "annoyed",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "beat": "표가 두 장이라고 한다",
+   "emotion": "shy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "beat": "누구랑 가냐고 묻는다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "beat": "방금 같이 가자고 물은 거라고 한다",
+   "emotion": "tsukkomi",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "beat": "같이 간다고 한다(mitkommen)",
+   "emotion": "excited",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "beat": "네가 그렇게 말할 줄 알았다고 한다(dass)",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}
