@@ -120,3 +120,9 @@ _2026-11-03 새로 씀. 앞 판(2026-10-11 메모·Zealot 확인 필요)은 이 
 - Grok 재작성: 26편 중 14편(R0~R2) 답 `data/review/grok/out/`, 남은 12편(R3~R5, r3_friends_b1 포함). Grok 주간 한도 11/16 초기화 — 그 뒤 재개. 터널은 `ssh -fN -L '127.0.0.1:9258:[::1]:9258' pc`(th 가 9259 로 옮겼으면 일반 꼴도 됨, `/json/list` 로 de 방인지 확인).
 - 다음 할 일: ① 받은 14편 검토(초안 재사용·레벨 문법) → `data/review/final/` → `apply_rewrite.py` → `check_dialogues.py --fix-rd --align-rd` ② 남은 12편 재작성 ③ 자산 DB 업로드 — 공용 `talkverse-db` 에 회화·문장·음성·단어표 표가 없어 uk 세션이 표 이름·칸을 정해 주면 올림(그림은 uk). IPA 임시 그림은 올리지 않음.
 - 지울 후보(애매해 남김): 없음.
+
+## 2026-11-18 통합 앱 iOS 심사 준비 — 일본어앱 수준 맞추기 (일본어앱 세션 전달, 사용자 지시)
+전달문 `~/talkverse/ja/docs/RELAY_2026-11-18_ja_parity.md`. 심사 준비 기준 = 회화 급마다 30%(일본어앱 기준 R0 14·R1 21·R2 17·R3 13·R4 1, 합 65 안팎) · 단어 그림은 공용 DB · 장면 컷 10장 · 원고 서버 받기.
+- **완료 — 원고 서버 받기**(`0a045d3`): `lib/services/script_sync.dart`(ja 이식, root `art/script/de`, 기기 `Application Support/de/script/`), `embedInit` 에서 그림 내려받기 앞에 refresh(15초), `DialogueService` 가 R0~R5 편 파일을 `ScriptSync.load` 로 읽음(그전엔 옛 L1 5편만 읽고 R 초안 28편은 화면에 안 나왔음 — 이제 나옴. L1 은 그대로). 서버 R2 `talkverse-art/script/de/` 에 rev 1(28편 파일 + index.json) 올림, 실제 서버로 받기 시험 통과. 원고를 고치면 `python3 tools/script_publish.py --publish` → `assets/data/script_rev.json` 커밋. 편 id·턴 번호 잠금 `data/review/turn_lock_de.json`(`tools/turn_lock.py`).
+- **남은 것(일본어앱 수준)**: ① 회화 28 → 65편 안팎(급마다 분산, R0 이 2편뿐이라 가장 부족) — Grok 재작성 14편 반영 + 남은 12편 + 새 편 ② 언어감각 과정(de 에는 화면·데이터 없음 — ja `sense_course_screen.dart`·`grammar/sense_course.json` 꼴로 독일어 걸림돌 순서 10급 × 외울 대화 10줄 + 참고) ③ 단어 복습 4지선다 퀴즈(ja `gairaigo_quiz_screen.dart` 를 단어 복습에 재사용 — 독일어는 외래어 표기가 따로 없음) ④ 회화 첫 화면 카드 이름 표시(ja 111) 확인 ⑤ 장면 컷 10장 ⑥ 단어 그림은 공용 DB(`/art/de/manifest`) 그대로. 한자 연습·높임말 급은 해당 없음.
+- 통합 앱에 알릴 것: 패키지 `german_universe`, 새 에셋 `assets/data/script_rev.json`, 새 의존성 없음(crypto·http 원래 있음), 서버 원고 rev 1.
