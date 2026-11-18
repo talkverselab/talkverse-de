@@ -27,6 +27,9 @@
  "level": "1 관사·격·활용 골격",
  "outline": true,
  "words": [
+  "Süß",
+  "Wirklich?",
+  "Schlaf gut",
   "Geschenk",
   "für dich",
   "Stick",
@@ -102,7 +105,7 @@
   {
    "num": 6,
    "speaker": "B",
-   "beat": "둘이 하나씩 — 다음 공연에도 오라는 뜻이라고 한다",
+   "beat": "하나는 네 거, 하나는 내 거 — 다음 공연에도 오라는 뜻이라고 한다",
    "emotion": "shy",
    "es": "",
    "rd": "",
@@ -138,5 +141,9 @@
     "draft"
    ]
   }
+ ],
+ "must": [
+  "표현 풀 낱말(words 앞 3개)을 대사에 그대로 넣는다.",
+  "R0~R2: du·단수만 — wir·uns·unser·ihr·euch·euer·Sie 를 쓰지 않는다."
  ]
 }

@@ -25,6 +25,9 @@
  "level": "1 관사·격·활용 골격",
  "outline": true,
  "words": [
+  "Mist",
+  "Ich hab's vergessen",
+  "Macht nichts",
   "waschen",
   "Hemd",
   "rot",
@@ -137,5 +140,9 @@
     "draft"
    ]
   }
+ ],
+ "must": [
+  "표현 풀 낱말(words 앞 3개)을 대사에 그대로 넣는다.",
+  "R0~R2: du·단수만 — wir·uns·unser·ihr·euch·euer·Sie 를 쓰지 않는다."
  ]
 }

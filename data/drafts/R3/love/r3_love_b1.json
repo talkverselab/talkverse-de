@@ -28,6 +28,9 @@
  "level": "3 그래머2",
  "outline": true,
  "words": [
+  "Zusammen oder getrennt?",
+  "Stimmt so",
+  "Auf keinen Fall",
   "bestellen",
   "Rechnung",
   "zahlen",
@@ -192,5 +195,8 @@
     "draft"
    ]
   }
+ ],
+ "must": [
+  "표현 풀 낱말(words 앞 3개)을 대사에 그대로 넣는다."
  ]
 }

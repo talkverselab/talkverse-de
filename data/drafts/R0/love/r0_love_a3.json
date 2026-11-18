@@ -27,6 +27,9 @@
  "level": "0 입문",
  "outline": true,
  "words": [
+  "Komm schon",
+  "Gerne",
+  "Zum Glück",
   "Regen",
   "komm",
   "Schirm",
@@ -112,5 +115,9 @@
     "draft"
    ]
   }
+ ],
+ "must": [
+  "표현 풀 낱말(words 앞 3개)을 대사에 그대로 넣는다.",
+  "R0~R2: du·단수만 — wir·uns·unser·ihr·euch·euer·Sie 를 쓰지 않는다."
  ]
 }

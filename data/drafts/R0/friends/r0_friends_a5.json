@@ -25,6 +25,9 @@
  "level": "0 입문",
  "outline": true,
  "words": [
+  "Echt jetzt?",
+  "Das ist mir peinlich",
+  "Tut mir leid",
   "Kuchen",
   "heute",
   "Geburtstag",
@@ -48,7 +51,7 @@
   {
    "num": 2,
    "speaker": "B",
-   "beat": "같이 먹자고 한다",
+   "beat": "너도 먹으라고 케이크를 내민다",
    "emotion": "cheerful",
    "es": "",
    "rd": "",
@@ -110,5 +113,9 @@
     "draft"
    ]
   }
+ ],
+ "must": [
+  "표현 풀 낱말(words 앞 3개)을 대사에 그대로 넣는다.",
+  "R0~R2: du·단수만 — wir·uns·unser·ihr·euch·euer·Sie 를 쓰지 않는다."
  ]
 }

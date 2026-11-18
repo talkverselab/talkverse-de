@@ -25,7 +25,9 @@
  "level": "0 입문",
  "outline": true,
  "words": [
-  "tschüss",
+  "Tschüss",
+  "Bis dann",
+  "Oh Mann",
   "auch",
   "da",
   "lang",
@@ -48,7 +50,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "beat": "안녕 하고 같이 흔든다",
+   "beat": "안녕 하고 손을 흔든다",
    "emotion": "cheerful",
    "es": "",
    "rd": "",
@@ -110,5 +112,9 @@
     "draft"
    ]
   }
+ ],
+ "must": [
+  "표현 풀 낱말(words 앞 3개)을 대사에 그대로 넣는다.",
+  "R0~R2: du·단수만 — wir·uns·unser·ihr·euch·euer·Sie 를 쓰지 않는다."
  ]
 }

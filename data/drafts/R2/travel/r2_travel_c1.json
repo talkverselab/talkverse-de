@@ -25,6 +25,9 @@
  "level": "2 챗 실전",
  "outline": true,
  "words": [
+  "Gute Idee",
+  "Passt",
+  "Na und?",
   "Wochenende",
   "Zug",
   "fahren",
@@ -36,7 +39,7 @@
   {
    "num": 1,
    "speaker": "A",
-   "beat": "주말에 함부르크 가자고 한다",
+   "beat": "주말에 함부르크 갈 건데 너도 올 거냐고 묻는다",
    "emotion": "excited",
    "es": "",
    "rd": "",
@@ -88,7 +91,7 @@
   {
    "num": 5,
    "speaker": "A",
-   "beat": "호텔은 싼 데로 하자고 한다",
+   "beat": "호텔은 싼 데가 좋다고 한다",
    "emotion": "neutral",
    "es": "",
    "rd": "",
@@ -153,7 +156,7 @@
   {
    "num": 10,
    "speaker": "B",
-   "beat": "시간 되면 다 가자고 한다(wenn)",
+   "beat": "시간 되면 다 보고 싶다고 한다(wenn)",
    "emotion": "cheerful",
    "es": "",
    "rd": "",
@@ -163,5 +166,9 @@
     "draft"
    ]
   }
+ ],
+ "must": [
+  "표현 풀 낱말(words 앞 3개)을 대사에 그대로 넣는다.",
+  "R0~R2: du·단수만 — wir·uns·unser·ihr·euch·euer·Sie 를 쓰지 않는다."
  ]
 }
