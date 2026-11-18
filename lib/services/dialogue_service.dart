@@ -1,10 +1,12 @@
 import '../core/embed_env.dart';
 import 'dart:convert';
 
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter/foundation.dart' show ValueNotifier;
+import 'package:flutter/services.dart' show AssetManifest, rootBundle;
 import '../core/prefs.dart';
 
 import 'learner_prefs.dart';
+import 'script_sync.dart';
 
 /// 회화 리더(일본어앱 시안 02 「만화책 읽기형」)용 회화 모델 — 2026-11-02, 일본어앱 `dialogue_service.dart` 를 옮김.
 ///
@@ -159,7 +161,7 @@ class DialogueService {
     'work': '💼',
     'study': '🎓',
   };
-  static const levelKo = {'L1': '이야기', 'R0': '왕초보', 'R1': '초보', 'R2': '중급', 'R3': '고급', 'R4': '최상급'};
+  static const levelKo = {'L1': '이야기', 'R0': '왕초보', 'R1': '초보', 'R2': '중급', 'R3': '고급', 'R4': '최상급', 'R5': '절벽 밖'};
   static const _prefLast = 'dialogue_last';
 
   final List<Dialogue> _all = [];
@@ -176,6 +178,68 @@ class DialogueService {
 
   Future<void> _load() async {
     _lastOpened = (await Prefs.getInstance()).getString(_prefLast);
+    await _readAll();
+    // 서버에 더 새 원고가 있으면 뒤에서 받아 다시 읽는다(없거나 실패하면 그대로) — 일본어앱 빌드 113 과 같은 꼴
+    ScriptSync.instance.refresh().then((changed) async {
+      if (!changed) return;
+      await _readAll();
+      revision.value++;
+    });
+  }
+
+  /// 원고가 서버 판으로 바뀌어 다시 읽힐 때마다 오른다.
+  final ValueNotifier<int> revision = ValueNotifier(0);
+
+  static String? _registerOf(String? r) => switch (r) {
+        'casual' || 'chat' || 'du' => 'du',
+        'polite' || 'Sie' => 'Sie',
+        _ => null, // mixed 등 — 턴별 register 가 있으면 그것을 따른다
+      };
+
+  /// R0~R5 편(앱 안 + 서버에서 받은 새 편 − 서버에서 뺀 편, 각 파일은 덮어쓴 판 우선) + 옛 L1 초안.
+  Future<void> _readAll() async {
+    final next = <Dialogue>[];
+    final sync = ScriptSync.instance;
+    await sync.init();
+    try {
+      final manifest = await AssetManifest.loadFromAssetBundle(rootBundle);
+      final pat = RegExp(r'^assets/data/dialogues/R[0-5]/[^/]+/[^/]+\.json$');
+      final rels = <String>{
+        for (final p in manifest.listAssets().map(stripAssetPrefix).where(pat.hasMatch)) p.substring('assets/data/'.length),
+        ...sync.added.where((p) => pat.hasMatch('assets/data/$p')),
+      }..removeAll(sync.removed);
+      for (final rel in (rels.toList()..sort())) {
+        try {
+          final m = json.decode(await sync.load(rel)) as Map<String, dynamic>;
+          final turns = ((m['turns'] as List?) ?? const []).map((t) => DialogueTurn.fromL1(t as Map<String, dynamic>)).toList();
+          if (turns.isEmpty) continue;
+          final sp = ((m['speakers'] as Map?) ?? const {}).map((k, v) => MapEntry('$k', '$v'));
+          final gd = ((m['genders'] as Map?) ?? const {}).map((k, v) => MapEntry('$k', '$v'));
+          next.add(Dialogue(
+            id: m['id'] as String,
+            region: m['region'] as String? ?? rel.split('/')[1],
+            topic: m['island'] as String? ?? m['topic'] as String? ?? rel.split('/')[2],
+            title: m['title'] as String? ?? m['id'] as String,
+            emoji: m['emoji'] as String? ?? '💬',
+            scene: m['scene'] as String? ?? '',
+            speakers: sp,
+            genders: gd,
+            expressions: ((m['expressions'] as List?) ?? const []).map((e) => '$e').toList(),
+            turns: turns,
+            art: m['art'] as String?,
+            register: _registerOf(m['register'] as String?),
+          ));
+        } catch (_) {}
+      }
+    } catch (_) {}
+    next.addAll(await _readL1());
+    _all
+      ..clear()
+      ..addAll(next);
+  }
+
+  Future<List<Dialogue>> _readL1() async {
+    final out = <Dialogue>[];
     try {
       final j = json.decode(await rootBundle.loadString(assetPath('assets/data/dialogues/L1.json'))) as Map<String, dynamic>;
       final chars = (j['characters'] as Map<String, dynamic>? ?? const {});
@@ -186,7 +250,7 @@ class DialogueService {
         final m = e as Map<String, dynamic>;
         final turns = ((m['turns'] as List?) ?? const []).map((t) => DialogueTurn.fromL1(t as Map<String, dynamic>)).toList();
         if (turns.isEmpty) continue;
-        _all.add(Dialogue(
+        out.add(Dialogue(
           id: '${level}_${m['id']}',
           region: level,
           topic: 'love', // 옛 L1 = 언어교환 앱에서 시작하는 이야기(원칙: 기존 연애 서사는 love 주제)
@@ -201,6 +265,7 @@ class DialogueService {
         ));
       }
     } catch (_) {}
+    return out;
   }
 
   Dialogue? byId(String id) => _all.where((d) => d.id == id).firstOrNull;
