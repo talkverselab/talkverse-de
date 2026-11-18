@@ -56,7 +56,7 @@
    "es": "Keine Sorge. Warte mal, ich kenn den Weg.",
    "rd": "카이네 조어게. 바어테 말, 이히 켄 덴 베크.",
    "ko": "걱정 마. 잠깐만, 내가 길 알아.",
-   "note": "표현 그대로 넣고 단수로",
+   "note": "",
    "tags": [
     "draft"
    ],
@@ -119,7 +119,7 @@
    "es": "Jetzt aussteigen! Schnell, hier!",
    "rd": "예츠트 아우스타이겐! 슈넬, 히어!",
    "ko": "지금 내려! 빨리, 여기!",
-   "note": "외치는 비트에 맞춰 짧은 명령으로",
+   "note": "짧은 명령으로",
    "tags": [
     "draft"
    ],
@@ -153,7 +153,7 @@
    "es": "Das ist die falsche Station! Echt?",
    "rd": "다스 이스트 디 팔셰 슈타치온! 에히트?",
    "ko": "이건 틀린 역이야! 진짜?",
-   "note": "반전 지점에 맞춰 놀라움 키워",
+   "note": "놀라움 키워",
    "tags": [
     "draft"
    ],
@@ -216,7 +216,7 @@
    "es": "Dann laufen. Langsamer als mein Fahrrad.",
    "rd": "단 라우펜. 랑자머 알스 마인 파라트.",
    "ko": "그럼 걷자. 내 자전거보다 느려.",
-   "note": "Lena 자전거 성격 살려 투덜대게",
+   "note": "투덜대며",
    "tags": [
     "draft"
    ],
@@ -250,7 +250,7 @@
    "es": "Laufen ist auch gut. Haha.",
    "rd": "라우펜 이스트 아우흐 구트. 하하.",
    "ko": "걷는 것도 좋아. 하하.",
-   "note": "웃는 킥으로 마무리하며",
+   "note": "",
    "tags": [
     "draft"
    ],

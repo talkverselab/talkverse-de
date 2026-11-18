@@ -35,7 +35,7 @@
    "es": "Hey, nimmst du mal ein Foto von mir?",
    "rd": "헤이, 님스트 두 말 아인 포토 폰 미어?",
    "ko": "야, 내 사진 한 장 찍어 줄래?",
-   "note": "강가에서 자연스럽게 부탁하는 구어체, Handy 언급 없이 시작",
+   "note": "강가에서 자연스럽게 부탁하는 구어체",
    "tags": [
     "draft"
    ],
@@ -161,7 +161,7 @@
    "es": "Ich will eigentlich ein Foto mit dir.",
    "rd": "이히 빌 아이겐틀리히 아인 포토 미트 디어.",
    "ko": "사실은 너랑 같이 찍고 싶었어.",
-   "note": "반전으로 원하는 게 둘이 사진임을 shy하게 밝힘, mit dir 사용",
+   "note": "원하는 게 둘이 사진임을 shy하게 밝힘, mit dir 사용",
    "tags": [
     "draft"
    ],
@@ -248,7 +248,7 @@
    "es": "Diesmal lächeln. Du auch, okay?",
    "rd": "디스말 레헬른. 두 아우흐, 오케이?",
    "ko": "이번엔 웃자. 너도, 응?",
-   "note": "wir 피하고 둘 다 웃으라는 다정한 마무리",
+   "note": "둘 다 웃으라는 다정한 말",
    "tags": [
     "draft"
    ],

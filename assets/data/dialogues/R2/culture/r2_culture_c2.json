@@ -58,7 +58,7 @@
    "es": "Mal sehen. Noch nichts.",
    "rd": "말 제엔. 노흐 니히츠.",
    "ko": "글쎄. 아직 없어.",
-   "note": "Mal sehen 넣고 짧게",
+   "note": "짧게",
    "tags": [
     "draft"
    ],
@@ -154,7 +154,7 @@
    "es": "Zwei Karten. Na klar für dich?",
    "rd": "츠바이 카어텐. 나 클라어 퓌어 디히?",
    "ko": "표 두 장이야. 당연히 너도?",
-   "note": "Na klar 넣고 수줍게 반전으로",
+   "note": "수줍게",
    "tags": [
     "draft"
    ],
@@ -178,7 +178,7 @@
    "es": "Mit wem gehst du?",
    "rd": "미트 벰 게스트 두?",
    "ko": "누구랑 가?",
-   "note": "물어보는 비트로",
+   "note": "",
    "tags": [
     "draft"
    ],
@@ -250,7 +250,7 @@
    "es": "Wusste, dass du das sagst.",
    "rd": "부스테, 다스 두 다스 자크스트.",
    "ko": "네가 그렇게 말할 줄 알았어.",
-   "note": "dass 넣고 장난스럽게",
+   "note": "장난스럽게",
    "tags": [
     "draft"
    ],

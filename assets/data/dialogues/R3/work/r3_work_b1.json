@@ -33,7 +33,7 @@
    "es": "Guten Tag. Bitte setzen Sie sich.",
    "rd": "구텐 탁. 비테 제첸 지 지히.",
    "ko": "안녕하세요. 앉으세요.",
-   "note": "Guten Tag 넣고 Sie로 정중하게",
+   "note": "Sie로 정중하게",
    "tags": [
     "draft"
    ],
@@ -284,7 +284,7 @@
    "es": "Mia hat Sie schon empfohlen. Der Job ist Ihrer.",
    "rd": "미아 하트 지 숀 엠포렌. 데어 요프 이스트 이러.",
    "ko": "미아가 이미 추천해서 합격이에요.",
-   "note": "웃으며 반전으로",
+   "note": "웃으며",
    "tags": [
     "draft"
    ],
@@ -318,7 +318,7 @@
    "es": "Wollen wir uns duzen?",
    "rd": "볼렌 비어 운스 두첸?",
    "ko": "여기서는 다 말 놓을까요?",
-   "note": "표현 그대로 넣고 부드럽게",
+   "note": "부드럽게",
    "tags": [
     "draft"
    ],
@@ -337,7 +337,7 @@
    "es": "Gerne. Hallo!",
    "rd": "게어네. 할로!",
    "ko": "좋아요. 안녕!",
-   "note": "Gerne 넣고 du로 처음 인사하며",
+   "note": "du로 처음 인사하며",
    "tags": [
     "draft"
    ],

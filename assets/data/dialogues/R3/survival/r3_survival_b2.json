@@ -120,7 +120,7 @@
    "es": "Entschuldigung, kann ich Ihnen helfen?",
    "rd": "엔트슐디궁, 칸 이히 이넨 헬펜?",
    "ko": "저기요, 도와드릴까요?",
-   "note": "Entschuldigung 넣고 Sie로 정중하게",
+   "note": "Sie로 정중하게",
    "tags": [
     "draft"
    ],
@@ -221,7 +221,7 @@
    "es": "Das gibt's doch nicht. Der Automat ist voll.",
    "rd": "다스 기프트스 도흐 니히트. 데어 아우토마트 이스트 폴.",
    "ko": "그럴 리가 없어. 기계가 꽉 찼어요.",
-   "note": "Das gibt's doch nicht 넣고 놀라며",
+   "note": "놀라며",
    "tags": [
     "draft"
    ],
@@ -255,7 +255,7 @@
    "es": "Die Flaschen fallen alle raus, während wir leeren.",
    "rd": "디 플라셴 팔렌 알레 라우스, 베렌트 비어 레렌.",
    "ko": "우리가 비우는 동안 병이 우르르 쏟아져요.",
-   "note": "놀라며 반전으로",
+   "note": "놀라며",
    "tags": [
     "draft"
    ],
@@ -337,7 +337,7 @@
    "es": "Zum Glück Kaffeegeld verdient.",
    "rd": "춤 글뤽 카페겔트 페어딘트.",
    "ko": "다행히 오늘 커피값 벌었어.",
-   "note": "Zum Glück 넣고 밝게",
+   "note": "밝게",
    "tags": [
     "draft"
    ],

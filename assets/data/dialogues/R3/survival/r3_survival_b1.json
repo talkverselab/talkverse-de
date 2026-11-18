@@ -136,7 +136,7 @@
    "es": "Gerne. Zusammen oder getrennt?",
    "rd": "게어네. 추자멘 오더 게트렌트?",
    "ko": "네. 같이 계산할까요, 따로요?",
-   "note": "추천 표현 사용",
+   "note": "",
    "tags": [
     "draft"
    ],
@@ -165,7 +165,7 @@
    "es": "Zwölf! Äh, ich meine zwei.",
    "rd": "츠뵐프! 에, 이히 마이네 츠바이.",
    "ko": "열두 개! 아, 두 개요.",
-   "note": "반전 실수, 숫자 착각",
+   "note": "숫자 착각",
    "tags": [
     "draft"
    ],
@@ -391,7 +391,7 @@
    "es": "Zusammen. Danke.",
    "rd": "추자멘. 당케.",
    "ko": "같이요. 고마워요.",
-   "note": "부드럽게 마무리",
+   "note": "",
    "tags": [
     "draft"
    ],

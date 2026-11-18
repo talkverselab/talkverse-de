@@ -38,7 +38,7 @@
    "es": "Hey, morgen Abend Party bei mir. Kommt ihr beide?",
    "rd": "헤이, 모어겐 아벤트 파어튀 바이 미어. 콤트 이어 바이데?",
    "ko": "야, 내일 저녁 내 집에서 파티야. 너희 둘 와?",
-   "note": "장면 시작으로 자연스럽게 초대",
+   "note": "자연스럽게 초대",
    "tags": [
     "draft"
    ],
@@ -91,7 +91,7 @@
    "es": "Wird richtig geil! Viele Freunde, gute Musik. Oder?",
    "rd": "비어트 리히티히 가일! 피레 프로인데, 구테 무지크. 오더?",
    "ko": "완전 멋질 거야! 친구들 많고 음악도 좋아. 그치?",
-   "note": "흥분해서 설득하며 추천 표현 사용",
+   "note": "흥분해서 설득하며",
    "tags": [
     "draft"
    ],
@@ -130,7 +130,7 @@
    "es": "Na ja, ich muss mein Fahrrad reparieren.",
    "rd": "나 야, 이히 무스 마인 파라트 레파리렌.",
    "ko": "음, 나 자전거 고쳐야 해.",
-   "note": "자전거 설정 살린 어색한 변명",
+   "note": "어색한 변명",
    "tags": [
     "draft"
    ],
@@ -362,7 +362,7 @@
    "es": "Okay, wir sind ein Paar. Morgen Date.",
    "rd": "오케이, 비어 진트 아인 파어. 모어겐 다테.",
    "ko": "알겠어, 우리 사귀어. 내일 데이트야.",
-   "note": "반전으로 관계 공개, 여성이 먼저",
+   "note": "관계 공개",
    "tags": [
     "draft"
    ],
@@ -473,7 +473,7 @@
    "es": "Danke. Die Party lassen wir aber aus.",
    "rd": "당케. 디 파어튀 라센 비어 아버 아우스.",
    "ko": "고마워. 파티는 빠질게.",
-   "note": "재미있게 마무리",
+   "note": "",
    "tags": [
     "draft"
    ],

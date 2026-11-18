@@ -277,7 +277,7 @@
    "es": "Probleme: keine Fahrradkarte, falscher Wagen, und die Karte ist abgelaufen.",
    "rd": "프로블레메: 카이네 파라트카어테, 팔서 바겐, 운트 디 카어테 이스트 아프게라우펜.",
    "ko": "문제: 자전거 표 없고, 잘못된 칸, 그리고 표가 만료됐어요.",
-   "note": "반전 카오스, 여러 문제 지적",
+   "note": "여러 문제 지적",
    "tags": [
     "draft"
    ],
@@ -452,7 +452,7 @@
    "es": "Nein, diesmal nur eine Warnung. Guten Tag.",
    "rd": "나인, 디스말 누어 아이네 바어눙. 구텐 탁.",
    "ko": "아니요, 이번엔 경고만 할게요. 안녕히 가세요.",
-   "note": "정중히 마무리",
+   "note": "",
    "tags": [
     "draft"
    ],
