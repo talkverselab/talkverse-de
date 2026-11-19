@@ -1,0 +1,139 @@
+{
+ "id": "l1_ep1",
+ "region": "R1",
+ "island": "l1",
+ "kind": "short",
+ "title": "첫 인사",
+ "scene": "언어교환 앱에서 처음 말을 건다 — 레나는 민준의 메시지가 번역기 같다고 의심한다",
+ "speakers": {
+  "A": "Minjun",
+  "B": "Lena"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "emotion",
+ "flags": [],
+ "expressions": [],
+ "level": "1 기초",
+ "outline": true,
+ "words": [
+  "Hallo",
+  "Echt?",
+  "Na klar",
+  "Korea",
+  "Deutsch",
+  "jeden Tag",
+  "Berlin",
+  "zwei Monate"
+ ],
+ "must": [
+  "표현 풀 낱말(Hallo, Echt?, Na klar)을 대사에 그대로 넣는다.",
+  "R0~R2: du·단수만 — wir·uns·unser·ihr·euch·euer·Sie 를 쓰지 않는다."
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "beat": "이름을 대며 인사하고 너는? 하고 묻는다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "beat": "자기 이름을 말하고 어디서 왔냐고 묻는다",
+   "emotion": "curious",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "beat": "한국에서 왔고 독일어를 배운다고 한다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "beat": "독일어가 벌써 너무 좋다며 번역기 쓰냐고 놀린다",
+   "emotion": "teasing",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "beat": "펄쩍 뛰며 아니라고, 매일 연습한다고 한다",
+   "emotion": "flustered",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "beat": "그럼 베를린에 사냐고 시험하듯 묻는다",
+   "emotion": "curious",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "beat": "응, 두 달 됐다고 한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "beat": "증거로 도시를 보여 달라며 자기가 안내하겠다고 한다(반전: 레나가 먼저 만나자고 함)",
+   "emotion": "excited",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  }
+ ]
+}

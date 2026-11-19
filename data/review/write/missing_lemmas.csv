@@ -1,11 +1,12 @@
 lemma,count,example
 Brezel,10,Eine Brezel. Willst du auch eine?
-Oh,8,Oh Mann! Wie war's?
-mia,7,Mia? Moment mal!
+Oh,9,Oh Mann! Du bist das!
+mia,6,Mia? Moment mal!
 tut,5,Tut mir leid!
 Café,5,Wie lange denn? Ich sitz schon im Café und warte 😤
+super,4,Echt? Dein Deutsch ist schon super! Übersetzer?
 ernsthaft,4,Ernsthaft? Warum bist du hier?
-super,3,Die liegt hier. Gestern war super!
+wussten,3,"Sorry, ich wusste nicht."
 Konzert,3,Echt jetzt? Das Konzert war gut?
 aussteigen,3,Wann aussteigen? Sag mal.
 warst,3,"Mia, du warst mega! Ich höre jetzt nichts mehr 😂"
@@ -24,7 +25,6 @@ Lampe,2,Und die Lampe?
 Tresen,2,Voll! Der Tresen ist nur Schaum. Haha.
 mega,2,"Mia, du warst mega! Ich höre jetzt nichts mehr 😂"
 Hausaufgabe,2,Hast du die Hausaufgabe fertig?
-wussten,2,Tut mir leid. Ich wusste das nicht.
 Mitbewohner,2,Mein Mitbewohner hat eine Tabelle dafür.
 übertreibst,2,"Felix, du übertreibst mal wieder total."
 Miete,2,Wie hoch ist die Miete?
@@ -39,6 +39,11 @@ sortieren,2,Alles nach Farbe sortiert. Grün für den Vertrag.
 Ordner,2,Die liegt im blauen Ordner. Ganz oben.
 Rhythmus,2,"Sag mal, der Rhythmus, den du auf den Tisch trommelst, ist fast Musik."
 Präsentation,2,"Ernsthaft? Ich dachte, er hasst die Präsentation."
+Übersetzer,1,Echt? Dein Deutsch ist schon super! Übersetzer?
+willst,1,Was willst du trinken?
+willen,1,"Ja, ich hab frei. Was willst du?"
+Ausgang,1,Alles klar. Viele Ausgänge. Ruf mich an! Bis dann.
+geweinen,1,Hast du geweint?
 war's,1,Oh Mann! Wie war's?
 Äh,1,Äh... gut.
 Schirm,1,Kleiner Schirm.
@@ -58,7 +63,8 @@ magst,1,Du magst dich? Okay … und mich?
 Stick,1,Ein Stick.
 nimmsen,1,"Hey, nimmst du mal ein Foto von mir?"
 gemein,1,Deutsch ist echt gemein. Ich schreib das auf.
-Butter,1,Gerne. Mit Butter?
+’s,1,Was darf’s sein?
+Butter,1,Mit Butter?
 einsteigen,1,"Genau, eine Station zu früh. Einsteigen?"
 Knopf,1,Milch rein. Knopf drücken. Nicht zu heiß.
 Becher,1,Lecker! Nächstes Mal du in den Becher.
@@ -76,7 +82,8 @@ Gute,1,"Felix, du bist der Beste!"
 grad,1,"Hey, ich bin grad einkaufen. Brauchst du noch was?"
 Käse,1,"Käse, Äpfel und Klopapier auch noch!"
 Äpfel,1,"Käse, Äpfel und Klopapier auch noch!"
-Taß,1,Der Kaffee? Die Tasse ist seit zwei Stunden leer.
+Taß,1,Die Tasse ist seit zwei Stunden leer.
+zumachen,1,"Warte mal. Weißt du, warum ich immer langsam zumache?"
 schläfen,1,"Hey, schläfst du schon? 🌙"
 Zoom,1,Zoom mal hinter dich.
 umdrehen,1,"Hör auf, wenn du dich umdrehst, ist der Spaß weg."

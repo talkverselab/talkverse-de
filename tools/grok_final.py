@@ -3,7 +3,7 @@
 턴 번호·화자 순서가 원본(assets 또는 data/drafts)과 다르면 쓰지 않고 MISMATCH.   grok_final.py <편>..."""
 import json, glob, re, sys
 for id_ in sys.argv[1:]:
-    src = (glob.glob(f'assets/data/dialogues/R*/*/{id_}.json') + glob.glob(f'data/drafts/R*/*/{id_}.json'))[0]
+    src = (glob.glob(f'assets/data/dialogues/R*/*/{id_}.json') + glob.glob(f'data/drafts/*/*/{id_}.json'))[0]
     d = json.load(open(src))
     inv = {v: k for k, v in d['speakers'].items()} | {k: k for k in d['speakers']} | {'{name}': 'A'}
     out, bad, rec = [], [], ''

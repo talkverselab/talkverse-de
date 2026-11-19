@@ -30,36 +30,28 @@
    "id": "ep1",
    "title": "첫 인사",
    "emoji": "💕",
-   "scenario": "언어교환 앱에서 처음 말을 건다",
+   "scenario": "언어교환 앱에서 처음 말을 건다 — 레나는 민준의 메시지가 번역기 같다고 의심한다",
    "turns": [
     {
      "num": 1,
      "speaker": "A",
      "es": "Hallo! Ich bin Minjun. Und du?",
-     "rd": "할로! 이히 빈 민준. 운트 두?",
+     "rd": "할로! 이히 빈 민윤. 운트 두?",
      "ko": "안녕! 나는 민준이야. 너는?",
-     "note": "du = 너(반말)",
-     "tags": [
-      "draft"
-     ],
-     "lemmas": []
+     "note": "인사하고 이름과 상대를 묻기",
+     "tags": [],
+     "lemmas": [],
+     "emotion": "cheerful"
     },
     {
      "num": 2,
      "speaker": "B",
-     "es": "Hi, ich heiße Lena. Woher kommst du?",
-     "rd": "하이, 이히 하이세 레나. 보헤어 콤스트 두?",
-     "ko": "안녕, 나는 레나야. 어디에서 왔어?",
-     "note": "woher = 어디에서",
-     "tags": [
-      "draft"
-     ],
+     "es": "Ich bin Lena. Woher kommst du?",
+     "rd": "이히 빈 레나. 보헤어 콤스트 두?",
+     "ko": "나는 레나야. 어디서 왔어?",
+     "note": "이름 말하고 출신 묻는 흐름으로 씀",
+     "tags": [],
      "lemmas": [
-      [
-       "heiße",
-       "heißen",
-       "하이센"
-      ],
       [
        "Woher",
        "woher",
@@ -70,18 +62,17 @@
        "kommen",
        "코멘"
       ]
-     ]
+     ],
+     "emotion": "curious"
     },
     {
      "num": 3,
      "speaker": "A",
      "es": "Ich komme aus Korea. Ich lerne Deutsch.",
-     "rd": "이히 코메 아우스 코레아. 이히 레르네 도이치.",
-     "ko": "한국에서 왔어. 독일어를 배우고 있어.",
-     "note": "aus + 나라",
-     "tags": [
-      "draft"
-     ],
+     "rd": "이히 콤메 아우스 코레아. 이히 레어네 도이치.",
+     "ko": "나는 한국에서 왔어. 독일어를 배워.",
+     "note": "한국·독일어 학습을 짧게 넣음",
+     "tags": [],
      "lemmas": [
       [
        "komme",
@@ -98,19 +89,23 @@
        "deutsch",
        "도이치"
       ]
-     ]
+     ],
+     "emotion": "cheerful"
     },
     {
      "num": 4,
      "speaker": "B",
-     "es": "Cool! Dein Deutsch ist schon gut.",
-     "rd": "쿨! 다인 도이치 이스트 숀 구트.",
-     "ko": "멋지다! 네 독일어 벌써 좋은데.",
-     "note": "schon = 벌써",
-     "tags": [
-      "draft"
-     ],
+     "es": "Echt? Dein Deutsch ist schon super! Übersetzer?",
+     "rd": "에히트? 다인 도이치 이스트 숀 주퍼! 위베어제처?",
+     "ko": "진짜? 네 독일어가 벌써 완전 좋아! 번역기 쓰니?",
+     "note": "놀리며 번역기 의심하는 톤으로",
+     "tags": [],
      "lemmas": [
+      [
+       "Echt",
+       "echt",
+       "에히트"
+      ],
       [
        "Deutsch",
        "deutsch",
@@ -122,28 +117,27 @@
        "숀"
       ],
       [
-       "gut",
-       "gut",
-       "구트"
+       "super",
+       "super",
+       ""
+      ],
+      [
+       "Übersetzer",
+       "Übersetzer",
+       ""
       ]
-     ]
+     ],
+     "emotion": "teasing"
     },
     {
      "num": 5,
      "speaker": "A",
-     "es": "Danke! Ich übe jeden Tag.",
-     "rd": "당케! 이히 위베 예덴 탁.",
-     "ko": "고마워! 매일 연습해.",
-     "note": "jeden Tag = 매일",
-     "tags": [
-      "draft"
-     ],
+     "es": "Nein! Ich übe jeden Tag.",
+     "rd": "나인! 이히 위베 예덴 탁.",
+     "ko": "아니야! 나는 매일 연습해.",
+     "note": "펄쩍 뛰며 매일 연습한다고 강조",
+     "tags": [],
      "lemmas": [
-      [
-       "Danke",
-       "Dank",
-       "당크"
-      ],
       [
        "übe",
        "üben",
@@ -154,56 +148,53 @@
        "Tag",
        "탁"
       ]
-     ]
+     ],
+     "emotion": "flustered"
     },
     {
      "num": 6,
      "speaker": "B",
      "es": "Wohnst du in Berlin?",
-     "rd": "본스트 두 인 베를린?",
+     "rd": "본스트 두 인 베어린?",
      "ko": "베를린에 살아?",
-     "note": "wohnen = 살다",
-     "tags": [
-      "draft"
-     ],
-     "lemmas": []
+     "note": "시험하듯 짧게 물어봄",
+     "tags": [],
+     "lemmas": [],
+     "emotion": "curious"
     },
     {
      "num": 7,
      "speaker": "A",
      "es": "Ja, seit zwei Monaten.",
      "rd": "야, 자이트 츠바이 모나텐.",
-     "ko": "응, 두 달 전부터.",
-     "note": "seit = ~이래로",
-     "tags": [
-      "draft"
-     ],
+     "ko": "응, 두 달 됐어.",
+     "note": "두 달 사실을 간단히 확인",
+     "tags": [],
      "lemmas": [
       [
        "Monaten",
        "Monat",
        "모나트"
       ]
-     ]
+     ],
+     "emotion": "cheerful"
     },
     {
      "num": 8,
      "speaker": "B",
-     "es": "Dann zeige ich dir die Stadt!",
-     "rd": "단 차이게 이히 디어 디 슈타트!",
-     "ko": "그럼 내가 도시를 보여 줄게!",
-     "note": "dir = 너에게",
-     "tags": [
-      "draft"
-     ],
+     "es": "Na klar! Zeig mir die Stadt. Ich führe dich!",
+     "rd": "나 클라어! 차이히 미어 디 슈타트. 이히 퓌레 디히!",
+     "ko": "그럼! 도시를 보여줘. 내가 안내할게!",
+     "note": "레나가 먼저 만나자고 제안",
+     "tags": [],
      "lemmas": [
       [
-       "Dann",
-       "dann",
-       "단"
+       "klar",
+       "klar",
+       "클라어"
       ],
       [
-       "zeige",
+       "Zeig",
        "zeigen",
        "차이겐"
       ],
@@ -211,79 +202,76 @@
        "Stadt",
        "Stadt",
        "슈타트"
+      ],
+      [
+       "führe",
+       "führen",
+       "퓌렌"
       ]
-     ]
+     ],
+     "emotion": "excited"
     }
-   ]
+   ],
+   "review": {
+    "grok_rewrite": "data/review/grok/out/l1_ep1.md",
+    "model": "빠른",
+    "final": "data/review/final/l1_ep1.txt"
+   }
   },
   {
    "id": "ep2",
    "title": "카페에서",
    "emoji": "☕",
-   "scenario": "처음 만나 카페에서 주문한다",
+   "scenario": "처음 만나 카페에서 주문한다 — 둘 다 서로 사겠다고 고집한다",
    "turns": [
     {
      "num": 1,
      "speaker": "B",
-     "es": "Was möchtest du trinken?",
-     "rd": "바스 뫼히테스트 두 트링켄?",
-     "ko": "뭐 마실래?",
-     "note": "möchten = ~하고 싶다",
-     "tags": [
-      "draft"
-     ],
+     "es": "Was willst du trinken?",
+     "rd": "바스 빌스트 두 트링켄?",
+     "ko": "뭐 마실 거야?",
+     "note": "밝게 물어봄",
+     "tags": [],
      "lemmas": [
       [
-       "möchtest",
-       "möchten",
-       "뫼히텐"
+       "willst",
+       "willst",
+       ""
       ],
       [
        "trinken",
        "trinken",
        "트링켄"
       ]
-     ]
+     ],
+     "emotion": "cheerful"
     },
     {
      "num": 2,
      "speaker": "A",
-     "es": "Einen Kaffee, bitte. Und du?",
-     "rd": "아이넨 카페, 비테. 운트 두?",
-     "ko": "커피 하나, 부탁해. 너는?",
-     "note": "einen = 하나(남성 4격)",
-     "tags": [
-      "draft"
-     ],
+     "es": "Einen Kaffee. Und du?",
+     "rd": "아이넨 카페. 운트 두?",
+     "ko": "커피 하나. 너는?",
+     "note": "주문하고 되물음",
+     "tags": [],
      "lemmas": [
       [
        "Kaffee",
        "Kaffee",
        "카페"
-      ],
-      [
-       "bitte",
-       "bitte",
-       "비테"
       ]
-     ]
+     ],
+     "emotion": "neutral"
     },
     {
      "num": 3,
      "speaker": "B",
-     "es": "Ich nehme einen Tee mit Milch.",
-     "rd": "이히 네메 아이넨 테 미트 밀히.",
-     "ko": "나는 우유 넣은 차로 할게.",
-     "note": "nehmen = 고르다·먹다",
-     "tags": [
-      "draft"
-     ],
+     "es": "Tee mit Milch.",
+     "rd": "테 미트 밀히.",
+     "ko": "우유 넣은 차.",
+     "note": "짧게 답함",
+     "tags": [],
      "lemmas": [
-      [
-       "nehme",
-       "nehmen",
-       "네멘"
-      ],
       [
        "Tee",
        "Tee",
@@ -294,7 +282,8 @@
        "Milch",
        "밀히"
       ]
-     ]
+     ],
+     "emotion": "neutral"
     },
     {
      "num": 4,
@@ -302,10 +291,8 @@
      "es": "Ist der Kuchen hier gut?",
      "rd": "이스트 데어 쿠헨 히어 구트?",
      "ko": "여기 케이크 맛있어?",
-     "note": "der Kuchen(남성)",
-     "tags": [
-      "draft"
-     ],
+     "note": "호기심에 물어봄",
+     "tags": [],
      "lemmas": [
       [
        "Kuchen",
@@ -322,107 +309,61 @@
        "gut",
        "구트"
       ]
-     ]
+     ],
+     "emotion": "cheerful"
     },
     {
      "num": 5,
      "speaker": "B",
-     "es": "Sehr gut! Der Apfelkuchen ist mein Favorit.",
-     "rd": "제어 구트! 데어 아펠쿠헨 이스트 마인 파보리트.",
-     "ko": "엄청! 애플 케이크가 내 최애야.",
-     "note": "mein = 나의",
-     "tags": [
-      "draft"
-     ],
+     "es": "Apfelkuchen! Lecker!",
+     "rd": "아펠쿠헨! 레커!",
+     "ko": "애플케이크! 맛있어!",
+     "note": "최애라며 흥분",
+     "tags": [],
      "lemmas": [
-      [
-       "Sehr",
-       "sehr",
-       "제어"
-      ],
-      [
-       "gut",
-       "gut",
-       "구트"
-      ],
       [
        "Apfelkuchen",
        "Apfelkuchen",
        "아펠쿠헨"
-      ],
-      [
-       "Favorit",
-       "Favorit",
-       "파보리트"
       ]
-     ]
+     ],
+     "emotion": "excited"
     },
     {
      "num": 6,
      "speaker": "A",
-     "es": "Dann nehmen wir zwei Stück.",
-     "rd": "단 네멘 비어 츠바이 슈튁.",
-     "ko": "그럼 두 조각 시키자.",
-     "note": "wir = 우리",
-     "tags": [
-      "draft"
-     ],
+     "es": "Gerne. Ich kauf dir ein Stück.",
+     "rd": "게르네. 이히 카우프 디어 아인 슈튁.",
+     "ko": "그래. 케이크 한 조각 사 줄게.",
+     "note": "사 주겠다고 함",
+     "tags": [],
      "lemmas": [
       [
-       "Dann",
-       "dann",
-       "단"
+       "Gerne",
+       "gern",
+       "게언"
       ],
       [
-       "nehmen",
-       "nehmen",
-       "네멘"
+       "kauf",
+       "kaufen",
+       "카우펜"
       ],
       [
        "Stück",
        "Stück",
        "슈튁"
       ]
-     ]
+     ],
+     "emotion": "cheerful"
     },
     {
      "num": 7,
      "speaker": "B",
-     "es": "Perfekt. Ich lade dich ein.",
-     "rd": "페어펙트. 이히 라데 디히 아인.",
-     "ko": "완벽해. 내가 살게.",
-     "note": "einladen = 초대하다·사다",
-     "tags": [
-      "draft"
-     ],
-     "lemmas": [
-      [
-       "Perfekt",
-       "perfekt",
-       "페어펙트"
-      ],
-      [
-       "lade",
-       "laden",
-       "라덴"
-      ],
-      [
-       "ein",
-       "ein",
-       "아인"
-      ]
-     ]
-    },
-    {
-     "num": 8,
-     "speaker": "A",
-     "es": "Nein, nein, heute zahle ich!",
-     "rd": "나인, 나인, 호이테 찰레 이히!",
-     "ko": "아니 아니, 오늘은 내가 낼게!",
-     "note": "zahlen = 지불하다",
-     "tags": [
-      "draft"
-     ],
+     "es": "Nein, heute zahl ich.",
+     "rd": "나인, 호이테 찰 이히.",
+     "ko": "아니, 오늘은 내가 내.",
+     "note": "장난으로 반대",
+     "tags": [],
      "lemmas": [
       [
        "heute",
@@ -430,19 +371,52 @@
        "호이테"
       ],
       [
-       "zahle",
+       "zahl",
        "zahlen",
        "찰렌"
       ]
-     ]
+     ],
+     "emotion": "teasing"
+    },
+    {
+     "num": 8,
+     "speaker": "A",
+     "es": "Auf keinen Fall! Heute zahl ich.",
+     "rd": "아우프 카이넨 팔! 호이테 찰 이히.",
+     "ko": "절대 안 돼! 오늘은 내가 내.",
+     "note": "고집하며 웃음",
+     "tags": [],
+     "lemmas": [
+      [
+       "Fall",
+       "Fall",
+       "팔"
+      ],
+      [
+       "Heute",
+       "heute",
+       "호이테"
+      ],
+      [
+       "zahl",
+       "zahlen",
+       "찰렌"
+      ]
+     ],
+     "emotion": "flustered"
     }
-   ]
+   ],
+   "review": {
+    "grok_rewrite": "data/review/grok/out/l1_ep2.md",
+    "model": "빠른",
+    "final": "data/review/final/l1_ep2.txt"
+   }
   },
   {
    "id": "ep3",
    "title": "길 묻기",
    "emoji": "🗺️",
-   "scenario": "박물관 가는 길을 묻는다",
+   "scenario": "박물관 가는 길을 헤매다 모르는 사람인 줄 알고 물었는데 레나였다",
    "turns": [
     {
      "num": 1,
@@ -450,10 +424,8 @@
      "es": "Entschuldigung, wo ist das Museum?",
      "rd": "엔트슐디궁, 보 이스트 다스 무제움?",
      "ko": "실례합니다, 박물관이 어디예요?",
-     "note": "wo = 어디",
-     "tags": [
-      "draft"
-     ],
+     "note": "등을 돌린 사람에게 길을 물음",
+     "tags": [],
      "lemmas": [
       [
        "Entschuldigung",
@@ -465,21 +437,59 @@
        "Museum",
        "무제움"
       ]
-     ]
+     ],
+     "emotion": "polite"
     },
     {
      "num": 2,
      "speaker": "B",
-     "es": "Geh geradeaus und dann links.",
-     "rd": "게 게라데아우스 운트 단 링크스.",
-     "ko": "직진하다가 왼쪽으로 가.",
-     "note": "geradeaus = 직진",
-     "tags": [
-      "draft"
-     ],
+     "es": "Oh Mann! Du bist das!",
+     "rd": "오 만! 두 비스트 다스!",
+     "ko": "이런! 너구나!",
+     "note": "돌아보니 레나, 놀라며",
+     "tags": [],
      "lemmas": [
       [
-       "geradeaus",
+       "Oh",
+       "Oh",
+       ""
+      ],
+      [
+       "Mann",
+       "Mann",
+       "만"
+      ]
+     ],
+     "emotion": "surprised"
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "es": "Sorry, ich wusste nicht.",
+     "rd": "조뤼, 이히 부스테 니히트.",
+     "ko": "미안, 몰랐어.",
+     "note": "민망해하며 사과",
+     "tags": [],
+     "lemmas": [
+      [
+       "wusste",
+       "wussten",
+       ""
+      ]
+     ],
+     "emotion": "flustered"
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "es": "Geradeaus, dann links.",
+     "rd": "게라데아우스, 단 링크스.",
+     "ko": "곧장 가다 왼쪽.",
+     "note": "길을 알려줌",
+     "tags": [],
+     "lemmas": [
+      [
+       "Geradeaus",
        "geradeaus",
        "게라데아우스"
       ],
@@ -493,42 +503,35 @@
        "links",
        "링크스"
       ]
-     ]
+     ],
+     "emotion": "cheerful"
     },
     {
-     "num": 3,
+     "num": 5,
      "speaker": "A",
      "es": "Ist es weit?",
      "rd": "이스트 에스 바이트?",
      "ko": "멀어?",
-     "note": "weit = 먼",
-     "tags": [
-      "draft"
-     ],
+     "note": "거리를 물어봄",
+     "tags": [],
      "lemmas": [
       [
        "weit",
        "weit",
        "바이트"
       ]
-     ]
+     ],
+     "emotion": "neutral"
     },
     {
-     "num": 4,
+     "num": 6,
      "speaker": "B",
-     "es": "Nein, nur fünf Minuten zu Fuß.",
-     "rd": "나인, 누어 퓐프 미누텐 추 푸스.",
-     "ko": "아니, 걸어서 5분이야.",
-     "note": "zu Fuß = 걸어서",
-     "tags": [
-      "draft"
-     ],
+     "es": "Fünf Minuten zu Fuß. Bis achtzehn Uhr.",
+     "rd": "퓐프 미누텐 추 푸스. 비스 아흐첸 우어.",
+     "ko": "걸어서 5분. 18시까지.",
+     "note": "시간과 거리를 알려줌",
+     "tags": [],
      "lemmas": [
-      [
-       "nur",
-       "nur",
-       "누어"
-      ],
       [
        "Minuten",
        "Minute",
@@ -538,49 +541,14 @@
        "Fuß",
        "Fuß",
        "푸스"
-      ]
-     ]
-    },
-    {
-     "num": 5,
-     "speaker": "A",
-     "es": "Super. Hat es heute geöffnet?",
-     "rd": "주퍼. 하트 에스 호이테 게외프네트?",
-     "ko": "좋다. 오늘 열었어?",
-     "note": "geöffnet = 열린",
-     "tags": [
-      "draft"
-     ],
-     "lemmas": [
-      [
-       "heute",
-       "heute",
-       "호이테"
       ],
-      [
-       "geöffnet",
-       "öffnen",
-       "외프넨"
-      ]
-     ]
-    },
-    {
-     "num": 6,
-     "speaker": "B",
-     "es": "Ja, bis 18 Uhr.",
-     "rd": "야, 비스 아흐첸 우어.",
-     "ko": "응, 18시까지.",
-     "note": "bis = ~까지",
-     "tags": [
-      "draft"
-     ],
-     "lemmas": [
       [
        "Uhr",
        "Uhr",
        "우어"
       ]
-     ]
+     ],
+     "emotion": "neutral"
     },
     {
      "num": 7,
@@ -588,28 +556,25 @@
      "es": "Kommst du mit?",
      "rd": "콤스트 두 미트?",
      "ko": "같이 갈래?",
-     "note": "mitkommen = 같이 가다",
-     "tags": [
-      "draft"
-     ],
+     "note": "수줍게 제안",
+     "tags": [],
      "lemmas": [
       [
        "Kommst",
        "kommen",
        "코멘"
       ]
-     ]
+     ],
+     "emotion": "shy"
     },
     {
      "num": 8,
      "speaker": "B",
-     "es": "Gerne! Ich liebe Kunst.",
-     "rd": "게르네! 이히 리베 쿤스트.",
-     "ko": "좋아! 나 예술 좋아해.",
-     "note": "gerne = 기꺼이",
-     "tags": [
-      "draft"
-     ],
+     "es": "Gerne! Ich mag Kunst.",
+     "rd": "게르네! 이히 마크 쿤스트.",
+     "ko": "좋아! 예술을 좋아해.",
+     "note": "흥분하며 동의",
+     "tags": [],
      "lemmas": [
       [
        "Gerne",
@@ -617,35 +582,39 @@
        "게언"
       ],
       [
-       "liebe",
-       "lieben",
-       "리벤"
+       "mag",
+       "mögen",
+       "뫼겐"
       ],
       [
        "Kunst",
        "Kunst",
        "쿤스트"
       ]
-     ]
+     ],
+     "emotion": "excited"
     }
-   ]
+   ],
+   "review": {
+    "grok_rewrite": "data/review/grok/out/l1_ep3.md",
+    "model": "빠른",
+    "final": "data/review/final/l1_ep3.txt"
+   }
   },
   {
    "id": "ep4",
    "title": "약속 잡기",
    "emoji": "📅",
-   "scenario": "주말에 만날 약속을 잡는다",
+   "scenario": "주말 약속을 잡는다 — 만날 곳을 정했는데 서로 다른 곳을 떠올린다",
    "turns": [
     {
      "num": 1,
      "speaker": "B",
-     "es": "Hast du am Samstag Zeit?",
-     "rd": "하스트 두 암 잠스탁 차이트?",
+     "es": "Hast du Samstag Zeit?",
+     "rd": "하스트 두 잠스탁 차이트?",
      "ko": "토요일에 시간 있어?",
-     "note": "am + 요일",
-     "tags": [
-      "draft"
-     ],
+     "note": "시간 있는지 물어봄",
+     "tags": [],
      "lemmas": [
       [
        "Samstag",
@@ -657,21 +626,20 @@
        "Zeit",
        "차이트"
       ]
-     ]
+     ],
+     "emotion": "cheerful"
     },
     {
      "num": 2,
      "speaker": "A",
-     "es": "Ja, ich habe frei. Was machen wir?",
-     "rd": "야, 이히 하베 프라이. 바스 마헨 비어?",
-     "ko": "응, 쉬어. 뭐 할까?",
-     "note": "frei haben = 쉬다",
-     "tags": [
-      "draft"
-     ],
+     "es": "Ja, ich hab frei. Was willst du?",
+     "rd": "야, 이히 합 프라이. 바스 빌스트 두?",
+     "ko": "응, 쉬어. 너는 뭐 하고 싶어?",
+     "note": "쉬고 되물음",
+     "tags": [],
      "lemmas": [
       [
-       "habe",
+       "hab",
        "haben",
        "하벤"
       ],
@@ -681,45 +649,38 @@
        "프라이"
       ],
       [
-       "machen",
-       "machen",
-       "마헨"
+       "willst",
+       "willen",
+       ""
       ]
-     ]
+     ],
+     "emotion": "cheerful"
     },
     {
      "num": 3,
      "speaker": "B",
-     "es": "Wir könnten ins Kino gehen.",
-     "rd": "비어 쾬텐 인스 키노 게엔.",
-     "ko": "영화관에 갈 수도 있지.",
-     "note": "könnten = ~할 수 있을 텐데",
-     "tags": [
-      "draft"
-     ],
+     "es": "Ich will ins Kino.",
+     "rd": "이히 빌 인스 키노.",
+     "ko": "나는 영화 보고 싶어.",
+     "note": "영화 제안",
+     "tags": [],
      "lemmas": [
       [
        "Kino",
        "Kino",
        "키노"
-      ],
-      [
-       "gehen",
-       "gehen",
-       "게엔"
       ]
-     ]
+     ],
+     "emotion": "excited"
     },
     {
      "num": 4,
      "speaker": "A",
-     "es": "Gute Idee! Um wie viel Uhr?",
-     "rd": "구테 이데! 움 비 필 우어?",
-     "ko": "좋은 생각! 몇 시에?",
-     "note": "um wie viel Uhr = 몇 시에",
-     "tags": [
-      "draft"
-     ],
+     "es": "Gute Idee. Um wie viel Uhr?",
+     "rd": "구테 이데. 움 비 필 우어?",
+     "ko": "좋은 생각. 몇 시?",
+     "note": "동의하고 시간 물음",
+     "tags": [],
      "lemmas": [
       [
        "Gute",
@@ -736,123 +697,128 @@
        "Uhr",
        "우어"
       ]
-     ]
+     ],
+     "emotion": "cheerful"
     },
     {
      "num": 5,
      "speaker": "B",
-     "es": "Um sieben? Danach essen wir etwas.",
-     "rd": "움 지벤? 다나흐 에센 비어 에트바스.",
-     "ko": "7시? 그 다음에 뭐 좀 먹자.",
-     "note": "danach = 그 후에",
-     "tags": [
-      "draft"
-     ],
+     "es": "Sieben Uhr. Dann essen.",
+     "rd": "지벤 우어. 단 에센.",
+     "ko": "7시. 그 뒤에 먹자.",
+     "note": "시간 말하고 식사 제안",
+     "tags": [],
      "lemmas": [
       [
-       "Danach",
-       "danach",
-       "다나흐"
+       "Uhr",
+       "Uhr",
+       "우어"
+      ],
+      [
+       "Dann",
+       "dann",
+       "단"
       ],
       [
        "essen",
        "essen",
        "에센"
       ]
-     ]
+     ],
+     "emotion": "cheerful"
     },
     {
      "num": 6,
      "speaker": "A",
-     "es": "Klingt gut. Wo treffen wir uns?",
-     "rd": "클링트 구트. 보 트레펜 비어 운스?",
-     "ko": "좋아. 어디서 만나?",
-     "note": "sich treffen = 만나다",
-     "tags": [
-      "draft"
-     ],
+     "es": "Wo siehst du mich?",
+     "rd": "보 지스트 두 미히?",
+     "ko": "어디서 봐?",
+     "note": "장소 물어봄",
+     "tags": [],
      "lemmas": [
-      [
-       "Klingt",
-       "klingen",
-       "클링엔"
-      ],
-      [
-       "gut",
-       "gut",
-       "구트"
-      ],
       [
        "Wo",
        "wo",
        "보"
       ],
       [
-       "treffen",
-       "treffen",
-       "트레펜"
+       "siehst",
+       "sie",
+       "지"
       ]
-     ]
+     ],
+     "emotion": "neutral"
     },
     {
      "num": 7,
      "speaker": "B",
-     "es": "Am Alexanderplatz, vor dem Bahnhof.",
-     "rd": "암 알렉산더플라츠, 포어 뎀 반호프.",
-     "ko": "알렉산더 광장, 역 앞에서.",
-     "note": "vor + 3격 = ~앞에",
-     "tags": [
-      "draft"
-     ],
+     "es": "Vor dem Bahnhof.",
+     "rd": "포어 뎀 반호프.",
+     "ko": "역 앞에서.",
+     "note": "장소 알려줌",
+     "tags": [],
      "lemmas": [
       [
        "Bahnhof",
        "Bahnhof",
        "반호프"
       ]
-     ]
+     ],
+     "emotion": "neutral"
     },
     {
      "num": 8,
      "speaker": "A",
-     "es": "Okay, bis Samstag!",
-     "rd": "오케이, 비스 잠스탁!",
-     "ko": "알았어, 토요일에 봐!",
-     "note": "bis + 시간 = ~에 보자",
-     "tags": [
-      "draft"
-     ],
+     "es": "Alles klar. Viele Ausgänge. Ruf mich an! Bis dann.",
+     "rd": "알레스 클라어. 피레 아우스겡에. 루프 미히 안! 비스 단.",
+     "ko": "알겠어. 출구가 많아. 전화해! 그럼 그때 봐.",
+     "note": "걱정하다 전화하라며 끝",
+     "tags": [],
      "lemmas": [
       [
-       "Okay",
-       "Okay",
-       "오케이"
+       "klar",
+       "klar",
+       "클라어"
       ],
       [
-       "Samstag",
-       "Samstag",
-       "잠스탁"
+       "Ausgänge",
+       "Ausgang",
+       ""
+      ],
+      [
+       "Ruf",
+       "rufen",
+       "루펜"
+      ],
+      [
+       "dann",
+       "dann",
+       "단"
       ]
-     ]
+     ],
+     "emotion": "worried"
     }
-   ]
+   ],
+   "review": {
+    "grok_rewrite": "data/review/grok/out/l1_ep4.md",
+    "model": "빠른",
+    "final": "data/review/final/l1_ep4.txt"
+   }
   },
   {
    "id": "ep5",
    "title": "감정 말하기",
    "emoji": "💬",
-   "scenario": "영화를 보고 나서 마음을 전한다",
+   "scenario": "영화를 보고 나서 마음을 전한다 — 슬픈 결말에 레나가 울었다는 걸 민준이 눈치챈다",
    "turns": [
     {
      "num": 1,
      "speaker": "A",
-     "es": "Der Film war wirklich schön.",
-     "rd": "데어 필름 바르 비어클리히 쇤.",
-     "ko": "영화 정말 좋았어.",
-     "note": "war = ~였다(과거)",
-     "tags": [
-      "draft"
-     ],
+     "es": "Der Film war echt gut!",
+     "rd": "데어 필름 바어 에히트 구트!",
+     "ko": "영화 정말 좋았어!",
+     "note": "영화가 좋았다고 짧게",
+     "tags": [],
      "lemmas": [
       [
        "Film",
@@ -860,27 +826,26 @@
        "필름"
       ],
       [
-       "wirklich",
-       "wirklich",
-       "비어클리히"
+       "echt",
+       "echt",
+       "에히트"
       ],
       [
-       "schön",
-       "schön",
-       "쇤"
+       "gut",
+       "gut",
+       "구트"
       ]
-     ]
+     ],
+     "emotion": "cheerful"
     },
     {
      "num": 2,
      "speaker": "B",
      "es": "Ja, aber das Ende war traurig.",
-     "rd": "야, 아버 다스 엔데 바르 트라우리히.",
+     "rd": "야, 아버 다스 엔데 바어 트라우리히.",
      "ko": "응, 근데 결말이 슬펐어.",
-     "note": "aber = 하지만",
-     "tags": [
-      "draft"
-     ],
+     "note": "슬펐다며 아무렇지 않은 척",
+     "tags": [],
      "lemmas": [
       [
        "Ende",
@@ -892,36 +857,83 @@
        "traurig",
        "트라우리히"
       ]
-     ]
+     ],
+     "emotion": "sad"
     },
     {
      "num": 3,
      "speaker": "A",
-     "es": "Ich mag Filme mit dir.",
-     "rd": "이히 막 필메 미트 디어.",
-     "ko": "너랑 보는 영화가 좋아.",
-     "note": "mit dir = 너와",
-     "tags": [
-      "draft"
-     ],
+     "es": "Hast du geweint?",
+     "rd": "하스트 두 게바인트?",
+     "ko": "너 울었니?",
+     "note": "조심스레 물어보는 톤으로",
+     "tags": [],
      "lemmas": [
       [
-       "Filme",
-       "Film",
-       "필름"
+       "geweint",
+       "geweinen",
+       ""
       ]
-     ]
+     ],
+     "emotion": "gentle"
     },
     {
      "num": 4,
      "speaker": "B",
-     "es": "Ich auch. Du bist sehr nett.",
-     "rd": "이히 아우흐. 두 비스트 제어 네트.",
-     "ko": "나도. 너 참 다정해.",
-     "note": "auch = ~도",
-     "tags": [
-      "draft"
+     "es": "Nein... Ehrlich? Ein bisschen schon.",
+     "rd": "나인... 에얼리히? 아인 비스헨 숀.",
+     "ko": "아니야... 솔직히? 조금은 그랬어.",
+     "note": "부정하다가 조금 울었다고 인정",
+     "tags": [],
+     "lemmas": [
+      [
+       "Ehrlich",
+       "ehrlich",
+       "에얼리히"
+      ],
+      [
+       "bisschen",
+       "bisschen",
+       "비스헨"
+      ],
+      [
+       "schon",
+       "schon",
+       "숀"
+      ]
      ],
+     "emotion": "flustered"
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "es": "Mit dir ist der Film nett.",
+     "rd": "미트 디어 이스트 데어 필름 네트.",
+     "ko": "너랑 보는 영화가 좋아.",
+     "note": "너랑 보는 게 좋다고 수줍게",
+     "tags": [],
+     "lemmas": [
+      [
+       "Film",
+       "Film",
+       "필름"
+      ],
+      [
+       "nett",
+       "nett",
+       "네트"
+      ]
+     ],
+     "emotion": "shy"
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "es": "Ich auch. Du bist so nett.",
+     "rd": "이히 아우흐. 두 비스트 조 네트.",
+     "ko": "나도. 너 참 다정하다.",
+     "note": "나도 같고 다정하다고",
+     "tags": [],
      "lemmas": [
       [
        "auch",
@@ -929,35 +941,29 @@
        "아우흐"
       ],
       [
-       "sehr",
-       "sehr",
-       "제어"
+       "so",
+       "so",
+       "조"
       ],
       [
        "nett",
        "nett",
        "네트"
       ]
-     ]
+     ],
+     "emotion": "shy"
     },
     {
-     "num": 5,
+     "num": 7,
      "speaker": "A",
-     "es": "Sehen wir uns nächste Woche wieder?",
-     "rd": "제엔 비어 운스 넥스테 보헤 비더?",
-     "ko": "다음 주에 또 볼까?",
-     "note": "wieder = 다시",
-     "tags": [
-      "draft"
-     ],
+     "es": "Nächste Woche wieder?",
+     "rd": "네히스테 보헤 비더?",
+     "ko": "다음 주에 또 볼래?",
+     "note": "다음 주 제안",
+     "tags": [],
      "lemmas": [
       [
-       "Sehen",
-       "sehen",
-       "제엔"
-      ],
-      [
-       "nächste",
+       "Nächste",
        "nächst",
        "네히스트"
       ],
@@ -971,88 +977,47 @@
        "wieder",
        "비더"
       ]
-     ]
-    },
-    {
-     "num": 6,
-     "speaker": "B",
-     "es": "Natürlich. Schreib mir!",
-     "rd": "나튀어리히. 슈라입 미어!",
-     "ko": "당연하지. 문자해!",
-     "note": "schreib = 써(명령)",
-     "tags": [
-      "draft"
      ],
-     "lemmas": [
-      [
-       "Natürlich",
-       "natürlich",
-       "나튀얼리히"
-      ],
-      [
-       "Schreib",
-       "schreiben",
-       "슈라이벤"
-      ]
-     ]
-    },
-    {
-     "num": 7,
-     "speaker": "A",
-     "es": "Mache ich. Gute Nacht, Lena.",
-     "rd": "마헤 이히. 구테 나흐트, 레나.",
-     "ko": "그럴게. 잘 자, 레나.",
-     "note": "Gute Nacht = 잘 자",
-     "tags": [
-      "draft"
-     ],
-     "lemmas": [
-      [
-       "Mache",
-       "machen",
-       "마헨"
-      ],
-      [
-       "Gute",
-       "gut",
-       "구트"
-      ],
-      [
-       "Nacht",
-       "Nacht",
-       "나흐트"
-      ]
-     ]
+     "emotion": "shy"
     },
     {
      "num": 8,
      "speaker": "B",
-     "es": "Gute Nacht, Minjun. Bis bald!",
-     "rd": "구테 나흐트, 민준. 비스 발트!",
-     "ko": "잘 자, 민준. 곧 봐!",
-     "note": "bis bald = 곧 보자",
-     "tags": [
-      "draft"
-     ],
+     "es": "Na klar. Schlaf gut! Bis bald.",
+     "rd": "나 클라어. 슐라프 구트! 비스 발트.",
+     "ko": "당연하지. 잘 자! 곧 봐.",
+     "note": "잘 자, 곧 봐 인사",
+     "tags": [],
      "lemmas": [
       [
-       "Gute",
-       "gut",
-       "구트"
+       "klar",
+       "klar",
+       "클라어"
       ],
       [
-       "Nacht",
-       "Nacht",
-       "나흐트"
+       "Schlaf",
+       "schlafen",
+       "슐라펜"
+      ],
+      [
+       "gut",
+       "gut",
+       "구트"
       ],
       [
        "bald",
        "bald",
        "발트"
       ]
-     ]
+     ],
+     "emotion": "cheerful"
     }
-   ]
+   ],
+   "review": {
+    "grok_rewrite": "data/review/grok/out/l1_ep5.md",
+    "model": "빠른",
+    "final": "data/review/final/l1_ep5.txt"
+   }
   }
  ]
 }

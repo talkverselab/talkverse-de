@@ -1,0 +1,162 @@
+{
+ "id": "r2_love_b1",
+ "region": "R2",
+ "island": "love",
+ "kind": "long",
+ "title": "마지막 손님",
+ "emoji": "☕",
+ "scene": "문 닫기 직전의 카페. 매일 끝까지 남는 학습자에게 Mia 가 먼저 말을 건다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Mia"
+ },
+ "register": "casual",
+ "twist": 11,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "beat": "혼자 일하는 카페 주인 Mia 가 곧 문 닫는다며(ich) 아직도 있냐고 놀린다",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "teasing"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "beat": "독일어 공부 중이고 커피가 맛있어서라고 둘러댄다",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "flustered"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "beat": "잔이 두 시간째 비어 있다고 짚는다",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "teasing"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "beat": "놀라다가 천천히 마신다고 얼버무린다",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "beat": "책이 아직도 같은 쪽이라고 또 짚는다",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "teasing"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "beat": "인정하고 여기선 공부가 잘 안 된다고 한다",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "flustered"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "beat": "음악이 시끄러워서냐고 다정하게 묻는다",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "gentle"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "beat": "아니라고, 그냥… 하고 말을 흐린다",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "shy"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "beat": "그냥 뭐냐고 재촉한다",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "teasing"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "beat": "됐다며 내일 보자고 일어선다",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "flustered"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "beat": "붙잡으며 자기가 왜 매일 천천히 문을 닫는지 아냐고 묻는다(반전: Mia 도 기다렸다)",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "shy"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "beat": "그럼 커피 한 잔 더 달라고 앉는다",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "emotion": "shy"
+  }
+ ],
+ "words": [
+  "Echt?",
+  "Na ja",
+  "Warte mal",
+  "Sag mal",
+  "Kaffee",
+  "leer",
+  "langsam",
+  "Seite"
+ ],
+ "must": [
+  "표현 풀 낱말(Echt?, Na ja, Warte mal)을 대사에 그대로 넣는다.",
+  "R0~R2: du·단수만 — wir·uns·unser·ihr·euch·euer·Sie 를 쓰지 않는다."
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}

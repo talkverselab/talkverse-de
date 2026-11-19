@@ -1,0 +1,139 @@
+{
+ "id": "l1_ep3",
+ "region": "R1",
+ "island": "l1",
+ "kind": "short",
+ "title": "길 묻기",
+ "scene": "박물관 가는 길을 헤매다 모르는 사람인 줄 알고 물었는데 레나였다",
+ "speakers": {
+  "A": "Minjun",
+  "B": "Lena"
+ },
+ "register": "casual",
+ "twist": 2,
+ "twist_type": "emotion",
+ "flags": [],
+ "expressions": [],
+ "level": "1 기초",
+ "outline": true,
+ "words": [
+  "Entschuldigung",
+  "Oh Mann",
+  "Gerne",
+  "Museum",
+  "geradeaus",
+  "links",
+  "fünf Minuten",
+  "Kunst"
+ ],
+ "must": [
+  "표현 풀 낱말(Entschuldigung, Oh Mann, Gerne)을 대사에 그대로 넣는다.",
+  "R0~R2: du·단수만 — wir·uns·unser·ihr·euch·euer·Sie 를 쓰지 않는다."
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "beat": "등을 돌린 사람에게 실례한다며 박물관이 어디냐고 묻는다",
+   "emotion": "polite",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "beat": "돌아보니 레나 — 놀라며 너구나! 한다",
+   "emotion": "surprised",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "beat": "민망해하며 레나인 줄 몰랐다고 한다",
+   "emotion": "flustered",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "beat": "곧장 가다 왼쪽이라고 알려 준다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "beat": "멀냐고 묻는다",
+   "emotion": "curious",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "beat": "걸어서 5분이고 오늘 18시까지 연다고 한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "beat": "같이 갈래? 하고 묻는다",
+   "emotion": "shy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "beat": "좋다며 예술을 좋아한다고 한다",
+   "emotion": "excited",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  }
+ ]
+}

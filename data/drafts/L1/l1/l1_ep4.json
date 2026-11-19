@@ -1,0 +1,148 @@
+{
+ "id": "l1_ep4",
+ "region": "R1",
+ "island": "l1",
+ "kind": "short",
+ "title": "약속 잡기",
+ "scene": "주말 약속을 잡는다 — 만날 곳을 정했는데 서로 다른 곳을 떠올린다",
+ "speakers": {
+  "A": "Minjun",
+  "B": "Lena"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "emotion",
+ "flags": [],
+ "expressions": [],
+ "level": "1 기초",
+ "outline": true,
+ "words": [
+  "Gute Idee",
+  "Bis dann",
+  "Alles klar",
+  "Samstag",
+  "Kino",
+  "sieben Uhr",
+  "Bahnhof",
+  "essen"
+ ],
+ "must": [
+  "표현 풀 낱말(Gute Idee, Bis dann, Alles klar)을 대사에 그대로 넣는다.",
+  "R0~R2: du·단수만 — wir·uns·unser·ihr·euch·euer·Sie 를 쓰지 않는다."
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "beat": "토요일에 시간 있냐고 묻는다",
+   "emotion": "curious",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "beat": "응 쉰다며 뭐 할지 묻는다(단수: 너는 뭐 하고 싶어)",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "beat": "영화관에 가자고 한다(단수: 나는 영화 보고 싶어)",
+   "emotion": "excited",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "beat": "좋은 생각이라며 몇 시냐고 묻는다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "beat": "7시, 그 뒤에 뭘 먹자고 한다",
+   "emotion": "cheerful",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "beat": "어디서 볼지 묻는다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "beat": "알렉산더 광장 역 앞이라고 한다",
+   "emotion": "neutral",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "beat": "알았다고 하다가 광장에 역 출구가 여러 개라 걱정한다, 결국 「전화해!」(작은 반전)",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "worried",
+     "걱정"
+    ],
+    [
+     "cheerful",
+     "마무리"
+    ]
+   ]
+  }
+ ]
+}

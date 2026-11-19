@@ -1,0 +1,155 @@
+{
+ "id": "r1_survival_s1",
+ "region": "R1",
+ "island": "survival",
+ "kind": "survival",
+ "title": "네, 네, 네",
+ "emoji": "🥨",
+ "scene": "베를린 빵집. 브레첼 하나만 사러 왔는데 「Ja, bitte」밖에 말을 못 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Verkäuferin"
+ },
+ "register": "polite",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "ordering"
+ ],
+ "domain": [
+  "survival"
+ ],
+ "expressions": [],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "beat": "점원이 Sie 없이 짧은 고정 표현으로 뭘 줄지 묻는다(예: 뭘 드릴까요 = Was darf es sein? 꼴)",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "beat": "브레첼 하나만 달라고 한다",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "stiff"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "beat": "버터를 바를지 묻는다",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "beat": "알아듣지 못했지만 그냥 「네, 주세요」",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "stiff"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "beat": "커피도 한 잔 줄지 묻는다",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "beat": "또 얼떨결에 「네, 주세요」",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "beat": "케이크 한 조각까지 얹고 큰 금액을 말한다",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "beat": "금액에 놀라 되묻지만 결국 또 「네, 주세요」로 끝난다(반전·웃음)",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": "",
+   "tags": [
+    "draft"
+   ],
+   "segs": [
+    [
+     "shout",
+     "되묻기"
+    ],
+    [
+     "flustered",
+     "체념"
+    ]
+   ]
+  }
+ ],
+ "outline": true,
+ "words": [
+  "Wie bitte?",
+  "Gerne",
+  "Stimmt so",
+  "Brezel",
+  "Butter",
+  "Kaffee",
+  "Kuchen",
+  "Euro"
+ ],
+ "must": [
+  "표현 풀 낱말(Wie bitte?, Gerne, Stimmt so)을 대사에 그대로 넣는다.",
+  "R0~R2: du·단수만 — wir·uns·unser·ihr·euch·euer·Sie 를 쓰지 않는다.",
+  "점원도 Sie 를 쓰지 않는다 — 「Was darf’s sein?」「Noch etwas?」처럼 주어 없는 가게 표현만."
+ ]
+}

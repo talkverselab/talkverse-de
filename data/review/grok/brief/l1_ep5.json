@@ -1,0 +1,115 @@
+{
+ "id": "l1_ep5",
+ "region": "R1",
+ "island": "l1",
+ "kind": "short",
+ "title": "감정 말하기",
+ "scene": "영화를 보고 나서 마음을 전한다 — 슬픈 결말에 레나가 울었다는 걸 민준이 눈치챈다",
+ "speakers": {
+  "A": "Minjun",
+  "B": "Lena"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "emotion",
+ "flags": [],
+ "expressions": [],
+ "level": "1 기초",
+ "words": [
+  "Ich auch",
+  "Schlaf gut",
+  "Ehrlich?",
+  "Film",
+  "Ende",
+  "traurig",
+  "nett",
+  "nächste Woche"
+ ],
+ "must": [
+  "표현 풀 낱말(Ich auch, Schlaf gut, Ehrlich?)을 대사에 그대로 넣는다.",
+  "R0~R2: du·단수만 — wir·uns·unser·ihr·euch·euer·Sie 를 쓰지 않는다."
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "beat": "영화 정말 좋았다고 한다",
+   "emotion": "happy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "beat": "응, 근데 결말이 슬펐다며 아무렇지 않은 척한다",
+   "emotion": "sad",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "beat": "너 울었냐고 조심스레 묻는다",
+   "emotion": "gentle",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "beat": "아니라며 부정하다가 조금 울었다고 인정한다",
+   "emotion": "flustered",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "beat": "너랑 보는 영화가 좋다고 한다",
+   "emotion": "shy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "beat": "나도, 너 참 다정하다고 한다",
+   "emotion": "shy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "beat": "다음 주에 또 볼지 묻는다(단수: 다음 주에 또 볼래?)",
+   "emotion": "shy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "beat": "당연하다며 잘 자, 곧 봐 하고 인사한다",
+   "emotion": "happy",
+   "es": "",
+   "rd": "",
+   "ko": "",
+   "note": ""
+  }
+ ],
+ "note_for_writer": "대사 칸(es·ko·note)은 비어 있다 — 장면·인물·반전·추천 표현·감정을 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로 지킨다."
+}
