@@ -333,11 +333,11 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
         ),
       ],
       const SizedBox(height: 10),
-      Row(children: [
+      // 좁은 폭(아이패드 분할 300px)에서 넘치지 않게 Wrap(몽골어앱 발견, 2026-11-22)
+      Wrap(spacing: 6, runSpacing: 4, crossAxisAlignment: WrapCrossAlignment.center, children: [
         for (final n in const [3, 5, 10])
-          Padding(
-            padding: const EdgeInsets.only(right: 6),
-            child: ChoiceChip(
+          ChoiceChip(
+              key: ValueKey('cur-count-$n'),
               label: Text(trf('{0}편', [n])),
               selected: _pickCount == n,
               onSelected: (_) => setState(() {
@@ -346,10 +346,9 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
                   _picked.remove(_picked.last);
                 }
               }),
-            ),
           ),
-        const Spacer(),
         TextButton.icon(
+          key: const ValueKey('cur-recommend'),
           onPressed: () => setState(() => _picked.addAll(recommend(list, passed, _picked, _pickCount))),
           icon: const Icon(Icons.auto_awesome, size: 16),
           label: Text(tr('추천으로 채우기')),
