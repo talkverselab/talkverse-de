@@ -14,6 +14,7 @@ App,3,"Zehn Minuten, sagt die App."
 gibt'sn,3,Lena! Das gibt's doch nicht!
 Müll,3,"Felix, Müll ist voll. Wohin mit den Flaschen? 🍾"
 Gans,3,Oh! Zwei Gänse auf dem Balkon!
+willst,2,Was willst du trinken?
 musst,2,Du musst den Teig rühren.
 issen,2,"Na ja, nichts. Was isst du da?"
 Mia,2,Auf dem Fahrrad. Und du? Schon bei Mia?
@@ -40,8 +41,6 @@ Ordner,2,Die liegt im blauen Ordner. Ganz oben.
 Rhythmus,2,"Sag mal, der Rhythmus, den du auf den Tisch trommelst, ist fast Musik."
 Präsentation,2,"Ernsthaft? Ich dachte, er hasst die Präsentation."
 Übersetzer,1,Echt? Dein Deutsch ist schon super! Übersetzer?
-willst,1,Was willst du trinken?
-willen,1,"Ja, ich hab frei. Was willst du?"
 Ausgang,1,Alles klar. Viele Ausgänge. Ruf mich an! Bis dann.
 geweinen,1,Hast du geweint?
 war's,1,Oh Mann! Wie war's?
@@ -82,8 +81,7 @@ Gute,1,"Felix, du bist der Beste!"
 grad,1,"Hey, ich bin grad einkaufen. Brauchst du noch was?"
 Käse,1,"Käse, Äpfel und Klopapier auch noch!"
 Äpfel,1,"Käse, Äpfel und Klopapier auch noch!"
-Taß,1,Die Tasse ist seit zwei Stunden leer.
-zumachen,1,"Warte mal. Weißt du, warum ich immer langsam zumache?"
+zumachen,1,"Warte mal. Weißt du, warum ich jeden Tag so langsam zumache?"
 schläfen,1,"Hey, schläfst du schon? 🌙"
 Zoom,1,Zoom mal hinter dich.
 umdrehen,1,"Hör auf, wenn du dich umdrehst, ist der Spaß weg."

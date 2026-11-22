@@ -1,12 +1,11 @@
 Grok
 
-1 B: Was darf’s sein? / 뭐 드릴까요? / 주어 없는 짧은 가게 표현으로 시작 / polite
-2 A: Eine Brezel, bitte. / 브레첼 하나 주세요. / 최소 단어로 하나만 주문 / stiff
-3 B: Mit Butter? / 버터 바를까요? / 짧게 추가 질문 / polite
-4 A: Ja, bitte. / 네, 주세요. / 못 알아듣고 그냥 동의 / stiff
-5 B: Noch Kaffee? / 커피도요? / 또 짧게 물어봄 / polite
-6 A: Ja, bitte. / 네, 주세요. / 또 얼떨결에 동의 / flustered
-7 B: Und Kuchen. Gerne. Vierzehn Euro. / 케이크도요. 네. 14유로입니다. / 케이크 추가하고 금액, Gerne 넣음 / polite
-8 A: Wie bitte? Vierzehn? Stimmt so. Ja, bitte. / 네? 14요? 맞아요. 네, 주세요. / 놀라 되묻다 Stimmt so 넣고 또 동의로 끝, 웃음 / surprised:Wie bitte?|flustered:Ja, bitte.
-추천 표현: Noch etwas? / 더 필요한 거 있어요?
-Sonst noch was? / 그 밖에 다른 건요?
+1 B: Was darf’s sein? / 뭘 드릴까요? / 주어 없는 가게 표현으로 자연스럽게 / polite
+2 A: Eine Brezel, bitte. / 브레첼 하나만 주세요. / 최소한으로 주문 / stiff
+3 B: Mit Butter? / 버터 바를까요? / 추가 옵션 제안 / polite
+4 A: Wie bitte? Ja, gerne. / 뭐라고요? 네, 좋아요. / 못 알아듣고 그냥 수락 / stiff
+5 B: Noch einen Kaffee? / 커피도 드릴까요? / 또 권유 / polite
+6 A: Ja, gerne. / 네, 좋아요. / 또 반사적으로 동의 / flustered
+7 B: Und ein Stück Kuchen. Zwölf Euro, bitte. / 케이크 한 조각까지요. 십이 유로입니다. / 반전으로 금액 크게 올림 / polite
+8 A: Zwölf Euro? Stimmt so. / 십이 유로요? 잔돈은 됐어요. / 놀라 되묻고 결국 수락, 웃음 / surprised:Zwölf Euro?|amused:Stimmt so.
+추천 표현: Was darf’s sein? / 뭘 드릴까요? Stimmt so / 잔돈은 됐어요.

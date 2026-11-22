@@ -21,7 +21,7 @@
   "survival"
  ],
  "expressions": [
-  "Noch etwas?"
+  "Was darf’s sein?"
  ],
  "turns": [
   {
@@ -29,8 +29,8 @@
    "speaker": "B",
    "es": "Was darf’s sein?",
    "rd": "바스 다어프’스 자인?",
-   "ko": "뭐 드릴까요?",
-   "note": "주어 없는 짧은 가게 표현으로 시작",
+   "ko": "뭘 드릴까요?",
+   "note": "주어 없는 가게 표현으로 자연스럽게",
    "tags": [
     "draft"
    ],
@@ -48,8 +48,8 @@
    "speaker": "A",
    "es": "Eine Brezel, bitte.",
    "rd": "아이네 브레첼, 비테.",
-   "ko": "브레첼 하나 주세요.",
-   "note": "최소 단어로 하나만 주문",
+   "ko": "브레첼 하나만 주세요.",
+   "note": "최소한으로 주문",
    "tags": [
     "draft"
    ],
@@ -73,7 +73,7 @@
    "es": "Mit Butter?",
    "rd": "미트 부터?",
    "ko": "버터 바를까요?",
-   "note": "짧게 추가 질문",
+   "note": "추가 옵션 제안",
    "tags": [
     "draft"
    ],
@@ -89,23 +89,39 @@
   {
    "num": 4,
    "speaker": "A",
-   "es": "Ja, bitte.",
-   "rd": "야, 비테.",
-   "ko": "네, 주세요.",
-   "note": "못 알아듣고 그냥 동의",
+   "es": "Wie bitte? Ja, gerne.",
+   "rd": "비 비테? 야, 게어네.",
+   "ko": "뭐라고요? 네, 좋아요.",
+   "note": "못 알아듣고 그냥 수락",
    "tags": [
     "draft"
    ],
    "emotion": "stiff",
-   "lemmas": []
+   "lemmas": [
+    [
+     "Wie",
+     "wie",
+     "비"
+    ],
+    [
+     "bitte",
+     "bitte",
+     "비테"
+    ],
+    [
+     "gerne",
+     "gern",
+     "게언"
+    ]
+   ]
   },
   {
    "num": 5,
    "speaker": "B",
-   "es": "Noch Kaffee?",
-   "rd": "노흐 카페?",
-   "ko": "커피도요?",
-   "note": "또 짧게 물어봄",
+   "es": "Noch einen Kaffee?",
+   "rd": "노흐 아이넨 카페?",
+   "ko": "커피도 드릴까요?",
+   "note": "또 권유",
    "tags": [
     "draft"
    ],
@@ -126,75 +142,81 @@
   {
    "num": 6,
    "speaker": "A",
-   "es": "Ja, bitte.",
-   "rd": "야, 비테.",
-   "ko": "네, 주세요.",
-   "note": "또 얼떨결에 동의",
+   "es": "Ja, gerne.",
+   "rd": "야, 게어네.",
+   "ko": "네, 좋아요.",
+   "note": "또 반사적으로 동의",
    "tags": [
     "draft"
    ],
    "emotion": "flustered",
-   "lemmas": []
+   "lemmas": [
+    [
+     "gerne",
+     "gern",
+     "게언"
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "es": "Und Kuchen. Gerne. Vierzehn Euro.",
-   "rd": "운트 쿠헨. 게어네. 피어첸 오이로.",
-   "ko": "케이크도요. 네. 14유로입니다.",
-   "note": "케이크까지 얹고 금액을 말함",
+   "es": "Und ein Stück Kuchen. Zwölf Euro, bitte.",
+   "rd": "운트 아인 슈튁 쿠헨. 츠뵐프 오이로, 비테.",
+   "ko": "케이크 한 조각까지요. 십이 유로입니다.",
+   "note": "금액 크게 올림",
    "tags": [
     "draft"
    ],
    "emotion": "polite",
    "lemmas": [
     [
+     "Stück",
+     "Stück",
+     "슈튁"
+    ],
+    [
      "Kuchen",
      "Kuchen",
      "쿠헨"
     ],
     [
-     "Gerne",
-     "gern",
-     "게언"
-    ],
-    [
      "Euro",
      "Euro",
      "오이로"
+    ],
+    [
+     "bitte",
+     "bitte",
+     "비테"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "es": "Wie bitte? Vierzehn? Stimmt so. Ja, bitte.",
-   "rd": "비 비테? 피어첸? 슈팀트 조. 야, 비테.",
-   "ko": "네? 14요? 맞아요. 네, 주세요.",
-   "note": "놀라 되묻다 또 동의로 끝, 웃음",
+   "es": "Zwölf Euro? Stimmt so.",
+   "rd": "츠뵐프 오이로? 슈팀트 조.",
+   "ko": "십이 유로요? 잔돈은 됐어요.",
+   "note": "놀라 되묻고 결국 수락, 웃음",
    "tags": [
     "draft"
    ],
    "segs": [
     [
      "surprised",
-     "Wie bitte? Vierzehn?"
+     "Zwölf Euro?"
     ],
     [
-     "flustered",
-     "Stimmt so. Ja, bitte."
+     "amused",
+     "Stimmt so."
     ]
    ],
    "lemmas": [
     [
-     "Wie",
-     "wie",
-     "비"
-    ],
-    [
-     "bitte",
-     "bitte",
-     "비테"
+     "Euro",
+     "Euro",
+     "오이로"
     ],
     [
      "Stimmt",

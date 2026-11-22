@@ -610,10 +610,10 @@
     {
      "num": 1,
      "speaker": "B",
-     "es": "Hast du Samstag Zeit?",
-     "rd": "하스트 두 잠스탁 차이트?",
+     "es": "Hast du am Samstag Zeit?",
+     "rd": "하스트 두 암 잠스탁 차이트?",
      "ko": "토요일에 시간 있어?",
-     "note": "시간 있는지 물어봄",
+     "note": "직접적으로 시간 물어봄",
      "tags": [],
      "lemmas": [
       [
@@ -632,10 +632,10 @@
     {
      "num": 2,
      "speaker": "A",
-     "es": "Ja, ich hab frei. Was willst du?",
-     "rd": "야, 이히 합 프라이. 바스 빌스트 두?",
-     "ko": "응, 쉬어. 너는 뭐 하고 싶어?",
-     "note": "쉬고 되물음",
+     "es": "Ja, ich hab frei. Was willst du machen?",
+     "rd": "야, 이히 합 프라이. 바스 빌스트 두 마헨?",
+     "ko": "응, 나 쉬어. 너는 뭐 하고 싶어?",
+     "note": "의사 물어봄",
      "tags": [],
      "lemmas": [
       [
@@ -650,8 +650,13 @@
       ],
       [
        "willst",
-       "willen",
+       "willst",
        ""
+      ],
+      [
+       "machen",
+       "machen",
+       "마헨"
       ]
      ],
      "emotion": "cheerful"
@@ -661,8 +666,8 @@
      "speaker": "B",
      "es": "Ich will ins Kino.",
      "rd": "이히 빌 인스 키노.",
-     "ko": "나는 영화 보고 싶어.",
-     "note": "영화 제안",
+     "ko": "나 영화 보고 싶어.",
+     "note": "직설적으로 제안",
      "tags": [],
      "lemmas": [
       [
@@ -678,8 +683,8 @@
      "speaker": "A",
      "es": "Gute Idee. Um wie viel Uhr?",
      "rd": "구테 이데. 움 비 필 우어?",
-     "ko": "좋은 생각. 몇 시?",
-     "note": "동의하고 시간 물음",
+     "ko": "좋은 생각. 몇 시야?",
+     "note": "동의하고 시간 확인",
      "tags": [],
      "lemmas": [
       [
@@ -703,10 +708,10 @@
     {
      "num": 5,
      "speaker": "B",
-     "es": "Sieben Uhr. Dann essen.",
-     "rd": "지벤 우어. 단 에센.",
-     "ko": "7시. 그 뒤에 먹자.",
-     "note": "시간 말하고 식사 제안",
+     "es": "Um sieben Uhr. Danach essen?",
+     "rd": "움 지벤 우어. 다나흐 에센?",
+     "ko": "일곱 시. 그다음에 먹을래?",
+     "note": "시간 정하고 식사 제안",
      "tags": [],
      "lemmas": [
       [
@@ -715,9 +720,9 @@
        "우어"
       ],
       [
-       "Dann",
-       "dann",
-       "단"
+       "Danach",
+       "danach",
+       "다나흐"
       ],
       [
        "essen",
@@ -730,10 +735,10 @@
     {
      "num": 6,
      "speaker": "A",
-     "es": "Wo siehst du mich?",
-     "rd": "보 지스트 두 미히?",
-     "ko": "어디서 봐?",
-     "note": "장소 물어봄",
+     "es": "Wo treffen?",
+     "rd": "보 트레펜?",
+     "ko": "어디서 만나?",
+     "note": "장소 짧게 물어봄",
      "tags": [],
      "lemmas": [
       [
@@ -742,9 +747,9 @@
        "보"
       ],
       [
-       "siehst",
-       "sie",
-       "지"
+       "treffen",
+       "treffen",
+       "트레펜"
       ]
      ],
      "emotion": "neutral"
@@ -752,10 +757,10 @@
     {
      "num": 7,
      "speaker": "B",
-     "es": "Vor dem Bahnhof.",
-     "rd": "포어 뎀 반호프.",
-     "ko": "역 앞에서.",
-     "note": "장소 알려줌",
+     "es": "Vor dem Bahnhof am Alexanderplatz.",
+     "rd": "포어 뎀 반호프 암 아레칸데어플라츠.",
+     "ko": "알렉산더광장 역 앞에서.",
+     "note": "구체적 장소 말함",
      "tags": [],
      "lemmas": [
       [
@@ -771,8 +776,8 @@
      "speaker": "A",
      "es": "Alles klar. Viele Ausgänge. Ruf mich an! Bis dann.",
      "rd": "알레스 클라어. 피레 아우스겡에. 루프 미히 안! 비스 단.",
-     "ko": "알겠어. 출구가 많아. 전화해! 그럼 그때 봐.",
-     "note": "걱정하다 전화하라며 끝",
+     "ko": "알았어. 출구 많아. 전화해! 그때 봐.",
+     "note": "걱정하다가 전화하라고 하고 끝냄",
      "tags": [],
      "lemmas": [
       [
@@ -796,7 +801,16 @@
        "단"
       ]
      ],
-     "emotion": "worried"
+     "segs": [
+      [
+       "worried",
+       "Alles klar. Viele Ausgänge."
+      ],
+      [
+       "cheerful",
+       "Ruf mich an! Bis dann."
+      ]
+     ]
     }
    ],
    "review": {
@@ -814,10 +828,10 @@
     {
      "num": 1,
      "speaker": "A",
-     "es": "Der Film war echt gut!",
-     "rd": "데어 필름 바어 에히트 구트!",
-     "ko": "영화 정말 좋았어!",
-     "note": "영화가 좋았다고 짧게",
+     "es": "Der Film war echt gut.",
+     "rd": "데어 필름 바어 에히트 구트.",
+     "ko": "영화 정말 좋았어.",
+     "note": "칭찬하며 말함",
      "tags": [],
      "lemmas": [
       [
@@ -844,7 +858,7 @@
      "es": "Ja, aber das Ende war traurig.",
      "rd": "야, 아버 다스 엔데 바어 트라우리히.",
      "ko": "응, 근데 결말이 슬펐어.",
-     "note": "슬펐다며 아무렇지 않은 척",
+     "note": "슬픈 결말 언급, 괜찮은 척",
      "tags": [],
      "lemmas": [
       [
@@ -865,8 +879,8 @@
      "speaker": "A",
      "es": "Hast du geweint?",
      "rd": "하스트 두 게바인트?",
-     "ko": "너 울었니?",
-     "note": "조심스레 물어보는 톤으로",
+     "ko": "너 울었어?",
+     "note": "조심스레 물어봄",
      "tags": [],
      "lemmas": [
       [
@@ -880,10 +894,10 @@
     {
      "num": 4,
      "speaker": "B",
-     "es": "Nein... Ehrlich? Ein bisschen schon.",
-     "rd": "나인... 에얼리히? 아인 비스헨 숀.",
-     "ko": "아니야... 솔직히? 조금은 그랬어.",
-     "note": "부정하다가 조금 울었다고 인정",
+     "es": "Nein... Ehrlich? Ein bisschen.",
+     "rd": "나인... 에얼리히? 아인 비스헨.",
+     "ko": "아니... 진짜? 조금.",
+     "note": "부정하다 조금 울었다고 인정",
      "tags": [],
      "lemmas": [
       [
@@ -895,22 +909,26 @@
        "bisschen",
        "bisschen",
        "비스헨"
-      ],
-      [
-       "schon",
-       "schon",
-       "숀"
       ]
      ],
-     "emotion": "flustered"
+     "segs": [
+      [
+       "flustered",
+       "Nein..."
+      ],
+      [
+       "shy",
+       "Ehrlich? Ein bisschen."
+      ]
+     ]
     },
     {
      "num": 5,
      "speaker": "A",
      "es": "Mit dir ist der Film nett.",
      "rd": "미트 디어 이스트 데어 필름 네트.",
-     "ko": "너랑 보는 영화가 좋아.",
-     "note": "너랑 보는 게 좋다고 수줍게",
+     "ko": "너랑 보면 영화가 좋아.",
+     "note": "수줍게 말함",
      "tags": [],
      "lemmas": [
       [
@@ -929,21 +947,16 @@
     {
      "num": 6,
      "speaker": "B",
-     "es": "Ich auch. Du bist so nett.",
-     "rd": "이히 아우흐. 두 비스트 조 네트.",
-     "ko": "나도. 너 참 다정하다.",
-     "note": "나도 같고 다정하다고",
+     "es": "Ich auch. Du bist nett.",
+     "rd": "이히 아우흐. 두 비스트 네트.",
+     "ko": "나도. 너 참 다정해.",
+     "note": "나도 동의하고 다정하다고",
      "tags": [],
      "lemmas": [
       [
        "auch",
        "auch",
        "아우흐"
-      ],
-      [
-       "so",
-       "so",
-       "조"
       ],
       [
        "nett",
@@ -958,8 +971,8 @@
      "speaker": "A",
      "es": "Nächste Woche wieder?",
      "rd": "네히스테 보헤 비더?",
-     "ko": "다음 주에 또 볼래?",
-     "note": "다음 주 제안",
+     "ko": "다음 주에 또?",
+     "note": "다음 약속 물어봄",
      "tags": [],
      "lemmas": [
       [
@@ -983,14 +996,14 @@
     {
      "num": 8,
      "speaker": "B",
-     "es": "Na klar. Schlaf gut! Bis bald.",
-     "rd": "나 클라어. 슐라프 구트! 비스 발트.",
-     "ko": "당연하지. 잘 자! 곧 봐.",
-     "note": "잘 자, 곧 봐 인사",
+     "es": "Klar. Schlaf gut. Bis bald.",
+     "rd": "클라어. 슐라프 구트. 비스 발트.",
+     "ko": "당연하지. 잘 자. 곧 봐.",
+     "note": "긍정하고 인사",
      "tags": [],
      "lemmas": [
       [
-       "klar",
+       "Klar",
        "klar",
        "클라어"
       ],

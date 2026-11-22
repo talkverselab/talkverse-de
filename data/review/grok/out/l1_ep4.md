@@ -1,12 +1,11 @@
 Grok
 
-1 B: Hast du Samstag Zeit? / 토요일에 시간 있어? / 시간 있는지 물어봄 / cheerful
-2 A: Ja, ich hab frei. Was willst du? / 응, 쉬어. 너는 뭐 하고 싶어? / 쉬고 되물음 / cheerful
-3 B: Ich will ins Kino. / 나는 영화 보고 싶어. / 영화 제안 / excited
-4 A: Gute Idee. Um wie viel Uhr? / 좋은 생각. 몇 시? / 동의하고 시간 물음 / cheerful
-5 B: Sieben Uhr. Dann essen. / 7시. 그 뒤에 먹자. / 시간 말하고 식사 제안 / cheerful
-6 A: Wo siehst du mich? / 어디서 봐? / 장소 물어봄 / neutral
-7 B: Vor dem Bahnhof. / 역 앞에서. / 장소 알려줌 / neutral
-8 A: Alles klar. Viele Ausgänge. Ruf mich an! Bis dann. / 알겠어. 출구가 많아. 전화해! 그럼 그때 봐. / 걱정하다 전화하라며 끝 / worried
-추천 표현: Hast du Zeit? / 시간 있어?
-Bis dann! / 그럼 그때 봐!
+1 B: Hast du am Samstag Zeit? / 토요일에 시간 있어? / 직접적으로 시간 물어봄 / cheerful
+2 A: Ja, ich hab frei. Was willst du machen? / 응, 나 쉬어. 너는 뭐 하고 싶어? / 단수로 의사 물어봄 / cheerful
+3 B: Ich will ins Kino. / 나 영화 보고 싶어. / 직설적으로 제안 / excited
+4 A: Gute Idee. Um wie viel Uhr? / 좋은 생각. 몇 시야? / 동의하고 시간 확인 / cheerful
+5 B: Um sieben Uhr. Danach essen? / 일곱 시. 그다음에 먹을래? / 시간 정하고 식사 제안 / cheerful
+6 A: Wo treffen? / 어디서 만나? / 장소 짧게 물어봄 / neutral
+7 B: Vor dem Bahnhof am Alexanderplatz. / 알렉산더광장 역 앞에서. / 구체적 장소 말함 / neutral
+8 A: Alles klar. Viele Ausgänge. Ruf mich an! Bis dann. / 알았어. 출구 많아. 전화해! 그때 봐. / 걱정하다가 전화하라고 하고 끝냄 / worried:Alles klar. Viele Ausgänge.|cheerful:Ruf mich an! Bis dann.
+추천 표현: Gute Idee / 좋은 생각. Alles klar / 알겠어.

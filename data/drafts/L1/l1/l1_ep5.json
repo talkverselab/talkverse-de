@@ -28,7 +28,8 @@
  ],
  "must": [
   "표현 풀 낱말(Ich auch, Schlaf gut, Ehrlich?)을 대사에 그대로 넣는다.",
-  "R0~R2: du·단수만 — wir·uns·unser·ihr·euch·euer·Sie 를 쓰지 않는다."
+  "R0~R2: du·단수만 — wir·uns·unser·ihr·euch·euer·Sie 를 쓰지 않는다.",
+  "모든 독일어 줄은 원어민이 실제로 쓰는 문법이 맞는 문장으로 쓴다. 한국어 번역은 그 독일어의 실제 뜻 그대로(예: Stimmt so = 잔돈은 됐어요)."
  ],
  "turns": [
   {

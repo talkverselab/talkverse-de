@@ -23,7 +23,7 @@
   "love"
  ],
  "expressions": [
-  "Noch einen?"
+  "Ich mach gleich zu."
  ],
  "turns": [
   {
@@ -31,8 +31,8 @@
    "speaker": "B",
    "es": "Ich mach gleich zu. Du bist immer noch hier?",
    "rd": "이히 마흐 글라이히 추. 두 비스트 이머 노흐 히어?",
-   "ko": "곧 문 닫아. 아직도 여기 있어?",
-   "note": "놀리며 닫는다며 지적",
+   "ko": "나 곧 닫아. 너 아직 있어?",
+   "note": "혼자 일하며 놀리듯 말 검",
    "tags": [
     "draft"
    ],
@@ -68,9 +68,9 @@
   {
    "num": 2,
    "speaker": "A",
-   "es": "Ich lern Deutsch. Der Kaffee schmeckt gut.",
-   "rd": "이히 레언 도이치. 데어 카페 슈메크트 구트.",
-   "ko": "독일어 공부 중이야. 커피가 맛있어서.",
+   "es": "Ich lern Deutsch. Der Kaffee ist gut.",
+   "rd": "이히 레언 도이치. 데어 카페 이스트 구트.",
+   "ko": "나 독일어 공부해. 커피가 맛있어서.",
    "note": "둘러대며 변명",
    "tags": [
     "draft"
@@ -93,11 +93,6 @@
      "카페"
     ],
     [
-     "schmeckt",
-     "schmecken",
-     "슈메켄"
-    ],
-    [
      "gut",
      "gut",
      "구트"
@@ -107,19 +102,19 @@
   {
    "num": 3,
    "speaker": "B",
-   "es": "Die Tasse ist seit zwei Stunden leer.",
-   "rd": "디 타세 이스트 자이트 츠바이 슈툰덴 레어.",
-   "ko": "잔이 두 시간째 비어 있어.",
-   "note": "빈 잔을 짚으며 놀림",
+   "es": "Dein Kaffee ist seit zwei Stunden leer.",
+   "rd": "다인 카페 이스트 자이트 츠바이 슈툰덴 레어.",
+   "ko": "네 커피 두 시간째 비어 있어.",
+   "note": "빈 잔 짚으며 놀림",
    "tags": [
     "draft"
    ],
    "emotion": "teasing",
    "lemmas": [
     [
-     "Tasse",
-     "Taß",
-     ""
+     "Kaffee",
+     "Kaffee",
+     "카페"
     ],
     [
      "Stunden",
@@ -138,8 +133,8 @@
    "speaker": "A",
    "es": "Echt? Ich trink halt langsam.",
    "rd": "에히트? 이히 트린크 할트 랑잠.",
-   "ko": "진짜? 그냥 천천히 마셔.",
-   "note": "놀라다 얼버무림",
+   "ko": "진짜? 나 그냥 천천히 마셔.",
+   "note": "놀라다 천천히라고 얼버무림",
    "tags": [
     "draft"
    ],
@@ -179,10 +174,10 @@
   {
    "num": 5,
    "speaker": "B",
-   "es": "Das Buch bleibt immer auf der Seite.",
-   "rd": "다스 부흐 블라이프트 이머 아우프 데어 자이테.",
-   "ko": "책이 계속 그 쪽이야.",
-   "note": "같은 쪽이라고 또 짚음",
+   "es": "Und dein Buch ist immer noch auf derselben Seite.",
+   "rd": "운트 다인 부흐 이스트 이머 노흐 아우프 데어젤벤 자이테.",
+   "ko": "그리고 네 책은 아직도 같은 쪽이야.",
+   "note": "같은 쪽 또 짚음",
    "tags": [
     "draft"
    ],
@@ -194,14 +189,14 @@
      "부흐"
     ],
     [
-     "bleibt",
-     "bleiben",
-     "블라이벤"
-    ],
-    [
      "immer",
      "immer",
      "이머"
+    ],
+    [
+     "noch",
+     "noch",
+     "노흐"
     ],
     [
      "Seite",
@@ -213,10 +208,10 @@
   {
    "num": 6,
    "speaker": "A",
-   "es": "Na ja, hier klappt das Lernen nicht.",
-   "rd": "나 야, 히어 클라프트 다스 레어넨 니히트.",
-   "ko": "그냥, 여기선 공부가 안 돼.",
-   "note": "인정하고 말함",
+   "es": "Na ja, hier kann ich nicht lernen.",
+   "rd": "나 야, 히어 칸 이히 니히트 레어넨.",
+   "ko": "음, 여기선 공부 못 해.",
+   "note": "인정하고 말 돌림",
    "tags": [
     "draft"
    ],
@@ -228,12 +223,7 @@
      "히어"
     ],
     [
-     "klappt",
-     "klappen",
-     "클라펜"
-    ],
-    [
-     "Lernen",
+     "lernen",
      "lernen",
      "레어넨"
     ]
@@ -244,8 +234,8 @@
    "speaker": "B",
    "es": "Ist die Musik zu laut?",
    "rd": "이스트 디 무지크 추 라우트?",
-   "ko": "음악이 너무 시끄러워?",
-   "note": "다정하게 물어봄",
+   "ko": "음악이 너무 시끄러워서?",
+   "note": "다정하게 이유 물음",
    "tags": [
     "draft"
    ],
@@ -266,10 +256,10 @@
   {
    "num": 8,
    "speaker": "A",
-   "es": "Nein, ich einfach so.",
-   "rd": "나인, 이히 아인파흐 조.",
-   "ko": "아니, 그냥…",
-   "note": "말을 흐림",
+   "es": "Nein, einfach...",
+   "rd": "나인, 아인파흐...",
+   "ko": "아니, 그냥...",
+   "note": "말 흐리며 수줍음",
    "tags": [
     "draft"
    ],
@@ -279,11 +269,6 @@
      "einfach",
      "einfach",
      "아인파흐"
-    ],
-    [
-     "so",
-     "so",
-     "조"
     ]
    ]
   },
@@ -317,7 +302,7 @@
    "es": "Egal. Bis morgen.",
    "rd": "에갈. 비스 모어겐.",
    "ko": "됐어. 내일 봐.",
-   "note": "일어서며 피함",
+   "note": "일어서며 도망",
    "tags": [
     "draft"
    ],
@@ -338,9 +323,9 @@
   {
    "num": 11,
    "speaker": "B",
-   "es": "Warte mal. Weißt du, warum ich immer langsam zumache?",
-   "rd": "바어테 말. 바이스트 두, 바룸 이히 이머 랑잠 추마헤?",
-   "ko": "잠깐. 내가 왜 항상 천천히 닫는지 알아?",
+   "es": "Warte mal. Weißt du, warum ich jeden Tag so langsam zumache?",
+   "rd": "바어테 말. 바이스트 두, 바룸 이히 예덴 탁 조 랑잠 추마헤?",
+   "ko": "잠깐만. 너 알아, 내가 왜 매일 이렇게 천천히 닫는지?",
    "note": "붙잡으며 자기도 기다렸다고 털어놓음",
    "tags": [
     "draft"
@@ -363,9 +348,14 @@
      "바이스"
     ],
     [
-     "immer",
-     "immer",
-     "이머"
+     "Tag",
+     "Tag",
+     "탁"
+    ],
+    [
+     "so",
+     "so",
+     "조"
     ],
     [
      "langsam",
@@ -382,10 +372,10 @@
   {
    "num": 12,
    "speaker": "A",
-   "es": "Dann noch einen Kaffee, bitte.",
-   "rd": "단 노흐 아이넨 카페, 비테.",
-   "ko": "그럼 커피 한 잔 더.",
-   "note": "앉으며 더 머무름",
+   "es": "Dann... noch einen Kaffee?",
+   "rd": "단... 노흐 아이넨 카페?",
+   "ko": "그럼... 커피 한 잔 더?",
+   "note": "다시 앉으며 수줍게",
    "tags": [
     "draft"
    ],
@@ -405,11 +395,6 @@
      "Kaffee",
      "Kaffee",
      "카페"
-    ],
-    [
-     "bitte",
-     "bitte",
-     "비테"
     ]
    ]
   }
