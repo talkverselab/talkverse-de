@@ -3,6 +3,7 @@
   python qa.py <wav폴더> <편id>... [--jobs <moss_jobs.json>]   결과는 <wav폴더>/qa.json 에 쌓인다(조각 → sim·dur·tries·ok)
 소문자로 바꿔 글자·숫자만 남겨 견준다(띄어쓰기·문장부호 무시). 나쁨 = 비슷함 0.90 미만·앞뒤 낱말 누락 또는 길이가 글자 수에 견줘 지나치게 길거나 짧음.
 재생성본은 PC 의 out/de/retake/<편>/<조각>.t<N>.wav — 받아 온 뒤 다시 돌리면 가장 잘 나온 판을 본 파일로 고른다. 세 번 해도 나쁘면 가장 나은 판을 쓰고 qa.json 에 ok=false 로 남긴다."""
+import hashlib
 import array, difflib, glob, json, math, os, re, shutil, subprocess, sys
 import mlx_whisper
 import ttslib as L
@@ -76,12 +77,21 @@ def main():
             k = f'{ep}/{name}'; f = f'{wav}/{k}'; q = Q.setdefault(k, {'tries': 0})
             if not os.path.exists(f):
                 q.update(sim=0.0, ok=False); bad += 1; continue
+            # 캐시 키 = 파일 이름 + 원고 글 해시 + 파일 수정 시각 — 같은 이름으로 다시 만든 조각에 옛 점수가 남지 않게(ko c6433c4 와 같은 버그, 2026-11-23)
+            h = hashlib.sha1(text.encode('utf-8')).hexdigest()[:12] + f':{int(os.path.getmtime(f))}'
+            if q.get('h') != h:
+                q.pop('sim', None)
+                if q.get('text') != hashlib.sha1(text.encode('utf-8')).hexdigest()[:12]:
+                    q['tries'] = 0  # 원고가 바뀌었으면 재생성 횟수도 처음부터
             if 'sim' not in q:
                 q['sim'], q['dur'] = score(f, text)
+                q['h'] = h
+                q['text'] = hashlib.sha1(text.encode('utf-8')).hexdigest()[:12]
             for c in sorted(glob.glob(f'{wav}/retake/{k[:-4]}.t*.wav')):          # 받아 온 재생성본 중 더 나은 것을 본 파일로
                 s, d = score(c, text)
                 if s > q['sim']:
                     shutil.copy(c, f); q['sim'], q['dur'] = s, d
+                    q['h'] = hashlib.sha1(text.encode('utf-8')).hexdigest()[:12] + f':{int(os.path.getmtime(f))}'
                 os.remove(c)
             q['ok'] = q['sim'] >= PASS
             if not q['ok']:
