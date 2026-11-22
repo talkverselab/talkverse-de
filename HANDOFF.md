@@ -150,3 +150,8 @@ _2026-11-03 새로 씀. 앞 판(2026-10-11 메모·Zealot 확인 필요)은 이 
 - 기준 `~/talkverse/CURRICULUM_SPEC.md`. ja ceb91c3 을 옮김(fedf451) + 칩 줄 Wrap(b3972d5). 저장 `de_curriculum_v1`. 홈 카드 + 정규과정 첫 타일.
 - 사용자 결정 「넣어야지」 → 심사 빌드에 커리큘럼 보임. AI 회화 작성(custom_script_*)은 이식만, `kCustomScriptLive=false` 숨김(공개 여부 사용자 결정 대기, 작성기는 uk 공용).
 - 빌드: Zealot 28 https://apps.talkverse.uk/8itFp/618 · TestFlight 2611222155. PC 백업 끝.
+
+## 2026-11-23 새벽 — 문법 서버 받기(사용자 지시, uk·문법 세션 전달)
+- 문법 스텝 = 원고 목록(`ScriptSync.files`)의 `grammar/lessonN.json` 전부 — 개수 고정 없음, 서버에서 더하면 보이고 빼면 사라짐, 못 받으면 묶음 목록, 빈 스텝 숨김. 언어감각은 sense_course.json 의 급 목록(빈 급 숨김). `script_publish.py` 에 grammar/lesson*.json 포함, 서버 rev 10(a0b4d48).
+- 내용 있는 스텝: 문법 1/15, 언어감각 10/15. lesson2~15 작성 담당은 uk 에 물음(Claude 로, 12+ 점검 뒤 서버로만 올리면 앱 재출시 불필요).
+- 빌드: Zealot 29 https://apps.talkverse.uk/8itFp/637 · TestFlight 2611222331. M6 디스크 규칙(uk): iOS 빌드 전 df 10GB↑·다른 xcodebuild 없음 확인, 올린 뒤 build/ 바로 삭제.
