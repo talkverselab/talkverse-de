@@ -8,11 +8,11 @@
    "segs": [
     [
      "teasing",
-     "Wir machen gleich zu."
+     "Ich mach gleich zu."
     ],
     [
      "teasing",
-     "Du bist ja immer noch da."
+     "Du bist immer noch hier?"
     ]
    ]
   },
@@ -20,11 +20,11 @@
    "segs": [
     [
      "flustered",
-     "Ich lerne noch ein bisschen Deutsch."
+     "Ich lern Deutsch."
     ],
     [
      "flustered",
-     "Der Kaffee ist gut hier."
+     "Der Kaffee ist gut."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "teasing",
-     "Der Kaffee? Die Tasse ist seit zwei Stunden leer."
+     "Dein Kaffee ist seit zwei Stunden leer."
     ]
    ]
   },
@@ -44,8 +44,7 @@
     ],
     [
      "flustered",
-     "… Na ja, ich trinke langsam.",
-     "Na ja, ich trinke langsam."
+     "Ich trink halt langsam."
     ]
    ]
   },
@@ -53,11 +52,7 @@
    "segs": [
     [
      "teasing",
-     "Sag mal, lernst du wirklich?"
-    ],
-    [
-     "teasing",
-     "Dein Buch ist immer noch auf Seite zwölf."
+     "Und dein Buch ist immer noch auf derselben Seite."
     ]
    ]
   },
@@ -65,20 +60,12 @@
    "segs": [
     [
      "flustered",
-     "Okay, stimmt."
-    ],
-    [
-     "flustered",
-     "Ich kann hier nicht so gut lernen."
+     "Na ja, hier kann ich nicht lernen."
     ]
    ]
   },
   "7": {
    "segs": [
-    [
-     "gentle",
-     "Warum nicht?"
-    ],
     [
      "gentle",
      "Ist die Musik zu laut?"
@@ -89,8 +76,7 @@
    "segs": [
     [
      "shy",
-     "Nein, gar nicht. Es ist nur …",
-     "Nein, gar nicht. Es ist nur."
+     "Nein, einfach..."
     ]
    ]
   },
@@ -98,7 +84,7 @@
    "segs": [
     [
      "teasing",
-     "Nur was?"
+     "Sag mal, einfach was?"
     ]
    ]
   },
@@ -106,7 +92,7 @@
    "segs": [
     [
      "flustered",
-     "Ach, egal. Bis morgen, Mia."
+     "Egal. Bis morgen."
     ]
    ]
   },
@@ -114,7 +100,7 @@
    "segs": [
     [
      "shy",
-     "Warte mal. Warum, glaubst du, mache ich jeden Abend so langsam zu?"
+     "Warte mal. Weißt du, warum ich jeden Tag so langsam zumache?"
     ]
    ]
   },
@@ -122,8 +108,7 @@
    "segs": [
     [
      "shy",
-     "Dann … noch einen Kaffee, bitte.",
-     "Dann, noch einen Kaffee, bitte."
+     "Dann... noch einen Kaffee?"
     ]
    ]
   }

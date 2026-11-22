@@ -1,0 +1,76 @@
+{
+ "ep": "r1_work_a1",
+ "cast": {
+  "B": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "Na ja, heute machst du den Schaum."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Wie machen? Milch rein?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Milch rein. Knopf drücken."
+    ],
+    [
+     "neutral",
+     "Nicht zu heiß."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Oh! Der Schaum läuft über!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shout",
+     "Stopp! Zu viel Schaum!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Voll! Der Tresen ist nur Schaum. Haha."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Trotzdem probieren. Mmm."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Lecker! Nächstes Mal du in den Becher."
+    ]
+   ]
+  }
+ }
+}

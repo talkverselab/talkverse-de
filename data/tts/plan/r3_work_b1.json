@@ -1,0 +1,117 @@
+{
+ "ep": "r3_work_b1",
+ "cast": {
+  "B": "man_m",
+  "C": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Guten Tag. Bitte setzen Sie sich."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Guten Tag. Danke."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "stiff",
+     "Haben Sie Erfahrung im Café?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Ich hab einmal Schaum gemacht."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Und den Tresen mit Schaum bedeckt."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "polite",
+     "Können Sie am Wochenende arbeiten?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Samstag, Sonntag, viele Stunden ok."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "polite",
+     "Wann können Sie anfangen?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "excited",
+     "Morgen auch."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Mia hat Sie schon empfohlen."
+    ],
+    [
+     "amused",
+     "Der Job ist Ihrer."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "gentle",
+     "Wollen wir uns duzen?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "cheerful",
+     "Gerne. Hallo!"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "teasing",
+     "Erste Schicht: Schaum putzen."
+    ]
+   ]
+  }
+ }
+}

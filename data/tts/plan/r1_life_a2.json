@@ -1,0 +1,80 @@
+{
+ "ep": "r1_life_a2",
+ "cast": {
+  "B": "felix"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "surprised",
+     "Das Hemd ist rosa!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Das Hemd ist schön!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "Es war weiß."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Wer hat gewaschen?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Du hast gewaschen."
+    ],
+    [
+     "tsukkomi",
+     "Die Socke ist rot."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Mist! Ich hab's vergessen."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "stiff",
+     "Weiß extra. Steht auf der Liste."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Rosa passt dir."
+    ],
+    [
+     "teasing",
+     "Macht nichts!"
+    ]
+   ]
+  }
+ }
+}

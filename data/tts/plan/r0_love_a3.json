@@ -1,0 +1,56 @@
+{
+ "ep": "r0_love_a3",
+ "cast": {
+  "B": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "surprised",
+     "Oh, Regen!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "Zum Glück! Komm schon!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shy",
+     "Gerne. Danke."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Kleiner Schirm."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Näher. Nicht nass."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shy",
+     "Ja. Schön."
+    ]
+   ]
+  }
+ }
+}

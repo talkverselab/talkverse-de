@@ -1,0 +1,56 @@
+{
+ "ep": "r0_life_a2",
+ "cast": {
+  "B": "felix"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Hallo?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Hallo. Was?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Wo bist du?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Im Zimmer."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Nebenan. Essen fertig."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Ruf doch."
+    ]
+   ]
+  }
+ }
+}

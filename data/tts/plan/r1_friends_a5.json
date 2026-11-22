@@ -1,0 +1,81 @@
+{
+ "ep": "r1_friends_a5",
+ "cast": {
+  "B": "jonas",
+  "C": "felix"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Gib mir den Ball!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Hier."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Ich schieße stark!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Oh Mann! Oben!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "annoyed",
+     "Ist das deiner?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Mist! Fenster okay?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Fenster okay."
+    ],
+    [
+     "tsukkomi",
+     "Kaffee kaputt."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Keine Sorge."
+    ],
+    [
+     "gentle",
+     "Ich kaufe Kaffee."
+    ]
+   ]
+  }
+ }
+}

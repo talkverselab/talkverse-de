@@ -9,11 +9,7 @@
    "segs": [
     [
      "annoyed",
-     "Entschuldigung!"
-    ],
-    [
-     "annoyed",
-     "Wissen Sie, welcher Tag heute ist?"
+     "Entschuldigung, aber Glas wegwerfen am Sonntag ist verboten!"
     ]
    ]
   },
@@ -21,11 +17,11 @@
    "segs": [
     [
      "neutral",
-     "Sonntag, oder?"
+     "Tut mir leid."
     ],
     [
      "neutral",
-     "Ist das ein Problem?"
+     "Ich wusste das nicht."
     ]
    ]
   },
@@ -33,23 +29,15 @@
    "segs": [
     [
      "annoyed",
-     "Sie werfen am Sonntag Flaschen in den Glascontainer."
-    ],
-    [
-     "annoyed",
-     "Das hört das ganze Haus."
+     "Die Flaschen müssen nach Farbe getrennt sein!"
     ]
    ]
   },
   "4": {
    "segs": [
     [
-     "surprised",
-     "Oh, das habe ich nicht gewusst."
-    ],
-    [
-     "stiff",
-     "Tut mir leid, ich wohne erst seit einer Woche hier."
+     "polite",
+     "Mein Mitbewohner hat eine Tabelle dafür."
     ]
    ]
   },
@@ -57,7 +45,7 @@
    "segs": [
     [
      "neutral",
-     "Ach so. Sie sind bei Felix eingezogen?"
+     "Ach so. Und trotzdem sonntags?"
     ]
    ]
   },
@@ -65,7 +53,11 @@
    "segs": [
     [
      "polite",
-     "Genau. Felix hat gesagt, ich soll die Flaschen heute wegbringen."
+     "Er sagt, früh am Morgen geht das."
+    ],
+    [
+     "polite",
+     "Entschuldigung."
     ]
    ]
   },
@@ -73,7 +65,7 @@
    "segs": [
     [
      "surprised",
-     "Felix? Der mit den Zetteln zur Mülltrennung im Treppenhaus?"
+     "Der Felix? Der große Junge von nebenan?"
     ]
    ]
   },
@@ -81,15 +73,7 @@
    "segs": [
     [
      "neutral",
-     "Ja, genau der."
-    ],
-    [
-     "worried",
-     "Er hat mir eine Liste gegeben."
-    ],
-    [
-     "worried",
-     "Mit zwölf Regeln."
+     "Ja, genau. Er ist sehr streng mit dem Müll."
     ]
    ]
   },
@@ -97,7 +81,7 @@
    "segs": [
     [
      "shout",
-     "{name}, stopp! Grün kommt in den grünen Container, nicht in den weißen!"
+     "Halt! Die grüne Flasche gehört in den grünen Behälter!!"
     ]
    ]
   },
@@ -105,11 +89,7 @@
    "segs": [
     [
      "shout",
-     "Felix! Es ist Sonntag!"
-    ],
-    [
-     "shout",
-     "Sie schreien durchs ganze Haus!"
+     "Was machen Sie denn hier?!"
     ]
    ]
   },
@@ -117,7 +97,11 @@
    "segs": [
     [
      "stiff",
-     "Frau Becker, Regeln sind Regeln."
+     "Die Regeln sind klar."
+    ],
+    [
+     "stiff",
+     "Getrennt nach Farbe."
     ]
    ]
   },
@@ -125,7 +109,11 @@
    "segs": [
     [
      "tsukkomi",
-     "Genau! Und Regel Nummer eins lautet: Sonntag ist Ruhetag!"
+     "Am Sonntagmorgen so laut?"
+    ],
+    [
+     "tsukkomi",
+     "Das ist doch verrückt!"
     ]
    ]
   },
@@ -133,11 +121,7 @@
    "segs": [
     [
      "amused",
-     "Moment mal, Felix."
-    ],
-    [
-     "amused",
-     "Das steht gar nicht auf meiner Liste."
+     "Felix, du übertreibst mal wieder total."
     ]
    ]
   },
@@ -145,24 +129,23 @@
    "segs": [
     [
      "flustered",
-     "… Ich gehe wieder rein.",
-     "Ich gehe wieder rein."
+     "Tut mir leid, Frau Becker."
+    ],
+    [
+     "flustered",
+     "Ich wollte nur helfen."
     ]
    ]
   },
   "15": {
    "segs": [
     [
-     "amused",
-     "Sie gefallen mir."
-    ],
-    [
-     "cheerful",
-     "Ich bin Renate."
-    ],
-    [
-     "cheerful",
+     "gentle",
      "Wollen wir uns duzen?"
+    ],
+    [
+     "gentle",
+     "Dann ist es einfacher."
     ]
    ]
   },
@@ -170,11 +153,7 @@
    "segs": [
     [
      "cheerful",
-     "Gerne, Renate."
-    ],
-    [
-     "worried",
-     "Aber sag mal, was mache ich jetzt mit den Flaschen?"
+     "Gerne! Danke fürs Verständnis."
     ]
    ]
   }

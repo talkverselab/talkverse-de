@@ -9,7 +9,7 @@
    "segs": [
     [
      "stiff",
-     "Guten Tag. Haben Sie einen Termin?"
+     "Guten Tag. Sie möchten sich anmelden?"
     ]
    ]
   },
@@ -17,11 +17,7 @@
    "segs": [
     [
      "polite",
-     "Ja, um zehn Uhr."
-    ],
-    [
-     "polite",
-     "Ich muss meine neue Wohnung melden."
+     "Ja, bitte. Mein Mitbewohner hat die Unterlagen dabei."
     ]
    ]
   },
@@ -29,11 +25,7 @@
    "segs": [
     [
      "stiff",
-     "Gut. Dafür wird zuerst ein Formular gebraucht."
-    ],
-    [
-     "stiff",
-     "Haben Sie das dabei?"
+     "Die Papiere, die Sie brauchen, liegen hier vor."
     ]
    ]
   },
@@ -41,11 +33,11 @@
    "segs": [
     [
      "cheerful",
-     "Natürlich. Das wurde alles schon gestern gemacht."
+     "Alles nach Farbe sortiert."
     ],
     [
      "cheerful",
-     "Jede Seite hat ihre eigene Farbe."
+     "Grün für den Vertrag."
     ]
    ]
   },
@@ -53,7 +45,7 @@
    "segs": [
     [
      "neutral",
-     "Schön. Und wer sind Sie?"
+     "Leider fehlt die Meldebescheinigung vom Vormieter."
     ]
    ]
   },
@@ -61,11 +53,7 @@
    "segs": [
     [
      "stiff",
-     "Felix. Ich wohne auch dort."
-    ],
-    [
-     "stiff",
-     "Die Regeln im Haus werden von mir geschrieben."
+     "Die liegt im blauen Ordner. Ganz oben."
     ]
    ]
   },
@@ -73,23 +61,15 @@
    "segs": [
     [
      "teasing",
-     "Leider stimmt das."
-    ],
-    [
-     "teasing",
-     "Zwölf Regeln."
+     "Felix, du übertreibst mit den Farben mal wieder."
     ]
    ]
   },
   "8": {
    "segs": [
     [
-     "polite",
-     "Gut, dann wird jetzt alles in den Computer geschrieben."
-    ],
-    [
      "surprised",
-     "Moment. Der ist plötzlich aus."
+     "Moment... der Computer ist gerade ausgegangen."
     ]
    ]
   },
@@ -97,11 +77,7 @@
    "segs": [
     [
      "shout",
-     "Aus? Das darf nicht passieren!"
-    ],
-    [
-     "shout",
-     "Wir haben einen Termin!"
+     "Was?! Alle Daten müssen doch gespeichert sein!"
     ]
    ]
   },
@@ -113,7 +89,7 @@
     ],
     [
      "polite",
-     "Dann wird das eben mit der Hand gemacht."
+     "Wir starten ihn neu."
     ]
    ]
   },
@@ -121,19 +97,15 @@
    "segs": [
     [
      "amused",
-     "Felix! Deine Farben werden endlich gebraucht!"
+     "Wenn der Computer nicht ausginge, wären wir schon fertig."
     ]
    ]
   },
   "12": {
    "segs": [
     [
-     "surprised",
-     "Oh, der Computer ist wieder an."
-    ],
-    [
      "polite",
-     "Dann muss leider alles noch einmal gemacht werden."
+     "Die Anmeldung wird bearbeitet, sobald er wieder läuft."
     ]
    ]
   },
@@ -141,11 +113,11 @@
    "segs": [
     [
      "annoyed",
-     "Noch einmal?"
+     "Die Regeln sind Regeln."
     ],
     [
      "annoyed",
-     "Das wurde doch gerade erst gemacht!"
+     "Farben helfen immer."
     ]
    ]
   },
@@ -153,11 +125,7 @@
    "segs": [
     [
      "stiff",
-     "Regeln sind Regeln."
-    ],
-    [
-     "stiff",
-     "Das wissen Sie doch am besten."
+     "Leider dauert es heute länger."
     ]
    ]
   },
@@ -165,7 +133,7 @@
    "segs": [
     [
      "teasing",
-     "Felix, ich glaube, du hast deinen Meister gefunden."
+     "Deine Ordner haben den Computer geschockt, Felix."
     ]
    ]
   },
@@ -173,8 +141,7 @@
    "segs": [
     [
      "sad",
-     "… Darf ich wenigstens die Farben behalten?",
-     "Darf ich wenigstens die Farben behalten?"
+     "Nächstes Mal nehme ich weniger Farben mit."
     ]
    ]
   }

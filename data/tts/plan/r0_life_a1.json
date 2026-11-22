@@ -1,0 +1,56 @@
+{
+ "ep": "r0_life_a1",
+ "cast": {
+  "B": "felix"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Hallo! Willkommen!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Hallo! Danke!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Schlüssel. Oben, unten."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Passt nicht!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Oben! Fürs Fahrrad."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Alles klar!"
+    ]
+   ]
+  }
+ }
+}

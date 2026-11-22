@@ -1,0 +1,56 @@
+{
+ "ep": "r0_study_a1",
+ "cast": {
+  "B": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Hallo. Frei?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "teasing",
+     "Nein."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "Oh, sorry."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "shy",
+     "Klar. Für dich."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Danke. Ich neu."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Ich auch! Cool."
+    ]
+   ]
+  }
+ }
+}

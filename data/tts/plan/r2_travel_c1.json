@@ -1,0 +1,88 @@
+{
+ "ep": "r2_travel_c1",
+ "cast": {
+  "B": "jonas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Wochenende nach Hamburg, kommst du mit?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Gute Idee."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Zug Samstag früh, wie klingt das?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Passt."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Hotel günstig ist besser."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Ok."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "annoyed",
+     "Na und? Sagst du sonst nichts?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "excited",
+     "Fischbrötchen: Laden eins, zwei, drei, alle geil!"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Bei Essen redest du plötzlich viel, ne?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "cheerful",
+     "Wenn Zeit ist, will ich alle sehen."
+    ]
+   ]
+  }
+ }
+}

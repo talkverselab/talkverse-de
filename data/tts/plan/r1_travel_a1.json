@@ -1,0 +1,92 @@
+{
+ "ep": "r1_travel_a1",
+ "cast": {
+  "B": "lena"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Mein Handy ist aus."
+    ],
+    [
+     "worried",
+     "Der Akku ist leer."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Keine Sorge."
+    ],
+    [
+     "cheerful",
+     "Warte mal, ich kenn den Weg."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Wann aussteigen? Sag mal."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Jetzt aussteigen!"
+    ],
+    [
+     "excited",
+     "Schnell, hier!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Das ist die falsche Station! Echt?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Genau, eine Station zu früh."
+    ],
+    [
+     "flustered",
+     "Einsteigen?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "annoyed",
+     "Dann laufen."
+    ],
+    [
+     "annoyed",
+     "Langsamer als mein Fahrrad."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Laufen ist auch gut. Haha."
+    ]
+   ]
+  }
+ }
+}

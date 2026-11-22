@@ -1,0 +1,109 @@
+{
+ "ep": "r3_survival_b2",
+ "cast": {
+  "B": "woman_m",
+  "C": "lena"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "annoyed",
+     "Der Pfandautomat funktioniert nicht."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Versuch das Etikett nach oben."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "Kommt trotzdem wieder raus."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "polite",
+     "Entschuldigung, kann ich Ihnen helfen?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Diese Flasche geht nicht rein."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "stiff",
+     "Die Flasche ist nicht von hier."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "annoyed",
+     "Alle unsere Flaschen sind von hier."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Das gibt's doch nicht."
+    ],
+    [
+     "surprised",
+     "Der Automat ist voll."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "surprised",
+     "Die Flaschen fallen alle raus, während wir leeren."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Wir sammeln sie alle ein. Haha."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "gentle",
+     "Ich schreibe den Bon für die Kasse."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "cheerful",
+     "Zum Glück Kaffeegeld verdient."
+    ]
+   ]
+  }
+ }
+}

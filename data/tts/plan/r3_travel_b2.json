@@ -1,0 +1,117 @@
+{
+ "ep": "r3_travel_b2",
+ "cast": {
+  "B": "man_m",
+  "C": "jonas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "stiff",
+     "Die Fahrkarte, bitte."
+    ],
+    [
+     "stiff",
+     "Zeigen Sie sie."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Moment mal, sie ist in der App."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Die App lädt nur."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Wlan an."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "stiff",
+     "Können Sie auch den Ausweis zeigen?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Hier ist der Ausweis."
+    ],
+    [
+     "worried",
+     "Ich hab das Ticket gekauft."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "stiff",
+     "Keine Zeit. Vielleicht müssen Sie an der nächsten Station aussteigen."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "neutral",
+     "Hab beide Tickets auf meinem Handy gekauft."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "polite",
+     "Beide sind gültig."
+    ],
+    [
+     "polite",
+     "Entschuldigung."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Warum sagst du das nicht früher?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "amused",
+     "Du hast nicht gefragt."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "gentle",
+     "Zum Glück alles gut. Gute Reise."
+    ]
+   ]
+  }
+ }
+}

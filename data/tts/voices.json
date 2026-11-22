@@ -145,6 +145,11 @@
   "Personalerin": "woman_m",
   "Apotheker": "man_m",
   "Schaffnerin": "woman_m",
-  "Sachbearbeiter": "man_m"
+  "Sachbearbeiter": "man_m",
+  "Frau Schulz": "woman_o",
+  "Kellner": "man_m",
+  "Apothekerin": "woman_m",
+  "Kontrolleur": "man_m",
+  "Herr Wagner": "man_m"
  }
 }

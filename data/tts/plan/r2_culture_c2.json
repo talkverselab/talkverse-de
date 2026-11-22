@@ -1,0 +1,92 @@
+{
+ "ep": "r2_culture_c2",
+ "cast": {
+  "B": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Was machst du am Samstag?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Mal sehen. Noch nichts."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Mega! Hab Karten fürs Konzert."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Cool. Viel Spaß dann."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "annoyed",
+     "Das ist nicht die Reaktion."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shy",
+     "Zwei Karten."
+    ],
+    [
+     "shy",
+     "Na klar für dich?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "neutral",
+     "Mit wem gehst du?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Hab doch gefragt: Kommst du mit?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "excited",
+     "Ja, ich komm mit!"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "teasing",
+     "Wusste, dass du das sagst."
+    ]
+   ]
+  }
+ }
+}

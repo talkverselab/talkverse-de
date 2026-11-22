@@ -9,7 +9,7 @@
    "segs": [
     [
      "amused",
-     "Jonas, wer ist der Typ, der da vorne ganz allein tanzt?"
+     "Das Konzert hier unten ist schon krass."
     ]
    ]
   },
@@ -17,11 +17,7 @@
    "segs": [
     [
      "neutral",
-     "Mias Bruder."
-    ],
-    [
-     "neutral",
-     "Er kommt immer, wenn sie spielt."
+     "Ja. Mia spielt heute."
     ]
    ]
   },
@@ -29,7 +25,7 @@
    "segs": [
     [
      "cheerful",
-     "Süß. Und die Frau, die neben Mia singt?"
+     "Sie hat eine neue Song-Idee, die sie vorstellen will."
     ]
    ]
   },
@@ -37,11 +33,7 @@
    "segs": [
     [
      "amused",
-     "Keine Ahnung."
-    ],
-    [
-     "amused",
-     "Aber Mia ist die, die am lautesten ist."
+     "Hoffentlich nicht über Brezeln."
     ]
    ]
   },
@@ -49,7 +41,11 @@
    "segs": [
     [
      "excited",
-     "Hallo! Das nächste Lied ist eins, das wir noch nie gespielt haben!"
+     "Hallo Leute!"
+    ],
+    [
+     "excited",
+     "Der nächste Song heißt „Der Brezel, der nie wegging“."
     ]
    ]
   },
@@ -57,11 +53,7 @@
    "segs": [
     [
      "surprised",
-     "Krass, ein neues Lied!"
-    ],
-    [
-     "surprised",
-     "Hast du das schon gehört?"
+     "Moment mal, das klingt total nach Jonas!"
     ]
    ]
   },
@@ -69,8 +61,11 @@
    "segs": [
     [
      "shy",
-     "… Ein bisschen.",
-     "Ein bisschen."
+     "Keine Ahnung."
+    ],
+    [
+     "shy",
+     "Ich steh nur hier."
     ]
    ]
   },
@@ -78,7 +73,7 @@
    "segs": [
     [
      "gentle",
-     "Es ist für jemanden, der immer da ist, aber fast nie etwas sagt."
+     "Der Typ im Song ist groß und isst immer Brezeln. Süß, oder?"
     ]
    ]
   },
@@ -86,8 +81,7 @@
    "segs": [
     [
      "teasing",
-     "Moment mal. Jemand, der nie etwas sagt … Jonas, schau mich an.",
-     "Moment mal. Jemand, der nie etwas sagt, Jonas, schau mich an."
+     "Wenn das nicht Jonas wäre, würde ich es nicht glauben."
     ]
    ]
   },
@@ -95,7 +89,7 @@
    "segs": [
     [
      "amused",
-     "Und der jedes Mal Brezeln mitbringt, die er dann allein isst!"
+     "Krass, dass du das sofort merkst."
     ]
    ]
   },
@@ -103,19 +97,15 @@
    "segs": [
     [
      "shout",
-     "Jonas! Das bist ja du!"
+     "Mia, ist der Song wirklich über ihn?!"
     ]
    ]
   },
   "12": {
    "segs": [
     [
-     "flustered",
-     "Nicht nur das."
-    ],
-    [
      "shy",
-     "Die Worte, die sie gleich singt, habe ich geschrieben."
+     "Ja. Sie hat ihn für mich geschrieben."
     ]
    ]
   },
@@ -123,7 +113,11 @@
    "segs": [
     [
      "tsukkomi",
-     "Du? Du sagst am Tag fünf Wörter und schreibst ein Lied?"
+     "Das ist ja total süß!"
+    ],
+    [
+     "tsukkomi",
+     "Du sagst ja nie was!"
     ]
    ]
   },
@@ -131,32 +125,23 @@
    "segs": [
     [
      "gentle",
-     "Beim Schreiben muss man nicht reden."
+     "Weil ich sie mag. Einfach so."
     ]
    ]
   },
   "15": {
    "segs": [
     [
-     "excited",
-     "Das Lied heißt: „Die Brezel, die mich nie verlassen hat“!"
-    ],
-    [
-     "shout",
-     "Eins, zwei, drei, vier!"
+     "gentle",
+     "Ich wollte, dass du es heute hörst."
     ]
    ]
   },
   "16": {
    "segs": [
     [
-     "gentle",
-     "Jonas … das ist das schönste Lied, das ich je gehört habe.",
-     "Jonas, das ist das schönste Lied, das ich je gehört habe."
-    ],
-    [
      "amused",
-     "Und das dümmste."
+     "Ihr zwei seid ja krass. Echt jetzt."
     ]
    ]
   }

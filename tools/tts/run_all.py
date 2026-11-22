@@ -15,10 +15,21 @@ def sh(*a, check=True, **k):
     return subprocess.run(a, check=check, capture_output=True, text=True, **k)
 
 
+def gpu_free(limit_mb=8192):
+    """3090 이 이미 limit 이상 쓰이고 있으면 기다린다(uk 11-22: 3090 사용 8GB 이하일 때만 시작 — 남의 프로세스는 끄지 않음)."""
+    while True:
+        r = sh('ssh', PC, 'nvidia-smi --query-gpu=name,memory.used --format=csv,noheader,nounits', check=False).stdout
+        used = [int(x.split(',')[1]) for x in r.splitlines() if '3090' in x and x.count(',') == 1]
+        if used and used[0] <= limit_mb:
+            return
+        log('3090 사용', used, 'MB — 기다림'); time.sleep(300)
+
+
 def pc_run():
     """작업 스케줄러를 돌리고 JOB_END 까지 기다린다."""
     while 'Ready' not in sh('ssh', PC, "(Get-ScheduledTask -TaskName 'TTS job 2060').State", check=False).stdout:
         time.sleep(30)                     # 앞선 작업(참고 음성 등)이 끝날 때까지
+    gpu_free()
     sh('scp', '-q', f'{work}/job/moss_jobs.json', f'{PC}:D:/tts_test/job/')
     sh('ssh', PC, "Remove-Item D:\\tts_test\\job\\vox_jobs.json -ErrorAction SilentlyContinue; Start-ScheduledTask -TaskName 'TTS job 2060'")
     time.sleep(20)

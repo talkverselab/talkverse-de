@@ -8,11 +8,11 @@
    "segs": [
     [
      "worried",
-     "Felix, wohin mit den Flaschen?"
+     "Felix, Müll ist voll."
     ],
     [
      "worried",
-     "Der Müll ist voll 🍾"
+     "Wohin mit den Flaschen? 🍾"
     ]
    ]
   },
@@ -20,11 +20,11 @@
    "segs": [
     [
      "shout",
-     "Nicht in den Müll!"
+     "Halt! Nicht in den Müll."
     ],
     [
      "shout",
-     "Das sind Pfandflaschen 😱"
+     "Die sind Pfand 😱"
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "surprised",
-     "Pfand? Was ist das?"
+     "Pfand? Was ist das denn?"
     ]
    ]
   },
@@ -52,7 +52,7 @@
    "segs": [
     [
      "excited",
-     "Echt? Wie viel?"
+     "Echt? Wie viel denn?"
     ]
    ]
   },
@@ -73,7 +73,7 @@
    "segs": [
     [
      "excited",
-     "Achtundvierzig Flaschen."
+     "Achtundvierzig Flaschen!"
     ],
     [
      "excited",

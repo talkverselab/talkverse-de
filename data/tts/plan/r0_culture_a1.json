@@ -1,0 +1,56 @@
+{
+ "ep": "r0_culture_a1",
+ "cast": {
+  "B": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Oh Mann! Wie war's?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Super gut!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shout",
+     "Wie bitte?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "shout",
+     "Super!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Echt?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Äh... gut."
+    ]
+   ]
+  }
+ }
+}

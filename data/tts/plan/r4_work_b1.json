@@ -8,11 +8,7 @@
    "segs": [
     [
      "stiff",
-     "Hättest du kurz Zeit?"
-    ],
-    [
-     "stiff",
-     "Ich wollte dich etwas fragen, wenn es dir gerade passt."
+     "Der Chef hat nur gesagt, dass es nicht schlecht war."
     ]
    ]
   },
@@ -20,7 +16,7 @@
    "segs": [
     [
      "neutral",
-     "Klar. Geht es um die Präsentation von heute Morgen?"
+     "Klar. Das sagt er immer."
     ]
    ]
   },
@@ -28,11 +24,7 @@
    "segs": [
     [
      "worried",
-     "Ja. Frau Weber hat danach nur gesagt: „Das war nicht schlecht.“"
-    ],
-    [
-     "worried",
-     "Seitdem habe ich ein ungutes Gefühl."
+     "Ernsthaft? Ich dachte, er hasst die Präsentation."
     ]
    ]
   },
@@ -40,7 +32,7 @@
    "segs": [
     [
      "surprised",
-     "Moment mal. Hat sie wirklich „nicht schlecht“ gesagt?"
+     "Moment mal. Die Präsentation, die du gehalten hast, war okay."
     ]
    ]
   },
@@ -48,7 +40,7 @@
    "segs": [
     [
      "worried",
-     "Genau das. Wäre es besser, wenn ich mich bei ihr entschuldigen würde?"
+     "Aber er hat nichts Nettes gesagt."
     ]
    ]
   },
@@ -56,7 +48,11 @@
    "segs": [
     [
      "surprised",
-     "Entschuldigen? Wofür denn?"
+     "Keine Ahnung."
+    ],
+    [
+     "surprised",
+     "Bei mir war es genauso."
     ]
    ]
   },
@@ -64,11 +60,7 @@
    "segs": [
     [
      "sad",
-     "Ich habe gedacht, sie wäre enttäuscht."
-    ],
-    [
-     "sad",
-     "Wo ich herkomme, hätte man wenigstens etwas Nettes gesagt."
+     "Dann bin ich wohl durchgefallen."
     ]
    ]
   },
@@ -76,7 +68,7 @@
    "segs": [
     [
      "amused",
-     "Du hast echt keine Ahnung, wie selten das vorkommt."
+     "Wenn er dich feuern würde, hätte er mehr gesagt."
     ]
    ]
   },
@@ -84,7 +76,7 @@
    "segs": [
     [
      "worried",
-     "Wie meinst du das?"
+     "Ernsthaft? Du denkst, es war gut?"
     ]
    ]
   },
@@ -92,11 +84,7 @@
    "segs": [
     [
      "amused",
-     "Ich arbeite seit vier Jahren hier."
-    ],
-    [
-     "amused",
-     "Das Beste, was ich von ihr gehört habe, war: „Da kann man nichts sagen.“"
+     "Klar. Nicht schlecht heißt bei ihm gut."
     ]
    ]
   },
@@ -104,7 +92,7 @@
    "segs": [
     [
      "surprised",
-     "Das soll ein Lob sein? Ernsthaft?"
+     "Moment mal, wirklich?"
     ]
    ]
   },
@@ -112,11 +100,7 @@
    "segs": [
     [
      "teasing",
-     "Das höchste."
-    ],
-    [
-     "teasing",
-     "„Nicht schlecht“ heißt bei ihr ungefähr, dass du bald befördert wirst."
+     "Ja. Er hat mir später gesagt, dass deine Charts krass waren."
     ]
    ]
   },
@@ -124,7 +108,7 @@
    "segs": [
     [
      "worried",
-     "Und wenn sie gesagt hätte, es sei gut gewesen?"
+     "Ernsthaft? Warum sagt er mir das nicht direkt?"
     ]
    ]
   },
@@ -132,11 +116,11 @@
    "segs": [
     [
      "amused",
-     "Das hat sie noch nie gesagt."
+     "Weil er so ist."
     ],
     [
      "amused",
-     "Ich würde mir Sorgen machen, dass sie kündigt."
+     "Keine Ahnung warum."
     ]
    ]
   }

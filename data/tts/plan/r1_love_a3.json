@@ -1,0 +1,80 @@
+{
+ "ep": "r1_love_a3",
+ "cast": {
+  "B": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "shy",
+     "Für dich."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Wirklich? Süß!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Ein Stick."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Ich habe kein Schlagzeug!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Ich habe einen."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shy",
+     "Einer für dich."
+    ],
+    [
+     "shy",
+     "Einer für mich."
+    ],
+    [
+     "shy",
+     "Komm wieder."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Ich behalte ihn. Immer."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Nicht verlieren! Schlaf gut."
+    ]
+   ]
+  }
+ }
+}

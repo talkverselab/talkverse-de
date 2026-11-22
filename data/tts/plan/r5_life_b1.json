@@ -9,11 +9,7 @@
    "segs": [
     [
      "surprised",
-     "Bist du sicher, dass die Adresse stimmt?"
-    ],
-    [
-     "surprised",
-     "Da stehen ja hundert Leute vor der Tür."
+     "Moment mal, da stehen ja mindestens hundert Leute vor der Tür!"
     ]
    ]
   },
@@ -21,11 +17,7 @@
    "segs": [
     [
      "cheerful",
-     "Ja, Nummer zwölf."
-    ],
-    [
-     "cheerful",
-     "Vielleicht gibt es hier was umsonst."
+     "Keine Sorge, wir kommen schon rein. Oder?"
     ]
    ]
   },
@@ -33,7 +25,7 @@
    "segs": [
     [
      "worried",
-     "Oder alle wollen dieselbe Wohnung wie wir."
+     "Eigentlich sieht das nach einem riesigen Chaos aus."
     ]
    ]
   },
@@ -41,11 +33,7 @@
    "segs": [
     [
      "polite",
-     "Guten Tag! Sind Sie wegen der Wohnung hier?"
-    ],
-    [
-     "polite",
-     "Bitte stellen Sie sich hinten an."
+     "Guten Tag! Bitte stellen Sie sich hinten an."
     ]
    ]
   },
@@ -53,7 +41,7 @@
    "segs": [
     [
      "surprised",
-     "Hinten? Wie viele Leute sind denn vor uns?"
+     "Hör auf, das sind wirklich so viele Menschen?"
     ]
    ]
   },
@@ -61,11 +49,11 @@
    "segs": [
     [
      "polite",
-     "Ungefähr sechzig."
+     "Sie sind die einundsechzigste Person."
     ],
     [
      "polite",
-     "Aber keine Sorge, es dauert nur zehn Minuten."
+     "Die Nummer für März bekommen Sie am Ende."
     ]
    ]
   },
@@ -73,11 +61,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Sechzig Leute in zehn Minuten?"
-    ],
-    [
-     "tsukkomi",
-     "Das ist ja schneller als beim Bürgeramt."
+     "Hör auf! Im Zimmer steht doch der Glascontainer!"
     ]
    ]
   },
@@ -85,7 +69,7 @@
    "segs": [
     [
      "neutral",
-     "Und wie groß ist die Wohnung?"
+     "Eigentlich ist die Wohnung ganz okay. Oder?"
     ]
    ]
   },
@@ -93,7 +77,7 @@
    "segs": [
     [
      "polite",
-     "Ein Zimmer, mit Blick in den Hof."
+     "Keine Sorge, der Container wird morgen abgeholt."
     ]
    ]
   },
@@ -101,8 +85,7 @@
    "segs": [
     [
      "annoyed",
-     "Blick in den Hof … meinen Sie den Müll da?",
-     "Blick in den Hof, meinen Sie den Müll da?"
+     "Das ist doch total unordentlich für eine Besichtigung."
     ]
    ]
   },
@@ -110,11 +93,11 @@
    "segs": [
     [
      "cheerful",
-     "Und den Glascontainer, ja."
+     "Eigentlich ist die Lage super."
     ],
     [
      "cheerful",
-     "Sehr praktisch."
+     "Viele Interessenten."
     ]
    ]
   },
@@ -122,23 +105,19 @@
    "segs": [
     [
      "teasing",
-     "Felix, das ist dein Traum, oder?"
+     "Felix, hör auf mit den Flaschen."
     ],
     [
      "teasing",
-     "Flaschen trennen direkt unter dem Fenster."
+     "Wir wollen die Wohnung."
     ]
    ]
   },
   "13": {
    "segs": [
     [
-     "annoyed",
-     "Hör auf."
-    ],
-    [
-     "shy",
-     "Eigentlich ist das gar nicht so schlecht."
+     "flustered",
+     "Keine Sorge, ich sag nichts mehr. Oder doch."
     ]
    ]
   },
@@ -146,7 +125,7 @@
    "segs": [
     [
      "polite",
-     "Dann schreiben Sie bitte hier Ihren Namen auf."
+     "Am Ende der Schlange bekommen Sie die März-Nummer."
     ]
    ]
   },
@@ -154,7 +133,11 @@
    "segs": [
     [
      "cheerful",
-     "Und dann dürfen wir die Wohnung sehen?"
+     "Dann warten wir einfach."
+    ],
+    [
+     "cheerful",
+     "Keine Sorge, Felix."
     ]
    ]
   },
@@ -162,15 +145,11 @@
    "segs": [
     [
      "polite",
-     "Nein, dann stehen Sie auf der Liste."
+     "Guten Tag noch."
     ],
     [
-     "cheerful",
-     "Nummer einundsechzig."
-    ],
-    [
-     "cheerful",
-     "Für den Termin im März."
+     "polite",
+     "Viel Erfolg bei der Suche."
     ]
    ]
   }

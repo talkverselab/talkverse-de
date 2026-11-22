@@ -8,7 +8,11 @@
    "segs": [
     [
      "cheerful",
-     "Hallo! Ich bin Lena. Und du?"
+     "Hey! Lena hier."
+    ],
+    [
+     "cheerful",
+     "Wie heißt du?"
     ]
    ]
   },
@@ -16,7 +20,7 @@
    "segs": [
     [
      "cheerful",
-     "Gut, danke!"
+     "Gut, danke! Super!"
     ]
    ]
   },
@@ -24,7 +28,7 @@
    "segs": [
     [
      "amused",
-     "Haha, nein! Wie heißt du?"
+     "Haha! Nein, dein Name!"
     ]
    ]
   },
@@ -32,7 +36,7 @@
    "segs": [
     [
      "flustered",
-     "Ach so! Ich bin {name}."
+     "Ach so! {name} hier."
     ]
    ]
   },
@@ -40,7 +44,7 @@
    "segs": [
     [
      "teasing",
-     "Hallo, {name}. Und wie geht's?"
+     "Hallo {name}! Wie geht's?"
     ]
    ]
   },
@@ -48,8 +52,7 @@
    "segs": [
     [
      "amused",
-     "… Gut, danke!",
-     "Gut, danke!"
+     "Gut, danke! Jetzt klar."
     ]
    ]
   }

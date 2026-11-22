@@ -1,0 +1,105 @@
+{
+ "ep": "r3_life_b2",
+ "cast": {
+  "B": "woman_o",
+  "C": "felix"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Guten Tag. Kommen Sie bitte rein."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Guten Tag. Das Zimmer ist hell."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Das Zimmer hat ein großes Fenster."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Wo ist die Küche?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Die Küche nutzen wir zusammen."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "polite",
+     "Wie hoch ist die Miete?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Oh! Zwei Gänse auf dem Balkon!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "neutral",
+     "Na ja, die Nachbarsgänse kommen jeden Tag."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Stehen Gänse in den Müllregeln?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Die Gänse sind größer als das kleine Zimmer. Haha."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "teasing",
+     "Eigentlich ist die Miete deshalb billiger."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "cheerful",
+     "Dann nehmen wir das Zimmer."
+    ]
+   ]
+  }
+ }
+}

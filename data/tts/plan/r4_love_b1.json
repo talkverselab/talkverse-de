@@ -8,11 +8,7 @@
    "segs": [
     [
      "teasing",
-     "Sag mal, wenn ich du wäre, würde ich langsam gehen."
-    ],
-    [
-     "teasing",
-     "Wir machen in zehn Minuten zu."
+     "Sag mal, der Rhythmus, den du auf den Tisch trommelst, ist fast Musik."
     ]
    ]
   },
@@ -20,11 +16,11 @@
    "segs": [
     [
      "flustered",
-     "Oh, schon so spät?"
+     "Oh, das ist mir peinlich."
     ],
     [
      "flustered",
-     "Ich habe gedacht, es wäre erst sieben."
+     "Ich hab nicht gemerkt, dass jemand zuhört."
     ]
    ]
   },
@@ -32,11 +28,11 @@
    "segs": [
     [
      "amused",
-     "Du sitzt hier seit drei Stunden."
+     "Kein Stress."
     ],
     [
      "amused",
-     "Und du klopfst die ganze Zeit auf den Tisch."
+     "Ich bin Drummerin, deshalb fällt mir sowas auf."
     ]
    ]
   },
@@ -44,11 +40,7 @@
    "segs": [
     [
      "surprised",
-     "Echt? Das ist mir peinlich."
-    ],
-    [
-     "shy",
-     "Das mache ich immer, wenn ich nachdenke."
+     "Echt? Du spielst Schlagzeug?"
     ]
    ]
   },
@@ -56,7 +48,7 @@
    "segs": [
     [
      "teasing",
-     "Gar nicht. Wenn es ein bisschen schneller wäre, wäre es fast Musik."
+     "Ja. Und dein Beat ist gar nicht schlecht. Na ja, fast."
     ]
    ]
   },
@@ -64,24 +56,15 @@
    "segs": [
     [
      "amused",
-     "Fast Musik? Du redest, als würdest du selbst Musik machen."
+     "Fast? Das ist ja krass."
     ]
    ]
   },
   "7": {
    "segs": [
     [
-     "cheerful",
-     "Mache ich auch."
-    ],
-    [
-     "cheerful",
-     "Ich spiele Schlagzeug."
-    ],
-    [
-     "amused",
-     "In einer Band … na ja, in einem Keller.",
-     "In einer Band, na ja, in einem Keller."
+     "teasing",
+     "Wenn du öfter hier wärst, würde ich dir ein paar Tricks zeigen."
     ]
    ]
   },
@@ -89,7 +72,7 @@
    "segs": [
     [
      "excited",
-     "Krass. Wenn ich so etwas könnte, wäre ich jeden Abend glücklich."
+     "Moment mal, du arbeitest hier als Barista, oder?"
     ]
    ]
   },
@@ -97,11 +80,11 @@
    "segs": [
     [
      "teasing",
-     "Und wenn du es einfach lernen würdest?"
+     "Genau. Und ich schließe gleich."
     ],
     [
      "teasing",
-     "Nur mal so gefragt."
+     "Du trommelst bis zum Schluss."
     ]
    ]
   },
@@ -109,20 +92,19 @@
    "segs": [
     [
      "amused",
-     "Dann bräuchte ich jemanden, der mit mir sehr ruhig bleibt."
+     "Das ist mir peinlich."
+    ],
+    [
+     "amused",
+     "Ich geh dann mal."
     ]
    ]
   },
   "11": {
    "segs": [
     [
-     "teasing",
-     "Ruhig bin ich nicht."
-    ],
-    [
-     "shy",
-     "Aber Zeit … hätte ich.",
-     "Aber Zeit, hätte ich."
+     "gentle",
+     "Warte. Der Rhythmus, den du machst, erinnert mich an einen Song."
     ]
    ]
   },
@@ -130,20 +112,19 @@
    "segs": [
     [
      "surprised",
-     "Moment mal. Meinst du das ernst?"
+     "Echt? Welchen?"
     ]
    ]
   },
   "13": {
    "segs": [
     [
-     "cheerful",
-     "Morgen, zehn Uhr, hier."
+     "shy",
+     "Einen, den ich selbst geschrieben hab."
     ],
     [
      "shy",
-     "Und wenn du nicht kämst … wäre ich ein bisschen traurig.",
-     "Und wenn du nicht kämst, wäre ich ein bisschen traurig."
+     "Weil du irgendwie süß bist."
     ]
    ]
   },
@@ -151,7 +132,11 @@
    "segs": [
     [
      "gentle",
-     "Ich wäre schon um neun da, wenn ich dürfte."
+     "Das ist... krass."
+    ],
+    [
+     "gentle",
+     "Ich wusste nicht, dass du so denkst."
     ]
    ]
   },
@@ -159,11 +144,11 @@
    "segs": [
     [
      "teasing",
-     "Um neun? Da schlafe ich noch."
+     "Na ja, jetzt weißt du es."
     ],
     [
      "teasing",
-     "Musiker, weißt du?"
+     "Komm mal wieder vorbei."
     ]
    ]
   }

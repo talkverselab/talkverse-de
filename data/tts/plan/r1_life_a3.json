@@ -1,0 +1,76 @@
+{
+ "ep": "r1_life_a3",
+ "cast": {
+  "B": "lena"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Keine Ahnung."
+    ],
+    [
+     "worried",
+     "Kein Schlüssel!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Hast du die Tasche gesehen?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "Ich habe die Tasche gesucht. Alles."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Und die Hosentasche?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "sad",
+     "Auch nicht."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Warte mal. Was hast du in der Hand?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Der Schlüssel! Zum Glück!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Du hast ihn die ganze Zeit!"
+    ]
+   ]
+  }
+ }
+}

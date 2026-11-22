@@ -9,15 +9,7 @@
    "segs": [
     [
      "polite",
-     "Guten Tag, {name}!"
-    ],
-    [
-     "polite",
-     "Bitte nehmen Sie Platz."
-    ],
-    [
-     "polite",
-     "Möchten Sie einen Kaffee?"
+     "Guten Tag! Schön, dass Sie pünktlich sind."
     ]
    ]
   },
@@ -25,7 +17,7 @@
    "segs": [
     [
      "shy",
-     "Gerne. Ich bin ehrlich gesagt ein bisschen nervös."
+     "Guten Tag. Ich bin ein bisschen nervös."
     ]
    ]
   },
@@ -33,11 +25,11 @@
    "segs": [
     [
      "gentle",
-     "Keine Sorge, das ist kein Test."
+     "Keine Sorge."
     ],
     [
      "gentle",
-     "Wir wollen Sie nur kennenlernen."
+     "Wir machen das ganz entspannt."
     ]
    ]
   },
@@ -49,7 +41,7 @@
     ],
     [
      "stiff",
-     "Ich bringe nur das Frühstück."
+     "Die Brezeln sind für später."
     ]
    ]
   },
@@ -57,24 +49,19 @@
    "segs": [
     [
      "polite",
-     "Danke, Jonas."
+     "Oh, ein Freund?"
     ],
     [
      "polite",
-     "Also, {name}: Warum wollen Sie bei uns arbeiten?"
+     "Gerne, aber bitte leise."
     ]
    ]
   },
   "6": {
    "segs": [
     [
-     "excited",
-     "Wegen der Brezeln …",
-     "Wegen der Brezeln."
-    ],
-    [
      "flustered",
-     "äh, ich meine, wegen des Teams!"
+     "Ich... die Stelle ist wegen der Brezeln. Äh, nein!"
     ]
    ]
   },
@@ -82,20 +69,15 @@
    "segs": [
     [
      "amused",
-     "Das war die beste Antwort heute."
+     "Na klar. Er meint die Erfahrung."
     ]
    ]
   },
   "8": {
    "segs": [
     [
-     "annoyed",
-     "Jonas, bitte!"
-    ],
-    [
      "polite",
-     "… Na gut. Was machen Sie nicht so gut?",
-     "Na gut. Was machen Sie nicht so gut?"
+     "Entschuldigung, haben Sie schon in einem Café gearbeitet?"
     ]
    ]
   },
@@ -103,11 +85,7 @@
    "segs": [
     [
      "cheerful",
-     "Ich komme immer zu früh."
-    ],
-    [
-     "cheerful",
-     "Heute war ich schon um sieben hier."
+     "Ja, gerne. Ich war pünktlich und zuverlässig."
     ]
    ]
   },
@@ -115,7 +93,7 @@
    "segs": [
     [
      "surprised",
-     "Um sieben? Wir machen erst um neun auf."
+     "Wirklich? Und die Brezeln haben nichts damit zu tun?"
     ]
    ]
   },
@@ -123,11 +101,11 @@
    "segs": [
     [
      "amused",
-     "Ich weiß. Ich habe {name} vor der Tür gesehen."
+     "Keine Sorge."
     ],
     [
      "amused",
-     "Zwei Stunden lang."
+     "Die sind nur für mich."
     ]
    ]
   },
@@ -135,7 +113,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Und Sie haben mir nicht aufgemacht?"
+     "Jonas, du solltest draußen warten!"
     ]
    ]
   },
@@ -143,23 +121,23 @@
    "segs": [
     [
      "shy",
-     "Ich hatte keinen Schlüssel."
+     "Entschuldigung."
     ],
     [
      "shy",
-     "Nur Brezeln."
+     "Ich geh gleich."
     ]
    ]
   },
   "14": {
    "segs": [
     [
-     "teasing",
-     "Gut. Pünktlich heißt bei uns fünf Minuten vorher, nicht zwei Stunden."
+     "amused",
+     "Keine Sorge."
     ],
     [
-     "cheerful",
-     "Können Sie am Montag anfangen?"
+     "amused",
+     "Es war sogar ein bisschen lustig."
     ]
    ]
   },
@@ -167,11 +145,7 @@
    "segs": [
     [
      "excited",
-     "Am Montag? Na klar!"
-    ],
-    [
-     "excited",
-     "Dann bin ich um sieben da."
+     "Danke! Ich freue mich auf die Stelle."
     ]
    ]
   },
@@ -179,7 +153,7 @@
    "segs": [
     [
      "gentle",
-     "Dann bringe ich den Schlüssel mit."
+     "Na klar. Du schaffst das."
     ]
    ]
   }

@@ -1,0 +1,60 @@
+{
+ "ep": "r0_friends_a2",
+ "cast": {
+  "B": "lena"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "surprised",
+     "Tut mir leid!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Alles gut? Du okay?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Kein Problem."
+    ],
+    [
+     "cheerful",
+     "Fahrrad okay."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Wohin?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Nach Hause. Hier!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Echt? Ich wohne hier!"
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,116 @@
+{
+ "ep": "r3_survival_b3",
+ "cast": {
+  "B": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Guten Tag, wie kann ich Ihnen helfen?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "sad",
+     "Ich habe Halsschmerzen."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Seit wann haben Sie die Schmerzen?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "sad",
+     "Seit gestern."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Haben Sie auch Fieber?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Nein, aber morgens war es etwas höher."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Mein Bauch tut weh..."
+    ],
+    [
+     "flustered",
+     "nein, mein Hals."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Wie bitte? Bauch oder Hals?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "amused",
+     "Der Hals, hier."
+    ],
+    [
+     "amused",
+     "Noch einmal, bitte: Halsschmerzen."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "gentle",
+     "Nehmen Sie die Tablette zweimal am Tag und trinken Sie warmen Tee."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "polite",
+     "Brauche ich ein Rezept?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "gentle",
+     "Nein, das brauchen Sie nicht."
+    ],
+    [
+     "gentle",
+     "Gute Besserung!"
+    ]
+   ]
+  }
+ }
+}

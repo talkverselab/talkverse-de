@@ -1,0 +1,88 @@
+{
+ "ep": "r2_study_c1",
+ "cast": {
+  "B": "lena"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Hast du die Hausaufgabe fertig?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Die ist doch nächste Woche."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Nee."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Wann dann?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Morgen früh."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Hab noch nichts geschrieben!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Thema ist „mein Tag“."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "neutral",
+     "Mein Tag schreiben. Okay."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "amused",
+     "Schreib: Heute hab ich die Hausaufgabe vergessen."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Das ist leicht, weil es stimmt."
+    ]
+   ]
+  }
+ }
+}

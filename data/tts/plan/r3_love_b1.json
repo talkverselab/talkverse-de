@@ -1,0 +1,113 @@
+{
+ "ep": "r3_love_b1",
+ "cast": {
+  "B": "mia",
+  "C": "man_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Was möchten Sie bestellen?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Ich hätte gern die Pasta, bitte."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Ich nehm das Gleiche."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Warum bist du heute so nervös?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Weil es unser erstes Date ist."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shy",
+     "Date hast du zum ersten Mal gesagt."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "polite",
+     "Zusammen oder getrennt?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "excited",
+     "Ich zahl die Rechnung."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "teasing",
+     "Auf keinen Fall."
+    ],
+    [
+     "teasing",
+     "Ich hab schon gezahlt."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "surprised",
+     "Wann denn?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shy",
+     "Als ich auf Toilette war."
+    ],
+    [
+     "shy",
+     "Stimmt so, nächstes Mal du."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "gentle",
+     "Dann ist das nächste Date fest."
+    ]
+   ]
+  }
+ }
+}

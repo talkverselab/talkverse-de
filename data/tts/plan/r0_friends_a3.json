@@ -1,0 +1,56 @@
+{
+ "ep": "r0_friends_a3",
+ "cast": {
+  "B": "jonas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Na? Hunger?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Ja! Ich auch!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Hier. Halb."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Lecker!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Noch nicht."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Echt lecker!"
+    ]
+   ]
+  }
+ }
+}

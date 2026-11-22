@@ -1,0 +1,96 @@
+{
+ "ep": "r2_love_c3",
+ "cast": {
+  "B": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Warst du heute beschäftigt?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Hab den ganzen Tag gearbeitet. Keine Zeit."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shy",
+     "Hab im Café die Tür angeschaut."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Auf Kunden gewartet?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Nicht Kunden."
+    ],
+    [
+     "shy",
+     "Eigentlich..."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shy",
+     "Hab dich vermisst."
+    ],
+    [
+     "shy",
+     "Du warst nicht da."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Mich? Ich auch."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Wenn jemand anders kommt, bin ich enttäuscht."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "gentle",
+     "Morgen will ich dich sehen."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "shy",
+     "Dann schau ich die Tür an. Schlaf gut."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "ep": "r1_study_a1",
+ "cast": {
+  "B": "lena"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Okay, der Tisch."
+    ],
+    [
+     "neutral",
+     "Welcher Artikel?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Der. Das weiß ich."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Und die Lampe?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Die! Die Lampe."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Und das Mädchen?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "excited",
+     "Die. Ganz klar."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Nee, das. Deutsch ist halt so."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Deutsch ist echt gemein."
+    ],
+    [
+     "tsukkomi",
+     "Ich schreib das auf."
+    ]
+   ]
+  }
+ }
+}

@@ -9,11 +9,11 @@
    "segs": [
     [
      "cheerful",
-     "Hey, ihr zwei!"
+     "Hey, morgen Abend Party bei mir."
     ],
     [
      "cheerful",
-     "Habt ihr morgen Abend Zeit?"
+     "Kommt ihr beide?"
     ]
    ]
   },
@@ -21,7 +21,11 @@
    "segs": [
     [
      "stiff",
-     "Morgen Abend? Warum?"
+     "Leider nicht."
+    ],
+    [
+     "stiff",
+     "Ich hab schon Pläne."
     ]
    ]
   },
@@ -29,11 +33,11 @@
    "segs": [
     [
      "excited",
-     "Ich mache eine Party bei mir."
+     "Wird richtig geil!"
     ],
     [
      "excited",
-     "Ihr kommt doch, oder?"
+     "Viele Freunde, gute Musik. Oder?"
     ]
    ]
   },
@@ -41,7 +45,7 @@
    "segs": [
     [
      "flustered",
-     "Oh. Morgen können wir leider nicht."
+     "Na ja, ich muss mein Fahrrad reparieren."
     ]
    ]
   },
@@ -49,11 +53,7 @@
    "segs": [
     [
      "surprised",
-     "Ihr beide nicht?"
-    ],
-    [
-     "surprised",
-     "Was habt ihr denn vor?"
+     "Am Abend? Das macht doch keinen Sinn!"
     ]
    ]
   },
@@ -61,8 +61,7 @@
    "segs": [
     [
      "stiff",
-     "Wir … arbeiten.",
-     "Wir, arbeiten."
+     "Ich auch nicht. Leider."
     ]
    ]
   },
@@ -70,11 +69,11 @@
    "segs": [
     [
      "flustered",
-     "Genau. Wir arbeiten."
+     "Genau. Wir haben..."
     ],
     [
      "flustered",
-     "Zusammen. Den ganzen Abend."
+     "äh, jeder eigene Sachen."
     ]
    ]
   },
@@ -82,11 +81,11 @@
    "segs": [
     [
      "tsukkomi",
-     "Ihr arbeitet zusammen?"
+     "Ihr beide gleichzeitig?"
     ],
     [
      "tsukkomi",
-     "Jonas, du arbeitest doch nie am Abend."
+     "Das ist total verdächtig!"
     ]
    ]
   },
@@ -94,7 +93,7 @@
    "segs": [
     [
      "stiff",
-     "Jetzt schon."
+     "Egal. Wir kommen nicht."
     ]
    ]
   },
@@ -102,7 +101,11 @@
    "segs": [
     [
      "sad",
-     "Na ja. Dann mache ich sie halt ohne euch."
+     "Okay, schade."
+    ],
+    [
+     "sad",
+     "Ich wollte euch unbedingt dabeihaben."
     ]
    ]
   },
@@ -110,7 +113,7 @@
    "segs": [
     [
      "gentle",
-     "Lena, sag es einfach."
+     "Tut mir wirklich leid."
     ]
    ]
   },
@@ -118,15 +121,11 @@
    "segs": [
     [
      "flustered",
-     "Okay, wir können nicht."
+     "Okay, wir sind ein Paar."
     ],
     [
      "flustered",
-     "Wir machen morgen eine Party."
-    ],
-    [
-     "flustered",
-     "Eine Party für dich, bei mir."
+     "Morgen Date."
     ]
    ]
   },
@@ -134,7 +133,7 @@
    "segs": [
     [
      "surprised",
-     "Für mich? Warum für mich?"
+     "Echt? Ihr zwei zusammen? Seit wann?"
     ]
    ]
   },
@@ -142,23 +141,19 @@
    "segs": [
     [
      "gentle",
-     "Felix hat gesagt, du hast morgen Geburtstag."
+     "Seit zwei Wochen. Ja."
     ]
    ]
   },
   "15": {
    "segs": [
     [
-     "surprised",
-     "Mein Geburtstag?"
+     "cheerful",
+     "Das ist ja mega!"
     ],
     [
-     "surprised",
-     "Der war schon."
-    ],
-    [
-     "tsukkomi",
-     "Vor zwei Wochen!"
+     "cheerful",
+     "Herzlichen Glückwunsch an euch!"
     ]
    ]
   },
@@ -166,11 +161,7 @@
    "segs": [
     [
      "amused",
-     "Egal. Die Brezeln sind schon da."
-    ],
-    [
-     "amused",
-     "Die Party bleibt."
+     "Danke. Die Party lassen wir aber aus."
     ]
    ]
   }

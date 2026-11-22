@@ -1,0 +1,82 @@
+{
+ "ep": "r1_love_a4",
+ "cast": {
+  "B": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Hey, nimmst du mal ein Foto von mir?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Klar, gib mir mal dein Handy."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Okay, lächeln! Und… fertig.",
+     "Okay, lächeln! Und, fertig."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Hmm, nee. Das sieht echt komisch aus."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Ich will eigentlich ein Foto mit dir."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Mit mir? Echt jetzt?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "Ja… komm mal her.",
+     "Ja, komm mal her."
+    ],
+    [
+     "shy",
+     "Ich halte das Handy."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Diesmal lächeln."
+    ],
+    [
+     "gentle",
+     "Du auch, okay?"
+    ]
+   ]
+  }
+ }
+}

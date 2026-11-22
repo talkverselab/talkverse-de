@@ -1,0 +1,72 @@
+{
+ "ep": "r1_culture_a2",
+ "cast": {
+  "B": "felix"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Kann ich helfen? Gerne!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Du musst den Teig rühren."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Wie lange?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Lange. Der Arm tut weh."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Ich tue alles ins Wasser!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shout",
+     "Moment mal! Nicht alles!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Ein Klumpen!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Lecker trotzdem."
+    ]
+   ]
+  }
+ }
+}

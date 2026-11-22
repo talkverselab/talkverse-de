@@ -9,7 +9,7 @@
    "segs": [
     [
      "polite",
-     "Guten Tag. Was kann ich für Sie tun?"
+     "Guten Tag! Was kann ich für Sie tun?"
     ]
    ]
   },
@@ -17,11 +17,11 @@
    "segs": [
     [
      "sad",
-     "Mein Hals tut weh, und meine Beine auch."
+     "Mir tut alles weh."
     ],
     [
      "sad",
-     "Eigentlich tut alles weh."
+     "Rücken, Beine, Arme."
     ]
    ]
   },
@@ -29,7 +29,7 @@
    "segs": [
     [
      "worried",
-     "Wir sind nur drei Tage hier, und {name} ist schon krank."
+     "Eigentlich war es nur eine kurze Radtour."
     ]
    ]
   },
@@ -37,11 +37,11 @@
    "segs": [
     [
      "polite",
-     "Haben Sie Fieber?"
+     "Leider klingt das nach Muskelkater."
     ],
     [
      "polite",
-     "Und seit wann haben Sie das?"
+     "Wie weit sind Sie gefahren?"
     ]
    ]
   },
@@ -49,11 +49,7 @@
    "segs": [
     [
      "sad",
-     "Seit gestern Abend."
-    ],
-    [
-     "sad",
-     "Kein Fieber, aber ich bin total müde."
+     "Sie hat gesagt, zehn Kilometer. Wirklich?"
     ]
    ]
   },
@@ -61,11 +57,7 @@
    "segs": [
     [
      "polite",
-     "Waren Sie gestern lange draußen?"
-    ],
-    [
-     "polite",
-     "Im Wind, im Regen?"
+     "Na ja, bei zehn Kilometern sollte es nicht so schlimm sein."
     ]
    ]
   },
@@ -73,7 +65,7 @@
    "segs": [
     [
      "stiff",
-     "Nein, nein. Wir sind nur ein bisschen Fahrrad gefahren."
+     "Es war halt ein bisschen länger."
     ]
    ]
   },
@@ -81,11 +73,7 @@
    "segs": [
     [
      "worried",
-     "Ein bisschen?"
-    ],
-    [
-     "worried",
-     "Lena, wie weit sind wir wirklich gefahren?"
+     "Ach komm, wie viel länger denn?"
     ]
    ]
   },
@@ -93,12 +81,11 @@
    "segs": [
     [
      "flustered",
-     "Na ja … sechzig Kilometer.",
-     "Na ja, sechzig Kilometer."
+     "Eigentlich eher vierzig Kilometer."
     ],
     [
-     "shy",
-     "Im Regen. Gegen den Wind."
+     "flustered",
+     "Mit Gegenwind."
     ]
    ]
   },
@@ -106,7 +93,7 @@
    "segs": [
     [
      "shout",
-     "Sechzig? Du hast gesagt, es sind nur zehn!"
+     "Vierzig?! Du hast zehn gesagt!"
     ]
    ]
   },
@@ -114,8 +101,7 @@
    "segs": [
     [
      "amused",
-     "Zehn, sechzig … das ist doch fast das Gleiche.",
-     "Zehn, sechzig, das ist doch fast das Gleiche."
+     "Na ja, für mich ist das kurz. Wirklich."
     ]
    ]
   },
@@ -123,12 +109,7 @@
    "segs": [
     [
      "polite",
-     "Für den Hals nehmen Sie die hier, morgens und abends."
-    ],
-    [
-     "amused",
-     "Und für die Beine … ein Bett.",
-     "Und für die Beine, ein Bett."
+     "Leider brauchen Sie dann Salbe und Ruhe."
     ]
    ]
   },
@@ -136,7 +117,11 @@
    "segs": [
     [
      "teasing",
-     "Haben Sie auch etwas gegen Lena?"
+     "Ach komm, Lena."
+    ],
+    [
+     "teasing",
+     "Nächstes Mal sagst du die Wahrheit."
     ]
    ]
   },
@@ -144,23 +129,19 @@
    "segs": [
     [
      "amused",
-     "Leider nicht."
-    ],
-    [
-     "amused",
-     "Aber der Bahnhof ist gleich gegenüber."
+     "Wirklich, vierzig Kilometer am dritten Tag? Respekt."
     ]
    ]
   },
   "15": {
    "segs": [
     [
-     "annoyed",
-     "Ach komm!"
+     "gentle",
+     "Eigentlich war es schön."
     ],
     [
-     "cheerful",
-     "Morgen fahren wir nur dreißig. Ehrlich!"
+     "gentle",
+     "Trotz allem."
     ]
    ]
   }

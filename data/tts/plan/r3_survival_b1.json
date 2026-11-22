@@ -9,7 +9,7 @@
    "segs": [
     [
      "polite",
-     "Guten Tag! Was darf es sein?"
+     "Guten Tag! Was darf ich Ihnen bringen?"
     ]
    ]
   },
@@ -17,11 +17,7 @@
    "segs": [
     [
      "polite",
-     "Moment, bitte."
-    ],
-    [
-     "cheerful",
-     "Jonas, was nehmen wir?"
+     "Hallo, wir möchten gerne Brezeln."
     ]
    ]
   },
@@ -29,7 +25,7 @@
    "segs": [
     [
      "amused",
-     "Brezeln. Was sonst?"
+     "Zwei. Die großen."
     ]
    ]
   },
@@ -37,7 +33,7 @@
    "segs": [
     [
      "polite",
-     "Haben Sie noch Brezeln?"
+     "Ja, genau. Zwei Brezeln bitte."
     ]
    ]
   },
@@ -45,11 +41,7 @@
    "segs": [
     [
      "polite",
-     "Ja, die sind gerade fertig."
-    ],
-    [
-     "polite",
-     "Wie viele möchten Sie?"
+     "Gerne. Zusammen oder getrennt?"
     ]
    ]
   },
@@ -57,7 +49,7 @@
    "segs": [
     [
      "cheerful",
-     "Wir nehmen zwölf, bitte."
+     "Zwölf! Äh, ich meine zwei."
     ]
    ]
   },
@@ -65,20 +57,15 @@
    "segs": [
     [
      "cheerful",
-     "Zwölf? Gern! Sie haben wohl eine große Familie."
+     "Zwölf? Das sind aber viele Brezeln!"
     ]
    ]
   },
   "8": {
    "segs": [
     [
-     "surprised",
-     "Familie? Nein, nur wir zwei."
-    ],
-    [
      "flustered",
-     "Moment … habe ich zwölf gesagt?",
-     "Moment, habe ich zwölf gesagt?"
+     "Nein, zwei. Tut mir leid, ich habe mich versprochen."
     ]
    ]
   },
@@ -86,11 +73,7 @@
    "segs": [
     [
      "amused",
-     "Ja. Zwölf ist richtig."
-    ],
-    [
-     "amused",
-     "Zwei ist zu wenig."
+     "Zwölf für mich. Klingt gut."
     ]
    ]
   },
@@ -98,7 +81,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Jonas! Wer soll die alle essen?"
+     "Du isst doch nicht zwölf auf einmal!"
     ]
    ]
   },
@@ -106,7 +89,7 @@
    "segs": [
     [
      "cheerful",
-     "Ich. Heute sechs, morgen sechs."
+     "Heute vielleicht."
     ]
    ]
   },
@@ -114,7 +97,7 @@
    "segs": [
     [
      "polite",
-     "Also zwölf. Zusammen oder getrennt?"
+     "Also zwei. Bar oder mit Karte?"
     ]
    ]
   },
@@ -122,7 +105,7 @@
    "segs": [
     [
      "teasing",
-     "Zusammen. Aber er bekommt zehn, ich nur zwei."
+     "Jonas zahlt das, oder?"
     ]
    ]
   },
@@ -130,7 +113,7 @@
    "segs": [
     [
      "polite",
-     "Gern. Bar oder mit Karte?"
+     "Zusammen oder getrennt?"
     ]
    ]
   },
@@ -138,11 +121,7 @@
    "segs": [
     [
      "gentle",
-     "Ich mache das."
-    ],
-    [
-     "gentle",
-     "Für Brezeln immer."
+     "Zusammen. Danke."
     ]
    ]
   }

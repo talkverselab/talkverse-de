@@ -1,0 +1,72 @@
+{
+ "ep": "r1_friends_a4",
+ "cast": {
+  "B": "jonas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Noch eine Runde? Komm schon!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Ja."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Ich gewinne diesmal!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Wieder gewonnen. Noch mal?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "annoyed",
+     "Hör auf! Wie gewinnst du immer?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Dein Controller war aus."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Oh Mann! Ich habe allein gedrückt?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Jetzt an. Richtig spielen."
+    ]
+   ]
+  }
+ }
+}

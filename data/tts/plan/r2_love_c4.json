@@ -1,0 +1,88 @@
+{
+ "ep": "r2_love_c4",
+ "cast": {
+  "B": "mia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "Hey, was machst du gerade?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Ich sitz im Café und les ein Buch."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Schick mal ein Foto!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Hier, Kaffee und Buch."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Zoom mal hinter dich."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Krass, bist du das hinter mir?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Hör auf, wenn du dich umdrehst, ist der Spaß weg."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Ehrlich? Ich hab mich schon umgedreht."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shy",
+     "Ich winke dir zu."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "gentle",
+     "Dann bestell ich noch einen Kaffee."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "ep": "r2_friends_c3",
+ "cast": {
+  "B": "lena",
+  "C": "jonas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Sag mal, Samstag Party."
+    ],
+    [
+     "excited",
+     "Überraschung."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Ich kauf den Kuchen."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "stiff",
+     "Pssst, dass Jonas nichts weiß."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Na klar. Geheimnis."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Schoko-Kuchen passt gut."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Erdbeere besser."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Ernsthaft? Warum bist du hier?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Das gibt's doch nicht."
+    ],
+    [
+     "flustered",
+     "Gruppe von Jonas Handy."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "amused",
+     "Tu überrascht."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Dann Erdbeer-Kuchen. Haha."
+    ]
+   ]
+  }
+ }
+}

@@ -8,7 +8,7 @@
    "segs": [
     [
      "polite",
-     "Hallo! Was möchten Sie?"
+     "Was darf’s sein?"
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "polite",
-     "Gerne. Mit Butter?"
+     "Mit Butter?"
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "stiff",
-     "Ja, bitte."
+     "Wie bitte? Ja, gerne."
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "polite",
-     "Und noch einen Kaffee?"
+     "Noch einen Kaffee?"
     ]
    ]
   },
@@ -48,8 +48,7 @@
    "segs": [
     [
      "flustered",
-     "Ja … ja, bitte.",
-     "Ja, ja, bitte."
+     "Ja, gerne."
     ]
    ]
   },
@@ -57,24 +56,23 @@
    "segs": [
     [
      "polite",
-     "Und ein Stück Kuchen?"
+     "Und ein Stück Kuchen."
     ],
     [
      "polite",
-     "Das macht dann vierzehn Euro."
+     "Zwölf Euro, bitte."
     ]
    ]
   },
   "8": {
    "segs": [
     [
-     "shout",
-     "Wie bitte? Vierzehn Euro?"
+     "surprised",
+     "Zwölf Euro?"
     ],
     [
-     "flustered",
-     "… Ja, bitte.",
-     "Ja, bitte."
+     "amused",
+     "Stimmt so."
     ]
    ]
   }

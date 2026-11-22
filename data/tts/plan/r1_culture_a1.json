@@ -8,7 +8,7 @@
    "segs": [
     [
      "flustered",
-     "Mia, ich habe meine Jacke bei dir vergessen."
+     "Ich habe meine Jacke vergessen."
     ]
    ]
   },
@@ -16,11 +16,11 @@
    "segs": [
     [
      "cheerful",
-     "Ja, die habe ich."
+     "Die liegt hier."
     ],
     [
      "cheerful",
-     "Ist sie schwarz?"
+     "Gestern war super!"
     ]
    ]
   },
@@ -28,7 +28,7 @@
    "segs": [
     [
      "cheerful",
-     "Ja. Hast du gestern noch lange gespielt?"
+     "Echt jetzt? Das Konzert war gut?"
     ]
    ]
   },
@@ -36,7 +36,7 @@
    "segs": [
     [
      "teasing",
-     "Bis zwei. Du bist schon um zehn gegangen."
+     "Doch! Du hast getanzt. Sehr wild."
     ]
    ]
   },
@@ -44,11 +44,7 @@
    "segs": [
     [
      "worried",
-     "Ja, ich war so müde."
-    ],
-    [
-     "worried",
-     "Was habe ich verpasst?"
+     "Ich? Das weiß ich nicht mehr."
     ]
    ]
   },
@@ -56,7 +52,7 @@
    "segs": [
     [
      "amused",
-     "Jonas hat getanzt."
+     "Doch. Du hast die Jacke auf die Bühne geworfen."
     ]
    ]
   },
@@ -64,11 +60,7 @@
    "segs": [
     [
      "surprised",
-     "Jonas? Echt jetzt?"
-    ],
-    [
-     "surprised",
-     "Er tanzt doch nie!"
+     "Echt jetzt? Das war ich?"
     ]
    ]
   },
@@ -76,7 +68,7 @@
    "segs": [
     [
      "teasing",
-     "Doch. Und er hat nach dir gefragt."
+     "Ja. Und dann hast du gelacht. Sehr laut."
     ]
    ]
   }

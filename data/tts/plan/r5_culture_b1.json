@@ -9,11 +9,7 @@
    "segs": [
     [
      "excited",
-     "Sonntag, acht Uhr fünfzehn!"
-    ],
-    [
-     "excited",
-     "Handys weg, Licht aus, „Die letzte Tür“ fängt an!"
+     "Gleich kommt die Szene, in der der Mörder die Tür öffnet!"
     ]
    ]
   },
@@ -21,11 +17,7 @@
    "segs": [
     [
      "annoyed",
-     "Moment mal. Wer hat das Essen zum Papier gelegt?"
-    ],
-    [
-     "annoyed",
-     "Papier ist nur für Papier!"
+     "Moment mal. Der Fernseher ist zu laut für Sonntagabend."
     ]
    ]
   },
@@ -33,7 +25,7 @@
    "segs": [
     [
      "flustered",
-     "Das war ich. Aber Felix, es fängt an!"
+     "Schon gut, wir drehen leiser. Warte mal."
     ]
    ]
   },
@@ -41,15 +33,7 @@
    "segs": [
     [
      "teasing",
-     "Schon gut, Felix, morgen."
-    ],
-    [
-     "teasing",
-     "Also, wer ist der Mörder?"
-    ],
-    [
-     "teasing",
-     "Ich sage: der Gärtner."
+     "Felix, du bist schlimmer als der Detektiv in der Serie."
     ]
    ]
   },
@@ -57,11 +41,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Es gibt keinen Gärtner."
-    ],
-    [
-     "tsukkomi",
-     "Das ist ein Haus in Berlin, ohne Garten."
+     "Genau, lass uns doch einfach gucken!"
     ]
    ]
   },
@@ -69,11 +49,7 @@
    "segs": [
     [
      "amused",
-     "Dann der große Mann da."
-    ],
-    [
-     "amused",
-     "Der hat so komische Augen."
+     "Der Typ, der die Tür aufmacht, ist total verdächtig."
     ]
    ]
   },
@@ -81,7 +57,11 @@
    "segs": [
     [
      "tsukkomi",
-     "Mia, das ist der Polizist."
+     "Warte mal. Im Hintergrund steht eine gelbe Tonne."
+    ],
+    [
+     "tsukkomi",
+     "Falsch sortiert!"
     ]
    ]
   },
@@ -89,29 +69,19 @@
    "segs": [
     [
      "excited",
-     "Leise! Jetzt kommt es."
-    ],
-    [
-     "excited",
-     "Die Frau macht die Tür auf …",
-     "Die Frau macht die Tür auf."
+     "Echt jetzt? Das ist der entscheidende Moment!"
     ]
    ]
   },
   "9": {
    "segs": [
     [
-     "cheerful",
-     "Warte mal, kurz Pause."
+     "shout",
+     "Ich muss den Ton leiser machen."
     ],
     [
-     "cheerful",
-     "Ich muss noch die Flaschen …",
-     "Ich muss noch die Flaschen."
-    ],
-    [
-     "flustered",
-     "oh. Was habe ich gedrückt?"
+     "shout",
+     "Die Nachbarn..."
     ]
    ]
   },
@@ -119,11 +89,11 @@
    "segs": [
     [
      "shout",
-     "Felix! Da steht schon „Ende“!"
+     "Felix! Nicht jetzt!"
     ],
     [
      "shout",
-     "Das ist die letzte Minute!"
+     "Wir verpassen alles!"
     ]
    ]
   },
@@ -131,11 +101,7 @@
    "segs": [
     [
      "shout",
-     "Zurück, zurück!"
-    ],
-    [
-     "shout",
-     "Wer war es? Ich habe nur Flaschen gehört!"
+     "Gib den Remote zurück! Sofort!"
     ]
    ]
   },
@@ -143,12 +109,7 @@
    "segs": [
     [
      "surprised",
-     "Moment … da steht es.",
-     "Moment, da steht es."
-    ],
-    [
-     "surprised",
-     "Der Hausmeister war der Mörder."
+     "Schon gut. Aber die Tonne war wirklich falsch."
     ]
    ]
   },
@@ -156,11 +117,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Der Hausmeister?"
-    ],
-    [
-     "tsukkomi",
-     "Der war doch nur zwei Minuten im Bild!"
+     "Der Mörder hat die Trennung nicht gemacht, und du auch nicht!"
     ]
    ]
   },
@@ -168,11 +125,11 @@
    "segs": [
     [
      "amused",
-     "Er hat seine Flaschen nie getrennt."
+     "Genau. Regeln gelten überall."
     ],
     [
      "amused",
-     "Ich habe es gewusst."
+     "Auch im Fernsehen."
     ]
    ]
   },
@@ -180,7 +137,7 @@
    "segs": [
     [
      "teasing",
-     "Felix, nächsten Sonntag bleibst du bei deinen Flaschen."
+     "Du hast uns den besten Teil geklaut, Felix."
     ]
    ]
   },
@@ -188,7 +145,7 @@
    "segs": [
     [
      "amused",
-     "Genau. Ich drücke, und du kochst Tee."
+     "Nächstes Mal verstecken wir den Remote vor dir."
     ]
    ]
   }

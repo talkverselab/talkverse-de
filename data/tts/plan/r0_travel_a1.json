@@ -1,0 +1,56 @@
+{
+ "ep": "r0_travel_a1",
+ "cast": {
+  "B": "jonas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Hallo! Hier!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "amused",
+     "Na? Hier."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "surprised",
+     "Das ist mir peinlich!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Groß. Ich."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Endlich da!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Hunger."
+    ]
+   ]
+  }
+ }
+}

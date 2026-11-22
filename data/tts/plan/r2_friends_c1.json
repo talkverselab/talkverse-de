@@ -8,7 +8,7 @@
    "segs": [
     [
      "flustered",
-     "Lena, sorry! Mein Bus hat Verspätung 🙈"
+     "Lena, sorry! Der Bus ist richtig spät 🙈"
     ]
    ]
   },
@@ -16,7 +16,11 @@
    "segs": [
     [
      "annoyed",
-     "Wie viel? Ich sitze schon im Café 😤"
+     "Wie lange denn?"
+    ],
+    [
+     "annoyed",
+     "Ich sitz schon im Café und warte 😤"
     ]
    ]
   },
@@ -24,11 +28,7 @@
    "segs": [
     [
      "worried",
-     "Zehn Minuten."
-    ],
-    [
-     "worried",
-     "Sagt die App."
+     "Zehn Minuten, sagt die App."
     ]
    ]
   },
@@ -36,7 +36,7 @@
    "segs": [
     [
      "cheerful",
-     "Okay. Ich bestell dir schon mal was."
+     "Okay. Ich bestell dir schon mal einen Kaffee."
     ]
    ]
   },
@@ -44,8 +44,7 @@
    "segs": [
     [
      "surprised",
-     "Äh … warte. Der Bus fährt zurück 😳",
-     "Äh, warte. Der Bus fährt zurück 😳"
+     "Warte mal! Der Bus fährt plötzlich zurück 😳"
     ]
    ]
   },
@@ -65,7 +64,7 @@
     ],
     [
      "worried",
-     "Ist das nicht richtig?"
+     "Ist das richtig?"
     ]
    ]
   },
@@ -73,7 +72,7 @@
    "segs": [
     [
      "amused",
-     "Die Hundert fährt in beide Richtungen 😂"
+     "Die Hundert fährt in beide Richtungen, ne? 😂"
     ]
    ]
   },
@@ -81,7 +80,7 @@
    "segs": [
     [
      "flustered",
-     "Oh Mann. Ich steige jetzt aus."
+     "Oh Mann. Ich steig jetzt aus."
     ]
    ]
   },
@@ -109,11 +108,11 @@
    "segs": [
     [
      "teasing",
-     "Doch. Ab jetzt pünktlich."
+     "Doch. Komm ab jetzt pünktlich."
     ],
     [
      "teasing",
-     "Dann kriegst du auch Kaffee ☕"
+     "Dann kriegst du Kaffee ☕"
     ]
    ]
   }

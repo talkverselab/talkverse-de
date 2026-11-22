@@ -9,7 +9,7 @@
    "segs": [
     [
      "polite",
-     "Guten Tag! Ihre Karten, bitte."
+     "Guten Tag! Die Fahrkarten bitte."
     ]
    ]
   },
@@ -17,11 +17,7 @@
    "segs": [
     [
      "polite",
-     "Hier, auf dem Handy."
-    ],
-    [
-     "polite",
-     "Für uns beide."
+     "Hier, bitte. Wir fahren nach Berlin."
     ]
    ]
   },
@@ -29,7 +25,7 @@
    "segs": [
     [
      "stiff",
-     "Danke. Und das Fahrrad da, gehört das auch Ihnen?"
+     "Das Fahrrad braucht eine Extra-Karte."
     ]
    ]
   },
@@ -37,11 +33,11 @@
    "segs": [
     [
      "cheerful",
-     "Ja, das gehört mir."
+     "Wir sind pünktlich."
     ],
     [
      "cheerful",
-     "Ohne Fahrrad gehe ich nicht aus dem Haus."
+     "Das reicht doch, oder?"
     ]
    ]
   },
@@ -49,7 +45,7 @@
    "segs": [
     [
      "polite",
-     "Für das Fahrrad brauchen Sie aber auch eine Karte."
+     "Nein. Und die Karte ist nur für eine Person."
     ]
    ]
   },
@@ -57,11 +53,7 @@
    "segs": [
     [
      "flustered",
-     "Oh. Das wussten wir nicht."
-    ],
-    [
-     "flustered",
-     "Können wir die bei Ihnen bekommen?"
+     "Oh Mann, wir haben das nicht gewusst."
     ]
    ]
   },
@@ -69,7 +61,7 @@
    "segs": [
     [
      "polite",
-     "Gern. Aber wo wollen Sie denn hin?"
+     "Das Fahrrad steht auch im falschen Wagen."
     ]
    ]
   },
@@ -77,11 +69,7 @@
    "segs": [
     [
      "cheerful",
-     "Zu meiner Familie."
-    ],
-    [
-     "cheerful",
-     "Um sieben gibt es Essen, und ich bin nie spät."
+     "Aber wir sind genau pünktlich angekommen!"
     ]
    ]
   },
@@ -89,15 +77,7 @@
    "segs": [
     [
      "stiff",
-     "Dann haben Sie ein Problem."
-    ],
-    [
-     "stiff",
-     "Dieser Zug fährt da nicht hin."
-    ],
-    [
-     "stiff",
-     "Er fährt zurück."
+     "Probleme: keine Fahrradkarte, falscher Wagen, und die Karte ist abgelaufen."
     ]
    ]
   },
@@ -105,7 +85,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Zurück? Lena, du hast doch gesagt, das ist richtig!"
+     "Oh Mann, das sind ja drei Sachen auf einmal!"
     ]
    ]
   },
@@ -113,11 +93,7 @@
    "segs": [
     [
      "flustered",
-     "Ich habe nur auf die Uhr geschaut."
-    ],
-    [
-     "flustered",
-     "Die Zeit war richtig!"
+     "Die Karte... ich dachte, die gilt noch."
     ]
    ]
   },
@@ -125,7 +101,7 @@
    "segs": [
     [
      "amused",
-     "Und es wird noch besser: Wir halten erst in einer Stunde wieder."
+     "Nächstes Mal besser planen."
     ]
    ]
   },
@@ -133,11 +109,7 @@
    "segs": [
     [
      "worried",
-     "Oh Mann. Eine Stunde?"
-    ],
-    [
-     "worried",
-     "Und die Karte für das Fahrrad?"
+     "Müssen wir jetzt Strafe zahlen?"
     ]
    ]
   },
@@ -145,24 +117,15 @@
    "segs": [
     [
      "polite",
-     "Die brauchen Sie auch."
-    ],
-    [
-     "polite",
-     "Auch für den Weg zurück."
+     "Nein, diesmal nur eine Warnung. Guten Tag."
     ]
    ]
   },
   "15": {
    "segs": [
     [
-     "worried",
-     "Mama wartet um sieben."
-    ],
-    [
-     "sad",
-     "Ich war noch nie zu spät … bis heute.",
-     "Ich war noch nie zu spät, bis heute."
+     "stiff",
+     "Wir bleiben trotzdem pünktlich."
     ]
    ]
   },
@@ -170,11 +133,7 @@
    "segs": [
     [
      "teasing",
-     "Sag ihr einfach: Wir kommen spät."
-    ],
-    [
-     "teasing",
-     "Aber pünktlich."
+     "Dein Fahrrad macht immer Chaos, Lena."
     ]
    ]
   }

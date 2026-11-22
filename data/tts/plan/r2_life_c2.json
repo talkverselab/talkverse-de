@@ -1,0 +1,92 @@
+{
+ "ep": "r2_life_c2",
+ "cast": {
+  "B": "felix"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Hey, ich bin grad einkaufen."
+    ],
+    [
+     "cheerful",
+     "Brauchst du noch was?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Nur Milch bitte."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Ach, und Brot noch."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Milch und Brot, alles klar."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Käse, Äpfel und Klopapier auch noch!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "annoyed",
+     "Die Liste wird echt lang, ne?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Äh, heute kommen zehn Freunde zu Besuch..."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Ach komm, warum sagst du das jetzt erst?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "worried",
+     "Weil ich Angst hatte, dass du Nein sagst."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Ok, dann hol ich noch nen Wagen. Geht klar!"
+    ]
+   ]
+  }
+ }
+}

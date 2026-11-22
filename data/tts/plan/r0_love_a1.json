@@ -8,7 +8,7 @@
    "segs": [
     [
      "cheerful",
-     "Hallo! Na, wie geht's?"
+     "Hey du! Wie geht's?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "cheerful",
-     "Gut, danke! Und dir?"
+     "Gut, danke! Und du?"
     ]
    ]
   },
@@ -24,8 +24,8 @@
    "segs": [
     [
      "shy",
-     "Mir geht's jetzt … ganz gut.",
-     "Mir geht's jetzt, ganz gut."
+     "Mir … jetzt ganz gut.",
+     "Mir, jetzt ganz gut."
     ]
    ]
   },

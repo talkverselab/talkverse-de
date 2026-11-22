@@ -1,0 +1,108 @@
+{
+ "ep": "r2_friends_c2",
+ "cast": {
+  "B": "lena"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Jonas! Kauf Fahrradklingel als Geschenk."
+    ],
+    [
+     "excited",
+     "Zahlst du mit?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "Oh Mann! Falsch geschickt!"
+    ],
+    [
+     "flustered",
+     "Das ist mir peinlich."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Was für ein Geschenk?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Nichts. Egal."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Hab alles gelesen."
+    ],
+    [
+     "amused",
+     "Fahrradklingel."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "sad",
+     "War Überraschung."
+    ],
+    [
+     "sad",
+     "Jetzt ruiniert."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "cheerful",
+     "Super, weil meine Klingel kaputt ist."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "gentle",
+     "Ok, ich tu überrascht."
+    ],
+    [
+     "gentle",
+     "Versprochen."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Danke. Das bleibt Geheimnis."
+    ]
+   ]
+  }
+ }
+}
