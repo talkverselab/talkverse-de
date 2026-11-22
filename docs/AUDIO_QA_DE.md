@@ -40,3 +40,4 @@ GPU 필요:
 - 같은 도구로 새 원고를 시험할 수 있다: 감정 계획은 새 원고로 다시 만들어 두었고(64편, 오류 0) 조각 이름(`r2_love_b1` `11_0_c.wav` 포함)이 그대로라 `trial.py` 를 고치지 않아도 된다. 옛 시험과 섞이지 않게 출력만 나눈다:
   `TTS_OUT=de_v3 ~/.venvs/tts_zh/bin/python tools/tts/trial.py ~/tts_work/de` — 3090 이 비고 uk 가 「de 지금 시작」(독일어는 음성 줄 가장 뒤)을 보낸 뒤에만.
 - 결과는 r1 한 편 MOSS 개선판·VoxCPM2 판 + r2 11번. 사용자가 듣고 모델을 고르면 그 방식으로 64편(`run_all.py`)을 돌린다. VoxCPM2 를 고르면 `make_jobs.py` 의 `<편>_vox` 경로(2060)로.
+- 3090 이 「비었다」의 판정(uk 2026-11-23): ① 앞 세션의 「GPU 끝」 또는 uk 의 「de 지금 시작」 ② 보조로 PC `D:\tts_test\job\job.log`·`moss_jobs.json` 수정 시각이 5분 넘게 멈춤 — 둘 다일 때만. nvidia-smi 사용량만 보고 판단하지 않는다(묶음마다 모델을 올렸다 내리는 실행기는 몇 초씩 576MiB 로 비어 보임). `run_all.py` 의 「8GB 아래면 시작」 문은 시작 신호를 받은 뒤에만 쓴다.
