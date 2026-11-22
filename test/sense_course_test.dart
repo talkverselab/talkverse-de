@@ -52,7 +52,6 @@ void main() {
     await settle(t, find.byKey(const ValueKey('sense-finish')));
     expect(t.takeException(), isNull);
     expect(find.byKey(const ValueKey('memorize-video')), findsOneWidget);
-    expect(find.text('영상 준비 중'), findsOneWidget);
     expect(find.textContaining('{', findRichText: true), findsNothing);
     expect(find.textContaining('Tasche ist wirklich', findRichText: true), findsOneWidget);
     await t.tap(find.byKey(const ValueKey('sense-finish')));

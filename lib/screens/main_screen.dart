@@ -405,8 +405,7 @@ class _MenuGrid extends StatelessWidget {
           builder: (_) => const GrammarHubScreen()),
         _MenuItem(label: tr('동사 활용'), sub: 'Konjugation', badge: 'V', color: AppColors.irregular,
           builder: (_) => const VerbScreen()),
-        _MenuItem(label: tr('성·수'), sub: 'Genus', badge: 'der', color: AppColors.mar,
-          builder: (_) => _ComingSoon(title: tr('성·수 일치'))),
+        // 「성·수」 타일은 빈 화면이라 심사 전에 뺌(2026-11-22) — 화면이 생기면 다시 넣는다.
       ]),
       (tr('회화'), [
         _MenuItem(label: tr('회화'), sub: 'Gespräch', badge: 'Ch', color: AppColors.rojo,
@@ -520,25 +519,6 @@ class _MenuTile extends StatelessWidget {
               ),
             ],
           ),
-        ),
-      ),
-    );
-  }
-}
-
-class _ComingSoon extends StatelessWidget {
-  final String title;
-  const _ComingSoon({required this.title});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: AppColors.cal,
-      appBar: AppBar(title: Text(title)),
-      body: Center(
-        child: Text(
-          tr('Bald · 준비 중'),
-          style: TextStyle(color: AppColors.tintaLight, letterSpacing: 2),
         ),
       ),
     );

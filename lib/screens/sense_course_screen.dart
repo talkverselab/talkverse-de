@@ -363,24 +363,13 @@ class _Memorize extends StatelessWidget {
   }
 }
 
-/// 회차 영상 자리 — 이 앱은 `video_player` 를 넣지 않았다(2026-11-22). 주소가 있어도 「영상 준비 중」 칸만 보인다.
+/// 회차 영상 자리 — 이 앱은 `video_player` 를 넣지 않았다(2026-11-22). 지금은 아무것도 그리지 않는다.
 /// 영상을 틀려면 pubspec 에 video_player 를 더하고 일본어앱 `LessonVideo` 를 그대로 옮긴다.
 class LessonVideo extends StatelessWidget {
   final String url;
   const LessonVideo({super.key, required this.url});
 
+  // 영상이 없으면 빈 칸을 보이지 않는다(심사에서 미완성으로 보이지 않게, 2026-11-22).
   @override
-  Widget build(BuildContext context) => AspectRatio(
-        aspectRatio: 16 / 9,
-        child: Container(
-          key: const ValueKey('memorize-video'),
-          decoration: BoxDecoration(color: AppColors.washiDeep, borderRadius: BorderRadius.circular(12), border: Border.all(color: AppColors.line)),
-          alignment: Alignment.center,
-          child: Column(mainAxisSize: MainAxisSize.min, children: [
-            const Text('🎬', style: TextStyle(fontSize: 36)),
-            const SizedBox(height: 6),
-            Text(tr('영상 준비 중'), style: const TextStyle(fontSize: 12, color: AppColors.sumiLight)),
-          ]),
-        ),
-      );
+  Widget build(BuildContext context) => const SizedBox.shrink(key: ValueKey('memorize-video'));
 }
