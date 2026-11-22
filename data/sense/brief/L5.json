@@ -1,0 +1,8 @@
+{
+ "id": "L5",
+ "title": "동사가 끝으로",
+ "scene": "Lena 의 이사를 Minjun 이 도와준다. 상자가 너무 무겁다",
+ "target": "화법조동사 + 문장 끝 동사원형: Ich kann das tragen. Du musst nicht helfen. Willst du…? Darf ich…?",
+ "avoid": "부문장",
+ "lines": 10
+}

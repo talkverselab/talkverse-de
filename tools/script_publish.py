@@ -28,7 +28,7 @@ PREFIX = 'script/de'
 
 
 def current():
-    paths = sorted(glob.glob(str(DATA / 'dialogues/R[0-5]/*/*.json')))
+    paths = sorted(glob.glob(str(DATA / 'dialogues/R[0-5]/*/*.json'))) + [str(DATA / 'grammar/sense_course.json')]
     out = {}
     for p in paths:
         b = Path(p).read_bytes()

@@ -16,10 +16,12 @@ import 'profile_screen.dart';
 import 'sentence_flashcard_screen.dart';
 import 'speaking_practice_screen.dart';
 import 'progress_screen.dart';
+import 'sense_course_screen.dart';
 import 'topic_vocab_screen.dart';
 import 'verb_screen.dart';
 import 'word_flashcard_screen.dart';
 import 'word_freq_screen.dart';
+import 'word_quiz_screen.dart';
 import '../core/l10n.dart';
 
 class MainScreen extends StatefulWidget {
@@ -385,11 +387,15 @@ class _TodayMissionState extends State<_TodayMission> {
   }
 }
 
-/// 메뉴 — 기초 → 문법 → 회화 → 단어 → 참고(일본어앱 2026-11-07 순서). 「문장 말하기」는 회화 바로 다음(태국어앱).
+/// 메뉴 — 정규과정(언어감각 과정, 일본어앱처럼 맨 위) → 기초 → 문법 → 회화 → 단어 → 참고(일본어앱 2026-11-07 순서). 「문장 말하기」는 회화 바로 다음(태국어앱).
 class _MenuGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final groups = <(String, List<_MenuItem>)>[
+      (tr('정규과정'), [
+        _MenuItem(label: tr('언어감각 과정'), sub: 'Sprachgefühl', badge: 'Gf', color: AppColors.ai,
+          builder: (_) => const SenseCourseScreen()),
+      ]),
       (tr('기초'), [
         _MenuItem(label: tr('알파벳과 발음'), sub: 'Alphabet', badge: 'ü', color: AppColors.er,
           builder: (_) => const AlphabetScreen()),
@@ -421,6 +427,8 @@ class _MenuGrid extends StatelessWidget {
           builder: (_) => const TopicVocabScreen()),
         _MenuItem(label: tr('단어 카드'), sub: 'Karten', badge: 'R', color: AppColors.gualdaDeep,
           builder: (_) => const WordFlashcardScreen()),
+        _MenuItem(label: tr('단어 복습 퀴즈'), sub: 'Quiz', badge: 'Q', color: AppColors.oliva,
+          builder: (_) => const WordQuizScreen()),
       ]),
       (tr('참고'), [
         _MenuItem(label: tr('청크 검색'), sub: 'Suche', badge: '🔍', color: AppColors.gualdaDeep,

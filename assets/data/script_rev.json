@@ -63,7 +63,8 @@
 "dialogues/R5/culture/r5_culture_b1.json": "0d3bcd2e9374",
 "dialogues/R5/life/r5_life_b1.json": "af8cddcaab17",
 "dialogues/R5/travel/r5_travel_b1.json": "09900be2cf44",
-"dialogues/R5/work/r5_work_b1.json": "8c5b92b123bf"
+"dialogues/R5/work/r5_work_b1.json": "8c5b92b123bf",
+"grammar/sense_course.json": "0218ad092ab1"
 },
-"rev": 7
+"rev": 8
 }

@@ -1,0 +1,8 @@
+{
+ "id": "L3",
+ "title": "동사는 둘째 자리",
+ "scene": "토요일 아침, 둘이 주말 계획을 짠다. 시간·장소가 문장 앞에 오면 동사가 바로 뒤에 온다. 계획이 결국 데이트가 된다",
+ "target": "V2 어순과 도치: Heute gehe ich…, Am Samstag habe ich…, Dann fahren wir…",
+ "avoid": "부문장",
+ "lines": 10
+}

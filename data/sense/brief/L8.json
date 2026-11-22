@@ -1,0 +1,8 @@
+{
+ "id": "L8",
+ "title": "했어 — 현재완료",
+ "scene": "여행에서 돌아온 Lena 에게 Minjun 이 무슨 일이 있었는지 묻는다",
+ "target": "현재완료: haben/sein + ge-…-t/-en (Ich habe gegessen, Ich bin gefahren), 이동·변화는 sein",
+ "avoid": "일반동사 과거형(Präteritum) — war·hatte 만 허용",
+ "lines": 10
+}

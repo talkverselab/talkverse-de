@@ -1,0 +1,8 @@
+{
+ "id": "L10",
+ "title": "du 와 Sie",
+ "scene": "Minjun 이 카페 알바 면접을 본다. 사장님은 Lena 의 어머니 Frau Becker. 처음엔 Sie, 마지막에 사장님이 „Wir können uns duzen.“",
+ "target": "Sie 존댓말(Können Sie…? Möchten Sie…?) ↔ du, 정중 고정형 möchte·könnten·hätte gern, 마지막에 du 로 바꾸기",
+ "avoid": "관계문",
+ "lines": 10
+}

@@ -1,0 +1,8 @@
+{
+ "id": "L4",
+ "title": "떨어지는 동사",
+ "scene": "Minjun 이 늦잠을 자서 Lena 가 전화로 깨운다. 둘이 박물관에 가기로 했다",
+ "target": "분리동사: aufstehen(Ich stehe auf), anrufen, mitkommen, ankommen, einkaufen — 앞토막이 문장 끝으로",
+ "avoid": "부문장·과거형",
+ "lines": 10
+}

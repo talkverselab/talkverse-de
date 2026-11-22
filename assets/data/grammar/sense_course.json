@@ -1,0 +1,1102 @@
+{
+ "title": "언어감각 익히기",
+ "subtitle": "정규과정 · 대화 통째로 외우기 → 참고",
+ "levels": [
+  {
+   "id": "L1",
+   "title": "관사와 성",
+   "lessons": [
+    {
+     "id": "L1-talk",
+     "title": "관사와 성",
+     "kind": "memorize",
+     "video": "",
+     "note": "관사 der·die·das, ein·eine, kein·keine를 문장으로 외우면 명사 성이 저절로 몸에 익어요.",
+     "sentences": [
+      {
+       "who": "Lena",
+       "de": "Schau mal, {die|1} Tasche ist wirklich hübsch.",
+       "rd": "샤우 말, 디 타셰 이스트 비어클리히 휩슈.",
+       "ko": "봐, {이|1} 가방 진짜 이쁘다."
+      },
+      {
+       "who": "Minjun",
+       "de": "Aber {der|1} Preis ist viel zu hoch.",
+       "rd": "아버 데어 프라이스 이스트 필 추 호흐.",
+       "ko": "근데 {그|1} 가격은 너무 비싸."
+      },
+      {
+       "who": "Lena",
+       "de": "Dann {ein|1} Buch? {Das|2} Buch ist alt.",
+       "rd": "단 아인 부흐? 다스 부흐 이스트 알트.",
+       "ko": "그럼 {책|1}? {그|2} 책은 오래됐어."
+      },
+      {
+       "who": "Minjun",
+       "de": "Ich mag wirklich {keine|1} alten Bücher.",
+       "rd": "이히 마크 비어클리히 카이네 알텐 뷔허.",
+       "ko": "나 진짜 {오래된 책들|1}은 안 좋아해."
+      },
+      {
+       "who": "Lena",
+       "de": "Hier ist {eine|1} schöne Kette für mich.",
+       "rd": "히어 이스트 아이네 쇠네 케테 퓌어 미히.",
+       "ko": "여기 나를 위한 {예쁜|1} 목걸이 있어."
+      },
+      {
+       "who": "Minjun",
+       "de": "{Die|1} Kette sieht wirklich gut aus.",
+       "rd": "디 케테 지트 비어클리히 구트 아우스.",
+       "ko": "{그|1} 목걸이 진짜 잘 어울려."
+      },
+      {
+       "who": "Lena",
+       "de": "Oder {der|1} coole Hut da drüben.",
+       "rd": "오더 데어 코레 후트 다 드뤼벤.",
+       "ko": "아니면 저기 {그|1} 멋진 모자."
+      },
+      {
+       "who": "Minjun",
+       "de": "{Das|1} ist wirklich nicht mein Stil.",
+       "rd": "다스 이스트 비어클리히 니히트 마인 슈틸.",
+       "ko": "{그건|1} 진짜 내 스타일 아냐."
+      },
+      {
+       "who": "Lena",
+       "de": "Ich nehme {die|1} Uhr als Geschenk für dich.",
+       "rd": "이히 네메 디 우어 알스 게셴크 퓌어 디히.",
+       "ko": "나 너를 위한 {이|1} 시계를 선물로 가져갈게."
+      },
+      {
+       "who": "Minjun",
+       "de": "Für mich? {Das|1} ist {ein|2} tolles Geschenk!",
+       "rd": "퓌어 미히? 다스 이스트 아인 톨레스 게셴크!",
+       "ko": "나를 위해? {그게|1} {멋진|2} 선물이야!"
+      }
+     ]
+    },
+    {
+     "id": "L1-ref",
+     "kind": "ref",
+     "title": "관사와 성 한눈에",
+     "points": [
+      {
+       "head": "der · die · das",
+       "tip": "독일어 명사는 남성·여성·중성 셋 중 하나. 뜻으로 맞히기 어려우니 관사와 함께 통째로 외워요 (der Kaffee, die Tasche, das Buch).",
+       "sentences": [
+        {
+         "de": "Doch. Du hast die Jacke auf die Bühne geworfen.",
+         "rd": "도흐. 두 하스트 디 야케 아우프 디 뷔네 게보어펜.",
+         "ko": "응. 너 재킷을 무대에 던졌어."
+        },
+        {
+         "de": "Okay. Die Musik ist gut. Und die Mann singt!",
+         "rd": "오케이. 디 무지크 이스트 구트. 운트 디 만 징트!",
+         "ko": "오케이. 음악 좋다. 그리고 저 남자 노래 잘해!"
+        }
+       ]
+      },
+      {
+       "head": "ein · eine",
+       "tip": "「하나의/어떤」. 남성·중성은 ein, 여성은 eine (ein Kaffee, eine Brezel).",
+       "sentences": [
+        {
+         "de": "Ach so. Dann ist dein Deutsch ein Witz.",
+         "rd": "아흐 조. 단 이스트 다인 도이치 아인 비츠.",
+         "ko": "아 그렇구나. 그럼 네 독일어가 농담이네."
+        },
+        {
+         "de": "Noch eine Runde? Komm schon!",
+         "rd": "노흐 아이네 룬데? 콤 숀!",
+         "ko": "한 판 더? 어서!"
+        }
+       ]
+      },
+      {
+       "head": "kein · keine",
+       "tip": "명사를 부정할 때는 nicht 대신 kein (Ich habe keine Zeit = 시간이 없어).",
+       "sentences": [
+        {
+         "de": "Na ja … keine Ahnung. Ruf mich später an?",
+         "rd": "나 야 … 카이네 아눙. 루프 미히 슈페터 안?",
+         "ko": "그게… 모르겠어. 이따 전화해 줄래?"
+        },
+        {
+         "de": "Ich habe kein Schlagzeug!",
+         "rd": "이히 하베 카인 슐라크초이크!",
+         "ko": "나 드럼 없어!"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "title": "동사 끝 바꾸기",
+   "lessons": [
+    {
+     "id": "L2-talk",
+     "title": "동사 끝 바꾸기",
+     "kind": "memorize",
+     "video": "",
+     "note": "ich -e, du -st, er·sie -t, wir -en과 sein·haben 형태를 문장으로 외우면 저절로 몸에 익어요.",
+     "sentences": [
+      {
+       "who": "Lena",
+       "de": "Jonas, das {ist|1} Minjun. Er {lernt|2} Deutsch hier.",
+       "rd": "요나스, 다스 이스트 민윤. 에어 레언트 도이치 히어.",
+       "ko": "조나스, 이 사람은 {민준|1}이야. 그는 여기서 독일어를 {배워|2}."
+      },
+      {
+       "who": "Jonas",
+       "de": "Hallo Minjun! Ich {bin|1} Jonas. Du {bist|2} der Neue.",
+       "rd": "할로 민윤! 이히 빈 요나스. 두 비스트 데어 노이에.",
+       "ko": "안녕 민준! 나는 {조나스|1}야. 너 {새로 온 사람|2}이지."
+      },
+      {
+       "who": "Minjun",
+       "de": "Ja, ich {komme|1} aus Seoul. Wir {haben|2} Spaß.",
+       "rd": "야, 이히 콤메 아우스 제오울. 비어 하벤 슈파스.",
+       "ko": "응, 나는 서울에서 {왔어|1}. 우리 {즐거워|2}."
+      },
+      {
+       "who": "Lena",
+       "de": "Jonas {hat|1} gute Ideen. Er {redet|2} gern.",
+       "rd": "요나스 하트 구테 이덴. 에어 레데트 게른.",
+       "ko": "조나스는 아이디어가 {좋아|1}. 그는 말하길 {좋아해|2}."
+      },
+      {
+       "who": "Jonas",
+       "de": "Lena, du {hast|1} wirklich schöne Augen.",
+       "rd": "레나, 두 하스트 비어클리히 쇠네 아우겐.",
+       "ko": "레나, 너 {눈|1} 정말 예뻐."
+      },
+      {
+       "who": "Minjun",
+       "de": "Sie {ist|1} meine Freundin. Wir {lernen|2} Deutsch.",
+       "rd": "지 이스트 마이네 프로인딘. 비어 레어넨 도이치.",
+       "ko": "그녀는 내 {여자친구|1}야. 우리 독일어를 {배워|2}."
+      },
+      {
+       "who": "Jonas",
+       "de": "Ich {finde|1} das gut. Du {bist|2} glücklich.",
+       "rd": "이히 핀데 다스 구트. 두 비스트 글뤽리히.",
+       "ko": "나는 그게 {좋아|1}. 너 {행복해|2}."
+      },
+      {
+       "who": "Lena",
+       "de": "Ja, wir {haben|1} wirklich viel Spaß zusammen.",
+       "rd": "야, 비어 하벤 비어클리히 필 슈파스 추자멘.",
+       "ko": "응, 우리 같이 진짜 {많이 즐거워|1}."
+      },
+      {
+       "who": "Minjun",
+       "de": "Jonas, du {magst|1} Lena sehr, oder?",
+       "rd": "요나스, 두 마크스트 레나 제어, 오더?",
+       "ko": "조나스, 너 레나를 많이 {좋아해|1}, 그렇지?"
+      },
+      {
+       "who": "Jonas",
+       "de": "Ja, ich {mag|1} sie. Sie {ist|2} besonders.",
+       "rd": "야, 이히 마크 지. 지 이스트 베존더스.",
+       "ko": "응, 나는 그녀를 {좋아해|1}. 그녀는 {특별해|2}."
+      }
+     ]
+    },
+    {
+     "id": "L2-ref",
+     "kind": "ref",
+     "title": "동사 끝 바꾸기 한눈에",
+     "points": [
+      {
+       "head": "ich -e · du -st · er/sie -t",
+       "tip": "주어에 따라 동사 끝이 바뀌어요: ich komme, du kommst, sie kommt.",
+       "sentences": [
+        {
+         "de": "Ich weiß. Du willst eine, ich gebe alle.",
+         "rd": "이히 바이스. 두 빌스트 아이네, 이히 게베 알레.",
+         "ko": "알아. 넌 하나 원하고, 난 다 줘."
+        },
+        {
+         "de": "Einen Freund? Nein, ich habe keinen. Leider.",
+         "rd": "아이넨 프로인트? 나인, 이히 하베 카이넨. 라이더.",
+         "ko": "친구? 아니, 없어. 아쉽게도."
+        }
+       ]
+      },
+      {
+       "head": "sein · haben",
+       "tip": "가장 많이 쓰는 두 동사는 모양이 불규칙: bin·bist·ist / habe·hast·hat.",
+       "sentences": [
+        {
+         "de": "Wo bist du?",
+         "rd": "보 비스트 두?",
+         "ko": "어디야?"
+        },
+        {
+         "de": "Doch! Du hast getanzt. Sehr wild.",
+         "rd": "도흐! 두 하스트 게탄츠트. 제어 빌트.",
+         "ko": "응! 너 춤췄어. 아주 격하게."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "title": "동사는 둘째 자리",
+   "lessons": [
+    {
+     "id": "L3-talk",
+     "title": "동사는 둘째 자리",
+     "kind": "memorize",
+     "video": "",
+     "note": "V2 어순과 도치를 문장으로 외우면 시간·장소가 앞에 와도 저절로 몸에 익어요.",
+     "sentences": [
+      {
+       "who": "Lena",
+       "de": "Heute {haben|1} wir richtig viel Zeit.",
+       "rd": "호이테 하벤 비어 리히티히 필 차이트.",
+       "ko": "오늘 {우리|1} 정말 시간 많아."
+      },
+      {
+       "who": "Minjun",
+       "de": "Am Morgen {gehe|1} ich gerne joggen.",
+       "rd": "암 모르겐 게 이히 게르네 요겐.",
+       "ko": "아침에 {나는|1} 조깅 좋아해."
+      },
+      {
+       "who": "Lena",
+       "de": "Dann {fahren|1} wir in den Park.",
+       "rd": "단 파렌 비어 인 덴 파어크.",
+       "ko": "그럼 {우리|1} 공원에 가."
+      },
+      {
+       "who": "Minjun",
+       "de": "Später {essen|1} wir zusammen draußen.",
+       "rd": "슈페터 에센 비어 추자멘 드라우센.",
+       "ko": "나중에 {우리|1} 밖에서 같이 먹어."
+      },
+      {
+       "who": "Lena",
+       "de": "Am Nachmittag {habe|1} ich wirklich frei.",
+       "rd": "암 나흐미타크 하베 이히 비어클리히 프라이.",
+       "ko": "오후에 {나는|1} 정말 자유야."
+      },
+      {
+       "who": "Minjun",
+       "de": "Dann {treffen|1} wir uns im Café.",
+       "rd": "단 트레펜 비어 운스 임 카프é.",
+       "ko": "그럼 {우리|1} 카페에서 만나."
+      },
+      {
+       "who": "Lena",
+       "de": "Heute Abend {gehen|1} wir schön aus.",
+       "rd": "호이테 아벤트 게엔 비어 쇤 아우스.",
+       "ko": "오늘 저녁에 {우리|1} 멋지게 나가."
+      },
+      {
+       "who": "Minjun",
+       "de": "Am Samstag {bin|1} ich voll dabei.",
+       "rd": "암 잠스탁 빈 이히 폴 다바이.",
+       "ko": "토요일에 {나는|1} 완전히 함께해."
+      },
+      {
+       "who": "Lena",
+       "de": "Dann {wird|1} das ein richtiges Date.",
+       "rd": "단 비어트 다스 아인 리히티게스 다테.",
+       "ko": "그럼 {그게|1} 진짜 데이트야."
+      },
+      {
+       "who": "Minjun",
+       "de": "Ja, heute {haben|1} wir unser Date.",
+       "rd": "야, 호이테 하벤 비어 운저 다테.",
+       "ko": "응, 오늘 {우리|1} 데이트해."
+      }
+     ]
+    },
+    {
+     "id": "L3-ref",
+     "kind": "ref",
+     "title": "동사는 둘째 자리 한눈에",
+     "points": [
+      {
+       "head": "동사는 둘째 자리",
+       "tip": "문장 맨 앞에 무엇이 오든 동사는 두 번째. 시간·장소가 앞에 오면 주어가 동사 뒤로 (Heute gehe ich …).",
+       "sentences": [
+        {
+         "de": "Morgen will ich dich sehen.",
+         "rd": "모어겐 빌 이히 디히 제엔.",
+         "ko": "내일은 꼭 보러 갈게."
+        },
+        {
+         "de": "Dann schau ich die Tür an. Schlaf gut.",
+         "rd": "단 샤우 이히 디 튀어 안. 슐라프 구트.",
+         "ko": "그럼 문 계속 보고 있을게. 잘 자."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "title": "떨어지는 동사",
+   "lessons": [
+    {
+     "id": "L4-talk",
+     "title": "떨어지는 동사",
+     "kind": "memorize",
+     "video": "",
+     "note": "분리동사 앞토막이 문장 끝으로 가는 것을 문장으로 외우면 저절로 몸에 익어요.",
+     "sentences": [
+      {
+       "who": "Lena",
+       "de": "Minjun, stehst du jetzt endlich {auf|1}?",
+       "rd": "민윤, 슈테스트 두 예츠트 엔틀리히 아우프?",
+       "ko": "민준, 너 지금 드디어 {일어나|1}?"
+      },
+      {
+       "who": "Minjun",
+       "de": "Ja, ich stehe jetzt gerade {auf|1}.",
+       "rd": "야, 이히 슈테 예츠트 게라데 아우프.",
+       "ko": "응, 나 지금 바로 {일어나|1}."
+      },
+      {
+       "who": "Lena",
+       "de": "Ich rufe dich jetzt extra {an|1}.",
+       "rd": "이히 루페 디히 예츠트 엑스트라 안.",
+       "ko": "나 너를 지금 특별히 {전화해|1}."
+      },
+      {
+       "who": "Minjun",
+       "de": "Danke, ich komme gleich {mit|1}.",
+       "rd": "당케, 이히 콤메 글라이히 미트.",
+       "ko": "고마워, 나 곧 {같이 가|1}."
+      },
+      {
+       "who": "Lena",
+       "de": "Wir kommen heute wirklich pünktlich {an|1}.",
+       "rd": "비어 코멘 호이테 비어클리히 퓡크틀리히 안.",
+       "ko": "우리 오늘 진짜 제시간에 {도착해|1}."
+      },
+      {
+       "who": "Minjun",
+       "de": "Dann kaufen wir vorher schnell {ein|1}.",
+       "rd": "단 카우펜 비어 포어헤어 슈넬 아인.",
+       "ko": "그럼 우리 먼저 빨리 {쇼핑해|1}."
+      },
+      {
+       "who": "Lena",
+       "de": "Stehst du jetzt wirklich schon {auf|1}?",
+       "rd": "슈테스트 두 예츠트 비어클리히 숀 아우프?",
+       "ko": "너 지금 진짜 벌써 {일어나|1}?"
+      },
+      {
+       "who": "Minjun",
+       "de": "Ja, ich stehe sofort richtig {auf|1}.",
+       "rd": "야, 이히 슈테 조포어트 리히티히 아우프.",
+       "ko": "응, 나 바로 제대로 {일어나|1}."
+      },
+      {
+       "who": "Lena",
+       "de": "Dann rufe ich das Museum schnell {an|1}.",
+       "rd": "단 루페 이히 다스 무제움 슈넬 안.",
+       "ko": "그럼 나 박물관에 빨리 {전화해|1}."
+      },
+      {
+       "who": "Minjun",
+       "de": "Super, ich komme sehr gerne {mit|1}.",
+       "rd": "주퍼, 이히 콤메 제어 게르네 미트.",
+       "ko": "좋아, 나 아주 기꺼이 {같이 가|1}."
+      }
+     ]
+    },
+    {
+     "id": "L4-ref",
+     "kind": "ref",
+     "title": "떨어지는 동사 한눈에",
+     "points": [
+      {
+       "head": "떨어지는 동사",
+       "tip": "mitkommen·aufstehen·anrufen 같은 동사는 앞토막이 문장 끝으로 가요 (Kommst du mit?).",
+       "sentences": [
+        {
+         "de": "Hab doch gefragt: Kommst du mit?",
+         "rd": "합 도흐 게프라크트: 콤스트 두 미트?",
+         "ko": "방금 물어봤잖아: 같이 갈래?"
+        },
+        {
+         "de": "Jonas! Kauf Fahrradklingel als Geschenk. Zahlst du mit?",
+         "rd": "요나스! 카우프 파라트클링엘 알스 게셴크. 찰스트 두 미트?",
+         "ko": "요나스! 자전거 벨을 선물로 사. 너도 돈 낼 거야?"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "title": "동사가 끝으로",
+   "lessons": [
+    {
+     "id": "L5-talk",
+     "title": "동사가 끝으로",
+     "kind": "memorize",
+     "video": "",
+     "note": "화법조동사와 문장 끝 동사원형을 문장으로 외우면 저절로 몸에 익어요.",
+     "sentences": [
+      {
+       "who": "Lena",
+       "de": "Minjun, {kannst|1} du die schwere Kiste {tragen|2}?",
+       "rd": "민윤, 칸스트 두 디 슈베레 키스테 트라겐?",
+       "ko": "민준, 너 무거운 상자 {들|1} {수 있어|2}?"
+      },
+      {
+       "who": "Minjun",
+       "de": "Ja, ich {kann|1} das wirklich {tragen|2}.",
+       "rd": "야, 이히 칸 다스 비어클리히 트라겐.",
+       "ko": "응, 나 그거 진짜 {들|1} {수 있어|2}."
+      },
+      {
+       "who": "Lena",
+       "de": "Du {musst|1} nicht alles allein {machen|2}.",
+       "rd": "두 무스트 니히트 알레스 알라인 마헨.",
+       "ko": "너 다 혼자 {할|1} {필요 없어|2}."
+      },
+      {
+       "who": "Minjun",
+       "de": "Ich {will|1} dir wirklich gerne {helfen|2}.",
+       "rd": "이히 빌 디어 비어클리히 게르네 헬펜.",
+       "ko": "나 너를 진짜 기꺼이 {돕고|1} {싶어|2}."
+      },
+      {
+       "who": "Lena",
+       "de": "{Darf|1} ich dich jetzt etwas {fragen|2}?",
+       "rd": "다어프 이히 디히 예츠트 에트바스 프라겐?",
+       "ko": "나 너한테 지금 뭔가 {물어봐도|1} {돼|2}?"
+      },
+      {
+       "who": "Minjun",
+       "de": "Ja, du {darfst|1} mich gerne {fragen|2}.",
+       "rd": "야, 두 다어프스트 미히 게르네 프라겐.",
+       "ko": "응, 너 나한테 기꺼이 {물어봐도|1} {돼|2}."
+      },
+      {
+       "who": "Lena",
+       "de": "{Willst|1} du jetzt eine Pause {machen|2}?",
+       "rd": "빌스트 두 예츠트 아이네 파우제 마헨?",
+       "ko": "너 지금 휴식 {하고|1} {싶어|2}?"
+      },
+      {
+       "who": "Minjun",
+       "de": "Nein, ich {kann|1} das weiter {tragen|2}.",
+       "rd": "나인, 이히 칸 다스 바이터 트라겐.",
+       "ko": "아니, 나 그거 계속 {들|1} {수 있어|2}."
+      },
+      {
+       "who": "Lena",
+       "de": "Du {musst|1} jetzt wirklich vorsichtig {sein|2}.",
+       "rd": "두 무스트 예츠트 비어클리히 포어지히티히 자인.",
+       "ko": "너 지금 진짜 조심 {해야|1} {해|2}."
+      },
+      {
+       "who": "Minjun",
+       "de": "Ich {will|1} das mit dir {schaffen|2}.",
+       "rd": "이히 빌 다스 미트 디어 샤펜.",
+       "ko": "나 너와 함께 그거 {해내고|1} {싶어|2}."
+      }
+     ]
+    },
+    {
+     "id": "L5-ref",
+     "kind": "ref",
+     "title": "동사가 끝으로 한눈에",
+     "points": [
+      {
+       "head": "조동사 + 끝 동사",
+       "tip": "können·müssen·wollen·dürfen이 둘째 자리, 진짜 동사는 원형으로 맨 끝 (Ich kann das tragen).",
+       "sentences": [
+        {
+         "de": "Du musst den Teig rühren.",
+         "rd": "두 무스트 덴 타이히 뤼렌.",
+         "ko": "반죽을 저어야 해."
+        },
+        {
+         "de": "Jetzt? Ich kann nicht. Ich muss noch was machen.",
+         "rd": "예츠트? 이히 칸 니히트. 이히 무스 노흐 바스 마헨.",
+         "ko": "지금? 안 돼. 나 할 거 있어."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "title": "4격 — 을/를",
+   "lessons": [
+    {
+     "id": "L6-talk",
+     "title": "4격 — 을/를",
+     "kind": "memorize",
+     "video": "",
+     "note": "4격 den·einen, mich·dich·ihn과 für + 4격을 문장으로 외우면 저절로 몸에 익어요.",
+     "sentences": [
+      {
+       "who": "Minjun",
+       "de": "Oh Lena, ich sehe {dich|1} wirklich hier.",
+       "rd": "오 레나, 이히 제 디히 비어클리히 히어.",
+       "ko": "오 레나, 나 여기서 진짜 {너|1}를 봐."
+      },
+      {
+       "who": "Lena",
+       "de": "Was machst du hier? Suchst du {einen|1} Freund?",
+       "rd": "바스 마흐스트 두 히어? 주흐스트 두 아이넨 프로인트?",
+       "ko": "뭐 해 여기서? 너 {친구|1}를 찾아?"
+      },
+      {
+       "who": "Minjun",
+       "de": "Nein, ich kaufe ein Geschenk {für|1} {dich|2}.",
+       "rd": "나인, 이히 카우페 아인 게셴크 퓌어 디히.",
+       "ko": "아니, 나 {너|2}를 {위한|1} 선물 사."
+      },
+      {
+       "who": "Lena",
+       "de": "Für mich? Du überraschst {mich|1} total.",
+       "rd": "퓌어 미히? 두 위베라슈스트 미히 토탈.",
+       "ko": "나를 위해? 너 {나|1}를 완전히 놀라게 해."
+      },
+      {
+       "who": "Minjun",
+       "de": "Ja, ich nehme {den|1} Schal dort.",
+       "rd": "야, 이히 네메 덴 샬 도어트.",
+       "ko": "응, 나 저기 {그|1} 스카프 가져갈게."
+      },
+      {
+       "who": "Lena",
+       "de": "{Den|1} Schal mag ich sehr.",
+       "rd": "덴 샬 마크 이히 제어.",
+       "ko": "{그|1} 스카프 나 정말 좋아해."
+      },
+      {
+       "who": "Minjun",
+       "de": "Ich kaufe {ihn|1} extra {für|2} dich.",
+       "rd": "이히 카우페 인 엑스트라 퓌어 디히.",
+       "ko": "나 {그것|1}을 특별히 {너|2}를 위해 사."
+      },
+      {
+       "who": "Lena",
+       "de": "Du machst {mich|1} wirklich glücklich.",
+       "rd": "두 마흐스트 미히 비어클리히 글뤽리히.",
+       "ko": "너 {나|1}를 진짜 행복하게 해."
+      },
+      {
+       "who": "Minjun",
+       "de": "Darf ich {einen|1} Kuss haben?",
+       "rd": "다어프 이히 아이넨 쿠스 하벤?",
+       "ko": "나 {키스|1} 하나 해도 돼?"
+      },
+      {
+       "who": "Lena",
+       "de": "{Den|1} Kuss bekommst du später.",
+       "rd": "덴 쿠스 베콤스트 두 슈페터.",
+       "ko": "{그|1} 키스 나중에 받아."
+      }
+     ]
+    },
+    {
+     "id": "L6-ref",
+     "kind": "ref",
+     "title": "4격 — 을/를 한눈에",
+     "points": [
+      {
+       "head": "4격 — 을/를",
+       "tip": "목적어가 되면 남성 관사만 바뀌어요: der → den, ein → einen. 대명사는 mich·dich·ihn.",
+       "sentences": [
+        {
+         "de": "Hier, für dich!",
+         "rd": "히어, 퓌어 디히!",
+         "ko": "여기, 너도 먹어!"
+        },
+        {
+         "de": "Klar. Für dich.",
+         "rd": "클라어. 퓌어 디히.",
+         "ko": "그래. 너한테는."
+        }
+       ]
+      },
+      {
+       "head": "für + 4격",
+       "tip": "für(~를 위해) 뒤는 늘 4격 (für dich, für den Kaffee).",
+       "sentences": [
+        {
+         "de": "Hier, für dich!",
+         "rd": "히어, 퓌어 디히!",
+         "ko": "여기, 너도 먹어!"
+        },
+        {
+         "de": "Einer für dich. Einer für mich. Komm wieder.",
+         "rd": "아이너 퓌어 디히. 아이너 퓌어 미히. 콤 비더.",
+         "ko": "하나는 네 거. 하나는 내 거. 또 와."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "title": "3격 — 에게",
+   "lessons": [
+    {
+     "id": "L7-talk",
+     "title": "3격 — 에게",
+     "kind": "memorize",
+     "video": "",
+     "note": "3격 mir·dir·ihm·ihr과 mit·bei·von·zu + 3격, helfen·gefallen·gehören을 문장으로 외우면 저절로 몸에 익어요.",
+     "sentences": [
+      {
+       "who": "Lena",
+       "de": "Frau Weber, ich helfe {dir|1} gerne.",
+       "rd": "프라우 베버, 이히 헬페 디어 게르네.",
+       "ko": "베버 부인, 나 {너|1}에게 기꺼이 도와."
+      },
+      {
+       "who": "Frau Weber",
+       "de": "Danke, das gefällt {mir|1} sehr.",
+       "rd": "당케, 다스 게펠트 미어 제어.",
+       "ko": "고마워, 그거 {나|1}한테 정말 마음에 들어."
+      },
+      {
+       "who": "Minjun",
+       "de": "Ich komme {zu|1} {dir|2}, Lena.",
+       "rd": "이히 콤메 추 디어, 레나.",
+       "ko": "나 {너|2}에게 {와|1}, 레나."
+      },
+      {
+       "who": "Lena",
+       "de": "Wir gehen {mit|1} {ihr|2}.",
+       "rd": "비어 게엔 미트 이어.",
+       "ko": "우리 {그녀|2}와 {같이|1} 가."
+      },
+      {
+       "who": "Minjun",
+       "de": "Der Schirm gefällt {ihr|1}.",
+       "rd": "데어 시엄 게펠트 이어.",
+       "ko": "그 우산 {그녀|1}에게 마음에 들어."
+      },
+      {
+       "who": "Lena",
+       "de": "Ich gebe {dir|1} den Schirm.",
+       "rd": "이히 게베 디어 덴 시엄.",
+       "ko": "나 {너|1}에게 우산 줘."
+      },
+      {
+       "who": "Frau Weber",
+       "de": "Er gehört {mir|1}.",
+       "rd": "에어 게회어트 미어.",
+       "ko": "그거 {나|1}한테 속해."
+      },
+      {
+       "who": "Minjun",
+       "de": "{Bei|1} {dir|2} ist es sicher.",
+       "rd": "바이 디어 이스트 에스 지허.",
+       "ko": "{너|2} {옆|1}에 있으면 안전해."
+      },
+      {
+       "who": "Lena",
+       "de": "{Von|1} {dir|2} kommt die Hilfe.",
+       "rd": "폰 디어 콤트 디 힐페.",
+       "ko": "{너|2}로부터 {도움|1}이 와."
+      },
+      {
+       "who": "Minjun",
+       "de": "Das gehört {ihr|1} wirklich.",
+       "rd": "다스 게회어트 이어 비어클리히.",
+       "ko": "그거 진짜 {그녀|1}에게 속해."
+      }
+     ]
+    },
+    {
+     "id": "L7-ref",
+     "kind": "ref",
+     "title": "3격 — 에게 한눈에",
+     "points": [
+      {
+       "head": "3격 — 에게",
+       "tip": "「~에게」는 3격: mir·dir·ihm·ihr, dem·der. mit·bei·von·zu 뒤도 3격 (mit dir).",
+       "sentences": [
+        {
+         "de": "Jonas ist mir egal. Ich will … mit dir.",
+         "rd": "요나스 이스트 미어 에갈. 이히 빌 … 미트 디어.",
+         "ko": "요나스는 상관없어. 난… 너랑 가고 싶어."
+        },
+        {
+         "de": "Hey, nimmst du mal ein Foto von mir?",
+         "rd": "헤이, 님스트 두 말 아인 포토 폰 미어?",
+         "ko": "야, 내 사진 한 장 찍어 줄래?"
+        }
+       ]
+      },
+      {
+       "head": "helfen · gefallen",
+       "tip": "이 동사들은 목적어를 3격으로 받아요 (Ich helfe dir, Das gefällt mir).",
+       "sentences": [
+        {
+         "de": "Frau Weber, ich helfe dir gerne.",
+         "rd": "프라우 베버, 이히 헬페 디어 게르네.",
+         "ko": "베버 부인, 나 너에게 기꺼이 도와."
+        },
+        {
+         "de": "Danke, das gefällt mir sehr.",
+         "rd": "당케, 다스 게펠트 미어 제어.",
+         "ko": "고마워, 그거 나한테 정말 마음에 들어."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "title": "했어 — 현재완료",
+   "lessons": [
+    {
+     "id": "L8-talk",
+     "title": "했어 — 현재완료",
+     "kind": "memorize",
+     "video": "",
+     "note": "현재완료 haben/sein + ge- 형태와 이동·변화는 sein을 문장으로 외우면 저절로 몸에 익어요.",
+     "sentences": [
+      {
+       "who": "Minjun",
+       "de": "Was {hast|1} du auf der Reise {gemacht|2}?",
+       "rd": "바스 하스트 두 아우프 데어 라이제 게마흐트?",
+       "ko": "여행에서 뭐 {했어|2}?"
+      },
+      {
+       "who": "Lena",
+       "de": "Ich {bin|1} nach Paris {gefahren|2}.",
+       "rd": "이히 빈 나흐 파리스 게파렌.",
+       "ko": "나 파리로 {갔어|2}."
+      },
+      {
+       "who": "Minjun",
+       "de": "{Hast|1} du dort viel {gegessen|2}?",
+       "rd": "하스트 두 도어트 필 게게센?",
+       "ko": "거기서 많이 {먹었어|2}?"
+      },
+      {
+       "who": "Lena",
+       "de": "Ja, ich {habe|1} viele Croissants {gegessen|2}.",
+       "rd": "야, 이히 하베 피레 크로이산트스 게게센.",
+       "ko": "응, 나 크루아상 많이 {먹었어|2}."
+      },
+      {
+       "who": "Minjun",
+       "de": "{Bist|1} du allein {gereist|2}?",
+       "rd": "비스트 두 알라인 게라이스트?",
+       "ko": "혼자 {여행했어|2}?"
+      },
+      {
+       "who": "Lena",
+       "de": "Nein, ich {bin|1} mit Freunden {gefahren|2}.",
+       "rd": "나인, 이히 빈 미트 프로인덴 게파렌.",
+       "ko": "아니, 나 친구들과 {갔어|2}."
+      },
+      {
+       "who": "Minjun",
+       "de": "Was {hast|1} du alles {gesehen|2}?",
+       "rd": "바스 하스트 두 알레스 게젠?",
+       "ko": "뭐 다 {봤어|2}?"
+      },
+      {
+       "who": "Lena",
+       "de": "Ich {habe|1} den Eiffelturm {gesehen|2}.",
+       "rd": "이히 하베 덴 아이펠투엄 게젠.",
+       "ko": "나 에펠탑 {봤어|2}."
+      },
+      {
+       "who": "Minjun",
+       "de": "{Bist|1} du schon {zurückgekommen|2}?",
+       "rd": "비스트 두 숀 추뤼크게콤멘?",
+       "ko": "벌써 {돌아왔어|2}?"
+      },
+      {
+       "who": "Lena",
+       "de": "Ja, ich {bin|1} glücklich {zurückgekommen|2}.",
+       "rd": "야, 이히 빈 글뤽리히 추뤼크게콤멘.",
+       "ko": "응, 나 행복하게 {돌아왔어|2}."
+      }
+     ]
+    },
+    {
+     "id": "L8-ref",
+     "kind": "ref",
+     "title": "했어 — 현재완료 한눈에",
+     "points": [
+      {
+       "head": "했어 — haben + ge-",
+       "tip": "말할 때 과거는 대부분 현재완료: haben 이 둘째 자리, ge-…-t/-en 이 끝 (Ich habe gegessen).",
+       "sentences": [
+        {
+         "de": "Doch! Du hast getanzt. Sehr wild.",
+         "rd": "도흐! 두 하스트 게탄츠트. 제어 빌트.",
+         "ko": "응! 너 춤췄어. 아주 격하게."
+        },
+        {
+         "de": "Doch. Du hast die Jacke auf die Bühne geworfen.",
+         "rd": "도흐. 두 하스트 디 야케 아우프 디 뷔네 게보어펜.",
+         "ko": "응. 너 재킷을 무대에 던졌어."
+        }
+       ]
+      },
+      {
+       "head": "이동·변화는 sein",
+       "tip": "gehen·fahren·kommen처럼 움직이거나 바뀌면 sein (Ich bin gefahren).",
+       "sentences": [
+        {
+         "de": "Ich bin nach Paris gefahren.",
+         "rd": "이히 빈 나흐 파리스 게파렌.",
+         "ko": "나 파리로 갔어."
+        },
+        {
+         "de": "Nein, ich bin mit Freunden gefahren.",
+         "rd": "나인, 이히 빈 미트 프로인덴 게파렌.",
+         "ko": "아니, 나 친구들과 갔어."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L9",
+   "title": "왜냐하면 — 동사 끝",
+   "lessons": [
+    {
+     "id": "L9-talk",
+     "title": "왜냐하면 — 동사 끝",
+     "kind": "memorize",
+     "video": "",
+     "note": "weil·dass·wenn·ob 부문장에서 동사가 끝으로 가는 것을 문장으로 외우면 저절로 몸에 익어요.",
+     "sentences": [
+      {
+       "who": "Minjun",
+       "de": "Entschuldigung, {weil|1} ich den Bus {verpasst habe|2}.",
+       "rd": "엔트슐디궁, 바일 이히 덴 부스 페어파스트 하베.",
+       "ko": "미안, {왜냐하면|1} 버스를 {놓쳤거든|2}."
+      },
+      {
+       "who": "Lena",
+       "de": "Ich glaube, {dass|1} das nicht {stimmt|2}.",
+       "rd": "이히 글라우베, 다스 다스 니히트 슈팀트.",
+       "ko": "나 믿건대 {그게|1} 아니 {야|2}."
+      },
+      {
+       "who": "Minjun",
+       "de": "{Wenn|1} ich früher {gehe|2}, bin ich pünktlich.",
+       "rd": "벤 이히 프뤼어 게, 빈 이히 퓡크틀리히.",
+       "ko": "{만약|1} 내가 일찍 {가면|2}, 제시간이야."
+      },
+      {
+       "who": "Lena",
+       "de": "{Ob|1} du die Wahrheit {sagst|2}?",
+       "rd": "옵 두 디 바하이트 자크스트?",
+       "ko": "{너|1} 진실 {말하는지|2}?"
+      },
+      {
+       "who": "Minjun",
+       "de": "Ich bin spät, {weil|1} ich Blumen {kaufe|2}.",
+       "rd": "이히 빈 슈페트, 바일 이히 블루멘 카우페.",
+       "ko": "나 늦었어, {왜냐하면|1} 꽃 {사거든|2}."
+      },
+      {
+       "who": "Lena",
+       "de": "Ich freue mich, {dass|1} du Blumen {bringst|2}.",
+       "rd": "이히 프로이에 미히, 다스 두 블루멘 브링스트.",
+       "ko": "나 기뻐, {너|1} 꽃 {가져와서|2}."
+      },
+      {
+       "who": "Minjun",
+       "de": "{Wenn|1} du willst, {gebe|2} ich sie dir.",
+       "rd": "벤 두 빌스트, 게베 이히 지 디어.",
+       "ko": "{만약|1} 너 원하면, 나 그것 {줄게|2}."
+      },
+      {
+       "who": "Lena",
+       "de": "Ich weiß, {dass|1} du nett {bist|2}.",
+       "rd": "이히 바이스, 다스 두 네트 비스트.",
+       "ko": "나 알아, {너|1} 착하 {다는|2}."
+      },
+      {
+       "who": "Minjun",
+       "de": "{Ob|1} ich zu spät {bin|2}?",
+       "rd": "옵 이히 추 슈페트 빈?",
+       "ko": "{나|1} 너무 늦은 {지|2}?"
+      },
+      {
+       "who": "Lena",
+       "de": "Nein, {weil|1} die Blumen schön {sind|2}.",
+       "rd": "나인, 바일 디 블루멘 쇤 진트.",
+       "ko": "아니, {왜냐하면|1} 꽃이 예뻐 {서|2}."
+      }
+     ]
+    },
+    {
+     "id": "L9-ref",
+     "kind": "ref",
+     "title": "왜냐하면 — 동사 끝 한눈에",
+     "points": [
+      {
+       "head": "weil · dass · wenn — 동사 끝",
+       "tip": "이 접속사 뒤 문장은 동사가 맨 끝으로 (…, weil ich müde bin).",
+       "sentences": [
+        {
+         "de": "Wusste, dass du das sagst.",
+         "rd": "부스테, 다스 두 다스 자크스트.",
+         "ko": "네가 그렇게 말할 줄 알았어."
+        },
+        {
+         "de": "Super, weil meine Klingel kaputt ist.",
+         "rd": "주퍼, 바일 마이네 클링엘 카푸트 이스트.",
+         "ko": "좋아, 내 벨이 고장 났거든."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "title": "du 와 Sie",
+   "lessons": [
+    {
+     "id": "L10-talk",
+     "title": "du 와 Sie",
+     "kind": "memorize",
+     "video": "",
+     "note": "Sie 존댓말과 du 전환, möchte·könnten·hätte gern을 문장으로 외우면 저절로 몸에 익어요.",
+     "sentences": [
+      {
+       "who": "Frau Becker",
+       "de": "{Können Sie|1} sich kurz vorstellen?",
+       "rd": "쾨넨 지 지히 쿠어츠 포어슈텔렌?",
+       "ko": "{자기소개|1} 짧게 할 수 있나요?"
+      },
+      {
+       "who": "Minjun",
+       "de": "Ja, ich {möchte|1} hier gerne arbeiten.",
+       "rd": "야, 이히 뫼히테 히어 게르네 아어바이텐.",
+       "ko": "네, 저는 여기서 기꺼이 {일하고 싶어요|1}."
+      },
+      {
+       "who": "Frau Becker",
+       "de": "{Möchten Sie|1} einen Kaffee trinken?",
+       "rd": "뫼히텐 지 아이넨 카페 트링켄?",
+       "ko": "{커피|1} 드시겠어요?"
+      },
+      {
+       "who": "Minjun",
+       "de": "Ja, ich {hätte gern|1} einen Kaffee.",
+       "rd": "야, 이히 헤테 게른 아이넨 카페.",
+       "ko": "네, 저는 커피 한 잔 {주세요|1}."
+      },
+      {
+       "who": "Frau Becker",
+       "de": "{Könnten Sie|1} morgen anfangen?",
+       "rd": "쾬텐 지 모르겐 안팡엔?",
+       "ko": "{내일|1} 시작할 수 있을까요?"
+      },
+      {
+       "who": "Minjun",
+       "de": "Ja, ich {könnte|1} das machen.",
+       "rd": "야, 이히 쾬테 다스 마헨.",
+       "ko": "네, 저는 그거 {할 수 있어요|1}."
+      },
+      {
+       "who": "Frau Becker",
+       "de": "{Sie|1} sind der Freund von Lena.",
+       "rd": "지 진트 데어 프로인트 폰 레나.",
+       "ko": "{당신|1}은 레나의 남자친구예요."
+      },
+      {
+       "who": "Minjun",
+       "de": "Danke, {Sie|1} sind sehr freundlich.",
+       "rd": "당케, 지 진트 제어 프로인틀리히.",
+       "ko": "고마워요, {당신|1}은 매우 친절해요."
+      },
+      {
+       "who": "Frau Becker",
+       "de": "Wir können uns jetzt {duzen|1}.",
+       "rd": "비어 쾨넨 운스 예츠트 두첸.",
+       "ko": "우리 이제 {반말|1} 해도 돼."
+      },
+      {
+       "who": "Minjun",
+       "de": "Super, {du|1} bist wirklich nett.",
+       "rd": "주퍼, 두 비스트 비어클리히 네트.",
+       "ko": "좋아, {너|1} 진짜 착해."
+      }
+     ]
+    },
+    {
+     "id": "L10-ref",
+     "kind": "ref",
+     "title": "du 와 Sie 한눈에",
+     "points": [
+      {
+       "head": "Sie — 존댓말",
+       "tip": "처음 보는 어른·가게·관청에서는 Sie. 동사는 복수 모양 (Können Sie …?).",
+       "sentences": [
+        {
+         "de": "Was machen Sie denn hier?!",
+         "rd": "바스 마헨 지 덴 히어?!",
+         "ko": "여기서 뭘 하시는 거예요?!"
+        },
+        {
+         "de": "Guten Tag. Kommen Sie bitte rein.",
+         "rd": "구텐 탁. 코멘 지 비테 라인.",
+         "ko": "안녕하세요. 들어오세요."
+        }
+       ]
+      },
+      {
+       "head": "du 로 바꾸기",
+       "tip": "「Wollen wir uns duzen?」 — 이제 반말로 하자는 말. 보통 나이가 많거나 윗사람이 먼저 꺼내요.",
+       "sentences": [
+        {
+         "de": "Wollen wir uns duzen? Dann ist es einfacher.",
+         "rd": "볼렌 비어 운스 두첸? 단 이스트 에스 아인파허.",
+         "ko": "우리 서로 반말해? 그럼 더 편할 거야."
+        },
+        {
+         "de": "Wollen wir uns duzen?",
+         "rd": "볼렌 비어 운스 두첸?",
+         "ko": "여기서는 다 말 놓을까요?"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "review": {
+  "grok": "data/sense/out/<급>.md",
+  "model": "빠른"
+ }
+}

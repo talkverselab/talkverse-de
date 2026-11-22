@@ -1,0 +1,8 @@
+{
+ "id": "L2",
+ "title": "동사 끝 바꾸기",
+ "scene": "언어교환 모임. Minjun 이 Lena 의 친구 Jonas 를 처음 소개받는다. Jonas 가 Lena 를 좋아하는 눈치",
+ "target": "ich -e / du -st / er·sie -t / wir -en, 그리고 sein(bin·bist·ist)·haben(habe·hast·hat)",
+ "avoid": "과거형·부문장",
+ "lines": 10
+}
