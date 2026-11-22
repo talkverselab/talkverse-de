@@ -145,3 +145,8 @@ _2026-11-03 새로 씀. 앞 판(2026-10-11 메모·Zealot 확인 필요)은 이 
 - 배포(2026-11-22): Zealot 빌드 25 https://apps.talkverse.uk/8itFp/539 (PC 백업) · TestFlight 2611221644. 서버 원고 rev 9. 심사 준비 기준(회화 30%·단어 그림 공용 DB·장면 컷 10장·원고 서버 받기) + ja 수준(언어감각·4지선다) 모두 끝. 남은 것: 독일어 음성(보류, 사용자 지시) · 전략 §7 결정들.
 - 심사 정리(2026-11-22 18:00, uk 판단 전달): 빈 「성·수」 타일 삭제, 언어감각 영상 칸 숨김, 편 없는 회화 급 숨김(0b2eb75). 로그인 구글·네이버·카카오 「준비 중」 단추는 사용자 지시(버튼 순서)라 그대로 — uk 가 사용자께 여쭙는 중. 배포: Zealot 빌드 27 https://apps.talkverse.uk/8itFp/548 · TestFlight 2611221801. **PC 작업 잠시 멈춤(사용자 11-22 19시, uk 전달)** — 풀린 뒤(18:33) APK·IPA(2611221801) PC 백업 끝.
 - **음성 보류 해제(2026-11-22 19:48, 사용자 「니가 판단해 진행」 → uk 판단)**: 모델 3090 MOSS(bf16), 순서 = 3090 음성 줄 맨 끝(uk 가 비면 「de 지금 시작」). 준비 끝: 조연 목소리 5명 배정(`data/tts/voices.json` cast — Frau Schulz=woman_o, Kellner·Kontrolleur·Herr Wagner=man_m, Apothekerin=woman_m), 감정 계획 64편(R0~R5, 오류 0 — 옛 L1 5편은 번들이라 제외), `run_all.py` 에 3090 사용 8GB 이하일 때만 보내는 문(`gpu_free`). 시작 명령: `~/.venvs/de/bin/python tools/tts/run_all.py <작업폴더>`. **앱에는 아직 생성 음성 재생이 없다**(`AudioService` 는 정의만, 회화 화면은 기기 TTS) — 음성이 나오기 전에 ja 처럼 서버 음성 받기·재생을 이어야 함(심사 뒤에, 지금은 녹음 없는 줄 = 기기 TTS 지시대로). 진행 상태는 `~/bin/tv-progress de <상태> …` 로 출시 체크리스트 페이지에.
+
+## 2026-11-22 밤 — 토크버스 커리큘럼(전 언어 공통, uk 전달)
+- 기준 `~/talkverse/CURRICULUM_SPEC.md`. ja ceb91c3 을 옮김(fedf451) + 칩 줄 Wrap(b3972d5). 저장 `de_curriculum_v1`. 홈 카드 + 정규과정 첫 타일.
+- 사용자 결정 「넣어야지」 → 심사 빌드에 커리큘럼 보임. AI 회화 작성(custom_script_*)은 이식만, `kCustomScriptLive=false` 숨김(공개 여부 사용자 결정 대기, 작성기는 uk 공용).
+- 빌드: Zealot 28 https://apps.talkverse.uk/8itFp/618 · TestFlight 2611222155. PC 백업 끝.
