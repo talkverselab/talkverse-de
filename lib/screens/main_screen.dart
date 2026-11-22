@@ -9,6 +9,7 @@ import 'alphabet_screen.dart';
 import 'about_screen.dart';
 import 'chunk_search_screen.dart';
 import 'conversation_screen.dart';
+import 'curriculum_screen.dart';
 import 'dialogue_screen.dart';
 import 'episode_screen.dart';
 import 'grammar_lesson_screen.dart';
@@ -220,6 +221,9 @@ class HomeScreen extends StatelessWidget {
                   ],
                 ),
                 const SizedBox(height: 18),
+                // 토크버스 커리큘럼(전 언어 공통 CURRICULUM_SPEC, 2026-11-22) — 회화 메뉴 위
+                const CurriculumHomeCard(),
+                const SizedBox(height: 18),
                 Text(
                   tr('오늘의 학습'),
                   style: TextStyle(
@@ -393,6 +397,8 @@ class _MenuGrid extends StatelessWidget {
   Widget build(BuildContext context) {
     final groups = <(String, List<_MenuItem>)>[
       (tr('정규과정'), [
+        _MenuItem(label: tr('토크버스 커리큘럼'), sub: 'Curriculum', badge: 'TC', color: AppColors.rojoDeep,
+          builder: (_) => const CurriculumScreen()),
         _MenuItem(label: tr('언어감각 과정'), sub: 'Sprachgefühl', badge: 'Gf', color: AppColors.ai,
           builder: (_) => const SenseCourseScreen()),
       ]),
