@@ -34,3 +34,9 @@ GPU 필요:
 ②③④⑤ 시험 준비(2026-11-07): `tools/tts/trial.py`. PC 출력 `out/de_v2`·`out/ref_de_v2` 로 나눴다. 참고 음성 18개(af 재작성, 감정 설명 약화, 잡음 바닥 -60dB 초과는 잡음 제거), r1 15조각씩 MOSS·VoxCPM2 두 판, r2 11번 재생성. 실행: `TTS_OUT=de_v2 ~/.venvs/tts_zh/bin/python tools/tts/trial.py ~/tts_work/de`, uk 의 "지금 시작" 뒤에만.
 
 시험 결과(2026-11-08): 참고 음성 미달 9개를 seed 재생성 두 번으로 전부 통과(잡음·음색). `r1_survival_s1` MOSS 15·VoxCPM2 15조각, r2 11번 모두 검사 통과(불합격 0). R2 에만 올렸다. 사용자가 리뷰 페이지에서 두 판을 듣고 고르면 그 방식으로 나머지 3편과 전편 순서를 uk 가 잡는다.
+
+## 다시 시험 준비(2026-11-22, 사용자 「독일어는 제일 후방으로, MOSS 지원 언어부터」)
+- 11-08 시험 두 판(MOSS 개선판·VoxCPM2)은 사용자 청취를 받지 못한 채 남아 있다. 그 뒤 `r1_survival_s1`·`r2_love_b1` 대사가 Grok 판으로 바뀌어(11-19·11-22) 옛 시험 음성은 지금 원고와 다르다.
+- 같은 도구로 새 원고를 시험할 수 있다: 감정 계획은 새 원고로 다시 만들어 두었고(64편, 오류 0) 조각 이름(`r2_love_b1` `11_0_c.wav` 포함)이 그대로라 `trial.py` 를 고치지 않아도 된다. 옛 시험과 섞이지 않게 출력만 나눈다:
+  `TTS_OUT=de_v3 ~/.venvs/tts_zh/bin/python tools/tts/trial.py ~/tts_work/de` — 3090 이 비고 uk 가 「de 지금 시작」(독일어는 음성 줄 가장 뒤)을 보낸 뒤에만.
+- 결과는 r1 한 편 MOSS 개선판·VoxCPM2 판 + r2 11번. 사용자가 듣고 모델을 고르면 그 방식으로 64편(`run_all.py`)을 돌린다. VoxCPM2 를 고르면 `make_jobs.py` 의 `<편>_vox` 경로(2060)로.
