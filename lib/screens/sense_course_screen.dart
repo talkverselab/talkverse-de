@@ -21,9 +21,26 @@ const _kAsset = 'assets/data/grammar/sense_course.json';
 
 class SenseCourse {
   static Map<String, dynamic>? _cache;
-  static Future<Map<String, dynamic>> load() async =>
-      // loadString 은 큰 파일을 다른 isolate 에서 풀어 위젯 테스트가 멈춘다 — 바이트로 읽어 여기서 푼다.
-      _cache ??= json.decode(await ScriptSync.instance.load(_kAsset.substring('assets/data/'.length))) as Map<String, dynamic>;
+  static int _cacheRev = -1;
+
+  /// 서버 원고에 있으면 그것, 없으면 앱에 묶은 것(ScriptSync). 서버 판이 바뀌면 다시 읽는다.
+  /// 스텝(급) 목록·제목·순서도 이 파일에서 온다 — 회차가 빈 급은 숨기고, 서버에 내용이 생기면 저절로 보인다(2026-11-23).
+  static Future<Map<String, dynamic>> load() async {
+    final sync = ScriptSync.instance;
+    await sync.init();
+    if (_cache != null && _cacheRev == sync.shownRev) return _cache!;
+    // loadString 은 큰 파일을 다른 isolate 에서 풀어 위젯 테스트가 멈춘다 — 바이트로 읽어 여기서 푼다.
+    final d = json.decode(await sync.load(_kAsset.substring('assets/data/'.length))) as Map<String, dynamic>;
+    d['levels'] = [
+      for (final lv in (d['levels'] as List? ?? const []).whereType<Map>())
+        if ((lv['lessons'] as List? ?? const []).isNotEmpty) Map<String, dynamic>.from(lv),
+    ];
+    _cacheRev = sync.shownRev;
+    return _cache = d;
+  }
+
+  @visibleForTesting
+  static void clearCache() => _cache = null;
 
   static Future<Set<String>> done() async => ((await Prefs.getInstance()).getStringList(_kDoneKey) ?? const []).toSet();
 

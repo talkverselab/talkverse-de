@@ -1,10 +1,9 @@
-import '../core/embed_env.dart';
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
 
 import '../core/theme.dart';
+import '../services/script_sync.dart';
 import '../services/ko_reading.dart';
 import '../services/tts_service.dart';
 import '../widgets/spanish_decor.dart';
@@ -26,23 +25,34 @@ class GrammarLesson {
   int get exampleCount =>
       patterns.fold(0, (n, p) => n + ((p['examples'] as List?)?.length ?? 0));
 
+  /// 문법 스텝 — 틀은 코드, 스텝 목록·순서·제목·내용은 데이터(사용자 지시 2026-11-23 「DB가 업데이트되면 앱을 빌드안하고 스텝이 늘어날수도 줄어들수도」).
+  /// 스텝 = 원고 목록([ScriptSync.files])의 `grammar/lessonN.json` 전부(개수 고정 없음). 서버 판을 받았으면 서버 목록, 못 받았으면 앱에 묶은 목록.
+  /// 서버에서 빠진 스텝은 사라지고, 더해진 스텝은 생긴다. 패턴이 빈 스텝은 숨긴다(「준비 중」 칸 없음).
   static Future<List<GrammarLesson>> loadAll() async {
+    final sync = ScriptSync.instance;
+    await sync.init();
+    final re = RegExp(r'^grammar/lesson(\d+)\.json$');
+    final rels = [for (final f in sync.files) if (re.hasMatch(f)) f]
+      ..sort((a, b) => int.parse(re.firstMatch(a)!.group(1)!).compareTo(int.parse(re.firstMatch(b)!.group(1)!)));
     final out = <GrammarLesson>[];
-    for (var i = 1; i <= 20; i++) {
+    for (final rel in rels) {
+      final i = int.parse(re.firstMatch(rel)!.group(1)!);
       try {
-        final raw = await rootBundle.loadString(assetPath('assets/data/grammar/lesson$i.json'));
-        final d = json.decode(raw) as Map<String, dynamic>;
+        final d = json.decode(await sync.load(rel)) as Map<String, dynamic>;
+        final patterns = [for (final p in (d['patterns'] as List? ?? const [])) Map<String, dynamic>.from(p as Map)];
+        if (patterns.isEmpty) continue;
         out.add(GrammarLesson(
           (d['lesson'] as num?)?.toInt() ?? i,
           d['title'] as String? ?? trf('문법 {0}', [i]),
           d['subtitle'] as String? ?? '',
           [for (final s in (d['stages'] as List? ?? const [])) Map<String, dynamic>.from(s as Map)],
-          [for (final p in (d['patterns'] as List? ?? const [])) Map<String, dynamic>.from(p as Map)],
+          patterns,
         ));
       } catch (_) {
-        break;
+        continue;
       }
     }
+    out.sort((a, b) => a.number.compareTo(b.number));
     return out;
   }
 }
@@ -61,9 +71,17 @@ class _GrammarHubScreenState extends State<GrammarHubScreen> {
   @override
   void initState() {
     super.initState();
-    GrammarLesson.loadAll().then((l) {
-      if (mounted) setState(() => _lessons = l);
-    });
+    _load();
+  }
+
+  Future<void> _load() async {
+    final l = await GrammarLesson.loadAll();
+    if (mounted) setState(() => _lessons = l);
+    // 이번 실행에서 서버 원고를 아직 확인하지 않았으면 확인하고, 바뀌었으면 다시 읽는다
+    if (await ScriptSync.instance.refresh() && mounted) {
+      final l2 = await GrammarLesson.loadAll();
+      if (mounted) setState(() => _lessons = l2);
+    }
   }
 
   @override

@@ -64,7 +64,8 @@
 "dialogues/R5/life/r5_life_b1.json": "af8cddcaab17",
 "dialogues/R5/travel/r5_travel_b1.json": "09900be2cf44",
 "dialogues/R5/work/r5_work_b1.json": "8c5b92b123bf",
+"grammar/lesson1.json": "559bd01f85e1",
 "grammar/sense_course.json": "0218ad092ab1"
 },
-"rev": 9
+"rev": 10
 }
