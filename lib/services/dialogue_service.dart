@@ -268,6 +268,22 @@ class DialogueService {
     return out;
   }
 
+  /// 원고 한 편(JSON 맵) → Dialogue. 맞춤 회화(서버가 쓴 편)용 — 앱 안 편 읽기(_readAll)와 같은 칸을 읽는다.
+  static Dialogue parse(Map<String, dynamic> m) => Dialogue(
+        id: m['id'] as String,
+        region: m['region'] as String? ?? 'R1',
+        topic: m['island'] as String? ?? m['topic'] as String? ?? 'life',
+        title: m['title'] as String? ?? m['id'] as String,
+        emoji: m['emoji'] as String? ?? '💬',
+        scene: m['scene'] as String? ?? '',
+        speakers: ((m['speakers'] as Map?) ?? const {}).map((k, v) => MapEntry('$k', '$v')),
+        genders: ((m['genders'] as Map?) ?? const {}).map((k, v) => MapEntry('$k', '$v')),
+        expressions: ((m['expressions'] as List?) ?? const []).map((e) => '$e').toList(),
+        turns: ((m['turns'] as List?) ?? const []).map((t) => DialogueTurn.fromL1(t as Map<String, dynamic>)).toList(),
+        art: m['art'] as String?,
+        register: _registerOf(m['register'] as String?),
+      );
+
   Dialogue? byId(String id) => _all.where((d) => d.id == id).firstOrNull;
   List<Dialogue> get all => List.unmodifiable(_all);
   List<String> get regions => _all.map((d) => d.region).toSet().toList();

@@ -10,6 +10,7 @@ import 'about_screen.dart';
 import 'chunk_search_screen.dart';
 import 'conversation_screen.dart';
 import 'curriculum_screen.dart';
+import 'custom_script_screen.dart';
 import 'dialogue_screen.dart';
 import 'episode_screen.dart';
 import 'grammar_lesson_screen.dart';
@@ -416,6 +417,10 @@ class _MenuGrid extends StatelessWidget {
       (tr('회화'), [
         _MenuItem(label: tr('회화'), sub: 'Gespräch', badge: 'Ch', color: AppColors.rojo,
           builder: (_) => const DialogueHomeScreen()),
+        // AI 회화 작성(일본어앱 맞춤 회화 이식, CURRICULUM_SPEC §11) — 작성기·결제 흐름이 준비될 때까지 숨김(kCustomScriptLive=false)
+        if (kCustomScriptLive)
+          _MenuItem(label: tr('AI 회화 작성'), sub: 'KI-Dialog', badge: 'AI', color: AppColors.rojoDeep,
+            builder: (_) => const CustomScriptScreen()),
         _MenuItem(label: tr('문장 말하기'), sub: tr('한글 보고 독일어로'), badge: '🎙', color: AppColors.rojo,
           builder: (_) => const SpeakingPracticeScreen()),
         _MenuItem(label: tr('문장 카드'), sub: 'Sätze', badge: 'S', color: AppColors.tinta,

@@ -1,40 +1,50 @@
 import 'dart:convert';
 import 'dart:math';
 
+import 'package:flutter/foundation.dart';
+
 import '../core/prefs.dart';
 import 'dialogue_service.dart';
 
-/// 토크버스 커리큘럼 — 전 언어 공통 기준 `~/talkverse/CURRICULUM_SPEC.md`(uk, 2026-11-22).
-/// 회화 레벨(R0~R5)에서 다이얼로그를 3·5·10편 골라 코스로 묶고, 편마다 연습 → 확인 문제, 틀린 것·연습한 줄은 간격 반복(1·3·7일),
-/// 코스 시험 80% 이상이면 통과. 하루 목표 = 새 편 1·2·3 + 복습.
-/// 저장 = 기기(Prefs 키 `curriculum_v1`, 형식은 문서 §7 — 서버 동기화는 나중에 uk 가 붙인다). `today` 칸은 하루 분량 집계용으로 더한 것.
-const String kCurriculumKey = 'curriculum_v1';
-const List<int> kCourseSizes = [3, 5, 10];
-const List<int> kReviewDays = [1, 3, 7];
-const int kPassPercent = 80;
-const int kPracticeMaxQ = 10;
-const int kExamMinPerDialogue = 3;
-const int kExamMaxQ = 30;
-const int kReviewSessionMax = 20;
+/// 토크버스 커리큘럼 — 전 언어 공통 기준(`~/talkverse/CURRICULUM_SPEC.md`, 2026-11-22).
+///
+/// 회화 레벨(R0~R5)에서 학습자가 다이얼로그 3·5·10편을 골라 코스로 묶고 → 편마다 듣기·확인 문제 → 코스 시험 80% 이상이면 통과.
+/// 틀린 문제·연습한 줄은 간격 반복(1일 → 3일 → 7일) 복습 대기열에. 하루 목표(새 편 1·2·3 + 복습)와 연속 일수.
+/// 저장 = 기기(`curriculum_v1`, 키 이름은 전 언어 같게 — Prefs 가 언어 접두를 붙인다). 서버 동기화는 나중에 uk 가 붙인다.
 
-/// 점수 = 정답 수 / 문제 수, 소수점 버림(문서 §5).
-int scorePercent(int right, int total) => total <= 0 ? 0 : (right * 100) ~/ total;
-bool isPass(int right, int total) => scorePercent(right, total) >= kPassPercent;
+/// 간격 반복 간격(일). 맞히면 다음 간격, 틀리면 처음(1일)으로. 마지막(7일)을 맞히면 대기열에서 졸업.
+const kReviewSteps = [1, 3, 7];
 
-String dayKey(DateTime t) => '${t.year.toString().padLeft(4, '0')}-${t.month.toString().padLeft(2, '0')}-${t.day.toString().padLeft(2, '0')}';
-DateTime _day(DateTime t) => DateTime(t.year, t.month, t.day);
-String addDays(DateTime today, int n) => dayKey(_day(today).add(Duration(days: n)));
+/// 회화 레벨(독일어앱은 R0~R5 — 편이 있는 것만 보인다).
+const kCurriculumLevels = ['R0', 'R1', 'R2', 'R3', 'R4', 'R5'];
 
-/// 하루 목표: 1 가볍게 · 2 보통 · 3 집중(새 편 수).
-const Map<int, String> kDailyGoalKo = {1: '가볍게', 2: '보통', 3: '집중'};
+/// 통과 기준(%) — 사용자 원문 「80% 이상이 넘으면 코스가 넘어가고」.
+const kPassPercent = 80;
 
+/// 점수 = 정답 수 / 문제 수, 소수점 버림.
+int scorePercent(int correct, int total) => total <= 0 ? 0 : (correct * 100) ~/ total;
+bool isPass(int correct, int total) => scorePercent(correct, total) >= kPassPercent;
+
+String ymd(DateTime d) => '${d.year.toString().padLeft(4, '0')}-${d.month.toString().padLeft(2, '0')}-${d.day.toString().padLeft(2, '0')}';
+DateTime parseYmd(String s) {
+  final p = s.split('-').map(int.parse).toList();
+  return DateTime(p[0], p[1], p[2]);
+}
+String addDays(String day, int n) {
+  final d = parseYmd(day);
+  return ymd(DateTime(d.year, d.month, d.day + n));
+}
+
+/// 복습 한 줄. lineId = `<편id>#<턴번호>`.
 class ReviewItem {
-  final String lineId; // `<다이얼로그 id>#<줄 번호>`
-  String due; // yyyy-mm-dd
-  int step; // 0..2 = kReviewDays 의 자리
+  final String lineId;
+  String due; // yyyy-MM-dd
+  int step; // kReviewSteps 의 몇 번째 간격까지 왔나
   ReviewItem(this.lineId, this.due, this.step);
-  Map<String, dynamic> toJson() => {'lineId': lineId, 'due': due, 'step': step};
   factory ReviewItem.fromJson(Map j) => ReviewItem('${j['lineId']}', '${j['due']}', (j['step'] as num?)?.toInt() ?? 0);
+  Map<String, dynamic> toJson() => {'lineId': lineId, 'due': due, 'step': step};
+  String get dialogueId => lineId.split('#').first;
+  int get turn => int.tryParse(lineId.split('#').last) ?? 0;
 }
 
 class Course {
@@ -46,29 +56,29 @@ class Course {
   Course(this.id, this.dialogueIds, {List<String>? practiced, List<int>? examScores, this.passedAt})
       : practiced = practiced ?? [],
         examScores = examScores ?? [];
-  bool get allPracticed => dialogueIds.every(practiced.contains);
-  Map<String, dynamic> toJson() => {'id': id, 'dialogueIds': dialogueIds, 'practiced': practiced, 'examScores': examScores, 'passedAt': passedAt};
   factory Course.fromJson(Map j) => Course(
         '${j['id']}',
-        [for (final d in (j['dialogueIds'] as List? ?? const [])) '$d'],
-        practiced: [for (final d in (j['practiced'] as List? ?? const [])) '$d'],
-        examScores: [for (final s in (j['examScores'] as List? ?? const [])) (s as num).toInt()],
+        [for (final x in (j['dialogueIds'] as List? ?? const [])) '$x'],
+        practiced: [for (final x in (j['practiced'] as List? ?? const [])) '$x'],
+        examScores: [for (final x in (j['examScores'] as List? ?? const [])) (x as num).toInt()],
         passedAt: j['passedAt'] as String?,
       );
+  Map<String, dynamic> toJson() => {'id': id, 'dialogueIds': dialogueIds, 'practiced': practiced, 'examScores': examScores, 'passedAt': passedAt};
+  bool get allPracticed => dialogueIds.every(practiced.contains);
+  bool get passed => passedAt != null;
 }
 
-/// 저장 형식 그대로의 상태 + 규칙(순수 계산 — 날짜는 밖에서 넘긴다, 시험용).
+/// `curriculum_v1` 한 벌. 기준 형식 + `today`(오늘 한 양 — 홈 카드 진행 막대용, 기준 문서에 없는 칸이라 uk 에 알림).
 class CurriculumState {
   String? level;
-  int dailyGoal;
+  int dailyGoal; // 새 편 수: 1 가볍게 · 2 보통 · 3 집중
   Course? course;
   final List<String> passedDialogues;
   final List<ReviewItem> review;
   int streakCount;
   String? streakLastDay;
   String? todayDay;
-  int todayNew;
-  int todayReview;
+  int todayNew, todayReview;
 
   CurriculumState({
     this.level,
@@ -84,6 +94,22 @@ class CurriculumState {
   })  : passedDialogues = passedDialogues ?? [],
         review = review ?? [];
 
+  factory CurriculumState.fromJson(Map j) {
+    final st = (j['streak'] as Map?) ?? const {};
+    final td = (j['today'] as Map?) ?? const {};
+    return CurriculumState(
+      level: j['level'] as String?,
+      dailyGoal: (j['dailyGoal'] as num?)?.toInt() ?? 2,
+      course: j['course'] is Map ? Course.fromJson(j['course'] as Map) : null,
+      passedDialogues: [for (final x in (j['passedDialogues'] as List? ?? const [])) '$x'],
+      review: [for (final x in (j['review'] as List? ?? const [])) if (x is Map) ReviewItem.fromJson(x)],
+      streakCount: (st['count'] as num?)?.toInt() ?? 0,
+      streakLastDay: st['lastDay'] as String?,
+      todayDay: td['day'] as String?,
+      todayNew: (td['new'] as num?)?.toInt() ?? 0,
+      todayReview: (td['review'] as num?)?.toInt() ?? 0,
+    );
+  }
   Map<String, dynamic> toJson() => {
         'level': level,
         'dailyGoal': dailyGoal,
@@ -94,237 +120,218 @@ class CurriculumState {
         'today': {'day': todayDay, 'new': todayNew, 'review': todayReview},
       };
 
-  factory CurriculumState.fromJson(Map j) {
-    final s = (j['streak'] as Map?) ?? const {};
-    final t = (j['today'] as Map?) ?? const {};
-    return CurriculumState(
-      level: j['level'] as String?,
-      dailyGoal: ((j['dailyGoal'] as num?)?.toInt() ?? 2).clamp(1, 3),
-      course: j['course'] is Map ? Course.fromJson(j['course'] as Map) : null,
-      passedDialogues: [for (final d in (j['passedDialogues'] as List? ?? const [])) '$d'],
-      review: [for (final r in (j['review'] as List? ?? const [])) if (r is Map) ReviewItem.fromJson(r)],
-      streakCount: (s['count'] as num?)?.toInt() ?? 0,
-      streakLastDay: s['lastDay'] as String?,
-      todayDay: t['day'] as String?,
-      todayNew: (t['new'] as num?)?.toInt() ?? 0,
-      todayReview: (t['review'] as num?)?.toInt() ?? 0,
-    );
+  void _rollDay(String today) {
+    if (todayDay == today) return;
+    todayDay = today;
+    todayNew = 0;
+    todayReview = 0;
   }
 
-  void _rollDay(DateTime now) {
-    final k = dayKey(now);
-    if (todayDay != k) {
-      todayDay = k;
-      todayNew = 0;
-      todayReview = 0;
+  /// 오늘 복습할 줄(기한이 오늘이거나 지난 것).
+  List<ReviewItem> dueReview(String today) => review.where((r) => r.due.compareTo(today) <= 0).toList();
+
+  /// 오늘 남은 새 편 수.
+  int newLeft(String today) => max(0, dailyGoal - (todayDay == today ? todayNew : 0));
+
+  /// 오늘 분량을 다 했나(복습 0 + 새 편 목표 채움).
+  bool dayDone(String today) => dueReview(today).isEmpty && newLeft(today) == 0;
+
+  /// 줄을 대기열에 넣는다(이미 있으면 그대로). 내일부터.
+  void enqueue(String lineId, String today) {
+    if (review.any((r) => r.lineId == lineId)) return;
+    review.add(ReviewItem(lineId, addDays(today, kReviewSteps[0]), 0));
+  }
+
+  /// 복습·연습 문제 한 개의 결과. 맞히면 다음 간격(마지막을 맞히면 졸업), 틀리면 1일 뒤 처음 간격으로.
+  void grade(String lineId, bool correct, String today, {bool countReview = true}) {
+    _rollDay(today);
+    final i = review.indexWhere((r) => r.lineId == lineId);
+    if (countReview && i >= 0 && review[i].due.compareTo(today) <= 0) todayReview++;
+    if (!correct) {
+      if (i >= 0) {
+        review[i]
+          ..step = 0
+          ..due = addDays(today, kReviewSteps[0]);
+      } else {
+        review.add(ReviewItem(lineId, addDays(today, kReviewSteps[0]), 0));
+      }
+      _touchStreak(today);
+      return;
     }
-  }
-
-  List<ReviewItem> dueReviews(DateTime now) {
-    final k = dayKey(now);
-    return review.where((r) => r.due.compareTo(k) <= 0).toList()..sort((a, b) => a.due.compareTo(b.due));
-  }
-
-  int newLeft(DateTime now) {
-    _rollDay(now);
-    return max(0, dailyGoal - todayNew);
-  }
-
-  bool dailyDone(DateTime now) => newLeft(now) == 0 && dueReviews(now).isEmpty;
-
-  /// 줄을 복습 대기열에 넣는다(이미 있으면 그대로 — 틀렸으면 1일 뒤로 당긴다).
-  void enqueue(String lineId, DateTime now, {bool wrong = false}) {
-    final have = review.where((r) => r.lineId == lineId).firstOrNull;
-    if (have == null) {
-      review.add(ReviewItem(lineId, addDays(now, kReviewDays[0]), 0));
-    } else if (wrong) {
-      have
-        ..step = 0
-        ..due = addDays(now, kReviewDays[0]);
-    }
-  }
-
-  /// 복습 답 — 맞히면 다음 간격(1→3→7일, 7일 단계를 맞히면 대기열에서 뺌), 틀리면 1일로.
-  void answerReview(String lineId, bool right, DateTime now) {
-    _rollDay(now);
-    final r = review.where((x) => x.lineId == lineId).firstOrNull;
-    if (r == null) return;
-    todayReview++;
-    if (!right) {
-      r
-        ..step = 0
-        ..due = addDays(now, kReviewDays[0]);
-    } else if (r.step + 1 >= kReviewDays.length) {
-      review.remove(r);
+    if (i < 0) return _touchStreak(today);
+    final next = review[i].step + 1;
+    if (next >= kReviewSteps.length) {
+      review.removeAt(i);
     } else {
-      r.step++;
-      r.due = addDays(now, kReviewDays[r.step]);
+      review[i]
+        ..step = next
+        ..due = addDays(today, kReviewSteps[next]);
     }
-    _touchStreak(now);
+    _touchStreak(today);
   }
 
-  /// 편 연습 끝 — 줄을 대기열에 넣고, 틀린 줄은 1일 뒤. 처음 연습한 편이면 오늘 새 편 +1.
-  void finishPractice(String dialogueId, List<String> lineIds, Set<String> wrongLineIds, DateTime now) {
-    _rollDay(now);
+  /// 편 연습을 마침 — 코스의 연습 표시 + 오늘 새 편 +1 + 그 편 줄을 대기열에.
+  void markPracticed(String dialogueId, Iterable<int> turns, String today) {
+    _rollDay(today);
     final c = course;
-    // 새 편 = 통과한 적 없고, 이 코스에서 아직 연습 안 했고, 시험 전(시험에 떨어져 다시 하는 연습은 새 편이 아님)
-    final isNew = !passedDialogues.contains(dialogueId) && !(c?.practiced.contains(dialogueId) ?? false) && (c?.examScores.isEmpty ?? true);
-    if (c != null && !c.practiced.contains(dialogueId)) c.practiced.add(dialogueId);
-    if (isNew) todayNew++;
-    for (final l in lineIds) {
-      enqueue(l, now, wrong: wrongLineIds.contains(l));
+    if (c != null && c.dialogueIds.contains(dialogueId) && !c.practiced.contains(dialogueId)) {
+      c.practiced.add(dialogueId);
+      todayNew++;
     }
-    _touchStreak(now);
+    for (final t in turns) {
+      enqueue('$dialogueId#$t', today);
+    }
+    _touchStreak(today);
   }
 
-  /// 코스 시험 결과. 통과면 코스를 닫고 편을 통과 목록에 넣는다. 아니면 틀린 편의 연습 표시를 지워 다시 연습하게 한다.
-  bool finishExam(int right, int total, Set<String> wrongDialogues, DateTime now) {
+  /// 코스 시험 결과. 통과면 코스 완료·통과 편 기록, 아니면 틀린 편의 연습 표시를 지워 다시 연습하게.
+  bool recordExam(int correct, int total, Set<String> wrongDialogues, String today) {
     final c = course;
     if (c == null) return false;
-    final pct = scorePercent(right, total);
-    c.examScores.add(pct);
-    if (pct >= kPassPercent) {
-      c.passedAt = dayKey(now);
-      for (final d in c.dialogueIds) {
-        if (!passedDialogues.contains(d)) passedDialogues.add(d);
+    final s = scorePercent(correct, total);
+    c.examScores.add(s);
+    if (s >= kPassPercent) {
+      c.passedAt = today;
+      for (final id in c.dialogueIds) {
+        if (!passedDialogues.contains(id)) passedDialogues.add(id);
       }
-      course = null;
       return true;
     }
     c.practiced.removeWhere(wrongDialogues.contains);
     return false;
   }
 
-  void _touchStreak(DateTime now) {
-    if (!dailyDone(now)) return;
-    final k = dayKey(now);
-    if (streakLastDay == k) return;
-    streakCount = streakLastDay == addDays(now, -1) ? streakCount + 1 : 1;
-    streakLastDay = k;
+  /// 오늘 분량을 처음 다 했을 때 연속 일수를 올린다(어제도 했으면 +1, 아니면 1).
+  void _touchStreak(String today) {
+    if (!dayDone(today) || streakLastDay == today) return;
+    streakCount = streakLastDay == addDays(today, -1) ? streakCount + 1 : 1;
+    streakLastDay = today;
   }
 
-  /// 연속 일수(어제·오늘 끊기지 않았을 때만).
-  int streak(DateTime now) => (streakLastDay == dayKey(now) || streakLastDay == addDays(now, -1)) ? streakCount : 0;
+  /// 화면에 보일 연속 일수(어제·오늘 끊기지 않았을 때만).
+  int streakShown(String today) => streakLastDay == today || streakLastDay == addDays(today, -1) ? streakCount : 0;
 }
 
-/// 「추천으로 채우기」 — 아직 통과 안 한 편에서 주제가 겹치지 않게 돌아가며 고른다(이미 고른 편은 그대로 두고 채움).
-List<String> recommendDialogues(List<Dialogue> levelDialogues, Set<String> passed, List<String> already, int size) {
-  final out = [...already];
-  final pool = levelDialogues.where((d) => !passed.contains(d.id) && !out.contains(d.id)).toList();
-  final used = {for (final id in out) levelDialogues.where((d) => d.id == id).firstOrNull?.topic};
-  while (out.length < size && pool.isNotEmpty) {
-    final pick = pool.where((d) => !used.contains(d.topic)).firstOrNull ?? pool.first;
-    out.add(pick.id);
-    used.add(pick.topic);
-    pool.remove(pick);
-    if (pool.every((d) => used.contains(d.topic))) used.clear();
-  }
-  // 남은 새 편이 모자라면 통과한 편으로 채운다
-  for (final d in levelDialogues) {
-    if (out.length >= size) break;
-    if (!out.contains(d.id)) out.add(d.id);
-  }
-  return out;
-}
-
-/// 확인 문제 한 개 — 뜻 고르기(독일어 → 한국어) 또는 빈칸 낱말 고르기.
+/// 확인 문제 한 개.
 class CurQuestion {
-  final String lineId;
   final String dialogueId;
-  final String prompt; // 보여 줄 문장(빈칸이면 ____ 이 들어감)
-  final String hint; // 빈칸 문제의 뜻(한국어)
-  final bool blank;
-  final List<String> options;
+  final int turn;
+  final String kind; // meaning · blank
+  final String prompt; // 보여 줄 줄(빈칸이면 ＿＿ 가 들어간 글)
+  final String hint; // 아래 작은 글(뜻 고르기 = 없음, 빈칸 = 우리말 뜻)
+  final List<String> choices;
   final int answer;
-  const CurQuestion(this.lineId, this.dialogueId, this.prompt, this.hint, this.blank, this.options, this.answer);
+  const CurQuestion(this.dialogueId, this.turn, this.kind, this.prompt, this.hint, this.choices, this.answer);
+  String get lineId => '$dialogueId#$turn';
 }
 
-String lineIdOf(Dialogue d, DialogueTurn t) => '${d.id}#${t.num}';
-
-final _wordRe = RegExp(r"[\p{L}][\p{L}'’-]*", unicode: true);
-
-/// 그 편 줄로 문제를 만든다(줄 수만큼, 최대 [maxQ]). 보기는 같은 편 → 다른 편([pool]) 순으로 채운다.
-List<CurQuestion> makeQuestions(Dialogue d, {required Random rnd, int maxQ = kPracticeMaxQ, List<Dialogue> pool = const [], Iterable<int>? onlyNums}) {
-  final turns = d.turns.where((t) => t.tl.trim().isNotEmpty && t.ko.trim().isNotEmpty && (onlyNums == null || onlyNums.contains(t.num))).toList()..shuffle(rnd);
-  final allKo = <String>{for (final t in d.turns) t.ko.trim(), for (final o in pool) for (final t in o.turns) t.ko.trim()}..removeWhere((s) => s.isEmpty);
-  final allWords = <String>{
-    for (final t in [...d.turns, for (final o in pool) ...o.turns])
-      for (final m in _wordRe.allMatches(t.tl)) if (m.group(0)!.length >= 4) m.group(0)!,
-  };
+/// 편의 줄로 문제를 만든다 — 뜻 고르기(4지선다)와 빈칸 낱말 고르기를 번갈아. 줄 수만큼, 최대 [limit].
+/// [pool] = 오답 보기를 뽑을 다른 편들(같은 레벨). 같은 [seed] 면 같은 문제.
+List<CurQuestion> buildQuestions(Dialogue d, {required int limit, List<Dialogue> pool = const [], int seed = 0, Set<int>? onlyTurns}) {
+  final rnd = Random(seed ^ d.id.hashCode);
+  final turns = d.turns.where((t) => t.tl.trim().isNotEmpty && t.ko.trim().isNotEmpty && (onlyTurns == null || onlyTurns.contains(t.num))).toList()..shuffle(rnd);
+  final kos = <String>{for (final t in d.turns) t.ko.trim(), for (final p in pool) for (final t in p.turns) t.ko.trim()}..removeWhere((s) => s.isEmpty);
+  final words = <String>{for (final t in d.turns) for (final l in t.lemmas) l.surface, for (final p in pool) for (final t in p.turns) for (final l in t.lemmas) l.surface}
+    ..removeWhere((s) => s.trim().isEmpty);
   final out = <CurQuestion>[];
-  for (final t in turns.take(maxQ)) {
-    final i = out.length;
-    final words = [for (final m in _wordRe.allMatches(t.tl)) if (m.group(0)!.length >= 4) m];
-    final useBlank = i.isOdd && words.isNotEmpty;
-    if (useBlank) {
-      final m = words[rnd.nextInt(words.length)];
-      final w = m.group(0)!;
-      final wrong = (allWords.where((x) => x.toLowerCase() != w.toLowerCase()).toList()..shuffle(rnd)).take(3).toList();
-      if (wrong.length == 3) {
-        final opts = [w, ...wrong]..shuffle(rnd);
-        final prompt = '${t.tl.substring(0, m.start)}____${t.tl.substring(m.end)}';
-        out.add(CurQuestion(lineIdOf(d, t), d.id, prompt, t.ko, true, opts, opts.indexOf(w)));
-        continue;
-      }
+  for (final t in turns) {
+    if (out.length >= limit) break;
+    final ja = t.tl;
+    final lem = t.lemmas.where((l) => l.surface.length >= 2 && ja.contains(l.surface)).toList();
+    if (out.length.isOdd && lem.isNotEmpty && words.length >= 4) {
+      final l = lem[rnd.nextInt(lem.length)];
+      final wrong = (words.toList()..remove(l.surface)..shuffle(rnd)).take(3).toList();
+      final ch = [l.surface, ...wrong]..shuffle(rnd);
+      out.add(CurQuestion(d.id, t.num, 'blank', ja.replaceFirst(l.surface, '____'), t.ko, ch, ch.indexOf(l.surface)));
+      continue;
     }
     final right = t.ko.trim();
-    final wrong = (allKo.where((x) => x != right).toList()..shuffle(rnd)).take(3).toList();
+    final wrong = (kos.toList()..remove(right)..shuffle(rnd)).take(3).toList();
     if (wrong.length < 3) continue;
-    final opts = [right, ...wrong]..shuffle(rnd);
-    out.add(CurQuestion(lineIdOf(d, t), d.id, t.tl, '', false, opts, opts.indexOf(right)));
+    final ch = [right, ...wrong]..shuffle(rnd);
+    out.add(CurQuestion(d.id, t.num, 'meaning', ja, '', ch, ch.indexOf(right)));
   }
   return out;
 }
 
-/// 코스 시험 — 편당 최소 3문제, 모두 합쳐 최대 30문제.
-List<CurQuestion> makeExam(List<Dialogue> ds, Random rnd) {
-  if (ds.isEmpty) return const [];
-  final per = max(kExamMinPerDialogue, kExamMaxQ ~/ ds.length);
-  final out = <CurQuestion>[for (final d in ds) ...makeQuestions(d, rnd: rnd, maxQ: per, pool: ds)];
-  out.shuffle(rnd);
-  return out.take(kExamMaxQ).toList();
+/// 코스 시험 문제 수: 편당 최소 3, 전체 최대 30.
+int examPerDialogue(int dialogues) => dialogues <= 0 ? 0 : max(3, min(10, 30 ~/ dialogues));
+
+/// 추천으로 채우기: 아직 통과·선택 안 한 편에서 주제가 겹치지 않게 돌아가며.
+List<String> recommend(List<Dialogue> levelList, Set<String> passed, Set<String> picked, int count) {
+  final left = levelList.where((d) => !passed.contains(d.id) && !picked.contains(d.id)).toList();
+  final byIsland = <String, List<Dialogue>>{};
+  for (final d in left) {
+    byIsland.putIfAbsent(d.topic, () => []).add(d);
+  }
+  final usedIslands = <String>{
+    for (final id in picked)
+      for (final d in levelList)
+        if (d.id == id) d.topic
+  };
+  final out = <String>[];
+  var round = 0;
+  while (out.length + picked.length < count && byIsland.values.any((l) => l.length > round)) {
+    for (final isl in [...byIsland.keys.where((k) => !usedIslands.contains(k)), ...byIsland.keys.where(usedIslands.contains)]) {
+      if (out.length + picked.length >= count) break;
+      final l = byIsland[isl]!;
+      if (l.length > round) out.add(l[round].id);
+    }
+    round++;
+  }
+  return out;
 }
 
-/// 상태 읽기·쓰기 + 다이얼로그 찾기.
 class CurriculumService {
   CurriculumService._();
   static final CurriculumService instance = CurriculumService._();
+  static const key = 'curriculum_v1';
 
-  static const levels = ['R0', 'R1', 'R2', 'R3', 'R4', 'R5'];
+  CurriculumState state = CurriculumState();
+  bool _loaded = false;
+  final ValueNotifier<int> changed = ValueNotifier(0);
 
-  Future<CurriculumState> load() async {
-    final raw = (await Prefs.getInstance()).getString(kCurriculumKey);
-    if (raw == null || raw.isEmpty) return CurriculumState();
-    try {
-      return CurriculumState.fromJson(json.decode(raw) as Map);
-    } catch (_) {
-      return CurriculumState();
+  /// 테스트에서 날짜를 고정할 때.
+  @visibleForTesting
+  DateTime Function() now = DateTime.now;
+  String get today => ymd(now());
+
+  Future<void> ensureLoaded() async {
+    if (_loaded) return;
+    await DialogueService.instance.ensureLoaded();
+    final raw = (await Prefs.getInstance()).getString(key);
+    if (raw != null) {
+      try {
+        state = CurriculumState.fromJson(json.decode(raw) as Map);
+      } catch (_) {}
     }
+    _loaded = true;
   }
 
-  Future<void> save(CurriculumState s) async => (await Prefs.getInstance()).setString(kCurriculumKey, json.encode(s.toJson()));
-
-  /// 이 앱에 편이 있는 회화 레벨만.
-  List<String> availableLevels() => levels.where((l) => DialogueService.instance.count(l) > 0).toList();
-
-  List<Dialogue> dialoguesOf(String level) => DialogueService.instance.list(region: level);
-
-  Dialogue? dialogue(String id) => DialogueService.instance.byId(id);
-
-  /// lineId → (편, 줄).
-  (Dialogue, DialogueTurn)? line(String lineId) {
-    final i = lineId.lastIndexOf('#');
-    if (i < 0) return null;
-    final d = dialogue(lineId.substring(0, i));
-    final n = int.tryParse(lineId.substring(i + 1));
-    final t = d?.turns.where((x) => x.num == n).firstOrNull;
-    return (d == null || t == null) ? null : (d, t);
+  Future<void> save() async {
+    await (await Prefs.getInstance()).setString(key, json.encode(state.toJson()));
+    changed.value++;
   }
 
-  /// 레벨 다음(없으면 null).
+  List<Dialogue> levelList([String? level]) => DialogueService.instance.list(region: level ?? state.level);
+
+  /// 레벨의 편을 모두 통과했나.
+  bool levelDone(String level) {
+    final l = levelList(level);
+    return l.isNotEmpty && l.every((d) => state.passedDialogues.contains(d.id));
+  }
+
+  /// 다음 레벨(편이 있는 것), 없으면 null.
   String? nextLevel(String level) {
-    final av = availableLevels();
-    final i = av.indexOf(level);
-    return (i >= 0 && i + 1 < av.length) ? av[i + 1] : null;
+    const lv = kCurriculumLevels;
+    for (var i = lv.indexOf(level) + 1; i < lv.length; i++) {
+      if (DialogueService.instance.count(lv[i]) > 0) return lv[i];
+    }
+    return null;
+  }
+
+  Future<void> startCourse(List<String> ids) async {
+    state.course = Course('c${now().millisecondsSinceEpoch}', ids);
+    await save();
   }
 }
