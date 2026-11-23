@@ -23,7 +23,6 @@
  "expressions": [
   "Na?"
  ],
- "draft": true,
  "level": "0 입문",
  "turns": [
   {
@@ -33,9 +32,7 @@
    "rd": "나? 훙어?",
    "ko": "응? 배고파?",
    "note": "한 단어로 배고프냐고 묻기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": []
   },
@@ -46,9 +43,7 @@
    "rd": "야! 이히 아우흐!",
    "ko": "응! 나도!",
    "note": "배고프다고 짧게 답",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -65,9 +60,7 @@
    "rd": "히어. 할프.",
    "ko": "여기. 반.",
    "note": "브레첼 반으로 쪼개 내밈",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -89,9 +82,7 @@
    "rd": "레커!",
    "ko": "맛있어!",
    "note": "먹기도 전에 맛있다고 말해버림",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": []
   },
@@ -102,9 +93,7 @@
    "rd": "노흐 니히트.",
    "ko": "아직 아니야.",
    "note": "아직 안 먹었다고 짧게 찌름",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -121,9 +110,7 @@
    "rd": "에히트 레커!",
    "ko": "진짜 맛있어!",
    "note": "먹어 보고 다시 말함",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -138,10 +125,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r0_friends_a3.md",
-  "model": "빠른",
-  "final": "data/review/final/r0_friends_a3.txt"
- }
+ ]
 }

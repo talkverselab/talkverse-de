@@ -84,8 +84,7 @@ def main():
         if pts:
             lessons.append({'id': f'{id_}-ref', 'kind': 'ref', 'title': f'{br["title"]} 한눈에', 'points': pts})
         levels.append({'id': id_, 'title': br['title'], 'lessons': lessons})
-    d = {'title': '언어감각 익히기', 'subtitle': '정규과정 · 대화 통째로 외우기 → 참고', 'levels': levels,
-         'review': {'grok': 'data/sense/out/<급>.md', 'model': '빠른'}}
+    d = {'title': '언어감각 익히기', 'subtitle': '정규과정 · 대화 통째로 외우기 → 참고', 'levels': levels}  # 작업 기록 칸은 넣지 않음(출처 공개 금지, 2026-11-23)
     p = ROOT / 'assets/data/grammar/sense_course.json'
     json.dump(d, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print('급', len(levels), '→', p)

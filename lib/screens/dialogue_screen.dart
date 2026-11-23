@@ -5,6 +5,8 @@ import '../core/platform.dart';
 import '../core/pane.dart';
 import '../core/theme.dart';
 import '../services/dialogue_service.dart';
+import '../data/entitlement.dart';
+import '../services/curriculum_service.dart';
 import '../services/ko_reading.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
@@ -28,7 +30,8 @@ class _DialogueHomeScreenState extends State<DialogueHomeScreen> {
   @override
   void initState() {
     super.initState();
-    DialogueService.instance.ensureLoaded().then((_) {
+    // 잠금 값(무료 단계의 편)은 커리큘럼 JSON 에서 — 함께 읽는다
+    Future.wait([DialogueService.instance.ensureLoaded(), CurriculumService.instance.ensureLoaded()]).then((_) {
       if (mounted) setState(() => _loading = false);
     });
   }
@@ -88,7 +91,7 @@ class _TodayCut extends StatelessWidget {
       Text(d.scene, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12, color: AppColors.sumiLight, height: 1.4)),
       const SizedBox(height: 10),
       FilledButton.icon(
-        onPressed: () => openPane(context, (_) => DialogueScreen(dialogue: d)),
+        onPressed: () => openDialogue(context, d),
         style: FilledButton.styleFrom(backgroundColor: AppColors.beni, foregroundColor: Colors.white, shape: const StadiumBorder(), visualDensity: VisualDensity.compact),
         icon: const Icon(Icons.menu_book_rounded, size: 18),
         label: Text(tr('읽기 시작'), style: const TextStyle(fontWeight: FontWeight.w800)),
@@ -171,11 +174,12 @@ class DialogueListScreen extends StatelessWidget {
             child: Material(
               color: Colors.transparent,
               child: ListTile(
-                onTap: () => openPane(context, (_) => DialogueScreen(dialogue: d)),
+                onTap: () => openDialogue(context, d),
                 leading: Text(d.emoji, style: const TextStyle(fontSize: 24)),
                 title: Text(d.title, style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.sumi)),
                 subtitle: Text(d.scene, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 11, color: AppColors.muted, height: 1.3)),
                 trailing: Column(mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.end, children: [
+                  if (!CurriculumService.instance.dialogueFree(d) && !Entitlement.premium) const Icon(Icons.lock_outline, size: 16, color: AppColors.muted),
                   if (d.register != null) RegisterBadge(register: d.register!), // 말투 배지(UX 시안 01 칸 2)
                   Text(trf('{0}턴', [d.turns.length]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
                 ]),
@@ -348,4 +352,13 @@ class _Bubble extends StatelessWidget {
           child: Text(name.isEmpty ? '?' : name.characters.first, style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: AppColors.sumi)),
         ),
       );
+}
+
+
+/// 회화 편 열기 — 무료 단계 밖의 편은 자물쇠 → 결제 화면(PAYWALL_SPEC §2·3, 무료 = 서버 커리큘럼 JSON 의 free 단계 편).
+Future<void> openDialogue(BuildContext context, Dialogue d) async {
+  await CurriculumService.instance.ensureLoaded();
+  if (!context.mounted) return;
+  if (!await Entitlement.gate(context, free: CurriculumService.instance.dialogueFree(d))) return;
+  if (context.mounted) await openPane(context, (_) => DialogueScreen(dialogue: d));
 }

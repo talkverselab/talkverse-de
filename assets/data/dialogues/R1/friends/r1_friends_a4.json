@@ -23,7 +23,6 @@
  "expressions": [
   "Komm schon!"
  ],
- "draft": true,
  "level": "1 관사·격·활용 골격",
  "turns": [
   {
@@ -33,9 +32,7 @@
    "rd": "노흐 아이네 룬데? 콤 숀!",
    "ko": "한 판 더? 어서!",
    "note": "한 판 더 할 거냐고 묻기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -67,9 +64,7 @@
    "rd": "야.",
    "ko": "응.",
    "note": "좋다고 한 단어로 답",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": []
   },
@@ -80,9 +75,7 @@
    "rd": "이히 게비네 디스말!",
    "ko": "이번엔 내가 이겨!",
    "note": "이번엔 내가 이긴다고 큰소리침",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -104,9 +97,7 @@
    "rd": "비더 게보넨. 노흐 말?",
    "ko": "또 이겼어. 한 판 더?",
    "note": "또 이기고 한 판 더냐고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -138,9 +129,7 @@
    "rd": "회어 아우프! 비 게빈스트 두 이머?",
    "ko": "그만! 어떻게 매번 이겨?",
    "note": "어떻게 매번 이기냐고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "annoyed",
    "lemmas": [
     [
@@ -172,9 +161,7 @@
    "rd": "다인 콘트롤러 바어 아우스.",
    "ko": "네 컨트롤러가 꺼져 있었어.",
    "note": "처음부터 꺼져 있었다고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -191,9 +178,7 @@
    "rd": "오 만! 이히 하베 알라인 게드뤼크트?",
    "ko": "오 맨! 나 혼자 눌렀어?",
    "note": "현재완료로 나 혼자 계속 눌렀냐고 놀람",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -225,9 +210,7 @@
    "rd": "예츠트 안. 리히티히 슈필렌.",
    "ko": "이제 켜. 제대로 하자.",
    "note": "켜 주며 이제 진짜 한 판이라고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -247,10 +230,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r1_friends_a4.md",
-  "model": "빠른",
-  "final": "data/review/final/r1_friends_a4.txt"
- }
+ ]
 }

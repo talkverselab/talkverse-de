@@ -23,7 +23,6 @@
  "expressions": [
   "Guten Tag."
  ],
- "draft": true,
  "level": "3 그래머2",
  "turns": [
   {
@@ -33,9 +32,7 @@
    "rd": "구텐 탁, 비 칸 이히 이넨 헬펜?",
    "ko": "안녕하세요, 무엇을 도와드릴까요?",
    "note": "약사가 Sie로 인사하며 도움 물음, Guten Tag 삽입",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -67,9 +64,7 @@
    "rd": "이히 하베 할스히메어첸.",
    "ko": "목이 아파요.",
    "note": "목이 아프다고 슬프게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "sad",
    "lemmas": [
     [
@@ -86,9 +81,7 @@
    "rd": "자이트 반 하벤 지 디 슈메어첸?",
    "ko": "언제부터 아프셨나요?",
    "note": "언제부터인지 정중히 물음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -115,9 +108,7 @@
    "rd": "자이트 게스턴.",
    "ko": "어제부터요.",
    "note": "어제부터라고 현재완료 느낌으로 슬프게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "sad",
    "lemmas": [
     [
@@ -134,9 +125,7 @@
    "rd": "하벤 지 아우흐 피버?",
    "ko": "열도 있으신가요?",
    "note": "열 있는지 물음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -158,9 +147,7 @@
    "rd": "나인, 아버 모어겐스 바어 에스 에트바스 회어.",
    "ko": "아니요, 그런데 아침에 조금 높았어요.",
    "note": "열은 없고 아침에 조금 높았다고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -187,9 +174,7 @@
    "rd": "마인 바우흐 투트 베... 나인, 마인 할스.",
    "ko": "배가 아파요... 아니, 목이요.",
    "note": "배와 목을 섞어 당황하며 말함",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -221,9 +206,7 @@
    "rd": "비 비테? 바우흐 오더 할스?",
    "ko": "네? 배요, 목이요?",
    "note": "배인지 목인지 되물으며 Wie bitte? 삽입",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -255,9 +238,7 @@
    "rd": "데어 할스, 히어. 노흐 아인말, 비테: 할스히메어첸.",
    "ko": "목이요, 여기요. 다시 한 번: 목 아픔.",
    "note": "목을 가리키며 고치고 Noch einmal, bitte 삽입",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -299,9 +280,7 @@
    "rd": "네멘 지 디 타블레테 츠바이말 암 탁 운트 트링켄 지 바어멘 테.",
    "ko": "사탕형 약을 하루 두 번 드시고 따뜻한 차를 드세요.",
    "note": "하루 두 번 약과 따뜻한 차 권함",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -348,9 +327,7 @@
    "rd": "브라우헤 이히 아인 레체프트?",
    "ko": "처방전이 필요한가요?",
    "note": "처방전 필요한지 정중히 물음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -372,9 +349,7 @@
    "rd": "나인, 다스 브라우헨 지 니히트. 구테 베세룽!",
    "ko": "아니요, 필요 없어요. 빨리 나으세요!",
    "note": "필요 없다며 빨리 나으라고 다정히",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -394,10 +369,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r3_survival_b3.md",
-  "model": "빠른",
-  "final": "data/review/final/r3_survival_b3.txt"
- }
+ ]
 }

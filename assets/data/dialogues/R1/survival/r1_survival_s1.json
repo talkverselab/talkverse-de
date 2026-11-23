@@ -31,9 +31,7 @@
    "rd": "바스 다어프’스 자인?",
    "ko": "뭘 드릴까요?",
    "note": "주어 없는 가게 표현으로 자연스럽게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -50,9 +48,7 @@
    "rd": "아이네 브레첼, 비테.",
    "ko": "브레첼 하나만 주세요.",
    "note": "최소한으로 주문",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -74,9 +70,7 @@
    "rd": "미트 부터?",
    "ko": "버터 바를까요?",
    "note": "추가 옵션 제안",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -93,9 +87,7 @@
    "rd": "비 비테? 야, 게어네.",
    "ko": "뭐라고요? 네, 좋아요.",
    "note": "못 알아듣고 그냥 수락",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -122,9 +114,7 @@
    "rd": "노흐 아이넨 카페?",
    "ko": "커피도 드릴까요?",
    "note": "또 권유",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -146,9 +136,7 @@
    "rd": "야, 게어네.",
    "ko": "네, 좋아요.",
    "note": "또 반사적으로 동의",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -165,9 +153,7 @@
    "rd": "운트 아인 슈튁 쿠헨. 츠뵐프 오이로, 비테.",
    "ko": "케이크 한 조각까지요. 십이 유로입니다.",
    "note": "금액 크게 올림",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -199,9 +185,7 @@
    "rd": "츠뵐프 오이로? 슈팀트 조.",
    "ko": "십이 유로요? 잔돈은 됐어요.",
    "note": "놀라 되묻고 결국 수락, 웃음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "segs": [
     [
      "surprised",
@@ -230,10 +214,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r1_survival_s1.md",
-  "model": "빠른",
-  "final": "data/review/final/r1_survival_s1.txt"
- }
+ ]
 }

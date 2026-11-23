@@ -26,7 +26,6 @@
  "expressions": [
   "Zusammen oder getrennt?"
  ],
- "draft": true,
  "level": "3 그래머2",
  "turns": [
   {
@@ -36,9 +35,7 @@
    "rd": "바스 뫼히텐 지 베슈텔렌?",
    "ko": "무엇을 드시겠습니까?",
    "note": "웨이터가 Sie로 정중히 주문 물음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -55,9 +52,7 @@
    "rd": "이히 헤테 게언 디 파스타, 비테.",
    "ko": "파스타로 부탁드려요.",
    "note": "Sie로 파스타 주문",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -79,9 +74,7 @@
    "rd": "이히 넴 다스 글라이헤.",
    "ko": "나도 같은 걸로.",
    "note": "같은 걸로 하겠다고 밝게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -103,9 +96,7 @@
    "rd": "바룸 비스트 두 호이테 조 네어뵈스?",
    "ko": "오늘 왜 이렇게 긴장해?",
    "note": "긴장한 이유 장난스럽게 물음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -137,9 +128,7 @@
    "rd": "바일 에스 운저 에어스테스 다테 이스트.",
    "ko": "첫 데이트라서 그래.",
    "note": "첫 데이트라고 수줍게 인정",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -161,9 +150,7 @@
    "rd": "다테 하스트 두 춤 에어스텐 말 게자크트.",
    "ko": "데이트라고 말한 건 처음이네.",
    "note": "데이트라고 한 게 처음이라고 수줍게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -190,9 +177,7 @@
    "rd": "추자멘 오더 게트렌트?",
    "ko": "같이 내실까요, 따로 내실까요?",
    "note": "계산 방식 물으며 표현 그대로",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -214,9 +199,7 @@
    "rd": "이히 찰 디 레히눙.",
    "ko": "내가 낼게.",
    "note": "내가 내겠다고 신나게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -238,9 +221,7 @@
    "rd": "아우프 카이넨 팔. 이히 합 숀 게찰트.",
    "ko": "절대 안 돼. 나 이미 냈어.",
    "note": "이미 계산했다고 장난치며 Auf keinen Fall 삽입",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -267,9 +248,7 @@
    "rd": "반 덴?",
    "ko": "언제 냈어?",
    "note": "언제 냈냐고 놀람",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -291,9 +270,7 @@
    "rd": "알스 이히 아우프 토이레테 바어. 슈팀트 조, 네히스테스 말 두.",
    "ko": "화장실 가는 척하고 냈어. 팁은 됐고, 다음엔 네가.",
    "note": "화장실 핑계로 냈다고 하고 다음엔 네가 내라고 수줍게, Stimmt so 삽입",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -330,9 +307,7 @@
    "rd": "단 이스트 다스 네히스테 다테 페스트.",
    "ko": "그럼 다음 데이트 약속이네.",
    "note": "다음 데이트라고 웃으며 다정하게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -357,10 +332,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r3_love_b1.md",
-  "model": "빠른",
-  "final": "data/review/final/r3_love_b1.txt"
- }
+ ]
 }

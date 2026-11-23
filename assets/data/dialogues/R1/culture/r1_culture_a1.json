@@ -16,7 +16,6 @@
  "domain": [
   "culture"
  ],
- "draft": true,
  "level": "1 관사·격·활용 골격",
  "title": "재킷 두고 왔어",
  "emoji": "🧥",
@@ -35,9 +34,7 @@
    "rd": "이히 하베 마이네 야케 페어게센.",
    "ko": "나 재킷 두고 왔어.",
    "note": "당황하며 시작",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -59,9 +56,7 @@
    "rd": "디 리크트 히어. 게스턴 바어 주퍼!",
    "ko": "여기 있어. 어제 완전 좋았어!",
    "note": "밝게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -93,9 +88,7 @@
    "rd": "에히트 예츠트? 다스 콘체어트 바어 구트?",
    "ko": "진짜? 공연 좋았어?",
    "note": "밝게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -127,9 +120,7 @@
    "rd": "도흐! 두 하스트 게탄츠트. 제어 빌트.",
    "ko": "응! 너 춤췄어. 아주 격하게.",
    "note": "놀림",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -156,9 +147,7 @@
    "rd": "이히? 다스 바이스 이히 니히트 메어.",
    "ko": "내가? 그거 더 이상 기억 안 나.",
    "note": "걱정",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
@@ -180,9 +169,7 @@
    "rd": "도흐. 두 하스트 디 야케 아우프 디 뷔네 게보어펜.",
    "ko": "응. 너 재킷을 무대에 던졌어.",
    "note": "",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -209,9 +196,7 @@
    "rd": "에히트 예츠트? 다스 바어 이히?",
    "ko": "진짜? 그게 나였어?",
    "note": "놀람",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -233,9 +218,7 @@
    "rd": "야. 운트 단 하스트 두 게라흐트. 제어 라우트.",
    "ko": "응. 그리고 너 웃었어. 아주 크게.",
    "note": "놀림",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -260,10 +243,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r1_culture_a1.md",
-  "model": "빠른",
-  "final": "data/review/final/r1_culture_a1.txt"
- }
+ ]
 }

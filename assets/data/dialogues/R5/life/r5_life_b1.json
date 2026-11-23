@@ -29,7 +29,6 @@
   "Eigentlich",
   "Oder?"
  ],
- "draft": true,
  "level": "5 어휘 완주",
  "turns": [
   {
@@ -39,9 +38,7 @@
    "rd": "모멘트 말, 다 슈테엔 야 민데스텐스 훈데어트 로이테 포어 데어 튀어!",
    "ko": "잠깐, 문 앞에 최소한 백 명은 서 있어!",
    "note": "놀람",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -93,9 +90,7 @@
    "rd": "카이네 조어게, 비어 코멘 숀 라인. 오더?",
    "ko": "걱정 마, 우린 들어갈 거야. 그치?",
    "note": "밝게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -127,9 +122,7 @@
    "rd": "아이겐틀리히 지트 다스 나흐 아이넴 리지겐 하오스 아우스.",
    "ko": "사실 이건 엄청난 난리처럼 보여.",
    "note": "걱정",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
@@ -161,9 +154,7 @@
    "rd": "구텐 탁! 비테 슈텔렌 지 지히 힌텐 안.",
    "ko": "안녕하세요! 뒤로 줄 서 주세요.",
    "note": "정중히",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -195,9 +186,7 @@
    "rd": "회어 아우프, 다스 진트 비어클리히 조 피레 멘셴?",
    "ko": "그만, 진짜로 이렇게 많은 사람들이야?",
    "note": "놀람",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -229,9 +218,7 @@
    "rd": "지 진트 디 아이눈트제히치크스테 페어존. 디 눔머 퓌어 메어츠 베코멘 지 암 엔데.",
    "ko": "당신은 예순한 번째예요. 3월 번호는 끝에 받으실 거예요.",
    "note": "",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -273,9 +260,7 @@
    "rd": "회어 아우프! 임 치머 슈테트 도흐 데어 글라스콘타이너!",
    "ko": "그만! 방에 유리병 수거함이 보이잖아!",
    "note": "지적",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -312,9 +297,7 @@
    "rd": "아이겐틀리히 이스트 디 보눙 간츠 오케이. 오더?",
    "ko": "사실 집은 꽤 괜찮아. 그치?",
    "note": "중립",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -346,9 +329,7 @@
    "rd": "카이네 조어게, 데어 콘타이너 비어트 모어겐 아프게홀트.",
    "ko": "걱정 마세요, 그 수거함은 내일 수거돼요.",
    "note": "정중히",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -380,9 +361,7 @@
    "rd": "다스 이스트 도흐 토탈 우노어덴트리히 퓌어 아이네 베지히티궁.",
    "ko": "집 보기에 완전 정리가 안 됐잖아.",
    "note": "짜증",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "annoyed",
    "lemmas": [
     [
@@ -415,7 +394,6 @@
    "ko": "사실 위치는 최고예요. 관심 있는 사람이 많아요.",
    "note": "밝게",
    "tags": [
-    "draft",
     "callback:r3_life_b1"
    ],
    "emotion": "cheerful",
@@ -449,9 +427,7 @@
    "rd": "페리크스, 회어 아우프 미트 덴 플라셴. 비어 볼렌 디 보눙.",
    "ko": "펠릭스, 병 얘기 그만해. 우린 이 집 원해.",
    "note": "놀림",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -483,9 +459,7 @@
    "rd": "카이네 조어게, 이히 자크 니히츠 메어. 오더 도흐.",
    "ko": "걱정 마, 더 이상 말 안 할게. 아니면 말거나.",
    "note": "당황",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -517,9 +491,7 @@
    "rd": "암 엔데 데어 슐랑에 베코멘 지 디 메어츠-눔머.",
    "ko": "줄 끝에 3월 번호를 받으실 거예요.",
    "note": "정중히",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -551,9 +523,7 @@
    "rd": "단 바어텐 비어 아인파흐. 카이네 조어게, 페리크스.",
    "ko": "그럼 그냥 기다리자. 걱정 마, 펠릭스.",
    "note": "밝게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -585,9 +555,7 @@
    "rd": "구텐 탁 노흐. 필 에어폴크 바이 데어 주헤.",
    "ko": "안녕히 가세요. 집 찾기 성공하시길.",
    "note": "",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -617,10 +585,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r5_life_b1.md",
-  "model": "빠른",
-  "final": "data/review/final/r5_life_b1.txt"
- }
+ ]
 }

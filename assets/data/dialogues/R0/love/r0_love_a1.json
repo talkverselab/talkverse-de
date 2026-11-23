@@ -31,7 +31,6 @@
   "Tschüss",
   "Moment mal"
  ],
- "draft": true,
  "level": "0 입문",
  "turns": [
   {
@@ -41,9 +40,7 @@
    "rd": "헤이 두! 비 게트스?",
    "ko": "안녕! 잘 지내?",
    "note": "길에서 먼저 다가가 가볍게 인사, 장난기 있게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -60,9 +57,7 @@
    "rd": "구트, 당케! 운트 두?",
    "ko": "좋아, 고마워! 너는?",
    "note": "자연스럽게 되묻기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -84,9 +79,7 @@
    "rd": "미어 … 예츠트 간츠 구트.",
    "ko": "나는… 지금 꽤 좋아.",
    "note": "너를 보고 갑자기 수줍어지며 감정 터짐",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -113,9 +106,7 @@
    "rd": "예츠트? 에히트?",
    "ko": "지금? 진짜?",
    "note": "뜻밖의 말에 놀라 되묻기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -137,9 +128,7 @@
    "rd": "나 야 … 취스!",
    "ko": "뭐… 안녕!",
    "note": "당황해서 도망치듯 짧게 인사",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -156,9 +145,7 @@
    "rd": "미아? 모멘트 말!",
    "ko": "미아? 잠깐만!",
    "note": "붙잡으려다 놀라며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -178,10 +165,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r0_love_a1_rewrite.md",
-  "model": "전문가",
-  "final": "data/review/final/r0_love_a1.txt"
- }
+ ]
 }

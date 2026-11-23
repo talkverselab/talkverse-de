@@ -30,7 +30,6 @@
   "Okay",
   "Oh Mann"
  ],
- "draft": true,
  "level": "1 관사·격·활용 골격",
  "turns": [
   {
@@ -40,9 +39,7 @@
    "rd": "자크 말, {name} … 하스트 두 아이넨 프로인트?",
    "ko": "있잖아, {name}… 너 애인 있어?",
    "note": "먼저 다가가 수줍게 물어보기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -64,9 +61,7 @@
    "rd": "아이넨 프로인트? 나인, 이히 하베 카이넨. 라이더.",
    "ko": "친구? 아니, 없어. 아쉽게도.",
    "note": "애인을 친구로 잘못 듣고 대답",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "sad",
    "lemmas": [
     [
@@ -93,9 +88,7 @@
    "rd": "카이넨? 에히트? … 다스 이스트 구트.",
    "ko": "없어? 진짜? …잘됐다.",
    "note": "놀랐다가 기쁘게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "segs": [
     [
      "surprised",
@@ -126,9 +119,7 @@
    "rd": "구트? 이히 하베 히어 카이넨. 누어 미히.",
    "ko": "잘됐다고? 나 여기 아무도 없어. 나 혼자야.",
    "note": "약간 짜증 나며 강조",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "annoyed",
    "lemmas": [
     [
@@ -155,9 +146,7 @@
    "rd": "나인. 예츠트 하스트 두 아우흐 … 미히.",
    "ko": "아니. 이제 너한텐… 나도 있잖아.",
    "note": "심쿵하게 다가서기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -179,9 +168,7 @@
    "rd": "오! 단 … 마크 이히 미히!",
    "ko": "오! 그럼… 나는 나를 좋아해!",
    "note": "고백하려다 대명사 실수",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -198,9 +185,7 @@
    "rd": "두 마크스트 디히? 오케이 … 운트 미히?",
    "ko": "너가 너를 좋아한다고? 그래… 그럼 나는?",
    "note": "놀리며 정정 유도",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -222,9 +207,7 @@
    "rd": "디히! 이히 마크 디히! … 오 만.",
    "ko": "너! 너 좋아한다고! …아 진짜.",
    "note": "바로 고치며 당황",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -239,10 +222,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r1_love_a1_rewrite.md",
-  "model": "전문가",
-  "final": "data/review/final/r1_love_a1.txt"
- }
+ ]
 }

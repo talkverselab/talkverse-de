@@ -165,7 +165,6 @@ rank,word,reading,ko,en,pos,level,picturable
 164,Mensch,멘슈,사람,human,noun-m,R3,Y
 165,gehören,게회렌,~의 것이다,belong,verb,R3,N
 166,Freund,프로인트,친구,friend,noun-m,R3,Y
-167,Scheiße,샤이세,젠장,shit,noun-f,R3,N
 168,raus,라우스,밖으로,out,adv,R3,N
 169,sonst,존스트,그렇지 않으면,otherwise,adv,R3,N
 170,her,헤어,이쪽으로,here,adv,R3,N
@@ -389,7 +388,6 @@ rank,word,reading,ko,en,pos,level,picturable
 388,Grund,그룬트,이유,reason,noun-m,R4,N
 389,irgendwie,이어겐트비,어떻게든,somehow,adv,R4,N
 390,Land,란트,나라,country,noun-n,R4,N
-391,verdammt,페어담트,빌어먹을,damn,adj,R4,N
 392,atmen,아트멘,숨 쉬다,breathe,verb,R4,Y
 393,Schuld,슐트,잘못,fault,noun-f,R4,N
 394,führen,퓌렌,이끌다,lead,verb,R4,N
@@ -579,7 +577,6 @@ rank,word,reading,ko,en,pos,level,picturable
 578,Professor,프로페소어,교수,professor,noun-m,R4,Y
 579,Anfang,안팡,시작,beginning,noun-m,R4,N
 580,Million,밀리온,백만,million,noun-f,R4,N
-581,Arsch,아어슈,엉덩이,butt,noun-m,R4,Y
 582,Bein,바인,다리,leg,noun-n,R4,Y
 583,persönlich,페어죈리히,개인적으로,personally,adv,R4,N
 584,Patient,파치엔트,환자,patient,noun-m,R4,Y
@@ -722,7 +719,6 @@ rank,word,reading,ko,en,pos,level,picturable
 721,tatsächlich,타트제힐리히,실제로,actually,adv,R4,N
 722,Wind,빈트,바람,wind,noun-m,R4,Y
 723,erwischen,에어비셴,붙잡다,catch,verb,R4,Y
-724,Arschloch,아어슐로흐,개자식,asshole,noun-n,R4,N
 725,mitbringen,미트브링엔,가져오다,bring,verb,R4,Y
 726,Situation,지투아치온,상황,situation,noun-f,R4,N
 727,besprechen,베슈프레헨,의논하다,discuss,verb,R4,N
@@ -849,7 +845,6 @@ rank,word,reading,ko,en,pos,level,picturable
 848,zufällig,추펠리히,우연히,by chance,adv,R5,N
 849,Motiv,모티프,동기,motive,noun-n,R5,N
 850,schrecklich,슈레클리히,끔찍한,terrible,adj,R5,N
-851,geil,가일,끝내주는,awesome,adj,R5,N
 852,entdecken,엔트데켄,발견하다,discover,verb,R5,N
 853,müde,뮈데,피곤한,tired,adj,R5,Y
 854,wach,바흐,깨어 있는,awake,adj,R5,Y
@@ -1479,7 +1474,6 @@ rank,word,reading,ko,en,pos,level,picturable
 1478,Vogel,포겔,새,bird,noun-m,R5,Y
 1479,Künstler,퀸스틀러,예술가,artist,noun-m,R5,Y
 1480,verschieben,페어시벤,미루다,postpone,verb,R5,N
-1481,ficken,피켄,성교하다(속어),fuck,verb,R5,N
 1482,eilig,아일리히,급한,hurried,adj,R5,N
 1483,Passagier,파사지어,승객,passenger,noun-m,R5,Y
 1484,typisch,튀피슈,전형적인,typical,adj,R5,N

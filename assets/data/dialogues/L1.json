@@ -211,12 +211,7 @@
      ],
      "emotion": "excited"
     }
-   ],
-   "review": {
-    "grok_rewrite": "data/review/grok/out/l1_ep1.md",
-    "model": "빠른",
-    "final": "data/review/final/l1_ep1.txt"
-   }
+   ]
   },
   {
    "id": "ep2",
@@ -405,12 +400,7 @@
      ],
      "emotion": "flustered"
     }
-   ],
-   "review": {
-    "grok_rewrite": "data/review/grok/out/l1_ep2.md",
-    "model": "빠른",
-    "final": "data/review/final/l1_ep2.txt"
-   }
+   ]
   },
   {
    "id": "ep3",
@@ -594,12 +584,7 @@
      ],
      "emotion": "excited"
     }
-   ],
-   "review": {
-    "grok_rewrite": "data/review/grok/out/l1_ep3.md",
-    "model": "빠른",
-    "final": "data/review/final/l1_ep3.txt"
-   }
+   ]
   },
   {
    "id": "ep4",
@@ -812,12 +797,7 @@
       ]
      ]
     }
-   ],
-   "review": {
-    "grok_rewrite": "data/review/grok/out/l1_ep4.md",
-    "model": "빠른",
-    "final": "data/review/final/l1_ep4.txt"
-   }
+   ]
   },
   {
    "id": "ep5",
@@ -1025,12 +1005,7 @@
      ],
      "emotion": "cheerful"
     }
-   ],
-   "review": {
-    "grok_rewrite": "data/review/grok/out/l1_ep5.md",
-    "model": "빠른",
-    "final": "data/review/final/l1_ep5.txt"
-   }
+   ]
   }
  ]
 }

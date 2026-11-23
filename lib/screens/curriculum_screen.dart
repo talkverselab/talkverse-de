@@ -4,6 +4,7 @@ import '../core/l10n.dart';
 import '../core/pane.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
+import '../data/entitlement.dart';
 import '../services/curriculum_service.dart';
 import '../services/ko_reading.dart';
 import '../services/tts_service.dart';
@@ -38,6 +39,8 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
         _loading = false;
         // 단계 목록에 없는 값(옛 진도·서버에서 빠진 단계)이면 다시 고르게
         if (_st.level != null && !_svc.levels.contains(_st.level)) _st.level = null;
+        // 이용권이 끝나 잠긴 단계에 있으면 단계 고르기로
+        if (_st.level != null && !_svc.stageFree(_st.level!) && !Entitlement.premium) _st.level = null;
         _levelPick = _st.level == null;
         _picking = _st.level != null && _st.course == null;
       });
@@ -45,6 +48,8 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
   }
 
   Future<void> _setLevel(String lv) async {
+    // 잠긴 단계 — 자물쇠 → 결제 화면(PAYWALL_SPEC §3). 사면 그대로 들어간다.
+    if (!await Entitlement.gate(context, free: _svc.stageFree(lv))) return;
     _st.level = lv;
     await _svc.save();
     setState(() {
@@ -170,6 +175,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
                 ]),
               ),
               if (_st.level == null && lv == lowest) _pill(tr('추천'), AppColors.matcha),
+              if (!_svc.stageFree(lv) && !Entitlement.premium) Icon(Icons.lock_outline, key: ValueKey('cur-lock-$lv'), size: 20, color: AppColors.muted),
             ]),
           ),
     ];

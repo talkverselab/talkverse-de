@@ -24,7 +24,6 @@
  "expressions": [
   "Pssst."
  ],
- "draft": true,
  "level": "2 챗 실전",
  "turns": [
   {
@@ -34,9 +33,7 @@
    "rd": "자크 말, 잠스탁 파어튀. 위버라슝.",
    "ko": "있잖아, 토요일 파티. 깜짝이야.",
    "note": "신나게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -63,9 +60,7 @@
    "rd": "이히 카우프 덴 쿠헨.",
    "ko": "내가 케이크 살게.",
    "note": "밝게 제안하며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -87,9 +82,7 @@
    "rd": "프스스트, 다스 요나스 니히츠 바이스.",
    "ko": "쉿, 요나스가 모르게.",
    "note": "단호하게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -111,9 +104,7 @@
    "rd": "나 클라어. 게하임니스.",
    "ko": "당연하지. 비밀이야.",
    "note": "짧게 동의하며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -135,9 +126,7 @@
    "rd": "쇼코-쿠헨 파스트 구트.",
    "ko": "초콜릿 케이크가 좋아.",
    "note": "즐겁게 제안하며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -164,9 +153,7 @@
    "rd": "에어트베레 베서.",
    "ko": "딸기가 더 좋아.",
    "note": "한 단어로 끼어들게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -188,9 +175,7 @@
    "rd": "에언스타프트? 바룸 비스트 두 히어?",
    "ko": "진짜? 왜 여기 있어?",
    "note": "놀라며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -217,9 +202,7 @@
    "rd": "다스 기프트스 도흐 니히트. 그루페 폰 요나스 헨디.",
    "ko": "그럴 리가 없어. 요나스 휴대폰으로 만든 그룹이야.",
    "note": "당황스럽게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -251,9 +234,7 @@
    "rd": "투 위베라슈트.",
    "ko": "놀란 척할게.",
    "note": "짧게 웃으며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -270,9 +251,7 @@
    "rd": "단 에어트베어-쿠헨. 하하.",
    "ko": "그럼 딸기 케이크로. 하하.",
    "note": "웃으며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -287,10 +266,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r2_friends_c3.md",
-  "model": "빠른",
-  "final": "data/review/final/r2_friends_c3.txt"
- }
+ ]
 }

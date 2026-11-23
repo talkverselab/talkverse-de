@@ -30,6 +30,9 @@ for id_ in sys.argv[1:]:
     assert [(t['num'], t['speaker']) for t in turns] == [(t['num'], t['speaker']) for t in dr['turns']], id_
     ep['turns'] = turns
     ep['scenario'] = dr['scene']
-    ep['review'] = {'grok_rewrite': f'data/review/grok/out/{id_}.md', 'model': '빠른', 'final': f'data/review/final/{id_}.txt'}
+    # 작업 기록(review·draft)은 앱 묶음·공개 원고에 넣지 않는다 — 출처(AI 이름) 공개 금지(uk 심사 점검 2026-11-23). 기록은 data/review 에.
+    ep.pop('review', None)
+    for t in ep['turns']:
+        t['tags'] = [x for x in t.get('tags', []) if x != 'draft']
     print(id_, len(turns), '턴')
 json.dump(L, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)

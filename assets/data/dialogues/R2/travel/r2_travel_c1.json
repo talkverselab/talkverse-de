@@ -23,7 +23,6 @@
  "expressions": [
   "Gute Idee!"
  ],
- "draft": true,
  "level": "2 챗 실전",
  "turns": [
   {
@@ -33,9 +32,7 @@
    "rd": "보헨엔데 나흐 함부어크, 콤스트 두 미트?",
    "ko": "주말에 함부르크 가는데 너도 올래?",
    "note": "여행 계획을 신나게 제안",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -57,9 +54,7 @@
    "rd": "구테 이데.",
    "ko": "좋은 생각.",
    "note": "한 단어로 긍정, Gute Idee 그대로",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -81,9 +76,7 @@
    "rd": "축 잠스탁 프뤼, 비 클링트 다스?",
    "ko": "기차 토요일 아침은 어때?",
    "note": "기차 시간을 밝게 물어봄",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -120,9 +113,7 @@
    "rd": "파스트.",
    "ko": "괜찮아.",
    "note": "또 한 단어로 동의, Passt 그대로",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": []
   },
@@ -133,9 +124,7 @@
    "rd": "호텔 귄스티히 이스트 베서.",
    "ko": "호텔은 싼 데가 좋아.",
    "note": "호텔 조건을 짧게 말함",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -162,9 +151,7 @@
    "rd": "오케이.",
    "ko": "오케이.",
    "note": "다시 한 단어로만 답함",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": []
   },
@@ -175,9 +162,7 @@
    "rd": "나 운트? 자크스트 두 존스트 니히츠?",
    "ko": "그래서? 다른 말은 없어?",
    "note": "말이 없는 걸 짜증내며 Na und? 삽입",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "annoyed",
    "lemmas": [
     [
@@ -199,9 +184,7 @@
    "rd": "피슈브뢰트헨: 라덴 아인스, 츠바이, 드라이, 알레 가일!",
    "ko": "생선 빵: 가게 하나, 둘, 셋, 다 맛있어!",
    "note": "갑자기 긴 메시지로 가게 목록을 흥분해서 보냄",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -228,9 +211,7 @@
    "rd": "바이 에센 레데스트 두 플뢰츨리히 필, 네?",
    "ko": "먹는 거면 갑자기 말이 많네?",
    "note": "음식 얘기엔 말이 많다고 웃으며 지적",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -252,9 +233,7 @@
    "rd": "벤 차이트 이스트, 빌 이히 알레 제엔.",
    "ko": "시간 되면 다 보고 싶어.",
    "note": "시간 되면 다 보고 싶다고 wenn으로 밝게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -269,10 +248,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r2_travel_c1.md",
-  "model": "빠른",
-  "final": "data/review/final/r2_travel_c1.txt"
- }
+ ]
 }

@@ -13,6 +13,7 @@
 편을 지우면 index 에서 빠져 앱에서 숨는다. 턴 번호·편 id 는 다시 매기지 말 것(tools/turn_lock.py).
 """
 import glob
+import re
 import hashlib
 import json
 import subprocess
@@ -77,6 +78,10 @@ def main():
     print(f'기준 rev {base["rev"]} — 바뀜 {len(chg)} 새로 {len(add)} 빠짐 {len(rem)}')
     if '--publish' not in sys.argv or not (chg or add or rem):
         return
+    # 공개 원고에 작업 기록 칸·AI 이름이 남아 있으면 올리지 않는다(출처 공개 금지, uk 심사 점검 2026-11-23)
+    bad = [p for p in chg + add if re.search(r'"(review|draft|grok|grok_rewrite)"\s*:|\b(Grok|Claude|Gemini)\b', (DATA / p).read_text(encoding='utf-8'))]
+    if bad:
+        sys.exit('작업 기록 칸·AI 이름이 남은 원고: ' + ', '.join(bad))
     if subprocess.run([sys.executable, str(ROOT / 'tools/turn_lock.py')], cwd=ROOT).returncode != 0:
         sys.exit('턴 번호 잠금 경고 — 번호를 다시 매기지 말고 고친 뒤 다시')
     for p in chg + add:

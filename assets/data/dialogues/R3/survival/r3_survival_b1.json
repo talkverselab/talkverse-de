@@ -26,7 +26,6 @@
   "Zusammen oder getrennt?",
   "Bar oder mit Karte?"
  ],
- "draft": true,
  "level": "3 그래머2",
  "turns": [
   {
@@ -36,9 +35,7 @@
    "rd": "구텐 탁! 바스 다어프 이히 이넨 브링엔?",
    "ko": "안녕하세요! 무엇을 드릴까요?",
    "note": "가게 인사로 시작",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -65,9 +62,7 @@
    "rd": "할로, 비어 뫼히텐 게어네 브레첼느.",
    "ko": "안녕하세요, 저희 프레첼 주문하고 싶어요.",
    "note": "주문 시작",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -89,9 +84,7 @@
    "rd": "츠바이. 디 그로센.",
    "ko": "두 개. 큰 걸로.",
    "note": "짧게 말함",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -108,9 +101,7 @@
    "rd": "야, 게나우. 츠바이 브레첼느 비테.",
    "ko": "네, 맞아요. 프레첼 두 개 주세요.",
    "note": "정중히 확인",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -137,9 +128,7 @@
    "rd": "게어네. 추자멘 오더 게트렌트?",
    "ko": "네. 같이 계산할까요, 따로요?",
    "note": "",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -166,9 +155,7 @@
    "rd": "츠뵐프! 에, 이히 마이네 츠바이.",
    "ko": "열두 개! 아, 두 개요.",
    "note": "숫자 착각",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -190,9 +177,7 @@
    "rd": "츠뵐프? 다스 진트 아버 피레 브레첼느!",
    "ko": "열두 개요? 프레첼이 엄청 많네요!",
    "note": "밝게 반응",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -214,9 +199,7 @@
    "rd": "나인, 츠바이. 투트 미어 라이트, 이히 하베 미히 페어스프로헨.",
    "ko": "아니요, 두 개요. 죄송해요, 말실수했어요.",
    "note": "정정",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -243,9 +226,7 @@
    "rd": "츠뵐프 퓌어 미히. 클링트 구트.",
    "ko": "나 혼자 열두 개. 괜찮아.",
    "note": "장난치며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -267,9 +248,7 @@
    "rd": "두 이스트 도흐 니히트 츠뵐프 아우프 아인말!",
    "ko": "너 한 번에 열두 개 먹지도 않아!",
    "note": "지적",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -296,9 +275,7 @@
    "rd": "호이테 필라이히트.",
    "ko": "오늘은 그럴지도.",
    "note": "짧게 웃으며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -320,9 +297,7 @@
    "rd": "알조 츠바이. 바어 오더 미트 카어테?",
    "ko": "그럼 두 개요. 현금인가요, 카드인가요?",
    "note": "결제 질문",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -349,9 +324,7 @@
    "rd": "요나스 찰트 다스, 오더?",
    "ko": "요나스가 낼 거지, 응?",
    "note": "놀리며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -368,9 +341,7 @@
    "rd": "추자멘 오더 게트렌트?",
    "ko": "같이 계산할까요, 따로요?",
    "note": "다시 확인",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -392,9 +363,7 @@
    "rd": "추자멘. 당케.",
    "ko": "같이요. 고마워요.",
    "note": "",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -409,10 +378,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r3_survival_b1.md",
-  "model": "빠른",
-  "final": "data/review/final/r3_survival_b1.txt"
- }
+ ]
 }

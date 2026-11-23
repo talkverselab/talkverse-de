@@ -23,7 +23,6 @@
  "expressions": [
   "Noch was?"
  ],
- "draft": true,
  "level": "2 챗 실전",
  "turns": [
   {
@@ -33,9 +32,7 @@
    "rd": "헤이, 이히 빈 그라트 아인카우펜. 브라우흐스트 두 노흐 바스?",
    "ko": "야, 나 지금 장 보고 있어. 더 필요한 거 있어?",
    "note": "슈퍼 채팅 시작을 구어체 grad로 자연스럽게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -67,9 +64,7 @@
    "rd": "누어 밀히 비테.",
    "ko": "우유만 부탁.",
    "note": "최소 요청을 짧게 직접적으로",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -96,9 +91,7 @@
    "rd": "아흐, 운트 브로트 노흐.",
    "ko": "아, 그리고 빵도.",
    "note": "덧붙이는 말투로 자연 연결",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -120,9 +113,7 @@
    "rd": "밀히 운트 브로트, 알레스 클라어.",
    "ko": "우유랑 빵, 알겠어.",
    "note": "확인하면서 Alles klar 그대로 삽입",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -149,9 +140,7 @@
    "rd": "케제, 에펠 운트 클로파피어 아우흐 노흐!",
    "ko": "치즈, 사과, 휴지까지!",
    "note": "연달아 항목을 흥분해서 쏟아냄",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -183,9 +172,7 @@
    "rd": "디 리스테 비어트 에히트 랑, 네?",
    "ko": "목록이 진짜 길어지네.",
    "note": "투덜대며 길어짐을 지적",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "annoyed",
    "lemmas": [
     [
@@ -212,9 +199,7 @@
    "rd": "에, 호이테 코멘 첸 프로인데 추 베주흐...",
    "ko": "어, 오늘 친구 열 명이 놀러 온대...",
    "note": "반전 고백을 당황한 채팅으로",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -246,9 +231,7 @@
    "rd": "아흐 콤, 바룸 자크스트 두 다스 예츠트 에어스트?",
    "ko": "에이, 왜 이제야 말하는데?",
    "note": "Ach komm 그대로 넣고 따짐",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -280,9 +263,7 @@
    "rd": "바일 이히 앙스트 하테, 다스 두 나인 자크스트.",
    "ko": "네가 안 된다고 할까 봐 그랬어.",
    "note": "weil·dass로 이유 설명하며 걱정",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
@@ -314,9 +295,7 @@
    "rd": "오케이, 단 홀 이히 노흐 넨 바겐. 게트 클라어!",
    "ko": "오케이, 그럼 카트 하나 더 가져올게. 할 수 있어!",
    "note": "웃으며 대응하고 Geht klar 삽입",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -351,10 +330,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r2_life_c2.md",
-  "model": "빠른",
-  "final": "data/review/final/r2_life_c2.txt"
- }
+ ]
 }

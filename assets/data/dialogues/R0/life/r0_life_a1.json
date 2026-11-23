@@ -23,7 +23,6 @@
  "expressions": [
   "Hallo!"
  ],
- "draft": true,
  "level": "0 입문",
  "turns": [
   {
@@ -33,9 +32,7 @@
    "rd": "할로! 빌코멘!",
    "ko": "안녕! 환영해!",
    "note": "환영하며 인사",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -52,9 +49,7 @@
    "rd": "할로! 당케!",
    "ko": "안녕! 고마워!",
    "note": "고맙다며 인사",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -71,9 +66,7 @@
    "rd": "슐뤼셀. 오벤, 운텐.",
    "ko": "열쇠. 위, 아래.",
    "note": "열쇠 두 개 주며 짧게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -100,9 +93,7 @@
    "rd": "파스트 니히트!",
    "ko": "안 맞아!",
    "note": "위 열쇠로 아래 문 열려다 실패",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": []
   },
@@ -113,9 +104,7 @@
    "rd": "오벤! 퓌어스 파라트.",
    "ko": "위! 자전거용.",
    "note": "위 열쇠라고, 자전거 창고라고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -137,9 +126,7 @@
    "rd": "알레스 클라어!",
    "ko": "알겠어!",
    "note": "아 그렇구나 하고 웃음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -149,10 +136,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r0_life_a1.md",
-  "model": "빠른",
-  "final": "data/review/final/r0_life_a1.txt"
- }
+ ]
 }

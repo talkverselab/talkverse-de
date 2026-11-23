@@ -29,7 +29,6 @@
   "Egal",
   "Okay"
  ],
- "draft": true,
  "level": "3 그래머2",
  "turns": [
   {
@@ -39,9 +38,7 @@
    "rd": "헤이, 모어겐 아벤트 파어튀 바이 미어. 콤트 이어 바이데?",
    "ko": "야, 내일 저녁 내 집에서 파티야. 너희 둘 와?",
    "note": "자연스럽게 초대",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -63,9 +60,7 @@
    "rd": "라이더 니히트. 이히 합 숀 플레네.",
    "ko": "미안, 안 돼. 이미 계획 있어.",
    "note": "직설적으로 짧게 거절",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -92,9 +87,7 @@
    "rd": "비어트 리히티히 가일! 피레 프로인데, 구테 무지크. 오더?",
    "ko": "완전 멋질 거야! 친구들 많고 음악도 좋아. 그치?",
    "note": "흥분해서 설득하며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -131,9 +124,7 @@
    "rd": "나 야, 이히 무스 마인 파라트 레파리렌.",
    "ko": "음, 나 자전거 고쳐야 해.",
    "note": "어색한 변명",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -155,9 +146,7 @@
    "rd": "암 아벤트? 다스 마흐트 도흐 카이넨 진!",
    "ko": "저녁에? 말이 안 되잖아!",
    "note": "의심하며 놀람",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -189,9 +178,7 @@
    "rd": "이히 아우흐 니히트. 라이더.",
    "ko": "나도 안 돼. 미안.",
    "note": "말수 적게 짧게 거절",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -213,9 +200,7 @@
    "rd": "게나우. 비어 하벤... 에, 예더 아이게네 자헨.",
    "ko": "맞아. 우리... 아, 각자 할 일 있어.",
    "note": "말실수로 당황",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -247,9 +232,7 @@
    "rd": "이어 바이데 글라이히차이티히? 다스 이스트 토탈 페어데히티히!",
    "ko": "너희 둘 동시에? 완전 수상해!",
    "note": "이상한 점 지적",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -276,9 +259,7 @@
    "rd": "에갈. 비어 코멘 니히트.",
    "ko": "상관없어. 우리 안 가.",
    "note": "짧게 잘라 말함",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -300,9 +281,7 @@
    "rd": "오케이, 샤데. 이히 볼테 오이흐 운베딩트 다바이하벤.",
    "ko": "알겠어, 아쉽다. 너희 꼭 같이 하고 싶었는데.",
    "note": "실망 표현",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "sad",
    "lemmas": [
     [
@@ -334,9 +313,7 @@
    "rd": "투트 미어 비어클리히 라이트.",
    "ko": "정말 미안해.",
    "note": "부드럽게 사과",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -363,9 +340,7 @@
    "rd": "오케이, 비어 진트 아인 파어. 모어겐 다테.",
    "ko": "알겠어, 우리 사귀어. 내일 데이트야.",
    "note": "관계 공개",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -392,9 +367,7 @@
    "rd": "에히트? 이어 츠바이 추자멘? 자이트 반?",
    "ko": "진짜? 너희 둘이 사귀어? 언제부터?",
    "note": "놀람",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -421,9 +394,7 @@
    "rd": "자이트 츠바이 보헨. 야.",
    "ko": "이 주 됐어. 응.",
    "note": "조용히 확인",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -440,9 +411,7 @@
    "rd": "다스 이스트 야 메가! 헤어츠리헨 글뤼크분슈 안 오이흐!",
    "ko": "대박이네! 너희 축하해!",
    "note": "기쁨으로 축하",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -474,9 +443,7 @@
    "rd": "당케. 디 파어튀 라센 비어 아버 아우스.",
    "ko": "고마워. 파티는 빠질게.",
    "note": "",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -501,10 +468,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r3_friends_b1.md",
-  "model": "빠른",
-  "final": "data/review/final/r3_friends_b1.txt"
- }
+ ]
 }

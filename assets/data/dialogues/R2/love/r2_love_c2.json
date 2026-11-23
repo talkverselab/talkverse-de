@@ -32,7 +32,6 @@
   "Ich auch",
   "Okay"
  ],
- "draft": true,
  "level": "2 챗 실전",
  "turns": [
   {
@@ -42,9 +41,7 @@
    "rd": "헤이, 슐레프스트 두 숀? 🌙",
    "ko": "안녕, 벌써 자? 🌙",
    "note": "새벽 메시지 시작",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "01:12",
    "emotion": "shy",
@@ -68,9 +65,7 @@
    "rd": "네. 두 아우흐 니히트?",
    "ko": "아니. 너도 안 자?",
    "note": "가볍게 맞장구",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "01:13",
    "emotion": "amused",
@@ -94,9 +89,7 @@
    "rd": "추 필 카페 호이테. 이히 마흐 인 야 예덴 탁 😅",
    "ko": "오늘 커피를 너무 마셨어. 매일 만드는 거니까 😅",
    "note": "바리스타 핑계로 구어체",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "01:13",
    "emotion": "amused",
@@ -135,9 +128,7 @@
    "rd": "하하. 운트 바룸 슈라이프스트 두 미어 예츠트? 😏",
    "ko": "하하. 근데 왜 지금 나한테 연락했어? 😏",
    "note": "장난스럽게 캐묻기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "01:14",
    "emotion": "teasing",
@@ -161,9 +152,7 @@
    "rd": "카이네 아눙. 두 비스트 할트 아인파흐 다 🤷‍♀️",
    "ko": "몰라. 그냥 네가 있으니까 🤷‍♀️",
    "note": "얼버무리며 다가감",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "01:15",
    "emotion": "teasing",
@@ -197,9 +186,7 @@
    "rd": "아흐 조. 누어 바일 이히 다 빈?",
    "ko": "아 그래? 그냥 내가 있어서?",
    "note": "weil로 확인",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "01:15",
    "emotion": "teasing",
@@ -228,9 +215,7 @@
    "rd": "나인. 아이겐틀리히 … 이히 덴케 이머 안 디히.",
    "ko": "아니. 사실은… 맨날 네 생각만 해.",
    "note": "트위스트 심쿵으로 여성이 먼저 다가감",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "01:17",
    "segs": [
@@ -268,9 +253,7 @@
    "rd": "오 만. 다스 바어 추 에얼리히, 오더? 🫣",
    "ko": "아 이런. 너무 솔직했지? 🫣",
    "note": "당황하며 후회",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "01:17",
    "emotion": "flustered",
@@ -294,9 +277,7 @@
    "rd": "네. 다스 바어 게나우 리히티히.",
    "ko": "아니. 딱 좋았어.",
    "note": "부드럽게 받음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "01:18",
    "emotion": "gentle",
@@ -325,9 +306,7 @@
    "rd": "이히 아우흐. 숀 랑에.",
    "ko": "나도야. 꽤 오래전부터.",
    "note": "심쿵 답",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "01:18",
    "emotion": "shy",
@@ -356,9 +335,7 @@
    "rd": "오케이. 예츠트 칸 이히 가어 니히트 메어 슐라펜 😳",
    "ko": "오케이. 이제 진짜 잠 다 잤다 😳",
    "note": "더 못 잠",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "01:19",
    "emotion": "flustered",
@@ -397,9 +374,7 @@
    "rd": "모어겐 프뤼. 카페 바이 미어. 게트 아우프 미히 😘",
    "ko": "내일 아침. 커피는 우리 가게에서. 내가 쏠게 😘",
    "note": "약속 제안",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "01:19",
    "emotion": "cheerful",
@@ -426,10 +401,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r2_love_c2_rewrite.md",
-  "model": "전문가",
-  "final": "data/review/final/r2_love_c2.txt"
- }
+ ]
 }

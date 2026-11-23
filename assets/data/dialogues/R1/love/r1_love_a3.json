@@ -25,7 +25,6 @@
  "expressions": [
   "Süß!"
  ],
- "draft": true,
  "level": "1 관사·격·활용 골격",
  "turns": [
   {
@@ -35,9 +34,7 @@
    "rd": "퓌어 디히.",
    "ko": "너 주려고.",
    "note": "너 주려고 가져왔다며 뭔가를 내밈",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": []
   },
@@ -48,9 +45,7 @@
    "rd": "비어클리히? 쥐스!",
    "ko": "진짜? 귀여워!",
    "note": "선물이냐고 묻기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -72,9 +67,7 @@
    "rd": "아인 슈티크.",
    "ko": "스틱 하나.",
    "note": "드럼 스틱 하나라고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -91,9 +84,7 @@
    "rd": "이히 하베 카인 슐라크초이크!",
    "ko": "나 드럼 없어!",
    "note": "나는 드럼이 없는데, 하고 웃음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -115,9 +106,7 @@
    "rd": "이히 하베 아이넨.",
    "ko": "나는 하나 있어.",
    "note": "하나는 자기가 갖고 있다고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -134,9 +123,7 @@
    "rd": "아이너 퓌어 디히. 아이너 퓌어 미히. 콤 비더.",
    "ko": "하나는 네 거. 하나는 내 거. 또 와.",
    "note": "하나는 네 거 하나는 내 거 — 다음 공연에도 오라는 뜻",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -158,9 +145,7 @@
    "rd": "이히 베할테 인. 이머.",
    "ko": "꼭 가지고 다닐게.",
    "note": "그럼 꼭 가지고 다니겠다고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -182,9 +167,7 @@
    "rd": "니히트 페어리렌! 슐라프 구트.",
    "ko": "잃어버리면 안 돼! 잘 자.",
    "note": "잃어버리면 안 된다고 다짐받음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -204,10 +187,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r1_love_a3.md",
-  "model": "빠른",
-  "final": "data/review/final/r1_love_a3.txt"
- }
+ ]
 }

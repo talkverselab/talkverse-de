@@ -30,7 +30,6 @@
   "Pünktlich",
   "Na klar"
  ],
- "draft": true,
  "level": "5 어휘 완주",
  "turns": [
   {
@@ -40,9 +39,7 @@
    "rd": "구텐 탁! 쇤, 다스 지 퓡크틀리히 진트.",
    "ko": "안녕하세요! 정시에 오셔서 좋네요.",
    "note": "면접 시작",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -74,9 +71,7 @@
    "rd": "구텐 탁. 이히 빈 아인 비스헨 네어뵈스.",
    "ko": "안녕하세요. 제가 조금 긴장돼요.",
    "note": "수줍게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -108,9 +103,7 @@
    "rd": "카이네 조어게. 비어 마헨 다스 간츠 엔트스판트.",
    "ko": "걱정 마세요. 편하게 할게요.",
    "note": "부드럽게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -142,9 +135,7 @@
    "rd": "엔트슐디궁. 디 브레첼느 진트 퓌어 슈페터.",
    "ko": "죄송해요. 프레첼은 나중에 위한 거예요.",
    "note": "경직되게 들어옴",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -171,9 +162,7 @@
    "rd": "오, 아인 프로인트? 게어네, 아버 비테 라이제.",
    "ko": "오, 친구분이세요? 좋아요, 근데 조용히 해 주세요.",
    "note": "정중히",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -205,9 +194,7 @@
    "rd": "이히... 디 슈텔레 이스트 베겐 데어 브레첼느. 에, 나인!",
    "ko": "저... 그 자리는 프레첼 때문에요. 아, 아니요!",
    "note": "",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -234,9 +221,7 @@
    "rd": "나 클라어. 에어 마인트 디 에어파룽.",
    "ko": "그렇지. 그는 경험을 말하는 거야.",
    "note": "재미있게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -263,9 +248,7 @@
    "rd": "엔트슐디궁, 하벤 지 숀 인 아이넴 카프é 게아어바이테트?",
    "ko": "죄송해요, 카페에서 일해 보신 적 있나요?",
    "note": "정중히",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -297,9 +280,7 @@
    "rd": "야, 게어네. 이히 바어 퓡크틀리히 운트 추페어레시히.",
    "ko": "네, 좋아요. 저는 정시였고 믿을 만했어요.",
    "note": "밝게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -326,9 +307,7 @@
    "rd": "비어클리히? 운트 디 브레첼느 하벤 니히츠 다미트 추 툰?",
    "ko": "진짜요? 그리고 프레첼은 관련 없고요?",
    "note": "놀람",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -360,9 +339,7 @@
    "rd": "카이네 조어게. 디 진트 누어 퓌어 미히.",
    "ko": "걱정 마. 그건 나만 위한 거야.",
    "note": "재미있게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -384,9 +361,7 @@
    "rd": "요나스, 두 졸테스트 드라우센 바어텐!",
    "ko": "요나스, 너는 밖에서 기다려야 했어!",
    "note": "지적",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -413,9 +388,7 @@
    "rd": "엔트슐디궁. 이히 게 글라이히.",
    "ko": "죄송해요. 바로 나갈게.",
    "note": "수줍게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -442,9 +415,7 @@
    "rd": "카이네 조어게. 에스 바어 조가어 아인 비스헨 루스티히.",
    "ko": "걱정 마세요. 오히려 조금 재미있었어요.",
    "note": "부드럽게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -476,9 +447,7 @@
    "rd": "당케! 이히 프로이에 미히 아우프 디 슈텔레.",
    "ko": "감사합니다! 그 자리를 기대해요.",
    "note": "흥분",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -505,9 +474,7 @@
    "rd": "나 클라어. 두 샤프스트 다스.",
    "ko": "그렇지. 너 할 수 있어.",
    "note": "부드럽게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -522,10 +489,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r5_work_b1.md",
-  "model": "빠른",
-  "final": "data/review/final/r5_work_b1.txt"
- }
+ ]
 }

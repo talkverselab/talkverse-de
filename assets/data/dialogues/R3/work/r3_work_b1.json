@@ -24,7 +24,6 @@
  "expressions": [
   "Guten Tag."
  ],
- "draft": true,
  "level": "3 그래머2",
  "turns": [
   {
@@ -34,9 +33,7 @@
    "rd": "구텐 탁. 비테 제첸 지 지히.",
    "ko": "안녕하세요. 앉으세요.",
    "note": "Sie로 정중하게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -63,9 +60,7 @@
    "rd": "구텐 탁. 당케.",
    "ko": "안녕하세요. 감사합니다.",
    "note": "Sie로 인사하며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -92,9 +87,7 @@
    "rd": "하벤 지 에어파룽 임 카프é?",
    "ko": "카페 경험이 있으신가요?",
    "note": "단호하게 물어보며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -116,9 +109,7 @@
    "rd": "이히 합 아인말 샤움 게마흐트.",
    "ko": "한 번 거품 만들어 봤어요.",
    "note": "현재완료로 당황스럽게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -150,9 +141,7 @@
    "rd": "운트 덴 트레젠 미트 샤움 베데크트.",
    "ko": "그리고 카운터를 거품으로 덮었지.",
    "note": "장난스럽게 끼어들며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -179,9 +168,7 @@
    "rd": "쾨넨 지 암 보헨엔데 아어바이텐?",
    "ko": "주말에 일할 수 있으신가요?",
    "note": "정중하게 물어보며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -203,9 +190,7 @@
    "rd": "잠스탁, 존탁, 피레 슈툰덴 오케이.",
    "ko": "토요일, 일요일 다 되고 시간도 많아요.",
    "note": "밝게 답하며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -237,9 +222,7 @@
    "rd": "반 쾨넨 지 안팡엔?",
    "ko": "언제 시작할 수 있으신가요?",
    "note": "정중하게 물어보며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -261,9 +244,7 @@
    "rd": "모어겐 아우흐.",
    "ko": "내일도 돼요.",
    "note": "신나게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -285,9 +266,7 @@
    "rd": "미아 하트 지 숀 엠포렌. 데어 요프 이스트 이러.",
    "ko": "미아가 이미 추천해서 합격이에요.",
    "note": "웃으며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -319,9 +298,7 @@
    "rd": "볼렌 비어 운스 두첸?",
    "ko": "여기서는 다 말 놓을까요?",
    "note": "부드럽게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -338,9 +315,7 @@
    "rd": "게어네. 할로!",
    "ko": "좋아요. 안녕!",
    "note": "du로 처음 인사하며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -357,9 +332,7 @@
    "rd": "에어스테 시히트: 샤움 푸첸.",
    "ko": "첫 근무는 거품 청소야.",
    "note": "놀리며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -384,10 +357,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r3_work_b1.md",
-  "model": "빠른",
-  "final": "data/review/final/r3_work_b1.txt"
- }
+ ]
 }

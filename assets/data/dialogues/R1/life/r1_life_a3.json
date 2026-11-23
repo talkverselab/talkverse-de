@@ -23,7 +23,6 @@
  "expressions": [
   "Keine Ahnung!"
  ],
- "draft": true,
  "level": "1 관사·격·활용 골격",
  "turns": [
   {
@@ -33,9 +32,7 @@
    "rd": "카이네 아눙. 카인 슐뤼셀!",
    "ko": "모르겠어. 열쇠가 없어!",
    "note": "열쇠가 없다고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
@@ -57,9 +54,7 @@
    "rd": "하스트 두 디 타셰 게젠?",
    "ko": "가방은 봤어?",
    "note": "가방은 봤냐고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -81,9 +76,7 @@
    "rd": "이히 하베 디 타셰 게주흐트. 알레스.",
    "ko": "가방 다 찾았어.",
    "note": "가방도 다 찾아봤다고 (현재완료)",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "annoyed",
    "lemmas": [
     [
@@ -105,9 +98,7 @@
    "rd": "운트 디 호젠타셰?",
    "ko": "주머니는?",
    "note": "주머니는? 하고 묻기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -124,9 +115,7 @@
    "rd": "아우흐 니히트.",
    "ko": "거기에도 없어.",
    "note": "주머니에도 없다고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "sad",
    "lemmas": [
     [
@@ -143,9 +132,7 @@
    "rd": "바어테 말. 바스 하스트 두 인 데어 한트?",
    "ko": "잠깐. 손에 든 게 뭐야?",
    "note": "영상 통화 켜고 손에 든 게 뭐냐고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -172,9 +159,7 @@
    "rd": "데어 슐뤼셀! 춤 글뤽!",
    "ko": "열쇠! 다행이다!",
    "note": "손에 열쇠가 있다는 걸 알고 놀람",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -196,9 +181,7 @@
    "rd": "두 하스트 인 디 간체 차이트!",
    "ko": "계속 갖고 있었잖아!",
    "note": "열쇠 안 갖고 왔다고 웃음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -213,10 +196,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r1_life_a3.md",
-  "model": "빠른",
-  "final": "data/review/final/r1_life_a3.txt"
- }
+ ]
 }

@@ -33,9 +33,7 @@
    "rd": "이히 마흐 글라이히 추. 두 비스트 이머 노흐 히어?",
    "ko": "나 곧 닫아. 너 아직 있어?",
    "note": "혼자 일하며 놀리듯 말 검",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -72,9 +70,7 @@
    "rd": "이히 레언 도이치. 데어 카페 이스트 구트.",
    "ko": "나 독일어 공부해. 커피가 맛있어서.",
    "note": "둘러대며 변명",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -106,9 +102,7 @@
    "rd": "다인 카페 이스트 자이트 츠바이 슈툰덴 레어.",
    "ko": "네 커피 두 시간째 비어 있어.",
    "note": "빈 잔 짚으며 놀림",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -135,9 +129,7 @@
    "rd": "에히트? 이히 트린크 할트 랑잠.",
    "ko": "진짜? 나 그냥 천천히 마셔.",
    "note": "놀라다 천천히라고 얼버무림",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "segs": [
     [
      "surprised",
@@ -178,9 +170,7 @@
    "rd": "운트 다인 부흐 이스트 이머 노흐 아우프 데어젤벤 자이테.",
    "ko": "그리고 네 책은 아직도 같은 쪽이야.",
    "note": "같은 쪽 또 짚음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -212,9 +202,7 @@
    "rd": "나 야, 히어 칸 이히 니히트 레어넨.",
    "ko": "음, 여기선 공부 못 해.",
    "note": "인정하고 말 돌림",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -236,9 +224,7 @@
    "rd": "이스트 디 무지크 추 라우트?",
    "ko": "음악이 너무 시끄러워서?",
    "note": "다정하게 이유 물음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -260,9 +246,7 @@
    "rd": "나인, 아인파흐...",
    "ko": "아니, 그냥...",
    "note": "말 흐리며 수줍음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -279,9 +263,7 @@
    "rd": "자크 말, 아인파흐 바스?",
    "ko": "말해 봐, 그냥 뭐?",
    "note": "재촉하며 놀림",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -303,9 +285,7 @@
    "rd": "에갈. 비스 모어겐.",
    "ko": "됐어. 내일 봐.",
    "note": "일어서며 도망",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -327,9 +307,7 @@
    "rd": "바어테 말. 바이스트 두, 바룸 이히 예덴 탁 조 랑잠 추마헤?",
    "ko": "잠깐만. 너 알아, 내가 왜 매일 이렇게 천천히 닫는지?",
    "note": "붙잡으며 자기도 기다렸다고 털어놓음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -376,9 +354,7 @@
    "rd": "단... 노흐 아이넨 카페?",
    "ko": "그럼... 커피 한 잔 더?",
    "note": "다시 앉으며 수줍게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -398,10 +374,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r2_love_b1.md",
-  "model": "빠른",
-  "final": "data/review/final/r2_love_b1.txt"
- }
+ ]
 }

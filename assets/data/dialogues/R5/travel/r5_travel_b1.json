@@ -30,7 +30,6 @@
   "Leider",
   "Ach komm"
  ],
- "draft": true,
  "level": "5 어휘 완주",
  "turns": [
   {
@@ -40,9 +39,7 @@
    "rd": "구텐 탁! 바스 칸 이히 퓌어 지 툰?",
    "ko": "안녕하세요! 무엇을 도와드릴까요?",
    "note": "약국 시작",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -69,9 +66,7 @@
    "rd": "미어 투트 알레스 베. 뤼켄, 바이네, 아어메.",
    "ko": "온몸이 아파요. 등, 다리, 팔.",
    "note": "슬프게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "sad",
    "lemmas": [
     [
@@ -108,9 +103,7 @@
    "rd": "아이겐틀리히 바어 에스 누어 아이네 쿠어체 라토우어.",
    "ko": "사실은 짧은 자전거 길이었어.",
    "note": "걱정",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
@@ -142,9 +135,7 @@
    "rd": "라이더 클링트 다스 나흐 무스켈카터. 비 바이트 진트 지 게파렌?",
    "ko": "유감이지만 근육통 같네요. 얼마나 타셨나요?",
    "note": "정중히",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -186,9 +177,7 @@
    "rd": "지 하트 게자크트, 첸 킬로메터. 비어클리히?",
    "ko": "그녀가 십 킬로라고 했어. 진짜?",
    "note": "슬프게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "sad",
    "lemmas": [
     [
@@ -215,9 +204,7 @@
    "rd": "나 야, 바이 첸 키로메테언 졸테 에스 니히트 조 슐림 자인.",
    "ko": "음, 십 킬로면 이렇게 심하지 않아야 해요.",
    "note": "정중히",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -249,9 +236,7 @@
    "rd": "에스 바어 할트 아인 비스헨 렝어.",
    "ko": "그냥 조금 더 길었어.",
    "note": "경직",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -278,9 +263,7 @@
    "rd": "아흐 콤, 비 필 렝어 덴?",
    "ko": "에이, 얼마나 더 긴데?",
    "note": "걱정",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
@@ -317,9 +300,7 @@
    "rd": "아이겐틀리히 에어 피어치히 킬로메터. 미트 게겐빈트.",
    "ko": "사실은 사십 킬로쯤. 역풍 불고.",
    "note": "",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -351,9 +332,7 @@
    "rd": "피어치히?! 두 하스트 첸 게자크트!",
    "ko": "사십?! 너는 십이라고 했어!",
    "note": "소리침",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shout",
    "lemmas": [
     [
@@ -370,9 +349,7 @@
    "rd": "나 야, 퓌어 미히 이스트 다스 쿠어츠. 비어클리히.",
    "ko": "음, 나한테는 짧은 거야. 진짜로.",
    "note": "재미있게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -394,9 +371,7 @@
    "rd": "라이더 브라우헨 지 단 잘베 운트 루에.",
    "ko": "유감이지만 그럼 연고랑 휴식이 필요해요.",
    "note": "정중히",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -433,9 +408,7 @@
    "rd": "아흐 콤, 레나. 네히스테스 말 자크스트 두 디 바하이트.",
    "ko": "에이, 레나. 다음엔 진실을 말해.",
    "note": "놀림",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -477,9 +450,7 @@
    "rd": "비어클리히, 피어치히 킬로메터 암 드리텐 탁? 레스펙트.",
    "ko": "진짜로, 사흘째에 사십 킬로? 대단하네요.",
    "note": "재미있게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -516,9 +487,7 @@
    "rd": "아이겐틀리히 바어 에스 쇤. 트로츠 알렘.",
    "ko": "사실은 좋았어. 그래도.",
    "note": "부드럽게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -533,10 +502,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r5_travel_b1.md",
-  "model": "빠른",
-  "final": "data/review/final/r5_travel_b1.txt"
- }
+ ]
 }

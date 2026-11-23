@@ -3,6 +3,8 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 
 import '../services/script_sync.dart';
+import '../data/entitlement.dart';
+import '../services/curriculum_service.dart';
 
 import '../core/l10n.dart';
 import '../core/pane.dart';
@@ -50,6 +52,10 @@ class SenseCourse {
     await p.setStringList(_kDoneKey, s.toList());
   }
 
+  /// 무료 급인가 — 앞에서 [CurriculumService.freeSenseLevels] 급까지(서버 커리큘럼 JSON, 기본 1급, PAYWALL_SPEC §2).
+  static bool levelFree(Map<String, dynamic> d, Map<String, dynamic> lv) =>
+      (d['levels'] as List).indexOf(lv) < CurriculumService.instance.freeSenseLevels;
+
   /// 모든 회차를 순서대로 (레벨, 회차) 쌍으로.
   static List<(Map<String, dynamic>, Map<String, dynamic>)> flat(Map<String, dynamic> d) => [
         for (final lv in (d['levels'] as List).cast<Map<String, dynamic>>())
@@ -75,6 +81,7 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
   }
 
   Future<void> _load() async {
+    await CurriculumService.instance.ensureLoaded(); // 무료 급 수(freeSenseLevels)
     final d = await SenseCourse.load();
     final done = await SenseCourse.done();
     if (!mounted) return;
@@ -85,6 +92,10 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
   }
 
   Future<void> _open(int index) async {
+    final d = _data!;
+    final (lv, _) = SenseCourse.flat(d)[index];
+    if (!await Entitlement.gate(context, free: SenseCourse.levelFree(d, lv))) return;
+    if (!mounted) return;
     await openFull(context, (_) => SenseLessonScreen(index: index));
     _load();
   }
@@ -147,6 +158,7 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
                     child: Text(ls['title'] as String,
                         style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w700, color: AppColors.sumi)),
                   ),
+                  if (!SenseCourse.levelFree(d, lv) && !Entitlement.premium) const Icon(Icons.lock_outline, size: 18, color: AppColors.muted),
                   if (isDone)
                     const Icon(Icons.check_circle, color: AppColors.matcha, size: 20)
                   else if (isNext)
@@ -196,7 +208,10 @@ class _SenseLessonScreenState extends State<SenseLessonScreen> {
     while (nextIdx < all.length && all[nextIdx].$2['kind'] == 'ref') {
       nextIdx++;
     }
-    if (nextIdx < all.length) {
+    final d = await SenseCourse.load();
+    if (!mounted) return;
+    // 다음 회차가 잠긴 급이면 목록으로(자물쇠가 보임)
+    if (nextIdx < all.length && (SenseCourse.levelFree(d, all[nextIdx].$1) || Entitlement.premium)) {
       Navigator.of(context).pushReplacement(
           MaterialPageRoute(builder: (_) => SenseLessonScreen(index: nextIdx)));
     } else {

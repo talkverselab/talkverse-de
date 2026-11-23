@@ -24,7 +24,6 @@
  "expressions": [
   "Guten Tag."
  ],
- "draft": true,
  "level": "3 그래머2",
  "turns": [
   {
@@ -34,9 +33,7 @@
    "rd": "구텐 탁. 코멘 지 비테 라인.",
    "ko": "안녕하세요. 들어오세요.",
    "note": "정중하게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -73,9 +70,7 @@
    "rd": "구텐 탁. 다스 치머 이스트 헬.",
    "ko": "안녕하세요. 방이 밝네요.",
    "note": "Sie로 인사하며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -107,9 +102,7 @@
    "rd": "다스 치머 하트 아인 그로세스 펜스터.",
    "ko": "이 방은 창이 커요.",
    "note": "밝게 소개하며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -136,9 +129,7 @@
    "rd": "보 이스트 디 퀴헤?",
    "ko": "부엌은 어디예요?",
    "note": "짧게 물어보며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -160,9 +151,7 @@
    "rd": "디 퀴헤 누첸 비어 추자멘.",
    "ko": "부엌은 같이 써요.",
    "note": "wir·Sie 넣어 정중하게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -189,9 +178,7 @@
    "rd": "비 호흐 이스트 디 미테?",
    "ko": "월세는 얼마예요?",
    "note": "정중하게 물어보며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -218,9 +205,7 @@
    "rd": "오! 츠바이 겐제 아우프 뎀 발콘!",
    "ko": "어! 발코니에 거위 두 마리!",
    "note": "놀라며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -242,9 +227,7 @@
    "rd": "나 야, 디 나흐바어스겐제 코멘 예덴 탁.",
    "ko": "뭐, 이웃 거위가 매일 와요.",
    "note": "담담하게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -266,9 +249,7 @@
    "rd": "슈테엔 겐제 인 덴 뮐레겔느?",
    "ko": "분리수거 규칙에 거위도 있어요?",
    "note": "쓰쿠코미로",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -295,9 +276,7 @@
    "rd": "디 겐제 진트 그뢰서 알스 다스 클라이네 치머. 하하.",
    "ko": "거위가 작은 방보다 커. 하하.",
    "note": "웃으며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -329,9 +308,7 @@
    "rd": "아이겐틀리히 이스트 디 미테 데스할프 빌리거.",
    "ko": "사실은 그래서 월세가 싸요.",
    "note": "장난스럽게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -363,9 +340,7 @@
    "rd": "단 네멘 비어 다스 치머.",
    "ko": "그럼 이 방으로 할게요.",
    "note": "밝게 결정하며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -385,10 +360,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r3_life_b2.md",
-  "model": "빠른",
-  "final": "data/review/final/r3_life_b2.txt"
- }
+ ]
 }

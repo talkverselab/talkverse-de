@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 
 import '../core/theme.dart';
 import '../services/script_sync.dart';
+import '../data/entitlement.dart';
+import '../services/curriculum_service.dart';
 import '../services/ko_reading.dart';
 import '../services/tts_service.dart';
 import '../widgets/spanish_decor.dart';
@@ -74,7 +76,13 @@ class _GrammarHubScreenState extends State<GrammarHubScreen> {
     _load();
   }
 
+  /// 문법 스텝 잠금 — 앞에서 freeSteps(서버 커리큘럼 JSON, 기본 2) 스텝까지 무료(PAYWALL_SPEC §2).
+  Future<void> _gated(BuildContext context, int i, VoidCallback open) async {
+    if (await Entitlement.gate(context, free: i < CurriculumService.instance.freeSteps)) open();
+  }
+
   Future<void> _load() async {
+    await CurriculumService.instance.ensureLoaded();
     final l = await GrammarLesson.loadAll();
     if (mounted) setState(() => _lessons = l);
     // 이번 실행에서 서버 원고를 아직 확인하지 않았으면 확인하고, 바뀌었으면 다시 읽는다
@@ -99,13 +107,15 @@ class _GrammarHubScreenState extends State<GrammarHubScreen> {
               : ListView(
                   padding: const EdgeInsets.all(16),
                   children: [
-                    for (final l in lessons)
+                    for (final (i, l) in lessons.indexed)
                       Card(
                         color: Colors.white,
                         margin: const EdgeInsets.only(bottom: 10),
                         child: ListTile(
                           contentPadding: const EdgeInsets.fromLTRB(12, 8, 8, 8),
-                          leading: TileBadge(text: '${l.number}', size: 40),
+                          leading: i >= CurriculumService.instance.freeSteps && !Entitlement.premium
+                              ? const Icon(Icons.lock_outline, size: 28, color: AppColors.tintaLight)
+                              : TileBadge(text: '${l.number}', size: 40),
                           title: Text(l.title,
                               style: const TextStyle(fontWeight: FontWeight.w800)),
                           subtitle: Text(
@@ -114,15 +124,15 @@ class _GrammarHubScreenState extends State<GrammarHubScreen> {
                           trailing: IconButton(
                             tooltip: tr('테스트'),
                             icon: const Icon(Icons.quiz, color: AppColors.rojo),
-                            onPressed: () => Navigator.push(
+                            onPressed: () => _gated(context, i, () => Navigator.push(
                               context,
                               MaterialPageRoute(builder: (_) => GrammarTestScreen(lesson: l)),
-                            ),
+                            )),
                           ),
-                          onTap: () => Navigator.push(
+                          onTap: () => _gated(context, i, () => Navigator.push(
                             context,
                             MaterialPageRoute(builder: (_) => GrammarLessonScreen(lesson: l)),
-                          ),
+                          )),
                         ),
                       ),
                   ],

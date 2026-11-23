@@ -28,7 +28,6 @@
   "Warte mal",
   "Genau"
  ],
- "draft": true,
  "level": "5 어휘 완주",
  "turns": [
   {
@@ -38,9 +37,7 @@
    "rd": "글라이히 콤트 디 스체네, 인 데어 데어 뫼어더 디 튀어 외프네트!",
    "ko": "곧 살인범이 문을 여는 장면이야!",
    "note": "흥분해서 시작",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -83,7 +80,6 @@
    "ko": "잠깐. 일요일 저녁에 텔레비전이 너무 시끄러워.",
    "note": "짜증",
    "tags": [
-    "draft",
     "callback:r5_life_b1"
    ],
    "emotion": "annoyed",
@@ -122,9 +118,7 @@
    "rd": "숀 구트, 비어 드레엔 라이저. 바어테 말.",
    "ko": "괜찮아, 우리가 줄일게. 잠깐만.",
    "note": "당황",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -166,9 +160,7 @@
    "rd": "페리크스, 두 비스트 슐리머 알스 데어 데테크티프 인 데어 제리.",
    "ko": "펠릭스, 너 드라마 속 형사보다 더 심해.",
    "note": "놀림",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -195,9 +187,7 @@
    "rd": "게나우, 라스 운스 도흐 아인파흐 구켄!",
    "ko": "맞아, 그냥 보자고!",
    "note": "지적",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -234,9 +224,7 @@
    "rd": "데어 튑, 데어 디 튀어 아우프마흐트, 이스트 토탈 페어데히티히.",
    "ko": "문을 여는 그 남자 완전 수상해.",
    "note": "재미있게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -273,9 +261,7 @@
    "rd": "바어테 말. 임 힌터그룬트 슈테트 아이네 겔베 토네. 팔슈 조어티어트!",
    "ko": "잠깐. 배경에 노란 통이 있어. 잘못 분리됐어!",
    "note": "지적",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -327,9 +313,7 @@
    "rd": "에히트 예츠트? 다스 이스트 데어 엔치아이덴데 모멘트!",
    "ko": "진짜로? 지금이 결정적인 순간이야!",
    "note": "흥분",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -361,9 +345,7 @@
    "rd": "이히 무스 덴 톤 라이저 마헨. 디 나흐바언...",
    "ko": "소리를 줄여야 해. 이웃들이...",
    "note": "리모컨을 잡음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shout",
    "lemmas": [
     [
@@ -395,9 +377,7 @@
    "rd": "페리크스! 니히트 예츠트! 비어 페어파센 알레스!",
    "ko": "펠릭스! 지금 안 돼! 다 놓쳐!",
    "note": "소리침",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shout",
    "lemmas": [
     [
@@ -419,9 +399,7 @@
    "rd": "기프 덴 레모테 추뤽! 조포어트!",
    "ko": "리모컨 돌려줘! 당장!",
    "note": "소리침",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shout",
    "lemmas": [
     [
@@ -448,9 +426,7 @@
    "rd": "숀 구트. 아버 디 토네 바어 비어클리히 팔슈.",
    "ko": "괜찮아. 근데 그 통은 진짜 잘못됐어.",
    "note": "놀람",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -487,9 +463,7 @@
    "rd": "데어 뫼어더 하트 디 트레눙 니히트 게마흐트, 운트 두 아우흐 니히트!",
    "ko": "범인이 분리를 안 했고, 너도 안 했어!",
    "note": "지적",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -522,7 +496,6 @@
    "ko": "맞아. 규칙은 어디서나 적용돼. 텔레비전에서도.",
    "note": "재미있게",
    "tags": [
-    "draft",
     "callback:r5_life_b1"
    ],
    "emotion": "amused",
@@ -566,9 +539,7 @@
    "rd": "두 하스트 운스 덴 베스텐 타일 게클라우트, 페리크스.",
    "ko": "네가 제일 좋은 부분을 훔쳐 갔어, 펠릭스.",
    "note": "놀림",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -595,9 +566,7 @@
    "rd": "네히스테스 말 페어슈테켄 비어 덴 레모테 포어 디어.",
    "ko": "다음엔 너한테서 리모컨을 숨길 거야.",
    "note": "웃으며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -617,10 +586,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r5_culture_b1.md",
-  "model": "빠른",
-  "final": "data/review/final/r5_culture_b1.txt"
- }
+ ]
 }

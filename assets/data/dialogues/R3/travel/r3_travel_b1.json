@@ -26,7 +26,6 @@
   "Oh Mann",
   "Pünktlich"
  ],
- "draft": true,
  "level": "3 그래머2",
  "turns": [
   {
@@ -36,9 +35,7 @@
    "rd": "구텐 탁! 디 파어카어텐 비테.",
    "ko": "안녕하세요! 승차권 보여 주세요.",
    "note": "검표 시작",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -70,9 +67,7 @@
    "rd": "히어, 비테. 비어 파렌 나흐 베어린.",
    "ko": "여기요. 저희 베를린으로 가요.",
    "note": "정중히 제시",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -94,9 +89,7 @@
    "rd": "다스 파라트 브라우흐트 아이네 엑스트라-카어테.",
    "ko": "자전거는 추가 표가 필요해요.",
    "note": "경직되게 지적",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -123,9 +116,7 @@
    "rd": "비어 진트 퓡크틀리히. 다스 라이히트 도흐, 오더?",
    "ko": "우리 정시야. 그거면 되지, 응?",
    "note": "직설적으로 밝게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -152,9 +143,7 @@
    "rd": "나인. 운트 디 카어테 이스트 누어 퓌어 아이네 페어존.",
    "ko": "아니요. 그리고 표는 한 명만 가능해요.",
    "note": "정중히 설명",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -181,9 +170,7 @@
    "rd": "오 만, 비어 하벤 다스 니히트 게부스트.",
    "ko": "아 망, 저희 그걸 몰랐어요.",
    "note": "당황",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -210,9 +197,7 @@
    "rd": "다스 파라트 슈테트 아우흐 임 팔셴 바겐.",
    "ko": "자전거도 잘못된 칸에 있어요.",
    "note": "추가 문제",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -249,9 +234,7 @@
    "rd": "아버 비어 진트 게나우 퓡크틀리히 앙에코멘!",
    "ko": "근데 우리 정확히 정시에 도착했어!",
    "note": "밝게 강조",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -278,9 +261,7 @@
    "rd": "프로블레메: 카이네 파라트카어테, 팔서 바겐, 운트 디 카어테 이스트 아프게라우펜.",
    "ko": "문제: 자전거 표 없고, 잘못된 칸, 그리고 표가 만료됐어요.",
    "note": "여러 문제 지적",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -322,9 +303,7 @@
    "rd": "오 만, 다스 진트 야 드라이 자헨 아우프 아인말!",
    "ko": "아 망, 한 번에 세 가지나!",
    "note": "지적",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -356,9 +335,7 @@
    "rd": "디 카어테... 이히 다흐테, 디 길트 노흐.",
    "ko": "표는... 아직 유효한 줄 알았어.",
    "note": "당황하며 인정",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -390,9 +367,7 @@
    "rd": "네히스테스 말 베서 플라넨.",
    "ko": "다음엔 더 잘 계획하세요.",
    "note": "재미있게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -424,9 +399,7 @@
    "rd": "뮈센 비어 예츠트 슈트라페 찰렌?",
    "ko": "지금 벌금 내야 해요?",
    "note": "걱정",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
@@ -453,9 +426,7 @@
    "rd": "나인, 디스말 누어 아이네 바어눙. 구텐 탁.",
    "ko": "아니요, 이번엔 경고만 할게요. 안녕히 가세요.",
    "note": "",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -492,9 +463,7 @@
    "rd": "비어 블라이벤 트로츠뎀 퓡크틀리히.",
    "ko": "그래도 우린 정시로 남을 거야.",
    "note": "직설적으로",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -521,9 +490,7 @@
    "rd": "다인 파라트 마흐트 이머 하오스, 레나.",
    "ko": "네 자전거가 항상 난리야, 레나.",
    "note": "놀리며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -553,10 +520,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r3_travel_b1.md",
-  "model": "빠른",
-  "final": "data/review/final/r3_travel_b1.txt"
- }
+ ]
 }

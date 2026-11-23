@@ -29,7 +29,6 @@
   "Wollen wir uns duzen?",
   "Gerne"
  ],
- "draft": true,
  "duzen": true,
  "turns": [
   {
@@ -39,9 +38,7 @@
    "rd": "엔트슐디궁, 아버 글라스 베크베어펜 암 존탁 이스트 페어보텐!",
    "ko": "실례합니다, 일요일에 유리병 버리는 건 금지예요!",
    "note": "이웃이 규칙 위반을 지적하며 시작",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "annoyed",
    "lemmas": [
     [
@@ -78,9 +75,7 @@
    "rd": "투트 미어 라이트. 이히 부스테 다스 니히트.",
    "ko": "죄송합니다. 몰랐어요.",
    "note": "짧게 사과",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -107,9 +102,7 @@
    "rd": "디 플라셴 뮈센 나흐 파어베 게트렌트 자인!",
    "ko": "병은 색깔별로 분리해야 해요!",
    "note": "더 짜증내며 규칙 강조",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "annoyed",
    "lemmas": [
     [
@@ -136,9 +129,7 @@
    "rd": "마인 미트베보너 하트 아이네 타벨레 다퓌어.",
    "ko": "제 룸메이트가 그걸 위한 표가 있어요.",
    "note": "펠릭스 규칙 언급",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -165,9 +156,7 @@
    "rd": "아흐 조. 운트 트로츠뎀 존타크스?",
    "ko": "아, 그렇군요. 그래도 일요일에?",
    "note": "이해하면서도 의문",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -194,9 +183,7 @@
    "rd": "에어 자크트, 프뤼 암 모어겐 게트 다스. 엔트슐디궁.",
    "ko": "그분이 아침 일찍은 괜찮다고 해요. 죄송해요.",
    "note": "정중히 설명",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -233,9 +220,7 @@
    "rd": "데어 페리크스? 데어 그로세 융에 폰 네베난?",
    "ko": "펠릭스요? 옆집 그 큰 청년?",
    "note": "놀람",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -262,9 +247,7 @@
    "rd": "야, 게나우. 에어 이스트 제어 슈트렝 미트 뎀 뮐.",
    "ko": "네, 맞아요. 그분은 쓰레기 분리에 아주 엄격해요.",
    "note": "확인",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -296,9 +279,7 @@
    "rd": "할트! 디 그뤼네 플라셰 게회어트 인 덴 그뤼넨 베헬터!!",
    "ko": "잠깐! 초록 병은 초록 통에 넣어야 해!!",
    "note": "뛰어나와 소리침",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shout",
    "lemmas": [
     [
@@ -340,9 +321,7 @@
    "rd": "바스 마헨 지 덴 히어?!",
    "ko": "여기서 뭘 하시는 거예요?!",
    "note": "놀라 소리",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shout",
    "lemmas": [
     [
@@ -369,9 +348,7 @@
    "rd": "디 레겔른 진트 클라어. 게트렌트 나흐 파어베.",
    "ko": "규칙은 명확해요. 색깔별로 분리.",
    "note": "경직되게 주장",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -403,9 +380,7 @@
    "rd": "암 존타크모어겐 조 라우트? 다스 이스트 도흐 페어뤼크트!",
    "ko": "일요일 아침에 이렇게 시끄럽게? 진짜 미쳤네!",
    "note": "지적하며 한탄",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -442,9 +417,7 @@
    "rd": "페리크스, 두 위베어트라이프스트 말 비더 토탈.",
    "ko": "펠릭스, 너 또 완전 오버하는구나.",
    "note": "웃으며 지적",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -476,9 +449,7 @@
    "rd": "투트 미어 라이트, 프라우 베커. 이히 볼테 누어 헬펜.",
    "ko": "죄송해요, 베커 부인. 그냥 도와주려 했어요.",
    "note": "당황하며 사과",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -515,9 +486,7 @@
    "rd": "볼렌 비어 운스 두첸? 단 이스트 에스 아인파허.",
    "ko": "우리 서로 반말해? 그럼 더 편할 거야.",
    "note": "분위기 풀어 제안",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -544,9 +513,7 @@
    "rd": "게어네! 당케 퓌어스 페어스텐트니스.",
    "ko": "좋아요! 이해해 주셔서 감사해요.",
    "note": "수락하며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -567,10 +534,5 @@
    ]
   }
  ],
- "level": "3 그래머2",
- "review": {
-  "grok_rewrite": "data/review/grok/out/r3_life_b1.md",
-  "model": "빠른",
-  "final": "data/review/final/r3_life_b1.txt"
- }
+ "level": "3 그래머2"
 }

@@ -16,7 +16,6 @@
  "domain": [
   "life"
  ],
- "draft": true,
  "level": "1 관사·격·활용 골격",
  "title": "소금 좀 줄래?",
  "emoji": "🧂",
@@ -37,9 +36,7 @@
    "rd": "페리크스, 기프스트 두 미어 말 다스 잘츠?",
    "ko": "펠릭스, 소금 좀 줄래?",
    "note": "부엌에서 파스타 만들다 소금 부탁",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -66,9 +63,7 @@
    "rd": "클라어, 히어. 바스 마흐스트 두 덴?",
    "ko": "응, 여기. 뭐 만들어?",
    "note": "바로 주며 궁금해서 물어보기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -100,9 +95,7 @@
    "rd": "누델느. 빌스트 두 아우흐?",
    "ko": "파스타. 너도 먹을래?",
    "note": "나눠 먹자고 제안",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -124,9 +117,7 @@
    "rd": "야, 게어네! 마흐 미어 아우흐 바스.",
    "ko": "응, 좋아! 나도 좀 해 줘.",
    "note": "기쁘게 부탁하기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -148,9 +139,7 @@
    "rd": "오케이. 기프 미어 노흐 다스 다, 비테.",
    "ko": "알았어. 그것도 좀 줘.",
    "note": "다음 재료 가리키며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -187,9 +176,7 @@
    "rd": "다스 히어? 다스 이스트 마인 테.",
    "ko": "이거? 이건 내 차인데.",
    "note": "차를 잘못 집어 주는 실수",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -211,9 +198,7 @@
    "rd": "나인, 니히트 다스! 다스 바서 다.",
    "ko": "아니, 그거 말고! 거기 물.",
    "note": "당황해서 바로 정정",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -235,9 +220,7 @@
    "rd": "아흐 조, 히어. 아버 미어 마흐스트 두 필, 야?",
    "ko": "아 그거, 여기. 대신 내 건 많이 해 줘, 알았지?",
    "note": "물 주며 장난스럽게 부탁",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -262,10 +245,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r1_life_a1_rewrite.md",
-  "model": "전문가",
-  "final": "data/review/final/r1_life_a1.txt"
- }
+ ]
 }

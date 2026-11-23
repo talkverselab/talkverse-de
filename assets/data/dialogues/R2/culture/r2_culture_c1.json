@@ -29,7 +29,6 @@
   "Mist",
   "Okay"
  ],
- "draft": true,
  "level": "2 챗 실전",
  "turns": [
   {
@@ -39,9 +38,7 @@
    "rd": "나? 호이테 아벤트 슈피레 이히. 콤스트 두? 🥁",
    "ko": "어때? 오늘 밤에 나 공연해. 올래? 🥁",
    "note": "공연 날 먼저 초청하기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "17:30",
    "emotion": "cheerful",
@@ -75,9 +72,7 @@
    "rd": "클라어! 보 운트 반?",
    "ko": "당연하지! 어디서, 몇 시에?",
    "note": "바로 수락하며 장소 시간 묻기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "17:31",
    "emotion": "excited",
@@ -106,9 +101,7 @@
    "rd": "움 노인. 두 회어스트 미히, 이히 빈 제어 라우트 😜",
    "ko": "9시. 나 금방 찾을 거야, 엄청 시끄럽거든 😜",
    "note": "장난스럽게 위치 힌트",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "17:31",
    "emotion": "teasing",
@@ -137,9 +130,7 @@
    "rd": "미아, 두 바어스트 메가! 이히 회레 예츠트 니히츠 메어 😂",
    "ko": "미아, 너 완전 최고였어! 나 지금 아무것도 안 들려 😂",
    "note": "공연 후 칭찬하며 귀 안 들린다고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "23:12",
    "emotion": "amused",
@@ -183,9 +174,7 @@
    "rd": "에얼리히. 이히 합 누어 디히 게젠.",
    "ko": "진짜로. 나 너만 보였어.",
    "note": "수줍게 고백 같은 말, 읽씹 시작",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "23:13",
    "read": false,
@@ -215,9 +204,7 @@
    "rd": "미아? 👀",
    "ko": "미아? 👀",
    "note": "답 없어서 걱정하며 재촉",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "23:20",
    "read": false,
@@ -237,9 +224,7 @@
    "rd": "오케이 … 슐라프 구트 🙃",
    "ko": "알았어… 잘 자 🙃",
    "note": "포기하고 인사",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "23:41",
    "read": false,
@@ -269,9 +254,7 @@
    "rd": "미스트, 마이네 한트! 이히 칸 니히트 말 다스 헨디 할텐.",
    "ko": "아 망했어, 내 손! 폰도 못 들겠어.",
    "note": "드럼 치고 손 아파서 답 못 함",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "00:05",
    "emotion": "flustered",
@@ -305,9 +288,7 @@
    "rd": "아버 이히 하프스 게레젠. 퓐프 말 🙈",
    "ko": "근데 읽긴 했어. 다섯 번 🙈",
    "note": "여러 번 읽었다고 밝히며 수줍",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "00:06",
    "emotion": "shy",
@@ -336,9 +317,7 @@
    "rd": "퓐프 말?",
    "ko": "다섯 번?",
    "note": "놀라서 되묻기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "00:06",
    "emotion": "surprised",
@@ -357,9 +336,7 @@
    "rd": "운트 단 슈테스트 두 간츠 포어네. 단 제 이히 디히 아우흐 😉",
    "ko": "그리고 다음엔 맨 앞에 서. 그럼 나도 너 보이잖아 😉",
    "note": "장난스럽게 다음 약속",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "00:07",
    "emotion": "teasing",
@@ -401,10 +378,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r2_culture_c1_rewrite.md",
-  "model": "전문가",
-  "final": "data/review/final/r2_culture_c1.txt"
- }
+ ]
 }

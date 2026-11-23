@@ -28,7 +28,6 @@
   "Krass",
   "Moment mal"
  ],
- "draft": true,
  "level": "4 어려운 문법",
  "turns": [
   {
@@ -38,9 +37,7 @@
    "rd": "다스 콘체어트 히어 운텐 이스트 숀 크라스.",
    "ko": "여기 지하 공연 진짜 대박이야.",
    "note": "장소 분위기 시작",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -77,9 +74,7 @@
    "rd": "야. 미아 슈필트 호이테.",
    "ko": "응. 미아가 오늘 연주해.",
    "note": "짧게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -106,9 +101,7 @@
    "rd": "지 하트 아이네 노이에 종-이데, 디 지 포어슈텔렌 빌.",
    "ko": "그녀가 소개할 새 곡 아이디어가 있어.",
    "note": "관계문으로 설명",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -140,9 +133,7 @@
    "rd": "호펜틀리히 니히트 위버 브레첼느.",
    "ko": "브레첼에 관한 거 아니면 좋겠어.",
    "note": "재미있게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -164,9 +155,7 @@
    "rd": "할로 로이테! 데어 네히스테 종 하이스트 „데어 브레첼, 데어 니 베깅“.",
    "ko": "안녕 얘들아! 다음 곡은 ‘떠나지 않은 브레첼’이야.",
    "note": "흥분해서 소개",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -203,9 +192,7 @@
    "rd": "모멘트 말, 다스 클링트 토탈 나흐 요나스!",
    "ko": "잠깐, 그거 완전 요나스 같잖아!",
    "note": "놀람",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -237,9 +224,7 @@
    "rd": "카이네 아눙. 이히 슈테 누어 히어.",
    "ko": "몰라. 난 그냥 여기 서 있어.",
    "note": "수줍게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -271,9 +256,7 @@
    "rd": "데어 튑 임 종 이스트 그로스 운트 이스트 이머 브레첼느. 쥐스, 오더?",
    "ko": "노래 속 남자는 크고 항상 브레첼을 먹어. 귀엽지?",
    "note": "부드럽게 설명",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -320,9 +303,7 @@
    "rd": "벤 다스 니히트 요나스 베레, 뷔어데 이히 에스 니히트 글라우벤.",
    "ko": "그게 요나스가 아니면 난 안 믿을 거야.",
    "note": "접속법 II로 놀림",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -339,9 +320,7 @@
    "rd": "크라스, 다스 두 다스 조포어트 메어크스트.",
    "ko": "네가 바로 알아차린 거 대박이야.",
    "note": "재미있게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -368,9 +347,7 @@
    "rd": "미아, 이스트 데어 종 비어클리히 위버 인?!",
    "ko": "미아, 그 노래 진짜 그에 관한 거야?!",
    "note": "소리치며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shout",
    "lemmas": [
     [
@@ -397,9 +374,7 @@
    "rd": "야. 지 하트 인 퓌어 미히 게슈리벤.",
    "ko": "응. 그녀가 나를 위해 썼어.",
    "note": "",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -416,9 +391,7 @@
    "rd": "다스 이스트 야 토탈 쥐스! 두 자크스트 야 니 바스!",
    "ko": "완전 귀엽잖아! 너는 말을 안 하잖아!",
    "note": "지적",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -460,9 +433,7 @@
    "rd": "바일 이히 지 마크. 아인파흐 조.",
    "ko": "내가 그녀를 좋아해서. 그냥.",
    "note": "부드럽게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -489,9 +460,7 @@
    "rd": "이히 볼테, 다스 두 에스 호이테 회어스트.",
    "ko": "네가 오늘 듣길 바랐어.",
    "note": "",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -513,9 +482,7 @@
    "rd": "이어 츠바이 자이트 야 크라스. 에히트 예츠트.",
    "ko": "너희 둘 진짜 대박이다. 진짜로.",
    "note": "",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -540,10 +507,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r4_culture_b1.md",
-  "model": "빠른",
-  "final": "data/review/final/r4_culture_b1.txt"
- }
+ ]
 }

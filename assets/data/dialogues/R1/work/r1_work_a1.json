@@ -23,7 +23,6 @@
  "expressions": [
   "Probier mal."
  ],
- "draft": true,
  "level": "1 관사·격·활용 골격",
  "turns": [
   {
@@ -33,9 +32,7 @@
    "rd": "나 야, 호이테 마흐스트 두 덴 샤움.",
    "ko": "뭐, 오늘은 네가 거품 만들어.",
    "note": "장난스럽게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -62,9 +59,7 @@
    "rd": "비 마헨? 밀히 라인?",
    "ko": "어떻게 해? 우유 넣어?",
    "note": "걱정하며 짧게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
@@ -96,9 +91,7 @@
    "rd": "밀히 라인. 크노프 드뤼켄. 니히트 추 하이스.",
    "ko": "우유 넣어. 버튼 눌러. 너무 뜨겁지 않게.",
    "note": "",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -135,9 +128,7 @@
    "rd": "오! 데어 샤움 로이프트 위버!",
    "ko": "어! 거품이 넘쳐!",
    "note": "놀라움으로",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -159,9 +150,7 @@
    "rd": "슈토프! 추 필 샤움!",
    "ko": "멈춰! 거품 너무 많아!",
    "note": "외치는 감정으로",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shout",
    "lemmas": [
     [
@@ -183,9 +172,7 @@
    "rd": "폴! 데어 트레젠 이스트 누어 샤움. 하하.",
    "ko": "가득! 카운터가 온통 거품이야. 하하.",
    "note": "웃으며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -217,9 +204,7 @@
    "rd": "트로츠뎀 프로비렌. 므므.",
    "ko": "그래도 맛봐야지. 음.",
    "note": "한 모금 마셔 보며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -241,9 +226,7 @@
    "rd": "레커! 네히스테스 말 두 인 덴 베허.",
    "ko": "맛있어! 다음엔 네가 컵에 넣어 봐.",
    "note": "부드럽게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -263,10 +246,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r1_work_a1.md",
-  "model": "빠른",
-  "final": "data/review/final/r1_work_a1.txt"
- }
+ ]
 }

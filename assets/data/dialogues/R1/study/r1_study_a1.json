@@ -24,7 +24,6 @@
   "Welcher Artikel?",
   "Deutsch ist halt so."
  ],
- "draft": true,
  "level": "1 관사·격·활용 골격",
  "turns": [
   {
@@ -34,9 +33,7 @@
    "rd": "오케이, 데어 티슈. 벨허 아어티켈?",
    "ko": "자, der Tisch. 관사는 뭐야?",
    "note": "시험 시작을 직설적으로 짧게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -63,9 +60,7 @@
    "rd": "데어. 다스 바이스 이히.",
    "ko": "데어. 그건 알지.",
    "note": "자신 있게 바로 맞히는 짧은 답",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -82,9 +77,7 @@
    "rd": "운트 디 람페?",
    "ko": "그럼 램프는?",
    "note": "다음 문제로 바로 넘어가는 구어",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -101,9 +94,7 @@
    "rd": "디! 디 람페.",
    "ko": "디! 디 램프.",
    "note": "맞히고 흥분하는 한 줄",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -120,9 +111,7 @@
    "rd": "운트 다스 메트헨?",
    "ko": "그럼 그 소녀는?",
    "note": "장난스럽게 물어봄",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -139,9 +128,7 @@
    "rd": "디. 간츠 클라어.",
    "ko": "디. 완전 당연하지.",
    "note": "자신만만하게 die라고 답함",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -163,9 +150,7 @@
    "rd": "네, 다스. 도이치 이스트 할트 조.",
    "ko": "아니, 다스. 독일어가 원래 그래.",
    "note": "정답 공개하며 웃는 반응, das 사용",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -197,9 +182,7 @@
    "rd": "도이치 이스트 에히트 게마인. 이히 슈라이프 다스 아우프.",
    "ko": "독일어 진짜 너무해. 적어 둘게.",
    "note": "어이없어 웃으며 받아 적는 츠코미",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -224,10 +207,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r1_study_a1.md",
-  "model": "빠른",
-  "final": "data/review/final/r1_study_a1.txt"
- }
+ ]
 }

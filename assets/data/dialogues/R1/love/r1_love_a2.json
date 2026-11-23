@@ -31,7 +31,6 @@
   "Ist mir egal",
   "Warte mal"
  ],
- "draft": true,
  "level": "1 관사·격·활용 골격",
  "turns": [
   {
@@ -41,9 +40,7 @@
    "rd": "헤이, {name}! 이히 게 추 요나스. 콤스트 두 미트?",
    "ko": "헤이, {name}! 나 요나스네 가. 같이 갈래?",
    "note": "먼저 다가가 같이 가자고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -65,9 +62,7 @@
    "rd": "예츠트? 이히 칸 니히트. 이히 무스 노흐 바스 마헨.",
    "ko": "지금? 안 돼. 나 할 거 있어.",
    "note": "핑계 대며 거절",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -94,9 +89,7 @@
    "rd": "바스 무스트 두 덴 마헨? 자크 말.",
    "ko": "뭘 해야 하는데? 말해 봐.",
    "note": "장난스럽게 캐묻기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -128,9 +121,7 @@
    "rd": "나 야 … 카이네 아눙. 루프 미히 슈페터 안?",
    "ko": "그게… 모르겠어. 이따 전화해 줄래?",
    "note": "말 막혀서 미루기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -162,9 +153,7 @@
    "rd": "슈페터? 나인. 예츠트 오더 니.",
    "ko": "이따? 아니. 지금 아니면 끝이야.",
    "note": "단호하게 밀어붙이기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -191,9 +180,7 @@
    "rd": "예츠트 오더 니? 에히트? 바이 요나스?",
    "ko": "지금 아니면 끝? 진짜? 요나스네가?",
    "note": "놀라서 확인",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -220,9 +207,7 @@
    "rd": "요나스 이스트 미어 에갈. 이히 빌 … 미트 디어.",
    "ko": "요나스는 상관없어. 난… 너랑 가고 싶어.",
    "note": "감정 터뜨리며 심쿵",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "segs": [
     [
      "flustered",
@@ -248,9 +233,7 @@
    "rd": "미트 미어? … 바어테 말. 이히 코메 미트!",
    "ko": "나랑? …잠깐만. 나 갈래!",
    "note": "당황하다 바로 수락",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -270,10 +253,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r1_love_a2_rewrite.md",
-  "model": "전문가",
-  "final": "data/review/final/r1_love_a2.txt"
- }
+ ]
 }

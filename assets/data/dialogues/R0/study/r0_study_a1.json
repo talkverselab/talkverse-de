@@ -25,7 +25,6 @@
  "expressions": [
   "Frei?"
  ],
- "draft": true,
  "level": "0 입문",
  "turns": [
   {
@@ -35,9 +34,7 @@
    "rd": "할로. 프라이?",
    "ko": "안녕. 비었어?",
    "note": "여기 자리 비었냐고 묻기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -54,9 +51,7 @@
    "rd": "나인.",
    "ko": "아니.",
    "note": "원래 안 비었다고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": []
   },
@@ -67,9 +62,7 @@
    "rd": "오, 조뤼.",
    "ko": "오, 미안.",
    "note": "아 미안, 하고 돌아섬",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": []
   },
@@ -80,9 +73,7 @@
    "rd": "클라어. 퓌어 디히.",
    "ko": "그래. 너한테는.",
    "note": "가방 치우며 너한테는 비었다고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -99,9 +90,7 @@
    "rd": "당케. 이히 노이.",
    "ko": "고마워. 나 새로.",
    "note": "고맙다며 앉고 자기도 새로 왔다고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -123,9 +112,7 @@
    "rd": "이히 아우흐! 콜.",
    "ko": "나도! 좋아.",
    "note": "자기도 새로 왔다며 좋다고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -135,10 +122,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r0_study_a1.md",
-  "model": "빠른",
-  "final": "data/review/final/r0_study_a1.txt"
- }
+ ]
 }

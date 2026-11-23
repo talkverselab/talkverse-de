@@ -25,7 +25,6 @@
   "Ach so",
   "Wie geht's?"
  ],
- "draft": true,
  "level": "0 입문",
  "turns": [
   {
@@ -35,9 +34,7 @@
    "rd": "헤이! 레나 히어. 비 하이스트 두?",
    "ko": "안녕! 레나야. 이름이 뭐야?",
    "note": "파티에서 바로 이름 묻기, 짧고 직접적으로",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -64,9 +61,7 @@
    "rd": "구트, 당케! 주퍼!",
    "ko": "좋아, 고마워! 최고야!",
    "note": "이름을 안부 인사로 잘못 듣고 대답한 실수",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -88,9 +83,7 @@
    "rd": "하하! 나인, 다인 나메!",
    "ko": "하하! 아니, 네 이름이라고!",
    "note": "웃으며 바로 정정, 웃음 킥",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -107,9 +100,7 @@
    "rd": "아흐 조! {name} 히어.",
    "ko": "아 그렇구나! {name}이야.",
    "note": "깨닫고 짧게 이름 말하기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -131,9 +122,7 @@
    "rd": "할로 {name}! 비 게트스?",
    "ko": "안녕 {name}! 잘 지내?",
    "note": "이름 알고 진짜 안부, 살짝 놀리며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -150,9 +139,7 @@
    "rd": "구트, 당케! 예츠트 클라어.",
    "ko": "좋아, 고마워! 이제 알겠어.",
    "note": "이번엔 맞게 대답하며 웃기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -177,10 +164,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r0_friends_a1_rewrite.md",
-  "model": "전문가",
-  "final": "data/review/final/r0_friends_a1.txt"
- }
+ ]
 }

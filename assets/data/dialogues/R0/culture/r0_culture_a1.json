@@ -23,7 +23,6 @@
  "expressions": [
   "Wie bitte?"
  ],
- "draft": true,
  "level": "0 입문",
  "turns": [
   {
@@ -33,9 +32,7 @@
    "rd": "오 만! 비 바어스?",
    "ko": "오 맨! 어땠어?",
    "note": "드럼 멈추고 흥분해서 짧게 묻기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -67,9 +64,7 @@
    "rd": "주퍼 구트!",
    "ko": "정말 좋아!",
    "note": "좋았다고 짧게 칭찬",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -86,9 +81,7 @@
    "rd": "비 비테?",
    "ko": "뭐라고?",
    "note": "다시 치기 시작하며 안 들려 크게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shout",
    "lemmas": [
     [
@@ -110,9 +103,7 @@
    "rd": "주퍼!",
    "ko": "최고!",
    "note": "최고라고 크게 외침",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shout",
    "lemmas": []
   },
@@ -123,9 +114,7 @@
    "rd": "에히트?",
    "ko": "진짜?",
    "note": "멈추자 목소리만 크게 울려 웃김",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -142,9 +131,7 @@
    "rd": "에... 구트.",
    "ko": "어... 좋아.",
    "note": "머쓱해서 작게 다시 말함",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -159,10 +146,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r0_culture_a1.md",
-  "model": "빠른",
-  "final": "data/review/final/r0_culture_a1.txt"
- }
+ ]
 }

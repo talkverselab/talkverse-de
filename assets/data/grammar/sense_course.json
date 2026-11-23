@@ -1094,9 +1094,5 @@
     }
    ]
   }
- ],
- "review": {
-  "grok": "data/sense/out/<급>.md",
-  "model": "빠른"
- }
+ ]
 }

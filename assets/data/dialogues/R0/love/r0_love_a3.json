@@ -25,7 +25,6 @@
  "expressions": [
   "Komm schon!"
  ],
- "draft": true,
  "level": "0 입문",
  "turns": [
   {
@@ -35,9 +34,7 @@
    "rd": "오, 레겐!",
    "ko": "오, 비!",
    "note": "비 온다고 짧게 놀람",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -54,9 +51,7 @@
    "rd": "춤 글뤽! 콤 숀!",
    "ko": "다행이다! 이리 와!",
    "note": "우산 펴며 다가와 이리 오라고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -83,9 +78,7 @@
    "rd": "게어네. 당케.",
    "ko": "좋아. 고마워.",
    "note": "고맙다며 우산 밑으로",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -107,9 +100,7 @@
    "rd": "클라이너 시엄.",
    "ko": "작은 우산.",
    "note": "우산이 작다며 웃음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -131,9 +122,7 @@
    "rd": "네어. 니히트 나스.",
    "ko": "더 가까이. 안 젖게.",
    "note": "조금 더 붙으라고, 안 젖는다고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -155,9 +144,7 @@
    "rd": "야. 쇤.",
    "ko": "응. 좋아.",
    "note": "응, 좋다고 작게 대답",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -167,10 +154,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r0_love_a3.md",
-  "model": "빠른",
-  "final": "data/review/final/r0_love_a3.txt"
- }
+ ]
 }

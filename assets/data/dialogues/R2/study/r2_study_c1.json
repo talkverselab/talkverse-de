@@ -24,7 +24,6 @@
   "Hast du die Hausaufgabe fertig?",
   "Hab noch nichts geschrieben."
  ],
- "draft": true,
  "level": "2 챗 실전",
  "turns": [
   {
@@ -34,9 +33,7 @@
    "rd": "하스트 두 디 하우자우프가베 페어티히?",
    "ko": "숙제 다 했어?",
    "note": "밤 11시에 바로 묻는 직설 채팅",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -58,9 +55,7 @@
    "rd": "디 이스트 도흐 네히스테 보헤.",
    "ko": "그거 다음 주잖아.",
    "note": "착각하고 답하는 중립 말",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -87,9 +82,7 @@
    "rd": "네.",
    "ko": "아니.",
    "note": "짧게 부정하는 걱정 섞인 한 줄",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
@@ -106,9 +99,7 @@
    "rd": "반 단?",
    "ko": "그럼 언제?",
    "note": "당황하며 묻는 말",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
@@ -130,9 +121,7 @@
    "rd": "모어겐 프뤼.",
    "ko": "내일 아침.",
    "note": "장난스럽게 밝히는 반전",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -154,9 +143,7 @@
    "rd": "합 노흐 니히츠 게슈리벤!",
    "ko": "아직 아무것도 안 썼어!",
    "note": "현재완료로 놀라는 반응",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -183,9 +170,7 @@
    "rd": "테마 이스트 „마인 탁“.",
    "ko": "주제는 ‘내 하루’야.",
    "note": "다정하게 알려 주는 말",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -207,9 +192,7 @@
    "rd": "마인 탁 슈라이벤. 오케이.",
    "ko": "내 하루 쓰기. 알겠어.",
    "note": "확인하는 짧은 답",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -236,9 +219,7 @@
    "rd": "슈라이프: 호이테 합 이히 디 하우자우프가베 페어게센.",
    "ko": "써: 오늘은 숙제를 잊어버린 날.",
    "note": "웃으며 제안하는 한 줄",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -270,9 +251,7 @@
    "rd": "다스 이스트 라이히트, 바일 에스 슈팀트.",
    "ko": "그건 쉽네, 사실이니까.",
    "note": "weil로 웃으며 받아들이는 말",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -287,10 +266,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r2_study_c1.md",
-  "model": "빠른",
-  "final": "data/review/final/r2_study_c1.txt"
- }
+ ]
 }

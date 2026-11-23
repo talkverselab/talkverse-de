@@ -47,13 +47,14 @@ Future<void> embedInit({bool standalone = false}) async {
   // 통합 앱이면 결제 스트림은 공용 결제가 넘겨준다(Purchase.onPurchaseUpdates).
   Purchase.ownStream = standalone;
   // 가격표 = ~/talkverse/PRICING.md(사용자 확정 2026-11-09) — 앱 할인가(30%)·앱 정가.
+  // 가격은 스토어 값만 쓴다 — 코드에 원화를 두지 않음(PAYWALL_SPEC §3, 2026-11-23)
   Purchase.configure('de', const [
     Plan('lang_de_1m', 1, 3900, listKrw: 5500),
     Plan('lang_de_3m', 3, 9000, listKrw: 12900),
     Plan('lang_de_1y', 12, 19900, listKrw: 28500),
-    Plan('lang_de_life', 0, 49000, listKrw: 69900),
+    Plan('lang_de_life', 0, 0),
     Plan('all_1y', 12, 79000, listKrw: 112900, bundle: true),
-    Plan('all_life', 0, 329000, listKrw: 469000, bundle: true),
+    Plan('all_life', 0, 0, bundle: true),
   ]);
   // 회화 원고 서버 판 — 켤 때마다 무조건 확인(그림·음성 내려받기와 따로, 일본어앱 빌드 114). 15초 넘으면 뒤에서 마저 받는다.
   try {

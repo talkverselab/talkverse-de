@@ -23,7 +23,6 @@
  "expressions": [
   "Oh Mann."
  ],
- "draft": true,
  "level": "2 챗 실전",
  "turns": [
   {
@@ -33,9 +32,7 @@
    "rd": "요나스! 카우프 파라트클링엘 알스 게셴크. 찰스트 두 미트?",
    "ko": "요나스! 자전거 벨을 선물로 사. 너도 돈 낼 거야?",
    "note": "빈 칸을 R2 채팅체로",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -62,9 +59,7 @@
    "rd": "?",
    "ko": "?",
    "note": "물음표 하나로 놀라움 표현해",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": []
   },
@@ -75,9 +70,7 @@
    "rd": "오 만! 팔슈 게시크트! 다스 이스트 미어 파인리히.",
    "ko": "아 진짜! 잘못 보냈어! 창피해.",
    "note": "당황스럽게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -114,9 +107,7 @@
    "rd": "바스 퓌어 아인 게셴크?",
    "ko": "무슨 선물이야?",
    "note": "장난스럽게 물어보게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -133,9 +124,7 @@
    "rd": "니히츠. 에갈.",
    "ko": "아무것도 아니야. 상관없어.",
    "note": "둘러대며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -152,9 +141,7 @@
    "rd": "합 알레스 게레젠. 파라트클링엘.",
    "ko": "다 읽었어. 자전거 벨.",
    "note": "웃으며 폭로하게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -176,9 +163,7 @@
    "rd": "바어 위버라슝. 예츠트 루이니어트.",
    "ko": "깜짝 선물이었는데. 이제 망했어.",
    "note": "슬프게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "sad",
    "lemmas": [
     [
@@ -205,9 +190,7 @@
    "rd": "주퍼, 바일 마이네 클링엘 카푸트 이스트.",
    "ko": "좋아, 내 벨이 고장 났거든.",
    "note": "",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -229,9 +212,7 @@
    "rd": "오케이, 이히 투 위베라슈트. 페어스프로헨.",
    "ko": "알겠어, 놀란 척할게. 약속.",
    "note": "부드럽게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -253,9 +234,7 @@
    "rd": "당케. 다스 블라이프트 게하임니스.",
    "ko": "고마워. 이건 비밀이야.",
    "note": "웃으며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -275,10 +254,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r2_friends_c2.md",
-  "model": "빠른",
-  "final": "data/review/final/r2_friends_c2.txt"
- }
+ ]
 }

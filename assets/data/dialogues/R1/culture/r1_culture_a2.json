@@ -23,7 +23,6 @@
  "expressions": [
   "Gerne!"
  ],
- "draft": true,
  "level": "1 관사·격·활용 골격",
  "turns": [
   {
@@ -33,9 +32,7 @@
    "rd": "칸 이히 헬펜? 게어네!",
    "ko": "도와줄 수 있어? 기꺼이!",
    "note": "도와줄 수 있냐고 묻기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -57,9 +54,7 @@
    "rd": "두 무스트 덴 타이히 뤼렌.",
    "ko": "반죽을 저어야 해.",
    "note": "반죽을 저어야 한다고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -86,9 +81,7 @@
    "rd": "비 랑에?",
    "ko": "얼마나?",
    "note": "얼마나 저어야 하냐고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -110,9 +103,7 @@
    "rd": "랑에. 데어 아엄 투트 베.",
    "ko": "오래. 팔이 아파.",
    "note": "팔이 아플 때까지라고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -144,9 +135,7 @@
    "rd": "이히 투에 알레스 인스 바서!",
    "ko": "전부 물에 넣었어!",
    "note": "물에 반죽을 통째로 넣어 버림",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -168,9 +157,7 @@
    "rd": "모멘트 말! 니히트 알레스!",
    "ko": "잠깐! 전부 말고!",
    "note": "조금씩 넣어야 한다고 외침",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shout",
    "lemmas": [
     [
@@ -192,9 +179,7 @@
    "rd": "아인 클룸펜!",
    "ko": "한 덩어리!",
    "note": "한 덩어리 국수가 됐다며 웃음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -211,9 +196,7 @@
    "rd": "레커 트로츠뎀.",
    "ko": "그래도 맛있겠다.",
    "note": "그래도 맛은 있겠다고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -223,10 +206,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r1_culture_a2.md",
-  "model": "빠른",
-  "final": "data/review/final/r1_culture_a2.txt"
- }
+ ]
 }

@@ -23,7 +23,6 @@
  "expressions": [
   "Mist!"
  ],
- "draft": true,
  "level": "1 관사·격·활용 골격",
  "turns": [
   {
@@ -33,9 +32,7 @@
    "rd": "다스 헴트 이스트 로자!",
    "ko": "셔츠가 분홍색이야!",
    "note": "분홍색이 된 셔츠를 들고 나옴",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -57,9 +54,7 @@
    "rd": "다스 헴트 이스트 쇤!",
    "ko": "셔츠 예뻐!",
    "note": "예쁜 셔츠라고 칭찬",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -81,9 +76,7 @@
    "rd": "에스 바어 바이스.",
    "ko": "원래 흰색이었어.",
    "note": "원래 흰색이었다고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "annoyed",
    "lemmas": [
     [
@@ -100,9 +93,7 @@
    "rd": "베어 하트 게바셴?",
    "ko": "누가 빨았어?",
    "note": "누가 빨았냐고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -119,9 +110,7 @@
    "rd": "두 하스트 게바셴. 디 조케 이스트 로트.",
    "ko": "네가 빨았어. 양말이 빨갛고.",
    "note": "현재완료로 네가 빨았다고, 빨간 양말과 같이 넣었다고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -148,9 +137,7 @@
    "rd": "미스트! 이히 하프스 페어게센.",
    "ko": "젠장! 깜빡했어.",
    "note": "미안하다며 양말을 찾음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -172,9 +159,7 @@
    "rd": "바이스 엑스트라. 슈테트 아우프 데어 리스테.",
    "ko": "흰색은 따로. 규칙표에 적혀 있어.",
    "note": "규칙표에 흰색은 따로라고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -206,9 +191,7 @@
    "rd": "로자 파스트 디어. 마흐트 니히츠!",
    "ko": "분홍 잘 어울려. 괜찮아!",
    "note": "분홍도 잘 어울린다고 웃으며 넘김",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -223,10 +206,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r1_life_a2.md",
-  "model": "빠른",
-  "final": "data/review/final/r1_life_a2.txt"
- }
+ ]
 }

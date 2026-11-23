@@ -26,7 +26,6 @@
   "Gute Nacht!",
   "Schlaf gut."
  ],
- "draft": true,
  "level": "0 입문",
  "turns": [
   {
@@ -36,9 +35,7 @@
    "rd": "구테 나흐트 ♥",
    "ko": "잘 자 ♥",
    "note": "하트와 함께",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -60,9 +57,7 @@
    "rd": "당케.",
    "ko": "고마워.",
    "note": "고맙다고만",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -79,9 +74,7 @@
    "rd": "당케?",
    "ko": "고마워?",
    "note": "놀라며 되묻기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -98,9 +91,7 @@
    "rd": "아우흐. 슐라프 구트.",
    "ko": "너도. 잘 자.",
    "note": "당황해서 고침",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -127,9 +118,7 @@
    "rd": "쥐스.",
    "ko": "귀여워.",
    "note": "teasing하게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -146,9 +135,7 @@
    "rd": "구테 나흐트 ♥",
    "ko": "잘 자 ♥",
    "note": "하트 보내며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -163,10 +150,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r0_love_a4.md",
-  "model": "빠른",
-  "final": "data/review/final/r0_love_a4.txt"
- }
+ ]
 }

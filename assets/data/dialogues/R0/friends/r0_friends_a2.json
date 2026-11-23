@@ -23,7 +23,6 @@
  "expressions": [
   "Tut mir leid!"
  ],
- "draft": true,
  "level": "0 입문",
  "turns": [
   {
@@ -33,9 +32,7 @@
    "rd": "투트 미어 라이트!",
    "ko": "미안!",
    "note": "급정거하며 바로 사과",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -57,9 +54,7 @@
    "rd": "알레스 구트? 두 오케이?",
    "ko": "괜찮아? 너는 괜찮아?",
    "note": "괜찮다고 하며 상대 확인",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -76,9 +71,7 @@
    "rd": "카인 프로블렘. 파라트 오케이.",
    "ko": "문제없어. 자전거 괜찮아.",
    "note": "자기도 괜찮다며 자전거 가리킴",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -100,9 +93,7 @@
    "rd": "보힌?",
    "ko": "어디로?",
    "note": "어디 가는지 짧게 묻기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -119,9 +110,7 @@
    "rd": "나흐 하우제. 히어!",
    "ko": "집에. 여기!",
    "note": "옆 건물 가리키며 놀림",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -143,9 +132,7 @@
    "rd": "에히트? 이히 보네 히어!",
    "ko": "진짜? 나도 여기 살아!",
    "note": "같은 건물임을 알고 놀라 웃음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -165,10 +152,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r0_friends_a2.md",
-  "model": "빠른",
-  "final": "data/review/final/r0_friends_a2.txt"
- }
+ ]
 }

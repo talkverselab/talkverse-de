@@ -24,7 +24,6 @@
   "Hallo?",
   "Wo bist du?"
  ],
- "draft": true,
  "level": "0 입문",
  "turns": [
   {
@@ -34,9 +33,7 @@
    "rd": "할로?",
    "ko": "여보세요?",
    "note": "전화로 짧게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": []
   },
@@ -47,9 +44,7 @@
    "rd": "할로. 바스?",
    "ko": "여보세요. 무슨 일?",
    "note": "짧게 되묻기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": []
   },
@@ -60,9 +55,7 @@
    "rd": "보 비스트 두?",
    "ko": "어디야?",
    "note": "wo 포함",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -79,9 +72,7 @@
    "rd": "임 치머.",
    "ko": "방에.",
    "note": "짧게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -98,9 +89,7 @@
    "rd": "네베난. 에센 페어티히.",
    "ko": "옆방이야. 밥 다 됐어.",
    "note": "",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -127,9 +116,7 @@
    "rd": "루프 도흐.",
    "ko": "그냥 부르지.",
    "note": "웃으며 찌름",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -144,10 +131,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r0_life_a2.md",
-  "model": "빠른",
-  "final": "data/review/final/r0_life_a2.txt"
- }
+ ]
 }

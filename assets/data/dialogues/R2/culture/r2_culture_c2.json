@@ -25,7 +25,6 @@
  "expressions": [
   "Kommst du mit?"
  ],
- "draft": true,
  "level": "2 챗 실전",
  "turns": [
   {
@@ -35,9 +34,7 @@
    "rd": "바스 마흐스트 두 암 잠스탁?",
    "ko": "토요일에 뭐 해?",
    "note": "빈 칸을 R2 채팅체로",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -59,9 +56,7 @@
    "rd": "말 제엔. 노흐 니히츠.",
    "ko": "글쎄. 아직 없어.",
    "note": "짧게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -88,9 +83,7 @@
    "rd": "메가! 합 카어텐 퓌어스 콘체어트.",
    "ko": "대박! 콘서트 표 샀어.",
    "note": "Mega와 단어 넣어 신나게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -112,9 +105,7 @@
    "rd": "콜. 필 슈파스 단.",
    "ko": "멋지다. 재밌게 봐.",
    "note": "부러운 반응으로",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -136,9 +127,7 @@
    "rd": "다스 이스트 니히트 디 레아크치온.",
    "ko": "그게 반응이 아니야.",
    "note": "짜증 나게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "annoyed",
    "lemmas": [
     [
@@ -155,9 +144,7 @@
    "rd": "츠바이 카어텐. 나 클라어 퓌어 디히?",
    "ko": "표 두 장이야. 당연히 너도?",
    "note": "수줍게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shy",
    "lemmas": [
     [
@@ -179,9 +166,7 @@
    "rd": "미트 벰 게스트 두?",
    "ko": "누구랑 가?",
    "note": "",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -198,9 +183,7 @@
    "rd": "합 도흐 게프라크트: 콤스트 두 미트?",
    "ko": "방금 물어봤잖아: 같이 갈래?",
    "note": "쓰쿠코미로",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -232,9 +215,7 @@
    "rd": "야, 이히 콤 미트!",
    "ko": "응, 나도 갈게!",
    "note": "mitkommen 넣어 신나게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -251,9 +232,7 @@
    "rd": "부스테, 다스 두 다스 자크스트.",
    "ko": "네가 그렇게 말할 줄 알았어.",
    "note": "장난스럽게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -268,10 +247,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r2_culture_c2.md",
-  "model": "빠른",
-  "final": "data/review/final/r2_culture_c2.txt"
- }
+ ]
 }

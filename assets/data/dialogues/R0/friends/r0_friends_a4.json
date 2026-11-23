@@ -23,7 +23,6 @@
  "expressions": [
   "Tschüss!"
  ],
- "draft": true,
  "level": "0 입문",
  "turns": [
   {
@@ -33,9 +32,7 @@
    "rd": "취스!",
    "ko": "안녕!",
    "note": "안녕하고 손 흔들기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": []
   },
@@ -46,9 +43,7 @@
    "rd": "비스 단!",
    "ko": "또 봐!",
    "note": "안녕하고 손 흔들기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -65,9 +60,7 @@
    "rd": "오 만! 두 아우흐?",
    "ko": "오 맨! 너도?",
    "note": "같은 쪽으로 걷자 너도 이쪽이냐고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -94,9 +87,7 @@
    "rd": "야, 이히 아우흐!",
    "ko": "응, 나도!",
    "note": "나도 이쪽이라고 함",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -113,9 +104,7 @@
    "rd": "취스!",
    "ko": "안녕!",
    "note": "또 안녕하고 웃음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": []
   },
@@ -126,9 +115,7 @@
    "rd": "에히트, 취스!",
    "ko": "진짜, 안녕!",
    "note": "진짜 안녕하며 둘 다 웃음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -143,10 +130,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r0_friends_a4.md",
-  "model": "빠른",
-  "final": "data/review/final/r0_friends_a4.txt"
- }
+ ]
 }

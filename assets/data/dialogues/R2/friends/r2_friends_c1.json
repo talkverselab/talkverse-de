@@ -16,7 +16,6 @@
  "domain": [
   "friends"
  ],
- "draft": true,
  "level": "2 챗 실전",
  "title": "100번 버스는 양방향",
  "emoji": "🚌",
@@ -38,9 +37,7 @@
    "rd": "레나, 조뤼! 데어 부스 이스트 리히티히 슈페트 🙈",
    "ko": "레나, 미안! 버스가 정말 늦어 🙈",
    "note": "구어체와 당황감을 초안보다 강화",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "18:02",
    "emotion": "flustered",
@@ -69,9 +66,7 @@
    "rd": "비 랑에 덴? 이히 지츠 숀 임 카프é 운트 바어테 😤",
    "ko": "얼마나 더? 나 벌써 카페에 앉아 기다리고 있어 😤",
    "note": "레나의 정시 성격으로 짜증을 세게 표현",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "18:03",
    "emotion": "annoyed",
@@ -120,9 +115,7 @@
    "rd": "첸 미누텐, 자크트 디 아프.",
    "ko": "십 분, 앱이 그래.",
    "note": "앱 정보를 간단하게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "18:03",
    "emotion": "worried",
@@ -151,9 +144,7 @@
    "rd": "오케이. 이히 베스텔 디어 숀 말 아이넨 카페.",
    "ko": "알았어. 네 커피 먼저 시켜 둘게.",
    "note": "배려를 자연스러운 구어로",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "18:04",
    "emotion": "cheerful",
@@ -192,9 +183,7 @@
    "rd": "바어테 말! 데어 부스 페어트 플뢰츨리히 추뤽 😳",
    "ko": "잠깐만! 버스가 갑자기 반대로 가 😳",
    "note": "트위스트에서 갑작스러운 혼돈 추가",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "18:12",
    "emotion": "surprised",
@@ -238,9 +227,7 @@
    "rd": "추뤽?! 벨헨 부스 하스트 두 게노멘?",
    "ko": "반대로?! 어떤 버스 탔어?",
    "note": "놀라움과 질책을 믹스",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "18:12",
    "emotion": "tsukkomi",
@@ -269,9 +256,7 @@
    "rd": "디 훈데어트. 이스트 다스 리히티히?",
    "ko": "백 번. 그거 맞아?",
    "note": "걱정스럽게 확인",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "18:13",
    "emotion": "worried",
@@ -295,9 +280,7 @@
    "rd": "디 훈데어트 페어트 인 바이데 리히퉁엔, 네? 😂",
    "ko": "백 번은 양방향으로 다 다녀, 맞지? 😂",
    "note": "사실을 털어놓음",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "18:13",
    "emotion": "amused",
@@ -326,9 +309,7 @@
    "rd": "오 만. 이히 슈타이히 예츠트 아우스.",
    "ko": "아 진짜. 지금 내릴게.",
    "note": "포기와 당황",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "18:14",
    "emotion": "flustered",
@@ -362,9 +343,7 @@
    "rd": "구트. 다인 카페 비어트 칼트. 이히 트린크 인 예츠트 😇",
    "ko": "좋아. 네 커피 식어. 내가 마실게 😇",
    "note": "장난과 놀림 강화",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "18:14",
    "emotion": "teasing",
@@ -403,9 +382,7 @@
    "rd": "레나! 다스 기프트스 도흐 니히트!",
    "ko": "레나! 말도 안 돼!",
    "note": "외침으로 강하게 반응",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "18:15",
    "emotion": "shout",
@@ -429,9 +406,7 @@
    "rd": "도흐. 콤 압 예츠트 퓡크틀리히. 단 크리크스트 두 카페 ☕",
    "ko": "그럴 거야. 앞으로 시간 맞춰 와. 그럼 커피도 줄 거야 ☕",
    "note": "직설적인 장난으로",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "ui": "bubble",
    "at": "18:15",
    "emotion": "teasing",
@@ -468,10 +443,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r2_friends_c1_rewrite.md",
-  "model": "전문가",
-  "final": "data/review/final/r2_friends_c1.txt"
- }
+ ]
 }

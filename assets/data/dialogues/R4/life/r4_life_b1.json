@@ -27,7 +27,6 @@
   "Leider",
   "Kein Problem"
  ],
- "draft": true,
  "level": "4 어려운 문법",
  "turns": [
   {
@@ -37,9 +36,7 @@
    "rd": "구텐 탁. 지 뫼히텐 지히 안멜덴?",
    "ko": "안녕하세요. 전입 신고하시려는 거죠?",
    "note": "공식 시작",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -66,9 +63,7 @@
    "rd": "야, 비테. 마인 미트베보너 하트 디 운터라겐 다바이.",
    "ko": "네, 부탁해요. 제 룸메이트가 서류를 가져왔어요.",
    "note": "정중히",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -100,9 +95,7 @@
    "rd": "디 파피레, 디 지 브라우헨, 리겐 히어 포어.",
    "ko": "필요하신 서류는 여기 앞에 있어요.",
    "note": "관계문으로 확인",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -134,9 +127,7 @@
    "rd": "알레스 나흐 파어베 조어티어트. 그륀 퓌어 덴 페어트라크.",
    "ko": "전부 색깔별로 정리했어요. 초록은 계약서용.",
    "note": "밝게 규칙 자랑",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -163,9 +154,7 @@
    "rd": "라이더 펠트 디 멜데베샤이니궁 폼 포어미터.",
    "ko": "유감이지만 이전 세입자의 신고 확인서가 없어요.",
    "note": "중립적으로",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -198,7 +187,6 @@
    "ko": "파란 폴더에 있어요. 맨 위에.",
    "note": "경직되게 지적",
    "tags": [
-    "draft",
     "callback:r3_life_b1"
    ],
    "emotion": "stiff",
@@ -238,7 +226,6 @@
    "ko": "펠릭스, 너 또 색깔로 오버하는구나.",
    "note": "놀림",
    "tags": [
-    "draft",
     "callback:r3_life_b1"
    ],
    "emotion": "teasing",
@@ -272,9 +259,7 @@
    "rd": "모멘트... 데어 콤퓨터 이스트 게라데 아우스게강엔.",
    "ko": "잠깐... 컴퓨터가 방금 꺼졌어요.",
    "note": "",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -306,9 +291,7 @@
    "rd": "바스?! 알레 다텐 뮈센 도흐 게스파이헤어트 자인!",
    "ko": "뭐?! 모든 데이터가 저장돼 있어야 하잖아요!",
    "note": "소리침",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "shout",
    "lemmas": [
     [
@@ -335,9 +318,7 @@
    "rd": "카인 프로블렘. 비어 슈타어텐 인 노이.",
    "ko": "문제없어요. 다시 켤게요.",
    "note": "정중히 진정",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -364,9 +345,7 @@
    "rd": "벤 데어 콤퓨터 니히트 아우스깅에, 베렌 비어 숀 페어티히.",
    "ko": "컴퓨터가 안 꺼졌으면 벌써 끝났을 텐데.",
    "note": "접속법 II로 재미있게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -398,9 +377,7 @@
    "rd": "디 안멜둥 비어트 베아어바이테트, 조발트 에어 비더 로이프트.",
    "ko": "다시 켜지면 신고가 처리될 거예요.",
    "note": "수동으로 설명",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -432,9 +409,7 @@
    "rd": "디 레겔른 진트 레겔른. 파어벤 헬펜 이머.",
    "ko": "규칙은 규칙이죠. 색깔이 항상 도와줘요.",
    "note": "짜증",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "annoyed",
    "lemmas": [
     [
@@ -472,7 +447,6 @@
    "ko": "유감이지만 오늘은 더 걸려요.",
    "note": "경직",
    "tags": [
-    "draft",
     "callback:r3_life_b1"
    ],
    "emotion": "stiff",
@@ -506,9 +480,7 @@
    "rd": "다이네 오어트너 하벤 덴 콤퓨터 게쇼크트, 페리크스.",
    "ko": "네 폴더가 컴퓨터를 충격에 빠뜨렸구나, 펠릭스.",
    "note": "놀림",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -535,9 +507,7 @@
    "rd": "네히스테스 말 네메 이히 베니거 파어벤 미트.",
    "ko": "다음엔 색깔을 덜 가져올게.",
    "note": "슬프게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "sad",
    "lemmas": [
     [
@@ -562,10 +532,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r4_life_b1.md",
-  "model": "빠른",
-  "final": "data/review/final/r4_life_b1.txt"
- }
+ ]
 }

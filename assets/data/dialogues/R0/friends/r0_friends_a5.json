@@ -23,7 +23,6 @@
  "expressions": [
   "Alles Gute!"
  ],
- "draft": true,
  "level": "0 입문",
  "turns": [
   {
@@ -33,9 +32,7 @@
    "rd": "오, 쿠헨!",
    "ko": "오, 케이크!",
    "note": "케이크 보고 맛있겠다",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -52,9 +49,7 @@
    "rd": "히어, 퓌어 디히!",
    "ko": "여기, 너도 먹어!",
    "note": "너도 먹으라고 내밈",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -71,9 +66,7 @@
    "rd": "에히트 예츠트? 바스 이스트 호이테?",
    "ko": "진짜야? 오늘 뭐야?",
    "note": "무슨 날이냐고 묻기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -100,9 +93,7 @@
    "rd": "호이테 마인 게부어츠탁.",
    "ko": "오늘 내 생일.",
    "note": "오늘 자기 생일이라고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -124,9 +115,7 @@
    "rd": "다스 이스트 미어 파인리히! 알레스 구테!",
    "ko": "창피해! 생일 축하해!",
    "note": "놀라며 축하하고 미안함",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -148,9 +137,7 @@
    "rd": "당케! 히어.",
    "ko": "고마워! 여기.",
    "note": "고맙다며 첫 조각 내밈",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -165,10 +152,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r0_friends_a5.md",
-  "model": "빠른",
-  "final": "data/review/final/r0_friends_a5.txt"
- }
+ ]
 }

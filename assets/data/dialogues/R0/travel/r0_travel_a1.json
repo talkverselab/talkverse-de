@@ -23,7 +23,6 @@
  "expressions": [
   "Hallo!"
  ],
- "draft": true,
  "level": "0 입문",
  "turns": [
   {
@@ -33,9 +32,7 @@
    "rd": "할로! 히어!",
    "ko": "안녕! 여기!",
    "note": "손을 흔들며 여기라고 외침",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "excited",
    "lemmas": [
     [
@@ -52,9 +49,7 @@
    "rd": "나? 히어.",
    "ko": "응? 여기.",
    "note": "뒤에서 나 여기 있다고 짧게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -71,9 +66,7 @@
    "rd": "다스 이스트 미어 파인리히!",
    "ko": "창피해!",
    "note": "놀라서 돌아보며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -90,9 +83,7 @@
    "rd": "그로스. 이히.",
    "ko": "키 큰. 나.",
    "note": "키 큰 사람이 자기라고 한마디",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": []
   },
@@ -103,9 +94,7 @@
    "rd": "엔틀리히 다!",
    "ko": "드디어 왔어!",
    "note": "드디어 왔다고 반가워",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -127,9 +116,7 @@
    "rd": "훙어.",
    "ko": "배고파.",
    "note": "배고프다고만 말함",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -139,10 +126,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r0_travel_a1.md",
-  "model": "빠른",
-  "final": "data/review/final/r0_travel_a1.txt"
- }
+ ]
 }

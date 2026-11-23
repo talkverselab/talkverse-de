@@ -24,7 +24,6 @@
  "expressions": [
   "Moment mal."
  ],
- "draft": true,
  "level": "3 그래머2",
  "turns": [
   {
@@ -34,9 +33,7 @@
    "rd": "디 파어카어테, 비테. 차이겐 지 지.",
    "ko": "표 보여 주세요.",
    "note": "Sie로 단호하게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -58,9 +55,7 @@
    "rd": "모멘트 말, 지 이스트 인 데어 아프.",
    "ko": "잠깐만, 앱에 있어.",
    "note": "당황스럽게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -87,9 +82,7 @@
    "rd": "디 아프 레트 누어.",
    "ko": "앱이 로딩만 돼.",
    "note": "걱정하며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
@@ -116,9 +109,7 @@
    "rd": "프란 안.",
    "ko": "와이파이 켜.",
    "note": "짧게 조언하며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -135,9 +126,7 @@
    "rd": "쾨넨 지 아우흐 덴 아우스바이스 차이겐?",
    "ko": "신분증도 보여 주실 수 있어요?",
    "note": "Sie로 단호하게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -164,9 +153,7 @@
    "rd": "히어 이스트 데어 아우스바이스. 이히 합 다스 티케트 게카우프트.",
    "ko": "여기 신분증이에요. 표는 분명히 샀어요.",
    "note": "걱정하며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
@@ -198,9 +185,7 @@
    "rd": "카이네 차이트. 필라이히트 뮈센 지 안 데어 네히스텐 슈타치온 아우스타이겐.",
    "ko": "시간이 없어요. 다음 역에서 내려야 할 수도 있어요.",
    "note": "단호하게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -237,9 +222,7 @@
    "rd": "합 바이데 티케트스 아우프 마이넴 헨디 게카우프트.",
    "ko": "내 휴대폰으로 둘 표 같이 샀어.",
    "note": "담담하게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -271,9 +254,7 @@
    "rd": "바이데 진트 귈티히. 엔트슐디궁.",
    "ko": "둘 다 유효해요. 미안합니다.",
    "note": "정중하게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "polite",
    "lemmas": [
     [
@@ -295,9 +276,7 @@
    "rd": "바룸 자크스트 두 다스 니히트 프뤼어?",
    "ko": "왜 진작 말 안 했어?",
    "note": "따지며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -324,9 +303,7 @@
    "rd": "두 하스트 니히트 게프라크트.",
    "ko": "네가 안 물어봤잖아.",
    "note": "웃으며 짧게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -343,9 +320,7 @@
    "rd": "춤 글뤽 알레스 구트. 구테 라이제.",
    "ko": "다행히 다 괜찮아요. 좋은 여행 되세요.",
    "note": "부드럽게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "gentle",
    "lemmas": [
     [
@@ -370,10 +345,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/out/r3_travel_b2.md",
-  "model": "빠른",
-  "final": "data/review/final/r3_travel_b2.txt"
- }
+ ]
 }

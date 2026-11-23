@@ -306,7 +306,8 @@ class CurStage {
   final List<int> pick;
   final int pass;
   final Map<String, int> daily; // light·normal·focus → 하루 새 편 수
-  const CurStage(this.key, this.title, this.desc, this.dialogueIds, {this.pick = const [3, 5, 10], this.pass = kPassPercent, this.daily = const {}});
+  final bool free; // 이용권 없이 열림(서버 값, 없으면 1단계만 true — PAYWALL_SPEC §2)
+  const CurStage(this.key, this.title, this.desc, this.dialogueIds, {this.pick = const [3, 5, 10], this.pass = kPassPercent, this.daily = const {}, this.free = false});
   factory CurStage.fromJson(Map j) => CurStage(
         '${j['n']}',
         '${j['title'] ?? '${j['n']}단계'}',
@@ -315,6 +316,7 @@ class CurStage {
         pick: [for (final x in (j['pick'] as List? ?? const [3, 5, 10])) (x as num).toInt()],
         pass: (j['pass'] as num?)?.toInt() ?? kPassPercent,
         daily: {for (final e in ((j['daily'] as Map?) ?? const {}).entries) if (e.value is num) '${e.key}': (e.value as num).toInt()},
+        free: j['free'] is bool ? j['free'] as bool : '${j['n']}' == '1',
       );
 }
 
@@ -322,13 +324,15 @@ class CurStage {
 class CurPlan {
   final int rev;
   final List<CurStage> stages;
-  const CurPlan(this.rev, this.stages);
+  final int freeSteps, freeSenseLevels; // 문법 스텝·언어감각 급의 무료 한도(PAYWALL_SPEC §2)
+  const CurPlan(this.rev, this.stages, {this.freeSteps = 2, this.freeSenseLevels = 1});
   static CurPlan? parse(String raw) {
     try {
       final j = json.decode(raw) as Map;
       final st = [for (final s in (j['stages'] as List? ?? const [])) if (s is Map) CurStage.fromJson(s)];
       if (st.isEmpty) return null;
-      return CurPlan((j['rev'] as num?)?.toInt() ?? 0, st);
+      return CurPlan((j['rev'] as num?)?.toInt() ?? 0, st,
+          freeSteps: (j['freeSteps'] as num?)?.toInt() ?? 2, freeSenseLevels: (j['freeSenseLevels'] as num?)?.toInt() ?? 1);
     } catch (_) {
       return null;
     }
@@ -419,6 +423,25 @@ class CurriculumService {
   /// 단계 이름 — JSON 이 있으면 「1단계」 등, 없으면 회화 레벨 이름.
   String stageTitle(String key) => stage(key)?.title ?? '$key ${DialogueService.levelKo[key] ?? ''}'.trim();
   String stageDesc(String key) => stage(key)?.desc ?? '';
+  /// 이용권 없이 열리는 단계인가(서버 free, JSON 이 없으면 첫 단계만).
+  bool stageFree(String key) {
+    final st = stage(key);
+    if (st != null) return st.free;
+    final lv = levels;
+    return lv.isNotEmpty && lv.first == key;
+  }
+
+  /// 회화 편이 무료인가 — 무료 단계에 든 편, 옛 L1 이야기. JSON 이 없으면 R0·R1.
+  bool dialogueFree(Dialogue d) {
+    if (d.region == 'L1') return true;
+    final p = plan;
+    if (p == null) return d.region == 'R0' || d.region == 'R1';
+    return p.stages.any((s) => s.free && s.dialogueIds.contains(d.id));
+  }
+
+  int get freeSteps => plan?.freeSteps ?? 2;
+  int get freeSenseLevels => plan?.freeSenseLevels ?? 1;
+
   /// 통과 점수(단계 JSON 의 pass, 없으면 80) — 시험 판정과 화면 문구 둘 다.
   int passFor(String? key) => (key == null ? null : stage(key)?.pass) ?? kPassPercent;
 

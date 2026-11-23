@@ -26,7 +26,6 @@
   "Keine Ahnung",
   "Ernsthaft?"
  ],
- "draft": true,
  "turns": [
   {
    "num": 1,
@@ -35,9 +34,7 @@
    "rd": "데어 셰프 하트 누어 게자크트, 다스 에스 니히트 슐레히트 바어.",
    "ko": "상사가 나쁘지 않았다고만 했어.",
    "note": "걱정하며 시작",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "stiff",
    "lemmas": [
     [
@@ -69,9 +66,7 @@
    "rd": "클라어. 다스 자크트 에어 이머.",
    "ko": "그렇지. 그 사람은 항상 그렇게 말해.",
    "note": "짧게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -98,9 +93,7 @@
    "rd": "에언스타프트? 이히 다흐테, 에어 하스트 디 프레젠타치온.",
    "ko": "진짜? 난 그가 발표를 싫어하는 줄 알았어.",
    "note": "걱정",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
@@ -132,9 +125,7 @@
    "rd": "모멘트 말. 디 프레젠타치온, 디 두 게할텐 하스트, 바어 오케이.",
    "ko": "잠깐. 네가 한 발표는 괜찮았어.",
    "note": "관계문으로 놀람",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -166,9 +157,7 @@
    "rd": "아버 에어 하트 니히츠 네테스 게자크트.",
    "ko": "근데 그는 좋은 말을 하나도 안 했어.",
    "note": "걱정",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
@@ -190,9 +179,7 @@
    "rd": "카이네 아눙. 바이 미어 바어 에스 게나우조.",
    "ko": "몰라. 나한테도 똑같았어.",
    "note": "놀람",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -214,9 +201,7 @@
    "rd": "단 빈 이히 볼 두어히게팔렌.",
    "ko": "그럼 난 아마 떨어진 거야.",
    "note": "슬프게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "sad",
    "lemmas": [
     [
@@ -243,9 +228,7 @@
    "rd": "벤 에어 디히 포이에언 뷔어데, 헤테 에어 메어 게자크트.",
    "ko": "그가 널 해고할 거면 더 말했을 거야.",
    "note": "접속법 II로 재미있게",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -272,9 +255,7 @@
    "rd": "에언스타프트? 두 덴크스트, 에스 바어 구트?",
    "ko": "진짜? 네가 보기에 좋았다고?",
    "note": "걱정",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
@@ -301,9 +282,7 @@
    "rd": "클라어. 니히트 슐레히트 하이스트 바이 임 구트.",
    "ko": "그렇지. 그에게 나쁘지 않다는 건 좋다는 뜻이야.",
    "note": "웃으며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -335,9 +314,7 @@
    "rd": "모멘트 말, 비어클리히?",
    "ko": "잠깐, 진짜로?",
    "note": "놀람",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "surprised",
    "lemmas": [
     [
@@ -364,9 +341,7 @@
    "rd": "야. 에어 하트 미어 슈페터 게자크트, 다스 다이네 하어트스 크라스 바렌.",
    "ko": "응. 그가 나중에 나한테 네 차트가 대박이었다고 했어.",
    "note": "",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -398,9 +373,7 @@
    "rd": "에언스타프트? 바룸 자크트 에어 미어 다스 니히트 디렉트?",
    "ko": "진짜? 왜 나한테 직접 안 말해?",
    "note": "걱정",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "worried",
    "lemmas": [
     [
@@ -432,9 +405,7 @@
    "rd": "바일 에어 조 이스트. 카이네 아눙 바룸.",
    "ko": "그가 원래 그래서. 왜인지는 몰라.",
    "note": "",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "amused",
    "lemmas": [
     [
@@ -455,10 +426,5 @@
    ]
   }
  ],
- "level": "4 어려운 문법",
- "review": {
-  "grok_rewrite": "data/review/grok/out/r4_work_b1.md",
-  "model": "빠른",
-  "final": "data/review/final/r4_work_b1.txt"
- }
+ "level": "4 어려운 문법"
 }

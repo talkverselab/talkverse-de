@@ -29,7 +29,6 @@
   "Ich auch",
   "Oder?"
  ],
- "draft": true,
  "level": "1 관사·격·활용 골격",
  "turns": [
   {
@@ -39,9 +38,7 @@
    "rd": "할로 레나! 보 비스트 두 예츠트?",
    "ko": "안녕 레나! 지금 어디야?",
    "note": "약속 시간에 먼저 위치 물어보기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -63,9 +60,7 @@
    "rd": "아우프 뎀 파라트. 운트 두? 숀 바이 미아?",
    "ko": "자전거 타는 중. 너는? 벌써 미아네야?",
    "note": "칼같이 도착 확인하며",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "neutral",
    "lemmas": [
     [
@@ -92,9 +87,7 @@
    "rd": "나 클라어! 이히 빈 숀 바이 미아.",
    "ko": "당연하지! 벌써 미아네 와 있어.",
    "note": "둘러대며 거짓말로 대답",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "cheerful",
    "lemmas": [
     [
@@ -121,9 +114,7 @@
    "rd": "에히트? 자크 말 … 이히 빈 포어 다이넴 하우스.",
    "ko": "진짜? 있잖아… 나 지금 너네 집 앞인데.",
    "note": "집 앞이라고 밝혀 거짓말 들통",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -150,9 +141,7 @@
    "rd": "포어 마이넴 하우스? … 아흐 조. 이히 아우흐!",
    "ko": "우리 집 앞? …아 그래. 나도!",
    "note": "당황해서 급히 맞장구",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -179,9 +168,7 @@
    "rd": "야, 클라어. 임 베트, 오더?",
    "ko": "그래, 퍽이나. 침대 속이겠지?",
    "note": "바로 눈치채고 놀리기",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "tsukkomi",
    "lemmas": [
     [
@@ -203,9 +190,7 @@
    "rd": "나인, 나인! 이히 코메 글라이히. 미트 디어!",
    "ko": "아니, 아니! 바로 나갈게. 너랑 같이!",
    "note": "변명하며 나가겠다고",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "flustered",
    "lemmas": [
     [
@@ -227,9 +212,7 @@
    "rd": "구트. 운트 마흐 말 디 무지크 아우스.",
    "ko": "좋아. 그리고 음악 좀 꺼.",
    "note": "다 알고 있다는 듯 마지막 한 마디",
-   "tags": [
-    "draft"
-   ],
+   "tags": [],
    "emotion": "teasing",
    "lemmas": [
     [
@@ -254,10 +237,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "grok_rewrite": "data/review/grok/r1_friends_a3_rewrite.md",
-  "model": "전문가",
-  "final": "data/review/final/r1_friends_a3.txt"
- }
+ ]
 }
