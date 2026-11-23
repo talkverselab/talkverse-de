@@ -21,35 +21,23 @@ def words(s):
     return re.findall(r'[a-zäöüß0-9]+', re.sub(r'\d+', lambda m: NUM.get(m.group(0), m.group(0)), s.lower()))
 
 
-SIL_DB = -40.0   # 이 아래 20ms 프레임 = 말 아닌 프레임
-SIL_RUN = 15     # 0.3초 이상 이어진 곳만(공통 §5) — 낱말 사이 순간 낮아짐 제외
-SIL_EDGE = 3     # 그 구간 앞뒤 60ms 는 버림 — 말끝 잦아듦이 섞이지 않게
-SIL_MIN = 0.15   # 말 아닌 구간 합이 150ms 미만이면 잡음 판정 불가 = 통과(기록만)
-
-
 def floor(f):
-    """잡음 바닥(dB) = 말 아닌 프레임만의 RMS(§5, 2026-11-24 바로잡음). 잴 구간이 모자라면 None(판정 불가 = 통과).
-    예전 방식(전 프레임 하위 10%)은 앞뒤 무음이 거의 없는 짧은 조각에서 말소리를 잡음으로 쟀다."""
+    """무음 구간만 재는 잡음 바닥(dB) — -40dB 아래 프레임이 0.3초 이상 이어진 곳의 RMS. 그런 구간이 없으면 None(검사 건너뜀). 공통 기준 §5."""
     o = subprocess.run(['ffmpeg', '-v', 'error', '-i', f, '-ac', '1', '-ar', '16000', '-f', 's16le', '-'], capture_output=True).stdout
     x = array.array('h', o[:len(o) // 2 * 2])
-    ms = [sum(v * v for v in x[i:i + 320]) / 320 for i in range(0, len(x) - 320, 320)]
-    db = [20 * math.log10(max(math.sqrt(m), 1) / 32768) for m in ms]
-    quiet, run = [], []
-    for m, d in zip(ms + [None], db + [0.0]):
-        if m is not None and d < SIL_DB:
-            run.append(m); continue
-        if len(run) >= SIL_RUN:
-            quiet += run[SIL_EDGE:len(run) - SIL_EDGE]
-        run = []
-    if len(quiet) * 0.02 < SIL_MIN:
+    fr = [math.sqrt(sum(v * v for v in x[i:i + 160]) / 160) / 32768 for i in range(0, len(x) - 160, 160)]   # 10ms
+    quiet = []; run_ = []
+    for v in fr + [1.0]:
+        if v > 0 and 20 * math.log10(v) < -40 or v == 0:
+            run_.append(v)
+        else:
+            if len(run_) >= 30:
+                quiet += run_[5:-5]        # 말소리 가장자리는 뺀다
+            run_ = []
+    if not quiet:
         return None
-    return 20 * math.log10(max(math.sqrt(sum(quiet) / len(quiet)), 1) / 32768)
-
-
-def noisy(f, limit=None):
-    """잡음 바닥이 기준을 넘으면 True. 판정 불가(None)는 통과."""
-    v = floor(f)
-    return v is not None and v > (-55.0 if limit is None else limit)
+    r = math.sqrt(sum(v * v for v in quiet) / len(quiet))
+    return 20 * math.log10(max(r, 1e-6))
 
 
 def dur(f):
