@@ -160,3 +160,9 @@ _2026-11-03 새로 씀. 앞 판(2026-10-11 메모·Zealot 확인 필요)은 이 
 - 단계·편 목록 = `assets/curriculum_de.json`(uk 기본값, 64편 id 모두 일치) → 서버 `GET https://talkverse.uk/api/curriculum/de`(배포 전 404) rev 가 높으면 받아 Prefs `curriculum_plan` 에 두고 씀. 없는 편 건너뜀·빈 단계 숨김, 옛 R 진도 → 단계, JSON 실패 → 회화 레벨. pick·pass·daily·title·desc 모두 JSON(없으면 3·5·10/80/1·2·3). d6ead5d · b2f0514.
 - 빌드: Zealot 30 https://apps.talkverse.uk/8itFp/663 · TestFlight 2611231205(d6ead5d 기준 — b2f0514 덧붙임은 다음 빌드).
 - 음성 받아쓰기 검사 캐시 버그 고침 90a643f(이름+원고 해시+파일 시각).
+
+## 2026-11-23 오후 — 심사 수정·이용권(uk 출시 점검, 사용자 「심사막을 부분 다 수정」「1 2 모두 진행」)
+- bb15ea4: 이메일 로그인 괄호 뺌 · 결제 문구 플랫폼별 스토어만 · 앱 이름 Talkverse · 원고 작업 기록 칸(review·draft) 제거(서버 rev 11, script_publish 가 남으면 거부) · 단어표 비속어 6개 제거.
+- 이용권(`~/talkverse/PAYWALL_SPEC.md`): 무료 = 커리큘럼·회화 1단계, 문법 2스텝, 언어감각 1급(서버 커리큘럼 JSON rev 2 의 free·freeSteps·freeSenseLevels). 잠긴 곳은 자물쇠 → `Entitlement.gate` → 결제 화면. 가격은 스토어 값만, 못 받으면 다시 시도+닫기. 저장 `de_entitlement_v1`·`all_entitlement_v1`. 시작 때 복원 조회는 안드로이드만(86656d7, iOS 는 단추).
+- 로그인 버튼: 그대로(네 개 모두 동작, uk 확인).
+- **단독 iOS(TestFlight) 빌드는 당분간 멈춤**(uk 2026-11-23, M6 디스크 빠듯 — 출시는 통합 앱 1.0.0+15 를 uk 가 묶음). 단독은 Android CI·Zealot 만.
