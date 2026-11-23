@@ -86,8 +86,10 @@ class Purchase {
     if (!(isIOS || isAndroid)) return;
     if (ownStream) _sub ??= InAppPurchase.instance.purchaseStream.listen(onPurchaseUpdates, onError: (_) => status.value = 'error');
     await reloadProducts();
-    // 시작 때 복원 조회(PAYWALL_SPEC §4) — 스토어가 기억하는 구매를 조용히 다시 받는다. 통합 앱은 공용 결제가 맡는다.
-    if (ownStream) {
+    // 시작 때 복원 조회 — 안드로이드만(조용히 조회됨). iOS 는 restorePurchases 가 Apple ID 암호 창을 띄울 수 있고 애플은 복원을
+    // 사용자가 누르는 단추로 하라고 하므로, 미완료 거래 자동 수신(purchaseStream) + 「구매 복원」 단추만(uk 기준 통일 2026-11-23).
+    // 통합 앱은 공용 결제가 맡는다.
+    if (ownStream && isAndroid) {
       try {
         if (await InAppPurchase.instance.isAvailable()) await InAppPurchase.instance.restorePurchases();
       } catch (_) {}
