@@ -1,7 +1,12 @@
 import 'dart:convert';
 import 'dart:math';
 
+import 'dart:io';
+
 import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart' show rootBundle;
+
+import '../core/embed_env.dart';
 
 import '../core/prefs.dart';
 import 'dialogue_service.dart';
@@ -98,7 +103,7 @@ class CurriculumState {
     final st = (j['streak'] as Map?) ?? const {};
     final td = (j['today'] as Map?) ?? const {};
     return CurriculumState(
-      level: j['level'] as String?,
+      level: stageKeyOf(j['level']),
       dailyGoal: (j['dailyGoal'] as num?)?.toInt() ?? 2,
       course: j['course'] is Map ? Course.fromJson(j['course'] as Map) : null,
       passedDialogues: [for (final x in (j['passedDialogues'] as List? ?? const [])) '$x'],
@@ -282,6 +287,49 @@ List<String> recommend(List<Dialogue> levelList, Set<String> passed, Set<String>
   return out;
 }
 
+/// 진도의 `level` 칸 → 단계 키('1'~'5'). 옛 회화 레벨(R0~R5)은 기본 대응으로 바꿔 읽는다(CURRICULUM_SPEC §12).
+String? stageKeyOf(Object? v) {
+  if (v == null) return null;
+  final s = '$v';
+  const old = {'R0': '1', 'R1': '1', 'R2': '2', 'R3': '3', 'R4': '4', 'R5': '5'};
+  return old[s] ?? s;
+}
+
+/// 커리큘럼 단계 한 개(서버 DB `GET /api/curriculum/<언어>` 의 stages[] — 앱 안 기본값 `assets/curriculum_de.json`).
+class CurStage {
+  final String key; // '1'..'5' (JSON 을 못 읽어 회화 레벨로 돌아갈 때는 'R0'..)
+  final String title, desc;
+  final List<String> dialogueIds;
+  final List<int> pick;
+  final int pass;
+  const CurStage(this.key, this.title, this.desc, this.dialogueIds, {this.pick = const [3, 5, 10], this.pass = kPassPercent});
+  factory CurStage.fromJson(Map j) => CurStage(
+        '${j['n']}',
+        '${j['title'] ?? '${j['n']}단계'}',
+        '${j['desc'] ?? ''}',
+        [for (final x in (j['dialogueIds'] as List? ?? const [])) '$x'],
+        pick: [for (final x in (j['pick'] as List? ?? const [3, 5, 10])) (x as num).toInt()],
+        pass: (j['pass'] as num?)?.toInt() ?? kPassPercent,
+      );
+}
+
+/// 단계 목록(rev 와 함께). JSON 을 못 읽으면 null → 회화 레벨(R0~R5)로 돈다.
+class CurPlan {
+  final int rev;
+  final List<CurStage> stages;
+  const CurPlan(this.rev, this.stages);
+  static CurPlan? parse(String raw) {
+    try {
+      final j = json.decode(raw) as Map;
+      final st = [for (final s in (j['stages'] as List? ?? const [])) if (s is Map) CurStage.fromJson(s)];
+      if (st.isEmpty) return null;
+      return CurPlan((j['rev'] as num?)?.toInt() ?? 0, st);
+    } catch (_) {
+      return null;
+    }
+  }
+}
+
 class CurriculumService {
   CurriculumService._();
   static final CurriculumService instance = CurriculumService._();
@@ -296,9 +344,91 @@ class CurriculumService {
   DateTime Function() now = DateTime.now;
   String get today => ymd(now());
 
+  static const planUrl = 'https://talkverse.uk/api/curriculum/de';
+  static const _planAsset = 'assets/curriculum_de.json';
+  static const _planCache = 'curriculum_plan';
+
+  /// 단계 목록 — 서버 rev 가 더 높으면 서버 것, 아니면 앱 안 기본값. 둘 다 못 읽으면 null(회화 레벨로).
+  CurPlan? plan;
+
+  /// 시험용 — 서버 요청을 바꿔 끼운다(null 을 돌려주면 못 받음).
+  @visibleForTesting
+  Future<String?> Function(String url)? fetchOverride;
+
+  @visibleForTesting
+  void resetForTest() {
+    _loaded = false;
+    plan = null;
+    state = CurriculumState();
+  }
+
+  Future<void> _loadPlan() async {
+    CurPlan? bundled, cached;
+    try {
+      bundled = CurPlan.parse(utf8.decode((await rootBundle.load(assetPath(_planAsset))).buffer.asUint8List()));
+    } catch (_) {}
+    final c = (await Prefs.getInstance()).getString(_planCache);
+    if (c != null) cached = CurPlan.parse(c);
+    plan = (cached != null && (bundled == null || cached.rev > bundled.rev)) ? cached : bundled;
+  }
+
+  /// 서버 단계 목록을 확인 — rev 가 더 높으면 받아 두고 바꿔 씀(문법 스텝 서버 받기와 같은 방식). 바뀌면 true.
+  Future<bool> refreshPlan() async {
+    try {
+      final raw = await (fetchOverride ?? _get)(planUrl);
+      if (raw == null) return false;
+      final p = CurPlan.parse(raw);
+      if (p == null || p.rev <= (plan?.rev ?? -1)) return false;
+      await (await Prefs.getInstance()).setString(_planCache, raw);
+      plan = p;
+      changed.value++;
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  static Future<String?> _get(String url) async {
+    final client = HttpClient()..connectionTimeout = const Duration(seconds: 8);
+    try {
+      final req = await client.getUrl(Uri.parse(url));
+      req.headers.set(HttpHeaders.userAgentHeader, 'talkverse-de/0.1');
+      final res = await req.close().timeout(const Duration(seconds: 12));
+      if (res.statusCode != 200) return null;
+      return await res.transform(utf8.decoder).join();
+    } finally {
+      client.close(force: true);
+    }
+  }
+
+  /// 보이는 단계 키(편이 1개 이상인 것만, 순서대로).
+  List<String> get levels {
+    final p = plan;
+    if (p == null) return [for (final l in kCurriculumLevels) if (DialogueService.instance.count(l) > 0) l];
+    return [for (final s in p.stages) if (levelList(s.key).isNotEmpty) s.key];
+  }
+
+  CurStage? stage(String key) => plan?.stages.where((s) => s.key == key).firstOrNull;
+
+  /// 단계 이름 — JSON 이 있으면 「1단계」 등, 없으면 회화 레벨 이름.
+  String stageTitle(String key) => stage(key)?.title ?? '$key ${DialogueService.levelKo[key] ?? ''}'.trim();
+  String stageDesc(String key) => stage(key)?.desc ?? '';
+  List<int> pickSizes(String? key) => (key == null ? null : stage(key)?.pick) ?? const [3, 5, 10];
+
+  /// 편이 든 단계(문제 오답 보기를 같은 단계에서).
+  List<Dialogue> poolFor(Dialogue d) {
+    for (final k in levels) {
+      final l = levelList(k);
+      if (l.any((x) => x.id == d.id)) return l;
+    }
+    return DialogueService.instance.list(region: d.region);
+  }
+
   Future<void> ensureLoaded() async {
     if (_loaded) return;
     await DialogueService.instance.ensureLoaded();
+    await _loadPlan();
+    refreshPlan(); // 뒤에서 — 서버가 없거나(배포 전 404) 오프라인이면 앱 안 기본값 그대로
     final raw = (await Prefs.getInstance()).getString(key);
     if (raw != null) {
       try {
@@ -313,7 +443,13 @@ class CurriculumService {
     changed.value++;
   }
 
-  List<Dialogue> levelList([String? level]) => DialogueService.instance.list(region: level ?? state.level);
+  /// 단계의 편 — JSON 의 dialogueIds 순서, 앱에 없는 id 는 건너뜀. JSON 이 없으면 회화 레벨 그대로.
+  List<Dialogue> levelList([String? level]) {
+    final k = level ?? state.level;
+    final st = k == null ? null : stage(k);
+    if (plan == null || st == null) return plan == null ? DialogueService.instance.list(region: k) : const [];
+    return [for (final id in st.dialogueIds) ?DialogueService.instance.byId(id)];
+  }
 
   /// 레벨의 편을 모두 통과했나.
   bool levelDone(String level) {
@@ -323,11 +459,9 @@ class CurriculumService {
 
   /// 다음 레벨(편이 있는 것), 없으면 null.
   String? nextLevel(String level) {
-    const lv = kCurriculumLevels;
-    for (var i = lv.indexOf(level) + 1; i < lv.length; i++) {
-      if (DialogueService.instance.count(lv[i]) > 0) return lv[i];
-    }
-    return null;
+    final lv = levels;
+    final i = lv.indexOf(level);
+    return (i >= 0 && i + 1 < lv.length) ? lv[i + 1] : null;
   }
 
   Future<void> startCourse(List<String> ids) async {

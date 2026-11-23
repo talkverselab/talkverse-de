@@ -90,7 +90,7 @@ void main() {
       expect(st.streakShown('2026-11-25'), 0);
     });
     test('저장 형식 왕복', () {
-      final st = CurriculumState(level: 'R1', course: Course('c', ['a']));
+      final st = CurriculumState(level: '1', course: Course('c', ['a']));
       st.markPracticed('a', [1], '2026-11-22');
       final back = CurriculumState.fromJson(st.toJson());
       expect(back.toJson(), st.toJson());
