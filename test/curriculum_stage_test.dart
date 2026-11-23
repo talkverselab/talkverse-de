@@ -55,4 +55,35 @@ void main() {
       expect(await svc.refreshPlan(), isFalse);
     });
   });
+
+  testWidgets('단계 JSON 의 pass·daily 를 씀(없으면 80 · 1·2·3)', (t) async {
+    await t.runAsync(() async {
+      await DialogueService.instance.ensureLoaded();
+      svc.fetchOverride = (_) async => null;
+      await svc.ensureLoaded();
+      final ids = [for (final d in svc.levelList('1')) d.id];
+      svc.fetchOverride = (_) async => json.encode({
+            'rev': 99,
+            'stages': [
+              {'n': 1, 'dialogueIds': ids, 'pass': 70, 'daily': {'light': 2, 'normal': 4, 'focus': 6}, 'pick': [2, 4]},
+              {'n': 2, 'dialogueIds': ids},
+            ],
+          });
+      expect(await svc.refreshPlan(), isTrue);
+      expect(svc.passFor('1'), 70);
+      expect(svc.passFor('2'), 80);
+      expect(svc.pickSizes('1'), [2, 4]);
+      expect(svc.stageTitle('2'), '2단계');
+      svc.state
+        ..level = '1'
+        ..dailyGoal = 2;
+      svc.applyStage();
+      expect(svc.state.newLeft('2026-11-23'), 4);
+      svc.state.level = '2';
+      svc.applyStage();
+      expect(svc.state.newLeft('2026-11-23'), 2);
+      final st = CurriculumState(course: Course('c', ['a'], practiced: ['a']));
+      expect(st.recordExam(7, 10, {}, '2026-11-23', pass: 70), isTrue);
+    });
+  });
 }
