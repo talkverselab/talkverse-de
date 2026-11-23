@@ -155,3 +155,8 @@ _2026-11-03 새로 씀. 앞 판(2026-10-11 메모·Zealot 확인 필요)은 이 
 - 문법 스텝 = 원고 목록(`ScriptSync.files`)의 `grammar/lessonN.json` 전부 — 개수 고정 없음, 서버에서 더하면 보이고 빼면 사라짐, 못 받으면 묶음 목록, 빈 스텝 숨김. 언어감각은 sense_course.json 의 급 목록(빈 급 숨김). `script_publish.py` 에 grammar/lesson*.json 포함, 서버 rev 10(a0b4d48).
 - 내용 있는 스텝: 문법 1/15, 언어감각 10/15. lesson2~15 작성 담당은 uk 에 물음(Claude 로, 12+ 점검 뒤 서버로만 올리면 앱 재출시 불필요).
 - 빌드: Zealot 29 https://apps.talkverse.uk/8itFp/637 · TestFlight 2611222331. M6 디스크 규칙(uk): iOS 빌드 전 df 10GB↑·다른 xcodebuild 없음 확인(`pgrep -x xcodebuild` — `pgrep -f` 는 대기 셸 자신에 걸림), 올린 뒤 build/ 바로 삭제.
+
+## 2026-11-23 낮 — 커리큘럼 §12(1~5단계, 내용은 서버 DB)
+- 단계·편 목록 = `assets/curriculum_de.json`(uk 기본값, 64편 id 모두 일치) → 서버 `GET https://talkverse.uk/api/curriculum/de`(배포 전 404) rev 가 높으면 받아 Prefs `curriculum_plan` 에 두고 씀. 없는 편 건너뜀·빈 단계 숨김, 옛 R 진도 → 단계, JSON 실패 → 회화 레벨. pick·pass·daily·title·desc 모두 JSON(없으면 3·5·10/80/1·2·3). d6ead5d · b2f0514.
+- 빌드: Zealot 30 https://apps.talkverse.uk/8itFp/663 · TestFlight 2611231205(d6ead5d 기준 — b2f0514 덧붙임은 다음 빌드).
+- 음성 받아쓰기 검사 캐시 버그 고침 90a643f(이름+원고 해시+파일 시각).
