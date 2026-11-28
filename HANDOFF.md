@@ -1,5 +1,15 @@
 # HANDOFF — talkverse-de (독일어유니버스)
 
+## 세션 닫음 (2026-11-28, 사용자 지시: 베트남어·일본어만 남기고 언어 세션 닫음, uk 전달)
+
+다시 열면 **`~/talkverse/CHANGES.md`(전 앱 변경 기록·uk 공지)를 가장 먼저** 읽는다 — uk 공지는 이제 메시지 대신 그 문서에 적힌다.
+
+- **상태**: master 푸시 끝(이 줄을 적은 커밋까지). 마지막 배포 Zealot 빌드 31 https://apps.talkverse.uk/8itFp/675 (bb15ea4) · TestFlight 2611231205 (d6ead5d). 서버 원고 rev 11(66파일, 앱 파일과 같음 — 11-26 확인). 커리큘럼 rev 2(서버 `talkverse.uk/api/curriculum/de`).
+- **돌던 작업 없음**: 백그라운드 음성·그림·빌드·루프 없음, 이 세션이 켠 크롬 없음(PC `Grok-Chrome-de-9258` 안 돎).
+- **멈춤(사용자가 풀 때까지)**: 3090 음성 줄에서 빠짐 — 회화 음성은 기기 TTS(11-24). 단어 목록·단어 그림 작업 멈춤, 회화 그림은 공개 65편 것만(11-25). Grok 전 세션 중지(11-26). 단독 iOS 빌드 멈춤(통합 앱은 uk 가 빌드).
+- **사용자에게 물을 것**: ① 「AI 회화 작성」 메뉴 공개 여부(지금 `kCustomScriptLive=false` 로 숨김) ② 문법 스텝 2~15 내용을 누가 쓸지(Grok 은 중지 중).
+- **커밋 안 한 변경(이 세션 전부터 있던 것, 일부러 둠)**: Flutter 가 다시 만든 플랫폼 파일 65개 — 대부분 줄바꿈·공백 차이, 실제 내용 차이는 13개(analysis_options.yaml·android/gradle.properties·ios/macos xcconfig·Runner.xcscheme·plugin registrant 등). 추적 안 한 것: ios/Podfile(.lock)·macos/Podfile·swiftpm 폴더·.wrangler/·tools/**/__pycache__·data/review/art/ref_*.jpg. 커밋할지는 다음 세션이 diff 를 보고 정한다(지울 후보: __pycache__·.wrangler).
+
 ## 다음에 할 내용 (2026-11-09, 세션 종료 시점)
 
 **현재 상태**: master `5fd0aca` 까지 푸시. 배포 = Zealot 빌드 16 https://apps.talkverse.uk/8itFp/426 · TestFlight 2611091216(같은 커밋). 이번에 들어간 것: 가격 확정표(uk 커밋 7423bac — lang_de_1m·3m·1y·life·all_1y·all_life, 결제 화면 규정 표기) · 스토어 차별화 문서 `docs/STORE_PRODUCTS.md`·`docs/store/review_notes.md` · 통합 앱 연결점(`lib/embed.dart`·`core/embed_env.dart`·`core/prefs.dart`, 패키지 `german_universe`, 콜백 `talkverse.de://auth`). 작업 트리의 남은 변경은 빌드 잡음뿐.
